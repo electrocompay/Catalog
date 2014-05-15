@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[IWSelectorViewController setItems:]:IWSelectorViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[_filteredItems indexOfObject:@&quot;27&quot;] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

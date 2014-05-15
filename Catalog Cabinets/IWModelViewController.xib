@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWModelViewController">
+            <connections>
+                <outlet property="content" destination="tj6-zn-pBD" id="P0W-GE-boO"/>
+                <outlet property="homeMenu" destination="ise-Nf-8aS" id="vjh-Ic-RmO"/>
+                <outlet property="menu" destination="rk7-s3-R3i" id="27A-5j-i5q"/>
+                <outlet property="selectorView" destination="l1c-cr-BOG" id="LXX-D9-17p"/>
+                <outlet property="tabContainer" destination="xl3-fb-sPd" id="RwD-qr-zP2"/>
+                <outlet property="tabContent" destination="XNL-RR-3gZ" id="ior-td-K5D"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2" userLabel="Main">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="747"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rKM-8s-7EV" userLabel="ImgPanelView">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="516"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-zn-pBD">
+                            <rect key="frame" x="112" y="8" width="800" height="500"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="800" id="McL-2B-OTz"/>
+                                <constraint firstAttribute="height" constant="500" id="VPq-rq-3K0"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="tj6-zn-pBD" secondAttribute="centerY" id="PKg-qf-YKA"/>
+                        <constraint firstAttribute="centerX" secondItem="tj6-zn-pBD" secondAttribute="centerX" id="jWj-lM-AYZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAX-bs-D8y" userLabel="ImgPanelView">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="516"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3x-ae-8iK">
+                            <rect key="frame" x="884" y="412" width="94" height="92"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView hidden="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1c-cr-BOG" userLabel="SelectorView">
+                            <rect key="frame" x="886" y="414" width="90" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="P68-hF-EYb" appends="YES" id="nvc-iW-T7e"/>
+                            </connections>
+                        </imageView>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="2lg-EA-Tt3">
+                            <rect key="frame" x="926" y="20" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="rut-8k-kzF" appends="YES" id="Yml-aQ-Em6"/>
+                            </connections>
+                        </imageView>
+                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rk7-s3-R3i" customClass="IWMenuView">
+                            <rect key="frame" x="835" y="70" width="150" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="menu_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-AQ-XOZ">
+                            <rect key="frame" x="861" y="20" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="p2w-aV-uU2" appends="YES" id="39c-ta-DTk"/>
+                            </connections>
+                        </imageView>
+                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ise-Nf-8aS" customClass="IWMenuView">
+                            <rect key="frame" x="770" y="70" width="150" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lSt-kf-sC6">
+                            <rect key="frame" x="20" y="32" width="155" height="75"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                    </subviews>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xl3-fb-sPd" userLabel="TabsView">
+                    <rect key="frame" x="0.0" y="516" width="1024" height="231"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNL-RR-3gZ" userLabel="tabContent">
+                            <rect key="frame" x="0.0" y="38" width="1024" height="193"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="XNL-RR-3gZ" firstAttribute="top" secondItem="xl3-fb-sPd" secondAttribute="top" constant="38" id="2LA-j5-wkM"/>
+                        <constraint firstAttribute="trailing" secondItem="XNL-RR-3gZ" secondAttribute="trailing" id="PqS-0L-IOd"/>
+                        <constraint firstAttribute="bottom" secondItem="XNL-RR-3gZ" secondAttribute="bottom" id="fqR-7O-GmY"/>
+                        <constraint firstItem="XNL-RR-3gZ" firstAttribute="leading" secondItem="xl3-fb-sPd" secondAttribute="leading" id="xsb-51-w81"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xl3-fb-sPd" firstAttribute="leading" secondItem="rKM-8s-7EV" secondAttribute="leading" id="27Q-LV-O0C"/>
+                <constraint firstItem="rKM-8s-7EV" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="GLi-8k-027"/>
+                <constraint firstAttribute="bottom" secondItem="rKM-8s-7EV" secondAttribute="bottom" constant="231" id="K9F-hf-t3y"/>
+                <constraint firstAttribute="trailing" secondItem="xl3-fb-sPd" secondAttribute="trailing" id="RV1-FI-5n3"/>
+                <constraint firstItem="rKM-8s-7EV" firstAttribute="top" secondItem="2" secondAttribute="top" id="VUF-om-UZV"/>
+                <constraint firstItem="xl3-fb-sPd" firstAttribute="top" secondItem="rKM-8s-7EV" secondAttribute="bottom" id="fBY-WK-Rpw"/>
+                <constraint firstItem="rKM-8s-7EV" firstAttribute="trailing" secondItem="xl3-fb-sPd" secondAttribute="trailing" id="fkR-NY-FZJ"/>
+                <constraint firstAttribute="bottom" secondItem="xl3-fb-sPd" secondAttribute="bottom" id="ihb-Kp-pdh"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <tapGestureRecognizer id="P68-hF-EYb">
+            <connections>
+                <action selector="changeView_Click:" destination="-1" id="ydh-2e-K3m"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="rut-8k-kzF">
+            <connections>
+                <action selector="changeMenuClick:" destination="-1" id="7OF-9U-mCF"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="p2w-aV-uU2">
+            <connections>
+                <action selector="changeHomeMenuClick:" destination="-1" id="edL-dp-com"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="logo.png" width="181" height="91"/>
+        <image name="menu_home.png" width="70" height="71"/>
+        <image name="menu_top.png" width="74" height="72"/>
+    </resources>
+</document>
