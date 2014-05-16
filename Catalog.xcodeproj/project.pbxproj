@@ -2855,6 +2855,8 @@
 		4C87E3A11921C44F008F59F0 /* IWColorsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87E39F1921C44F008F59F0 /* IWColorsPanelView.m */; };
 		4C87E3A21921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3A01921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib */; };
 		4C87E3A41921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */; };
+		4C9FAC861926392D00587DF2 /* Largo-U-01-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */; };
+		4C9FAC871926392D00587DF2 /* Largo-U-01-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */; };
 		4CBBEA9C18F22A360086824C /* IWChair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBEA9B18F22A360086824C /* IWChair.m */; };
 		4CBBEA9F18F22DCB0086824C /* IWTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBEA9E18F22DCB0086824C /* IWTable.m */; };
 		4CBBEF4218F39C7A0086824C /* IWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBEF4118F39C7A0086824C /* IWColor.m */; };
@@ -8136,6 +8138,8 @@
 		4C87E39F1921C44F008F59F0 /* IWColorsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWColorsPanelView.m; sourceTree = "<group>"; };
 		4C87E3A01921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelNineDoorsView.xib; sourceTree = "<group>"; };
 		4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelFourDoorsView.xib; sourceTree = "<group>"; };
+		4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-A.png"; sourceTree = "<group>"; };
+		4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-B.png"; sourceTree = "<group>"; };
 		4CBBEA9A18F22A360086824C /* IWChair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWChair.h; path = Model/IWChair.h; sourceTree = "<group>"; };
 		4CBBEA9B18F22A360086824C /* IWChair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWChair.m; path = Model/IWChair.m; sourceTree = "<group>"; };
 		4CBBEA9D18F22DCB0086824C /* IWTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWTable.h; path = Model/IWTable.h; sourceTree = "<group>"; };
@@ -13579,6 +13583,8 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */,
+				4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */,
 				4CD5DAD919188137004C80D1 /* Wings-29-22-A.png */,
 				4CD5DAB7191880CC004C80D1 /* Wings-29-22-B.png */,
 				4CD5DAB8191880CC004C80D1 /* Propeller-29-22-A.png */,
@@ -17070,6 +17076,7 @@
 				4CD5DA4F191874E2004C80D1 /* Van Gogh-S-13-28-A.png in Resources */,
 				4CD5D6C0191874E2004C80D1 /* Angelina-A-17-27-B.png in Resources */,
 				4CD5D15C1917CBEF004C80D1 /* White.jpg in Resources */,
+				4C9FAC861926392D00587DF2 /* Largo-U-01-22-A.png in Resources */,
 				4CD5D732191874E2004C80D1 /* Blucinox-29-27-BB.png in Resources */,
 				4CD5D75C191874E2004C80D1 /* Bluco-35-00-B.png in Resources */,
 				4CD5D96B191874E2004C80D1 /* Propeller-35-00-A.png in Resources */,
@@ -17138,6 +17145,7 @@
 				4CD5DA71191874E2004C80D1 /* Wings-41-00-A.png in Resources */,
 				4CD5D8EC191874E2004C80D1 /* Monet-AW-08-27-B.png in Resources */,
 				4CD5D791191874E2004C80D1 /* Chrominox-33-27-A.png in Resources */,
+				4C9FAC871926392D00587DF2 /* Largo-U-01-22-B.png in Resources */,
 				4CD5D9AE191874E2004C80D1 /* Renoir-A-17-27-B.png in Resources */,
 				4CD5D88D191874E2004C80D1 /* Largo-XL-36-00-A.png in Resources */,
 				4CD5D878191874E2004C80D1 /* Largo-XL-00-25-B.png in Resources */,
