@@ -121,7 +121,7 @@
             }
             
             if ([cabinet.model.code isEqualToString:@"C193"]) {
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i];
+                filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
