@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "IWCabinet.h"
+#import "IWColorSelectorView.h"
 
 @class IWColorsPanelView;
 
@@ -22,6 +23,7 @@
 
 +(IWColorsPanelView*)colorsPanelNineDoors;
 +(IWColorsPanelView*)colorsPanelFourDoors;
++(IWColorsPanelView*)colorsPanelModuleDoors;
 
 @property (nonatomic, retain)IWCabinet* cabinet;
 @property (nonatomic, weak) id<IWColorsPanelViewDelegate> delegate;

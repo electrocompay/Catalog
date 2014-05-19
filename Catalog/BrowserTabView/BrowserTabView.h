@@ -59,5 +59,6 @@
 - (void)addTabWithTitle:(NSString *)title;
 - (void)setSelectedTabIndex:(NSInteger)aSelectedTabIndex animated:(BOOL)animation;
 - (void)removeTabAtIndex:(NSInteger)index animated:(BOOL)animated;
+- (void)setTabWidth:(CGFloat)tabWidth;
 
 @end

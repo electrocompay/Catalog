@@ -44,11 +44,12 @@
     UIImage *image = [UIImage imageNamed:imageName];
     if (!image) {
         NSLog(@"MISSING IMAGE: %@", imageName);
-    }
+    } else {
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     [imageView setContentMode:UIViewContentModeScaleAspectFit];
     imageView.frame = _view.bounds;
     [_view addSubview:imageView];
+    }
 }
 
 

@@ -72,7 +72,7 @@
         [self addSubview:_imageView];
         
         _titleField = [[UITextField alloc] initWithFrame:self.bounds];
-        _titleField.textAlignment = UITextAlignmentCenter;
+        _titleField.textAlignment = NSTextAlignmentLeft;
         _titleField.enabled = NO;
         _titleField.delegate = _delegate;
         _titleField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -145,7 +145,7 @@
     titleSize.width = CGRectGetWidth(self.bounds) - 0;
     _imageView.frame = self.bounds;
     self.titleField.center = self.center;
-    self.titleField.frame = CGRectMake((self.bounds.size.width - (titleSize.width - 0))/2,
+    self.titleField.frame = CGRectMake((self.bounds.size.width - (titleSize.width - 0))/2 + 10,
                                        (self.bounds.size.height - titleSize.height)/2,
                                        titleSize.width - 0,
                                        titleSize.height);

@@ -3947,6 +3947,7 @@
 		4CD5DAD7191880CD004C80D1 /* Bluco-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5DAC6191880CD004C80D1 /* Bluco-29-22-B.png */; };
 		4CD5DAD8191880CD004C80D1 /* Bluco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5DAC7191880CD004C80D1 /* Bluco-29-22-A.png */; };
 		4CD5DADA19188137004C80D1 /* Wings-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5DAD919188137004C80D1 /* Wings-29-22-A.png */; };
+		4CEB546C19290B6D003E4310 /* IWColorsPanelModuleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB546B19290B6D003E4310 /* IWColorsPanelModuleView.xib */; };
 		4CEE0E7A18A89B0100298C60 /* IWModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0E7818A89B0000298C60 /* IWModelViewController.m */; };
 		4CEE0E7B18A89B0100298C60 /* IWModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0E7918A89B0000298C60 /* IWModelViewController.xib */; };
 		4CEE0F5718A9CFD200298C60 /* BrowserTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0F4B18A9CFD200298C60 /* BrowserTab.m */; };
@@ -9235,6 +9236,7 @@
 		4CD5DAC6191880CD004C80D1 /* Bluco-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluco-29-22-B.png"; sourceTree = "<group>"; };
 		4CD5DAC7191880CD004C80D1 /* Bluco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluco-29-22-A.png"; sourceTree = "<group>"; };
 		4CD5DAD919188137004C80D1 /* Wings-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings-29-22-A.png"; sourceTree = "<group>"; };
+		4CEB546B19290B6D003E4310 /* IWColorsPanelModuleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelModuleView.xib; sourceTree = "<group>"; };
 		4CEE0E7718A89B0000298C60 /* IWModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWModelViewController.h; sourceTree = "<group>"; };
 		4CEE0E7818A89B0000298C60 /* IWModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWModelViewController.m; sourceTree = "<group>"; };
 		4CEE0E7918A89B0000298C60 /* IWModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWModelViewController.xib; sourceTree = "<group>"; };
@@ -16159,6 +16161,7 @@
 				4C87E39F1921C44F008F59F0 /* IWColorsPanelView.m */,
 				4C87E3A01921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib */,
 				4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */,
+				4CEB546B19290B6D003E4310 /* IWColorsPanelModuleView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -19381,6 +19384,7 @@
 				4C87DB9F192030BC008F59F0 /* 40-H05-33-00-F3.png in Resources */,
 				4CEEA986191FCEB700C54B67 /* C83-2D-30-F2-3.png in Resources */,
 				4CEEAA33191FCEB700C54B67 /* C83-2Da-29-T-3a.png in Resources */,
+				4CEB546C19290B6D003E4310 /* IWColorsPanelModuleView.xib in Resources */,
 				4C87DDC0192030BC008F59F0 /* 55-B06-33-F.png in Resources */,
 				4CEEAA1F191FCEB700C54B67 /* C83-2D-41-F-2.png in Resources */,
 				4CEEAA25191FCEB700C54B67 /* C83-2D-41-F2-2.png in Resources */,

@@ -11,6 +11,13 @@
 #import "IWCabinet.h"
 #import "IWColorsPanelView.h"
 
+typedef enum IWMultipleSelectorMode : NSInteger IWMultipleSelectorMode;
+enum IWMultipleSelectorMode : NSInteger {
+    MultipleSelectorModeNineColors,
+    MultipleSelectorModeFourColors,
+    MultipleSelectorModeModuleColors
+};
+
 @class IWMultipleSelectorViewController;
 
 @protocol IWMultipleSelectorViewControllerDelegate <NSObject>
@@ -21,13 +28,16 @@
 
 @interface IWMultipleSelectorViewController : UIViewController<IWColorsPanelViewDelegate>
 
+-(id)initWithMode:(IWMultipleSelectorMode)mode;
+
 @property (nonatomic, strong) NSArray* items;
 @property (nonatomic, strong) NSArray* filteredItems;
 @property (nonatomic, strong) IWColor* selectedColor;
-@property (readonly) NSInteger selectedIndex;
+@property (nonatomic) NSInteger selectedIndex;
 @property (nonatomic, weak) id<IWMultipleSelectorViewControllerDelegate> delegate;
 @property (nonatomic, strong) NSString* propertyName;
 @property (nonatomic, strong) NSString* headerTitle;
 @property (nonatomic, strong) IWCabinet* cabinet;
+@property (nonatomic) IWMultipleSelectorMode mode;
 
 @end

@@ -27,8 +27,11 @@
     IWSelectorViewController *selectorTopView;
     IWSelectorViewController *selectorSideView;
     IWMultipleSelectorViewController *selectorDoorsView;
-    IWSelectorViewController *selectorChairColorView;
-    IWSelectorViewController *selectorChairLegsColorView;
+    IWSelectorViewController *selectorLegsColorView;
+    IWMultipleSelectorViewController *selectorModule1View;
+    IWMultipleSelectorViewController *selectorModule2View;
+    IWMultipleSelectorViewController *selectorModule3View;
+    IWMultipleSelectorViewController *selectorModule4View;
     IWDrawerCabinet *drawer;
     IWCabinet *cabinet;
     IBOutlet UIImageView* selectorView;
@@ -59,8 +62,7 @@
     thumbDrawer = [[IWDrawerCabinet alloc] init];
     thumbDrawer.view = thumbView;
     
-    tabController= [[BrowserTabView alloc] initWithTabTitles:[NSArray arrayWithObjects:@"1. Model",@"2. Top",@"3. Side", @"4. Doors", @"4. Legs"/*, @"4. M1 Color", @"5. M2 Color", @"6. M3 Color", @"7. M4 Color"*/, nil] andDelegate:self];
-    
+    tabController= [[BrowserTabView alloc] initWithTabTitles:[NSArray arrayWithObjects:@"1. Model",@"2. Top",@"3. Side", @"4. Doors", nil] andDelegate:self];
     [tabController setBackgroundImage:nil];
     [tabController setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
     [self.tabContainer addSubview:tabController];
@@ -70,6 +72,7 @@
     [homeMenu setItems:[NSMutableArray arrayWithObjects:@"Visit our web", @"Catalogues", @"Contact us", nil]];
     [menu setDelegate:self];
     [homeMenu setDelegate:self];
+    [tabController setTabWidth:135];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -81,7 +84,6 @@
         [selectorModelView setDelegate:self];
         [tabContent addSubview:selectorModelView.view];
         selectorModelView.view.frame = tabContent.bounds;
-        //  [selectorModelView setItems:colors];
         
         selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorTopView setPropertyName:@"table color"];
@@ -93,22 +95,24 @@
         [self prepareSelector:selectorSideView withColors:[IWColors tableColors]];
         [selectorSideView setFilteredItems:cabinet.model.legColors];
         
-        selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithNibName:@"IWMultipleSelectorViewController" bundle:nil];
-        [selectorDoorsView setPropertyName:@"Doors"];
-        [selectorDoorsView setCabinet:cabinet];
-        [selectorDoorsView setDelegate:self];
-        [tabContent addSubview:selectorDoorsView.view];
-        selectorDoorsView.view.frame = tabContent.bounds;
+        selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeNineColors];
+        [self prepareMultipleSelectorView:selectorDoorsView];
         
-        /*       selectorChairColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-         [selectorChairColorView setPropertyName:@"chair color"];
-         [self prepareSelector:selectorChairColorView withColors:[IWColors chairColors]];
-         [selectorChairColorView setFilteredItems:chair.model.colors];*/
-         
-         selectorChairLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-         [selectorChairLegsColorView setPropertyName:@"leg color"];
-         [self prepareSelector:selectorChairLegsColorView withColors:[IWColors tableLegColors]];
-         [selectorChairLegsColorView setFilteredItems:cabinet.model.legColors];
+        selectorLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
+        [selectorLegsColorView setPropertyName:@"leg color"];
+        [self prepareSelector:selectorLegsColorView withColors:[IWColors tableLegColors]];
+        
+        selectorModule1View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
+        [self prepareMultipleSelectorView:selectorModule1View];
+        
+        selectorModule2View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
+        [self prepareMultipleSelectorView:selectorModule2View];
+        
+        selectorModule3View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
+        [self prepareMultipleSelectorView:selectorModule3View];
+        
+        selectorModule4View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
+        [self prepareMultipleSelectorView:selectorModule4View];
         
         [self BrowserTabView:nil didSelecedAtIndex:0];
         [self drawAll];
@@ -127,45 +131,41 @@
 {
     NSLog(@"BrowserTabView select Tab at index:  %d",index);
     if (index == 0) {
-        if (!selectorModelView) {
-            selectorModelView = [[IWModelSelectorViewController alloc] initWithNibName:@"IWModelSelectorViewController" bundle:nil];
-        }else {
-            [tabContent bringSubviewToFront:selectorModelView.view];
-        }
+        [tabContent bringSubviewToFront:selectorModelView.view];
     } else if (index == 1){
-        if (!selectorTopView) {
-            selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-            [self prepareSelector:selectorTopView withColors:[IWColors tableColors]];
-        } else {
-            [tabContent bringSubviewToFront:selectorTopView.view];
-        }
-        [selectorTopView setFilteredItems:cabinet.model.colors];
+        [tabContent bringSubviewToFront:selectorTopView.view];
     } else if (index == 2){
-        if (!selectorSideView) {
-            selectorSideView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-            [self prepareSelector:selectorSideView withColors:[IWColors tableLegColors]];
-        } else {
-            [tabContent bringSubviewToFront:selectorSideView.view];
-        }
-        [selectorSideView setFilteredItems:cabinet.model.legColors];
+        [tabContent bringSubviewToFront:selectorSideView.view];
     } else if (index == 3){
-        [tabContent bringSubviewToFront:selectorDoorsView.view];
-    } /*else if (index == 4){
-        if (!selectorChairColorView) {
-            selectorChairColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-            [self prepareSelector:selectorChairColorView withColors:[IWColors chairColors]];
-        } else {
-            [tabContent bringSubviewToFront:selectorChairColorView.view];
+        if (cabinet.useDoors){
+            [tabContent bringSubviewToFront:selectorDoorsView.view];
+        } else if (cabinet.hasLegs){
+            [tabContent bringSubviewToFront:selectorLegsColorView.view];
+        } else if (cabinet.useModules){
+            [tabContent bringSubviewToFront:selectorModule1View.view];
         }
-        [selectorChairColorView setFilteredItems:cabinet.model.colors];
-    }*/ else if (index == 4){
-        if (!selectorChairLegsColorView) {
-            selectorChairLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-            [self prepareSelector:selectorChairLegsColorView withColors:[IWColors chairLegColors]];
+    } else if (index == 4){
+        if (cabinet.useDoors) {
+            [tabContent bringSubviewToFront:selectorLegsColorView.view];
         } else {
-            [tabContent bringSubviewToFront:selectorChairLegsColorView.view];
+            if (cabinet.hasLegs)
+            {
+                [tabContent bringSubviewToFront:selectorModule3View.view];
+            } else
+            {
+                [tabContent bringSubviewToFront:selectorModule2View.view];
+            }
         }
-        [selectorChairLegsColorView setFilteredItems:cabinet.model.legColors];
+    } else if (index == 5){
+        if (cabinet.hasLegs)
+        {
+            [tabContent bringSubviewToFront:selectorModule4View.view];
+        } else
+        {
+            [tabContent bringSubviewToFront:selectorModule3View.view];
+        }
+    } else if (index == 6){
+        [tabContent bringSubviewToFront:selectorModule4View.view];
     }
     
 }
@@ -178,6 +178,14 @@
     [selector setItems:colors];
 }
 
+-(void)prepareMultipleSelectorView:(IWMultipleSelectorViewController*)multipleSelectorView
+{
+    [multipleSelectorView setCabinet:cabinet];
+    [multipleSelectorView setDelegate:self];
+    [tabContent addSubview:multipleSelectorView.view];
+    multipleSelectorView.view.frame = tabContent.bounds;
+}
+
 -(void)BrowserTabView:(BrowserTabView *)browserTabView willRemoveTabAtIndex:(NSUInteger)index {
     NSLog(@"BrowserTabView WILL Remove Tab at index:  %d",index);
     
@@ -186,6 +194,7 @@
 -(void)BrowserTabView:(BrowserTabView *)browserTabView didRemoveTabAtIndex:(NSUInteger)index{
     NSLog(@"BrowserTabView did Remove Tab at index:  %d",index);
 }
+
 -(void)BrowserTabView:(BrowserTabView *)browserTabView exchangeTabAtIndex:(NSUInteger)fromIndex withTabAtIndex:(NSUInteger)toIndex{
     
     NSLog(@"BrowserTabView exchange Tab  at index:  %d with Tab at index :%d ",fromIndex,toIndex);
@@ -195,13 +204,10 @@
     if (title.length) {
         return YES;
     };
-    return NO;
+    return YES;
 }
 
--(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
-{
-    
-}
+#pragma mark Model Selection
 
 -(void)didSelectColor:(IWSelectorViewController *)selectorViewController andColor:(IWColor *)color
 {
@@ -212,7 +218,7 @@
     } else if (selectorViewController == selectorSideView)
     {
         [cabinet setSide:color];
-    } else if (selectorViewController == selectorChairLegsColorView)
+    } else if (selectorViewController == selectorLegsColorView)
     {
         [cabinet setLegsColor: color];
     }
@@ -234,6 +240,34 @@
 -(void)didSelect:(IWModelSelectorViewController *)modelSelectorViewController andColor:(IWColor *)color
 {
     [selectorDoorsView setCabinet:cabinet];
+    [tabController removeTabAtIndex:8 animated:NO];
+    [tabController removeTabAtIndex:7 animated:NO];
+    [tabController removeTabAtIndex:6 animated:NO];
+    [tabController removeTabAtIndex:5 animated:NO];
+    [tabController removeTabAtIndex:4 animated:NO];
+    [tabController removeTabAtIndex:3 animated:NO];
+    if (cabinet.useDoors) {
+        [tabController addTabWithTitle:@"3. Doors"];
+    }
+    if (cabinet.hasLegs) {
+        [tabController addTabWithTitle:@"4. Legs"];
+    }
+    if (cabinet.useModules) {
+        if (cabinet.size && cabinet.size.code)
+            [tabController addTabWithTitle:@"4. Module 1"];
+        if (cabinet.module2.size && cabinet.module2.size.code)
+            [tabController addTabWithTitle:@"5. Module 2"];
+        if (cabinet.module3.size && cabinet.module3.size.code)
+            [tabController addTabWithTitle:@"6. Module 3"];
+        if (cabinet.module4.size && cabinet.module4.size.code)
+            [tabController addTabWithTitle:@"7. Module 4"];
+        [selectorModule1View setCabinet:cabinet];
+        [selectorModule2View setCabinet:cabinet.module2];
+        [selectorModule3View setCabinet:cabinet.module3];
+        [selectorModule4View setCabinet:cabinet.module4];
+    }
+    [tabController setTabWidth:135];
+    [tabController setSelectedTabIndex:0 animated:NO];
     [self drawAll];
 }
 
@@ -242,21 +276,14 @@
     [self drawAll];
 }
 
+#pragma mark Menu Actions
+
 - (IBAction)changeView_Click:(id)sender
 {
     [drawer setFrontView:!drawer.frontView];
     [self drawAll];
 }
 
--(void)drawAll
-{
-    [drawer clear];
-    [drawer drawForniture:cabinet];
-    [thumbDrawer setFrontView:!drawer.frontView];
-    [thumbDrawer clear];
-    [thumbDrawer drawForniture:cabinet];
-    [selectorView setImage:[self captureViewFrom:thumbView]];
-}
 
 -(IBAction)changeMenuClick:(id)sender
 {
@@ -280,18 +307,6 @@
     {
         [homeMenu setHidden:YES];
     }
-}
-
-- (UIImage *)captureViewFrom:(UIView*)view{
-    
-    CGRect rect = [view bounds];
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    [view.layer renderInContext:context];
-    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return img;
-    
 }
 
 -(void)menuView:(IWMenuView *)menuView didClick:(NSInteger)optionIndex
@@ -338,6 +353,30 @@
                 break;
         }
     }
+}
+
+- (UIImage *)captureViewFrom:(UIView*)view{
+    
+    CGRect rect = [view bounds];
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [view.layer renderInContext:context];
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return img;
+    
+}
+
+#pragma mark Render and Export
+
+-(void)drawAll
+{
+    [drawer clear];
+    [drawer drawForniture:cabinet];
+    [thumbDrawer setFrontView:!drawer.frontView];
+    [thumbDrawer clear];
+    [thumbDrawer drawForniture:cabinet];
+    [selectorView setImage:[self captureViewFrom:thumbView]];
 }
 
 -(NSString*)generatePDF
@@ -442,5 +481,7 @@
     
     [pic presentAnimated:YES completionHandler:completionHandler];
 }
+
+
 
 @end

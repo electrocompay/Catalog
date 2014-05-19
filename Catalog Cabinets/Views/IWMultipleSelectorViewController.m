@@ -32,18 +32,33 @@
     IBOutlet UILabel *labelColorDoor;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+-(id)initWithMode:(IWMultipleSelectorMode)mode
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithNibName:@"IWMultipleSelectorViewController" bundle:nil];
     if (self) {
+        _mode = mode;
     }
+    
     return self;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    panelColors = [IWColorsPanelView colorsPanelNineDoors];
+    switch (_mode) {
+        case MultipleSelectorModeNineColors:
+            panelColors = [IWColorsPanelView colorsPanelNineDoors];
+            break;
+        case MultipleSelectorModeFourColors:
+            panelColors = [IWColorsPanelView colorsPanelFourDoors];
+            break;
+        case MultipleSelectorModeModuleColors:
+            panelColors = [IWColorsPanelView colorsPanelModuleDoors];
+            break;
+            
+        default:
+            break;
+    }
     panelColors.delegate = self;
     [multipleContainer addSubview: panelColors];
     [self setItems:[IWColors cabinetColors]];
@@ -61,7 +76,7 @@
 -(void)setItems:(NSArray *)items
 {
     _items = items;
-
+    
     
     NSString* uniqueCategory = ((IWColor*) [_items objectAtIndex:0]).category;
     filteredList = [[NSMutableArray alloc] init];
@@ -75,10 +90,8 @@
             [filteredList addObject:color];
         }
     }
-
-//    if (subviews) {
-        [scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-  //  }
+    
+    [scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     subviews = [[NSMutableArray alloc] init];
     IWOptionView* optionView = [[IWOptionView alloc] init];
     CGSize pageSize = optionView.bounds.size;
@@ -92,17 +105,17 @@
     
     NSString* priorCategory = nil;
     for (IWColor *color in filteredList) {
-            optionView = [[IWOptionView alloc] init];
-            [optionView.label setText:color.name];
-            [scrollView addSubview:optionView];
-            [subviews addObject:optionView];
-            optionView.frame = CGRectMake((optionView.frame.size.width + 10 )* page , 0, pageSize.width - 20, pageSize.height);
-            [optionView setTag:page];
-            page++;
-            UITapGestureRecognizer* recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(optionSelected:)];
-            [optionView setUserInteractionEnabled:YES];
-            [optionView setGestureRecognizers:[NSArray arrayWithObject:recognizer]];
-            [optionView setImage:color.file];
+        optionView = [[IWOptionView alloc] init];
+        [optionView.label setText:color.name];
+        [scrollView addSubview:optionView];
+        [subviews addObject:optionView];
+        optionView.frame = CGRectMake((optionView.frame.size.width + 10 )* page , 0, pageSize.width - 20, pageSize.height);
+        [optionView setTag:page];
+        page++;
+        UITapGestureRecognizer* recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(optionSelected:)];
+        [optionView setUserInteractionEnabled:YES];
+        [optionView setGestureRecognizers:[NSArray arrayWithObject:recognizer]];
+        [optionView setImage:color.file];
         if (!uniqueCategory && priorCategory != color.category) {
             UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
             [newLabel setFont:headerLabel.font];
@@ -142,9 +155,14 @@
     [subviews makeObjectsPerformSelector:@selector(clearSelection)];
     [optionView setSelected:YES];
     [panelColors setColorToSelection:_selectedColor];
-/*    if (_delegate) {
+}
+
+-(void)setSelectedIndex:(NSInteger)selectedIndex
+{
+    [self setSelectedIndex:selectedIndex];
+    if (_delegate) {
         [_delegate didSelectColor:self andColor:_selectedColor andIndex:0];
-    }*/
+    }
 }
 
 -(void)setFilteredItems:(NSArray *)filteredItems
@@ -178,7 +196,7 @@
     if (sender != switch1) {
         switch1.on = !switch1.on;
     } else {
-    switch2.on = !switch2.on;
+        switch2.on = !switch2.on;
     }
     [panelColors setOneSelectionMode:switch1.on];
 }

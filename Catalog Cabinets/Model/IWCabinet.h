@@ -20,8 +20,14 @@
 @property (nonatomic, strong) IWColor* size;
 @property (nonatomic, strong) IWColor* side;
 @property (nonatomic, strong) IWColor* top;
-
--(void)setOneColorMode:(BOOL)oneColor;
-
+@property (nonatomic, strong) IWCabinet* module2;
+@property (nonatomic, strong) IWCabinet* module3;
+@property (nonatomic, strong) IWCabinet* module4;
+@property (nonatomic, readonly) BOOL useDoors;
+@property (nonatomic, readonly) BOOL hasLegs;
+@property (nonatomic, readonly) BOOL useModules;
+@property (nonatomic, strong) NSMutableArray* drawers;
+@property (nonatomic, strong) IWColor* stripe;
+@property (nonatomic) BOOL oneColorMode;
 
 @end

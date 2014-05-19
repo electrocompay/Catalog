@@ -15,7 +15,7 @@
 
 @implementation IWPickerViewController
 {
-    IBOutlet UIPickerView *pickerView;
+    IBOutlet UIPickerView *_pickerView;
     IBOutlet UILabel *label;
 }
 
@@ -43,7 +43,7 @@
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWPickerViewController" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
-    [pickerView setDelegate:self];
+    [_pickerView setDelegate:self];
 }
 
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
@@ -67,10 +67,10 @@
     UILabel *pickerLabel = (UILabel *)view;
     
     if (pickerLabel == nil) {
-        CGRect frame = CGRectMake(0.0, 0.0, 199, 32);
+        CGRect frame = CGRectMake(0.0, 0.0, pickerView.bounds.size.width, 32);
         pickerLabel = [[UILabel alloc] initWithFrame:frame] ;
         [pickerLabel setBackgroundColor:[UIColor clearColor]];
-        [pickerLabel setFont:[UIFont boldSystemFontOfSize:15]];
+        [pickerLabel setFont:[UIFont boldSystemFontOfSize:14]];
         [pickerLabel setTextAlignment:NSTextAlignmentCenter];
     }
     
@@ -83,22 +83,25 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    _selection = [_items objectAtIndex:row];
-    if (_delegate) {
-        [_delegate pickerViewController:self didSelectRow:_selection];
+    IWColor *newSelection = [_items objectAtIndex:row];
+    if (newSelection != _selection) {
+        _selection = newSelection;
+        if (_delegate) {
+            [_delegate pickerViewController:self didSelectRow:_selection];
+        }
     }
-    
 }
 
 -(void)setItems:(NSArray *)items
 {
     _items = items;
     [self reloadAllComponents];
+     
 }
 
 -(void)reloadAllComponents{
-    [pickerView reloadAllComponents];
-    [pickerView selectRow:0 inComponent:0 animated:NO];
+    [_pickerView reloadAllComponents];
+    [_pickerView selectRow:0 inComponent:0 animated:NO];
     _selection = [_items objectAtIndex:0];
     
     /*   if (_delegate) {

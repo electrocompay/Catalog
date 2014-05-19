@@ -265,9 +265,10 @@ static NSString *kReuseIdentifier = @"UserIndentifier";
         [self.delegate BrowserTabView:self willRemoveTabAtIndex:index];
     }
     //if previous selected index was the last tab ,keep the coming last one selected
-    if (index == self.numberOfTabs - 1) {
-        newIndex = index - 1;
-    }
+  //  if (index == self.numberOfTabs - 1) {
+  //      newIndex = index - 1;
+  //  }
+    newIndex = 0;
     
     [_reuseQueue addObject:_tabsArray[index]];
     [_tabsArray removeObject:tab];

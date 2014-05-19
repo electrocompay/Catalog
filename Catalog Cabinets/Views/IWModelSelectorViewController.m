@@ -20,6 +20,7 @@
     IBOutlet IWPickerViewController *picker2;
     IBOutlet IWPickerViewController *picker3;
     IBOutlet IWPickerViewController *picker4;
+    IBOutlet IWPickerViewController *picker5;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -36,10 +37,10 @@
     [pickerModel setItems:[IWColors cabinetModels]];
     [pickerModel setDelegate:self];
     [picker2 setDelegate:self];
-    [picker2 setTitle:@"Type"];
     [picker3 setDelegate:self];
-    [picker3 setTitle:@"Size"];
     [picker4 setDelegate:self];
+    [picker5 setDelegate:self];
+    [self pickerViewController:pickerModel didSelectRow:pickerModel.selection];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,13 +51,35 @@
 
 -(void)pickerViewController:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
 {
+    _cabinet.model = (IWModel*) pickerModel.selection;
+    if (_cabinet.useDoors) {
+        [self processSelectionDoors:pickerViewController didSelectRow:color];
+    } else if (_cabinet.useModules)
+    {
+        [self processSelectionModules:pickerViewController didSelectRow:color];
+    }
+    
+    if (_delegate) {
+        [_delegate didSelect:self andColor:color];
+    }
+}
+
+-(void)processSelectionDoors:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
+{
     BOOL cascadeChange = NO;
     if (pickerViewController == pickerModel) {
         _cabinet.model = (IWModel*) pickerModel.selection;
         if ([color.code isEqualToString:@"40"]) {
             [picker2 setItems:[IWColors cabinet40Types]];
+            [self setModeCube];
         } else if ([color.code isEqualToString:@"55"]){
+            [self setModeCube];
             [picker2 setItems:[IWColors cabinet55Types]];
+        } else if ([color.code isEqualToString:@"C193"]){
+            [self setModeCube];
+            picker3.frame = picker2.frame;
+            [picker2 setHidden:YES];
+            [picker3 setItems:[IWColors cabinetC193Sizes]];
         }
         
         [picker2 reloadAllComponents];
@@ -94,15 +117,44 @@
         _cabinet.size = picker3.selection;
     }
     
-    NSLog(@"model %@", _cabinet.model.code);
-    NSLog(@"type %@", _cabinet.type.code);
-    NSLog(@"size %@", _cabinet.size.code);
-    _cabinet.model = (IWModel*) pickerModel.selection;
-    if (_delegate) {
-        [_delegate didSelect:self andColor:color];
+}
+
+-(void)processSelectionModules:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
+{
+    if (pickerViewController == pickerModel) {
+        [self setModeCosYJoli83];
+    } else if (pickerViewController == picker2) {
+        _cabinet.size = picker2.selection;
+    } else if (pickerViewController == picker3) {
+        _cabinet.module2.size = picker3.selection;
+    } else if (pickerViewController == picker4) {
+        _cabinet.module3.size = picker4.selection;
+    } else if (pickerViewController == picker5) {
+        _cabinet.module4.size = picker5.selection;
     }
 }
 
+-(void)setModeCosYJoli83
+{
+    [picker2 setTitle:@"Module 1"];
+    [picker2 setItems:[IWColors cabinet83Modules]];
+    [picker3 setTitle:@"Module 2"];
+    [picker3 setItems:[IWColors cabinet83Modules]];
+    [picker4 setTitle:@"Module 3"];
+    [picker4 setItems:[IWColors cabinet83Modules]];
+    [picker5 setTitle:@"Module 4"];
+    [picker5 setItems:[IWColors cabinet83Modules]];
+    [picker4 setHidden:NO];
+    [picker5 setHidden:NO];
+}
 
+-(void)setModeCube
+{
+    [picker2 setTitle:@"Type"];
+    [picker3 setTitle:@"Size"];
+    [picker4 setHidden:YES];
+    [picker5 setHidden:YES];
+    
+}
 
 @end
