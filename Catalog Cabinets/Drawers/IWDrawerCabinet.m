@@ -70,16 +70,6 @@
         }
         [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
         
-        /*for (int i = cabinet.module2.colors.count - 1; i > -1; i--) {
-         IWColor *color = [cabinet.module2.colors objectAtIndex:i];
-         filename = [NSString stringWithFormat:@"%@-%dDa-%@-%d", cabinet.model.code, cabinet.module2.colors.count, color.code, i + 1];
-         [self addLayer:filename];
-         }*/
-        /*  filename = [NSString stringWithFormat:@"%@-%@%@-%@-00-T", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.top.code];
-         [self addLayer:filename];
-         
-         filename = [NSString stringWithFormat:@"%@-%@%@-%@-00-S", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.side.code];
-         [self addLayer:filename];*/
         
         
         
@@ -126,6 +116,8 @@
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-T", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
+                [self addLayer:filename];
+                filename = [NSString stringWithFormat:@"%@-%dD-%@-T34-V", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
                 [self addLayer:filename];
             }
             [self addLayer:filename];
