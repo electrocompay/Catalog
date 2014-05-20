@@ -29,5 +29,7 @@
 @property (nonatomic, strong) NSMutableArray* drawers;
 @property (nonatomic, strong) IWColor* stripe;
 @property (nonatomic) BOOL oneColorMode;
+@property (nonatomic, strong) IWCabinet* parentCabinet;
+@property (nonatomic, strong) IWColor* interiorColor;
 
 @end

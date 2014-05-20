@@ -14,13 +14,23 @@
 
 -(void)drawCabinet:(IWCabinet*)cabinet InPosition:(NSInteger)position andSufix:(NSString*)sufix
 {
+    NSString *mask = @"%@-%@%@-%@-F%@-%d%@";
+    NSString *modelMask;
+    if ([cabinet.size.code isEqualToString:@"1,0"]) {
+        modelMask = @"1D";
+    } else if ([cabinet.size.code isEqualToString:@"2,0"]){
+        modelMask = @"2D";
+    } else if ([cabinet.size.code isEqualToString:@"2,1"]){
+        modelMask = @"LDD";
+    } else if ([cabinet.size.code isEqualToString:@"3,0"]){
+        modelMask = @"3L";
+    }
     NSString* filename;
-    for (int i = cabinet.colors.count - 1; i > -1; i--) {
+    for (int i = 0; i < cabinet.colors.count; i++) {
         IWColor *color = [cabinet.colors objectAtIndex:i];
+        NSString *index = cabinet.colors.count > 1 ? [NSString stringWithFormat:@"%d", i + 1] : @"";
         if (![cabinet.size.code isEqualToString:@"2,1"]) {
-            filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F-%d%@", cabinet.model.code, cabinet.colors.count, sufix, color.code, position, sufix];
-            [self addLayer:filename];
-            filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F%d-%d%@", cabinet.model.code, cabinet.colors.count, sufix, color.code, i + 1, position, sufix];
+            filename = [NSString stringWithFormat:mask, cabinet.model.code, modelMask, sufix, color.code, index, position, sufix];
             [self addLayer:filename];
         }
         if ([cabinet.size.code isEqualToString:@"2,1"]) {
@@ -59,8 +69,6 @@
     
     if (cabinet.useModules) {
         NSString *sufix = @"";
-        [self drawCabinet:cabinet InPosition:1 andSufix:sufix];
-        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:sufix];
         if (cabinet.module2.colors.count == 1) {
             sufix = @"a";
         }
@@ -68,10 +76,9 @@
         if (cabinet.module2.colors.count == 1) {
             sufix = @"a";
         }
+        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:@""];
+        [self drawCabinet:cabinet InPosition:1 andSufix:@""];
         [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
-        
-        
-        
         
     } else {
         
@@ -111,13 +118,17 @@
             }
             
             if ([cabinet.model.code isEqualToString:@"C193"]) {
+                if (cabinet.colors.count == 1) {
+                    filename = [NSString stringWithFormat:@"%@-%dD-%@-F", cabinet.model.code, cabinet.colors.count, color.code];
+                } else {
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
+                }
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-T", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
                 [self addLayer:filename];
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-T34-V", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
+                filename = [NSString stringWithFormat:@"%@-%dD-%@-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.top.code, cabinet.interiorColor.code];
                 [self addLayer:filename];
             }
             [self addLayer:filename];

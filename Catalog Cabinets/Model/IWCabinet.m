@@ -38,6 +38,7 @@
     if (self) {
         _subModule = YES;
         _model = cabinet.model;
+        _parentCabinet = cabinet;
     }
     return self;
 }
@@ -102,9 +103,15 @@
                  for (int i = 0; i < size; i++) {
                      [_colors addObject: _color];
                  }
-            
         }
     }
+}
+
+-(IWColor *)top{
+    if (_parentCabinet) {
+        return _parentCabinet.top;
+    }
+    return _top;
 }
 
 @end

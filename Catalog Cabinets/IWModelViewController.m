@@ -15,6 +15,7 @@
 #import "IWCatalogViewController.h"
 #import "IWModelSelectorViewController.h"
 #import "IWMultipleSelectorViewController.h"
+#import "IWMultipleSelectorJ193ViewController.h"
 
 @interface IWModelViewController ()
 
@@ -27,6 +28,7 @@
     IWSelectorViewController *selectorTopView;
     IWSelectorViewController *selectorSideView;
     IWMultipleSelectorViewController *selectorDoorsView;
+    IWMultipleSelectorViewController *selectorDoorsJ193View;
     IWSelectorViewController *selectorLegsColorView;
     IWMultipleSelectorViewController *selectorModule1View;
     IWMultipleSelectorViewController *selectorModule2View;
@@ -98,6 +100,11 @@
         selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeNineColors];
         [self prepareMultipleSelectorView:selectorDoorsView];
         
+        selectorDoorsJ193View = [[IWMultipleSelectorJ193ViewController alloc] initWithNibName:@"IWMultipleSelectorJ193ViewController" bundle:nil];
+        [selectorDoorsJ193View setMode:MultipleSelectorModeFourColors];
+        
+        [self prepareMultipleSelectorView:selectorDoorsJ193View];
+
         selectorLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorLegsColorView setPropertyName:@"leg color"];
         [self prepareSelector:selectorLegsColorView withColors:[IWColors tableLegColors]];
@@ -137,7 +144,9 @@
     } else if (index == 2){
         [tabContent bringSubviewToFront:selectorSideView.view];
     } else if (index == 3){
-        if (cabinet.useDoors){
+        if ([cabinet.model.code isEqualToString:@"C193"]) {
+            [tabContent bringSubviewToFront:selectorDoorsJ193View.view];
+        } else if (cabinet.useDoors){
             [tabContent bringSubviewToFront:selectorDoorsView.view];
         } else if (cabinet.hasLegs){
             [tabContent bringSubviewToFront:selectorLegsColorView.view];
@@ -240,6 +249,7 @@
 -(void)didSelect:(IWModelSelectorViewController *)modelSelectorViewController andColor:(IWColor *)color
 {
     [selectorDoorsView setCabinet:cabinet];
+    [selectorDoorsJ193View setCabinet:cabinet];
     [tabController removeTabAtIndex:8 animated:NO];
     [tabController removeTabAtIndex:7 animated:NO];
     [tabController removeTabAtIndex:6 animated:NO];

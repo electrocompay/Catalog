@@ -11,60 +11,30 @@
                 <outlet property="door2" destination="SuO-3p-Gdb" id="2xc-H1-VbQ"/>
                 <outlet property="door3" destination="U3i-3A-f59" id="9yu-31-yst"/>
                 <outlet property="door4" destination="Vjp-sN-ohZ" id="hVe-Vi-hga"/>
-                <outlet property="door5" destination="aCY-ec-nUu" id="tyP-4W-Sfd"/>
-                <outlet property="door6" destination="QNs-VU-MS2" id="5Lb-6f-LPj"/>
-                <outlet property="door7" destination="87h-aD-0vM" id="0WM-E4-skt"/>
-                <outlet property="door8" destination="ztR-FL-vy7" id="qZc-dg-Sg4"/>
-                <outlet property="door9" destination="XRe-uI-xC2" id="ji1-pS-RjE"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="392" height="192"/>
+            <rect key="frame" x="0.0" y="0.0" width="293" height="192"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yea-zh-kti" customClass="IWColorSelectorView">
-                    <rect key="frame" x="9" y="44" width="115" height="34"/>
+                    <rect key="frame" x="20" y="44" width="115" height="34"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
                 <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SuO-3p-Gdb" customClass="IWColorSelectorView">
-                    <rect key="frame" x="138" y="44" width="115" height="34"/>
+                    <rect key="frame" x="158" y="44" width="115" height="34"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
                 <view tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3i-3A-f59" customClass="IWColorSelectorView">
-                    <rect key="frame" x="268" y="44" width="115" height="34"/>
+                    <rect key="frame" x="20" y="109" width="115" height="34"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
                 <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vjp-sN-ohZ" customClass="IWColorSelectorView">
-                    <rect key="frame" x="9" y="79" width="115" height="34"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCY-ec-nUu" customClass="IWColorSelectorView">
-                    <rect key="frame" x="138" y="79" width="115" height="34"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNs-VU-MS2" customClass="IWColorSelectorView">
-                    <rect key="frame" x="268" y="79" width="115" height="34"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view tag="6" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87h-aD-0vM" customClass="IWColorSelectorView">
-                    <rect key="frame" x="9" y="114" width="115" height="34"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view tag="7" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztR-FL-vy7" customClass="IWColorSelectorView">
-                    <rect key="frame" x="138" y="114" width="115" height="34"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view tag="8" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XRe-uI-xC2" customClass="IWColorSelectorView">
-                    <rect key="frame" x="268" y="114" width="115" height="34"/>
+                    <rect key="frame" x="158" y="109" width="115" height="34"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
