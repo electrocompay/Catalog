@@ -129,6 +129,11 @@
         [self setModeCosYJoli83];
     } else if (pickerViewController == picker2) {
         _cabinet.size = picker2.selection;
+        if (_cabinet.colors.count == 1) {
+            [self removeOneDoor:picker3];
+        } else {
+            [picker3 setItems:[IWColors cabinet83Modules]];
+        }
     } else if (pickerViewController == picker3) {
         _cabinet.module2.size = picker3.selection;
     } else if (pickerViewController == picker4) {
@@ -136,13 +141,35 @@
     } else if (pickerViewController == picker5) {
         _cabinet.module4.size = picker5.selection;
     }
+    
+}
+
+-(void)removeOneDoor:(IWPickerViewController*)picker
+{
+    NSInteger currentSelection = [picker.items indexOfObject:picker.selection];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:picker.items];
+    IWColor *color = [array objectAtIndex:1];
+    if ([color.code isEqualToString:@"1,0"]) {
+        [array removeObject:color];
+    }
+    [picker setItems:array];
+    
+    if (currentSelection > 1) {
+        picker.selection = [array objectAtIndex:currentSelection--];
+    }
+    
 }
 
 -(void)setModeCosYJoli83
 {
     [picker2 setTitle:@"Module 1"];
-    [picker2 setItems:[IWColors cabinet83Modules]];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:[IWColors cabinet83Modules]];
+    [array removeObjectAtIndex:0];
+    [picker2 setItems:array];
+    [picker2 setSelection:[array objectAtIndex:0]];
+    [self processSelectionModules:picker2 didSelectRow:picker2.selection];
     [picker3 setTitle:@"Module 2"];
+    [self removeOneDoor:picker3];
     [picker3 setItems:[IWColors cabinet83Modules]];
     [picker4 setTitle:@"Module 3"];
     [picker4 setItems:[IWColors cabinet83Modules]];

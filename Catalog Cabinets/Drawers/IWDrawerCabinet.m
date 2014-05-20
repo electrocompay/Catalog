@@ -69,15 +69,15 @@
     
     if (cabinet.useModules) {
         NSString *sufix = @"";
+        [self drawCabinet:cabinet InPosition:1 andSufix:@""];
+        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:sufix];
         if (cabinet.module2.colors.count == 1) {
             sufix = @"a";
         }
         [self drawCabinet:cabinet.module3 InPosition:3 andSufix:sufix];
-        if (cabinet.module2.colors.count == 1) {
+        if (cabinet.module3.colors.count == 1) {
             sufix = @"a";
         }
-        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:@""];
-        [self drawCabinet:cabinet InPosition:1 andSufix:@""];
         [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
         
     } else {
@@ -118,17 +118,17 @@
             }
             
             if ([cabinet.model.code isEqualToString:@"C193"]) {
+                filename = [NSString stringWithFormat:@"%@-%dD-%@-T", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
+                [self addLayer:filename];
                 if (cabinet.colors.count == 1) {
                     filename = [NSString stringWithFormat:@"%@-%dD-%@-F", cabinet.model.code, cabinet.colors.count, color.code];
                 } else {
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
+                    filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
                 }
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%dD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-T", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
-                [self addLayer:filename];
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.top.code, cabinet.interiorColor.code];
+                filename = [NSString stringWithFormat:@"%@-%dD-29-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
                 [self addLayer:filename];
             }
             [self addLayer:filename];

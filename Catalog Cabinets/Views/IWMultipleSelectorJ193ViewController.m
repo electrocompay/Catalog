@@ -64,7 +64,7 @@
     if (sender == oldOak) {
         oldOak.selected = YES;
         smokeOak.selected = NO;
-        self.cabinet.stripe = oldOakProp;
+        self.cabinet.interiorColor = oldOakProp;
     } else if (sender == smokeOak){
         smokeOak.selected = YES;
         oldOak.selected = NO;
