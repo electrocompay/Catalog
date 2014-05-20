@@ -70,7 +70,6 @@
     if (cabinet.useModules) {
         NSString *sufix = @"";
         [self drawCabinet:cabinet InPosition:1 andSufix:@""];
-        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:sufix];
         if (cabinet.module2.colors.count == 1) {
             sufix = @"a";
         }
@@ -78,6 +77,7 @@
         if (cabinet.module3.colors.count == 1) {
             sufix = @"a";
         }
+        [self drawCabinet:cabinet.module2 InPosition:2 andSufix:sufix];
         [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
         
     } else {
