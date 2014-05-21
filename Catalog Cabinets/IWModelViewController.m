@@ -257,10 +257,10 @@
     [tabController removeTabAtIndex:4 animated:NO];
     [tabController removeTabAtIndex:3 animated:NO];
     if (cabinet.useDoors) {
-        [tabController addTabWithTitle:@"3. Doors"];
+        [tabController addTabWithTitle:@"4. Doors"];
     }
     if (cabinet.hasLegs) {
-        [tabController addTabWithTitle:@"4. Legs"];
+        [tabController addTabWithTitle:@"5. Legs"];
     }
     if (cabinet.useModules) {
         if (cabinet.size && cabinet.size.code)

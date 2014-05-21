@@ -27,6 +27,7 @@
         _drawers = [[NSMutableArray alloc] init];
         _subModule = NO;
         _oneColorMode = YES;
+        _showLegs = YES;
     }
     
     return self;
