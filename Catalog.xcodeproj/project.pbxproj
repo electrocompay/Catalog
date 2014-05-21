@@ -2619,6 +2619,8 @@
 		4C87E3A11921C44F008F59F0 /* IWColorsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87E39F1921C44F008F59F0 /* IWColorsPanelView.m */; };
 		4C87E3A21921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3A01921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib */; };
 		4C87E3A41921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */; };
+		4C98710D192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
+		4C98710E192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
 		4C9FAC861926392D00587DF2 /* Largo-U-01-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */; };
 		4C9FAC871926392D00587DF2 /* Largo-U-01-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */; };
 		4CB792DE192C6BA700325AD9 /* J83-1D-29-F-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */; };
@@ -7842,6 +7844,8 @@
 		4C87E39F1921C44F008F59F0 /* IWColorsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWColorsPanelView.m; sourceTree = "<group>"; };
 		4C87E3A01921C44F008F59F0 /* IWColorsPanelNineDoorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelNineDoorsView.xib; sourceTree = "<group>"; };
 		4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelFourDoorsView.xib; sourceTree = "<group>"; };
+		4C98710B192C837E00D8850E /* IWMyQLPreviewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWMyQLPreviewControllerViewController.h; sourceTree = "<group>"; };
+		4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWMyQLPreviewControllerViewController.m; sourceTree = "<group>"; };
 		4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-A.png"; sourceTree = "<group>"; };
 		4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-B.png"; sourceTree = "<group>"; };
 		4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J83-1D-29-F-1.png"; sourceTree = "<group>"; };
@@ -10545,6 +10549,8 @@
 				4CEE0E7918A89B0000298C60 /* IWModelViewController.xib */,
 				4CEEA3B9191FC98200C54B67 /* IWTableChairModelViewController.h */,
 				4CEEA3BA191FC98200C54B67 /* IWTableChairModelViewController.m */,
+				4C98710B192C837E00D8850E /* IWMyQLPreviewControllerViewController.h */,
+				4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */,
 			);
 			path = Catalog;
 			sourceTree = "<group>";
@@ -21313,6 +21319,7 @@
 				4CBBEF4218F39C7A0086824C /* IWColor.m in Sources */,
 				4CEE0E7A18A89B0100298C60 /* IWModelViewController.m in Sources */,
 				4CBBEF4518F39D7E0086824C /* IWColors.m in Sources */,
+				4C98710D192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */,
 				4CBBEA9C18F22A360086824C /* IWChair.m in Sources */,
 				4CEE0F7F18AAFAEB00298C60 /* IWCubeOption.m in Sources */,
 				4C6DC30618A73E89005007A8 /* main.m in Sources */,
@@ -21355,6 +21362,7 @@
 				4CEEAD95191FD0AF00C54B67 /* IWCatalogViewController.m in Sources */,
 				4CEEA3C0191FCB0600C54B67 /* IWModelViewController.m in Sources */,
 				4CEEADAC191FD57200C54B67 /* IWDrawer.m in Sources */,
+				4C98710E192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */,
 				4C87E3A11921C44F008F59F0 /* IWColorsPanelView.m in Sources */,
 				4CEEADBA191FDFC300C54B67 /* IWModelSelectorViewController.m in Sources */,
 				4CEEADBF191FE07E00C54B67 /* IWPickerViewController.m in Sources */,

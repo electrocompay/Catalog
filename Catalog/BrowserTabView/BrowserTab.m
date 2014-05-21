@@ -120,11 +120,13 @@
     
     if (isSelected) {
         self.titleField.textColor = _selectedTitleColor;
+        self.titleField.font = [UIFont boldSystemFontOfSize:16];
         _imageView.image = self.tabSelectedImage;
         _closeButton.hidden = YES;
         
     }else{
         self.titleField.textColor = _normalTitleColor;
+        self.titleField.font = [UIFont systemFontOfSize:16];
         _imageView.image = self.tabNormalImage;
         _closeButton.hidden = YES;
     }

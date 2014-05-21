@@ -8,7 +8,7 @@
 
 #import "IWCatalogViewController.h"
 #import "IWModelViewController.h"
-#import <QuickLook/QuickLook.h>
+#import "IWMyQLPreviewControllerViewController.h"
 
 @interface IWCatalogViewController ()
 
@@ -115,7 +115,7 @@
             break;
     }
     
-    QLPreviewController *preview = [[QLPreviewController alloc] init];
+    QLPreviewController *preview = [[IWMyQLPreviewControllerViewController alloc] init];
     preview.dataSource = self;
     preview.delegate = self;
     
@@ -152,6 +152,5 @@
     NSURL *fileURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:fileToOpen ofType:nil]];
     return fileURL;
 }
-
 
 @end

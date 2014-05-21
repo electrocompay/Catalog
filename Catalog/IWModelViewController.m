@@ -246,13 +246,15 @@
 -(void)drawAll
 {
     [drawer clear];
+
     [drawer drawForniture:table];
     [drawerChair drawForniture:chair];
-    [thumbDrawer setFrontView:!drawer.frontView];
     [thumbDrawerChair setFrontView:!drawer.frontView];
+    [thumbDrawer setFrontView:!drawer.frontView];
+
     [thumbDrawer clear];
-    [thumbDrawer drawForniture:table];
     [thumbDrawerChair drawForniture:chair];
+    [thumbDrawer drawForniture:table];
     [selectorView setImage:[self captureViewFrom:thumbView]];
 }
 
