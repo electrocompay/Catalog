@@ -11,6 +11,8 @@
                 <outlet property="labelAllColor1" destination="54a-9w-3qQ" id="Mua-mO-aax"/>
                 <outlet property="labelAllColors" destination="iOV-un-it0" id="dXd-Ya-O9o"/>
                 <outlet property="labelColorDoor" destination="gdi-2w-VWJ" id="Irf-EE-60T"/>
+                <outlet property="marker" destination="dCV-Uq-R9m" id="4BP-Ms-L7m"/>
+                <outlet property="marker_back" destination="wdb-oD-Qpz" id="YfO-Z6-wre"/>
                 <outlet property="multipleContainer" destination="m6z-I2-yDA" id="8K1-WE-9Ty"/>
                 <outlet property="propertyNameView" destination="iOV-un-it0" id="OkH-jb-krN"/>
                 <outlet property="scrollView" destination="JDW-Vh-lFZ" id="uDC-uG-E1o"/>
@@ -43,7 +45,7 @@
                     <color key="backgroundColor" white="0.85999999999999999" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All doors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOV-un-it0">
-                    <rect key="frame" x="12" y="15" width="80" height="27"/>
+                    <rect key="frame" x="25" y="14" width="80" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -54,8 +56,17 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EDB-4C-t4Z">
+                    <rect key="frame" x="608" y="30" width="2" height="150"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Uq-R9m">
                     <rect key="frame" x="1002" y="104" width="12" height="19"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="wdb-oD-Qpz">
+                    <rect key="frame" x="592" y="104" width="12" height="19"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6z-I2-yDA">
@@ -63,27 +74,32 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="same color" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54a-9w-3qQ">
-                    <rect key="frame" x="12" y="30" width="80" height="27"/>
+                    <rect key="frame" x="25" y="30" width="80" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color / door" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdi-2w-VWJ">
-                    <rect key="frame" x="12" y="122" width="80" height="27"/>
+                    <rect key="frame" x="25" y="121" width="80" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <switch opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EJf-QX-WUx">
-                    <rect key="frame" x="20" y="149" width="51" height="31"/>
+                    <rect key="frame" x="41" y="149" width="51" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </switch>
                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4g1-4O-MPO">
-                    <rect key="frame" x="20" y="57" width="51" height="31"/>
+                    <rect key="frame" x="41" y="57" width="51" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </switch>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V3k-6N-Ud7">
+                    <rect key="frame" x="135" y="0.0" width="2" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -92,5 +108,6 @@
     </objects>
     <resources>
         <image name="marker.png" width="12" height="19"/>
+        <image name="marker_back.png" width="12" height="19"/>
     </resources>
 </document>

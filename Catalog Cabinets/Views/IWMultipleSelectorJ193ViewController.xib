@@ -149,8 +149,8 @@
         </view>
     </objects>
     <resources>
-        <image name="Old Oak.jpg" width="15" height="15"/>
-        <image name="Smoke Oak.jpg" width="15" height="15"/>
+        <image name="Old Oak.jpg" width="102" height="82"/>
+        <image name="Smoke Oak.jpg" width="102" height="82"/>
         <image name="marker.png" width="12" height="19"/>
         <image name="radio_selected.png" width="30" height="30"/>
         <image name="radio_unselected.png" width="30" height="30"/>

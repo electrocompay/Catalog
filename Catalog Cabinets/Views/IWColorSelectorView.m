@@ -52,6 +52,7 @@
     [imageView setImage:[UIImage imageNamed:color.file]];
     if (_color) {
         [button setTitle:_color.name forState:UIControlStateNormal];
+        [button setTitle:_color.name forState:UIControlStateSelected];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     }

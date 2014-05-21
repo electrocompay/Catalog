@@ -69,7 +69,7 @@ NSArray* _cabinetC193Sizes;
                         [[IWModel modelWithName:@"Chateau" andCode:@"Chateau-CC-LL" andFile:@"Chateau-29-22.jpg" andColors:nil andLegColors:nil] withCategory:@"model"],
                         [[IWModel modelWithName:@"Chrominox" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Elyps" andCode:@"Elyps-CC-LL" andFile:@"Elyps-29-22.jpg" andColors:nil andLegColors:nil] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Extexns" andCode:@"Extens-CC-LL" andFile:@"Extens-29-22.jpg" andColors:@"29,30,31,32,33,36,37,38" andLegColors:nil] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Extens" andCode:@"Extens-CC-LL" andFile:@"Extens-29-22.jpg" andColors:@"29,30,31,32,33,36,37,38" andLegColors:nil] withCategory:@"model"],
                         [[IWModel modelWithName:@"Facet" andCode:@"Facet-CC-LL" andFile:@"Facet-29-22.jpg" andColors:nil andLegColors:nil] withCategory:@"model"],
                         [[IWModel modelWithName:@"Largo" andCode:@"Largo-CC-LL" andFile:@"Largo-29-22.jpg" andColors:nil andLegColors:nil] withCategory:@"model"],
                         [[IWModel modelWithName:@"Largo XL" andCode:@"Largo-XL-CC-LL" andFile:@"Largo-XL-29-22.jpg" andColors:nil andLegColors:nil] withCategory:@"model"],
@@ -95,7 +95,7 @@ NSArray* _cabinetC193Sizes;
                         [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                         [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                        [[IWColor colorWithName:@"Matrilux Carara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                        [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                         
                         nil];
     }
@@ -112,7 +112,7 @@ NSArray* _cabinetC193Sizes;
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 9.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Chrome / Inox" andCode:@"27" andFile:@"Chrome-inox-27.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-inox-27.jpg"] withCategory:@"legs color"],
                            nil];
     }
     
@@ -345,7 +345,7 @@ NSArray* _cabinetC193Sizes;
                            [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                            [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                           [[IWColor colorWithName:@"Matrilux Carara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                           [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                            
                            nil];
     }

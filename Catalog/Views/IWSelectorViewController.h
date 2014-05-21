@@ -17,7 +17,7 @@
 
 @end
 
-@interface IWSelectorViewController : UIViewController
+@interface IWSelectorViewController : UIViewController<UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSArray* items;
 @property (nonatomic, strong) NSArray* filteredItems;

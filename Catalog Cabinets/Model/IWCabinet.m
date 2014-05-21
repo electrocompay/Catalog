@@ -114,4 +114,9 @@
     return _top;
 }
 
+-(BOOL)useStripe
+{
+    return [_model.code isEqualToString:@"J83"];
+}
+
 @end

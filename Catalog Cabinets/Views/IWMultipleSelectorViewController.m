@@ -30,6 +30,8 @@
     IBOutlet UILabel *labelAllColors;
     IBOutlet UILabel *labelAllColor1;
     IBOutlet UILabel *labelColorDoor;
+    IBOutlet UIView *marker;
+    IBOutlet UIView *marker_back;
 }
 
 -(id)initWithMode:(IWMultipleSelectorMode)mode
@@ -65,6 +67,8 @@
     [panelColors setCabinet:_cabinet];
     [switch1 addTarget:self action:@selector(switchMode:) forControlEvents:UIControlEventValueChanged];
     [switch2 addTarget:self action:@selector(switchMode:) forControlEvents:UIControlEventValueChanged];
+    scrollView.delegate = self;
+    [self updateMarkers];
 }
 
 - (void)didReceiveMemoryWarning
@@ -130,6 +134,7 @@
         [self setSelection:optionView.tag];
         scrollView.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
     }
+    [self updateMarkers];
 }
 
 -(BOOL)colorFiltered:(NSString*)code
@@ -200,5 +205,19 @@
     }
     [panelColors setOneSelectionMode:switch1.on];
 }
+
+#pragma mark UIScrollViewDelegate
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [self updateMarkers];
+}
+
+-(void)updateMarkers
+{
+    marker_back.hidden = scrollView.contentOffset.x == 0;
+    marker.hidden = scrollView.contentOffset.x == scrollView.contentSize.width - scrollView.bounds.size.width;
+}
+
 
 @end

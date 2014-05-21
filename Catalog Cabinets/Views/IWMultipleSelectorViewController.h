@@ -26,7 +26,7 @@ enum IWMultipleSelectorMode : NSInteger {
 
 @end
 
-@interface IWMultipleSelectorViewController : UIViewController<IWColorsPanelViewDelegate>
+@interface IWMultipleSelectorViewController : UIViewController<IWColorsPanelViewDelegate, UIScrollViewDelegate>
 
 -(id)initWithMode:(IWMultipleSelectorMode)mode;
 

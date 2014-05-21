@@ -31,5 +31,6 @@
 @property (nonatomic) BOOL oneColorMode;
 @property (nonatomic, strong) IWCabinet* parentCabinet;
 @property (nonatomic, strong) IWColor* interiorColor;
+@property (nonatomic, readonly) BOOL useStripe;
 
 @end

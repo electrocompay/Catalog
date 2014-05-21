@@ -16,12 +16,14 @@
 
 @implementation IWSelectorViewController
 {
-    IBOutlet UIScrollView* scrollView;
+    IBOutlet UIScrollView* scrollView1;
     IBOutlet IWOptionView* selectedView;
     IBOutlet UILabel* headerLabel;
     IBOutlet UILabel *propertyNameView;
     NSMutableArray* filteredList;
     NSMutableArray* subviews;
+    IBOutlet UIView *marker;
+    IBOutlet UIView *marker_back;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,6 +39,8 @@
     [super viewDidLoad];
     [selectedView setSelected:YES];
     [propertyNameView setText:[NSString stringWithFormat:@"Active %@", _propertyName]];
+    scrollView1.delegate = self;
+    [self updateMarkers];
 }
 
 - (void)didReceiveMemoryWarning
@@ -64,7 +68,7 @@
     }
 
 //    if (subviews) {
-        [scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        [scrollView1.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
   //  }
     subviews = [[NSMutableArray alloc] init];
     IWOptionView* optionView = [[IWOptionView alloc] init];
@@ -81,7 +85,7 @@
     for (IWColor *color in filteredList) {
             optionView = [[IWOptionView alloc] init];
             [optionView.label setText:color.name];
-            [scrollView addSubview:optionView];
+            [scrollView1 addSubview:optionView];
             [subviews addObject:optionView];
             optionView.frame = CGRectMake((optionView.frame.size.width + 10 )* page , 0, pageSize.width - 20, pageSize.height);
             [optionView setTag:page];
@@ -94,7 +98,7 @@
             UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
             [newLabel setFont:headerLabel.font];
             [newLabel setText:color.category];
-            [scrollView addSubview:newLabel];
+            [scrollView1 addSubview:newLabel];
             priorCategory = color.category;
         }
     }
@@ -102,8 +106,9 @@
         optionView = [subviews objectAtIndex:0];
         [optionView setSelected:YES];
         [self setSelection:optionView.tag];
-        scrollView.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
+        scrollView1.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
     }
+    [self updateMarkers];
 }
 
 -(BOOL)colorFiltered:(NSString*)code
@@ -146,6 +151,19 @@
 -(void)setPropertyName:(NSString *)propertyName
 {
     _propertyName = propertyName;
+}
+
+#pragma mark UIScrollViewDelegate
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [self updateMarkers];
+}
+
+-(void)updateMarkers
+{
+    marker_back.hidden = scrollView1.contentOffset.x == 0;
+    marker.hidden = scrollView1.contentOffset.x == scrollView1.contentSize.width - scrollView1.bounds.size.width;
 }
 
 @end

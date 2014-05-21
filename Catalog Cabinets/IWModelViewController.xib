@@ -59,7 +59,7 @@
                             </connections>
                         </imageView>
                         <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="2lg-EA-Tt3">
-                            <rect key="frame" x="926" y="49" width="50" height="50"/>
+                            <rect key="frame" x="926" y="55" width="50" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <gestureRecognizers/>
                             <connections>
@@ -67,12 +67,12 @@
                             </connections>
                         </imageView>
                         <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rk7-s3-R3i" customClass="IWMenuView">
-                            <rect key="frame" x="835" y="99" width="150" height="200"/>
+                            <rect key="frame" x="835" y="105" width="150" height="200"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         </view>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="menu_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-AQ-XOZ">
-                            <rect key="frame" x="861" y="49" width="50" height="50"/>
+                            <rect key="frame" x="861" y="55" width="50" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <gestureRecognizers/>
                             <connections>

@@ -218,13 +218,13 @@
         } else {
             picDrawer1.enabled = NO;
         }
-        if (_cabinet.drawers.count > 1) {
+        if (_cabinet.drawers.count > 1 && !_cabinet.oneColorMode) {
             picDrawer2.enabled = YES;
             picDrawer2.color = [_cabinet.drawers objectAtIndex:1];
         } else {
             picDrawer2.enabled = NO;
         }
-        if (_cabinet.drawers.count > 2) {
+        if (_cabinet.drawers.count > 2 && !_cabinet.oneColorMode) {
             picDrawer3.enabled = YES;
             picDrawer3.color = [_cabinet.drawers objectAtIndex:2];
         } else {
@@ -242,6 +242,8 @@
         } else {
             door2.enabled = NO;
         }
+        
+        stripe.enabled = _cabinet.useStripe;
     }
 }
 
