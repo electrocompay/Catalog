@@ -7,8 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWPickerViewController">
             <connections>
+                <outlet property="_pickerView" destination="eQN-RJ-utk" id="Awi-o5-GMX"/>
                 <outlet property="label" destination="UK3-yg-2Ia" id="xEJ-iv-Tk4"/>
-                <outlet property="pickerView" destination="eQN-RJ-utk" id="min-TT-Z9s"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -125,23 +125,68 @@
 
 -(void)processSelectionModules:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
 {
+
     if (pickerViewController == pickerModel) {
         [self setModeCosYJoli83];
-    } else if (pickerViewController == picker2) {
+    }
+    
+    if (pickerViewController == picker2) {
         _cabinet.size = picker2.selection;
-        if (_cabinet.colors.count == 1) {
+       /* if (_cabinet.colors.count == 1) {
             [self removeOneDoor:picker3];
         } else {
             [picker3 setItems:[IWColors cabinet83Modules]];
-        }
-    } else if (pickerViewController == picker3) {
+        }*/
+        picker3.enabled = YES;
+        /*if (picker2.selectedIndex == 0) {
+            [picker3 reset];
+            [picker4 resetAndDisable];
+            [picker5 resetAndDisable];
+        }*/
+    }
+    
+    if (pickerViewController == picker3) {
         _cabinet.module2.size = picker3.selection;
-    } else if (pickerViewController == picker4) {
+        picker4.enabled = YES;
+        if (picker3.selectedIndex == 0) {
+        [picker4 reset];
+        [picker5 resetAndDisable];
+        }
+    }
+    
+    if (pickerViewController == picker4) {
         _cabinet.module3.size = picker4.selection;
-    } else if (pickerViewController == picker5) {
+        picker5.enabled = YES;
+        if (picker4.selectedIndex == 0) {
+        [picker5 reset];
+        }
+    }
+    
+    if (pickerViewController == picker5) {
         _cabinet.module4.size = picker5.selection;
     }
     
+    _cabinet.module2.size = picker3.selection;
+    _cabinet.module3.size = picker4.selection;
+    _cabinet.module4.size = picker5.selection;
+    picker2.left = 0;
+    picker2.right = _cabinet.module2.colors.count;
+    picker3.left = _cabinet.colors.count;
+    picker3.right = _cabinet.module3.colors.count;
+    picker4.left = _cabinet.module2.colors.count;
+    picker4.right = _cabinet.module4.colors.count;
+    picker5.left = _cabinet.module3.colors.count;
+    picker5.right = 0;
+    if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 6) {
+        [picker5 resetAndDisable];
+    }
+    
+    [picker2 refresh];
+    [picker3 refresh];
+    [picker4 refresh];
+    [picker5 refresh];
+    
+    [_delegate didSelect:self andColor:color];
 }
 
 -(void)removeOneDoor:(IWPickerViewController*)picker
@@ -166,15 +211,16 @@
     NSMutableArray *array = [NSMutableArray arrayWithArray:[IWColors cabinet83Modules]];
     [array removeObjectAtIndex:0];
     [picker2 setItems:array];
+    [picker3 setItems:[IWColors cabinet83Modules]];
+    [picker4 setItems:[IWColors cabinet83Modules]];
+    [picker5 setItems:[IWColors cabinet83Modules]];
+
     [picker2 setSelection:[array objectAtIndex:0]];
     [self processSelectionModules:picker2 didSelectRow:picker2.selection];
     [picker3 setTitle:@"Module 2"];
-    [self removeOneDoor:picker3];
-    [picker3 setItems:[IWColors cabinet83Modules]];
+//    [self removeOneDoor:picker3];
     [picker4 setTitle:@"Module 3"];
-    [picker4 setItems:[IWColors cabinet83Modules]];
     [picker5 setTitle:@"Module 4"];
-    [picker5 setItems:[IWColors cabinet83Modules]];
     [picker4 setHidden:NO];
     [picker5 setHidden:NO];
 }

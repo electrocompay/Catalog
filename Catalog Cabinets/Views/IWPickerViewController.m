@@ -17,6 +17,7 @@
 {
     IBOutlet UIPickerView *_pickerView;
     IBOutlet UILabel *label;
+    NSInteger _lastRow;
 }
 
 -(id)init
@@ -74,20 +75,35 @@
         [pickerLabel setTextAlignment:NSTextAlignmentCenter];
     }
     
+    if ([self selectionInvalid:row]) {
+        [pickerLabel setTextColor:[UIColor redColor]];
+    } else {
+        [pickerLabel setTextColor:[UIColor blackColor]];
+    }
     IWColor *color = [_items objectAtIndex:row];
     [pickerLabel setText:color.name];
     
     return pickerLabel;
 }
 
+-(BOOL)selectionInvalid:(NSInteger)row
+{
+    IWColor *color = [_items objectAtIndex:row];
+    return (_left == 1 || _right == 1) && [color.code isEqualToString:@"1,0"];
+}
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    IWColor *newSelection = [_items objectAtIndex:row];
-    if (newSelection != _selection) {
-        _selection = newSelection;
-        if (_delegate) {
-            [_delegate pickerViewController:self didSelectRow:_selection];
+    if ([self selectionInvalid:row]) {
+        [pickerView selectRow:_lastRow inComponent:0 animated:YES];
+    } else {
+        IWColor *newSelection = [_items objectAtIndex:row];
+        if (newSelection != _selection) {
+            _lastRow = row;
+            _selection = newSelection;
+            if (_delegate) {
+                [_delegate pickerViewController:self didSelectRow:_selection];
+            }
         }
     }
 }
@@ -103,10 +119,6 @@
     [_pickerView reloadAllComponents];
     [_pickerView selectRow:0 inComponent:0 animated:NO];
     _selection = [_items objectAtIndex:0];
-    
-    /*   if (_delegate) {
-        [_delegate pickerViewController:self didSelectRow:color];
-    }*/
 }
 
 -(void)setTitle:(NSString *)title
@@ -114,5 +126,40 @@
     _title = title;
     [label setText:_title];
 }
+
+-(void)setEnabled:(BOOL)enabled
+{
+    _pickerView.userInteractionEnabled = enabled;
+}
+
+-(BOOL)enabled
+{
+    return _pickerView.userInteractionEnabled;
+}
+
+-(void)reset
+{
+    if (_items.count > 0) {
+        [_pickerView selectRow:0 inComponent:0 animated:NO];
+        _selection = [_items objectAtIndex:0];
+    }
+}
+
+-(void)resetAndDisable
+{
+    [self reset];
+    [self setEnabled:NO];
+}
+
+-(NSInteger)selectedIndex
+{
+    return [_pickerView selectedRowInComponent:0];
+}
+
+-(void)refresh
+{
+    [_pickerView reloadAllComponents];
+}
+
 
 @end

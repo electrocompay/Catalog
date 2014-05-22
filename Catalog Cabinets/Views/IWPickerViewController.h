@@ -17,12 +17,21 @@
 
 @end
 
-@interface IWPickerViewController : UIView<UIPickerViewDataSource, UIPickerViewDelegate>
+@interface IWPickerViewController : UIView<UIPickerViewDataSource, UIPickerViewDelegate, UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSArray *items;
 @property (nonatomic, weak) id<IWPickerViewControllerDelegate> delegate;
--(void)reloadAllComponents;
 @property (nonatomic, strong) NSString* title;
 @property (nonatomic, strong) IWColor* selection;
+@property (nonatomic) BOOL enabled;
+@property (nonatomic) NSInteger selectedIndex;
+@property (nonatomic) NSInteger left;
+@property (nonatomic) NSInteger right;
+
+
+-(void)reloadAllComponents;
+-(void)reset;
+-(void)resetAndDisable;
+-(void)refresh;
 
 @end
