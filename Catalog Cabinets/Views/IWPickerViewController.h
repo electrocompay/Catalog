@@ -17,7 +17,7 @@
 
 @end
 
-@interface IWPickerViewController : UIView<UIPickerViewDataSource, UIPickerViewDelegate, UIScrollViewDelegate>
+@interface IWPickerViewController : UIView<UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (nonatomic, strong) NSArray *items;
 @property (nonatomic, weak) id<IWPickerViewControllerDelegate> delegate;

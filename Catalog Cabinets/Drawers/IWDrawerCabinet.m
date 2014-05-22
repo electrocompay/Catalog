@@ -113,8 +113,10 @@
         
     } else {
         
-        filename = [NSString stringWithFormat:@"%@-%@%@-00-%@", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.legsColor.code];
-        [self addLayer:filename];
+        if (cabinet.showLegs) {
+            filename = [NSString stringWithFormat:@"%@-%@%@-00-%@", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.legsColor.code];
+            [self addLayer:filename];
+        }
         
         for (int i = 0; i<cabinet.colors.count; i++) {
             IWColor *color = [cabinet.colors objectAtIndex:i];

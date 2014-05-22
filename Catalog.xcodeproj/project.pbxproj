@@ -2625,6 +2625,8 @@
 		4C987115192D717A00D8850E /* Rafael-A-14-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C987113192D717900D8850E /* Rafael-A-14-22-A.png */; };
 		4C9FAC861926392D00587DF2 /* Largo-U-01-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */; };
 		4C9FAC871926392D00587DF2 /* Largo-U-01-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */; };
+		4CA58D6A192DADC5003A68C7 /* IWLegsColorSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA58D69192DADC5003A68C7 /* IWLegsColorSelectorViewController.m */; };
+		4CA58D6C192DAE2B003A68C7 /* IWLegsColorSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA58D6B192DAE2B003A68C7 /* IWLegsColorSelectorViewController.xib */; };
 		4CB792DE192C6BA700325AD9 /* J83-1D-29-F-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */; };
 		4CB792DF192C6BA700325AD9 /* J83-1D-29-F-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7922B192C6BA600325AD9 /* J83-1D-29-F-2.png */; };
 		4CB792E0192C6BA700325AD9 /* J83-1D-30-F-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7922C192C6BA600325AD9 /* J83-1D-30-F-1.png */; };
@@ -7851,6 +7853,9 @@
 		4C987113192D717900D8850E /* Rafael-A-14-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-14-22-A.png"; sourceTree = "<group>"; };
 		4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-A.png"; sourceTree = "<group>"; };
 		4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-B.png"; sourceTree = "<group>"; };
+		4CA58D68192DADC5003A68C7 /* IWLegsColorSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWLegsColorSelectorViewController.h; sourceTree = "<group>"; };
+		4CA58D69192DADC5003A68C7 /* IWLegsColorSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWLegsColorSelectorViewController.m; sourceTree = "<group>"; };
+		4CA58D6B192DAE2B003A68C7 /* IWLegsColorSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWLegsColorSelectorViewController.xib; sourceTree = "<group>"; };
 		4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J83-1D-29-F-1.png"; sourceTree = "<group>"; };
 		4CB7922B192C6BA600325AD9 /* J83-1D-29-F-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J83-1D-29-F-2.png"; sourceTree = "<group>"; };
 		4CB7922C192C6BA600325AD9 /* J83-1D-30-F-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J83-1D-30-F-1.png"; sourceTree = "<group>"; };
@@ -16001,6 +16006,9 @@
 				4C7CCD95192AD9EE00FC0F1D /* IWMultipleSelectorJ193ViewController.h */,
 				4C7CCD96192AD9EE00FC0F1D /* IWMultipleSelectorJ193ViewController.m */,
 				4C7CCD98192ADA2900FC0F1D /* IWMultipleSelectorJ193ViewController.xib */,
+				4CA58D68192DADC5003A68C7 /* IWLegsColorSelectorViewController.h */,
+				4CA58D69192DADC5003A68C7 /* IWLegsColorSelectorViewController.m */,
+				4CA58D6B192DAE2B003A68C7 /* IWLegsColorSelectorViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -20638,6 +20646,7 @@
 				4C87DFB3192030BC008F59F0 /* 55-H02-35-00-F1.png in Resources */,
 				4C87DFAC192030BC008F59F0 /* 55-H02-34-00-F.png in Resources */,
 				4CEEA972191FCEB700C54B67 /* C83-2D-29-F1-2.png in Resources */,
+				4CA58D6C192DAE2B003A68C7 /* IWLegsColorSelectorViewController.xib in Resources */,
 				4CEEACA3191FCEB900C54B67 /* C83-LDD-36-F1-2.png in Resources */,
 				4C87DA52192030BC008F59F0 /* 40-H01-35-00-F2.png in Resources */,
 				4C87DC68192030BC008F59F0 /* 40-H07-30-00-F.png in Resources */,
@@ -21361,6 +21370,7 @@
 				4C87E39C1921B19F008F59F0 /* IWColorSelectorView.m in Sources */,
 				4C87E38D192095C8008F59F0 /* IWMultipleSelectorViewController.m in Sources */,
 				4CEEADA1191FD4A900C54B67 /* IWColor.m in Sources */,
+				4CA58D6A192DADC5003A68C7 /* IWLegsColorSelectorViewController.m in Sources */,
 				4CEEADAB191FD55100C54B67 /* IWDrawerCabinet.m in Sources */,
 				4CEEADA0191FD48C00C54B67 /* IWCabinet.m in Sources */,
 				4CEEAD95191FD0AF00C54B67 /* IWCatalogViewController.m in Sources */,

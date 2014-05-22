@@ -16,6 +16,7 @@
 #import "IWModelSelectorViewController.h"
 #import "IWMultipleSelectorViewController.h"
 #import "IWMultipleSelectorJ193ViewController.h"
+#import "IWLegsColorSelectorViewController.h"
 
 @interface IWModelViewController ()
 
@@ -29,7 +30,7 @@
     IWSelectorViewController *selectorSideView;
     IWMultipleSelectorViewController *selectorDoorsView;
     IWMultipleSelectorViewController *selectorDoorsJ193View;
-    IWSelectorViewController *selectorLegsColorView;
+    IWLegsColorSelectorViewController *selectorLegsColorView;
     IWMultipleSelectorViewController *selectorModule1View;
     IWMultipleSelectorViewController *selectorModule2View;
     IWMultipleSelectorViewController *selectorModule3View;
@@ -105,8 +106,9 @@
         
         [self prepareMultipleSelectorView:selectorDoorsJ193View];
 
-        selectorLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
+        selectorLegsColorView = [[IWLegsColorSelectorViewController alloc] initWithNibName:@"IWLegsColorSelectorViewController" bundle:nil];
         [selectorLegsColorView setPropertyName:@"leg color"];
+        [selectorLegsColorView setCabinet:cabinet];
         [self prepareSelector:selectorLegsColorView withColors:[IWColors cabinetLegColors]];
         
         selectorModule1View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
