@@ -34,7 +34,8 @@
 +(NSArray*) cabinet83Modules;
 +(NSArray*) cabinetC193Sizes;
 +(NSArray*) cabinetStripeColors;
-+(NSArray*) cabinetSideTopColors;
++(NSArray*) cabinetSideColors;
 +(NSArray*) cabinetDrawerColors;
++(NSArray*) cabinetTopColors;
 
 @end

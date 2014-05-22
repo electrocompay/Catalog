@@ -34,7 +34,8 @@ NSArray* _cabinetsColors;
 NSArray* _cabinets83Modules;
 NSArray* _cabinetC193Sizes;
 NSArray* _cabinetStripeColors;
-NSArray* _cabinetSideTopColors;
+NSArray* _cabinetSideColors;
+NSArray* _cabinetTopColors;
 NSArray* _cabinetLegColors;
 NSArray* _cabinetDrawerColors;
 
@@ -346,11 +347,9 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
-                           [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                            [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                           [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                           [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey.jpg"] withCategory:@"Glass"],
                            
                            nil];
     }
@@ -408,10 +407,10 @@ NSArray* _cabinetDrawerColors;
     
 }
 
-+(NSArray *)cabinetSideTopColors
++(NSArray *)cabinetSideColors
 {
-    if (!_cabinetSideTopColors) {
-        _cabinetSideTopColors = [[NSArray alloc] initWithObjects:
+    if (!_cabinetSideColors) {
+        _cabinetSideColors = [[NSArray alloc] initWithObjects:
                                  [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
@@ -425,9 +424,30 @@ NSArray* _cabinetDrawerColors;
                                  nil];
     }
     
-    return _cabinetSideTopColors;
+    return _cabinetSideColors;
+}
+
++(NSArray *)cabinetTopColors
+{
+    if (!_cabinetTopColors) {
+        _cabinetTopColors = [[NSArray alloc] initWithObjects:
+                                 [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
+                             [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
+                             [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
+                             
+                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
+                                 
+                                 nil];
+    }
     
-    
+    return _cabinetTopColors;
 }
 
 +(NSArray *)cabinetLegColors

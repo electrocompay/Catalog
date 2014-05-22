@@ -91,12 +91,13 @@
         
         selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorTopView setPropertyName:@"top color"];
-        [self prepareSelector:selectorTopView withColors:[IWColors cabinetSideTopColors]];
+        [self prepareSelector:selectorTopView withColors:[IWColors cabinetTopColors]];
         [selectorTopView setFilteredItems:cabinet.model.colors];
         
         selectorSideView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorSideView setPropertyName:@"side color"];
-        [self prepareSelector:selectorSideView withColors:[IWColors cabinetSideTopColors]];
+       
+        [self prepareSelector:selectorSideView withColors:[self sideColorsWithoutBrown]];
         [selectorSideView setFilteredItems:cabinet.model.legColors];
         
         selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeNineColors];
@@ -133,6 +134,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(NSArray*)sideColorsWithoutBrown
+{
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetSideColors]];
+    [array removeObjectAtIndex:array.count - 1];
+    return array;
 }
 
 #pragma mark -
@@ -281,6 +289,12 @@
     }
     [tabController setTabWidth:135];
     [tabController setSelectedTabIndex:0 animated:NO];
+    
+    if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"]) {
+        [selectorSideView setItems:[IWColors cabinetSideColors]];
+    } else {
+        [selectorSideView setItems:[self sideColorsWithoutBrown]];
+    }
     [self drawAll];
 }
 

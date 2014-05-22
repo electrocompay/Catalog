@@ -25,7 +25,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        for (IWColor *color in [IWColors cabinetColors]) {
+        for (IWColor *color in [IWColors cabinetTopColors]) {
             if ([color.code isEqualToString:@"34"]) {
                 oldOakProp = color;
             } else if ([color.code isEqualToString:@"35"]) {
