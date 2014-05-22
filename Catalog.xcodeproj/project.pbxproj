@@ -5291,6 +5291,7 @@
 		4CF90FD6192E2CD90048201B /* Splash_Tables_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */; };
 		4CF90FD9192E2CEC0048201B /* Splash_Cabinets_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */; };
 		4CF90FDA192E2CEC0048201B /* Splash_Cabinets_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */; };
+		4CF90FDC192E40410048201B /* Brown@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FDB192E40400048201B /* Brown@2x.jpg */; };
 		4CFB8E9F1923ADE5002C8477 /* joli1-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB8E9D1923ADE5002C8477 /* joli1-76x76.png */; };
 		4CFB8EA01923ADE6002C8477 /* joli1-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB8E9E1923ADE5002C8477 /* joli1-152x152.png */; };
 /* End PBXBuildFile section */
@@ -10559,6 +10560,7 @@
 		4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_2048x1536.png; sourceTree = "<group>"; };
 		4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1024x768.png; sourceTree = "<group>"; };
 		4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_2048x1536.png; sourceTree = "<group>"; };
+		4CF90FDB192E40400048201B /* Brown@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brown@2x.jpg"; sourceTree = "<group>"; };
 		4CFB8E9D1923ADE5002C8477 /* joli1-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joli1-76x76.png"; path = "../../../Downloads/joli1-76x76.png"; sourceTree = "<group>"; };
 		4CFB8E9E1923ADE5002C8477 /* joli1-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joli1-152x152.png"; path = "../../../Downloads/joli1-152x152.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -10716,6 +10718,7 @@
 		4C87CD921920304A008F59F0 /* Cabinet_Old */ = {
 			isa = PBXGroup;
 			children = (
+				4CF90FDB192E40400048201B /* Brown@2x.jpg */,
 				4C87CD931920304A008F59F0 /* 40-B08-29-F.png */,
 				4C87CD941920304A008F59F0 /* 40-B08-29-F1.png */,
 				4C87CD951920304A008F59F0 /* 40-B08-29-F2.png */,
@@ -19798,6 +19801,7 @@
 				4CB79311192C6BA700325AD9 /* J83-2D-31-F-1.png in Resources */,
 				4C87DAFB192030BC008F59F0 /* 40-H03-37-00-F4.png in Resources */,
 				4C87D9EC192030BC008F59F0 /* 40-B11-35-F.png in Resources */,
+				4CF90FDC192E40410048201B /* Brown@2x.jpg in Resources */,
 				4C87DB79192030BC008F59F0 /* 40-H05-29-00-F3.png in Resources */,
 				4C87E004192030BC008F59F0 /* 55-H03-35-00-F.png in Resources */,
 				4CEEA9CE191FCEB700C54B67 /* C83-2D-35-F-1.png in Resources */,
