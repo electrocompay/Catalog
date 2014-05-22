@@ -89,7 +89,7 @@
 -(BOOL)selectionInvalid:(NSInteger)row
 {
     IWColor *color = [_items objectAtIndex:row];
-    return (_left == 1 || _right == 1) && [color.code isEqualToString:@"1,0"];
+    return ((_left == 1 || _right == 1) && [color.code isEqualToString:@"1,0"]) || (_dissableMoreThan1 && row > 1);
 }
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component

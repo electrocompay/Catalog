@@ -171,6 +171,11 @@
     if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 6) {
         [picker5 resetAndDisable];
     }
+    if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 5) {
+        picker5.dissableMoreThan1 = YES;
+    } else {
+        picker5.dissableMoreThan1 = NO;
+    }
     
     picker4.enabled = picker3.selectedIndex > 0;
     picker5.enabled = picker4.selectedIndex > 0;

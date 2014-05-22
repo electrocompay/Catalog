@@ -27,6 +27,7 @@
 @property (nonatomic) NSInteger selectedIndex;
 @property (nonatomic) NSInteger left;
 @property (nonatomic) NSInteger right;
+@property (nonatomic) BOOL dissableMoreThan1;
 
 
 -(void)reloadAllComponents;
