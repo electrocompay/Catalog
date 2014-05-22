@@ -5285,6 +5285,12 @@
 		4CF8100B1923080A008D6D27 /* toogle_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF810091923080A008D6D27 /* toogle_selected.png */; };
 		4CF8100C192309FF008D6D27 /* toggle_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF810081923080A008D6D27 /* toggle_unselected.png */; };
 		4CF8100D192309FF008D6D27 /* toogle_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF810091923080A008D6D27 /* toogle_selected.png */; };
+		4CF90FD0192E2B660048201B /* Splash_Tables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FCF192E2B660048201B /* Splash_Tables.jpg */; };
+		4CF90FD2192E2B840048201B /* Splash_Cabinets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD1192E2B840048201B /* Splash_Cabinets.jpg */; };
+		4CF90FD5192E2CD90048201B /* Splash_Tables_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD3192E2CD90048201B /* Splash_Tables_1024x768.png */; };
+		4CF90FD6192E2CD90048201B /* Splash_Tables_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */; };
+		4CF90FD9192E2CEC0048201B /* Splash_Cabinets_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */; };
+		4CF90FDA192E2CEC0048201B /* Splash_Cabinets_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */; };
 		4CFB8E9F1923ADE5002C8477 /* joli1-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB8E9D1923ADE5002C8477 /* joli1-76x76.png */; };
 		4CFB8EA01923ADE6002C8477 /* joli1-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB8E9E1923ADE5002C8477 /* joli1-152x152.png */; };
 /* End PBXBuildFile section */
@@ -10547,6 +10553,12 @@
 		4CF1EC1019108F2700A39BFB /* IWMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWMenuView.xib; path = Views/IWMenuView.xib; sourceTree = "<group>"; };
 		4CF810081923080A008D6D27 /* toggle_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toggle_unselected.png; sourceTree = "<group>"; };
 		4CF810091923080A008D6D27 /* toogle_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toogle_selected.png; sourceTree = "<group>"; };
+		4CF90FCF192E2B660048201B /* Splash_Tables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash_Tables.jpg; sourceTree = "<group>"; };
+		4CF90FD1192E2B840048201B /* Splash_Cabinets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash_Cabinets.jpg; sourceTree = "<group>"; };
+		4CF90FD3192E2CD90048201B /* Splash_Tables_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_1024x768.png; sourceTree = "<group>"; };
+		4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_2048x1536.png; sourceTree = "<group>"; };
+		4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1024x768.png; sourceTree = "<group>"; };
+		4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_2048x1536.png; sourceTree = "<group>"; };
 		4CFB8E9D1923ADE5002C8477 /* joli1-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joli1-76x76.png"; path = "../../../Downloads/joli1-76x76.png"; sourceTree = "<group>"; };
 		4CFB8E9E1923ADE5002C8477 /* joli1-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joli1-152x152.png"; path = "../../../Downloads/joli1-152x152.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -10661,6 +10673,9 @@
 		4C6DC30018A73E89005007A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CF90FD3192E2CD90048201B /* Splash_Tables_1024x768.png */,
+				4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */,
+				4CF90FCF192E2B660048201B /* Splash_Tables.jpg */,
 				4CFB8E9D1923ADE5002C8477 /* joli1-76x76.png */,
 				4CFB8E9E1923ADE5002C8477 /* joli1-152x152.png */,
 				4C6DC30118A73E89005007A8 /* Catalog-Info.plist */,
@@ -14741,6 +14756,9 @@
 		4CEE9B91191FC21900C54B67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */,
+				4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */,
+				4CF90FD1192E2B840048201B /* Splash_Cabinets.jpg */,
 				4C2DF6E81929F06700707046 /* joli2-76x76.png */,
 				4C2DF6E91929F06700707046 /* joli2-152x152.png */,
 				4CEE9B92191FC21900C54B67 /* Catalog Cabinets-Info.plist */,
@@ -16414,6 +16432,7 @@
 				4CD5D6F6191874E2004C80D1 /* Angelina-S-08-27-B.png in Resources */,
 				4CD5D838191874E2004C80D1 /* Largo-35-00-B.png in Resources */,
 				4CD5D952191874E2004C80D1 /* Princess-U-21-27-B.png in Resources */,
+				4CF90FD5192E2CD90048201B /* Splash_Tables_1024x768.png in Resources */,
 				4CD5D6E0191874E2004C80D1 /* Angelina-AW-15-27-B.png in Resources */,
 				4CD5D766191874E2004C80D1 /* Chateau-00-22-B.png in Resources */,
 				4CD5D813191874E2004C80D1 /* Facet-35-00-A.png in Resources */,
@@ -16437,6 +16456,7 @@
 				4CD5D7D1191874E2004C80D1 /* Ensor-S-16-27-A.png in Resources */,
 				4CD5D720191874E2004C80D1 /* Angelina-W-11-27-B.png in Resources */,
 				4CD5D7B3191874E2004C80D1 /* Elyps-32-00-A.png in Resources */,
+				4CF90FD0192E2B660048201B /* Splash_Tables.jpg in Resources */,
 				4CD5D87F191874E2004C80D1 /* Largo-XL-29-22-AB.png in Resources */,
 				4CD5D704191874E2004C80D1 /* Angelina-S-15-27-B.png in Resources */,
 				4CD5D6C3191874E2004C80D1 /* Angelina-AW-01-27-A.png in Resources */,
@@ -16779,6 +16799,7 @@
 				4CD5D6B7191874E2004C80D1 /* Angelina-A-13-27-A.png in Resources */,
 				4CD5D924191874E2004C80D1 /* Monet-S-18-27-B.png in Resources */,
 				4CD5D800191874E2004C80D1 /* Facet-00-26-B.png in Resources */,
+				4CF90FD6192E2CD90048201B /* Splash_Tables_2048x1536.png in Resources */,
 				4CD5D750191874E2004C80D1 /* Bluco-29-22-BB.png in Resources */,
 				4CEE0F5B18A9CFD200298C60 /* tab_close.png in Resources */,
 				4CD5D916191874E2004C80D1 /* Monet-S-11-27-B.png in Resources */,
@@ -17608,6 +17629,7 @@
 				4C87DDF4192030BC008F59F0 /* 55-B07-29-F2.png in Resources */,
 				4C87E000192030BC008F59F0 /* 55-H03-34-00-F3.png in Resources */,
 				4CEEAC1A191FCEB900C54B67 /* C83-LDD-29-F-1.png in Resources */,
+				4CF90FDA192E2CEC0048201B /* Splash_Cabinets_2048x1536.png in Resources */,
 				4CEEAAFA191FCEB800C54B67 /* C83-3L-33-F2-3.png in Resources */,
 				4C87E02B192030BC008F59F0 /* 55-H04-00-23.png in Resources */,
 				4CEEAC58191FCEB900C54B67 /* C83-LDD-32-F1-3.png in Resources */,
@@ -18183,6 +18205,7 @@
 				4C87D906192030BC008F59F0 /* 40-B09-33-T.png in Resources */,
 				4CB792E6192C6BA700325AD9 /* J83-1D-33-F-1.png in Resources */,
 				4C87DCB1192030BC008F59F0 /* 40-H07-36-00-F7.png in Resources */,
+				4CF90FD9192E2CEC0048201B /* Splash_Cabinets_1024x768.png in Resources */,
 				4CEEACC6191FCEBA00C54B67 /* C83-LDD-39-F-2.png in Resources */,
 				4CEEA955191FCEB700C54B67 /* C83-1Da-39-F-4a.png in Resources */,
 				4C87DCA0192030BC008F59F0 /* 40-H07-35-00-F1.png in Resources */,
@@ -18244,6 +18267,7 @@
 				4C87DDAB192030BC008F59F0 /* 55-B06-30-F.png in Resources */,
 				4C87DE4A192030BC008F59F0 /* 55-B07-38-F6.png in Resources */,
 				4C87E045192030BC008F59F0 /* 55-H04-31-00-F4.png in Resources */,
+				4CF90FD2192E2B840048201B /* Splash_Cabinets.jpg in Resources */,
 				4C87DDD7192030BC008F59F0 /* 55-B06-36-F2.png in Resources */,
 				4CEEAAA5191FCEB700C54B67 /* C83-3L-29-3.png in Resources */,
 				4CEEAC9A191FCEB900C54B67 /* C83-LDD-35-T-2.png in Resources */,

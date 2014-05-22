@@ -139,9 +139,10 @@
         _cabinet.module2.size = picker3.selection;
         picker4.enabled = YES;
         if (picker3.selectedIndex == 0) {
-        [picker4 reset];
-        [picker5 resetAndDisable];
+            [picker4 reset];
+            [picker5 resetAndDisable];
         }
+        
     }
     
     if (pickerViewController == picker4) {
@@ -170,6 +171,9 @@
     if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 6) {
         [picker5 resetAndDisable];
     }
+    
+    picker4.enabled = picker3.selectedIndex > 0;
+    picker5.enabled = picker4.selectedIndex > 0;
     
     [picker2 refresh];
     [picker3 refresh];
