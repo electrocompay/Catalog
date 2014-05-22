@@ -94,9 +94,10 @@
                 [_colors addObject: _color];
             }
             NSInteger ndrawers = [params[1] intValue];
+            IWColor* drawerColor = [self getDefaultDrawerColor];
             [_drawers removeAllObjects];
             for (int i = 0; i < ndrawers; i++) {
-                [_drawers addObject: _color];
+                [_drawers addObject: drawerColor];
             }
         } else {
             [_colors removeAllObjects];
@@ -106,6 +107,17 @@
                  }
         }
     }
+}
+
+-(IWColor*)getDefaultDrawerColor
+{
+    NSArray* colors = [IWColors cabinetColors];
+    for (IWColor *color in colors) {
+        if ([color.code isEqualToString:@"34"]) {
+            return color;
+        }
+    }
+    return _color;
 }
 
 -(IWColor *)top{

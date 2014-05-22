@@ -47,7 +47,7 @@
     } else {
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     [imageView setContentMode:UIViewContentModeScaleAspectFit];
-    imageView.frame = _view.bounds;
+    imageView.frame = CGRectOffset(_view.bounds, 0, 50);
     [_view addSubview:imageView];
     }
 }

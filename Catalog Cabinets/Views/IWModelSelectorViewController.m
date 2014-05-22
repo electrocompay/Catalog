@@ -132,17 +132,7 @@
     
     if (pickerViewController == picker2) {
         _cabinet.size = picker2.selection;
-       /* if (_cabinet.colors.count == 1) {
-            [self removeOneDoor:picker3];
-        } else {
-            [picker3 setItems:[IWColors cabinet83Modules]];
-        }*/
         picker3.enabled = YES;
-        /*if (picker2.selectedIndex == 0) {
-            [picker3 reset];
-            [picker4 resetAndDisable];
-            [picker5 resetAndDisable];
-        }*/
     }
     
     if (pickerViewController == picker3) {

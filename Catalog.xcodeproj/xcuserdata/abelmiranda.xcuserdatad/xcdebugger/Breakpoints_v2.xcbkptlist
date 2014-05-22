@@ -922,11 +922,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Catalog Cabinets/Model/IWCabinet.m"
-            timestampString = "422418290.962459"
+            timestampString = "422426523.72391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "-setSize:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1258,11 +1258,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Catalog Cabinets/Model/IWCabinet.m"
-            timestampString = "422418290.962459"
+            timestampString = "422426523.72391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "-top"
             landmarkType = "5">
          </BreakpointContent>
@@ -1274,11 +1274,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Catalog Cabinets/Model/IWCabinet.m"
-            timestampString = "422418290.962459"
+            timestampString = "422426523.72391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "-top"
             landmarkType = "5">
          </BreakpointContent>
@@ -1914,27 +1914,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Catalog Cabinets/Views/IWModelSelectorViewController.m"
-            timestampString = "422420854.302516"
+            timestampString = "422426141.793461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
-            landmarkName = "-processSelectionModules:didSelectRow:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Catalog Cabinets/Views/IWModelSelectorViewController.m"
-            timestampString = "422419174.881265"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "-processSelectionModules:didSelectRow:"
             landmarkType = "5">
          </BreakpointContent>
