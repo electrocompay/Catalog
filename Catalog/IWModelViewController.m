@@ -247,8 +247,8 @@
 {
     [drawer clear];
 
-    [drawer drawForniture:table];
     [drawerChair drawForniture:chair];
+    [drawer drawForniture:table];
     [thumbDrawerChair setFrontView:!drawer.frontView];
     [thumbDrawer setFrontView:!drawer.frontView];
 

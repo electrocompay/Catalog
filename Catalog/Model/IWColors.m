@@ -33,6 +33,9 @@ NSArray* _cabinet55KSizes;
 NSArray* _cabinetsColors;
 NSArray* _cabinets83Modules;
 NSArray* _cabinetC193Sizes;
+NSArray* _cabinetStripeColors;
+NSArray* _cabinetSideTopColors;
+NSArray* _cabinetLegColors;
 
 @implementation IWColors
 
@@ -134,9 +137,9 @@ NSArray* _cabinetC193Sizes;
                         [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-S" andCode:@"Monet-S-CC-27" andFile:@"Monet-S-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-27" andFile:@"Monet-W-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Moon-U" andCode:@"Moon-U-01-LL" andFile:@"Moon-U-01-22.jpg" andColors:nil andLegColors:@"22"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Moon-U" andCode:@"Moon-U-01-LL" andFile:@"Moon-U-01-22.jpg" andColors:@"01" andLegColors:@"22"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Princess-U" andCode:@"Princess-U-CC-27" andFile:@"Princess-U-19-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,16,42" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,16,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-AW" andCode:@"Renoir-AW-CC-27" andFile:@"Renoir-AW-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
@@ -188,7 +191,8 @@ NSArray* _cabinetC193Sizes;
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 9.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Chrome / Inox" andCode:@"27" andFile:@"Chrome-inox-27.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-inox-27.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
                            nil];
     }
     
@@ -358,12 +362,12 @@ NSArray* _cabinetC193Sizes;
 {
     if (!_cabinets83Modules) {
         _cabinets83Modules = [[NSArray alloc] initWithObjects:
-                           [IWColor colorWithName:@"---" andCode:nil andFile:nil],
-                           [IWColor colorWithName:@"1 door (55x83x50)" andCode:@"1,0" andFile:nil],
-                           [IWColor colorWithName:@"2 door (55x83x50)" andCode:@"2,0" andFile:nil],
-                           [IWColor colorWithName:@"2 door + 1 drawer (55x83x50)" andCode:@"2,1" andFile:nil],
-                           [IWColor colorWithName:@"3 drawers (55x83x50)" andCode:@"0,3" andFile:nil],
-                           nil];
+                              [IWColor colorWithName:@"---" andCode:nil andFile:nil],
+                              [IWColor colorWithName:@"1 door (55x83x50)" andCode:@"1,0" andFile:nil],
+                              [IWColor colorWithName:@"2 door (55x83x50)" andCode:@"2,0" andFile:nil],
+                              [IWColor colorWithName:@"2 door + 1 drawer (55x83x50)" andCode:@"2,1" andFile:nil],
+                              [IWColor colorWithName:@"3 drawers (55x83x50)" andCode:@"0,3" andFile:nil],
+                              nil];
     }
     return _cabinets83Modules;
 }
@@ -372,13 +376,73 @@ NSArray* _cabinetC193Sizes;
 {
     if (!_cabinetC193Sizes) {
         _cabinetC193Sizes = [[NSArray alloc] initWithObjects:
-                              [IWColor colorWithName:@"1 door (55x193x40)" andCode:@"1" andFile:nil],
-                              [IWColor colorWithName:@"2 door (55x193x40)" andCode:@"2" andFile:nil],
+                             [IWColor colorWithName:@"1 door (55x193x40)" andCode:@"1" andFile:nil],
+                             [IWColor colorWithName:@"2 door (55x193x40)" andCode:@"2" andFile:nil],
                              [IWColor colorWithName:@"3 door (55x193x40)" andCode:@"3" andFile:nil],
                              [IWColor colorWithName:@"4 door (55x193x40)" andCode:@"4" andFile:nil],
-                              nil];
+                             nil];
     }
     return _cabinetC193Sizes;
+}
+
++(NSArray *)cabinetStripeColors
+{
+    if (!_cabinetStripeColors) {
+        _cabinetStripeColors = [[NSArray alloc] initWithObjects:
+                                [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
+                                [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
+                                [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
+                                [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
+                                [[IWColor colorWithName:@"No Stripe" andCode:nil andFile:nil] withCategory:@"Glass"],
+                                
+                                nil];
+    }
+    
+    return _cabinetStripeColors;
+    
+}
+
++(NSArray *)cabinetSideTopColors
+{
+    if (!_cabinetSideTopColors) {
+        _cabinetSideTopColors = [[NSArray alloc] initWithObjects:
+                                 [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
+                                 [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
+                                 
+                                 nil];
+    }
+    
+    return _cabinetSideTopColors;
+    
+    
+}
+
++(NSArray *)cabinetLegColors
+{
+    if (!_cabinetLegColors) {
+        _cabinetLegColors = [[NSArray alloc] initWithObjects:
+                           [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 9.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
+                           nil];
+    }
+    
+    return _cabinetLegColors;
 }
 
 @end

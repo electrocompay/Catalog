@@ -30,7 +30,10 @@
 +(NSArray*) cabinet55KSizes;
 
 +(NSArray*) cabinetColors;
++(NSArray*) cabinetLegColors;
 +(NSArray*) cabinet83Modules;
 +(NSArray*) cabinetC193Sizes;
++(NSArray*) cabinetStripeColors;
++(NSArray*) cabinetSideTopColors;
 
 @end

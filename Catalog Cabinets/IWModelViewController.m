@@ -88,13 +88,13 @@
         selectorModelView.view.frame = tabContent.bounds;
         
         selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-        [selectorTopView setPropertyName:@"table color"];
-        [self prepareSelector:selectorTopView withColors:[IWColors tableColors]];
+        [selectorTopView setPropertyName:@"top color"];
+        [self prepareSelector:selectorTopView withColors:[IWColors cabinetSideTopColors]];
         [selectorTopView setFilteredItems:cabinet.model.colors];
         
         selectorSideView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorSideView setPropertyName:@"side color"];
-        [self prepareSelector:selectorSideView withColors:[IWColors tableColors]];
+        [self prepareSelector:selectorSideView withColors:[IWColors cabinetSideTopColors]];
         [selectorSideView setFilteredItems:cabinet.model.legColors];
         
         selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeNineColors];
@@ -107,7 +107,7 @@
 
         selectorLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorLegsColorView setPropertyName:@"leg color"];
-        [self prepareSelector:selectorLegsColorView withColors:[IWColors tableLegColors]];
+        [self prepareSelector:selectorLegsColorView withColors:[IWColors cabinetLegColors]];
         
         selectorModule1View = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeModuleColors];
         [self prepareMultipleSelectorView:selectorModule1View];

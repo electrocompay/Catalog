@@ -80,6 +80,9 @@
 {
     button.selected = YES;
     [self updateButton];
+    if (_delegate) {
+        [_delegate colorSelectorView:self didSelection:self];
+    }
 }
 
 -(void)unSelect
@@ -103,7 +106,5 @@
     _enabled = enabled;
     [self updateButton];
 }
-
-
 
 @end

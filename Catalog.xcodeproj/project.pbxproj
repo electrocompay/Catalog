@@ -26,8 +26,6 @@
 		4C629689192BC22D00C224EE /* Chrome-Inox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967B192BC22D00C224EE /* Chrome-Inox.jpg */; };
 		4C62968A192BC22D00C224EE /* Light Grey 617.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967C192BC22D00C224EE /* Light Grey 617.jpg */; };
 		4C62968B192BC22D00C224EE /* Light Grey 617.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967C192BC22D00C224EE /* Light Grey 617.jpg */; };
-		4C62968C192BC22D00C224EE /* Matilux Carrara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967D192BC22D00C224EE /* Matilux Carrara.jpg */; };
-		4C62968D192BC22E00C224EE /* Matilux Carrara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967D192BC22D00C224EE /* Matilux Carrara.jpg */; };
 		4C62968E192BC22E00C224EE /* Nutella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967E192BC22D00C224EE /* Nutella.jpg */; };
 		4C62968F192BC22E00C224EE /* Nutella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C62967E192BC22D00C224EE /* Nutella.jpg */; };
 		4C6DC2FA18A73E89005007A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6DC2F918A73E89005007A8 /* Foundation.framework */; };
@@ -2621,6 +2619,10 @@
 		4C87E3A41921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */; };
 		4C98710D192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
 		4C98710E192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
+		4C987110192D62C700D8850E /* Matrilux Carara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C98710F192D62C700D8850E /* Matrilux Carara.jpg */; };
+		4C987111192D62C700D8850E /* Matrilux Carara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C98710F192D62C700D8850E /* Matrilux Carara.jpg */; };
+		4C987114192D717A00D8850E /* Rafael-A-14-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C987112192D717900D8850E /* Rafael-A-14-22-B.png */; };
+		4C987115192D717A00D8850E /* Rafael-A-14-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C987113192D717900D8850E /* Rafael-A-14-22-A.png */; };
 		4C9FAC861926392D00587DF2 /* Largo-U-01-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */; };
 		4C9FAC871926392D00587DF2 /* Largo-U-01-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */; };
 		4CB792DE192C6BA700325AD9 /* J83-1D-29-F-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */; };
@@ -2842,7 +2844,6 @@
 		4CD5D1491917CBEF004C80D1 /* Grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C0081917CBDD004C80D1 /* Grey.jpg */; };
 		4CD5D14A1917CBEF004C80D1 /* Igrey 617.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C0091917CBDD004C80D1 /* Igrey 617.jpg */; };
 		4CD5D14B1917CBEF004C80D1 /* Lipstick 80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C00A1917CBDD004C80D1 /* Lipstick 80.jpg */; };
-		4CD5D14C1917CBEF004C80D1 /* Matrilux Carara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C00B1917CBDD004C80D1 /* Matrilux Carara.jpg */; };
 		4CD5D14D1917CBEF004C80D1 /* Mocca 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C00C1917CBDD004C80D1 /* Mocca 29.jpg */; };
 		4CD5D14E1917CBEF004C80D1 /* Nutella 58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C00D1917CBDD004C80D1 /* Nutella 58.jpg */; };
 		4CD5D14F1917CBEF004C80D1 /* Old Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C00E1917CBDD004C80D1 /* Old Oak.jpg */; };
@@ -5254,7 +5255,6 @@
 		4C62967A192BC22D00C224EE /* Caltatta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Caltatta.jpg; sourceTree = "<group>"; };
 		4C62967B192BC22D00C224EE /* Chrome-Inox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrome-Inox.jpg"; sourceTree = "<group>"; };
 		4C62967C192BC22D00C224EE /* Light Grey 617.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light Grey 617.jpg"; sourceTree = "<group>"; };
-		4C62967D192BC22D00C224EE /* Matilux Carrara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Matilux Carrara.jpg"; sourceTree = "<group>"; };
 		4C62967E192BC22D00C224EE /* Nutella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nutella.jpg; sourceTree = "<group>"; };
 		4C6DC2F618A73E89005007A8 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6DC2F918A73E89005007A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -7846,6 +7846,9 @@
 		4C87E3A31921C62D008F59F0 /* IWColorsPanelFourDoorsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWColorsPanelFourDoorsView.xib; sourceTree = "<group>"; };
 		4C98710B192C837E00D8850E /* IWMyQLPreviewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWMyQLPreviewControllerViewController.h; sourceTree = "<group>"; };
 		4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWMyQLPreviewControllerViewController.m; sourceTree = "<group>"; };
+		4C98710F192D62C700D8850E /* Matrilux Carara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Matrilux Carara.jpg"; sourceTree = "<group>"; };
+		4C987112192D717900D8850E /* Rafael-A-14-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-14-22-B.png"; sourceTree = "<group>"; };
+		4C987113192D717900D8850E /* Rafael-A-14-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-14-22-A.png"; sourceTree = "<group>"; };
 		4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-A.png"; sourceTree = "<group>"; };
 		4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-U-01-22-B.png"; sourceTree = "<group>"; };
 		4CB7922A192C6BA600325AD9 /* J83-1D-29-F-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J83-1D-29-F-1.png"; sourceTree = "<group>"; };
@@ -8071,7 +8074,6 @@
 		4CD5C0081917CBDD004C80D1 /* Grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grey.jpg; sourceTree = "<group>"; };
 		4CD5C0091917CBDD004C80D1 /* Igrey 617.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Igrey 617.jpg"; sourceTree = "<group>"; };
 		4CD5C00A1917CBDD004C80D1 /* Lipstick 80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lipstick 80.jpg"; sourceTree = "<group>"; };
-		4CD5C00B1917CBDD004C80D1 /* Matrilux Carara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Matrilux Carara.jpg"; sourceTree = "<group>"; };
 		4CD5C00C1917CBDD004C80D1 /* Mocca 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mocca 29.jpg"; sourceTree = "<group>"; };
 		4CD5C00D1917CBDD004C80D1 /* Nutella 58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nutella 58.jpg"; sourceTree = "<group>"; };
 		4CD5C00E1917CBDD004C80D1 /* Old Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Oak.jpg"; sourceTree = "<group>"; };
@@ -13350,13 +13352,13 @@
 		4CD5BFF11917CBDD004C80D1 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				4C98710F192D62C700D8850E /* Matrilux Carara.jpg */,
 				4C629677192BC22D00C224EE /* Antracite 605.jpg */,
 				4C629678192BC22D00C224EE /* Black 90.jpg */,
 				4C629679192BC22D00C224EE /* Blue Stone.jpg */,
 				4C62967A192BC22D00C224EE /* Caltatta.jpg */,
 				4C62967B192BC22D00C224EE /* Chrome-Inox.jpg */,
 				4C62967C192BC22D00C224EE /* Light Grey 617.jpg */,
-				4C62967D192BC22D00C224EE /* Matilux Carrara.jpg */,
 				4C62967E192BC22D00C224EE /* Nutella.jpg */,
 				4CD5BFF21917CBDD004C80D1 /* 0001.jpg */,
 				4CD5BFF31917CBDD004C80D1 /* Antraciet 25.jpg */,
@@ -13383,7 +13385,6 @@
 				4CD5C0081917CBDD004C80D1 /* Grey.jpg */,
 				4CD5C0091917CBDD004C80D1 /* Igrey 617.jpg */,
 				4CD5C00A1917CBDD004C80D1 /* Lipstick 80.jpg */,
-				4CD5C00B1917CBDD004C80D1 /* Matrilux Carara.jpg */,
 				4CD5C00C1917CBDD004C80D1 /* Mocca 29.jpg */,
 				4CD5C00D1917CBDD004C80D1 /* Nutella 58.jpg */,
 				4CD5C00E1917CBDD004C80D1 /* Old Oak.jpg */,
@@ -13412,6 +13413,8 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				4C987112192D717900D8850E /* Rafael-A-14-22-B.png */,
+				4C987113192D717900D8850E /* Rafael-A-14-22-A.png */,
 				4C9FAC841926392C00587DF2 /* Largo-U-01-22-A.png */,
 				4C9FAC851926392D00587DF2 /* Largo-U-01-22-B.png */,
 				4CD5DAD919188137004C80D1 /* Wings-29-22-A.png */,
@@ -16395,7 +16398,6 @@
 				4CD5D9E8191874E2004C80D1 /* Renoir-S-10-27-B.png in Resources */,
 				4CD5D6F3191874E2004C80D1 /* Angelina-S-07-27-A.png in Resources */,
 				4CD5DA2B191874E2004C80D1 /* Van Gogh-A-08-28-A.png in Resources */,
-				4CD5D14C1917CBEF004C80D1 /* Matrilux Carara.jpg in Resources */,
 				4CD5D888191874E2004C80D1 /* Largo-XL-33-00-B.png in Resources */,
 				4CD5DA4E191874E2004C80D1 /* Van Gogh-S-12-28-B.png in Resources */,
 				4CD5D940191874E2004C80D1 /* Monet-W-14-27-B.png in Resources */,
@@ -16785,6 +16787,7 @@
 				4CD5D71C191874E2004C80D1 /* Angelina-W-09-27-B.png in Resources */,
 				4CD5D6C1191874E2004C80D1 /* Angelina-A-18-27-A.png in Resources */,
 				4CD5D789191874E2004C80D1 /* Chrominox-29-27-B.png in Resources */,
+				4C987115192D717A00D8850E /* Rafael-A-14-22-A.png in Resources */,
 				4CD5D920191874E2004C80D1 /* Monet-S-16-27-B.png in Resources */,
 				4CD5D84A191874E2004C80D1 /* Largo-U-00-26-B.png in Resources */,
 				4CD5DA2D191874E2004C80D1 /* Van Gogh-A-09-28-A.png in Resources */,
@@ -16825,7 +16828,6 @@
 				4CD5D9B3191874E2004C80D1 /* Renoir-AW-02-27-A.png in Resources */,
 				4CD5D15D1917CBEF004C80D1 /* Wine red 18.jpg in Resources */,
 				4CD5D78E191874E2004C80D1 /* Chrominox-31-27-B.png in Resources */,
-				4C62968C192BC22D00C224EE /* Matilux Carrara.jpg in Resources */,
 				4CD5D835191874E2004C80D1 /* Largo-34-00-A.png in Resources */,
 				4CD5D7CF191874E2004C80D1 /* Ensor-S-15-27-A.png in Resources */,
 				4CD5D7A2191874E2004C80D1 /* Elyps-00-23-B.png in Resources */,
@@ -17029,6 +17031,7 @@
 				4CD5D906191874E2004C80D1 /* Monet-S-03-27-B.png in Resources */,
 				4CD5DA08191874E2004C80D1 /* Renoir-W-08-27-B.png in Resources */,
 				4CD5D886191874E2004C80D1 /* Largo-XL-32-00-B.png in Resources */,
+				4C987110192D62C700D8850E /* Matrilux Carara.jpg in Resources */,
 				4CD5D8F3191874E2004C80D1 /* Monet-AW-12-27-A.png in Resources */,
 				4CD5D728191874E2004C80D1 /* Angelina-W-15-27-B.png in Resources */,
 				4CD5D9CB191874E2004C80D1 /* Renoir-AW-14-27-A.png in Resources */,
@@ -17062,6 +17065,7 @@
 				4CD5D14E1917CBEF004C80D1 /* Nutella 58.jpg in Resources */,
 				4CD5D1521917CBEF004C80D1 /* Smoke Oak.jpg in Resources */,
 				4CD5D6AC191874E2004C80D1 /* Angelina-A-07-27-B.png in Resources */,
+				4C987114192D717A00D8850E /* Rafael-A-14-22-B.png in Resources */,
 				4CD5D935191874E2004C80D1 /* Monet-W-09-27-A.png in Resources */,
 				4CD5D6DA191874E2004C80D1 /* Angelina-AW-12-27-B.png in Resources */,
 				4CD5D901191874E2004C80D1 /* Monet-S-01-27-A.png in Resources */,
@@ -17379,6 +17383,7 @@
 				4CEEAAF3191FCEB800C54B67 /* C83-3L-33-F-2.png in Resources */,
 				4C87DF31192030BC008F59F0 /* 55-B09-38-F8.png in Resources */,
 				4C87DE75192030BC008F59F0 /* 55-B08-32-F2.png in Resources */,
+				4C987111192D62C700D8850E /* Matrilux Carara.jpg in Resources */,
 				4C87E099192030BC008F59F0 /* 55-H05-30-00-T.png in Resources */,
 				4C87D957192030BC008F59F0 /* 40-B10-31-F6.png in Resources */,
 				4C87DD45192030BC008F59F0 /* 40-K13-37-S.png in Resources */,
@@ -19344,7 +19349,6 @@
 				4C87DD22192030BC008F59F0 /* 40-K13-31-T.png in Resources */,
 				4C87E146192030BC008F59F0 /* 55-K11-35-T.png in Resources */,
 				4C87D9D8192030BC008F59F0 /* 40-B11-33-F4.png in Resources */,
-				4C62968D192BC22E00C224EE /* Matilux Carrara.jpg in Resources */,
 				4C87E102192030BC008F59F0 /* 55-K10-35-F.png in Resources */,
 				4C87D8A6192030BC008F59F0 /* 40-B08-32-T.png in Resources */,
 				4CEEA957191FCEB700C54B67 /* C83-1Da-39-T-4.png in Resources */,

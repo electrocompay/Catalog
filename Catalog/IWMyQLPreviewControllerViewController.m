@@ -48,7 +48,7 @@
 
 -(BOOL)shouldAutorotate
 {
-    return YES;
+    return UIInterfaceOrientationIsLandscape(self.interfaceOrientation);
 }
 
 -(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
