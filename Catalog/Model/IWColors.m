@@ -146,8 +146,8 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Renoir-AW" andCode:@"Renoir-AW-CC-27" andFile:@"Renoir-AW-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-W" andCode:@"Renoir-W-CC-27" andFile:@"Renoir-W-01-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:nil andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:nil andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
                         
                         nil];
     }

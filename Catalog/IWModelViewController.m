@@ -228,6 +228,15 @@
     } else if (selectorViewController == selectorChairModelView)
     {
         [chair setModel:(IWModel*) color];
+        NSArray* legsColors = [IWColors chairLegColors];
+        IWColor *wood = [legsColors objectAtIndex:legsColors.count - 1];
+        if ([color.code rangeOfString:@"Van Gogh"].location != NSNotFound) {
+            wood.file = @"Wood VG.jpg";
+            [selectorChairLegsColorView setItems:legsColors];
+        } else {
+            wood.file = @"Wood.jpg";
+            [selectorChairLegsColorView setItems:legsColors];
+        }
     } else if (selectorViewController == selectorChairColorView)
     {
         [chair setColor:color];
