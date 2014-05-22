@@ -55,10 +55,12 @@
     table = [[IWTable alloc] init];
     drawer = [[IWDrawerTable alloc] init];
     drawer.view = content;
+    drawer.offsetY = 50;
     
     chair = [[IWChair alloc] init];
     drawerChair = [[IWDrawerChair alloc] init];
     drawerChair.view = content;
+    drawerChair.offsetY = 50;
     
     thumbView = [[UIView alloc] init];
     thumbView.frame = selectorView.frame;

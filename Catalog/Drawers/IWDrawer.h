@@ -17,5 +17,6 @@
 
 @property UIView* view;
 @property BOOL frontView;
+@property NSInteger offsetY;
 
 @end

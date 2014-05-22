@@ -58,6 +58,7 @@
     cabinet = [[IWCabinet alloc] init];
     drawer = [[IWDrawerCabinet alloc] init];
     drawer.view = content;
+    drawer.offsetY = 50;
     
     thumbView = [[UIView alloc] init];
     thumbView.frame = selectorView.frame;

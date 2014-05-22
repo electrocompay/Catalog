@@ -17,6 +17,7 @@
     
     if (self) {
         _frontView = YES;
+        _offsetY = 0;
     }
     
     return self;
@@ -47,7 +48,7 @@
     } else {
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     [imageView setContentMode:UIViewContentModeScaleAspectFit];
-    imageView.frame = CGRectOffset(_view.bounds, 0, 50);
+    imageView.frame = CGRectOffset(_view.bounds, 0, _offsetY);
     [_view addSubview:imageView];
     }
 }
