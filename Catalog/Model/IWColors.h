@@ -35,5 +35,6 @@
 +(NSArray*) cabinetC193Sizes;
 +(NSArray*) cabinetStripeColors;
 +(NSArray*) cabinetSideTopColors;
++(NSArray*) cabinetDrawerColors;
 
 @end

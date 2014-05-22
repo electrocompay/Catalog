@@ -15,11 +15,12 @@
 @protocol IWColorsPanelViewDelegate <NSObject>
 
 -(void) didChange:(IWColorsPanelView*)colorsPanelView;
+-(void) didChange:(IWColorsPanelView*)colorsPanelView didSelectButton:(NSInteger)tag;
 
 @end
 
 
-@interface IWColorsPanelView : UIView
+@interface IWColorsPanelView : UIView<IWColorSelectorViewDelegate>
 
 +(IWColorsPanelView*)colorsPanelNineDoors;
 +(IWColorsPanelView*)colorsPanelFourDoors;

@@ -219,5 +219,17 @@
     marker.hidden = scrollView.contentOffset.x == scrollView.contentSize.width - scrollView.bounds.size.width;
 }
 
+-(void)didChange:(IWColorsPanelView *)colorsPanelView didSelectButton:(NSInteger)tag
+{
+    if (_mode == MultipleSelectorModeModuleColors) {
+        if (tag < 2) {
+            [self setItems:[IWColors cabinetColors]];
+        } else if (tag < 5){
+            [self setItems:[IWColors cabinetDrawerColors]];
+        } else {
+            [self setItems:[IWColors cabinetStripeColors]];
+        }
+    }
+}
 
 @end

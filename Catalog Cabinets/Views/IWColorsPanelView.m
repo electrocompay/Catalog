@@ -39,6 +39,20 @@
         container = [[[NSBundle mainBundle] loadNibNamed:nibName owner:self options:nil] objectAtIndex:0];
         [self addSubview:container];
         self.frame = container.frame;
+        
+        picDrawer1.delegate = self;
+        picDrawer2.delegate = self;
+        picDrawer3.delegate = self;
+        door1.delegate = self;
+        door2.delegate = self;
+        door3.delegate = self;
+        door4.delegate = self;
+        door5.delegate = self;
+        door6.delegate = self;
+        door7.delegate = self;
+        door8.delegate = self;
+        door9.delegate = self;
+        stripe.delegate = self;
     }
     return self;
 }
@@ -252,6 +266,13 @@
     _oneSelectionMode = oneSelectionMode;
     [_cabinet setOneColorMode:_oneSelectionMode];
     [self updateLayout];
+}
+
+-(void)colorSelectorView:(IWColorSelectorView *)colorSelectorView didSelection:(UIView *)view
+{
+    if (_delegate) {
+        [_delegate didChange:self didSelectButton:view.tag];
+    }
 }
 
 @end

@@ -36,6 +36,7 @@ NSArray* _cabinetC193Sizes;
 NSArray* _cabinetStripeColors;
 NSArray* _cabinetSideTopColors;
 NSArray* _cabinetLegColors;
+NSArray* _cabinetDrawerColors;
 
 @implementation IWColors
 
@@ -443,6 +444,27 @@ NSArray* _cabinetLegColors;
     }
     
     return _cabinetLegColors;
+}
+
++(NSArray *)cabinetDrawerColors
+{
+    if (!_cabinetDrawerColors) {
+        _cabinetDrawerColors = [[NSArray alloc] initWithObjects:
+                           [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Melamine"],
+                           [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Melamine"],
+                           [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
+                           [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
+                           [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                           
+                           nil];
+    }
+    
+    return _cabinetDrawerColors;
 }
 
 @end
