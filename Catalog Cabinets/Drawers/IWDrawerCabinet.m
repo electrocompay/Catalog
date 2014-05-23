@@ -144,6 +144,7 @@
 
         if ([cabinet.model.code isEqualToString:@"C193"]) {
             filename = [NSString stringWithFormat:@"%@-%dD-29-T%@-1", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
+            [self addLayer:filename];
         }
         
         for (int i = 0; i<cabinet.colors.count; i++) {
