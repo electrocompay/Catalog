@@ -100,7 +100,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                         [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                        [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                        [[IWColor colorWithName:@"Matilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                         
                         nil];
     }
@@ -479,7 +479,7 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Melamine"],
                            [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                           [[IWColor colorWithName:@"Matrilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                           [[IWColor colorWithName:@"Matilux" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                            
                            nil];
     }

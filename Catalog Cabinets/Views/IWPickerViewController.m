@@ -8,6 +8,7 @@
 
 #import "IWPickerViewController.h"
 #import "IWColor.h"
+#import "IWStrokeLabel.h"
 
 @interface IWPickerViewController ()
 
@@ -67,19 +68,29 @@
 {
     UILabel *pickerLabel = (UILabel *)view;
     
+    IWStrokeLabel *stroke;
     if (pickerLabel == nil) {
         CGRect frame = CGRectMake(0.0, 0.0, pickerView.bounds.size.width, 32);
         pickerLabel = [[UILabel alloc] initWithFrame:frame] ;
         [pickerLabel setBackgroundColor:[UIColor clearColor]];
         [pickerLabel setFont:[UIFont boldSystemFontOfSize:14]];
         [pickerLabel setTextAlignment:NSTextAlignmentCenter];
+        stroke = [[IWStrokeLabel alloc] init];
+        [pickerLabel addSubview:stroke];
+        stroke.frame = pickerLabel.bounds;
+    } else {
+        stroke = pickerLabel.subviews[0];
     }
     
+    
     if ([self selectionInvalid:row]) {
-        [pickerLabel setTextColor:[UIColor redColor]];
+        stroke.hidden = NO;
+        pickerLabel.textColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1];
     } else {
-        [pickerLabel setTextColor:[UIColor blackColor]];
+        stroke.hidden = YES;
+        pickerLabel.textColor = [UIColor blackColor];
     }
+    
     IWColor *color = [_items objectAtIndex:row];
     [pickerLabel setText:color.name];
     
