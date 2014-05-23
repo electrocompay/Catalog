@@ -91,7 +91,7 @@
         
         selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorTopView setPropertyName:@"top color"];
-        [self prepareSelector:selectorTopView withColors:[IWColors cabinetTopColors]];
+        [self prepareSelector:selectorTopView withColors:[self topColorsWithoutBrown]];
         [selectorTopView setFilteredItems:cabinet.model.colors];
         
         selectorSideView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
@@ -139,6 +139,13 @@
 -(NSArray*)sideColorsWithoutBrown
 {
     NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetSideColors]];
+    [array removeObjectAtIndex:array.count - 1];
+    return array;
+}
+
+-(NSArray*)topColorsWithoutBrown
+{
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetTopColors]];
     [array removeObjectAtIndex:array.count - 1];
     return array;
 }
@@ -290,10 +297,12 @@
     [tabController setTabWidth:135];
     [tabController setSelectedTabIndex:0 animated:NO];
     
-    if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"]) {
+    if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"] || [cabinet.model.code isEqualToString:@"C193"] ) {
         [selectorSideView setItems:[IWColors cabinetSideColors]];
+        [selectorTopView setItems:[IWColors cabinetTopColors]];
     } else {
         [selectorSideView setItems:[self sideColorsWithoutBrown]];
+        [selectorTopView setItems:[self topColorsWithoutBrown]];
     }
     [self drawAll];
 }

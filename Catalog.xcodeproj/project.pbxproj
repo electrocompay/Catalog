@@ -201,6 +201,10 @@
 		4C1F92D5192F1B0000AAB2E1 /* Wood-28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F91C1192F172B00AAB2E1 /* Wood-28.jpg */; };
 		4C1F92D6192F1B0000AAB2E1 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F91C2192F172B00AAB2E1 /* Wood.jpg */; };
 		4C1F92D7192F1B0000AAB2E1 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F91C3192F172B00AAB2E1 /* Wood@2x.jpg */; };
+		4C1F92DA192F6C7400AAB2E1 /* No Stripe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */; };
+		4C1F92DB192F6C7400AAB2E1 /* No Stripe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */; };
+		4C1F92DC192F6C7400AAB2E1 /* No Stripe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */; };
+		4C1F92DD192F6C7400AAB2E1 /* No Stripe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */; };
 		4C2DF6EA1929F06700707046 /* joli2-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DF6E81929F06700707046 /* joli2-76x76.png */; };
 		4C2DF6EB1929F06700707046 /* joli2-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DF6E91929F06700707046 /* joli2-152x152.png */; };
 		4C3FC0C21913318300A7DEF2 /* IWTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FC0C11913318300A7DEF2 /* IWTriangle.m */; };
@@ -5491,6 +5495,8 @@
 		4C1F91C1192F172B00AAB2E1 /* Wood-28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood-28.jpg"; sourceTree = "<group>"; };
 		4C1F91C2192F172B00AAB2E1 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
 		4C1F91C3192F172B00AAB2E1 /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood@2x.jpg"; sourceTree = "<group>"; };
+		4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "No Stripe.jpg"; sourceTree = "<group>"; };
+		4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "No Stripe@2x.jpg"; sourceTree = "<group>"; };
 		4C2DF6E81929F06700707046 /* joli2-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joli2-76x76.png"; sourceTree = "<group>"; };
 		4C2DF6E91929F06700707046 /* joli2-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joli2-152x152.png"; sourceTree = "<group>"; };
 		4C3FC0C01913318300A7DEF2 /* IWTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWTriangle.h; path = Views/IWTriangle.h; sourceTree = "<group>"; };
@@ -10683,6 +10689,8 @@
 		4C1F9167192F172A00AAB2E1 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */,
+				4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */,
 				4C1F9168192F172A00AAB2E1 /* 0001.jpg */,
 				4C1F9169192F172A00AAB2E1 /* Antraciet 25.jpg */,
 				4C1F916A192F172A00AAB2E1 /* Antraciet 25@2x.jpg */,
@@ -16637,6 +16645,7 @@
 				4CD5D862191874E2004C80D1 /* Largo-U-11-00-B.png in Resources */,
 				4CD5D8F0191874E2004C80D1 /* Monet-AW-10-27-B.png in Resources */,
 				4CD5D8E1191874E2004C80D1 /* Monet-AW-03-27-A.png in Resources */,
+				4C1F92DA192F6C7400AAB2E1 /* No Stripe.jpg in Resources */,
 				4CD5D7AF191874E2004C80D1 /* Elyps-30-00-A.png in Resources */,
 				4CD5D9DC191874E2004C80D1 /* Renoir-S-04-27-B.png in Resources */,
 				4C1F9204192F172B00AAB2E1 /* Chrome-inox-27.jpg in Resources */,
@@ -17263,6 +17272,7 @@
 				4CD5D956191874E2004C80D1 /* Propeller-00-23-B.png in Resources */,
 				4CD5DA6D191874E2004C80D1 /* Wings-37-00-A.png in Resources */,
 				4CD5DA0D191874E2004C80D1 /* Renoir-W-11-27-A.png in Resources */,
+				4C1F92DC192F6C7400AAB2E1 /* No Stripe@2x.jpg in Resources */,
 				4CD5D77A191874E2004C80D1 /* Chateau-33-00-B.png in Resources */,
 				4CD5D9EF191874E2004C80D1 /* Renoir-S-14-27-A.png in Resources */,
 				4CD5DAB61918773E004C80D1 /* Wings-29-22.jpg in Resources */,
@@ -20572,6 +20582,7 @@
 				4CB7935E192C6BA700325AD9 /* J83-3La-36-F-4.png in Resources */,
 				4CB79369192C6BA700325AD9 /* J83-LDD-30-F-2.png in Resources */,
 				4C87E0B7192030BC008F59F0 /* 55-H05-34-00-F5.png in Resources */,
+				4C1F92DB192F6C7400AAB2E1 /* No Stripe.jpg in Resources */,
 				4C87DFBF192030BC008F59F0 /* 55-H02-37-00-F1.png in Resources */,
 				4C87D9C7192030BC008F59F0 /* 40-B11-31-T.png in Resources */,
 				4C87DF9A192030BC008F59F0 /* 55-H02-31-00-F.png in Resources */,
@@ -21276,6 +21287,7 @@
 				4CEEA8F4191FCEB600C54B67 /* C83-1D-40-F-2.png in Resources */,
 				4C87D99D192030BC008F59F0 /* 40-B10-39-F4.png in Resources */,
 				4C87E0BD192030BC008F59F0 /* 55-H05-35-00-F3.png in Resources */,
+				4C1F92DD192F6C7400AAB2E1 /* No Stripe@2x.jpg in Resources */,
 				4CB79359192C6BA700325AD9 /* J83-3La-32-F-3a.png in Resources */,
 				4C87E19A192030BC008F59F0 /* 55-K12-38-F2.png in Resources */,
 				4CEEAAB8191FCEB800C54B67 /* C83-3L-30-3.png in Resources */,

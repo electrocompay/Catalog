@@ -398,7 +398,7 @@ NSArray* _cabinetDrawerColors;
                                 [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                                 [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
                                 [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
-                                [[IWColor colorWithName:@"No Stripe" andCode:nil andFile:nil] withCategory:@"Glass"],
+                                [[IWColor colorWithName:@"No Stripe" andCode:nil andFile:@"No Stripe.jpg"] withCategory:@"Glass"],
                                 
                                 nil];
     }
