@@ -20,14 +20,18 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" image="catalog2.png" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Tl-J8B" userLabel="catalog2">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Tl-J8B" userLabel="catalog2">
                     <rect key="frame" x="524" y="151" width="460" height="347"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <connections>
                         <outletCollection property="gestureRecognizers" destination="kiE-oE-r25" appends="YES" id="U0Y-rA-TVm"/>
                     </connections>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="catalog1.png" translatesAutoresizingMaskIntoConstraints="NO" id="IuU-S1-SOl" userLabel="catalog1">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="catalog2.png" translatesAutoresizingMaskIntoConstraints="NO" id="vam-kx-V9U">
+                    <rect key="frame" x="791" y="284" width="137" height="180"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="cat1.png" translatesAutoresizingMaskIntoConstraints="NO" id="IuU-S1-SOl" userLabel="catalog1">
                     <rect key="frame" x="20" y="151" width="460" height="347"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <connections>
@@ -45,13 +49,17 @@
                         <outletCollection property="gestureRecognizers" destination="QRV-cX-zNj" appends="YES" id="Z5C-8S-EJq"/>
                     </connections>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Categories" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XC-zT-DYO">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catalogues" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XC-zT-DYO">
                     <rect key="frame" x="58" y="116" width="92" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="catalog1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TfN-KD-2iv">
+                    <rect key="frame" x="289" y="284" width="137" height="180"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -74,6 +82,8 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
+        <image name="cat1.png" width="653" height="474"/>
+        <image name="cat2.png" width="655" height="476"/>
         <image name="catalog1.png" width="866" height="1169"/>
         <image name="catalog2.png" width="866" height="1169"/>
         <image name="catalogue_close.png" width="208" height="44"/>

@@ -275,13 +275,13 @@
     }
     if (cabinet.useModules) {
         if (cabinet.size && cabinet.size.code)
-            [tabController addTabWithTitle:@"4. Module 1"];
+            [tabController addTabWithTitle:@"4. M1 Color"];
         if (cabinet.module2.size && cabinet.module2.size.code)
-            [tabController addTabWithTitle:@"5. Module 2"];
+            [tabController addTabWithTitle:@"5. M2 Color"];
         if (cabinet.module3.size && cabinet.module3.size.code)
-            [tabController addTabWithTitle:@"6. Module 3"];
+            [tabController addTabWithTitle:@"6. M3 Color"];
         if (cabinet.module4.size && cabinet.module4.size.code)
-            [tabController addTabWithTitle:@"7. Module 4"];
+            [tabController addTabWithTitle:@"7. M4 Color"];
         [selectorModule1View setCabinet:cabinet];
         [selectorModule2View setCabinet:cabinet.module2];
         [selectorModule3View setCabinet:cabinet.module3];

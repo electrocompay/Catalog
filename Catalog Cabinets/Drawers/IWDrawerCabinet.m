@@ -43,6 +43,10 @@
     }
     NSString* filename;
 
+    filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"F", @"", position, strSufix];
+    filename = [filename stringByReplacingOccurrencesOfString:@"F-" withString:@""];
+    [self addLayer:filename];
+
     if ([cabinet.size.code isEqualToString:@"1,0"] || [cabinet.size.code isEqualToString:@"2,0"]) {
         for (int i = 0; i < cabinet.colors.count; i++) {
             IWColor *color = [cabinet.colors objectAtIndex:i];
@@ -76,17 +80,19 @@
     
     filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"T", @"", position, strSufix];
     [self addLayer:filename];
+
+    
     filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.side.code, @"S", @"", position, strSufix];
     [self addLayer:filename];
 
-    filename = [NSString stringWithFormat:@"%@-%dD%@-%@-T-%d%@", modelCode, cabinet.colors.count, strSufix, cabinet.top.code, position, strSufix];
+  /*  filename = [NSString stringWithFormat:@"%@-%dD%@-%@-T-%d%@", modelCode, cabinet.colors.count, strSufix, cabinet.top.code, position, strSufix];
     [self addLayer:filename];
     filename = [NSString stringWithFormat:@"%@-%dD%@-%@-S-%d%@", modelCode, cabinet.colors.count, strSufix, cabinet.side.code, position, strSufix];
-    [self addLayer:filename];
-    filename = [NSString stringWithFormat:@"%@-%dL%@-%@-T-%d%@", modelCode, cabinet.drawers.count, strSufix, cabinet.top.code, position, strSufix];
+    [self addLayer:filename];*/
+  /*  filename = [NSString stringWithFormat:@"%@-%dL%@-%@-T-%d%@", modelCode, cabinet.drawers.count, strSufix, cabinet.top.code, position, strSufix];
     [self addLayer:filename];
     filename = [NSString stringWithFormat:@"%@-%dL%@-%@-S-%d%@", modelCode, cabinet.drawers.count, strSufix, cabinet.side.code, position, strSufix];
-    [self addLayer:filename];
+    [self addLayer:filename];*/
     
     if (cabinet.useStripe) {
         filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F-%d%@", cabinet.model.code, cabinet.colors.count, strSufix, cabinet.stripe.code, position, strSufix];
@@ -105,11 +111,10 @@
     if (cabinet.useModules) {
         BOOL sufix = NO;
         sufix = cabinet.module2.colors.count == 1;
+        [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
         [self drawCabinet:cabinet.module3 InPosition:3 andSufix:sufix];
         [self drawCabinet:cabinet.module2 InPosition:2 andSufix:NO];
-        [self drawCabinet:cabinet InPosition:1 andSufix:FALSE];
-        sufix = cabinet.module2.colors.count == 1 ;
-        [self drawCabinet:cabinet.module4 InPosition:4 andSufix:sufix];
+        [self drawCabinet:cabinet InPosition:1 andSufix:NO];
         
     } else {
         

@@ -161,24 +161,34 @@
     _cabinet.module3.size = picker4.selection;
     _cabinet.module4.size = picker5.selection;
     picker2.left = 0;
-    picker2.right = _cabinet.module2.colors.count;
-    picker3.left = _cabinet.colors.count;
-    picker3.right = _cabinet.module3.colors.count;
-    picker4.left = _cabinet.module2.colors.count;
-    picker4.right = _cabinet.module4.colors.count;
-    picker5.left = _cabinet.module3.colors.count;
+    
+    
+    NSInteger weight1 =  _cabinet.drawers.count > 0 ? 2 : _cabinet.colors.count;
+    NSInteger weight2 =  _cabinet.module2.drawers.count > 0 ? 2 : _cabinet.module2.colors.count;
+    NSInteger weight3 =  _cabinet.module3.drawers.count > 0 ? 2 : _cabinet.module3.colors.count;
+    NSInteger weight4 =  _cabinet.module4.drawers.count > 0 ? 2 : _cabinet.module4.colors.count;
+    
+    picker2.right = weight2;
+    picker3.left = weight1;
+    picker3.right = weight3;
+    picker4.left = weight2;
+    picker4.right = weight4;
+    picker5.left = weight3;
     picker5.right = 0;
-    if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 6) {
-        [picker5 resetAndDisable];
-    }
-    if (_cabinet.colors.count + _cabinet.module2.colors.count + _cabinet.module3.colors.count == 5) {
+    if (weight1 + weight2 + weight3 == 5) {
         picker5.dissableMoreThan1 = YES;
+        if (picker5.left == 1) {
+            [picker5 resetAndDisable];
+        }
     } else {
         picker5.dissableMoreThan1 = NO;
     }
     
     picker4.enabled = picker3.selectedIndex > 0;
-    picker5.enabled = picker4.selectedIndex > 0;
+    picker5.enabled = picker4.selectedIndex > 0 && !(picker5.dissableMoreThan1 && picker5.left == 1);
+    if (weight1 + weight2 + weight3 == 6) {
+        [picker5 resetAndDisable];
+    }
     
     [picker2 refresh];
     [picker3 refresh];
@@ -206,7 +216,7 @@
 
 -(void)setModeCosYJoli83
 {
-    [picker2 setTitle:@"Module 1"];
+    [picker2 setTitle:@"M1 - Module 1"];
     NSMutableArray *array = [NSMutableArray arrayWithArray:[IWColors cabinet83Modules]];
     [array removeObjectAtIndex:0];
     [picker2 setItems:array];
@@ -216,10 +226,10 @@
 
     [picker2 setSelection:[array objectAtIndex:0]];
     [self processSelectionModules:picker2 didSelectRow:picker2.selection];
-    [picker3 setTitle:@"Module 2"];
+    [picker3 setTitle:@"M2 - Module 2"];
 //    [self removeOneDoor:picker3];
-    [picker4 setTitle:@"Module 3"];
-    [picker5 setTitle:@"Module 4"];
+    [picker4 setTitle:@"M3 - Module 3"];
+    [picker5 setTitle:@"M4 - Module 4"];
     [picker4 setHidden:NO];
     [picker5 setHidden:NO];
 }

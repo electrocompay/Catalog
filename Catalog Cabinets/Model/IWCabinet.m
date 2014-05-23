@@ -111,13 +111,7 @@
 
 -(IWColor*)getDefaultDrawerColor
 {
-    NSArray* colors = [IWColors cabinetColors];
-    for (IWColor *color in colors) {
-        if ([color.code isEqualToString:@"34"]) {
-            return color;
-        }
-    }
-    return _color;
+    return [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"];
 }
 
 -(IWColor *)top{

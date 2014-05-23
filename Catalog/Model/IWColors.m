@@ -93,7 +93,7 @@ NSArray* _cabinetDrawerColors;
         _tableColors = [[NSArray alloc] initWithObjects:
                         [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
                         [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic (3 mm)"],
+                        [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
                         [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                         [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                         [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
@@ -236,13 +236,13 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet40HSizes) {
         _cabinet40HSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (2/80x40x40)" andCode:@"01" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (3/120x40x40)" andCode:@"02" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (4/160x40x40)" andCode:@"03" andFile:nil] ,
-                            [IWColor colorWithName:@"5 doors (3+2/200x40x40)" andCode:@"04" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (3+3/240x40x40)" andCode:@"05" andFile:nil] ,
-                            [IWColor colorWithName:@"7 doors (4+3/280x40x40)" andCode:@"06" andFile:nil] ,
-                            [IWColor colorWithName:@"8 doors (4+4/320x40x40)" andCode:@"07" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"01" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"02" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"03" andFile:nil] ,
+                            [IWColor colorWithName:@"5 doors (200x40x40)" andCode:@"04" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (240x40x40)" andCode:@"05" andFile:nil] ,
+                            [IWColor colorWithName:@"7 doors (280x40x40)" andCode:@"06" andFile:nil] ,
+                            [IWColor colorWithName:@"8 doors (320x40x40)" andCode:@"07" andFile:nil] ,
                             nil];
     }
     
@@ -254,10 +254,10 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet40BSizes) {
         _cabinet40BSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"4 doors (2/80x40x40)" andCode:@"08" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (3/120x40x40)" andCode:@"09" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (4/160x40x40)" andCode:@"10" andFile:nil] ,
-                            [IWColor colorWithName:@"9 doors (3+2/200x40x40)" andCode:@"11" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (80x40x40)" andCode:@"08" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (120x40x40)" andCode:@"09" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (160x40x40)" andCode:@"10" andFile:nil] ,
+                            [IWColor colorWithName:@"9 doors (200x40x40)" andCode:@"11" andFile:nil] ,
                             nil];
     }
     
@@ -269,9 +269,9 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet40KSizes) {
         _cabinet40KSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (2/80x40x40)" andCode:@"12" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (3/120x40x40)" andCode:@"13" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (4/160x40x40)" andCode:@"14" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"12" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"13" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"14" andFile:nil] ,
                             nil];
     }
     
@@ -297,11 +297,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55HSizes) {
         _cabinet55HSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (2/80x40x40)" andCode:@"01" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (3/120x40x40)" andCode:@"02" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (4/160x40x40)" andCode:@"03" andFile:nil] ,
-                            [IWColor colorWithName:@"5 doors (3+2/200x40x40)" andCode:@"04" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (3+3/240x40x40)" andCode:@"05" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"01" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"02" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"03" andFile:nil] ,
+                            [IWColor colorWithName:@"5 doors (200x40x40)" andCode:@"04" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (240x40x40)" andCode:@"05" andFile:nil] ,
                             nil];
     }
     
@@ -313,10 +313,10 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55BSizes) {
         _cabinet55BSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"4 doors (2/80x40x40)" andCode:@"06" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (3/120x40x40)" andCode:@"07" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (4/160x40x40)" andCode:@"08" andFile:nil] ,
-                            [IWColor colorWithName:@"9 doors (3+2/200x40x40)" andCode:@"09" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (80x40x40)" andCode:@"06" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (120x40x40)" andCode:@"07" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (160x40x40)" andCode:@"08" andFile:nil] ,
+                            [IWColor colorWithName:@"9 doors (200x40x40)" andCode:@"09" andFile:nil] ,
                             nil];
     }
     
@@ -328,9 +328,9 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55KSizes) {
         _cabinet55KSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (2/80x40x40)" andCode:@"10" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (3/120x40x40)" andCode:@"11" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (4/160x40x40)" andCode:@"12" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"10" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"11" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"12" andFile:nil] ,
                             nil];
     }
     
@@ -344,7 +344,7 @@ NSArray* _cabinetDrawerColors;
         _cabinetsColors = [[NSArray alloc] initWithObjects:
                            [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
@@ -391,7 +391,7 @@ NSArray* _cabinetDrawerColors;
         _cabinetStripeColors = [[NSArray alloc] initWithObjects:
                                 [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
                                 [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
-                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic"],
                                 [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
                                 [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
@@ -413,7 +413,7 @@ NSArray* _cabinetDrawerColors;
         _cabinetSideColors = [[NSArray alloc] initWithObjects:
                                  [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
-                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
@@ -433,7 +433,7 @@ NSArray* _cabinetDrawerColors;
         _cabinetTopColors = [[NSArray alloc] initWithObjects:
                                  [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic"],
-                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic"],
+                                 [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic"],
                                  [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic"],
                              [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
@@ -472,7 +472,7 @@ NSArray* _cabinetDrawerColors;
         _cabinetDrawerColors = [[NSArray alloc] initWithObjects:
                            [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue_stone.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni grey.jpg"] withCategory:@"Ceramic (3 mm)"],
                            [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Melamine"],

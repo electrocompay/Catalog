@@ -131,7 +131,7 @@
     if (subviews.count > 0) {
         optionView = [subviews objectAtIndex:0];
         [optionView setSelected:YES];
-        [self setSelection:optionView.tag];
+ //       [self setSelection:optionView.tag];
         scrollView.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
     }
     [self updateMarkers];
