@@ -141,6 +141,7 @@
         if (picker3.selectedIndex == 0) {
             [picker4 reset];
             [picker5 resetAndDisable];
+            _cabinet.module4.size = picker5.selection;
         }
         
     }
@@ -149,7 +150,8 @@
         _cabinet.module3.size = picker4.selection;
         picker5.enabled = YES;
         if (picker4.selectedIndex == 0) {
-        [picker5 reset];
+            [picker5 reset];
+            _cabinet.module4.size = picker5.selection;
         }
     }
     
@@ -179,6 +181,7 @@
         picker5.dissableMoreThan1 = YES;
         if (picker5.left == 1) {
             [picker5 resetAndDisable];
+            _cabinet.module4.size = picker5.selection;
         }
     } else {
         picker5.dissableMoreThan1 = NO;
@@ -188,6 +191,7 @@
     picker5.enabled = picker4.selectedIndex > 0 && !(picker5.dissableMoreThan1 && picker5.left == 1);
     if (weight1 + weight2 + weight3 == 6) {
         [picker5 resetAndDisable];
+        _cabinet.module4.size = picker5.selection;
     }
     
     [picker2 refresh];
