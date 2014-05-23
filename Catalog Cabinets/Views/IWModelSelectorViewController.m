@@ -231,7 +231,6 @@
     [picker2 setSelection:[array objectAtIndex:0]];
     [self processSelectionModules:picker2 didSelectRow:picker2.selection];
     [picker3 setTitle:@"M2 - Module 2"];
-//    [self removeOneDoor:picker3];
     [picker4 setTitle:@"M3 - Module 3"];
     [picker5 setTitle:@"M4 - Module 4"];
     [picker4 setHidden:NO];
