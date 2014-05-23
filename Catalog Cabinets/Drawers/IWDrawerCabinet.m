@@ -141,7 +141,10 @@
         
         filename = [NSString stringWithFormat:@"%@-%@%@-%@", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.legsColor.code];
         [self addLayer:filename];
-        
+
+        if ([cabinet.model.code isEqualToString:@"C193"]) {
+            filename = [NSString stringWithFormat:@"%@-%dD-29-T%@-1", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
+        }
         
         for (int i = 0; i<cabinet.colors.count; i++) {
             IWColor *color = [cabinet.colors objectAtIndex:i];
