@@ -31821,7 +31821,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: IndianWebs (5P98465S8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog Cabinets/Catalog Cabinets-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -31832,6 +31833,7 @@
 				INFOPLIST_FILE = "Catalog Cabinets/Catalog Cabinets-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73125D7C-F24E-412C-A1D4-1718B1F83845";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -31841,13 +31843,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: IndianWebs (5P98465S8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog Cabinets/Catalog Cabinets-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Catalog Cabinets/Catalog Cabinets-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73125D7C-F24E-412C-A1D4-1718B1F83845";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
