@@ -246,6 +246,11 @@
             } else {
                 [selectorChairColorView setItems:[IWColors chairColors]];
             }
+            if (index == 19 || index == 20) {
+                [selectorChairColorView setItems:[self colorsRemoveIndex:[IWColors chairColors] index:15]];
+            } else {
+                [selectorChairColorView setItems:[IWColors chairColors]];
+            }
         }
     } else if (selectorViewController == selectorChairColorView)
     {
@@ -258,7 +263,7 @@
             } else if ([color.code isEqualToString:@"18"]) {
                 chair.model.legColors = [@"26" componentsSeparatedByString:@","];
             } else if ([color.code isEqualToString:@"42"]) {
-                chair.model.legColors = [@"24" componentsSeparatedByString:@","];
+                chair.model.legColors = [@"23" componentsSeparatedByString:@","];
             }
         }
         [selectorChairLegsColorView setFilteredItems:chair.model.legColors];
@@ -384,10 +389,10 @@
 {
     UIImage* image = [self captureViewFrom:content];
     
-    UIImageWriteToSavedPhotosAlbum(image, nil, @selector(saveCompletion:), nil);
+    UIImageWriteToSavedPhotosAlbum(image, self, @selector(saveCompletion:didFinishSavingWithError:contextInfo:), nil);
 }
 
--(void)saveCompletion:(id)sender
+- (void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
 {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
