@@ -116,9 +116,9 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet 25.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-inox-27.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
                            nil];
     }
@@ -137,18 +137,18 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-27" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,16,15,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Ensor-A" andCode:@"Ensor-A-CC-27" andFile:@"Ensor-A-14-27.jpg" andColors:@"14,16,15,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Largo-U" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Moon-U" andCode:@"Moon-U-01-LL" andFile:@"Moon-U-01-22.jpg" andColors:@"01" andLegColors:@"22,27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-S" andCode:@"Monet-S-CC-27" andFile:@"Monet-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-A" andCode:@"Monet-A-CC-27" andFile:@"Monet-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-27" andFile:@"Monet-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Moon-U" andCode:@"Moon-U-01-LL" andFile:@"Moon-U-01-22.jpg" andColors:@"01" andLegColors:@"22,27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Princess-U" andCode:@"Princess-U-CC-27" andFile:@"Princess-U-19-27.jpg" andColors:@"19,20,21" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,18,42" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-W" andCode:@"Renoir-W-CC-27" andFile:@"Renoir-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-AW" andCode:@"Renoir-AW-CC-27" andFile:@"Renoir-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Princess-U" andCode:@"Princess-U-CC-27" andFile:@"Princess-U-19-27.jpg" andColors:@"19,20,21" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,15" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,15" andLegColors:@"28"] withCategory:@"model"],
                         nil];
@@ -198,7 +198,7 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet 25.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-inox.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
                            nil];
     }

@@ -27,4 +27,6 @@
 @property (nonatomic, strong) NSString* propertyName;
 @property (nonatomic, strong) NSString* headerTitle;
 
+-(void)setSelection:(NSInteger)index;
+
 @end

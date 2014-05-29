@@ -15,6 +15,7 @@
 #import "IWColors.h"
 #import "IWMenuView.h"
 #import "IWCatalogViewController.h"
+#import "NSArray+color.h"
 
 @interface IWModelViewController ()
 
@@ -249,6 +250,20 @@
     } else if (selectorViewController == selectorChairColorView)
     {
         [chair setColor:color];
+        if ([chair.model.name isEqualToString:@"Rafael-A"]) {
+            if ([color.code isEqualToString:@"14"]) {
+                chair.model.legColors = [@"22" componentsSeparatedByString:@","];
+            } else if ([color.code isEqualToString:@"15"]) {
+                chair.model.legColors =  [@"23" componentsSeparatedByString:@","];
+            } else if ([color.code isEqualToString:@"18"]) {
+                chair.model.legColors = [@"26" componentsSeparatedByString:@","];
+            } else if ([color.code isEqualToString:@"42"]) {
+                chair.model.legColors = [@"24" componentsSeparatedByString:@","];
+            }
+        }
+        [selectorChairLegsColorView setFilteredItems:chair.model.legColors];
+        [selectorChairLegsColorView setItems:[IWColors chairLegColors]];
+
     } else if (selectorViewController == selectorChairLegsColorView)
     {
         [chair setLegsColor:color];
@@ -328,8 +343,7 @@
         switch (optionIndex) {
             case 0: //Save
             {
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-                [alert show];
+                [self generateJPG];
             }
                 break;
             case 1: //Print
@@ -370,7 +384,13 @@
 {
     UIImage* image = [self captureViewFrom:content];
     
-    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    UIImageWriteToSavedPhotosAlbum(image, nil, @selector(saveCompletion:), nil);
+}
+
+-(void)saveCompletion:(id)sender
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 -(void)displayComposerSheet
