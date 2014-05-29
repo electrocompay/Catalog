@@ -16,19 +16,19 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VsW-hN-aH6">
-                    <rect key="frame" x="0.0" y="140" width="1024" height="628"/>
+                    <rect key="frame" x="0.0" y="250" width="1024" height="628"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Tl-J8B" userLabel="catalog2">
-                    <rect key="frame" x="524" y="151" width="460" height="347"/>
+                    <rect key="frame" x="524" y="276" width="460" height="347"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <connections>
                         <outletCollection property="gestureRecognizers" destination="kiE-oE-r25" appends="YES" id="U0Y-rA-TVm"/>
                     </connections>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="cat1.png" translatesAutoresizingMaskIntoConstraints="NO" id="IuU-S1-SOl" userLabel="catalog1">
-                    <rect key="frame" x="20" y="151" width="460" height="347"/>
+                    <rect key="frame" x="20" y="276" width="460" height="347"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <connections>
                         <outletCollection property="gestureRecognizers" destination="4kV-Ss-V1S" appends="YES" id="mQC-hv-ZYQ"/>
@@ -38,17 +38,24 @@
                     <rect key="frame" x="20" y="32" width="155" height="75"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="catalogue_close.png" translatesAutoresizingMaskIntoConstraints="NO" id="UUa-6K-q37" userLabel="close">
-                    <rect key="frame" x="26" y="88" width="143" height="77"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" fixedFrame="YES" image="tab_selected.png" translatesAutoresizingMaskIntoConstraints="NO" id="UUa-6K-q37" userLabel="close">
+                    <rect key="frame" x="20" y="207" width="165" height="43"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <connections>
                         <outletCollection property="gestureRecognizers" destination="QRV-cX-zNj" appends="YES" id="Z5C-8S-EJq"/>
                     </connections>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catalogues" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XC-zT-DYO">
-                    <rect key="frame" x="58" y="116" width="92" height="21"/>
+                    <rect key="frame" x="62" y="218" width="92" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVE-Yh-TKc">
+                    <rect key="frame" x="41" y="218" width="15" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -76,7 +83,7 @@
     <resources>
         <image name="cat1.png" width="653" height="474"/>
         <image name="cat2.png" width="653" height="474"/>
-        <image name="catalogue_close.png" width="208" height="44"/>
         <image name="logo.png" width="181" height="91"/>
+        <image name="tab_selected.png" width="126" height="25"/>
     </resources>
 </document>

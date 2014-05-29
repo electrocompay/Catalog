@@ -312,8 +312,7 @@
         switch (optionIndex) {
             case 0: //Save
             {
-                NSString* pdfFilename = [self generatePDF];
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"File Saved" message:[NSString stringWithFormat:@"File %@ saved Successfully", pdfFilename] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
                 [alert show];
             }
                 break;
@@ -351,27 +350,11 @@
     }
 }
 
--(NSString*)generatePDF
+-(void)generateJPG
 {
-    // assume this exists and is in some writable place, like Documents
-    
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex:0];
-    NSString* pdfFilename = [documentsDirectory stringByAppendingPathComponent:@"catalog.pdf"];
-    
-    // Create the PDF context
-    UIGraphicsBeginPDFContextToFile(pdfFilename, CGRectZero, nil); // default page size
-    UIGraphicsBeginPDFPageWithInfo(CGRectZero, nil);
-    
-    // Draw the UIImage -- I think PDF contexts are flipped, so you may have to
-    // set a transform -- see the documentation link below if your image draws
-    // upside down
     UIImage* image = [self captureViewFrom:content];
-    [image drawAtPoint:CGPointZero];
     
-    // Ending the context will automatically save the PDF file to the filename
-    UIGraphicsEndPDFContext();
-    return pdfFilename;
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
 }
 
 -(void)displayComposerSheet
