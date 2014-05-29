@@ -237,6 +237,15 @@
             wood.file = @"Wood.jpg";
             [selectorChairLegsColorView setItems:legsColors];
         }
+        
+        NSInteger index = [[IWColors chairModels] indexOfObject:color];
+        if (index >= 0) {
+            if (index == 4 || index == 5 || index==13 || index==14) {
+                [selectorChairColorView setItems:[self colorsRemoveIndex:[IWColors chairColors] index:12]];
+            } else {
+                [selectorChairColorView setItems:[IWColors chairColors]];
+            }
+        }
     } else if (selectorViewController == selectorChairColorView)
     {
         [chair setColor:color];
@@ -245,6 +254,13 @@
         [chair setLegsColor:color];
     }
     [self drawAll];
+}
+
+-(NSArray*)colorsRemoveIndex:(NSArray*)colors index:(NSInteger)index
+{
+    NSMutableArray *array = [NSMutableArray arrayWithArray:colors];
+    [array removeObjectAtIndex:index];
+    return array;
 }
 
 - (IBAction)changeView_Click:(id)sender
