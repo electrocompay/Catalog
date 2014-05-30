@@ -444,7 +444,9 @@ NSArray* _cabinetDrawerColors;
                              [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                              [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
                              
-                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
+                             [[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Ceramic (12 mm)"],
+
+                             [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                                  [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                                  [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
                                  [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
@@ -462,7 +464,7 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Antraciet" andCode:@"25" andFile:@"Antraciet 25.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
                            nil];

@@ -29,6 +29,7 @@
 @property (nonatomic, retain)IWCabinet* cabinet;
 @property (nonatomic, weak) id<IWColorsPanelViewDelegate> delegate;
 @property (nonatomic) BOOL oneSelectionMode;
+@property (nonatomic, readonly) IWColorSelectorView *selectedView;
 
 -(void)setColorToSelection:(IWColor*)color;
 

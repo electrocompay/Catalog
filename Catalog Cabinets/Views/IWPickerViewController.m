@@ -70,11 +70,13 @@
     
     IWStrokeLabel *stroke;
     if (pickerLabel == nil) {
-        CGRect frame = CGRectMake(0.0, 0.0, pickerView.bounds.size.width, 32);
+        CGRect frame = CGRectMake(0.0, 0.0, pickerView.bounds.size.width, 32 * 2);
         pickerLabel = [[UILabel alloc] initWithFrame:frame] ;
         [pickerLabel setBackgroundColor:[UIColor clearColor]];
         [pickerLabel setFont:[UIFont boldSystemFontOfSize:14]];
         [pickerLabel setTextAlignment:NSTextAlignmentCenter];
+        [pickerLabel setLineBreakMode:NSLineBreakByWordWrapping];
+        pickerLabel.numberOfLines = 2;
         stroke = [[IWStrokeLabel alloc] init];
         [pickerLabel addSubview:stroke];
         stroke.frame = pickerLabel.bounds;

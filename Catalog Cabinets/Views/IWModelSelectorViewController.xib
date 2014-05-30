@@ -21,23 +21,23 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G2G-5P-Rw4" userLabel="PickerModel" customClass="IWPickerViewController">
-                    <rect key="frame" x="20" y="0.0" width="170" height="192"/>
+                    <rect key="frame" x="14" y="0.0" width="170" height="192"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZP-Lw-9pP" userLabel="PickerModel" customClass="IWPickerViewController">
-                    <rect key="frame" x="220" y="0.0" width="170" height="192"/>
+                    <rect key="frame" x="230" y="0.0" width="170" height="192"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgY-go-IJH" userLabel="PickerModel" customClass="IWPickerViewController">
-                    <rect key="frame" x="420" y="0.0" width="170" height="192"/>
+                    <rect key="frame" x="430" y="0.0" width="170" height="192"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAR-ga-EVx" userLabel="PickerModel" customClass="IWPickerViewController">
-                    <rect key="frame" x="620" y="0.0" width="170" height="192"/>
+                    <rect key="frame" x="630" y="0.0" width="170" height="192"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIm-vl-B5t" userLabel="PickerModel" customClass="IWPickerViewController">
-                    <rect key="frame" x="820" y="0.0" width="170" height="192"/>
+                    <rect key="frame" x="830" y="0.0" width="170" height="192"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DQA-9c-lN4">

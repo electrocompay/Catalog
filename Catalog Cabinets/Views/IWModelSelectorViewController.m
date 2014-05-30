@@ -60,7 +60,7 @@
     }
     
     if (![_cabinet.model.code isEqualToString:@"C193"]) {
-        picker3.frame = CGRectMake(420, 0, picker3.bounds.size.width, picker3.bounds.size.height);
+        picker3.frame = CGRectMake(430, 0, picker3.bounds.size.width, picker3.bounds.size.height);
         [picker2 setHidden:NO];
     }
     if (_delegate) {

@@ -43,7 +43,7 @@
     }
     NSString* filename;
 
-    filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"F", @"", position, strSufix];
+    filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, @"29", @"F", @"", position, strSufix];
     filename = [filename stringByReplacingOccurrencesOfString:@"F-" withString:@""];
     [self addLayer:filename];
 
@@ -85,15 +85,6 @@
     filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.side.code, @"S", @"", position, strSufix];
     [self addLayer:filename];
 
-  /*  filename = [NSString stringWithFormat:@"%@-%dD%@-%@-T-%d%@", modelCode, cabinet.colors.count, strSufix, cabinet.top.code, position, strSufix];
-    [self addLayer:filename];
-    filename = [NSString stringWithFormat:@"%@-%dD%@-%@-S-%d%@", modelCode, cabinet.colors.count, strSufix, cabinet.side.code, position, strSufix];
-    [self addLayer:filename];*/
-  /*  filename = [NSString stringWithFormat:@"%@-%dL%@-%@-T-%d%@", modelCode, cabinet.drawers.count, strSufix, cabinet.top.code, position, strSufix];
-    [self addLayer:filename];
-    filename = [NSString stringWithFormat:@"%@-%dL%@-%@-S-%d%@", modelCode, cabinet.drawers.count, strSufix, cabinet.side.code, position, strSufix];
-    [self addLayer:filename];*/
-    
     if (cabinet.useStripe) {
         filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F-%d%@", cabinet.model.code, cabinet.colors.count, strSufix, cabinet.stripe.code, position, strSufix];
         [self addLayer:filename];
@@ -143,7 +134,7 @@
         [self addLayer:filename];
 
         if ([cabinet.model.code isEqualToString:@"C193"]) {
-            filename = [NSString stringWithFormat:@"%@-%dD-29-T%@", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
+            filename = [NSString stringWithFormat:@"%@-%dD-29-T%@", cabinet.model.code, cabinet.colors.count, @"34"];
             [self addLayer:filename];
         }
         

@@ -270,6 +270,7 @@
 
 -(void)colorSelectorView:(IWColorSelectorView *)colorSelectorView didSelection:(UIView *)view
 {
+    _selectedView = (IWColorSelectorView*) view;
     if (_delegate) {
         [_delegate didChange:self didSelectButton:view.tag];
     }

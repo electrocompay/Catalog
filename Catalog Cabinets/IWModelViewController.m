@@ -66,7 +66,7 @@
     thumbDrawer = [[IWDrawerCabinet alloc] init];
     thumbDrawer.view = thumbView;
     
-    tabController= [[BrowserTabView alloc] initWithTabTitles:[NSArray arrayWithObjects:@"1. Model",@"2. Top",@"3. Side", @"4. Doors", nil] andDelegate:self];
+    tabController= [[BrowserTabView alloc] initWithTabTitles:[NSArray arrayWithObjects:@"1. Model",@"2. Top color",@"3. Side color", @"4. Door color", nil] andDelegate:self];
     [tabController setBackgroundImage:nil];
     [tabController setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
     [self.tabContainer addSubview:tabController];
@@ -109,7 +109,7 @@
         [self prepareMultipleSelectorView:selectorDoorsJ193View];
 
         selectorLegsColorView = [[IWLegsColorSelectorViewController alloc] initWithNibName:@"IWLegsColorSelectorViewController" bundle:nil];
-        [selectorLegsColorView setPropertyName:@"leg color"];
+        [selectorLegsColorView setPropertyName:@"Leg color"];
         [selectorLegsColorView setCabinet:cabinet];
         [self prepareSelector:selectorLegsColorView withColors:[IWColors cabinetLegColors]];
         
@@ -275,10 +275,10 @@
     [tabController removeTabAtIndex:4 animated:NO];
     [tabController removeTabAtIndex:3 animated:NO];
     if (cabinet.useDoors) {
-        [tabController addTabWithTitle:@"4. Doors"];
+        [tabController addTabWithTitle:@"4. Door color"];
     }
     if (cabinet.hasLegs) {
-        [tabController addTabWithTitle:@"5. Legs"];
+        [tabController addTabWithTitle:@"5. Leg color"];
     }
     if (cabinet.useModules) {
         if (cabinet.size && cabinet.size.code)
@@ -353,8 +353,6 @@
             case 0: //Save
             {
                 [self generateJPG];
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-                [alert show];
             }
                 break;
             case 1: //Print
@@ -419,7 +417,13 @@
 {
     UIImage* image = [self captureViewFrom:content];
     
-    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    UIImageWriteToSavedPhotosAlbum(image, self, @selector(saveCompletion:didFinishSavingWithError:contextInfo:), nil);
+}
+
+- (void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 -(void)displayComposerSheet

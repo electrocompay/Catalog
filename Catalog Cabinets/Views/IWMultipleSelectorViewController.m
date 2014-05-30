@@ -11,6 +11,7 @@
 #import "IWOptionView.h"
 #import "IWColorsPanelView.h"
 #import "IWColors.h"
+#import "NSArray+color.h"
 
 @interface IWMultipleSelectorViewController ()
 
@@ -223,12 +224,27 @@
 {
     if (_mode == MultipleSelectorModeModuleColors) {
         if (tag < 2) {
-            [self setItems:[IWColors cabinetColors]];
+            NSArray *items = [IWColors cabinetColors];
+            if (items != _items) {
+                [self setItems:[IWColors cabinetColors]];
+            }
         } else if (tag < 5){
-            [self setItems:[IWColors cabinetDrawerColors]];
+            NSArray *items = [IWColors cabinetDrawerColors];
+            if (items != _items) {
+                [self setItems:[IWColors cabinetDrawerColors]];
+            }
         } else {
-            [self setItems:[IWColors cabinetStripeColors]];
+            NSArray *items = [IWColors cabinetStripeColors];
+            if (items != _items) {
+                [self setItems:[IWColors cabinetStripeColors]];
+            }
         }
+        
+    }
+    IWColor * color = [_items colorByCode:colorsPanelView.selectedView.color.code];
+    NSInteger index = [_items indexOfObject:color];
+    if (index < _items.count) {
+        [self setSelection: index];
     }
 }
 
