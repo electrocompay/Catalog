@@ -164,7 +164,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"White 10" andCode:@"01" andFile:@"White 10.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Beige 110" andCode:@"02" andFile:@"Beige 110.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Lipstick 80" andCode:@"03" andFile:@"Lipstick 80.jpg"] withCategory:@"Leather color"],
-                        [[IWColor colorWithName:@"Wine Red 18" andCode:@"04" andFile:@"Wine red 18.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Wine Red 18" andCode:@"04" andFile:@"Wine Red 18.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Black 08" andCode:@"10" andFile:@"Black 08.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Taupe 27" andCode:@"05" andFile:@"Taupe 27.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Nutella 58" andCode:@"06" andFile:@"Nutella.jpg"] withCategory:@"Leather color"],

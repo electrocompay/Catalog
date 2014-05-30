@@ -244,6 +244,10 @@
 		4C7CCD99192ADA2900FC0F1D /* IWMultipleSelectorJ193ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CCD98192ADA2900FC0F1D /* IWMultipleSelectorJ193ViewController.xib */; };
 		4C7CCD9C192AE1A500FC0F1D /* radio_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CCD9A192AE1A500FC0F1D /* radio_unselected.png */; };
 		4C7CCD9D192AE1A500FC0F1D /* radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CCD9B192AE1A500FC0F1D /* radio_selected.png */; };
+		4C82F8FA1938129900433F4A /* Van Gogh-S-15-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C82F8F61938129900433F4A /* Van Gogh-S-15-28-B.png */; };
+		4C82F8FB1938129900433F4A /* Van Gogh-S-15-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C82F8F71938129900433F4A /* Van Gogh-S-15-28-A.png */; };
+		4C82F8FC1938129900433F4A /* Van Gogh-A-15-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C82F8F81938129900433F4A /* Van Gogh-A-15-28-B.png */; };
+		4C82F8FD1938129900433F4A /* Van Gogh-A-15-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C82F8F91938129900433F4A /* Van Gogh-A-15-28-A.png */; };
 		4C87CD91191FF7BC008F59F0 /* IWColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBEF4418F39D7E0086824C /* IWColors.m */; };
 		4C87D88A192030BC008F59F0 /* 40-B08-29-F.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C87CD931920304A008F59F0 /* 40-B08-29-F.png */; };
 		4C87D88B192030BC008F59F0 /* 40-B08-29-F1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C87CD941920304A008F59F0 /* 40-B08-29-F1.png */; };
@@ -5487,6 +5491,10 @@
 		4C7CCD98192ADA2900FC0F1D /* IWMultipleSelectorJ193ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWMultipleSelectorJ193ViewController.xib; sourceTree = "<group>"; };
 		4C7CCD9A192AE1A500FC0F1D /* radio_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unselected.png; sourceTree = "<group>"; };
 		4C7CCD9B192AE1A500FC0F1D /* radio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_selected.png; sourceTree = "<group>"; };
+		4C82F8F61938129900433F4A /* Van Gogh-S-15-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Gogh-S-15-28-B.png"; sourceTree = "<group>"; };
+		4C82F8F71938129900433F4A /* Van Gogh-S-15-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Gogh-S-15-28-A.png"; sourceTree = "<group>"; };
+		4C82F8F81938129900433F4A /* Van Gogh-A-15-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Gogh-A-15-28-B.png"; sourceTree = "<group>"; };
+		4C82F8F91938129900433F4A /* Van Gogh-A-15-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Gogh-A-15-28-A.png"; sourceTree = "<group>"; };
 		4C87CD931920304A008F59F0 /* 40-B08-29-F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-B08-29-F.png"; sourceTree = "<group>"; };
 		4C87CD941920304A008F59F0 /* 40-B08-29-F1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-B08-29-F1.png"; sourceTree = "<group>"; };
 		4C87CD951920304A008F59F0 /* 40-B08-29-F2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-B08-29-F2.png"; sourceTree = "<group>"; };
@@ -13523,6 +13531,10 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				4C82F8F61938129900433F4A /* Van Gogh-S-15-28-B.png */,
+				4C82F8F71938129900433F4A /* Van Gogh-S-15-28-A.png */,
+				4C82F8F81938129900433F4A /* Van Gogh-A-15-28-B.png */,
+				4C82F8F91938129900433F4A /* Van Gogh-A-15-28-A.png */,
 				4C0B06EF1936D28700948B12 /* Luna-29-22-B.png */,
 				4C0B06F01936D28700948B12 /* Luna-29-22-A.png */,
 				4C987112192D717900D8850E /* Rafael-A-14-22-B.png */,
@@ -17184,6 +17196,7 @@
 				4CD5D86F191874E2004C80D1 /* Largo-U-18-00-A.png in Resources */,
 				4CD5D85D191874E2004C80D1 /* Largo-U-09-00-A.png in Resources */,
 				4CF8100B1923080A008D6D27 /* toogle_selected.png in Resources */,
+				4C82F8FD1938129900433F4A /* Van Gogh-A-15-28-A.png in Resources */,
 				4C1F924E192F172B00AAB2E1 /* Taupe.jpg in Resources */,
 				4CD5D80D191874E2004C80D1 /* Facet-32-00-A.png in Resources */,
 				4CD5D72E191874E2004C80D1 /* Angelina-W-18-27-B.png in Resources */,
@@ -17217,12 +17230,14 @@
 				4CD5D951191874E2004C80D1 /* Princess-U-21-27-A.png in Resources */,
 				4CD5D7C0191874E2004C80D1 /* Elyps-38-00-B.png in Resources */,
 				4CD5D860191874E2004C80D1 /* Largo-U-10-00-B.png in Resources */,
+				4C82F8FA1938129900433F4A /* Van Gogh-S-15-28-B.png in Resources */,
 				4CD5D823191874E2004C80D1 /* Largo-00-25-A.png in Resources */,
 				4CD5D97A191874E2004C80D1 /* Rafael-A-00-26-B.png in Resources */,
 				4CD5D884191874E2004C80D1 /* Largo-XL-31-00-B.png in Resources */,
 				4CD5D8A7191874E2004C80D1 /* Luna-31-00-A.png in Resources */,
 				4CD5D929191874E2004C80D1 /* Monet-W-03-27-A.png in Resources */,
 				4CD5DA0F191874E2004C80D1 /* Renoir-W-12-27-A.png in Resources */,
+				4C82F8FB1938129900433F4A /* Van Gogh-S-15-28-A.png in Resources */,
 				4CD5DAD6191880CD004C80D1 /* Chateau-29-22-A.png in Resources */,
 				4CD5DA04191874E2004C80D1 /* Renoir-W-06-27-B.png in Resources */,
 				4CD5D6AC191874E2004C80D1 /* Angelina-A-07-27-B.png in Resources */,
@@ -17379,6 +17394,7 @@
 				4CD5D7ED191874E2004C80D1 /* Extens-33-00-A.png in Resources */,
 				4CD5D858191874E2004C80D1 /* Largo-U-06-00-B.png in Resources */,
 				4CD5D6BA191874E2004C80D1 /* Angelina-A-14-27-B.png in Resources */,
+				4C82F8FC1938129900433F4A /* Van Gogh-A-15-28-B.png in Resources */,
 				4CEE0F5C18A9CFD200298C60 /* tab_close@2x.png in Resources */,
 				4CD5D9B0191874E2004C80D1 /* Renoir-A-18-27-B.png in Resources */,
 				4CD5D96F191874E2004C80D1 /* Propeller-37-00-A.png in Resources */,
