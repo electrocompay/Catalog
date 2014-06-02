@@ -252,6 +252,10 @@
                 [selectorChairColorView setItems:[IWColors chairColors]];
             }
         }
+        
+        if ([chair.model.name isEqualToString:@"Rafael-A"]) {
+            selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
+        }
     } else if (selectorViewController == selectorChairColorView)
     {
         [chair setColor:color];
