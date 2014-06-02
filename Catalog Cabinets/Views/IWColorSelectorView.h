@@ -23,6 +23,7 @@
 @property (nonatomic, strong) IWColor *color;
 @property (nonatomic) BOOL enabled;
 @property (nonatomic, weak)id<IWColorSelectorViewDelegate> delegate;
+@property (nonatomic, strong) NSString* text;
 
 -(void)unSelect;
 

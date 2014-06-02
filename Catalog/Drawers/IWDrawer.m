@@ -46,10 +46,10 @@
     if (!image) {
         NSLog(@"MISSING IMAGE: %@", imageName);
     } else {
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    [imageView setContentMode:UIViewContentModeScaleAspectFit];
-    imageView.frame = CGRectOffset(_view.bounds, 0, _offsetY);
-    [_view addSubview:imageView];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        [imageView setContentMode:UIViewContentModeScaleAspectFit];
+        imageView.frame = CGRectOffset(_view.bounds, 0, _offsetY);
+        [_view addSubview:imageView];
     }
 }
 

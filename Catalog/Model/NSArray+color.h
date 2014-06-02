@@ -13,5 +13,6 @@
 @interface NSArray (color)
 
 -(IWColor*)colorByCode:(NSString*)code;
+-(NSArray*)withoutColor:(NSString*)code;
 
 @end

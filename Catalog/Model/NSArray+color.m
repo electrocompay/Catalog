@@ -20,4 +20,20 @@
     return nil;
 }
 
+-(NSArray *)withoutColor:(NSString *)code
+{
+    NSMutableArray* array = [NSMutableArray arrayWithArray:self];
+    
+    NSArray *colorCodes = [code componentsSeparatedByString:@","];
+    for (NSString* colorCode in colorCodes) {
+        for (IWColor *color in array) {
+            if ([color.code isEqualToString:colorCode]) {
+                [array removeObject:color];
+                break;
+            }
+        }
+    }
+    return array;
+}
+
 @end

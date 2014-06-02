@@ -30,6 +30,7 @@
 @property (nonatomic, weak) id<IWColorsPanelViewDelegate> delegate;
 @property (nonatomic) BOOL oneSelectionMode;
 @property (nonatomic, readonly) IWColorSelectorView *selectedView;
+@property (nonatomic, strong) NSString* stripeText;
 
 -(void)setColorToSelection:(IWColor*)color;
 

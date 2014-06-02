@@ -17,6 +17,7 @@
 #import "IWMultipleSelectorViewController.h"
 #import "IWMultipleSelectorJ193ViewController.h"
 #import "IWLegsColorSelectorViewController.h"
+#import "NSArray+color.h"
 
 @interface IWModelViewController ()
 
@@ -42,6 +43,7 @@
     IBOutlet IWMenuView *homeMenu;
     UIView* thumbView;
     IWDrawerCabinet *thumbDrawer;
+    NSInteger _updating;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -55,6 +57,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _updating = 0;
     cabinet = [[IWCabinet alloc] init];
     drawer = [[IWDrawerCabinet alloc] init];
     drawer.view = content;
@@ -82,7 +85,7 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     if (!selectorModelView) {
-        
+        [self beginUpdate];
         selectorModelView = [[IWModelSelectorViewController alloc] initWithNibName:@"IWModelSelectorViewController" bundle:nil];
         [selectorModelView setCabinet:cabinet];
         [selectorModelView setDelegate:self];
@@ -126,6 +129,7 @@
         [self prepareMultipleSelectorView:selectorModule4View];
         
         [self BrowserTabView:nil didSelecedAtIndex:0];
+        [self endUpdate];
         [self drawAll];
     }
 }
@@ -134,6 +138,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(NSArray*)colorsWithoutBrown
+{
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetColors]];
+    [array removeObjectAtIndex:array.count - 1];
+    return array;
 }
 
 -(NSArray*)sideColorsWithoutBrown
@@ -266,6 +277,7 @@
 
 -(void)didSelect:(IWModelSelectorViewController *)modelSelectorViewController andColor:(IWColor *)color
 {
+    [self beginUpdate];
     [selectorDoorsView setCabinet:cabinet];
     [selectorDoorsJ193View setCabinet:cabinet];
     [tabController removeTabAtIndex:8 animated:NO];
@@ -298,13 +310,27 @@
     [tabController setSelectedTabIndex:0 animated:NO];
     
     if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"] || [cabinet.model.code isEqualToString:@"C193"] ) {
+        [selectorDoorsView setItems:[IWColors cabinetColors]];
         [selectorSideView setItems:[IWColors cabinetSideColors]];
-        [selectorTopView setItems:[IWColors cabinetTopColors]];
+        selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41"] : [IWColors cabinetTopColors];
     } else {
+        [selectorDoorsView setItems:[self colorsWithoutBrown]];
         [selectorSideView setItems:[self sideColorsWithoutBrown]];
-        [selectorTopView setItems:[self topColorsWithoutBrown]];
+        selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40,41"];
+        [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
     }
+    [self endUpdate];
     [self drawAll];
+}
+
+-(void)beginUpdate
+{
+    _updating++;
+}
+
+-(void)endUpdate;
+{
+    _updating--;
 }
 
 -(void)didSelectColor:(IWMultipleSelectorViewController *)selectorViewController andColor:(IWColor *)color andIndex:(NSInteger)index
@@ -405,12 +431,14 @@
 
 -(void)drawAll
 {
-    [drawer clear];
-    [drawer drawForniture:cabinet];
-    [thumbDrawer setFrontView:!drawer.frontView];
-    [thumbDrawer clear];
-    [thumbDrawer drawForniture:cabinet];
-    [selectorView setImage:[self captureViewFrom:thumbView]];
+    if (_updating == 0) {
+        [drawer clear];
+        [drawer drawForniture:cabinet];
+     //   [thumbDrawer setFrontView:!drawer.frontView];
+     //   [thumbDrawer clear];
+     //   [thumbDrawer drawForniture:cabinet];
+     //   [selectorView setImage:[self captureViewFrom:thumbView]];
+    }
 }
 
 -(void)generateJPG

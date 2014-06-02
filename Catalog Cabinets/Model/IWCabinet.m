@@ -17,20 +17,29 @@
 -(id)init
 {
     if (self = [super init]) {
-        _model = [[IWColors cabinetModels] objectAtIndex:0];
-        _color = [[IWColors cabinetColors] objectAtIndex:0];
-        _legsColor = [IWColor colorWithName:nil andCode:@"27" andFile:nil];
-        _top = [[IWColors cabinetColors] objectAtIndex:0];
-        _side = [[IWColors cabinetColors] objectAtIndex:0];
-        _legsColor = [IWColor colorWithName:nil andCode:@"22" andFile:nil];
-        _colors = [[NSMutableArray alloc] init];
-        _drawers = [[NSMutableArray alloc] init];
-        _subModule = NO;
-        _oneColorMode = YES;
-        _showLegs = YES;
+        [self inititialize];
     }
     
     return self;
+}
+
+-(void)inititialize
+{
+    _model = [[IWColors cabinetModels] objectAtIndex:0];
+    _color = [[IWColors cabinetColors] objectAtIndex:0];
+    _legsColor = [IWColor colorWithName:nil andCode:@"27" andFile:nil];
+    _top = [[IWColors cabinetColors] objectAtIndex:0];
+    _side = [[IWColors cabinetColors] objectAtIndex:0];
+    _legsColor = [IWColor colorWithName:nil andCode:@"22" andFile:nil];
+    _colors = [[NSMutableArray alloc] init];
+    _drawers = [[NSMutableArray alloc] init];
+    _subModule = NO;
+    _oneColorMode = YES;
+    _showLegs = YES;
+}
+
+-(void)reset
+{
 }
 
 -(id)initAsSubModule:(IWCabinet*)cabinet

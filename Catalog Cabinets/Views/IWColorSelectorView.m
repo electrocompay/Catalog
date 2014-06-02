@@ -107,4 +107,12 @@
     [self updateButton];
 }
 
+-(void)setText:(NSString *)text
+{
+    [button setTitle:text forState:UIControlStateNormal];
+    [button setTitle:text forState:UIControlStateSelected];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
+}
+
 @end

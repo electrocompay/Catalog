@@ -132,11 +132,13 @@
     
     if (pickerViewController == picker2) {
         _cabinet.size = picker2.selection;
+        _cabinet.stripe = nil;
         picker3.enabled = YES;
     }
     
     if (pickerViewController == picker3) {
         _cabinet.module2.size = picker3.selection;
+        _cabinet.module2.stripe = nil;
         picker4.enabled = YES;
         if (picker3.selectedIndex == 0) {
             [picker4 reset];
@@ -148,6 +150,7 @@
     
     if (pickerViewController == picker4) {
         _cabinet.module3.size = picker4.selection;
+        _cabinet.module3.stripe = nil;
         picker5.enabled = YES;
         if (picker4.selectedIndex == 0) {
             [picker5 reset];
@@ -157,6 +160,7 @@
     
     if (pickerViewController == picker5) {
         _cabinet.module4.size = picker5.selection;
+        _cabinet.module4.stripe = nil;
     }
     
     _cabinet.module2.size = picker3.selection;
@@ -190,7 +194,9 @@
     picker4.enabled = picker3.selectedIndex > 0;
     picker5.enabled = picker4.selectedIndex > 0 && !(picker5.dissableMoreThan1 && picker5.left == 1);
     if (weight1 + weight2 + weight3 == 6) {
-        [picker5 resetAndDisable];
+       // [picker5 resetAndDisable];
+        picker5.dissableMoreThan1 = YES;
+        picker5.left = 1;
         _cabinet.module4.size = picker5.selection;
     }
     

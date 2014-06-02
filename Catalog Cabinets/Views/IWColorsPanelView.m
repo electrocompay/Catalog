@@ -164,6 +164,9 @@
 -(void)setCabinet:(IWCabinet *)cabinet
 {
     _cabinet = cabinet;
+    if (_cabinet.stripe == nil) {
+        self.stripeText = @"Optional";
+    }
     [self updateLayout];
 }
 
@@ -274,6 +277,25 @@
     if (_delegate) {
         [_delegate didChange:self didSelectButton:view.tag];
     }
+}
+
+-(void)setStripeText:(NSString *)stripeText
+{
+    stripe.text = stripeText;
+    picDrawer1.selected = NO;
+    picDrawer2.selected = NO;
+    picDrawer3.selected = NO;
+    door1.selected = NO;
+    door2.selected = NO;
+    door3.selected = NO;
+    door4.selected = NO;
+    door5.selected = NO;
+    door6.selected = NO;
+    door7.selected = NO;
+    door8.selected = NO;
+    door9.selected = NO;
+    stripe.selected = NO;
+    [stripe setColor:nil];
 }
 
 @end

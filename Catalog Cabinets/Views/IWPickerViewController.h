@@ -29,7 +29,6 @@
 @property (nonatomic) NSInteger right;
 @property (nonatomic) BOOL dissableMoreThan1;
 
-
 -(void)reloadAllComponents;
 -(void)reset;
 -(void)resetAndDisable;
