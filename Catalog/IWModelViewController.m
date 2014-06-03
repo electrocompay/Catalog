@@ -253,7 +253,7 @@
             }
         }
         
-        if ([chair.model.name isEqualToString:@"Rafael-A"]) {
+        if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
             selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
         }
     } else if (selectorViewController == selectorChairColorView)
@@ -267,7 +267,7 @@
             } else if ([color.code isEqualToString:@"18"]) {
                 chair.model.legColors = [@"26" componentsSeparatedByString:@","];
             } else if ([color.code isEqualToString:@"42"]) {
-                chair.model.legColors = [@"23" componentsSeparatedByString:@","];
+                chair.model.legColors = [@"24" componentsSeparatedByString:@","];
             }
         }
         [selectorChairLegsColorView setFilteredItems:chair.model.legColors];

@@ -118,6 +118,22 @@
 		4C2DF6EA1929F06700707046 /* joli2-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DF6E81929F06700707046 /* joli2-76x76.png */; };
 		4C2DF6EB1929F06700707046 /* joli2-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DF6E91929F06700707046 /* joli2-152x152.png */; };
 		4C3FC0C21913318300A7DEF2 /* IWTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FC0C11913318300A7DEF2 /* IWTriangle.m */; };
+		4C513F47193D6480006A3750 /* 29n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F44193D6480006A3750 /* 29n.png */; };
+		4C513F48193D6480006A3750 /* 40n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F45193D6480006A3750 /* 40n.png */; };
+		4C513F49193D6480006A3750 /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F46193D6480006A3750 /* 50n.png */; };
+		4C513F4D193D69FB006A3750 /* 100n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F4A193D69FB006A3750 /* 100n.png */; };
+		4C513F4E193D69FB006A3750 /* 80n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F4B193D69FB006A3750 /* 80n.png */; };
+		4C513F4F193D69FB006A3750 /* 58n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F4C193D69FB006A3750 /* 58n.png */; };
+		4C513F52193D6B81006A3750 /* 144n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F50193D6B81006A3750 /* 144n.png */; };
+		4C513F53193D6B81006A3750 /* 72n.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F51193D6B81006A3750 /* 72n.png */; };
+		4C513F5C193D6BA1006A3750 /* 144b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F54193D6BA1006A3750 /* 144b.png */; };
+		4C513F5D193D6BA1006A3750 /* 72b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F55193D6BA1006A3750 /* 72b.png */; };
+		4C513F5E193D6BA1006A3750 /* 100b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F56193D6BA1006A3750 /* 100b.png */; };
+		4C513F5F193D6BA1006A3750 /* 80b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F57193D6BA1006A3750 /* 80b.png */; };
+		4C513F60193D6BA1006A3750 /* 58b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F58193D6BA1006A3750 /* 58b.png */; };
+		4C513F61193D6BA1006A3750 /* 29b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F59193D6BA1006A3750 /* 29b.png */; };
+		4C513F62193D6BA1006A3750 /* 40b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F5A193D6BA1006A3750 /* 40b.png */; };
+		4C513F63193D6BA1006A3750 /* 50b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C513F5B193D6BA1006A3750 /* 50b.png */; };
 		4C6DC2FA18A73E89005007A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6DC2F918A73E89005007A8 /* Foundation.framework */; };
 		4C6DC2FC18A73E89005007A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6DC2FB18A73E89005007A8 /* CoreGraphics.framework */; };
 		4C6DC2FE18A73E89005007A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6DC2FD18A73E89005007A8 /* UIKit.framework */; };
@@ -5456,6 +5472,22 @@
 		4C2DF6E91929F06700707046 /* joli2-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joli2-152x152.png"; sourceTree = "<group>"; };
 		4C3FC0C01913318300A7DEF2 /* IWTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWTriangle.h; path = Views/IWTriangle.h; sourceTree = "<group>"; };
 		4C3FC0C11913318300A7DEF2 /* IWTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWTriangle.m; path = Views/IWTriangle.m; sourceTree = "<group>"; };
+		4C513F44193D6480006A3750 /* 29n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29n.png; sourceTree = "<group>"; };
+		4C513F45193D6480006A3750 /* 40n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40n.png; sourceTree = "<group>"; };
+		4C513F46193D6480006A3750 /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50n.png; sourceTree = "<group>"; };
+		4C513F4A193D69FB006A3750 /* 100n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100n.png; sourceTree = "<group>"; };
+		4C513F4B193D69FB006A3750 /* 80n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80n.png; sourceTree = "<group>"; };
+		4C513F4C193D69FB006A3750 /* 58n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58n.png; sourceTree = "<group>"; };
+		4C513F50193D6B81006A3750 /* 144n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144n.png; sourceTree = "<group>"; };
+		4C513F51193D6B81006A3750 /* 72n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72n.png; sourceTree = "<group>"; };
+		4C513F54193D6BA1006A3750 /* 144b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144b.png; sourceTree = "<group>"; };
+		4C513F55193D6BA1006A3750 /* 72b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72b.png; sourceTree = "<group>"; };
+		4C513F56193D6BA1006A3750 /* 100b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100b.png; sourceTree = "<group>"; };
+		4C513F57193D6BA1006A3750 /* 80b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80b.png; sourceTree = "<group>"; };
+		4C513F58193D6BA1006A3750 /* 58b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58b.png; sourceTree = "<group>"; };
+		4C513F59193D6BA1006A3750 /* 29b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29b.png; sourceTree = "<group>"; };
+		4C513F5A193D6BA1006A3750 /* 40b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40b.png; sourceTree = "<group>"; };
+		4C513F5B193D6BA1006A3750 /* 50b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50b.png; sourceTree = "<group>"; };
 		4C6DC2F618A73E89005007A8 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6DC2F918A73E89005007A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C6DC2FB18A73E89005007A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -10782,6 +10814,14 @@
 		4C6DC30018A73E89005007A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C513F50193D6B81006A3750 /* 144n.png */,
+				4C513F51193D6B81006A3750 /* 72n.png */,
+				4C513F4A193D69FB006A3750 /* 100n.png */,
+				4C513F4B193D69FB006A3750 /* 80n.png */,
+				4C513F4C193D69FB006A3750 /* 58n.png */,
+				4C513F44193D6480006A3750 /* 29n.png */,
+				4C513F45193D6480006A3750 /* 40n.png */,
+				4C513F46193D6480006A3750 /* 50n.png */,
 				4CEE38A31936BCF80008D533 /* joli1-152x152.png */,
 				4CEE38A41936BCF80008D533 /* joli1-76x76.png */,
 				4CF90FD3192E2CD90048201B /* Splash_Tables_1024x768.png */,
@@ -14728,6 +14768,14 @@
 		4CEE9B91191FC21900C54B67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C513F54193D6BA1006A3750 /* 144b.png */,
+				4C513F55193D6BA1006A3750 /* 72b.png */,
+				4C513F56193D6BA1006A3750 /* 100b.png */,
+				4C513F57193D6BA1006A3750 /* 80b.png */,
+				4C513F58193D6BA1006A3750 /* 58b.png */,
+				4C513F59193D6BA1006A3750 /* 29b.png */,
+				4C513F5A193D6BA1006A3750 /* 40b.png */,
+				4C513F5B193D6BA1006A3750 /* 50b.png */,
 				4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */,
 				4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */,
 				4CF90FD1192E2B840048201B /* Splash_Cabinets.jpg */,
@@ -16332,6 +16380,7 @@
 				4CD5DA17191874E2004C80D1 /* Renoir-W-16-27-A.png in Resources */,
 				4CD5D95F191874E2004C80D1 /* Propeller-29-22-AB.png in Resources */,
 				4CD5D81E191874E2004C80D1 /* Largo-00-22-B.png in Resources */,
+				4C513F52193D6B81006A3750 /* 144n.png in Resources */,
 				4CD5D6E1191874E2004C80D1 /* Angelina-AW-16-27-A.png in Resources */,
 				4C1F9216192F172B00AAB2E1 /* Grey.jpg in Resources */,
 				4C6DC30418A73E89005007A8 /* InfoPlist.strings in Resources */,
@@ -16435,6 +16484,7 @@
 				4CD5D7A4191874E2004C80D1 /* Elyps-00-24-B.png in Resources */,
 				4CD5DA23191874E2004C80D1 /* Van Gogh-A-04-28-A.png in Resources */,
 				4CD5D9E6191874E2004C80D1 /* Renoir-S-09-27-B.png in Resources */,
+				4C513F48193D6480006A3750 /* 40n.png in Resources */,
 				4CD5D73D191874E2004C80D1 /* Blucinox-37-27-A.png in Resources */,
 				4CD5D7D1191874E2004C80D1 /* Ensor-S-16-27-A.png in Resources */,
 				4CD5D720191874E2004C80D1 /* Angelina-W-11-27-B.png in Resources */,
@@ -16856,6 +16906,7 @@
 				4CD5D795191874E2004C80D1 /* Chrominox-35-27-A.png in Resources */,
 				4CD5D9BB191874E2004C80D1 /* Renoir-AW-06-27-A.png in Resources */,
 				4C1F925C192F172B00AAB2E1 /* White 01.jpg in Resources */,
+				4C513F53193D6B81006A3750 /* 72n.png in Resources */,
 				4CD5DAA71918773E004C80D1 /* Renoir-S-01-27.jpg in Resources */,
 				4CD5D881191874E2004C80D1 /* Largo-XL-30-00-A.png in Resources */,
 				4CD5D97E191874E2004C80D1 /* Rafael-A-14-22-BB.png in Resources */,
@@ -16987,6 +17038,7 @@
 				4CD5D850191874E2004C80D1 /* Largo-U-02-00-B.png in Resources */,
 				4CD5D714191874E2004C80D1 /* Angelina-W-05-27-B.png in Resources */,
 				4CD5D7E9191874E2004C80D1 /* Extens-31-00-A.png in Resources */,
+				4C513F4F193D69FB006A3750 /* 58n.png in Resources */,
 				4CD5D91E191874E2004C80D1 /* Monet-S-15-27-B.png in Resources */,
 				4CD5D85B191874E2004C80D1 /* Largo-U-08-00-A.png in Resources */,
 				4CD5D6D4191874E2004C80D1 /* Angelina-AW-09-27-B.png in Resources */,
@@ -17013,6 +17065,7 @@
 				4CD5D7E3191874E2004C80D1 /* Extens-29-00-A.png in Resources */,
 				4CF8100A1923080A008D6D27 /* toggle_unselected.png in Resources */,
 				4CD5D82A191874E2004C80D1 /* Largo-29-00-B.png in Resources */,
+				4C513F47193D6480006A3750 /* 29n.png in Resources */,
 				4CD5D8A5191874E2004C80D1 /* Luna-30-00-A.png in Resources */,
 				4CD5D976191874E2004C80D1 /* Rafael-A-00-22-B.png in Resources */,
 				4CD5DA41191874E2004C80D1 /* Van Gogh-S-06-28-A.png in Resources */,
@@ -17189,6 +17242,7 @@
 				4CD5D741191874E2004C80D1 /* Blucinox-41-27-A.png in Resources */,
 				4CD5D8E2191874E2004C80D1 /* Monet-AW-03-27-B.png in Resources */,
 				4CD5D798191874E2004C80D1 /* Chrominox-36-27-B.png in Resources */,
+				4C513F49193D6480006A3750 /* 50n.png in Resources */,
 				4CD5D991191874E2004C80D1 /* Renoir-A-03-27-A.png in Resources */,
 				4CD5DA981918773E004C80D1 /* Angelina-S-01-27.jpg in Resources */,
 				4CD5D83E191874E2004C80D1 /* Largo-38-00-B.png in Resources */,
@@ -17280,6 +17334,7 @@
 				4CD5D8DC191874E2004C80D1 /* Monet-A-18-27-B.png in Resources */,
 				4CD5D8EB191874E2004C80D1 /* Monet-AW-08-27-A.png in Resources */,
 				4CD5D8F2191874E2004C80D1 /* Monet-AW-11-27-B.png in Resources */,
+				4C513F4D193D69FB006A3750 /* 100n.png in Resources */,
 				4CD5DA10191874E2004C80D1 /* Renoir-W-12-27-B.png in Resources */,
 				4CD5D7D6191874E2004C80D1 /* Ensor-S-18-27-B.png in Resources */,
 				4CD5DA06191874E2004C80D1 /* Renoir-W-07-27-B.png in Resources */,
@@ -17410,6 +17465,7 @@
 				4CD5D74C191874E2004C80D1 /* Bluco-00-26-B.png in Resources */,
 				4CD5D967191874E2004C80D1 /* Propeller-33-00-A.png in Resources */,
 				4CD5D908191874E2004C80D1 /* Monet-S-04-27-B.png in Resources */,
+				4C513F4E193D69FB006A3750 /* 80n.png in Resources */,
 				4CD5D7F7191874E2004C80D1 /* Facet-00-22-A.png in Resources */,
 				4CD5D840191874E2004C80D1 /* Largo-41-00-B.png in Resources */,
 				4CD5D847191874E2004C80D1 /* Largo-U-00-25-A.png in Resources */,
@@ -18464,6 +18520,7 @@
 				4C87DE54192030BC008F59F0 /* 55-B07-39-S.png in Resources */,
 				4C87DE11192030BC008F59F0 /* 55-B07-32-F3.png in Resources */,
 				4C87E0D2192030BC008F59F0 /* 55-H05-38-00-F.png in Resources */,
+				4C513F60193D6BA1006A3750 /* 58b.png in Resources */,
 				4C87E1EA192030BC008F59F0 /* C193-2D-39-F.png in Resources */,
 				4CEEAB94191FCEB800C54B67 /* C83-3La-30-4.png in Resources */,
 				4C87DC19192030BC008F59F0 /* 40-H06-34-00-F2.png in Resources */,
@@ -18861,6 +18918,7 @@
 				4C6F650E192EDC1300E6076F /* 55-K12-29.png in Resources */,
 				4C87DFF3192030BC008F59F0 /* 55-H03-32-00-F4.png in Resources */,
 				4CEEAA2B191FCEB700C54B67 /* C83-2Da-29-3a.png in Resources */,
+				4C513F5D193D6BA1006A3750 /* 72b.png in Resources */,
 				4CB79346192C6BA700325AD9 /* J83-3L-33-F-3.png in Resources */,
 				4C87DAC0192030BC008F59F0 /* 40-H03-29-00-F3.png in Resources */,
 				4CEEA9EF191FCEB700C54B67 /* C83-2D-37-F-2.png in Resources */,
@@ -19164,6 +19222,7 @@
 				4C87DC28192030BC008F59F0 /* 40-H06-35-00-F7.png in Resources */,
 				4C87DDBD192030BC008F59F0 /* 55-B06-32-F4.png in Resources */,
 				4CB792F6192C6BA700325AD9 /* J83-1Da-31-F-3.png in Resources */,
+				4C513F62193D6BA1006A3750 /* 40b.png in Resources */,
 				4C87DCF1192030BC008F59F0 /* 40-K12-34-F.png in Resources */,
 				4C6E9101193763E3003EA44C /* Wood VG.jpg in Resources */,
 				4C87E256192030BC008F59F0 /* C193-4D-40-F1.png in Resources */,
@@ -19357,6 +19416,7 @@
 				4C87DCEF192030BC008F59F0 /* 40-K12-33-S.png in Resources */,
 				4C87D9FA192030BC008F59F0 /* 40-B11-36-F2.png in Resources */,
 				4CEEAA07191FCEB700C54B67 /* C83-2D-39-S-1.png in Resources */,
+				4C513F5F193D6BA1006A3750 /* 80b.png in Resources */,
 				4C87DEAD192030BC008F59F0 /* 55-B08-38-F4.png in Resources */,
 				4C87DDCE192030BC008F59F0 /* 55-B06-35-F.png in Resources */,
 				4CEEAD1E191FCEBA00C54B67 /* C83-LDDa-31-T-4.png in Resources */,
@@ -19842,6 +19902,7 @@
 				4CEEACE7191FCEBA00C54B67 /* C83-LDD-40-T-3.png in Resources */,
 				4CB79376192C6BA700325AD9 /* J83-LDD-36-F-3.png in Resources */,
 				4C87DE9D192030BC008F59F0 /* 55-B08-36-F6.png in Resources */,
+				4C513F61193D6BA1006A3750 /* 29b.png in Resources */,
 				4CEEAA0A191FCEB700C54B67 /* C83-2D-39-T-3.png in Resources */,
 				4C87E139192030BC008F59F0 /* 55-K11-33-S.png in Resources */,
 				4C87E19E192030BC008F59F0 /* 55-K12-38-T.png in Resources */,
@@ -20058,6 +20119,7 @@
 				4CEEAA20191FCEB700C54B67 /* C83-2D-41-F-3.png in Resources */,
 				4CEEA989191FCEB700C54B67 /* C83-2D-30-T-2.png in Resources */,
 				4C87DF75192030BC008F59F0 /* 55-H01-37-00-F2.png in Resources */,
+				4C513F63193D6BA1006A3750 /* 50b.png in Resources */,
 				4C6E90B6193763E3003EA44C /* bg_config.gif in Resources */,
 				4C87D93F192030BC008F59F0 /* 40-B10-29-F1.png in Resources */,
 				4C87DD07192030BC008F59F0 /* 40-K12-38-F2.png in Resources */,
@@ -20069,6 +20131,7 @@
 				4C87D938192030BC008F59F0 /* 40-B09-39-F4.png in Resources */,
 				4C87E0A1192030BC008F59F0 /* 55-H05-31-00-T.png in Resources */,
 				4C87DFB8192030BC008F59F0 /* 55-H02-36-00-F.png in Resources */,
+				4C513F5C193D6BA1006A3750 /* 144b.png in Resources */,
 				4C87DB7C192030BC008F59F0 /* 40-H05-29-00-F6.png in Resources */,
 				4CEEAADF191FCEB800C54B67 /* C83-3L-32-F-1.png in Resources */,
 				4CEEA99F191FCEB700C54B67 /* C83-2D-32-F-2.png in Resources */,
@@ -20810,6 +20873,7 @@
 				4CEEA93B191FCEB600C54B67 /* C83-1Da-35-T-3.png in Resources */,
 				4CEEAB9D191FCEB800C54B67 /* C83-3La-30-T-3a.png in Resources */,
 				4C87D88B192030BC008F59F0 /* 40-B08-29-F1.png in Resources */,
+				4C513F5E193D6BA1006A3750 /* 100b.png in Resources */,
 				4C87E1DC192030BC008F59F0 /* C193-2D-32-F2.png in Resources */,
 				4C87DACF192030BC008F59F0 /* 40-H03-31-00-F2.png in Resources */,
 				4CEEA9E6191FCEB700C54B67 /* C83-2D-36-F2-3.png in Resources */,
