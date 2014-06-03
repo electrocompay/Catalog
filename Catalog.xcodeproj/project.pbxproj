@@ -5341,6 +5341,7 @@
 		4CF90FD6192E2CD90048201B /* Splash_Tables_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */; };
 		4CF90FD9192E2CEC0048201B /* Splash_Cabinets_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */; };
 		4CF90FDA192E2CEC0048201B /* Splash_Cabinets_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */; };
+		5D875D3B193D75C100D427CC /* Grey@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D875D3A193D75C100D427CC /* Grey@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -10601,6 +10602,7 @@
 		4CF90FD4192E2CD90048201B /* Splash_Tables_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_2048x1536.png; sourceTree = "<group>"; };
 		4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1024x768.png; sourceTree = "<group>"; };
 		4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_2048x1536.png; sourceTree = "<group>"; };
+		5D875D3A193D75C100D427CC /* Grey@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grey@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -10652,6 +10654,7 @@
 		4C1F9167192F172A00AAB2E1 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				5D875D3A193D75C100D427CC /* Grey@2x.jpg */,
 				4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */,
 				4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */,
 				4C1F9168192F172A00AAB2E1 /* 0001.jpg */,
@@ -16719,6 +16722,7 @@
 				4CD5DA11191874E2004C80D1 /* Renoir-W-13-27-A.png in Resources */,
 				4CD5D7AE191874E2004C80D1 /* Elyps-29-22-BB.png in Resources */,
 				4CD5D97D191874E2004C80D1 /* Rafael-A-14-22-AB.png in Resources */,
+				5D875D3B193D75C100D427CC /* Grey@2x.jpg in Resources */,
 				4CD5D8B9191874E2004C80D1 /* Monet-A-01-27-A.png in Resources */,
 				4CD5D843191874E2004C80D1 /* Largo-U-00-23-A.png in Resources */,
 				4CD5D880191874E2004C80D1 /* Largo-XL-29-22-BB.png in Resources */,
