@@ -120,7 +120,7 @@
 
 -(IWColor*)getDefaultDrawerColor
 {
-    return [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"];
+    return [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Xeramica"];
 }
 
 -(IWColor *)top{

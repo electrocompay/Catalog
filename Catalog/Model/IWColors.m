@@ -91,14 +91,14 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_tableColors) {
         _tableColors = [[NSArray alloc] initWithObjects:
-                        [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                        [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
-                        [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
-                        [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Ceramic (6 mm)"],
+                        [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Xeramica"],
                         [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
@@ -347,11 +347,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetsColors) {
         _cabinetsColors = [[NSArray alloc] initWithObjects:
-                           [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                           [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                           [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
                            [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                            [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey.jpg"] withCategory:@"Glass"],
@@ -394,11 +394,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetStripeColors) {
         _cabinetStripeColors = [[NSArray alloc] initWithObjects:
-                                [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                                [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                                 [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                                 [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
@@ -416,11 +416,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetSideColors) {
         _cabinetSideColors = [[NSArray alloc] initWithObjects:
-                              [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                              [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                              [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                              [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                              [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                              [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                              [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                              [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                              [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                              [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
                               [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                               [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                               [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
@@ -436,14 +436,14 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetTopColors) {
         _cabinetTopColors = [[NSArray alloc] initWithObjects:
-                             [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                             [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                             [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                             [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                             [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                             [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
-                             [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Ceramic (12 mm)"],
-                             [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Ceramic (12 mm)"],
+                             [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                             [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Xeramica"],
                              
                              [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                              [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
@@ -478,11 +478,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetDrawerColors) {
         _cabinetDrawerColors = [[NSArray alloc] initWithObjects:
-                                [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
-                                [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Ceramic (3 mm)"],
+                                [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Sahara" andCode:@"30" andFile:@"Sahara.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Blue Stone" andCode:@"31" andFile:@"Blue Stone.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Wood grey" andCode:@"32" andFile:@"Wood Grey.jpg"] withCategory:@"Xeramica"],
+                                [[IWColor colorWithName:@"Uni grey" andCode:@"33" andFile:@"Uni Grey.jpg"] withCategory:@"Xeramica"],
                                 [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Melamine"],
                                 [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Melamine"],
                                 [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],

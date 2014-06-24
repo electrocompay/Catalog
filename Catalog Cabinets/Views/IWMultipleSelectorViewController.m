@@ -199,10 +199,10 @@
 
 -(void)switchMode:(id)sender
 {
-    if (sender != switch1) {
-        switch1.on = !switch1.on;
+    if (sender == switch1) {
+        switch2.on = !switch1.on;
     } else {
-        switch2.on = !switch2.on;
+        switch1.on = !switch2.on;
     }
     [panelColors setOneSelectionMode:switch1.on];
 }

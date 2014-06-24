@@ -40,7 +40,7 @@
     [_view.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
 }
 
--(void)addLayer:(NSString *)imageName
+-(UIView*)addLayer:(NSString *)imageName
 {
     UIImage *image = [UIImage imageNamed:imageName];
     if (!image) {
@@ -50,7 +50,9 @@
         [imageView setContentMode:UIViewContentModeScaleAspectFit];
         imageView.frame = CGRectOffset(_view.bounds, 0, _offsetY);
         [_view addSubview:imageView];
+        return imageView;
     }
+    return  nil;
 }
 
 

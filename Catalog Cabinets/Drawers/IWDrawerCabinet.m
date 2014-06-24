@@ -10,6 +10,20 @@
 #import "IWCabinet.h"
 
 @implementation IWDrawerCabinet
+{
+    NSInteger _activeModule;
+    BOOL _doAnimate;
+}
+
+-(id)init
+{
+    self = [super init];
+    if (self) {
+        _activeModule = -1;
+        _doAnimate = NO;
+    }
+    return self;
+}
 
 
 -(void)drawCabinet:(IWCabinet*)cabinet InPosition:(NSInteger)position andSufix:(BOOL)sufix
@@ -17,6 +31,8 @@
     if (!cabinet) {
         return;
     }
+    
+    _doAnimate =  position == _activeModule;
     
     NSString *modelCode = cabinet.model.code;
     if ([modelCode isEqualToString:@"J83"]) {
@@ -91,6 +107,7 @@
         filename = [NSString stringWithFormat:@"%@-%dL%@-%@-F-%d%@", cabinet.model.code, cabinet.drawers.count, strSufix, cabinet.stripe.code, position, strSufix];
         [self addLayer:filename];
     }
+    
 }
 
 -(void)drawForniture:(IWForniture *)forniture
@@ -106,7 +123,7 @@
         [self drawCabinet:cabinet.module3 InPosition:3 andSufix:sufix];
         [self drawCabinet:cabinet.module2 InPosition:2 andSufix:NO];
         [self drawCabinet:cabinet InPosition:1 andSufix:NO];
-        
+        _activeModule = -1;
     } else {
         
         if (cabinet.showLegs) {
@@ -170,6 +187,24 @@
         [self addLayer:filename];
     }
     
+}
+
+-(void)activateModule:(NSInteger)module
+{
+    _activeModule = module;
+    _doAnimate = module > -1;
+}
+
+-(UIImageView *)addLayer:(NSString *)imageName
+{
+    UIImageView *layer = [super addLayer:imageName];
+    if (_doAnimate) {
+        [UIView animateWithDuration:1 animations:^(void) {
+            layer.alpha = 0.1;
+            layer.alpha = 1;
+        }];
+    }
+    return layer;
 }
 
 @end

@@ -181,6 +181,8 @@
             [tabContent bringSubviewToFront:selectorLegsColorView.view];
         } else if (cabinet.useModules){
             [tabContent bringSubviewToFront:selectorModule1View.view];
+            [drawer activateModule:1];
+            [self drawAll];
         }
     } else if (index == 4){
         if (cabinet.useDoors) {
@@ -189,21 +191,31 @@
             if (cabinet.hasLegs)
             {
                 [tabContent bringSubviewToFront:selectorModule3View.view];
+                [drawer activateModule:3];
+                [self drawAll];
             } else
             {
                 [tabContent bringSubviewToFront:selectorModule2View.view];
+                [drawer activateModule:2];
+                [self drawAll];
             }
         }
     } else if (index == 5){
         if (cabinet.hasLegs)
         {
             [tabContent bringSubviewToFront:selectorModule4View.view];
+            [drawer activateModule:4];
+            [self drawAll];
         } else
         {
             [tabContent bringSubviewToFront:selectorModule3View.view];
+            [drawer activateModule:3];
+            [self drawAll];
         }
     } else if (index == 6){
         [tabContent bringSubviewToFront:selectorModule4View.view];
+        [drawer activateModule:4];
+        [self drawAll];
     }
     
 }

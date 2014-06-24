@@ -12,7 +12,7 @@
 @interface IWDrawer : NSObject
 
 -(void) drawForniture: (IWForniture*) forniture;
--(void) addLayer: (NSString*) imageName;
+-(UIImageView*) addLayer: (NSString*) imageName;
 -(void) clear;
 
 @property UIView* view;

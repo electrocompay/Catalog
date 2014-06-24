@@ -10,4 +10,6 @@
 
 @interface IWDrawerCabinet : IWDrawer
 
+-(void)activateModule:(NSInteger)module;
+
 @end
