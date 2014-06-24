@@ -44,6 +44,7 @@
     UIView* thumbView;
     IWDrawerCabinet *thumbDrawer;
     NSInteger _updating;
+    UIButton * button;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -328,7 +329,10 @@
     } else {
         [selectorDoorsView setItems:[self colorsWithoutBrown]];
         [selectorSideView setItems:[self sideColorsWithoutBrown]];
-        selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40,41"];
+        if ([cabinet.model.code isEqualToString:@"55"])
+            selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40"];
+         else
+            selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40,41"];
         [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
     }
     [self endUpdate];
@@ -363,8 +367,10 @@
 {
     if (menu.hidden)
     {
+        [self createFackeButton];
         [homeMenu setHidden:YES];
         [menu setHidden:NO];
+        [menu.superview bringSubviewToFront:homeMenu];
     } else
     {
         [menu setHidden:YES];
@@ -375,12 +381,30 @@
 {
     if (homeMenu.hidden)
     {
+        [self createFackeButton];
         [menu setHidden:YES];
         [homeMenu setHidden:NO];
+        [homeMenu.superview bringSubviewToFront:homeMenu];
     } else
     {
         [homeMenu setHidden:YES];
     }
+}
+
+-(void)createFackeButton
+{
+    button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button addTarget:self action:@selector(hideButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"" forState:UIControlStateNormal];
+    button.frame = self.view.frame;
+    [homeMenu.superview addSubview:button];
+}
+
+-(void)hideButton:(id)sender
+{
+    homeMenu.hidden = YES;
+    menu.hidden = YES;
+    button.hidden = YES;
 }
 
 -(void)menuView:(IWMenuView *)menuView didClick:(NSInteger)optionIndex
@@ -455,7 +479,7 @@
 
 -(void)generateJPG
 {
-    UIImage* image = [self captureViewFrom:content];
+    UIImage* image = [self captureViewFrom:content.superview];
     
     UIImageWriteToSavedPhotosAlbum(image, self, @selector(saveCompletion:didFinishSavingWithError:contextInfo:), nil);
 }
@@ -482,7 +506,7 @@
     // [picker setBccRecipients:bccRecipients];
     
     // Attach an image to the email
-    UIImage *coolImage = [self captureViewFrom:content];
+    UIImage *coolImage = [self captureViewFrom:content.superview];
     NSData *myData = UIImagePNGRepresentation(coolImage);
     [picker addAttachmentData:myData mimeType:@"image/png" fileName:@"coolImage.png"];
     
@@ -528,7 +552,7 @@
     pic.printInfo = printInfo;
     
     
-    pic.printingItem = [self captureViewFrom:content];
+    pic.printingItem = [self captureViewFrom:content.superview];
     
     void (^completionHandler)(UIPrintInteractionController *, BOOL, NSError *) =
     ^(UIPrintInteractionController *printController, BOOL completed, NSError *error) {

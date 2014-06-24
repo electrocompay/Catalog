@@ -40,6 +40,7 @@
     UIView* thumbView;
     IWDrawerTable *thumbDrawer;
     IWDrawerChair *thumbDrawerChair;
+    UIButton * button;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -233,9 +234,11 @@
         IWColor *wood = [legsColors objectAtIndex:legsColors.count - 1];
         if ([color.code rangeOfString:@"Van Gogh"].location != NSNotFound) {
             wood.file = @"Wood VG.jpg";
+            wood.name = @"Black Wood";
             [selectorChairLegsColorView setItems:legsColors];
         } else {
             wood.file = @"Wood.jpg";
+            wood.name = @"Wood";
             [selectorChairLegsColorView setItems:legsColors];
         }
         
@@ -313,8 +316,10 @@
 {
     if (menu.hidden)
     {
+        [self createFackeButton];
         [homeMenu setHidden:YES];
         [menu setHidden:NO];
+        [menu.superview bringSubviewToFront:homeMenu];
     } else
     {
         [menu setHidden:YES];
@@ -325,12 +330,31 @@
 {
     if (homeMenu.hidden)
     {
+        [self createFackeButton];
         [menu setHidden:YES];
         [homeMenu setHidden:NO];
+        [homeMenu.superview bringSubviewToFront:homeMenu];
     } else
     {
         [homeMenu setHidden:YES];
     }
+}
+
+
+-(void)createFackeButton
+{
+    button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button addTarget:self action:@selector(hideButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"" forState:UIControlStateNormal];
+    button.frame = self.view.frame;
+    [homeMenu.superview addSubview:button];
+}
+
+-(void)hideButton:(id)sender
+{
+    homeMenu.hidden = YES;
+    menu.hidden = YES;
+    button.hidden = YES;
 }
 
 - (UIImage *)captureViewFrom:(UIView*)view{
@@ -391,7 +415,7 @@
 
 -(void)generateJPG
 {
-    UIImage* image = [self captureViewFrom:content];
+    UIImage* image = [self captureViewFrom:content.superview];
     
     UIImageWriteToSavedPhotosAlbum(image, self, @selector(saveCompletion:didFinishSavingWithError:contextInfo:), nil);
 }
@@ -418,7 +442,7 @@
     // [picker setBccRecipients:bccRecipients];
     
     // Attach an image to the email
-    UIImage *coolImage = [self captureViewFrom:content];
+    UIImage *coolImage = [self captureViewFrom:content.superview];
     NSData *myData = UIImagePNGRepresentation(coolImage);
     [picker addAttachmentData:myData mimeType:@"image/png" fileName:@"coolImage.png"];
     
@@ -464,7 +488,7 @@
     pic.printInfo = printInfo;
     
     
-    pic.printingItem = [self captureViewFrom:content];
+    pic.printingItem = [self captureViewFrom:content.superview];
     
     void (^completionHandler)(UIPrintInteractionController *, BOOL, NSError *) =
     ^(UIPrintInteractionController *printController, BOOL completed, NSError *error) {
