@@ -210,4 +210,11 @@
     _doAnimate = module > -1;
 }
 
+-(UIImageView *)addLayer:(NSString *)imageName
+{
+    UIImageView *layer = [super addLayer:imageName];
+    [layer setContentMode:UIViewContentModeScaleAspectFill];
+    return layer;
+}
+
 @end
