@@ -108,6 +108,20 @@
         [self addLayer:filename];
     }
     
+    if (_doAnimate) {
+        filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
+        UIView *trView = [self addLayer:filename];
+        [UIView animateWithDuration:0.3 animations:^(void) {
+            trView.alpha = 0.9;
+            trView.alpha = 0;
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.8 animations:^(void) {
+                trView.alpha = 0.9;
+                trView.alpha = 0;
+            }];
+        }];
+    }
+    
 }
 
 -(void)drawForniture:(IWForniture *)forniture
@@ -178,6 +192,7 @@
                 [self addLayer:filename];
             }
             [self addLayer:filename];
+            
         }
         
         filename = [NSString stringWithFormat:@"%@-%@%@-%@-T", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.top.code];
@@ -193,18 +208,6 @@
 {
     _activeModule = module;
     _doAnimate = module > -1;
-}
-
--(UIImageView *)addLayer:(NSString *)imageName
-{
-    UIImageView *layer = [super addLayer:imageName];
-    if (_doAnimate) {
-        [UIView animateWithDuration:1 animations:^(void) {
-            layer.alpha = 0.1;
-            layer.alpha = 1;
-        }];
-    }
-    return layer;
 }
 
 @end
