@@ -26,12 +26,12 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-zn-pBD">
-                            <rect key="frame" x="0.0" y="8" width="1024" height="500"/>
+                            <rect key="frame" x="0.0" y="81" width="919" height="427"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="1024" id="McL-2B-OTz"/>
-                                <constraint firstAttribute="height" constant="500" id="VPq-rq-3K0"/>
+                                <constraint firstAttribute="width" constant="919" id="McL-2B-OTz"/>
+                                <constraint firstAttribute="height" constant="427" id="VPq-rq-3K0"/>
                             </constraints>
                         </view>
                         <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="UgB-YD-ya7">
@@ -41,8 +41,8 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="centerY" secondItem="tj6-zn-pBD" secondAttribute="centerY" id="PKg-qf-YKA"/>
-                        <constraint firstAttribute="centerX" secondItem="tj6-zn-pBD" secondAttribute="centerX" id="jWj-lM-AYZ"/>
+                        <constraint firstAttribute="centerY" secondItem="tj6-zn-pBD" secondAttribute="centerY" constant="-36.5" id="PKg-qf-YKA"/>
+                        <constraint firstAttribute="centerX" secondItem="tj6-zn-pBD" secondAttribute="centerX" constant="52.5" id="jWj-lM-AYZ"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAX-bs-D8y" userLabel="ImgPanelView">
