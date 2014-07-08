@@ -2802,6 +2802,8 @@
 		4C8F0BD1196B856500B8A14E /* C83-1Da-29-TR-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F0BBD196B856500B8A14E /* C83-1Da-29-TR-3.png */; };
 		4C8F0BD2196B856500B8A14E /* C83-1D-29-TR-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F0BBE196B856500B8A14E /* C83-1D-29-TR-2.png */; };
 		4C8F0BD3196B856500B8A14E /* C83-1D-29-TR-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F0BBF196B856500B8A14E /* C83-1D-29-TR-1.png */; };
+		4C8F0BD6196B9AB100B8A14E /* Rafael-A-00-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F0BD4196B9AB100B8A14E /* Rafael-A-00-24-A.png */; };
+		4C8F0BD7196B9AB100B8A14E /* Rafael-A-00-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F0BD5196B9AB100B8A14E /* Rafael-A-00-24-B.png */; };
 		4C98710D192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
 		4C98710E192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */; };
 		4C987114192D717A00D8850E /* Rafael-A-14-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C987112192D717900D8850E /* Rafael-A-14-22-B.png */; };
@@ -8086,6 +8088,8 @@
 		4C8F0BBD196B856500B8A14E /* C83-1Da-29-TR-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C83-1Da-29-TR-3.png"; sourceTree = "<group>"; };
 		4C8F0BBE196B856500B8A14E /* C83-1D-29-TR-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C83-1D-29-TR-2.png"; sourceTree = "<group>"; };
 		4C8F0BBF196B856500B8A14E /* C83-1D-29-TR-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C83-1D-29-TR-1.png"; sourceTree = "<group>"; };
+		4C8F0BD4196B9AB100B8A14E /* Rafael-A-00-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-00-24-A.png"; sourceTree = "<group>"; };
+		4C8F0BD5196B9AB100B8A14E /* Rafael-A-00-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-00-24-B.png"; sourceTree = "<group>"; };
 		4C98710B192C837E00D8850E /* IWMyQLPreviewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWMyQLPreviewControllerViewController.h; sourceTree = "<group>"; };
 		4C98710C192C837E00D8850E /* IWMyQLPreviewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWMyQLPreviewControllerViewController.m; sourceTree = "<group>"; };
 		4C987112192D717900D8850E /* Rafael-A-14-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-14-22-B.png"; sourceTree = "<group>"; };
@@ -13655,6 +13659,8 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				4C8F0BD4196B9AB100B8A14E /* Rafael-A-00-24-A.png */,
+				4C8F0BD5196B9AB100B8A14E /* Rafael-A-00-24-B.png */,
 				4C82F8F61938129900433F4A /* Van Gogh-S-15-28-B.png */,
 				4C82F8F71938129900433F4A /* Van Gogh-S-15-28-A.png */,
 				4C82F8F81938129900433F4A /* Van Gogh-A-15-28-B.png */,
@@ -16470,6 +16476,7 @@
 				4CD5D760191874E2004C80D1 /* Bluco-37-00-B.png in Resources */,
 				4CD5DA49191874E2004C80D1 /* Van Gogh-S-10-28-A.png in Resources */,
 				4C1F9264192F172B00AAB2E1 /* White.jpg in Resources */,
+				4C8F0BD6196B9AB100B8A14E /* Rafael-A-00-24-A.png in Resources */,
 				4CD5D744191874E2004C80D1 /* Bluco-00-22-B.png in Resources */,
 				4CD5D7E6191874E2004C80D1 /* Extens-29-22-BB.png in Resources */,
 				4CD5DAB31918773E004C80D1 /* Largo-XL-29-22.jpg in Resources */,
@@ -17515,6 +17522,7 @@
 				4CD5DAD8191880CD004C80D1 /* Bluco-29-22-A.png in Resources */,
 				4CD5D7E8191874E2004C80D1 /* Extens-30-00-B.png in Resources */,
 				4CD5DA0C191874E2004C80D1 /* Renoir-W-10-27-B.png in Resources */,
+				4C8F0BD7196B9AB100B8A14E /* Rafael-A-00-24-B.png in Resources */,
 				4CD5DA51191874E2004C80D1 /* Wings-00-22-A.png in Resources */,
 				4CD5D78D191874E2004C80D1 /* Chrominox-31-27-A.png in Resources */,
 				4CD5D9A5191874E2004C80D1 /* Renoir-A-13-27-A.png in Resources */,
