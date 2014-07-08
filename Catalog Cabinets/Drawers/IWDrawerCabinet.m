@@ -213,7 +213,7 @@
 -(UIImageView *)addLayer:(NSString *)imageName
 {
     UIImageView *layer = [super addLayer:imageName];
-    [layer setContentMode:UIViewContentModeScaleAspectFill];
+    [layer setContentMode:UIViewContentModeScaleAspectFit];
     return layer;
 }
 
