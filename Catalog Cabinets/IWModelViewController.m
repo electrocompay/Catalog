@@ -370,7 +370,7 @@
         [self createFackeButton];
         [homeMenu setHidden:YES];
         [menu setHidden:NO];
-        [menu.superview bringSubviewToFront:homeMenu];
+        [menu.superview bringSubviewToFront:menu];
     } else
     {
         [menu setHidden:YES];
@@ -397,7 +397,7 @@
     [button addTarget:self action:@selector(hideButton:) forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:@"" forState:UIControlStateNormal];
     button.frame = self.view.frame;
-    [homeMenu.superview addSubview:button];
+    [self.view addSubview:button];
 }
 
 -(void)hideButton:(id)sender
