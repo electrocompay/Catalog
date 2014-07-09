@@ -45,6 +45,7 @@
     IWDrawerCabinet *thumbDrawer;
     NSInteger _updating;
     UIButton * button;
+    UIButton * button2;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -397,7 +398,13 @@
     [button addTarget:self action:@selector(hideButton:) forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:@"" forState:UIControlStateNormal];
     button.frame = self.view.frame;
-    [self.view addSubview:button];
+    [homeMenu.superview addSubview:button];
+
+    button2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button2 addTarget:self action:@selector(hideButton:) forControlEvents:UIControlEventTouchUpInside];
+    [button2 setTitle:@"" forState:UIControlStateNormal];
+    button2.frame = self.view.frame;
+    [self.tabContainer addSubview:button2];
 }
 
 -(void)hideButton:(id)sender
@@ -405,6 +412,7 @@
     homeMenu.hidden = YES;
     menu.hidden = YES;
     button.hidden = YES;
+    button2.hidden = YES;
 }
 
 -(void)menuView:(IWMenuView *)menuView didClick:(NSInteger)optionIndex
