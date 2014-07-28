@@ -10,3 +10,19 @@
 *.xcuserstate
 
 *.xcbkptlist
+
+*.xcuserstate
+
+*.xcuserstate
+
+*.xcbkptlist
+
+Catalog.xcodeproj/project.xcworkspace/xcuserdata/abelmiranda.xcuserdatad/UserInterfaceState.xcuserstate
+
+Catalog.xcodeproj/xcuserdata/abelmiranda.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+Catalog/Resources/.DS_Store
+
+Catalog/Resources/Tables_Chairs/.DS_Store
+
+.DS_Store
