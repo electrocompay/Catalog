@@ -7,7 +7,7 @@
 //
 
 #import "IWCabinet.h"
-#import "IWColors.h"
+#import "NSArray+color.h"
 
 @implementation IWCabinet
 {
@@ -103,7 +103,7 @@
                 [_colors addObject: _color];
             }
             NSInteger ndrawers = [params[1] intValue];
-            IWColor* drawerColor = [self getDefaultDrawerColor];
+            IWColor* drawerColor = [_model.code isEqualToString:@"J83"] ? [[IWColors cabinetDrawerColors] colorByCode:@"29"] : [[IWColors cabinetDrawerColors] colorByCode:@"35"];
             [_drawers removeAllObjects];
             for (int i = 0; i < ndrawers; i++) {
                 [_drawers addObject: drawerColor];
