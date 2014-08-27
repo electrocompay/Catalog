@@ -102,6 +102,9 @@
     [self addLayer:filename];
 
     if (cabinet.useStripe) {
+        filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.stripe.code, @"F", @"", position, strSufix];
+        filename = [filename stringByReplacingOccurrencesOfString:@"C83" withString:@"J83"];
+        [self addLayer:filename];
         filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F-%d%@", cabinet.model.code, cabinet.colors.count, strSufix, cabinet.stripe.code, position, strSufix];
         [self addLayer:filename];
         filename = [NSString stringWithFormat:@"%@-%dL%@-%@-F-%d%@", cabinet.model.code, cabinet.drawers.count, strSufix, cabinet.stripe.code, position, strSufix];

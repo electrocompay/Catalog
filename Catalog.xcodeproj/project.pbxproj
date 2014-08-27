@@ -6543,7 +6543,7 @@
 		4C63B8CA19872A7C00833622 /* Angelina-AW-07-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina-AW-07-27-B.png"; sourceTree = "<group>"; };
 		4C63B8CB19872A7C00833622 /* Angelina-AW-08-27-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina-AW-08-27-A.png"; sourceTree = "<group>"; };
 		4C63B8CC19872A7C00833622 /* Angelina-AW-08-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina-AW-08-27-B.png"; sourceTree = "<group>"; };
-		4C6DC2F618A73E89005007A8 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6DC2F618A73E89005007A8 /* catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6DC2F918A73E89005007A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C6DC2FB18A73E89005007A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4C6DC2FD18A73E89005007A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -10844,7 +10844,7 @@
 		4C6DC2F718A73E89005007A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C6DC2F618A73E89005007A8 /* Catalog.app */,
+				4C6DC2F618A73E89005007A8 /* catalog.app */,
 				4C6DC31118A73E8A005007A8 /* CatalogTests.xctest */,
 				4CEE9B8C191FC21900C54B67 /* Catalog Cabinets.app */,
 				4CEE9BA8191FC21A00C54B67 /* Catalog CabinetsTests.xctest */,
@@ -16333,7 +16333,7 @@
 			);
 			name = Catalog;
 			productName = Catalog;
-			productReference = 4C6DC2F618A73E89005007A8 /* Catalog.app */;
+			productReference = 4C6DC2F618A73E89005007A8 /* catalog.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4C6DC31018A73E8A005007A8 /* CatalogTests */ = {
