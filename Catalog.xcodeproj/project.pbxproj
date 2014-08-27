@@ -5376,6 +5376,10 @@
 		4CF90FD9192E2CEC0048201B /* Splash_Cabinets_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */; };
 		4CF90FDA192E2CEC0048201B /* Splash_Cabinets_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */; };
 		5D875D3B193D75C100D427CC /* Grey@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D875D3A193D75C100D427CC /* Grey@2x.jpg */; };
+		5DEFCB7219AD803C00A994CD /* Splash_Tables_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7019AD803C00A994CD /* Splash_Tables_1536x2048.png */; };
+		5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */; };
+		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
+		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -10671,6 +10675,10 @@
 		4CF90FD7192E2CEC0048201B /* Splash_Cabinets_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1024x768.png; sourceTree = "<group>"; };
 		4CF90FD8192E2CEC0048201B /* Splash_Cabinets_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_2048x1536.png; sourceTree = "<group>"; };
 		5D875D3A193D75C100D427CC /* Grey@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grey@2x.jpg"; sourceTree = "<group>"; };
+		5DEFCB7019AD803C00A994CD /* Splash_Tables_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_1536x2048.png; sourceTree = "<group>"; };
+		5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_768x1024.png; sourceTree = "<group>"; };
+		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
+		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -10885,6 +10893,8 @@
 		4C6DC30018A73E89005007A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DEFCB7019AD803C00A994CD /* Splash_Tables_1536x2048.png */,
+				5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */,
 				4C513F50193D6B81006A3750 /* 144n.png */,
 				4C513F51193D6B81006A3750 /* 72n.png */,
 				4C513F4A193D69FB006A3750 /* 100n.png */,
@@ -14881,6 +14891,8 @@
 			isa = PBXGroup;
 			children = (
 				4C513F54193D6BA1006A3750 /* 144b.png */,
+				5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */,
+				5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */,
 				4C513F55193D6BA1006A3750 /* 72b.png */,
 				4C513F56193D6BA1006A3750 /* 100b.png */,
 				4C513F57193D6BA1006A3750 /* 80b.png */,
@@ -16746,6 +16758,7 @@
 				4C63B90719872A7C00833622 /* Rafael-S-18-28-B.png in Resources */,
 				4C1F9214192F172B00AAB2E1 /* Grey 21@2x.jpg in Resources */,
 				4C63BABF19872A7D00833622 /* Monet-A-14-27-A.png in Resources */,
+				5DEFCB7219AD803C00A994CD /* Splash_Tables_1536x2048.png in Resources */,
 				4C63B94F19872A7C00833622 /* Van Gogh-A-13-28-B.png in Resources */,
 				4C63BADA19872A7D00833622 /* Luna-00-24-B.png in Resources */,
 				4C63BA7819872A7D00833622 /* Monet-S-10-27-B.png in Resources */,
@@ -16783,6 +16796,7 @@
 				4C63BC1A19872A7E00833622 /* Bluco-00-22-B.png in Resources */,
 				4C63B94419872A7C00833622 /* Van Gogh-A-08-28-A.png in Resources */,
 				4C63BBD619872A7E00833622 /* Chateau-29-22-BB.png in Resources */,
+				5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */,
 				4C63BBFA19872A7E00833622 /* Bluco-31-00-A.png in Resources */,
 				4C63BCC519872A7F00833622 /* Angelina-AW-08-27-A.png in Resources */,
 				4C63BA0F19872A7C00833622 /* Propeller-00-26-B.png in Resources */,
@@ -20377,6 +20391,7 @@
 				4C87DB8F192030BC008F59F0 /* 40-H05-31-00-F5.png in Resources */,
 				4CEEA98C191FCEB700C54B67 /* C83-2D-31-2.png in Resources */,
 				4C6E9105193763E3003EA44C /* Wood@2x.jpg in Resources */,
+				5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */,
 				4C87E38119203307008F59F0 /* marker.png in Resources */,
 				4CEEA96C191FCEB700C54B67 /* C83-2D-29-2.png in Resources */,
 				4CEEAC4E191FCEB900C54B67 /* C83-LDD-31-T-2.png in Resources */,
@@ -20652,6 +20667,7 @@
 				4C87DACB192030BC008F59F0 /* 40-H03-30-00-S.png in Resources */,
 				4CEEAABA191FCEB800C54B67 /* C83-3L-30-F-2.png in Resources */,
 				4C6F6507192EDC1300E6076F /* 55-K12-29-F.png in Resources */,
+				5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */,
 				4C87DD19192030BC008F59F0 /* 40-K13-30-F2.png in Resources */,
 				4CB79313192C6BA700325AD9 /* J83-2D-31-F-3.png in Resources */,
 				4C87DFBB192030BC008F59F0 /* 55-H02-36-00-F3.png in Resources */,
