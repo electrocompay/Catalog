@@ -9383,7 +9383,7 @@
 		4CEE0F8E18AB370300298C60 /* IWModules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWModules.m; path = Model/IWModules.m; sourceTree = "<group>"; };
 		4CEE38A31936BCF80008D533 /* joli1-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joli1-152x152.png"; sourceTree = "<group>"; };
 		4CEE38A41936BCF80008D533 /* joli1-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joli1-76x76.png"; sourceTree = "<group>"; };
-		4CEE9B8C191FC21900C54B67 /* Catalog Cabinets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalog Cabinets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE9B8C191FC21900C54B67 /* catalogcabinets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalogcabinets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE9B92191FC21900C54B67 /* Catalog Cabinets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catalog Cabinets-Info.plist"; sourceTree = "<group>"; };
 		4CEE9B94191FC21900C54B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CEE9B96191FC21900C54B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -10846,7 +10846,7 @@
 			children = (
 				4C6DC2F618A73E89005007A8 /* catalog.app */,
 				4C6DC31118A73E8A005007A8 /* CatalogTests.xctest */,
-				4CEE9B8C191FC21900C54B67 /* Catalog Cabinets.app */,
+				4CEE9B8C191FC21900C54B67 /* catalogcabinets.app */,
 				4CEE9BA8191FC21A00C54B67 /* Catalog CabinetsTests.xctest */,
 			);
 			name = Products;
@@ -16368,7 +16368,7 @@
 			);
 			name = "Catalog Cabinets";
 			productName = "Catalog Cabinets";
-			productReference = 4CEE9B8C191FC21900C54B67 /* Catalog Cabinets.app */;
+			productReference = 4CEE9B8C191FC21900C54B67 /* catalogcabinets.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4CEE9BA7191FC21A00C54B67 /* Catalog CabinetsTests */ = {
@@ -16406,7 +16406,7 @@
 						TestTargetID = 4C6DC2F518A73E89005007A8;
 					};
 					4CEE9B8B191FC21900C54B67 = {
-						DevelopmentTeam = 5P98465S8F;
+						DevelopmentTeam = 8QGLPF4ZXJ;
 					};
 					4CEE9BA7191FC21A00C54B67 = {
 						TestTargetID = 4C6DC2F518A73E89005007A8;
@@ -22055,7 +22055,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: IndianWebs (5P98465S8F)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FOTO DISSENY J E SL (8QGLPF4ZXJ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog Cabinets/Catalog Cabinets-Prefix.pch";
@@ -22066,8 +22066,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Catalog Cabinets/Catalog Cabinets-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73125D7C-F24E-412C-A1D4-1718B1F83845";
+				PRODUCT_NAME = catalogcabinets;
+				PROVISIONING_PROFILE = "3a107755-e0ea-4e48-bc45-2bf6378c2456";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -22077,15 +22077,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: IndianWebs (5P98465S8F)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FOTO DISSENY J E SL (8QGLPF4ZXJ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog Cabinets/Catalog Cabinets-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Catalog Cabinets/Catalog Cabinets-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73125D7C-F24E-412C-A1D4-1718B1F83845";
+				PRODUCT_NAME = catalogcabinets;
+				PROVISIONING_PROFILE = "3a107755-e0ea-4e48-bc45-2bf6378c2456";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
