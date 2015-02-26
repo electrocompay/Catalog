@@ -5380,6 +5380,22 @@
 		5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */; };
 		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
 		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
+		7B72A8D31A74296800DE30BB /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
+		7B72A8D41A74296800DE30BB /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
+		7BE90A1C1A7675B90008711F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1A1A7675B90008711F /* email.png */; };
+		7BE90A1D1A7675B90008711F /* cofee_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1B1A7675B90008711F /* cofee_pic.png */; };
+		7BEBDC061A69F12A009F27AA /* IWSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBDC051A69F12A009F27AA /* IWSelectorTableViewController.m */; };
+		7BEBDC081A69F19C009F27AA /* IWSelectorTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC071A69F19C009F27AA /* IWSelectorTableViewController.xib */; };
+		7BEBDC0D1A6A0666009F27AA /* radio_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CCD9A192AE1A500FC0F1D /* radio_unselected.png */; };
+		7BEBDC0E1A6A0669009F27AA /* radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CCD9B192AE1A500FC0F1D /* radio_selected.png */; };
+		7BEBDC0F1A6A066C009F27AA /* picker_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C87E3881920818E008F59F0 /* picker_bg.png */; };
+		7BEBDC131A6C72CF009F27AA /* IWSimplePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBDC111A6C72CF009F27AA /* IWSimplePickerViewController.m */; };
+		7BEBDC141A6C72CF009F27AA /* IWSimplePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC121A6C72CF009F27AA /* IWSimplePickerViewController.xib */; };
+		7BEBDC191A6D1B00009F27AA /* show_summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC151A6D1B00009F27AA /* show_summary.png */; };
+		7BEBDC1A1A6D1B00009F27AA /* show_price.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC161A6D1B00009F27AA /* show_price.png */; };
+		7BEBDC1B1A6D1B00009F27AA /* table_mesurements.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC171A6D1B00009F27AA /* table_mesurements.png */; };
+		7BEBDC1C1A6D1B00009F27AA /* dinning_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC181A6D1B00009F27AA /* dinning_pic.png */; };
+		7BEBDC1E1A6D1F20009F27AA /* logo joli.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC1D1A6D1F20009F27AA /* logo joli.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -10679,6 +10695,22 @@
 		5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
+		7B72A8D01A74296800DE30BB /* IWPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWPasswordView.h; path = Views/IWPasswordView.h; sourceTree = "<group>"; };
+		7B72A8D11A74296800DE30BB /* IWPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWPasswordView.m; path = Views/IWPasswordView.m; sourceTree = "<group>"; };
+		7B72A8D21A74296800DE30BB /* IWPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWPasswordView.xib; path = Views/IWPasswordView.xib; sourceTree = "<group>"; };
+		7BE90A1A1A7675B90008711F /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		7BE90A1B1A7675B90008711F /* cofee_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cofee_pic.png; sourceTree = "<group>"; };
+		7BEBDC041A69F12A009F27AA /* IWSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWSelectorTableViewController.h; path = Views/IWSelectorTableViewController.h; sourceTree = "<group>"; };
+		7BEBDC051A69F12A009F27AA /* IWSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWSelectorTableViewController.m; path = Views/IWSelectorTableViewController.m; sourceTree = "<group>"; };
+		7BEBDC071A69F19C009F27AA /* IWSelectorTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWSelectorTableViewController.xib; path = Views/IWSelectorTableViewController.xib; sourceTree = "<group>"; };
+		7BEBDC101A6C72CF009F27AA /* IWSimplePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWSimplePickerViewController.h; path = Views/IWSimplePickerViewController.h; sourceTree = "<group>"; };
+		7BEBDC111A6C72CF009F27AA /* IWSimplePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWSimplePickerViewController.m; path = Views/IWSimplePickerViewController.m; sourceTree = "<group>"; };
+		7BEBDC121A6C72CF009F27AA /* IWSimplePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWSimplePickerViewController.xib; path = Views/IWSimplePickerViewController.xib; sourceTree = "<group>"; };
+		7BEBDC151A6D1B00009F27AA /* show_summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show_summary.png; sourceTree = "<group>"; };
+		7BEBDC161A6D1B00009F27AA /* show_price.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show_price.png; sourceTree = "<group>"; };
+		7BEBDC171A6D1B00009F27AA /* table_mesurements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_mesurements.png; sourceTree = "<group>"; };
+		7BEBDC181A6D1B00009F27AA /* dinning_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinning_pic.png; sourceTree = "<group>"; };
+		7BEBDC1D1A6D1F20009F27AA /* logo joli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo joli.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -14757,6 +14789,13 @@
 		4CE8DBE718A751FE00FC1326 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BE90A1A1A7675B90008711F /* email.png */,
+				7BE90A1B1A7675B90008711F /* cofee_pic.png */,
+				7BEBDC1D1A6D1F20009F27AA /* logo joli.png */,
+				7BEBDC151A6D1B00009F27AA /* show_summary.png */,
+				7BEBDC161A6D1B00009F27AA /* show_price.png */,
+				7BEBDC171A6D1B00009F27AA /* table_mesurements.png */,
+				7BEBDC181A6D1B00009F27AA /* dinning_pic.png */,
 				4C1F9167192F172A00AAB2E1 /* Colors */,
 				4C1F90A3192EF06900AAB2E1 /* cat2.png */,
 				4C1F90A4192EF06900AAB2E1 /* cat1.png */,
@@ -14808,6 +14847,9 @@
 		4CEE0F6118A9E4C800298C60 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7BEBDC101A6C72CF009F27AA /* IWSimplePickerViewController.h */,
+				7BEBDC111A6C72CF009F27AA /* IWSimplePickerViewController.m */,
+				7BEBDC121A6C72CF009F27AA /* IWSimplePickerViewController.xib */,
 				4CBBEF4B18F3A31A0086824C /* IWSelectorViewController.h */,
 				4CBBEF4C18F3A31A0086824C /* IWSelectorViewController.m */,
 				4CBBEF4D18F3A31A0086824C /* IWSelectorViewController.xib */,
@@ -14819,6 +14861,12 @@
 				4CF1EC1019108F2700A39BFB /* IWMenuView.xib */,
 				4C3FC0C01913318300A7DEF2 /* IWTriangle.h */,
 				4C3FC0C11913318300A7DEF2 /* IWTriangle.m */,
+				7BEBDC041A69F12A009F27AA /* IWSelectorTableViewController.h */,
+				7BEBDC051A69F12A009F27AA /* IWSelectorTableViewController.m */,
+				7BEBDC071A69F19C009F27AA /* IWSelectorTableViewController.xib */,
+				7B72A8D01A74296800DE30BB /* IWPasswordView.h */,
+				7B72A8D11A74296800DE30BB /* IWPasswordView.m */,
+				7B72A8D21A74296800DE30BB /* IWPasswordView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -16517,6 +16565,7 @@
 				4C513F52193D6B81006A3750 /* 144n.png in Resources */,
 				4C63BCAA19872A7F00833622 /* Angelina-A-12-27-B.png in Resources */,
 				4C63B8D519872A7C00833622 /* Propeller-35-00-B.png in Resources */,
+				7BEBDC1A1A6D1B00009F27AA /* show_price.png in Resources */,
 				4C63BC9A19872A7F00833622 /* Angelina-A-04-27-B.png in Resources */,
 				4C63B98D19872A7C00833622 /* Renoir-S-11-27-A.png in Resources */,
 				4C1F9216192F172B00AAB2E1 /* Grey.jpg in Resources */,
@@ -16533,6 +16582,7 @@
 				4C63BA4519872A7D00833622 /* Monet-S-16-27-B.png in Resources */,
 				4C63BAC919872A7D00833622 /* Monet-AW-01-27-A.png in Resources */,
 				4C63BA0419872A7C00833622 /* Princess-U-21-27-A.png in Resources */,
+				7BEBDC0F1A6A066C009F27AA /* picker_bg.png in Resources */,
 				4C63BC7F19872A7F00833622 /* Angelina-S-08-27-B.png in Resources */,
 				4C63BC2F19872A7E00833622 /* Angelina-W-03-27-B.png in Resources */,
 				4C63BA9919872A7D00833622 /* Monet-S-01-27-A.png in Resources */,
@@ -16610,6 +16660,7 @@
 				4C63BA9B19872A7D00833622 /* Monet-S-02-27-A.png in Resources */,
 				4C63BA3319872A7D00833622 /* Rafael-A-14-22-BB.png in Resources */,
 				4C63BBDC19872A7E00833622 /* Chateau-32-00-B.png in Resources */,
+				7BEBDC081A69F19C009F27AA /* IWSelectorTableViewController.xib in Resources */,
 				4C63BA3D19872A7D00833622 /* Monet-S-12-27-B.png in Resources */,
 				4C63B8D419872A7C00833622 /* Wings-35-00-B.png in Resources */,
 				4C63B90219872A7C00833622 /* Blucinox-34-27-A.png in Resources */,
@@ -16646,6 +16697,7 @@
 				4C63BA6619872A7D00833622 /* Monet-W-15-27-A.png in Resources */,
 				4CD5DA9F1918773E004C80D1 /* Monet-S-01-27.jpg in Resources */,
 				4CD5DAA51918773E004C80D1 /* Renoir-A-01-27.jpg in Resources */,
+				7BEBDC141A6C72CF009F27AA /* IWSimplePickerViewController.xib in Resources */,
 				4C63BAD019872A7D00833622 /* Largo-XL-37-00-B.png in Resources */,
 				4C63BA9A19872A7D00833622 /* Monet-S-01-27-B.png in Resources */,
 				4C63B91619872A7C00833622 /* Wings-00-25-A.png in Resources */,
@@ -16662,6 +16714,7 @@
 				4C63B94919872A7C00833622 /* Van Gogh-A-10-28-B.png in Resources */,
 				4C63BAA319872A7D00833622 /* Luna-41-00-A.png in Resources */,
 				4C63B9BA19872A7C00833622 /* Renoir-A-09-27-A.png in Resources */,
+				7BEBDC0E1A6A0669009F27AA /* radio_selected.png in Resources */,
 				4C1F91CA192F172B00AAB2E1 /* Antraciet 26.jpg in Resources */,
 				4C63B99B19872A7C00833622 /* Renoir-S-18-27-A.png in Resources */,
 				4C63BAFD19872A7D00833622 /* Largo-U-01-22-AB.png in Resources */,
@@ -16749,6 +16802,7 @@
 				4C63BC2219872A7E00833622 /* Bluco-00-26-B.png in Resources */,
 				4C63B9E319872A7C00833622 /* Rafael-S-15-28-A.png in Resources */,
 				4C63BAED19872A7D00833622 /* Largo-38-00-B.png in Resources */,
+				7BE90A1D1A7675B90008711F /* cofee_pic.png in Resources */,
 				4C1F922E192F172B00AAB2E1 /* Nutella.jpg in Resources */,
 				4C63BC7D19872A7F00833622 /* Angelina-S-07-27-B.png in Resources */,
 				4C1F91F6192F172B00AAB2E1 /* Brown.jpg in Resources */,
@@ -16824,6 +16878,7 @@
 				4C63BB5719872A7D00833622 /* Extens-31-00-A.png in Resources */,
 				4C63BA6519872A7D00833622 /* Monet-W-14-27-B.png in Resources */,
 				4C63BA4919872A7D00833622 /* Monet-S-18-27-B.png in Resources */,
+				7BEBDC191A6D1B00009F27AA /* show_summary.png in Resources */,
 				4C63B99319872A7C00833622 /* Renoir-S-14-27-A.png in Resources */,
 				4C63BB3219872A7D00833622 /* Largo-XL-29-22-B.png in Resources */,
 				4C63BC4E19872A7E00833622 /* Blucinox-29-27-A.png in Resources */,
@@ -16851,6 +16906,7 @@
 				4C63BB4119872A7D00833622 /* Ensor-S-18-27-A.png in Resources */,
 				4C63BC1519872A7E00833622 /* Blucinox-38-27-A.png in Resources */,
 				4C63B8D719872A7C00833622 /* Luna-29-22-AB.png in Resources */,
+				7BE90A1C1A7675B90008711F /* email.png in Resources */,
 				4C63B97A19872A7C00833622 /* Renoir-W-11-27-A.png in Resources */,
 				4C63B93419872A7C00833622 /* Renoir-W-18-27-A.png in Resources */,
 				4C1F9224192F172B00AAB2E1 /* Matrilux Carara.jpg in Resources */,
@@ -16909,6 +16965,7 @@
 				4C1F9226192F172B00AAB2E1 /* Matrilux Carrara@2x.jpg in Resources */,
 				4C63B8EF19872A7C00833622 /* Largo-XL-35-00-A.png in Resources */,
 				4C63BC9619872A7F00833622 /* Angelina-A-02-27-B.png in Resources */,
+				7B72A8D41A74296800DE30BB /* IWPasswordView.xib in Resources */,
 				4C63BB1019872A7D00833622 /* Largo-U-10-00-A.png in Resources */,
 				4C63B95F19872A7C00833622 /* Van Gogh-S-08-28-B.png in Resources */,
 				4C63BA9F19872A7D00833622 /* Luna-37-00-A.png in Resources */,
@@ -16938,6 +16995,7 @@
 				4C63B9FC19872A7C00833622 /* Moon-U-01-22-A.png in Resources */,
 				4C63B9A719872A7C00833622 /* Renoir-AW-16-27-A.png in Resources */,
 				4C63B91019872A7C00833622 /* Wings-00-22-A.png in Resources */,
+				7BEBDC1B1A6D1B00009F27AA /* table_mesurements.png in Resources */,
 				4C63BC0019872A7E00833622 /* Bluco-34-00-A.png in Resources */,
 				4C63B95519872A7C00833622 /* Van Gogh-S-03-28-B.png in Resources */,
 				4C63B9E619872A7C00833622 /* Rafael-S-42-28-B.png in Resources */,
@@ -17095,6 +17153,7 @@
 				4C63BA0519872A7C00833622 /* Princess-U-21-27-B.png in Resources */,
 				4C63B98319872A7C00833622 /* Renoir-W-15-27-B.png in Resources */,
 				4C63BB9319872A7E00833622 /* Largo-30-00-A.png in Resources */,
+				7BEBDC0D1A6A0666009F27AA /* radio_unselected.png in Resources */,
 				4C788F461922B48000F14D8E /* katalogusJOLIokLR.pdf in Resources */,
 				4C63BB4B19872A7D00833622 /* Extens-00-26-A.png in Resources */,
 				4C63BC9F19872A7F00833622 /* Angelina-A-07-27-A.png in Resources */,
@@ -17118,6 +17177,7 @@
 				4C63B8F619872A7C00833622 /* Facet-34-00-B.png in Resources */,
 				4C63BBF519872A7E00833622 /* Chrominox-34-27-A.png in Resources */,
 				4C63BB1219872A7D00833622 /* Largo-U-11-00-A.png in Resources */,
+				7BEBDC1E1A6D1F20009F27AA /* logo joli.png in Resources */,
 				4C63BB9D19872A7E00833622 /* Chrominox-41-27-A.png in Resources */,
 				4C63B93219872A7C00833622 /* Renoir-W-17-27-A.png in Resources */,
 				4C63B95319872A7C00833622 /* Van Gogh-S-02-28-B.png in Resources */,
@@ -17364,6 +17424,7 @@
 				4C63BAF819872A7D00833622 /* Largo-U-00-26-A.png in Resources */,
 				4C63BC6F19872A7E00833622 /* Angelina-AW-18-27-B.png in Resources */,
 				4C63B8F119872A7C00833622 /* Luna-29-00-A.png in Resources */,
+				7BEBDC1C1A6D1B00009F27AA /* dinning_pic.png in Resources */,
 				4C63BCBB19872A7F00833622 /* Angelina-AW-03-27-A.png in Resources */,
 				4CEE38A61936BCF80008D533 /* joli1-76x76.png in Resources */,
 				4C63BBDB19872A7E00833622 /* Chateau-32-00-A.png in Resources */,
@@ -21783,11 +21844,13 @@
 				4C001E0A19376DAE00C81AC2 /* NSArray+color.m in Sources */,
 				4C3FC0C21913318300A7DEF2 /* IWTriangle.m in Sources */,
 				4CEE0F8C18AB0F9A00298C60 /* IWType.m in Sources */,
+				7B72A8D31A74296800DE30BB /* IWPasswordView.m in Sources */,
 				4CEE0F5718A9CFD200298C60 /* BrowserTab.m in Sources */,
 				4CBBEF5318F4D44D0086824C /* IWOptionView.m in Sources */,
 				4CEE0F7C18AAFAD400298C60 /* IWOption.m in Sources */,
 				4CF1EC1119108F2700A39BFB /* IWMenuView.m in Sources */,
 				4CBBEF4218F39C7A0086824C /* IWColor.m in Sources */,
+				7BEBDC061A69F12A009F27AA /* IWSelectorTableViewController.m in Sources */,
 				4CEE0E7A18A89B0100298C60 /* IWModelViewController.m in Sources */,
 				4CBBEF4518F39D7E0086824C /* IWColors.m in Sources */,
 				4C98710D192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */,
@@ -21795,6 +21858,7 @@
 				4CEE0F7F18AAFAEB00298C60 /* IWCubeOption.m in Sources */,
 				4C6DC30618A73E89005007A8 /* main.m in Sources */,
 				4CEE0F5818A9CFD200298C60 /* BrowserTabView.m in Sources */,
+				7BEBDC131A6C72CF009F27AA /* IWSimplePickerViewController.m in Sources */,
 				4CEEADA6191FD52A00C54B67 /* IWDrawerChair.m in Sources */,
 				4CEE0F6D18AAF77500298C60 /* IWForniture.m in Sources */,
 				4CBBEF4E18F3A31A0086824C /* IWSelectorViewController.m in Sources */,

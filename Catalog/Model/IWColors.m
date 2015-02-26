@@ -71,7 +71,7 @@ NSArray* _cabinetDrawerColors;
         _tableModels = [[NSArray alloc] initWithObjects:
                         [[IWModel modelWithName:@"Blucinox" andCode:@"Blucinox-CC-27" andFile:@"Blucinox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41" andLegColors:@"27"] withCategory:@"model"] ,
                         [[IWModel modelWithName:@"Bluco" andCode:@"Bluco-CC-LL" andFile:@"Bluco-29-22.jpg" andColors:nil andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Chateau" andCode:@"Chateau-CC-LL" andFile:@"Chateau-29-22.jpg" andColors:nil andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Chateau" andCode:@"Chateau-CC-LL" andFile:@"Chateau-29-22.jpg" andColors:nil andLegColors:@"22,23,24,25,26"] withSizes:@"180 X 90 X 75,180 X 128 X 75,200 X 100 X 75,200 X 128 X 75,220 X 100 X 75,220 X 128 X 75,250 X 100 X 75,250 X 128 X 75,300 X 100 X 75,300 X 128 X 75"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Chrominox" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:nil andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Elyps" andCode:@"Elyps-CC-LL" andFile:@"Elyps-29-22.jpg" andColors:nil andLegColors:@"22,23,24,25,26,27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Extens" andCode:@"Extens-CC-LL" andFile:@"Extens-29-22.jpg" andColors:@"29,30,31,32,33,36,37,38,41" andLegColors:@"22,23,24,25,26,27"] withCategory:@"model"],

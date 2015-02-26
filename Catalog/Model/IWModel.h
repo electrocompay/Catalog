@@ -12,7 +12,9 @@
 
 @property (nonatomic, strong) NSArray* colors;
 @property (nonatomic, strong) NSArray* legColors;
+@property (nonatomic, strong) NSArray* sizes;
 
 +(IWModel*) modelWithName:(NSString*) name andCode:(NSString*) code andFile:(NSString*) file andColors:(NSString*) colors andLegColors:(NSString*) legColors;
+-(IWModel*) withSizes:(NSString*)sizes;
 
 @end

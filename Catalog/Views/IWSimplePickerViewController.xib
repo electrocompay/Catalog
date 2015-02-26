@@ -4,36 +4,32 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWPickerViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSimplePickerViewController">
             <connections>
-                <outlet property="_pickerView" destination="eQN-RJ-utk" id="Awi-o5-GMX"/>
-                <outlet property="label" destination="UK3-yg-2Ia" id="xEJ-iv-Tk4"/>
+                <outlet property="_pickerView" destination="eQN-RJ-utk" id="s1Y-jc-710"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="170" height="174"/>
+            <rect key="frame" x="0.0" y="0.0" width="170" height="100"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBs-5K-55t">
-                    <rect key="frame" x="0.0" y="36" width="199" height="130"/>
+                    <rect key="frame" x="0.0" y="0.0" width="170" height="100"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picker_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="0cr-Ce-BVW">
-                            <rect key="frame" x="0.0" y="2" width="170" height="126"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picker_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="0cr-Ce-BVW">
+                            <rect key="frame" x="0.0" y="0.0" width="170" height="100"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </imageView>
-                        <pickerView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQN-RJ-utk">
-                            <rect key="frame" x="0.0" y="-43" width="170" height="216"/>
+                        <pickerView contentMode="scaleToFill" fixedFrame="YES" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQN-RJ-utk">
+                            <rect key="frame" x="0.0" y="-31" width="170" height="100"/>
                         </pickerView>
                     </subviews>
                 </view>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cabinets" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UK3-yg-2Ia">
-                    <rect key="frame" x="0.0" y="15" width="149" height="21"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
+            <nil key="simulatedTopBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="300" y="233"/>
         </view>
     </objects>
     <resources>

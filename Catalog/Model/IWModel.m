@@ -26,4 +26,17 @@
     return model;
 }
 
+-(IWModel *)withSizes:(NSString *)sizes
+{
+    NSArray* dataSizes = [sizes componentsSeparatedByString:@","];
+
+    NSMutableArray* mutableArray = [[NSMutableArray alloc] init];
+    
+    for (NSString* dataSize in dataSizes) {
+        [mutableArray addObject:[IWColor colorWithName:dataSize andCode:dataSize andFile:Nil]];
+    }
+    _sizes = mutableArray;
+    return self;
+}
+
 @end

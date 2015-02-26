@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "BrowserTabView.h"
 #import "IWSelectorViewController.h"
+#import "IWSelectorTableViewController.h"
 #import "IWMenuView.h"
 #import <MessageUI/MFMailComposeViewController.h>
 
-@interface IWModelViewController : UIViewController<BrowserTabViewDelegate, UIPickerViewDelegate, IWSelectorViewControllerDelegate, IWMenuViewdelegate, MFMailComposeViewControllerDelegate>
+@interface IWModelViewController : UIViewController<BrowserTabViewDelegate, UIPickerViewDelegate, IWSelectorViewControllerDelegate, IWMenuViewdelegate, MFMailComposeViewControllerDelegate, IWSelectorTableViewControllerDelegate>
 {
     IBOutlet UIView *tabContent;
     IBOutlet UIView *content;

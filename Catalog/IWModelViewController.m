@@ -16,6 +16,8 @@
 #import "IWMenuView.h"
 #import "IWCatalogViewController.h"
 #import "NSArray+color.h"
+#import "IWSelectorTableViewController.h"
+#import "IWPasswordView.h"
 
 @interface IWModelViewController ()
 
@@ -24,7 +26,7 @@
 @implementation IWModelViewController{
     
     BrowserTabView *tabController;
-    IWSelectorViewController *selectorModelView;
+    IWSelectorTableViewController *selectorTableModelView;
     IWSelectorViewController *selectorTableColorView;
     IWSelectorViewController *selectorTableLegsColorView;
     IWSelectorViewController *selectorChairModelView;
@@ -42,6 +44,26 @@
     IWDrawerChair *thumbDrawerChair;
     UIButton * button;
     UIButton * button2;
+    
+    /* Price controls */
+    
+    IBOutlet UIButton *tablePriceButton;
+    IBOutlet UIButton *chairPriceButton;
+    IBOutlet IWPasswordView *passwordDialog;
+    
+    
+    /* new*/
+    
+    IBOutlet UILabel *tableLengthView;
+    IBOutlet UILabel *tableWithView;
+    IBOutlet UIButton *tableHeightView;
+    IBOutlet UILabel *tableNameView;
+    IBOutlet UILabel *tableDimensionsView;
+    IBOutlet UIButton *showPriceTableButton;
+    IBOutlet UILabel *chairNameView;
+    IBOutlet UIButton *showPriceChairButton;
+    IBOutlet UILabel *bottonDescriptionView;
+    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -88,11 +110,12 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    if (!selectorModelView) {
+    if (!selectorTableModelView) {
         
-        selectorModelView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-        [selectorModelView setPropertyName:@"table model"];
-        [self prepareSelector:selectorModelView withColors:[IWColors tableModels]];
+        selectorTableModelView = [[IWSelectorTableViewController alloc] initWithNibName:@"IWSelectorTableViewController" bundle:nil];
+        [selectorTableModelView setPropertyName:@"table model"];
+        [self prepareSelector:selectorTableModelView withColors:[IWColors tableModels]];
+        [selectorTableModelView setTableDelegate:self];
         
         selectorTableColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorTableColorView setPropertyName:@"table color"];
@@ -133,13 +156,12 @@
 #pragma mark BrowserTabViewDelegate
 -(void)BrowserTabView:(BrowserTabView *)browserTabView didSelecedAtIndex:(NSUInteger)index
 {
-    NSLog(@"BrowserTabView select Tab at index:  %d",index);
     if (index == 0) {
-        if (!selectorModelView) {
-            selectorModelView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
-            [self prepareSelector:selectorModelView withColors:[IWColors tableModels]];
+        if (!selectorTableModelView) {
+            selectorTableModelView = [[IWSelectorTableViewController alloc] initWithNibName:@"IWSelectorTableViewController" bundle:nil];
+            [self prepareSelector:selectorTableModelView withColors:[IWColors tableModels]];
         }else {
-            [tabContent bringSubviewToFront:selectorModelView.view];
+            [tabContent bringSubviewToFront:selectorTableModelView.view];
         }
     } else if (index == 1){
         if (!selectorTableColorView) {
@@ -219,7 +241,7 @@
 
 -(void)didSelectColor:(IWSelectorViewController *)selectorViewController andColor:(IWColor *)color
 {
-    if (selectorViewController == selectorModelView)
+    if (selectorViewController == selectorTableModelView)
     {
         [table setModel:(IWModel*) color];
     } else if (selectorViewController == selectorTableColorView)
@@ -282,6 +304,7 @@
         [chair setLegsColor:color];
     }
     [self drawAll];
+    [self updateDetails];
 }
 
 -(NSArray*)colorsRemoveIndex:(NSArray*)colors index:(NSInteger)index
@@ -383,9 +406,7 @@
     {
         switch (optionIndex) {
             case 0: //Save
-            {
                 [self generateJPG];
-            }
                 break;
             case 1: //Print
                 [self print];
@@ -513,5 +534,68 @@
     
     [pic presentAnimated:YES completionHandler:completionHandler];
 }
+
+#pragma marks Prices
+
+-(IBAction)priceMenu_Clicked:(id)sender{
+    if (sender == tablePriceButton){
+        [passwordDialog showLeftTriangle];
+        if (passwordDialog.hidden) {
+            [passwordDialog setHidden:NO];
+        } else if (![passwordDialog isLeftVisible]){
+            [passwordDialog setHidden:YES];
+        }
+        
+    } else if (sender == chairPriceButton){
+        [passwordDialog showRightTriangle];
+        if (passwordDialog.hidden) {
+            [passwordDialog setHidden:NO];
+        } else if ([passwordDialog isLeftVisible]){
+            [passwordDialog setHidden:YES];
+        }
+    }
+}
+
+
+#pragma marks extended features
+
+- (void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectSize:(IWColor *)size
+{
+    table.size = size;
+    [self updateDetails];
+}
+
+-(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectCofee:(BOOL)cofeeSelected
+{
+    table.cofee = cofeeSelected;
+    [self updateDetails];
+}
+
+-(void)updateDetails
+{
+    if (table.size && table.size.description)
+    {
+        NSArray *sizesArray = [table.size.name componentsSeparatedByString:@"X"];
+
+        NSString *length = sizesArray[0];
+        NSString *width = sizesArray[1];
+
+        [tableLengthView setText: [length stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
+        [tableWithView setText: [width stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
+        if (table.cofee) {
+            [tableHeightView setBackgroundImage:[UIImage imageNamed:@"cofee_pic"] forState:UIControlStateNormal];
+        } else {
+            [tableHeightView setBackgroundImage:[UIImage imageNamed:@"dinning_pic"] forState:UIControlStateNormal];
+        }
+    }
+    [tableNameView setText:table.model.name];
+    //        IBOutlet UILabel *tableDimensionsView;
+    //        IBOutlet UIButton *showPriceTableButton;
+    //        IBOutlet UILabel *chairNameView;
+    //        IBOutlet UIButton *showPriceChairButton;
+    //        IBOutlet UILabel *bottonDescriptionView;
+        
+}
+
 
 @end

@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWModelViewController">
             <connections>
+                <outlet property="bottonDescriptionView" destination="Lpm-8b-G4p" id="7Xf-aG-n3f"/>
+                <outlet property="chairNameView" destination="b4D-dY-RvR" id="Rme-1J-KKu"/>
+                <outlet property="chairPriceButton" destination="IAx-8f-BFE" id="aNJ-mt-IkW"/>
                 <outlet property="content" destination="tj6-zn-pBD" id="P0W-GE-boO"/>
                 <outlet property="homeMenu" destination="ise-Nf-8aS" id="vjh-Ic-RmO"/>
                 <outlet property="menu" destination="rk7-s3-R3i" id="27A-5j-i5q"/>
+                <outlet property="passwordDialog" destination="pek-1Y-M4a" id="c74-lR-vX8"/>
                 <outlet property="selectorView" destination="l1c-cr-BOG" id="LXX-D9-17p"/>
+                <outlet property="showPriceChairButton" destination="IAx-8f-BFE" id="9Yy-2b-i51"/>
+                <outlet property="showPriceTableButton" destination="tnM-OA-OT9" id="A55-2n-amF"/>
                 <outlet property="tabContainer" destination="xl3-fb-sPd" id="RwD-qr-zP2"/>
                 <outlet property="tabContent" destination="XNL-RR-3gZ" id="ior-td-K5D"/>
+                <outlet property="tableDimensionsView" destination="GmZ-z3-MLf" id="pUx-02-0NW"/>
+                <outlet property="tableHeightView" destination="Dok-oZ-zur" id="17o-Ue-yot"/>
+                <outlet property="tableLengthView" destination="38c-hP-NSe" id="pSr-Sr-rdZ"/>
+                <outlet property="tableNameView" destination="ljE-d8-RDl" id="Xwi-bV-bRE"/>
+                <outlet property="tablePriceButton" destination="tnM-OA-OT9" id="DvD-9c-cHP"/>
+                <outlet property="tableWithView" destination="EUp-Ih-DpS" id="Hjn-EW-Qeh"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -23,11 +35,9 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rKM-8s-7EV" userLabel="ImgPanelView">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="516"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-zn-pBD">
                             <rect key="frame" x="112" y="8" width="800" height="500"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="800" id="McL-2B-OTz"/>
@@ -41,30 +51,25 @@
                         <constraint firstAttribute="centerX" secondItem="tj6-zn-pBD" secondAttribute="centerX" id="jWj-lM-AYZ"/>
                     </constraints>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="qob-PH-cZM">
+                <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo joli.png" translatesAutoresizingMaskIntoConstraints="NO" id="qob-PH-cZM">
                     <rect key="frame" x="20" y="32" width="155" height="75"/>
-                    <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAX-bs-D8y" userLabel="ImgPanelView">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="516"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3x-ae-8iK">
                             <rect key="frame" x="884" y="412" width="94" height="92"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1c-cr-BOG" userLabel="SelectorView">
                             <rect key="frame" x="886" y="414" width="90" height="88"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <outletCollection property="gestureRecognizers" destination="P68-hF-EYb" appends="YES" id="nvc-iW-T7e"/>
                             </connections>
                         </imageView>
-                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="2lg-EA-Tt3">
+                        <imageView hidden="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="2lg-EA-Tt3">
                             <rect key="frame" x="926" y="55" width="50" height="50"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <gestureRecognizers/>
                             <connections>
                                 <outletCollection property="gestureRecognizers" destination="rut-8k-kzF" appends="YES" id="Yml-aQ-Em6"/>
@@ -72,31 +77,117 @@
                         </imageView>
                         <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rk7-s3-R3i" customClass="IWMenuView">
                             <rect key="frame" x="835" y="105" width="150" height="200"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         </view>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="menu_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-AQ-XOZ">
-                            <rect key="frame" x="861" y="55" width="50" height="50"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <rect key="frame" x="941" y="42" width="50" height="50"/>
                             <gestureRecognizers/>
                             <connections>
                                 <outletCollection property="gestureRecognizers" destination="p2w-aV-uU2" appends="YES" id="39c-ta-DTk"/>
                             </connections>
                         </imageView>
                         <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ise-Nf-8aS" customClass="IWMenuView">
-                            <rect key="frame" x="770" y="105" width="150" height="200"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <rect key="frame" x="850" y="92" width="150" height="200"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dok-oZ-zur">
+                            <rect key="frame" x="265" y="0.0" width="136" height="89"/>
+                            <state key="normal" backgroundImage="dinning_pic.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnM-OA-OT9">
+                            <rect key="frame" x="521" y="-1" width="106" height="90"/>
+                            <state key="normal" backgroundImage="show_price.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="priceMenu_Clicked:" destination="-1" eventType="touchUpInside" id="MZQ-Aq-VjP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAx-8f-BFE">
+                            <rect key="frame" x="714" y="0.0" width="106" height="90"/>
+                            <state key="normal" backgroundImage="show_price.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="priceMenu_Clicked:" destination="-1" eventType="touchUpInside" id="dAz-Zp-YbK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVx-04-OhT">
+                            <rect key="frame" x="826" y="0.0" width="106" height="90"/>
+                            <state key="normal" backgroundImage="show_summary.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pek-1Y-M4a" customClass="IWPasswordView">
+                            <rect key="frame" x="437" y="89" width="532" height="134"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Table:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEv-Rn-W9g">
+                            <rect key="frame" x="439" y="24" width="41" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="120 x 80 x 74 cm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmZ-z3-MLf">
+                            <rect key="frame" x="404" y="42" width="116" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chair:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulu-wT-f2t">
+                            <rect key="frame" x="671" y="24" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Angeline" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4D-dY-RvR">
+                            <rect key="frame" x="635" y="42" width="78" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(*) Photo Table Sizes 120 x 80 x 74" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpm-8b-G4p">
+                            <rect key="frame" x="295" y="481" width="434" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bluco" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljE-d8-RDl">
+                            <rect key="frame" x="481" y="25" width="39" height="20"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EbK-0l-8Cw">
+                            <rect key="frame" x="103" y="0.0" width="150" height="120"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="table_mesurements.png" translatesAutoresizingMaskIntoConstraints="NO" id="DzS-fT-tdM">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="185" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38c-hP-NSe">
+                                    <rect key="frame" x="62" y="82" width="25" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="185" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUp-Ih-DpS">
+                                    <rect key="frame" x="123" y="48" width="20" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                     </subviews>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xl3-fb-sPd" userLabel="TabsView">
                     <rect key="frame" x="0.0" y="516" width="1024" height="231"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNL-RR-3gZ" userLabel="tabContent">
                             <rect key="frame" x="0.0" y="38" width="1024" height="193"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         </view>
                     </subviews>
@@ -141,8 +232,17 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="logo.png" width="181" height="91"/>
+        <image name="dinning_pic.png" width="596" height="330"/>
+        <image name="logo joli.png" width="181" height="91"/>
         <image name="menu_home.png" width="70" height="71"/>
         <image name="menu_top.png" width="74" height="72"/>
+        <image name="show_price.png" width="355" height="325"/>
+        <image name="show_summary.png" width="355" height="325"/>
+        <image name="table_mesurements.png" width="652" height="418"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>
