@@ -386,6 +386,7 @@
     menu.hidden = YES;
     button.hidden = YES;
     button2.hidden = YES;
+    [passwordDialog setHidden:YES];
 }
 
 - (UIImage *)captureViewFrom:(UIView*)view{
@@ -541,7 +542,9 @@
     if (sender == tablePriceButton){
         [passwordDialog showLeftTriangle];
         if (passwordDialog.hidden) {
+            [self createFackeButton];
             [passwordDialog setHidden:NO];
+            [passwordDialog.superview bringSubviewToFront:passwordDialog];
         } else if (![passwordDialog isLeftVisible]){
             [passwordDialog setHidden:YES];
         }
@@ -549,7 +552,9 @@
     } else if (sender == chairPriceButton){
         [passwordDialog showRightTriangle];
         if (passwordDialog.hidden) {
+            [self createFackeButton];
             [passwordDialog setHidden:NO];
+            [passwordDialog.superview bringSubviewToFront:passwordDialog];
         } else if ([passwordDialog isLeftVisible]){
             [passwordDialog setHidden:YES];
         }
@@ -589,12 +594,12 @@
         }
     }
     [tableNameView setText:table.model.name];
-    //        IBOutlet UILabel *tableDimensionsView;
+    [tableDimensionsView setText:table.size.name];
+    [chairNameView setText:chair.model.name];
     //        IBOutlet UIButton *showPriceTableButton;
-    //        IBOutlet UILabel *chairNameView;
     //        IBOutlet UIButton *showPriceChairButton;
-    //        IBOutlet UILabel *bottonDescriptionView;
-        
+    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
+    
 }
 
 
