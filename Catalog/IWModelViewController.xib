@@ -10,6 +10,7 @@
                 <outlet property="bottonDescriptionView" destination="Lpm-8b-G4p" id="7Xf-aG-n3f"/>
                 <outlet property="chairNameView" destination="b4D-dY-RvR" id="Rme-1J-KKu"/>
                 <outlet property="chairPriceButton" destination="IAx-8f-BFE" id="aNJ-mt-IkW"/>
+                <outlet property="chairPriceView" destination="juU-Nq-b8E" id="xlF-56-lH5"/>
                 <outlet property="content" destination="tj6-zn-pBD" id="P0W-GE-boO"/>
                 <outlet property="homeMenu" destination="ise-Nf-8aS" id="vjh-Ic-RmO"/>
                 <outlet property="menu" destination="rk7-s3-R3i" id="27A-5j-i5q"/>
@@ -24,6 +25,7 @@
                 <outlet property="tableLengthView" destination="38c-hP-NSe" id="pSr-Sr-rdZ"/>
                 <outlet property="tableNameView" destination="ljE-d8-RDl" id="Xwi-bV-bRE"/>
                 <outlet property="tablePriceButton" destination="tnM-OA-OT9" id="DvD-9c-cHP"/>
+                <outlet property="tablePriceView" destination="Qor-iX-STP" id="EGd-Oc-Ehx"/>
                 <outlet property="tableWithView" destination="EUp-Ih-DpS" id="Hjn-EW-Qeh"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
@@ -158,6 +160,12 @@
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Angelina-AW" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4D-dY-RvR">
+                            <rect key="frame" x="615" y="42" width="91" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="(*) Photo Table Sizes 120 x 80 x 74" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpm-8b-G4p">
                             <rect key="frame" x="295" y="481" width="434" height="21"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -174,16 +182,16 @@
                             <rect key="frame" x="95" y="0.0" width="150" height="120"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="table_mesurements.png" translatesAutoresizingMaskIntoConstraints="NO" id="DzS-fT-tdM">
-                                    <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+                                    <rect key="frame" x="24" y="0.0" width="126" height="103"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="185" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38c-hP-NSe">
-                                    <rect key="frame" x="62" y="82" width="25" height="21"/>
+                                    <rect key="frame" x="74" y="69" width="25" height="21"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="185" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUp-Ih-DpS">
-                                    <rect key="frame" x="123" y="48" width="20" height="21"/>
+                                    <rect key="frame" x="125" y="40" width="20" height="21"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
@@ -191,9 +199,17 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Angelina-AW" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4D-dY-RvR">
-                            <rect key="frame" x="615" y="42" width="91" height="21"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3350" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qor-iX-STP">
+                            <rect key="frame" x="525" y="14" width="76" height="62"/>
+                            <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="330" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juU-Nq-b8E">
+                            <rect key="frame" x="729" y="14" width="76" height="62"/>
+                            <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -247,6 +263,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="230" y="211.5"/>
         </view>
         <tapGestureRecognizer id="P68-hF-EYb">
             <connections>

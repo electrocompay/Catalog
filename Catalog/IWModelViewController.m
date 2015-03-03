@@ -17,7 +17,7 @@
 #import "IWCatalogViewController.h"
 #import "NSArray+color.h"
 #import "IWSelectorTableViewController.h"
-#import "IWPasswordView.h"
+#import "IWPriceManager.h"
 
 @interface IWModelViewController ()
 
@@ -63,6 +63,8 @@
     IBOutlet UILabel *chairNameView;
     IBOutlet UIButton *showPriceChairButton;
     IBOutlet UILabel *bottonDescriptionView;
+    IBOutlet UILabel *tablePriceView;
+    IBOutlet UILabel *chairPriceView;
     
 }
 
@@ -106,6 +108,9 @@
     [homeMenu setItems:[NSMutableArray arrayWithObjects:@"Visit our web", @"Catalogues", @"Contact us", nil]];
     [menu setDelegate:self];
     [homeMenu setDelegate:self];
+    
+    
+    [passwordDialog setDelegate:self];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -142,6 +147,7 @@
         [selectorChairLegsColorView setFilteredItems:chair.model.legColors];
         
         [self BrowserTabView:nil didSelecedAtIndex:0];
+        [selectorTableModelView loadSizes];
         [self drawAll];
     }
 }
@@ -599,7 +605,34 @@
     //        IBOutlet UIButton *showPriceTableButton;
     //        IBOutlet UIButton *showPriceChairButton;
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
-    
+    [self updatePrices];
+}
+
+-(void)passwordView:(IWPasswordView *)passwordView authenticateResult:(BOOL)authenticateResult
+{
+    if (authenticateResult) {
+        [self updatePrices];
+    }
+}
+
+-(void)updatePrices
+{
+    IWPriceManager *pricesManager = [IWPriceManager getInstance];
+    if (pricesManager.authenticated) {
+        double tablePrice = [pricesManager getTablePrice:table];
+        [tablePriceView setText:[NSString stringWithFormat:@"%.2f", tablePrice]];
+        double chairPrice = [pricesManager getChairPrice:chair];
+        [chairPriceView setText:[NSString stringWithFormat:@"%.2f", chairPrice]];
+        [tablePriceView setHidden:NO];
+        [chairPriceView setHidden:NO];
+        [tablePriceButton setUserInteractionEnabled:NO];
+        [chairPriceButton setUserInteractionEnabled:NO];
+    } else {
+        [tablePriceView setHidden:YES];
+        [chairPriceView setHidden:YES];
+        [tablePriceButton setUserInteractionEnabled:YES];
+        [chairPriceButton setUserInteractionEnabled:YES];
+    }
 }
 
 

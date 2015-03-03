@@ -5380,6 +5380,8 @@
 		5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */; };
 		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
 		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
+		7B5589A11A9F4D96007FA8D7 /* IWPriceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */; };
+		7B5589A31AA3F48E007FA8D7 /* belux_table_prices.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */; };
 		7B72A8D31A74296800DE30BB /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
 		7B72A8D41A74296800DE30BB /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
 		7BE90A1C1A7675B90008711F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1A1A7675B90008711F /* email.png */; };
@@ -10695,6 +10697,9 @@
 		5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
+		7B55899F1A9F4D96007FA8D7 /* IWPriceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWPriceManager.h; path = Controllers/IWPriceManager.h; sourceTree = "<group>"; };
+		7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWPriceManager.m; path = Controllers/IWPriceManager.m; sourceTree = "<group>"; };
+		7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = belux_table_prices.json; sourceTree = "<group>"; };
 		7B72A8D01A74296800DE30BB /* IWPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWPasswordView.h; path = Views/IWPasswordView.h; sourceTree = "<group>"; };
 		7B72A8D11A74296800DE30BB /* IWPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWPasswordView.m; path = Views/IWPasswordView.m; sourceTree = "<group>"; };
 		7B72A8D21A74296800DE30BB /* IWPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWPasswordView.xib; path = Views/IWPasswordView.xib; sourceTree = "<group>"; };
@@ -10899,6 +10904,7 @@
 		4C6DC2FF18A73E89005007A8 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				7B55899E1A9F4D4E007FA8D7 /* Controllers */,
 				4CEE0F8018AB036000298C60 /* Drawers */,
 				4CEE0F6718AABD8F00298C60 /* Model */,
 				4CEE0F6118A9E4C800298C60 /* Views */,
@@ -14789,6 +14795,7 @@
 		4CE8DBE718A751FE00FC1326 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */,
 				7BE90A1A1A7675B90008711F /* email.png */,
 				7BE90A1B1A7675B90008711F /* cofee_pic.png */,
 				7BEBDC1D1A6D1F20009F27AA /* logo joli.png */,
@@ -16364,6 +16371,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7B55899E1A9F4D4E007FA8D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B55899F1A9F4D96007FA8D7 /* IWPriceManager.h */,
+				7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -16826,6 +16842,7 @@
 				4C63BC1C19872A7E00833622 /* Bluco-00-23-B.png in Resources */,
 				4C63BBEA19872A7E00833622 /* Chrominox-29-27-AB.png in Resources */,
 				4C63BA8819872A7D00833622 /* Monet-AW-10-27-B.png in Resources */,
+				7B5589A31AA3F48E007FA8D7 /* belux_table_prices.json in Resources */,
 				4C63B98C19872A7C00833622 /* Renoir-S-10-27-B.png in Resources */,
 				4C63BA5B19872A7D00833622 /* Monet-W-09-27-B.png in Resources */,
 				4C63BC7719872A7E00833622 /* Angelina-S-04-27-B.png in Resources */,
@@ -21858,6 +21875,7 @@
 				4CEE0F7F18AAFAEB00298C60 /* IWCubeOption.m in Sources */,
 				4C6DC30618A73E89005007A8 /* main.m in Sources */,
 				4CEE0F5818A9CFD200298C60 /* BrowserTabView.m in Sources */,
+				7B5589A11A9F4D96007FA8D7 /* IWPriceManager.m in Sources */,
 				7BEBDC131A6C72CF009F27AA /* IWSimplePickerViewController.m in Sources */,
 				4CEEADA6191FD52A00C54B67 /* IWDrawerChair.m in Sources */,
 				4CEE0F6D18AAF77500298C60 /* IWForniture.m in Sources */,

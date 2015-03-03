@@ -7,6 +7,7 @@
 //
 
 #import "IWPasswordView.h"
+#import "IWPriceManager.h"
 
 @interface IWPasswordView ()
 
@@ -49,6 +50,7 @@
     [textView.layer setCornerRadius:16.0f];
     [buttonRequest.layer setCornerRadius:16.0f];
     [buttonValidate.layer setCornerRadius:16.0f];
+    [textView setText:@""];
 }
 
 -(void)showLeftTriangle{
@@ -63,6 +65,16 @@
 
 -(BOOL)isLeftVisible{
     return !leftTriangle.hidden;
+}
+
+-(IBAction)authenticateClick:(id)sender
+{
+    
+    if ([[IWPriceManager getInstance] authenticate:[textView text]]) {
+        if (_delegate) {
+            [_delegate passwordView:self authenticateResult:YES];
+        }
+    }
 }
 
 @end

@@ -22,5 +22,6 @@
 @interface IWSelectorTableViewController : IWSelectorViewController<IWSimplePickerViewControllerDelegate>
 
 @property (nonatomic, weak) id<IWSelectorTableViewControllerDelegate> tableDelegate;
+-(void)loadSizes;
 
 @end

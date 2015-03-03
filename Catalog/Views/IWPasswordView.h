@@ -8,11 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@class IWPasswordView;
+
+@protocol IWPasswordViewDelegate <NSObject>
+
+-(void)passwordView:(IWPasswordView*) passwordView authenticateResult:(BOOL) authenticateResult;
+
+@end
+
 @interface IWPasswordView : UIView
 
 
 -(void)showLeftTriangle;
 -(void)showRightTriangle;
 -(BOOL)isLeftVisible;
+
+@property (nonatomic, weak) id<IWPasswordViewDelegate> delegate;
 
 @end

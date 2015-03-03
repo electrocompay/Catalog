@@ -46,7 +46,7 @@
     }
 }
 
--(void) loadSizes
+-(void)loadSizes
 {
     IWModel* model = (IWModel*) self.selectedColor;
     NSArray* sizes = model.sizes;
