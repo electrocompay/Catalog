@@ -16,6 +16,6 @@
 @property (nonatomic, strong) IWColor* color;
 @property (nonatomic, strong) IWColor* legsColor;
 @property (nonatomic, strong) IWColor* size;
-@property (nonatomic) BOOL cofee;
+@property (nonatomic) BOOL coffee;
 
 @end

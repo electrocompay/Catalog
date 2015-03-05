@@ -11,9 +11,11 @@
 NSString *const AUTHENTICATED_FIELD = @"authenticated";
 NSString *const PRICE_LIST_PREFIX = @"belux";
 NSString *const TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
+NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 
 IWPriceManager *pricemanager;
 NSDictionary *tablePriceList;
+NSDictionary *chairPriceList;
 
 @implementation IWPriceManager
 
@@ -42,14 +44,25 @@ NSDictionary *tablePriceList;
             return [value doubleValue];
         }
     }
-    
-    
-    
+
     return 0;
 }
 
 -(double)getChairPrice:(IWChair *)chair
 {
+    if (!chairPriceList) {
+        chairPriceList = [self loadPriceList:@"chair"];
+    }
+    
+    NSString *priceKey = [[NSString stringWithFormat:CHAIR_PRICE_FORMAT, chair.model.name, chair.color.name] uppercaseString];
+    if (priceKey) {
+        NSDictionary *price = [chairPriceList objectForKey:priceKey];
+        NSNumber *value = [price objectForKey:@"UnitPrice"];
+        if (value) {
+            return [value doubleValue];
+        }
+    }
+
     return 0;
 }
 

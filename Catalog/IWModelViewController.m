@@ -18,6 +18,7 @@
 #import "NSArray+color.h"
 #import "IWSelectorTableViewController.h"
 #import "IWPriceManager.h"
+#import "IWTableSummaryViewController.h"
 
 @interface IWModelViewController ()
 
@@ -578,7 +579,7 @@
 
 -(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectCofee:(BOOL)cofeeSelected
 {
-    table.cofee = cofeeSelected;
+    table.coffee = cofeeSelected;
     [self updateDetails];
 }
 
@@ -593,7 +594,7 @@
 
         [tableLengthView setText: [length stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
         [tableWithView setText: [width stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
-        if (table.cofee) {
+        if (table.coffee) {
             [tableHeightView setBackgroundImage:[UIImage imageNamed:@"cofee_pic"] forState:UIControlStateNormal];
         } else {
             [tableHeightView setBackgroundImage:[UIImage imageNamed:@"dinning_pic"] forState:UIControlStateNormal];
@@ -633,6 +634,13 @@
         [tablePriceButton setUserInteractionEnabled:YES];
         [chairPriceButton setUserInteractionEnabled:YES];
     }
+}
+
+-(IBAction)viewSummaryClick:(id)sender
+{
+    IWTableSummaryViewController *summaryViewController = [[IWTableSummaryViewController alloc] initWithNibName:@"IWSummaryViewController" bundle:Nil];
+    [self presentViewController:summaryViewController animated:YES completion:Nil];
+    [summaryViewController showSummaryForTable:table andChair:chair];
 }
 
 
