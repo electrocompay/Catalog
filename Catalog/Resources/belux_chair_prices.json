@@ -2,25 +2,25 @@
   {
     "ID":"40877",
     "Item":"PRD-034849",
-    "ItemName":"Angelina-antracite 25-45x55x86",
+    "ItemName":"Angelina-S-antraciet 25",
     "UnitPrice":"478"
   },
   {
     "ID":"40875",
     "Item":"PRD-034848",
-    "ItemName":"Angelina-antracite 25-45x55x86-with wheels",
+    "ItemName":"Angelina-W-antraciet 25",
     "UnitPrice":"542"
   },
   {
     "ID":"40873",
     "Item":"PRD-034847",
-    "ItemName":"Angelina-antracite 25-arm51x55x86",
+    "ItemName":"Angelina-A-antraciet 25",
     "UnitPrice":"622"
   },
   {
     "ID":"40871",
     "Item":"PRD-034846",
-    "ItemName":"Angelina-antracite 25-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-antraciet 25",
     "UnitPrice":"670"
   },
   {
@@ -62,25 +62,25 @@
   {
     "ID":"40893",
     "Item":"PRD-034857",
-    "ItemName":"Angelina-Aubergine 77-45x55x86",
+    "ItemName":"Angelina-S-Aubergine 77",
     "UnitPrice":"478"
   },
   {
     "ID":"40891",
     "Item":"PRD-034856",
-    "ItemName":"Angelina-Aubergine 77-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Aubergine 77",
     "UnitPrice":"542"
   },
   {
     "ID":"40889",
     "Item":"PRD-034855",
-    "ItemName":"Angelina-Aubergine 77-arm51x55x86",
+    "ItemName":"Angelina-A-Aubergine 77",
     "UnitPrice":"622"
   },
   {
     "ID":"40887",
     "Item":"PRD-034854",
-    "ItemName":"Angelina-Aubergine 77-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Aubergine 77",
     "UnitPrice":"670"
   },
   {
@@ -122,25 +122,25 @@
   {
     "ID":"40949",
     "Item":"PRD-034885",
-    "ItemName":"Angelina-Beige 110-45x55x86",
+    "ItemName":"Angelina-S-Beige 110",
     "UnitPrice":"478"
   },
   {
     "ID":"40947",
     "Item":"PRD-034884",
-    "ItemName":"Angelina-Beige 110-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Beige 110",
     "UnitPrice":"542"
   },
   {
     "ID":"40945",
     "Item":"PRD-034883",
-    "ItemName":"Angelina-Beige 110-arm51x55x86",
+    "ItemName":"Angelina-A-Beige 110",
     "UnitPrice":"622"
   },
   {
     "ID":"40943",
     "Item":"PRD-034882",
-    "ItemName":"Angelina-Beige 110-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Beige 110",
     "UnitPrice":"670"
   },
   {
@@ -182,25 +182,25 @@
   {
     "ID":"40869",
     "Item":"PRD-034845",
-    "ItemName":"Angelina-black 08-45x55x86",
+    "ItemName":"Angelina-S-black 08",
     "UnitPrice":"478"
   },
   {
     "ID":"40867",
     "Item":"PRD-034844",
-    "ItemName":"Angelina-black 08-45x55x86-with wheels",
+    "ItemName":"Angelina-W-black 08",
     "UnitPrice":"542"
   },
   {
     "ID":"40865",
     "Item":"PRD-034843",
-    "ItemName":"Angelina-black 08-arm51x55x86",
+    "ItemName":"Angelina-A-black 08",
     "UnitPrice":"622"
   },
   {
     "ID":"40863",
     "Item":"PRD-034842",
-    "ItemName":"Angelina-black 08-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-black 08",
     "UnitPrice":"670"
   },
   {
@@ -242,25 +242,25 @@
   {
     "ID":"40925",
     "Item":"PRD-034873",
-    "ItemName":"Angelina-Choco 57-45x55x86",
+    "ItemName":"Angelina-S-Choco 57",
     "UnitPrice":"478"
   },
   {
     "ID":"40923",
     "Item":"PRD-034872",
-    "ItemName":"Angelina-Choco 57-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Choco 57",
     "UnitPrice":"542"
   },
   {
     "ID":"40921",
     "Item":"PRD-034871",
-    "ItemName":"Angelina-Choco 57-arm51x55x86",
+    "ItemName":"Angelina-A-Choco 57",
     "UnitPrice":"622"
   },
   {
     "ID":"40919",
     "Item":"PRD-034870",
-    "ItemName":"Angelina-Choco 57-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Choco 57",
     "UnitPrice":"670"
   },
   {
@@ -302,25 +302,25 @@
   {
     "ID":"40885",
     "Item":"PRD-034853",
-    "ItemName":"Angelina-grey 21-45x55x86",
+    "ItemName":"Angelina-S-grey 21",
     "UnitPrice":"478"
   },
   {
     "ID":"40883",
     "Item":"PRD-034852",
-    "ItemName":"Angelina-grey 21-45x55x86-with wheels",
+    "ItemName":"Angelina-W-grey 21",
     "UnitPrice":"542"
   },
   {
     "ID":"40881",
     "Item":"PRD-034851",
-    "ItemName":"Angelina-grey 21-arm51x55x86",
+    "ItemName":"Angelina-A-grey 21",
     "UnitPrice":"622"
   },
   {
     "ID":"40879",
     "Item":"PRD-034850",
-    "ItemName":"Angelina-grey 21-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-grey 21",
     "UnitPrice":"670"
   },
   {
@@ -362,25 +362,25 @@
   {
     "ID":"40909",
     "Item":"PRD-034865",
-    "ItemName":"Angelina-Lipstick 80-45x55x86",
+    "ItemName":"Angelina-S-Lipstick 80",
     "UnitPrice":"478"
   },
   {
     "ID":"40907",
     "Item":"PRD-034864",
-    "ItemName":"Angelina-Lipstick 80-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Lipstick 80",
     "UnitPrice":"542"
   },
   {
     "ID":"40905",
     "Item":"PRD-034863",
-    "ItemName":"Angelina-Lipstick 80-arm51x55x86",
+    "ItemName":"Angelina-A-Lipstick 80",
     "UnitPrice":"622"
   },
   {
     "ID":"40903",
     "Item":"PRD-034862",
-    "ItemName":"Angelina-Lipstick 80-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Lipstick 80",
     "UnitPrice":"670"
   },
   {
@@ -422,25 +422,25 @@
   {
     "ID":"40941",
     "Item":"PRD-034881",
-    "ItemName":"Angelina-Mocca 29-45x55x86",
+    "ItemName":"Angelina-S-Mocca 29",
     "UnitPrice":"478"
   },
   {
     "ID":"40939",
     "Item":"PRD-034880",
-    "ItemName":"Angelina-Mocca 29-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Mocca 29",
     "UnitPrice":"542"
   },
   {
     "ID":"40937",
     "Item":"PRD-034879",
-    "ItemName":"Angelina-Mocca 29-arm51x55x86",
+    "ItemName":"Angelina-A-Mocca 29",
     "UnitPrice":"622"
   },
   {
     "ID":"40935",
     "Item":"PRD-034878",
-    "ItemName":"Angelina-Mocca 29-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Mocca 29",
     "UnitPrice":"670"
   },
   {
@@ -482,25 +482,25 @@
   {
     "ID":"40917",
     "Item":"PRD-034869",
-    "ItemName":"Angelina-Nutella 58-45x55x86",
+    "ItemName":"Angelina-S-Nutella 58",
     "UnitPrice":"478"
   },
   {
     "ID":"40915",
     "Item":"PRD-034868",
-    "ItemName":"Angelina-Nutella 58-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Nutella 58",
     "UnitPrice":"542"
   },
   {
     "ID":"40913",
     "Item":"PRD-034867",
-    "ItemName":"Angelina-Nutella 58-arm51x55x86",
+    "ItemName":"Angelina-A-Nutella 58",
     "UnitPrice":"622"
   },
   {
     "ID":"40911",
     "Item":"PRD-034866",
-    "ItemName":"Angelina-Nutella 58-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Nutella 58",
     "UnitPrice":"670"
   },
   {
@@ -542,25 +542,25 @@
   {
     "ID":"41423",
     "Item":"PRD-038952",
-    "ItemName":"Angelina-Smoke 17-45x55x86",
+    "ItemName":"Angelina-S-Smoke 17",
     "UnitPrice":"478"
   },
   {
     "ID":"41421",
     "Item":"PRD-038951",
-    "ItemName":"Angelina-Smoke 17-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Smoke 17",
     "UnitPrice":"542"
   },
   {
     "ID":"41419",
     "Item":"PRD-038950",
-    "ItemName":"Angelina-Smoke 17-arm51x55x86",
+    "ItemName":"Angelina-A-Smoke 17",
     "UnitPrice":"622"
   },
   {
     "ID":"41417",
     "Item":"PRD-038949",
-    "ItemName":"Angelina-Smoke 17-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Smoke 17",
     "UnitPrice":"670"
   },
   {
@@ -602,25 +602,25 @@
   {
     "ID":"41501",
     "Item":"PRD-040405",
-    "ItemName":"Angelina-Stone 120-45x55x86",
+    "ItemName":"Angelina-S-Stone 120",
     "UnitPrice":"478"
   },
   {
     "ID":"41499",
     "Item":"PRD-040404",
-    "ItemName":"Angelina-Stone 120-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Stone 120",
     "UnitPrice":"542"
   },
   {
     "ID":"41497",
     "Item":"PRD-040403",
-    "ItemName":"Angelina-Stone 120-arm51x55x86",
+    "ItemName":"Angelina-A-Stone 120",
     "UnitPrice":"622"
   },
   {
     "ID":"41495",
     "Item":"PRD-040402",
-    "ItemName":"Angelina-Stone 120-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Stone 120",
     "UnitPrice":"670"
   },
   {
@@ -662,25 +662,25 @@
   {
     "ID":"40933",
     "Item":"PRD-034877",
-    "ItemName":"Angelina-Taupe 27-45x55x86",
+    "ItemName":"Angelina-S-Taupe 27",
     "UnitPrice":"478"
   },
   {
     "ID":"40931",
     "Item":"PRD-034876",
-    "ItemName":"Angelina-Taupe 27-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Taupe 27",
     "UnitPrice":"542"
   },
   {
     "ID":"40929",
     "Item":"PRD-034875",
-    "ItemName":"Angelina-Taupe 27-arm51x55x86",
+    "ItemName":"Angelina-A-Taupe 27",
     "UnitPrice":"622"
   },
   {
     "ID":"40927",
     "Item":"PRD-034874",
-    "ItemName":"Angelina-Taupe 27-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Taupe 27",
     "UnitPrice":"670"
   },
   {
@@ -782,25 +782,25 @@
   {
     "ID":"40901",
     "Item":"PRD-034861",
-    "ItemName":"Angelina-wine red 18-45x55x86",
+    "ItemName":"Angelina-S-wine red 18",
     "UnitPrice":"478"
   },
   {
     "ID":"40899",
     "Item":"PRD-034860",
-    "ItemName":"Angelina-wine red 18-45x55x86-with wheels",
+    "ItemName":"Angelina-W-wine red 18",
     "UnitPrice":"542"
   },
   {
     "ID":"40897",
     "Item":"PRD-034859",
-    "ItemName":"Angelina-wine red 18-arm51x55x86",
+    "ItemName":"Angelina-A-wine red 18",
     "UnitPrice":"622"
   },
   {
     "ID":"40895",
     "Item":"PRD-034858",
-    "ItemName":"Angelina-wine red 18-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-wine red 18",
     "UnitPrice":"670"
   },
   {
