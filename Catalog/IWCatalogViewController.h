@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <QuickLook/QuickLook.h>
+#import "IWBaseViewController.h"
 
-@interface IWCatalogViewController : UIViewController<QLPreviewControllerDataSource, QLPreviewControllerDelegate>
+@interface IWCatalogViewController : IWBaseViewController<QLPreviewControllerDataSource, QLPreviewControllerDelegate>
 
 @end

@@ -17,6 +17,7 @@
                 <outlet property="selectorView" destination="l1c-cr-BOG" id="LXX-D9-17p"/>
                 <outlet property="showPriceChairButton" destination="IAx-8f-BFE" id="9Yy-2b-i51"/>
                 <outlet property="showPriceTableButton" destination="tnM-OA-OT9" id="A55-2n-amF"/>
+                <outlet property="showSummaryButton" destination="jVx-04-OhT" id="W8o-Jp-QSC"/>
                 <outlet property="tabContainer" destination="xl3-fb-sPd" id="RwD-qr-zP2"/>
                 <outlet property="tabContent" destination="XNL-RR-3gZ" id="ior-td-K5D"/>
                 <outlet property="tableDimensionsView" destination="GmZ-z3-MLf" id="pUx-02-0NW"/>
@@ -127,15 +128,16 @@
                                 <action selector="priceMenu_Clicked:" destination="-1" eventType="touchUpInside" id="dAz-Zp-YbK"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVx-04-OhT">
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jVx-04-OhT">
                             <rect key="frame" x="826" y="0.0" width="106" height="90"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="90" id="Q7n-n8-XvZ"/>
                                 <constraint firstAttribute="width" constant="106" id="twA-QS-URl"/>
                             </constraints>
-                            <state key="normal" backgroundImage="show_summary.png">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="tintColor" white="0.039396587169999997" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="SHOW SUMMARY" backgroundImage="show_summary.png"/>
+                            <state key="highlighted" backgroundImage="show_summary.png"/>
                             <connections>
                                 <action selector="viewSummaryClick:" destination="-1" eventType="touchUpInside" id="S3M-jr-RCg"/>
                             </connections>
@@ -201,14 +203,14 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3350" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qor-iX-STP">
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3350" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qor-iX-STP">
                             <rect key="frame" x="525" y="14" width="76" height="62"/>
                             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="330" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juU-Nq-b8E">
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="330" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juU-Nq-b8E">
                             <rect key="frame" x="729" y="14" width="76" height="62"/>
                             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>

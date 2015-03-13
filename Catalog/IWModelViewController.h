@@ -12,9 +12,9 @@
 #import "IWSelectorTableViewController.h"
 #import "IWMenuView.h"
 #import "IWPasswordView.h"
-#import <MessageUI/MFMailComposeViewController.h>
+#import "IWBaseViewController.h"
 
-@interface IWModelViewController : UIViewController<BrowserTabViewDelegate, UIPickerViewDelegate, IWSelectorViewControllerDelegate, IWMenuViewdelegate, MFMailComposeViewControllerDelegate, IWSelectorTableViewControllerDelegate, IWPasswordViewDelegate>
+@interface IWModelViewController : IWBaseViewController<BrowserTabViewDelegate, UIPickerViewDelegate, IWSelectorViewControllerDelegate, IWMenuViewdelegate, IWSelectorTableViewControllerDelegate, IWPasswordViewDelegate>
 {
     IBOutlet UIView *tabContent;
     IBOutlet UIView *content;

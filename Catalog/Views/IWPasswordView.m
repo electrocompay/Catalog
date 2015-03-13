@@ -51,6 +51,7 @@
     [buttonRequest.layer setCornerRadius:16.0f];
     [buttonValidate.layer setCornerRadius:16.0f];
     [textView setText:@""];
+    [textView becomeFirstResponder];
 }
 
 -(void)showLeftTriangle{
@@ -73,8 +74,16 @@
     if ([[IWPriceManager getInstance] authenticate:[textView text]]) {
         if (_delegate) {
             [_delegate passwordView:self authenticateResult:YES];
+            [self setHidden:YES];
         }
     }
+}
+
+
+-(void)setHidden:(BOOL)hidden
+{
+    [textView endEditing:YES];
+    [super setHidden:hidden];
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "IWAppDelegate.h"
 #import "IWModelViewController.h"
+#import "IWUtils.h"
 
 @implementation IWAppDelegate
 
@@ -21,7 +22,6 @@
     [self.window setRootViewController:navController];
     [navController setNavigationBarHidden:YES];
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

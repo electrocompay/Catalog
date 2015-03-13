@@ -19,6 +19,7 @@
 #import "IWSelectorTableViewController.h"
 #import "IWPriceManager.h"
 #import "IWTableSummaryViewController.h"
+#import "IWUtils.h"
 
 @interface IWModelViewController ()
 
@@ -66,7 +67,7 @@
     IBOutlet UILabel *bottonDescriptionView;
     IBOutlet UILabel *tablePriceView;
     IBOutlet UILabel *chairPriceView;
-    
+    IBOutlet UIButton *showSummaryButton;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -110,8 +111,9 @@
     [menu setDelegate:self];
     [homeMenu setDelegate:self];
     
-    
     [passwordDialog setDelegate:self];
+    [showSummaryButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
+    showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -452,9 +454,7 @@
 
 -(void)generateJPG
 {
-    UIImage* image = [self captureViewFrom:content.superview];
-    
-    UIImageWriteToSavedPhotosAlbum(image, self, @selector(saveCompletion:didFinishSavingWithError:contextInfo:), nil);
+    [[IWUtils getInstance] generateJPG:content.superview completionTarget:self completionSelector:@selector(saveCompletion:didFinishSavingWithError:contextInfo:)];
 }
 
 - (void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
@@ -465,82 +465,14 @@
 
 -(void)displayComposerSheet
 {
-    MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
-    picker.mailComposeDelegate = self;
-    [picker setSubject:@"Check out this image!"];
     
-    // Set up recipients
-    // NSArray *toRecipients = [NSArray arrayWithObject:@"first@example.com"];
-    // NSArray *ccRecipients = [NSArray arrayWithObjects:@"second@example.com", @"third@example.com", nil];
-    // NSArray *bccRecipients = [NSArray arrayWithObject:@"fourth@example.com"];
+    [[IWUtils getInstance] displayComposerSheet:content.superview viewC:self];
     
-    // [picker setToRecipients:toRecipients];
-    // [picker setCcRecipients:ccRecipients];
-    // [picker setBccRecipients:bccRecipients];
-    
-    // Attach an image to the email
-    UIImage *coolImage = [self captureViewFrom:content.superview];
-    NSData *myData = UIImagePNGRepresentation(coolImage);
-    [picker addAttachmentData:myData mimeType:@"image/png" fileName:@"coolImage.png"];
-    
-    // Fill out the email body text
-    NSString *emailBody = @"My cool image is attached";
-    [picker setMessageBody:emailBody isHTML:NO];
-    [self presentViewController:picker animated:YES completion:nil];
-    
-}
-
-- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
-{
-    // Notifies users about errors associated with the interface
-    switch (result)
-    {
-        case MFMailComposeResultCancelled:
-            NSLog(@"Result: canceled");
-            break;
-        case MFMailComposeResultSaved:
-            NSLog(@"Result: saved");
-            break;
-        case MFMailComposeResultSent:
-            NSLog(@"Result: sent");
-            break;
-        case MFMailComposeResultFailed:
-            NSLog(@"Result: failed");
-            break;
-        default:
-            NSLog(@"Result: not sent");
-            break;
-    }
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)print
 {
-    UIPrintInteractionController *pic = [UIPrintInteractionController sharedPrintController];
-    //pic.delegate = del;
-    
-    UIPrintInfo *printInfo = [UIPrintInfo printInfo];
-    printInfo.outputType = UIPrintInfoOutputGeneral;
-    printInfo.jobName = [NSString stringWithFormat:@"New Ticket"];
-    pic.printInfo = printInfo;
-    
-    
-    pic.printingItem = [self captureViewFrom:content.superview];
-    
-    void (^completionHandler)(UIPrintInteractionController *, BOOL, NSError *) =
-    ^(UIPrintInteractionController *printController, BOOL completed, NSError *error) {
-        if (!completed && error) {
-            UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Error."
-                                                         message:[NSString stringWithFormat:@"An error occured while printing: %@", error]
-                                                        delegate:nil
-                                               cancelButtonTitle:@"OK"
-                                               otherButtonTitles:nil, nil];
-            
-            [av show];
-        }
-    };
-    
-    [pic presentAnimated:YES completionHandler:completionHandler];
+    [[IWUtils getInstance] printView:content.superview];
 }
 
 #pragma marks Prices
@@ -634,6 +566,7 @@
         [tablePriceButton setUserInteractionEnabled:YES];
         [chairPriceButton setUserInteractionEnabled:YES];
     }
+    showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
 }
 
 -(IBAction)viewSummaryClick:(id)sender

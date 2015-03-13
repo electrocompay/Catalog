@@ -7,6 +7,7 @@
 //
 
 #import "IWSummaryViewController.h"
+#import "IWUtils.h"
 
 @interface IWSummaryViewController ()
 
@@ -38,5 +39,27 @@
 {
     [self dismissViewControllerAnimated:YES completion:Nil];
 }
+
+-(IBAction)saveClick:(id)sender
+{
+    [[IWUtils getInstance] generateJPG:self.view completionTarget:self completionSelector:@selector(saveCompletion:didFinishSavingWithError:contextInfo:)];
+}
+
+-(IBAction)sendEmailClick:(id)sender
+{
+    [[IWUtils getInstance] displayComposerSheet:self.view viewC:self];
+}
+
+-(IBAction)printClick:(id)sender
+{
+    [[IWUtils getInstance] printView:self.view];
+}
+
+- (void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+}
+
 
 @end

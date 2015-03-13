@@ -39,4 +39,23 @@
     return self;
 }
 
+-(IWModel *)withSmallSizes:(NSString *)sizes
+{
+    NSArray* dataSizes = [sizes componentsSeparatedByString:@","];
+    
+    NSMutableArray* mutableArray = [[NSMutableArray alloc] init];
+    
+    for (NSString* dataSize in dataSizes) {
+        [mutableArray addObject:[IWColor colorWithName:dataSize andCode:dataSize andFile:Nil]];
+    }
+    _smallSizes = mutableArray;
+    return self;
+}
+
+-(IWModel *)withPriceFormat:(NSString *)priceFormat
+{
+    _priceFormat = priceFormat;
+    return self;
+}
+
 @end

@@ -10,7 +10,7 @@
 
 NSString *const AUTHENTICATED_FIELD = @"authenticated";
 NSString *const PRICE_LIST_PREFIX = @"belux";
-NSString *const TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
+NSString *const DEFAULT_TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
 NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 
 IWPriceManager *pricemanager;
@@ -36,7 +36,15 @@ NSDictionary *chairPriceList;
         tablePriceList = [self loadPriceList:@"table"];
     }
     
-    NSString *priceKey = [[NSString stringWithFormat:TABLE_PRICE_FORMAT, table.model.name, table.legsColor.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+    NSString* priceFormat = table.model.priceFormat ? table.model.priceFormat : DEFAULT_TABLE_PRICE_FORMAT;
+    ;
+    NSString *priceKey;
+    if ([[priceFormat componentsSeparatedByString:@"@"] count] == 5) {
+        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, table.legsColor.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+    } else {
+        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+    }
+    
     if (priceKey) {
         NSDictionary *price = [tablePriceList objectForKey:priceKey];
         NSNumber *value = [price objectForKey:@"UnitPrice"];
@@ -54,7 +62,15 @@ NSDictionary *chairPriceList;
         chairPriceList = [self loadPriceList:@"chair"];
     }
     
-    NSString *priceKey = [[NSString stringWithFormat:CHAIR_PRICE_FORMAT, chair.model.name, chair.color.name] uppercaseString];
+    NSString* priceFormat = chair.model.priceFormat ? chair.model.priceFormat : CHAIR_PRICE_FORMAT;
+
+    NSString *priceKey;
+    
+    if ([[priceFormat componentsSeparatedByString:@"@"] count] == 3)
+      priceKey = [[NSString stringWithFormat:priceFormat, chair.model.name, chair.color.name] uppercaseString];
+    else
+      priceKey = [[NSString stringWithFormat:priceFormat, chair.model.name, chair.legsColor.name, chair.color.name] uppercaseString];
+    
     if (priceKey) {
         NSDictionary *price = [chairPriceList objectForKey:priceKey];
         NSNumber *value = [price objectForKey:@"UnitPrice"];

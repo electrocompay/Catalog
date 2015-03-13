@@ -5380,6 +5380,10 @@
 		5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */; };
 		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
 		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
+		7B38D9311AAD6076006345EE /* IWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9301AAD6076006345EE /* IWUtils.m */; };
+		7B38D9321AAD6076006345EE /* IWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9301AAD6076006345EE /* IWUtils.m */; };
+		7B38D9351AAF0AF6006345EE /* IWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9341AAF0AF6006345EE /* IWBaseViewController.m */; };
+		7B38D9361AAF0AF6006345EE /* IWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9341AAF0AF6006345EE /* IWBaseViewController.m */; };
 		7B5589A11A9F4D96007FA8D7 /* IWPriceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */; };
 		7B5589A31AA3F48E007FA8D7 /* belux_table_prices.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */; };
 		7B5589A51AA5BC1D007FA8D7 /* belux_chair_prices.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589A41AA5BC1D007FA8D7 /* belux_chair_prices.json */; };
@@ -10715,6 +10719,10 @@
 		5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
+		7B38D92F1AAD6076006345EE /* IWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWUtils.h; path = Utils/IWUtils.h; sourceTree = "<group>"; };
+		7B38D9301AAD6076006345EE /* IWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWUtils.m; path = Utils/IWUtils.m; sourceTree = "<group>"; };
+		7B38D9331AAF0AF6006345EE /* IWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWBaseViewController.h; sourceTree = "<group>"; };
+		7B38D9341AAF0AF6006345EE /* IWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBaseViewController.m; sourceTree = "<group>"; };
 		7B55899F1A9F4D96007FA8D7 /* IWPriceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWPriceManager.h; path = Controllers/IWPriceManager.h; sourceTree = "<group>"; };
 		7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWPriceManager.m; path = Controllers/IWPriceManager.m; sourceTree = "<group>"; };
 		7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = belux_table_prices.json; sourceTree = "<group>"; };
@@ -10937,6 +10945,7 @@
 		4C6DC2FF18A73E89005007A8 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				7B38D92E1AAD6045006345EE /* Utils */,
 				7B55899E1A9F4D4E007FA8D7 /* Controllers */,
 				4CEE0F8018AB036000298C60 /* Drawers */,
 				4CEE0F6718AABD8F00298C60 /* Model */,
@@ -10962,6 +10971,8 @@
 				7B5589A81AA7F5F4007FA8D7 /* IWSummaryViewController.xib */,
 				7B5589C21AA81C93007FA8D7 /* IWTableSummaryViewController.h */,
 				7B5589C31AA81C93007FA8D7 /* IWTableSummaryViewController.m */,
+				7B38D9331AAF0AF6006345EE /* IWBaseViewController.h */,
+				7B38D9341AAF0AF6006345EE /* IWBaseViewController.m */,
 			);
 			path = Catalog;
 			sourceTree = "<group>";
@@ -16417,6 +16428,15 @@
 				4C084459192EE3D3003E493F /* IWStrokeLabel.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7B38D92E1AAD6045006345EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B38D92F1AAD6076006345EE /* IWUtils.h */,
+				7B38D9301AAD6076006345EE /* IWUtils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		7B55899E1A9F4D4E007FA8D7 /* Controllers */ = {
@@ -21920,6 +21940,7 @@
 				4CEE0F7018AAF79100298C60 /* IWProperty.m in Sources */,
 				4CEE0F7618AAF83B00298C60 /* IWCube.m in Sources */,
 				4C001E0A19376DAE00C81AC2 /* NSArray+color.m in Sources */,
+				7B38D9311AAD6076006345EE /* IWUtils.m in Sources */,
 				7B5589C01AA81AA0007FA8D7 /* IWTableSummaryView.m in Sources */,
 				4C3FC0C21913318300A7DEF2 /* IWTriangle.m in Sources */,
 				4CEE0F8C18AB0F9A00298C60 /* IWType.m in Sources */,
@@ -21946,6 +21967,7 @@
 				4CBBEF4E18F3A31A0086824C /* IWSelectorViewController.m in Sources */,
 				4CEEADA7191FD52A00C54B67 /* IWDrawerTable.m in Sources */,
 				4C74342519089FDE008D10E0 /* IWModel.m in Sources */,
+				7B38D9351AAF0AF6006345EE /* IWBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -21968,10 +21990,12 @@
 				4CEEADB1191FD5FD00C54B67 /* IWOptionView.m in Sources */,
 				4C001E0B19376DAE00C81AC2 /* NSArray+color.m in Sources */,
 				4CEEAD8B191FD06700C54B67 /* BrowserTab.m in Sources */,
+				7B38D9321AAD6076006345EE /* IWUtils.m in Sources */,
 				4CEEADAF191FD5DF00C54B67 /* IWSelectorViewController.m in Sources */,
 				4C7CCD97192AD9EE00FC0F1D /* IWMultipleSelectorJ193ViewController.m in Sources */,
 				4C87CD91191FF7BC008F59F0 /* IWColors.m in Sources */,
 				4CEEADB3191FD5FD00C54B67 /* IWMenuView.m in Sources */,
+				7B38D9361AAF0AF6006345EE /* IWBaseViewController.m in Sources */,
 				4C87E39C1921B19F008F59F0 /* IWColorSelectorView.m in Sources */,
 				4C87E38D192095C8008F59F0 /* IWMultipleSelectorViewController.m in Sources */,
 				7B5589AA1AA7F5F4007FA8D7 /* IWSummaryViewController.m in Sources */,

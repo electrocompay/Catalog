@@ -25,13 +25,20 @@
 }
 
 -(IBAction)changeTypeClicked:(id)sender{
+    BOOL changed = NO;
     if (sender == btDinningTable) {
+        changed = !btDinningTable.selected;
         btDinningTable.selected = YES;
         btCofeeTable.selected = NO;
     } else if (sender == btCofeeTable){
+        changed = !btCofeeTable.selected;
         btCofeeTable.selected = YES;
         btDinningTable.selected = NO;
     }
+    if (changed) {
+        [self loadSizes];
+    }
+    
     if (_tableDelegate){
         [_tableDelegate selectorTableViewController:self didSelectCofee:btCofeeTable.selected];
     }
@@ -42,6 +49,8 @@
     NSInteger prevSelection = self.selectedIndex;
     [super setSelection:index];
     if (prevSelection != index){
+        btDinningTable.enabled = [[self getSelectedModel] sizes] != Nil;
+        btCofeeTable.enabled = [[self getSelectedModel] smallSizes] != Nil;
         [self loadSizes];
     }
 }
@@ -49,8 +58,11 @@
 -(void)loadSizes
 {
     IWModel* model = (IWModel*) self.selectedColor;
-    NSArray* sizes = model.sizes;
+    NSArray* sizes = btCofeeTable.selected ? model.smallSizes : model.sizes;
     [pickerSize setItems:sizes];
+    if (sizes.count > 0) {
+        [self simplePickerViewController:pickerSize didSelectRow:[sizes objectAtIndex:0]];
+    }
 }
 
 -(void)simplePickerViewController:(IWSimplePickerViewController *)simplePickerViewController didSelectRow:(IWColor *)color
@@ -58,6 +70,11 @@
     if (_tableDelegate) {
         [_tableDelegate selectorTableViewController: self didSelectSize:color];
     }
+}
+
+-(IWModel*)getSelectedModel
+{
+    return (IWModel*) self.selectedColor;
 }
 
 @end

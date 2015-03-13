@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IWBaseViewController.h"
 
-@interface IWSummaryViewController : UIViewController{
+@interface IWSummaryViewController : IWBaseViewController{
     
     IBOutlet UIView *viewContainer;
     
