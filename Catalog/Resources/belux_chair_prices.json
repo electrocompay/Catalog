@@ -2960,25 +2960,25 @@
   {
     "ID":"41125",
     "Item":"PRD-034973",
-    "ItemName":"Monet-antracite 25-49X52X87",
+    "ItemName":"Monet-S-antraciet 25",
     "UnitPrice":"452"
   },
   {
     "ID":"41123",
     "Item":"PRD-034972",
-    "ItemName":"Monet-antracite 25-49X52X87-with wheels",
+    "ItemName":"Monet-W-antraciet 25",
     "UnitPrice":"516"
   },
   {
     "ID":"41121",
     "Item":"PRD-034971",
-    "ItemName":"Monet-antracite 25-arm53X52X87",
+    "ItemName":"Monet-A-antraciet 25",
     "UnitPrice":"622"
   },
   {
     "ID":"41119",
     "Item":"PRD-034970",
-    "ItemName":"Monet-antracite 25-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-antraciet 25",
     "UnitPrice":"670"
   },
   {
@@ -3014,25 +3014,25 @@
   {
     "ID":"41157",
     "Item":"PRD-034989",
-    "ItemName":"Monet-Aubergine 77-49X52X87",
+    "ItemName":"Monet-S-Aubergine 77",
     "UnitPrice":"452"
   },
   {
     "ID":"41155",
     "Item":"PRD-034988",
-    "ItemName":"Monet-Aubergine 77-49X52X87-with wheels",
+    "ItemName":"Monet-W-Aubergine 77",
     "UnitPrice":"516"
   },
   {
     "ID":"41153",
     "Item":"PRD-034987",
-    "ItemName":"Monet-Aubergine 77-arm53X52X87",
+    "ItemName":"Monet-A-Aubergine 77",
     "UnitPrice":"622"
   },
   {
     "ID":"41151",
     "Item":"PRD-034986",
-    "ItemName":"Monet-Aubergine 77-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Aubergine 77",
     "UnitPrice":"670"
   },
   {
@@ -3068,25 +3068,25 @@
   {
     "ID":"41269",
     "Item":"PRD-035045",
-    "ItemName":"Monet-Beige 110-49X52X87",
+    "ItemName":"Monet-S-Beige 110",
     "UnitPrice":"452"
   },
   {
     "ID":"41267",
     "Item":"PRD-035044",
-    "ItemName":"Monet-Beige 110-49X52X87-with wheels",
+    "ItemName":"Monet-W-Beige 110",
     "UnitPrice":"516"
   },
   {
     "ID":"41265",
     "Item":"PRD-035043",
-    "ItemName":"Monet-Beige 110-arm53X52X87",
+    "ItemName":"Monet-A-Beige 110",
     "UnitPrice":"622"
   },
   {
     "ID":"41263",
     "Item":"PRD-035042",
-    "ItemName":"Monet-Beige 110-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Beige 110",
     "UnitPrice":"670"
   },
   {
@@ -3122,25 +3122,25 @@
   {
     "ID":"41109",
     "Item":"PRD-034965",
-    "ItemName":"Monet-black 08-49X52X87",
+    "ItemName":"Monet-S-black 08",
     "UnitPrice":"452"
   },
   {
     "ID":"41107",
     "Item":"PRD-034964",
-    "ItemName":"Monet-black 08-49X52X87-with wheels",
+    "ItemName":"Monet-W-black 08",
     "UnitPrice":"516"
   },
   {
     "ID":"41105",
     "Item":"PRD-034963",
-    "ItemName":"Monet-black 08-arm53X52X87",
+    "ItemName":"Monet-A-black 08",
     "UnitPrice":"622"
   },
   {
     "ID":"41103",
     "Item":"PRD-034962",
-    "ItemName":"Monet-black 08-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-black 08",
     "UnitPrice":"670"
   },
   {
@@ -3176,25 +3176,25 @@
   {
     "ID":"41221",
     "Item":"PRD-035021",
-    "ItemName":"Monet-Choco 57-49X52X87",
+    "ItemName":"Monet-S-Choco 57",
     "UnitPrice":"452"
   },
   {
     "ID":"41219",
     "Item":"PRD-035020",
-    "ItemName":"Monet-Choco 57-49X52X87-with wheels",
+    "ItemName":"Monet-W-Choco 57",
     "UnitPrice":"516"
   },
   {
     "ID":"41217",
     "Item":"PRD-035019",
-    "ItemName":"Monet-Choco 57-arm53X52X87",
+    "ItemName":"Monet-A-Choco 57",
     "UnitPrice":"622"
   },
   {
     "ID":"41215",
     "Item":"PRD-035018",
-    "ItemName":"Monet-Choco 57-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Choco 57",
     "UnitPrice":"670"
   },
   {
@@ -3230,25 +3230,25 @@
   {
     "ID":"41141",
     "Item":"PRD-034981",
-    "ItemName":"Monet-grey 21-49X52X87",
+    "ItemName":"Monet-S-grey 21",
     "UnitPrice":"452"
   },
   {
     "ID":"41139",
     "Item":"PRD-034980",
-    "ItemName":"Monet-grey 21-49X52X87-with wheels",
+    "ItemName":"Monet-W-grey 21",
     "UnitPrice":"516"
   },
   {
     "ID":"41137",
     "Item":"PRD-034979",
-    "ItemName":"Monet-grey 21-arm53X52X87",
+    "ItemName":"Monet-A-grey 21",
     "UnitPrice":"622"
   },
   {
     "ID":"41135",
     "Item":"PRD-034978",
-    "ItemName":"Monet-grey 21-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-grey 21",
     "UnitPrice":"670"
   },
   {
@@ -3284,25 +3284,25 @@
   {
     "ID":"41189",
     "Item":"PRD-035005",
-    "ItemName":"Monet-Lipstick 80-49X52X87",
+    "ItemName":"Monet-S-Lipstick 80",
     "UnitPrice":"452"
   },
   {
     "ID":"41187",
     "Item":"PRD-035004",
-    "ItemName":"Monet-Lipstick 80-49X52X87-with wheels",
+    "ItemName":"Monet-W-Lipstick 80",
     "UnitPrice":"516"
   },
   {
     "ID":"41185",
     "Item":"PRD-035003",
-    "ItemName":"Monet-Lipstick 80-arm53X52X87",
+    "ItemName":"Monet-A-Lipstick 80",
     "UnitPrice":"622"
   },
   {
     "ID":"41183",
     "Item":"PRD-035002",
-    "ItemName":"Monet-Lipstick 80-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Lipstick 80",
     "UnitPrice":"670"
   },
   {
@@ -3392,25 +3392,25 @@
   {
     "ID":"41205",
     "Item":"PRD-035013",
-    "ItemName":"Monet-Nutella 58-49X52X87",
+    "ItemName":"Monet-S-Nutella 58",
     "UnitPrice":"452"
   },
   {
     "ID":"41203",
     "Item":"PRD-035012",
-    "ItemName":"Monet-Nutella 58-49X52X87-with wheels",
+    "ItemName":"Monet-W-Nutella 58",
     "UnitPrice":"516"
   },
   {
     "ID":"41201",
     "Item":"PRD-035011",
-    "ItemName":"Monet-Nutella 58-arm53X52X87",
+    "ItemName":"Monet-A-Nutella 58",
     "UnitPrice":"622"
   },
   {
     "ID":"41199",
     "Item":"PRD-035010",
-    "ItemName":"Monet-Nutella 58-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Nutella 58",
     "UnitPrice":"670"
   },
   {
@@ -3446,25 +3446,25 @@
   {
     "ID":"41407",
     "Item":"PRD-038944",
-    "ItemName":"Monet-Smoke 17-49X52X87",
+    "ItemName":"Monet-S-Smoke 17",
     "UnitPrice":"452"
   },
   {
     "ID":"41405",
     "Item":"PRD-038943",
-    "ItemName":"Monet-Smoke 17-49X52X87-with wheels",
+    "ItemName":"Monet-W-Smoke 17",
     "UnitPrice":"516"
   },
   {
     "ID":"41403",
     "Item":"PRD-038942",
-    "ItemName":"Monet-Smoke 17-arm53X52X87",
+    "ItemName":"Monet-A-Smoke 17",
     "UnitPrice":"622"
   },
   {
     "ID":"41401",
     "Item":"PRD-038941",
-    "ItemName":"Monet-Smoke 17-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Smoke 17",
     "UnitPrice":"670"
   },
   {
@@ -3554,25 +3554,25 @@
   {
     "ID":"41237",
     "Item":"PRD-035029",
-    "ItemName":"Monet-Taupe 27-49X52X87",
+    "ItemName":"Monet-S-Taupe 27",
     "UnitPrice":"452"
   },
   {
     "ID":"41235",
     "Item":"PRD-035028",
-    "ItemName":"Monet-Taupe 27-49X52X87-with wheels",
+    "ItemName":"Monet-W-Taupe 27",
     "UnitPrice":"516"
   },
   {
     "ID":"41233",
     "Item":"PRD-035027",
-    "ItemName":"Monet-Taupe 27-arm53X52X87",
+    "ItemName":"Monet-A-Taupe 27",
     "UnitPrice":"622"
   },
   {
     "ID":"41231",
     "Item":"PRD-035026",
-    "ItemName":"Monet-Taupe 27-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-Taupe 27",
     "UnitPrice":"670"
   },
   {
@@ -3608,25 +3608,25 @@
   {
     "ID":"41285",
     "Item":"PRD-035053",
-    "ItemName":"Monet-white 10-49X52X87",
+    "ItemName":"Monet-S-white 10",
     "UnitPrice":"452"
   },
   {
     "ID":"41283",
     "Item":"PRD-035052",
-    "ItemName":"Monet-white 10-49X52X87-with wheels",
+    "ItemName":"Monet-W-white 10",
     "UnitPrice":"516"
   },
   {
     "ID":"41281",
     "Item":"PRD-035051",
-    "ItemName":"Monet-white 10-arm53X52X87",
+    "ItemName":"Monet-A-white 10",
     "UnitPrice":"622"
   },
   {
     "ID":"41279",
     "Item":"PRD-035050",
-    "ItemName":"Monet-white 10-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-white 10",
     "UnitPrice":"670"
   },
   {
@@ -3662,25 +3662,25 @@
   {
     "ID":"41173",
     "Item":"PRD-034997",
-    "ItemName":"Monet-wine red 18-49X52X87",
+    "ItemName":"Monet-S-wine red 18",
     "UnitPrice":"452"
   },
   {
     "ID":"41171",
     "Item":"PRD-034996",
-    "ItemName":"Monet-wine red 18-49X52X87-with wheels",
+    "ItemName":"Monet-W-wine red 18",
     "UnitPrice":"516"
   },
   {
     "ID":"41169",
     "Item":"PRD-034995",
-    "ItemName":"Monet-wine red 18-arm53X52X87",
+    "ItemName":"Monet-A-wine red 18",
     "UnitPrice":"622"
   },
   {
     "ID":"41167",
     "Item":"PRD-034994",
-    "ItemName":"Monet-wine red 18-arm53X52X87-with wheels",
+    "ItemName":"Monet-AW-wine red 18",
     "UnitPrice":"670"
   },
   {
@@ -5750,73 +5750,73 @@
   {
     "ID":"34053",
     "Item":"PRD-040106",
-    "ItemName":"Rafael-wood-skai-black",
+    "ItemName":"Rafael-S-black 901",
     "UnitPrice":"390"
   },
   {
     "ID":"40027",
     "Item":"PRD-045749",
-    "ItemName":"Rafael-wood-skai-dark brown",
+    "ItemName":"Rafael-S-brown",
     "UnitPrice":"390"
   },
   {
     "ID":"34055",
     "Item":"PRD-040107",
-    "ItemName":"Rafael-wood-skai-Taupe",
+    "ItemName":"Rafael-S-Taupe",
     "UnitPrice":"390"
   },
   {
     "ID":"34051",
     "Item":"PRD-040105",
-    "ItemName":"Rafael-wood-skai-White",
+    "ItemName":"Rafael-S-White 01",
     "UnitPrice":"390"
   },
   {
     "ID":"34059",
     "Item":"PRD-041799",
-    "ItemName":"Rafael-wood-SPECIAL BRUT-skai-black",
+    "ItemName":"Rafael-A-black 901",
     "UnitPrice":"390"
   },
   {
     "ID":"40029",
     "Item":"PRD-045750",
-    "ItemName":"Rafael-wood-SPECIAL BRUT-skai-dark brown",
+    "ItemName":"Rafael-A-brown",
     "UnitPrice":"390"
   },
   {
     "ID":"34061",
     "Item":"PRD-041800",
-    "ItemName":"Rafael-wood-SPECIAL BRUT-skai-Taupe",
+    "ItemName":"Rafael-A-Taupe",
     "UnitPrice":"390"
   },
   {
     "ID":"34057",
     "Item":"PRD-041798",
-    "ItemName":"Rafael-wood-SPECIAL BRUT-skai-White",
+    "ItemName":"Rafael-A-White 01",
     "UnitPrice":"390"
   },
   {
     "ID":"41319",
     "Item":"PRD-035070",
-    "ItemName":"Renoir-antracite 25-48x68x94",
+    "ItemName":"Renoir-S-antracite 25",
     "UnitPrice":"443"
   },
   {
     "ID":"41317",
     "Item":"PRD-035069",
-    "ItemName":"Renoir-antracite 25-48x68x94-with wheels",
+    "ItemName":"Renoir-W-antracite 25",
     "UnitPrice":"510"
   },
   {
     "ID":"41315",
     "Item":"PRD-035068",
-    "ItemName":"Renoir-antracite 25-arm58x68x94",
+    "ItemName":"Renoir-A-antracite 25",
     "UnitPrice":"593"
   },
   {
     "ID":"41313",
     "Item":"PRD-035067",
-    "ItemName":"Renoir-antracite 25-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-antracite 25",
     "UnitPrice":"670"
   },
   {
@@ -5834,25 +5834,25 @@
   {
     "ID":"41335",
     "Item":"PRD-035078",
-    "ItemName":"Renoir-Aubergine 77-48x68x94",
+    "ItemName":"Renoir-S-Aubergine 77",
     "UnitPrice":"443"
   },
   {
     "ID":"41333",
     "Item":"PRD-035077",
-    "ItemName":"Renoir-Aubergine 77-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Aubergine 77",
     "UnitPrice":"510"
   },
   {
     "ID":"41331",
     "Item":"PRD-035076",
-    "ItemName":"Renoir-Aubergine 77-arm58x68x94",
+    "ItemName":"Renoir-A-Aubergine 77",
     "UnitPrice":"593"
   },
   {
     "ID":"41329",
     "Item":"PRD-035075",
-    "ItemName":"Renoir-Aubergine 77-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Aubergine 77",
     "UnitPrice":"670"
   },
   {
@@ -5870,25 +5870,25 @@
   {
     "ID":"41391",
     "Item":"PRD-035106",
-    "ItemName":"Renoir-Beige 110-48x68x94",
+    "ItemName":"Renoir-S-Beige 110",
     "UnitPrice":"443"
   },
   {
     "ID":"41389",
     "Item":"PRD-035105",
-    "ItemName":"Renoir-Beige 110-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Beige 110",
     "UnitPrice":"510"
   },
   {
     "ID":"41387",
     "Item":"PRD-035104",
-    "ItemName":"Renoir-Beige 110-arm58x68x94",
+    "ItemName":"Renoir-A-Beige 110",
     "UnitPrice":"593"
   },
   {
     "ID":"41385",
     "Item":"PRD-035103",
-    "ItemName":"Renoir-Beige 110-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Beige 110",
     "UnitPrice":"670"
   },
   {
@@ -5906,25 +5906,25 @@
   {
     "ID":"41311",
     "Item":"PRD-035066",
-    "ItemName":"Renoir-black 08-48x68x94",
+    "ItemName":"Renoir-S-black 08",
     "UnitPrice":"443"
   },
   {
     "ID":"41309",
     "Item":"PRD-035065",
-    "ItemName":"Renoir-black 08-48x68x94-with wheels",
+    "ItemName":"Renoir-W-black 08",
     "UnitPrice":"510"
   },
   {
     "ID":"41307",
     "Item":"PRD-035064",
-    "ItemName":"Renoir-black 08-arm58x68x94",
+    "ItemName":"Renoir-A-black 08",
     "UnitPrice":"593"
   },
   {
     "ID":"41305",
     "Item":"PRD-035063",
-    "ItemName":"Renoir-black 08-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-black 08",
     "UnitPrice":"670"
   },
   {
@@ -5942,25 +5942,25 @@
   {
     "ID":"41367",
     "Item":"PRD-035094",
-    "ItemName":"Renoir-Choco 57-48x68x94",
+    "ItemName":"Renoir-S-Choco 57",
     "UnitPrice":"443"
   },
   {
     "ID":"41365",
     "Item":"PRD-035093",
-    "ItemName":"Renoir-Choco 57-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Choco 57",
     "UnitPrice":"510"
   },
   {
     "ID":"41363",
     "Item":"PRD-035092",
-    "ItemName":"Renoir-Choco 57-arm58x68x94",
+    "ItemName":"Renoir-A-Choco 57",
     "UnitPrice":"593"
   },
   {
     "ID":"41361",
     "Item":"PRD-035091",
-    "ItemName":"Renoir-Choco 57-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Choco 57",
     "UnitPrice":"670"
   },
   {
@@ -5978,25 +5978,25 @@
   {
     "ID":"41327",
     "Item":"PRD-035074",
-    "ItemName":"Renoir-grey 21-48x68x94",
+    "ItemName":"Renoir-S-grey 21",
     "UnitPrice":"443"
   },
   {
     "ID":"41325",
     "Item":"PRD-035073",
-    "ItemName":"Renoir-grey 21-48x68x94-with wheels",
+    "ItemName":"Renoir-W-grey 21",
     "UnitPrice":"510"
   },
   {
     "ID":"41323",
     "Item":"PRD-035072",
-    "ItemName":"Renoir-grey 21-arm58x68x94",
+    "ItemName":"Renoir-A-grey 21",
     "UnitPrice":"593"
   },
   {
     "ID":"41321",
     "Item":"PRD-035071",
-    "ItemName":"Renoir-grey 21-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-grey 21",
     "UnitPrice":"670"
   },
   {
@@ -6014,25 +6014,25 @@
   {
     "ID":"41351",
     "Item":"PRD-035086",
-    "ItemName":"Renoir-Lipstick 80-48x68x94",
+    "ItemName":"Renoir-S-Lipstick 80",
     "UnitPrice":"443"
   },
   {
     "ID":"41349",
     "Item":"PRD-035085",
-    "ItemName":"Renoir-Lipstick 80-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Lipstick 80",
     "UnitPrice":"510"
   },
   {
     "ID":"41347",
     "Item":"PRD-035084",
-    "ItemName":"Renoir-Lipstick 80-arm58x68x94",
+    "ItemName":"Renoir-A-Lipstick 80",
     "UnitPrice":"593"
   },
   {
     "ID":"41345",
     "Item":"PRD-035083",
-    "ItemName":"Renoir-Lipstick 80-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Lipstick 80",
     "UnitPrice":"670"
   },
   {
@@ -6086,25 +6086,25 @@
   {
     "ID":"41359",
     "Item":"PRD-035090",
-    "ItemName":"Renoir-Nutella 58-48x68x94",
+    "ItemName":"Renoir-S-Nutella 58",
     "UnitPrice":"443"
   },
   {
     "ID":"41357",
     "Item":"PRD-035089",
-    "ItemName":"Renoir-Nutella 58-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Nutella 58",
     "UnitPrice":"510"
   },
   {
     "ID":"41355",
     "Item":"PRD-035088",
-    "ItemName":"Renoir-Nutella 58-arm58x68x94",
+    "ItemName":"Renoir-A-Nutella 58",
     "UnitPrice":"593"
   },
   {
     "ID":"41353",
     "Item":"PRD-035087",
-    "ItemName":"Renoir-Nutella 58-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Nutella 58",
     "UnitPrice":"670"
   },
   {
@@ -6122,25 +6122,25 @@
   {
     "ID":"41443",
     "Item":"PRD-038962",
-    "ItemName":"Renoir-Smoke 17-48x68x94",
+    "ItemName":"Renoir-S-Smoke 17",
     "UnitPrice":"443"
   },
   {
     "ID":"41441",
     "Item":"PRD-038961",
-    "ItemName":"Renoir-Smoke 17-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Smoke 17",
     "UnitPrice":"510"
   },
   {
     "ID":"41439",
     "Item":"PRD-038960",
-    "ItemName":"Renoir-Smoke 17-arm58x68x94",
+    "ItemName":"Renoir-A-Smoke 17",
     "UnitPrice":"593"
   },
   {
     "ID":"41437",
     "Item":"PRD-038959",
-    "ItemName":"Renoir-Smoke 17-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Smoke 17",
     "UnitPrice":"670"
   },
   {
@@ -6194,25 +6194,25 @@
   {
     "ID":"41375",
     "Item":"PRD-035098",
-    "ItemName":"Renoir-Taupe 27-48x68x94",
+    "ItemName":"Renoir-S-Taupe 27",
     "UnitPrice":"443"
   },
   {
     "ID":"41373",
     "Item":"PRD-035097",
-    "ItemName":"Renoir-Taupe 27-48x68x94-with wheels",
+    "ItemName":"Renoir-W-Taupe 27",
     "UnitPrice":"510"
   },
   {
     "ID":"41371",
     "Item":"PRD-035096",
-    "ItemName":"Renoir-Taupe 27-arm58x68x94",
+    "ItemName":"Renoir-A-Taupe 27",
     "UnitPrice":"593"
   },
   {
     "ID":"41369",
     "Item":"PRD-035095",
-    "ItemName":"Renoir-Taupe 27-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-Taupe 27",
     "UnitPrice":"670"
   },
   {
@@ -6230,25 +6230,25 @@
   {
     "ID":"41399",
     "Item":"PRD-035110",
-    "ItemName":"Renoir-white 10-48x68x94",
+    "ItemName":"Renoir-S-white 10",
     "UnitPrice":"443"
   },
   {
     "ID":"41397",
     "Item":"PRD-035109",
-    "ItemName":"Renoir-white 10-48x68x94-with wheels",
+    "ItemName":"Renoir-W-white 10",
     "UnitPrice":"510"
   },
   {
     "ID":"41395",
     "Item":"PRD-035108",
-    "ItemName":"Renoir-white 10-arm58x68x94",
+    "ItemName":"Renoir-A-white 10",
     "UnitPrice":"593"
   },
   {
     "ID":"41393",
     "Item":"PRD-035107",
-    "ItemName":"Renoir-white 10-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-white 10",
     "UnitPrice":"670"
   },
   {
@@ -6266,25 +6266,25 @@
   {
     "ID":"41343",
     "Item":"PRD-035082",
-    "ItemName":"Renoir-wine red 18-48x68x94",
+    "ItemName":"Renoir-S-wine red 18",
     "UnitPrice":"443"
   },
   {
     "ID":"41341",
     "Item":"PRD-035081",
-    "ItemName":"Renoir-wine red 18-48x68x94-with wheels",
+    "ItemName":"Renoir-W-wine red 18",
     "UnitPrice":"510"
   },
   {
     "ID":"41339",
     "Item":"PRD-035080",
-    "ItemName":"Renoir-wine red 18-arm58x68x94",
+    "ItemName":"Renoir-A-wine red 18",
     "UnitPrice":"593"
   },
   {
     "ID":"41337",
     "Item":"PRD-035079",
-    "ItemName":"Renoir-wine red 18-arm58x68x94-with wheels",
+    "ItemName":"Renoir-AW-wine red 18",
     "UnitPrice":"670"
   },
   {
@@ -6746,157 +6746,157 @@
   {
     "ID":"41806",
     "Item":"PRD-035145",
-    "ItemName":"Van Gogh-wooden legs-black-antracite 25",
+    "ItemName":"Van Gogh-black-antracite 25",
     "UnitPrice":"618"
   },
   {
     "ID":"41813",
     "Item":"PRD-035144",
-    "ItemName":"Van Gogh-wooden legs-black-antracite 25-armchair",
+    "ItemName":"Van Gogh-black-antracite 25-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41792",
     "Item":"PRD-035149",
-    "ItemName":"Van Gogh-wooden legs-black-Aubergine 77",
+    "ItemName":"Van Gogh-black-Aubergine 77",
     "UnitPrice":"618"
   },
   {
     "ID":"41786",
     "Item":"PRD-035148",
-    "ItemName":"Van Gogh-wooden legs-black-Aubergine 77-armchair",
+    "ItemName":"Van Gogh-black-Aubergine 77-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41774",
     "Item":"PRD-035163",
-    "ItemName":"Van Gogh-wooden legs-black-Beige 110",
+    "ItemName":"Van Gogh-black-Beige 110",
     "UnitPrice":"618"
   },
   {
     "ID":"41799",
     "Item":"PRD-035162",
-    "ItemName":"Van Gogh-wooden legs-black-Beige 110-armchair",
+    "ItemName":"Van Gogh-black-Beige 110-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41782",
     "Item":"PRD-035143",
-    "ItemName":"Van Gogh-wooden legs-black-black 08",
+    "ItemName":"Van Gogh-S-black 08",
     "UnitPrice":"618"
   },
   {
     "ID":"41816",
     "Item":"PRD-035142",
-    "ItemName":"Van Gogh-wooden legs-black-black 08-armchair",
+    "ItemName":"Van Gogh-A-black 08",
     "UnitPrice":"721"
   },
   {
     "ID":"41777",
     "Item":"PRD-035157",
-    "ItemName":"Van Gogh-wooden legs-black-Choco 57",
+    "ItemName":"Van Gogh-black-Choco 57",
     "UnitPrice":"618"
   },
   {
     "ID":"41810",
     "Item":"PRD-035156",
-    "ItemName":"Van Gogh-wooden legs-black-Choco 57-armchair",
+    "ItemName":"Van Gogh-black-Choco 57-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41775",
     "Item":"PRD-035147",
-    "ItemName":"Van Gogh-wooden legs-black-grey 21",
+    "ItemName":"Van Gogh-black-grey 21",
     "UnitPrice":"618"
   },
   {
     "ID":"41793",
     "Item":"PRD-035146",
-    "ItemName":"Van Gogh-wooden legs-black-grey 21-armchair",
+    "ItemName":"Van Gogh-black-grey 21-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41798",
     "Item":"PRD-035153",
-    "ItemName":"Van Gogh-wooden legs-black-Lipstick 80",
+    "ItemName":"Van Gogh-black-Lipstick 80",
     "UnitPrice":"618"
   },
   {
     "ID":"41766",
     "Item":"PRD-035152",
-    "ItemName":"Van Gogh-wooden legs-black-Lipstick 80-armchair",
+    "ItemName":"Van Gogh-black-Lipstick 80-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41809",
     "Item":"PRD-035161",
-    "ItemName":"Van Gogh-wooden legs-black-Mocca 29",
+    "ItemName":"Van Gogh-black-Mocca 29",
     "UnitPrice":"618"
   },
   {
     "ID":"41805",
     "Item":"PRD-035160",
-    "ItemName":"Van Gogh-wooden legs-black-Mocca 29-armchair",
+    "ItemName":"Van Gogh-black-Mocca 29-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41767",
     "Item":"PRD-035155",
-    "ItemName":"Van Gogh-wooden legs-black-Nutella 58",
+    "ItemName":"Van Gogh-S-Nutella 58",
     "UnitPrice":"618"
   },
   {
     "ID":"41772",
     "Item":"PRD-035154",
-    "ItemName":"Van Gogh-wooden legs-black-Nutella 58-armchair",
+    "ItemName":"Van Gogh-A-Nutella 58",
     "UnitPrice":"721"
   },
   {
     "ID":"41795",
     "Item":"PRD-038940",
-    "ItemName":"Van Gogh-wooden legs-black-Smoke 17",
+    "ItemName":"Van Gogh-black-Smoke 17",
     "UnitPrice":"618"
   },
   {
     "ID":"41783",
     "Item":"PRD-038939",
-    "ItemName":"Van Gogh-wooden legs-black-Smoke 17-armchair",
+    "ItemName":"Van Gogh-black-Smoke 17-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41811",
     "Item":"PRD-035159",
-    "ItemName":"Van Gogh-wooden legs-black-Taupe 27",
+    "ItemName":"Van Gogh-black-Taupe 27",
     "UnitPrice":"618"
   },
   {
     "ID":"41790",
     "Item":"PRD-035158",
-    "ItemName":"Van Gogh-wooden legs-black-Taupe 27-armchair",
+    "ItemName":"Van Gogh-black-Taupe 27-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41802",
     "Item":"PRD-035165",
-    "ItemName":"Van Gogh-wooden legs-black-white 10",
+    "ItemName":"Van Gogh-black-white 10",
     "UnitPrice":"618"
   },
   {
     "ID":"41800",
     "Item":"PRD-035164",
-    "ItemName":"Van Gogh-wooden legs-black-white 10-armchair",
+    "ItemName":"Van Gogh-black-white 10-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41814",
     "Item":"PRD-035151",
-    "ItemName":"Van Gogh-wooden legs-black-wine red 18",
+    "ItemName":"Van Gogh-black-wine red 18",
     "UnitPrice":"618"
   },
   {
     "ID":"41804",
     "Item":"PRD-035150",
-    "ItemName":"Van Gogh-wooden legs-black-wine red 18-armchair",
+    "ItemName":"Van Gogh-black-wine red 18-armchair",
     "UnitPrice":"721"
   },
   {

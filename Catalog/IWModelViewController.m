@@ -291,6 +291,10 @@
         if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
             selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
         }
+        if (selectorChairColorView) {
+            [selectorChairColorView setFilteredItems:chair.model.colors];
+            [self didSelectColor:selectorChairColorView andColor:selectorChairColorView.selectedColor];
+        }
     } else if (selectorViewController == selectorChairColorView)
     {
         [chair setColor:color];
