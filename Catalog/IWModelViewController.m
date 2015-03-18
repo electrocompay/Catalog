@@ -56,9 +56,6 @@
     
     /* new*/
     
-    IBOutlet UILabel *tableLengthView;
-    IBOutlet UILabel *tableWithView;
-    IBOutlet UIButton *tableHeightView;
     IBOutlet UILabel *tableNameView;
     IBOutlet UILabel *tableDimensionsView;
     IBOutlet UIButton *showPriceTableButton;
@@ -68,6 +65,8 @@
     IBOutlet UILabel *tablePriceView;
     IBOutlet UILabel *chairPriceView;
     IBOutlet UIButton *showSummaryButton;
+    IBOutlet UIImageView *tableTopSize;
+    IBOutlet UIImageView *tableFrontSize;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -521,26 +520,20 @@
 
 -(void)updateDetails
 {
-    if (table.size && table.size.description)
-    {
-        NSArray *sizesArray = [table.size.name componentsSeparatedByString:@"X"];
-
-        NSString *length = sizesArray[0];
-        NSString *width = sizesArray[1];
-
-        [tableLengthView setText: [length stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
-        [tableWithView setText: [width stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
-        if (table.coffee) {
-            [tableHeightView setBackgroundImage:[UIImage imageNamed:@"cofee_pic"] forState:UIControlStateNormal];
-        } else {
-            [tableHeightView setBackgroundImage:[UIImage imageNamed:@"dinning_pic"] forState:UIControlStateNormal];
-        }
-    }
+//    if (table.size && table.size.description)
+//    {
+//        NSArray *sizesArray = [table.size.name componentsSeparatedByString:@"X"];
+//
+//        NSString *length = sizesArray[0];
+//        NSString *width = sizesArray[1];
+//
+//    }
     [tableNameView setText:table.model.name];
     [tableDimensionsView setText:table.size.name];
     [chairNameView setText:chair.model.name];
-    //        IBOutlet UIButton *showPriceTableButton;
-    //        IBOutlet UIButton *showPriceChairButton;
+    NSString *imageName = [[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "];
+    [tableTopSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"p"]]];
+    [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
     [self updatePrices];
 }
