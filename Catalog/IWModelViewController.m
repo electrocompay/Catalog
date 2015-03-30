@@ -223,7 +223,7 @@
 }
 
 -(void)BrowserTabView:(BrowserTabView *)browserTabView willRemoveTabAtIndex:(NSUInteger)index {
-    NSLog(@"BrowserTabView WILL Remove Tab at index:  %d",index);
+    NSLog(@"BrowserTabView WILL Remove Tab at index:  %d",(unsigned long) index);
     
 }
 
