@@ -23256,8 +23256,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = catalog;
-				PROVISIONING_PROFILE = "5d674ae8-4e8a-43b1-a8a2-3216858e3c28";
+				PROVISIONING_PROFILE = "751abb70-8ddc-461c-949f-775bb49755f7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -23272,8 +23273,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = catalog;
-				PROVISIONING_PROFILE = "5d674ae8-4e8a-43b1-a8a2-3216858e3c28";
+				PROVISIONING_PROFILE = "751abb70-8ddc-461c-949f-775bb49755f7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -14,7 +14,7 @@
 		<string>https://github.com/electrocompay/Catalog.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Catalog.xcodeproj/project.xcworkspace</string>
+	<string>Catalog.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8D59018666B651A47C221B6355FB0FC298D34D8E</key>
