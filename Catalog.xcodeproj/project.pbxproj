@@ -5531,9 +5531,6 @@
 		7B38FBB21AB90ACD00795ACF /* LARGO WOOD-55x55x55 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FAB81AB90ACD00795ACF /* LARGO WOOD-55x55x55 p.png */; };
 		7B38FBB31AB90ACD00795ACF /* LARGO WOOD.ai in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FAB91AB90ACD00795ACF /* LARGO WOOD.ai */; };
 		7B38FBB41AB90ACD00795ACF /* LARGO WOOD_140x90x75.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FABA1AB90ACD00795ACF /* LARGO WOOD_140x90x75.png */; };
-		7B38FBB51AB90ACD00795ACF /* LARGO-100x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FABB1AB90ACD00795ACF /* LARGO-100x100x75 a.png */; };
-		7B38FBB61AB90ACD00795ACF /* LARGO-300x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FABC1AB90ACD00795ACF /* LARGO-300x100x75 a.png */; };
-		7B38FBB71AB90ACD00795ACF /* LARGO-300x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FABD1AB90ACD00795ACF /* LARGO-300x100x75 p.png */; };
 		7B38FBBB1AB90ACD00795ACF /* LARGO XL.ai in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FAC21AB90ACD00795ACF /* LARGO XL.ai */; };
 		7B38FBBD1AB90ACD00795ACF /* LUNA-120x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FAC51AB90ACD00795ACF /* LUNA-120x75 a.png */; };
 		7B38FBBE1AB90ACD00795ACF /* LUNA-120x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B38FAC61AB90ACD00795ACF /* LUNA-120x75 p.png */; };
@@ -11100,9 +11097,6 @@
 		7B38FAB81AB90ACD00795ACF /* LARGO WOOD-55x55x55 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LARGO WOOD-55x55x55 p.png"; sourceTree = "<group>"; };
 		7B38FAB91AB90ACD00795ACF /* LARGO WOOD.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LARGO WOOD.ai"; sourceTree = "<group>"; };
 		7B38FABA1AB90ACD00795ACF /* LARGO WOOD_140x90x75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LARGO WOOD_140x90x75.png"; sourceTree = "<group>"; };
-		7B38FABB1AB90ACD00795ACF /* LARGO-100x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LARGO-100x100x75 a.png"; sourceTree = "<group>"; };
-		7B38FABC1AB90ACD00795ACF /* LARGO-300x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LARGO-300x100x75 a.png"; sourceTree = "<group>"; };
-		7B38FABD1AB90ACD00795ACF /* LARGO-300x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LARGO-300x100x75 p.png"; sourceTree = "<group>"; };
 		7B38FAC21AB90ACD00795ACF /* LARGO XL.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LARGO XL.ai"; sourceTree = "<group>"; };
 		7B38FAC51AB90ACD00795ACF /* LUNA-120x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LUNA-120x75 a.png"; sourceTree = "<group>"; };
 		7B38FAC61AB90ACD00795ACF /* LUNA-120x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LUNA-120x75 p.png"; sourceTree = "<group>"; };
@@ -17120,9 +17114,6 @@
 				7B38FAB81AB90ACD00795ACF /* LARGO WOOD-55x55x55 p.png */,
 				7B38FAB91AB90ACD00795ACF /* LARGO WOOD.ai */,
 				7B38FABA1AB90ACD00795ACF /* LARGO WOOD_140x90x75.png */,
-				7B38FABB1AB90ACD00795ACF /* LARGO-100x100x75 a.png */,
-				7B38FABC1AB90ACD00795ACF /* LARGO-300x100x75 a.png */,
-				7B38FABD1AB90ACD00795ACF /* LARGO-300x100x75 p.png */,
 			);
 			path = "LARGO WOOD PNG";
 			sourceTree = "<group>";
@@ -18201,7 +18192,6 @@
 				4C63B97619872A7C00833622 /* Renoir-W-09-27-A.png in Resources */,
 				4C63BB6D19872A7D00833622 /* Facet-00-26-A.png in Resources */,
 				4C63B8F619872A7C00833622 /* Facet-34-00-B.png in Resources */,
-				7B38FBB71AB90ACD00795ACF /* LARGO-300x100x75 p.png in Resources */,
 				4C63BBF519872A7E00833622 /* Chrominox-34-27-A.png in Resources */,
 				4C63BB1219872A7D00833622 /* Largo-U-11-00-A.png in Resources */,
 				7BEBDC1E1A6D1F20009F27AA /* logo joli.png in Resources */,
@@ -18603,7 +18593,6 @@
 				4C63BC9819872A7F00833622 /* Angelina-A-03-27-B.png in Resources */,
 				4C63B9EA19872A7C00833622 /* Renoir-A-02-27-B.png in Resources */,
 				4C63B92819872A7C00833622 /* Wings-34-00-A.png in Resources */,
-				7B38FBB61AB90ACD00795ACF /* LARGO-300x100x75 a.png in Resources */,
 				7B38FB411AB90ACD00795ACF /* CHROMINOX-130x130x75 a.png in Resources */,
 				4C63B97B19872A7C00833622 /* Renoir-W-11-27-B.png in Resources */,
 				7B38FB991AB90ACD00795ACF /* LARGO-55x55x55 p.png in Resources */,
@@ -18637,7 +18626,6 @@
 				4C63BB8E19872A7E00833622 /* Largo-29-00-B.png in Resources */,
 				4C63BBC119872A7E00833622 /* Elyps-41-00-A.png in Resources */,
 				4C1F9244192F172B00AAB2E1 /* Taupe 062.jpg in Resources */,
-				7B38FBB51AB90ACD00795ACF /* LARGO-100x100x75 a.png in Resources */,
 				4C63BC6819872A7E00833622 /* Angelina-AW-15-27-A.png in Resources */,
 				4C1F91FA192F172B00AAB2E1 /* Caltatta.jpg in Resources */,
 				4C63BA4719872A7D00833622 /* Monet-S-17-27-B.png in Resources */,
