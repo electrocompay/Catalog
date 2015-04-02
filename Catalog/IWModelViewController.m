@@ -532,8 +532,8 @@
     [tableDimensionsView setText:table.size.name];
     [chairNameView setText:chair.model.name];
     NSString *imageName = [[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "];
-    [tableTopSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"p"]]];
-    [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
+    [tableTopSize setImage:[UIImage imageNamed:[[imageName stringByAppendingString:@"p.png"] uppercaseString]]];
+    [tableFrontSize setImage:[UIImage imageNamed:[[imageName stringByAppendingString:@"a.png"] uppercaseString]]];
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
     [self updatePrices];
 }
