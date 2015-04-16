@@ -67,6 +67,7 @@
     IBOutlet UIButton *showSummaryButton;
     IBOutlet UIImageView *tableTopSize;
     IBOutlet UIImageView *tableFrontSize;
+    IBOutlet NSLayoutConstraint *heightConstraint;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -532,7 +533,11 @@
     [tableDimensionsView setText:table.size.name];
     [chairNameView setText:chair.model.name];
     NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
-    [tableTopSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"p"]]];
+    UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
+//    CGRect f = CGRectMake(0, 0, tableTopSize.frame.size.width, image.size.height *( tableTopSize.superview.frame.size.width / image.size.width));
+//    [tableTopSize setFrame:f];
+    heightConstraint.constant = image.size.height *(tableTopSize.superview.frame.size.width / image.size.width);
+    [tableTopSize setImage: image];
     [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
     [self updatePrices];

@@ -17,6 +17,14 @@
          contextName = "-[IWPriceManager getChairPrice:]:IWPriceManager.m">
       </ContextState>
       <ContextState
+         contextName = "-[IWModelViewController updateDetails]:IWModelViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableTopSize.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[IWModelViewController didSelectColor:andColor:]:IWModelViewController.m">
          <PersistentStrings>
             <PersistentString

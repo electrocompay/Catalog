@@ -5380,6 +5380,7 @@
 		5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */; };
 		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
 		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
+		7B2333581ADF67920005969D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2333571ADF67920005969D /* arrow.png */; };
 		7B38D9311AAD6076006345EE /* IWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9301AAD6076006345EE /* IWUtils.m */; };
 		7B38D9321AAD6076006345EE /* IWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9301AAD6076006345EE /* IWUtils.m */; };
 		7B38D9351AAF0AF6006345EE /* IWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B38D9341AAF0AF6006345EE /* IWBaseViewController.m */; };
@@ -10932,6 +10933,7 @@
 		5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Tables_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
+		7B2333571ADF67920005969D /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		7B38D92F1AAD6076006345EE /* IWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWUtils.h; path = Utils/IWUtils.h; sourceTree = "<group>"; };
 		7B38D9301AAD6076006345EE /* IWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWUtils.m; path = Utils/IWUtils.m; sourceTree = "<group>"; };
 		7B38D9331AAF0AF6006345EE /* IWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWBaseViewController.h; sourceTree = "<group>"; };
@@ -15270,6 +15272,7 @@
 		4CE8DBE718A751FE00FC1326 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B2333571ADF67920005969D /* arrow.png */,
 				7B883A471ADC376D003415E3 /* Esquemes de taules */,
 				7B5589AD1AA7FEC6007FA8D7 /* summary_close.png */,
 				7B5589AE1AA7FEC7007FA8D7 /* summary_print.png */,
@@ -18258,6 +18261,7 @@
 				4C63BC8719872A7F00833622 /* Angelina-S-12-27-B.png in Resources */,
 				7B883B471ADC376E003415E3 /* chateau-200x40x75 a.png in Resources */,
 				7B883BA61ADC376E003415E3 /* largo-180x90x75 a.png in Resources */,
+				7B2333581ADF67920005969D /* arrow.png in Resources */,
 				4C63B90519872A7C00833622 /* Van Gogh-A-15-28-B.png in Resources */,
 				4C63BAA219872A7D00833622 /* Luna-38-00-B.png in Resources */,
 				4C63B99819872A7C00833622 /* Renoir-S-16-27-B.png in Resources */,
