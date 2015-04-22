@@ -1358,43 +1358,73 @@
   {
     "ID":"40509",
     "Item":"PRD-026073",
-    "ItemName":"ensor-s-51X55X87-antracite",
+    "ItemName":"ensor-s-antracite",
     "UnitPrice":"340"
   },
   {
     "ID":"40503",
     "Item":"PRD-026070",
-    "ItemName":"ensor-s-51X55X87-black",
+    "ItemName":"ensor-s-black",
     "UnitPrice":"340"
   },
   {
     "ID":"81079",
     "Item":"PRD-050683",
-    "ItemName":"ensor-s-51X55X87-dark brown",
+    "ItemName":"ensor-s-dark brown",
     "UnitPrice":"340"
   },
   {
     "ID":"40507",
     "Item":"PRD-026072",
-    "ItemName":"ensor-s-51X55X87-light grey",
+    "ItemName":"ensor-s-light grey",
     "UnitPrice":"340"
   },
   {
     "ID":"40511",
     "Item":"PRD-026074",
-    "ItemName":"ensor-s-51X55X87-other color",
+    "ItemName":"ensor-s-other color",
     "UnitPrice":"340"
   },
   {
+    "ID":"40511",
+    "Item":"PRD-026074",
+    "ItemName":"ensor-s-white 01",
+    "UnitPrice":"340"
+  },
+ {
+ "ID":"40511",
+ "Item":"PRD-026074",
+ "ItemName":"ensor-s-L. grey 617",
+ "UnitPrice":"340"
+ },
+ {
+ "ID":"40511",
+ "Item":"PRD-026074",
+ "ItemName":"ensor-s-Antracite 605",
+ "UnitPrice":"340"
+ },
+ {
+ "ID":"40511",
+ "Item":"PRD-026074",
+ "ItemName":"ensor-s-black 901",
+ "UnitPrice":"340"
+ },
+ {
+ "ID":"40511",
+ "Item":"PRD-026074",
+ "ItemName":"ensor-s-brown",
+ "UnitPrice":"340"
+ },
+  {
     "ID":"40505",
     "Item":"PRD-026071",
-    "ItemName":"ensor-s-51X55X87-Taupe",
+    "ItemName":"ensor-s-Taupe",
     "UnitPrice":"340"
   },
   {
     "ID":"40501",
     "Item":"PRD-026069",
-    "ItemName":"ensor-s-51X55X87-White",
+    "ItemName":"ensor-s-White",
     "UnitPrice":"340"
   },
   {
