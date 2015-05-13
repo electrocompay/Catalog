@@ -22,7 +22,12 @@
     } else {
         replaceString = @"-A.png";
     }
-    NSString *filename = [chair.model.file stringByReplacingOccurrencesOfString:@".jpg" withString:replaceString];
+    NSString *filename;
+    if ([chair.model.file hasSuffix:@".jpg"]){
+        filename = [chair.model.file stringByReplacingOccurrencesOfString:@".jpg" withString:replaceString];
+    } else {
+        filename = [chair.model.file stringByReplacingOccurrencesOfString:@".png" withString:replaceString];
+    }
     [self addLayer:filename];
     NSString *chairCode = [chair.model.code stringByAppendingString:replaceString];
     filename = [chairCode stringByReplacingOccurrencesOfString:@"CC" withString:chair.color.code];
