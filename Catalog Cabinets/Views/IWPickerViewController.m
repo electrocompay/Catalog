@@ -45,7 +45,9 @@
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWPickerViewController" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
+    view.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [_pickerView setDelegate:self];
+    _pickerView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 }
 
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
@@ -177,6 +179,11 @@
 -(void)refresh
 {
     [_pickerView reloadAllComponents];
+}
+
+-(void)layoutSubviews{
+    [super layoutSubviews];
+    _pickerView.frame = CGRectMake(_pickerView.frame.origin.x, _pickerView.frame.origin.y, self.frame.size.width, _pickerView.frame.size.height);
 }
 
 

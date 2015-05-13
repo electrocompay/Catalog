@@ -126,5 +126,11 @@ NSDictionary *chairPriceList;
     return Nil;
 }
 
+-(double)getCabinetPrice:(IWCabinet *)cabinet
+{
+    //TODO prices
+    return 0;
+}
+
 
 @end

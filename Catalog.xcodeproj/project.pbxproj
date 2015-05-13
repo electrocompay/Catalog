@@ -5393,18 +5393,25 @@
 		7B5589AB1AA7F5F4007FA8D7 /* IWSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589A81AA7F5F4007FA8D7 /* IWSummaryViewController.xib */; };
 		7B5589AC1AA7F5F4007FA8D7 /* IWSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589A81AA7F5F4007FA8D7 /* IWSummaryViewController.xib */; };
 		7B5589B11AA7FEC7007FA8D7 /* summary_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AD1AA7FEC6007FA8D7 /* summary_close.png */; };
-		7B5589B21AA7FEC7007FA8D7 /* summary_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AD1AA7FEC6007FA8D7 /* summary_close.png */; };
 		7B5589B31AA7FEC7007FA8D7 /* summary_print.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AE1AA7FEC7007FA8D7 /* summary_print.png */; };
-		7B5589B41AA7FEC7007FA8D7 /* summary_print.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AE1AA7FEC7007FA8D7 /* summary_print.png */; };
 		7B5589B51AA7FEC7007FA8D7 /* summary_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AF1AA7FEC7007FA8D7 /* summary_email.png */; };
-		7B5589B61AA7FEC7007FA8D7 /* summary_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AF1AA7FEC7007FA8D7 /* summary_email.png */; };
 		7B5589B71AA7FEC7007FA8D7 /* summary_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589B01AA7FEC7007FA8D7 /* summary_save.png */; };
-		7B5589B81AA7FEC7007FA8D7 /* summary_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589B01AA7FEC7007FA8D7 /* summary_save.png */; };
 		7B5589BB1AA80641007FA8D7 /* IWSummaryPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589BA1AA80641007FA8D7 /* IWSummaryPriceView.m */; };
 		7B5589BC1AA80641007FA8D7 /* IWSummaryPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589BA1AA80641007FA8D7 /* IWSummaryPriceView.m */; };
 		7B5589C01AA81AA0007FA8D7 /* IWTableSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589BE1AA81AA0007FA8D7 /* IWTableSummaryView.m */; };
 		7B5589C11AA81AA0007FA8D7 /* IWTableSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589BF1AA81AA0007FA8D7 /* IWTableSummaryView.xib */; };
 		7B5589C41AA81C93007FA8D7 /* IWTableSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589C31AA81C93007FA8D7 /* IWTableSummaryViewController.m */; };
+		7B61244D1AF64E28000F980C /* IWCabinetSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B61244C1AF64E28000F980C /* IWCabinetSummaryViewController.m */; };
+		7B6124511AF65054000F980C /* IWCabinetSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B61244E1AF65054000F980C /* IWCabinetSummaryView.xib */; };
+		7B6124521AF65054000F980C /* IWCabinetSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B61244F1AF65054000F980C /* IWCabinetSummaryView.m */; };
+		7B6124571AF656C6000F980C /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2333571ADF67920005969D /* arrow.png */; };
+		7B6124581AF656C6000F980C /* summary_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AD1AA7FEC6007FA8D7 /* summary_close.png */; };
+		7B6124591AF656C6000F980C /* summary_print.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AE1AA7FEC7007FA8D7 /* summary_print.png */; };
+		7B61245A1AF656C6000F980C /* summary_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589AF1AA7FEC7007FA8D7 /* summary_email.png */; };
+		7B61245B1AF656C6000F980C /* summary_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589B01AA7FEC7007FA8D7 /* summary_save.png */; };
+		7B61245C1AF656C6000F980C /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1A1A7675B90008711F /* email.png */; };
+		7B61245D1AF656C6000F980C /* show_summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC151A6D1B00009F27AA /* show_summary.png */; };
+		7B61245E1AF656C6000F980C /* show_price.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC161A6D1B00009F27AA /* show_price.png */; };
 		7B72A8D31A74296800DE30BB /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
 		7B72A8D41A74296800DE30BB /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
 		7B883B391ADC376E003415E3 /* chateau-100x100x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883A491ADC376D003415E3 /* chateau-100x100x38 a.png */; };
@@ -5620,6 +5627,10 @@
 		7B883C171ADC376E003415E3 /* wings-55x55x55 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B331ADC376E003415E3 /* wings-55x55x55 p.png */; };
 		7B883C191ADC376E003415E3 /* wings xl-160-260x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B361ADC376E003415E3 /* wings xl-160-260x100x75 a.png */; };
 		7B883C1A1ADC376E003415E3 /* wings xl-160-260x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B371ADC376E003415E3 /* wings xl-160-260x100x75 p.png */; };
+		7BD8C20D1AF6646700398D80 /* IWPriceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */; };
+		7BD8C20E1AF6657C00398D80 /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
+		7BD8C20F1AF665C300398D80 /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
+		7BD8C2101AF66A0D00398D80 /* logo joli.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC1D1A6D1F20009F27AA /* logo joli.png */; };
 		7BE90A1C1A7675B90008711F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1A1A7675B90008711F /* email.png */; };
 		7BE90A1D1A7675B90008711F /* cofee_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1B1A7675B90008711F /* cofee_pic.png */; };
 		7BEBDC061A69F12A009F27AA /* IWSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBDC051A69F12A009F27AA /* IWSelectorTableViewController.m */; };
@@ -10956,6 +10967,11 @@
 		7B5589BF1AA81AA0007FA8D7 /* IWTableSummaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWTableSummaryView.xib; sourceTree = "<group>"; };
 		7B5589C21AA81C93007FA8D7 /* IWTableSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTableSummaryViewController.h; sourceTree = "<group>"; };
 		7B5589C31AA81C93007FA8D7 /* IWTableSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTableSummaryViewController.m; sourceTree = "<group>"; };
+		7B61244B1AF64E28000F980C /* IWCabinetSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWCabinetSummaryViewController.h; sourceTree = "<group>"; };
+		7B61244C1AF64E28000F980C /* IWCabinetSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWCabinetSummaryViewController.m; sourceTree = "<group>"; };
+		7B61244E1AF65054000F980C /* IWCabinetSummaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWCabinetSummaryView.xib; sourceTree = "<group>"; };
+		7B61244F1AF65054000F980C /* IWCabinetSummaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWCabinetSummaryView.m; sourceTree = "<group>"; };
+		7B6124501AF65054000F980C /* IWCabinetSummaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWCabinetSummaryView.h; sourceTree = "<group>"; };
 		7B72A8D01A74296800DE30BB /* IWPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWPasswordView.h; path = Views/IWPasswordView.h; sourceTree = "<group>"; };
 		7B72A8D11A74296800DE30BB /* IWPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWPasswordView.m; path = Views/IWPasswordView.m; sourceTree = "<group>"; };
 		7B72A8D21A74296800DE30BB /* IWPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IWPasswordView.xib; path = Views/IWPasswordView.xib; sourceTree = "<group>"; };
@@ -15427,6 +15443,8 @@
 				4CEE9B9A191FC21900C54B67 /* IWAppDelegate.m */,
 				4CEE9BA2191FC21A00C54B67 /* Images.xcassets */,
 				4CEE9B91191FC21900C54B67 /* Supporting Files */,
+				7B61244B1AF64E28000F980C /* IWCabinetSummaryViewController.h */,
+				7B61244C1AF64E28000F980C /* IWCabinetSummaryViewController.m */,
 			);
 			path = "Catalog Cabinets";
 			sourceTree = "<group>";
@@ -16830,6 +16848,9 @@
 		4CEEADB6191FDFC200C54B67 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7B61244E1AF65054000F980C /* IWCabinetSummaryView.xib */,
+				7B61244F1AF65054000F980C /* IWCabinetSummaryView.m */,
+				7B6124501AF65054000F980C /* IWCabinetSummaryView.h */,
 				4C87E38A192095C8008F59F0 /* IWMultipleSelectorViewController.m */,
 				4C87E38B192095C8008F59F0 /* IWMultipleSelectorViewController.xib */,
 				4C87E38C192095C8008F59F0 /* IWMultipleSelectorViewController.h */,
@@ -19075,6 +19096,7 @@
 				4CEEA90C191FCEB600C54B67 /* C83-1Da-30-F-4.png in Resources */,
 				4C87DBE7192030BC008F59F0 /* 40-H06-29-00-F4.png in Resources */,
 				4C87D8AF192030BC008F59F0 /* 40-B08-34-F1.png in Resources */,
+				7B61245D1AF656C6000F980C /* show_summary.png in Resources */,
 				4CEEAC80191FCEB900C54B67 /* C83-LDD-34-F2-2.png in Resources */,
 				4C8F0BCD196B856500B8A14E /* C83-2D-29-TR-2.png in Resources */,
 				4C87DA1C192030BC008F59F0 /* 40-B11-39-F.png in Resources */,
@@ -19356,6 +19378,7 @@
 				4C87D8D4192030BC008F59F0 /* 40-B08-39-F3.png in Resources */,
 				4C87E19D192030BC008F59F0 /* 55-K12-38-S.png in Resources */,
 				4CEEAAD5191FCEB800C54B67 /* C83-3L-31-F3-1.png in Resources */,
+				7B6124581AF656C6000F980C /* summary_close.png in Resources */,
 				4C87DE40192030BC008F59F0 /* 55-B07-37-F5.png in Resources */,
 				4CEEAD0A191FCEBA00C54B67 /* C83-LDDa-30-F-4.png in Resources */,
 				4C87E1EC192030BC008F59F0 /* C193-2D-39-F2.png in Resources */,
@@ -19740,7 +19763,6 @@
 				4C87E15B192030BC008F59F0 /* 55-K11-39-F2.png in Resources */,
 				4CB792FD192C6BA700325AD9 /* J83-1Da-33-F-4.png in Resources */,
 				4C87E040192030BC008F59F0 /* 55-H04-30-00-T.png in Resources */,
-				7B5589B21AA7FEC7007FA8D7 /* summary_close.png in Resources */,
 				4C87D916192030BC008F59F0 /* 40-B09-35-F6.png in Resources */,
 				4C87DE87192030BC008F59F0 /* 55-B08-34-F2.png in Resources */,
 				4CEEADB2191FD5FD00C54B67 /* IWOptionView.xib in Resources */,
@@ -20042,7 +20064,6 @@
 				4CEEAC8C191FCEB900C54B67 /* C83-LDD-35-F-1.png in Resources */,
 				4C87E11F192030BC008F59F0 /* 55-K11-29-F3.png in Resources */,
 				4CEEAB28191FCEB800C54B67 /* C83-3L-36-1.png in Resources */,
-				7B5589B81AA7FEC7007FA8D7 /* summary_save.png in Resources */,
 				4C87DA7F192030BC008F59F0 /* 40-H02-31-00-F.png in Resources */,
 				4CEEAD6B191FCEBA00C54B67 /* C83-LDDa-39-F1-3a.png in Resources */,
 				4CEEAA35191FCEB700C54B67 /* C83-2Da-30-3a.png in Resources */,
@@ -20273,6 +20294,7 @@
 				4C87D950192030BC008F59F0 /* 40-B10-30-T.png in Resources */,
 				4C87DFF5192030BC008F59F0 /* 55-H03-32-00-T.png in Resources */,
 				4CEEAC98191FCEB900C54B67 /* C83-LDD-35-S-1.png in Resources */,
+				7B6124511AF65054000F980C /* IWCabinetSummaryView.xib in Resources */,
 				4CEEAC0C191FCEB900C54B67 /* C83-3La-41-4.png in Resources */,
 				4C87DE22192030BC008F59F0 /* 55-B07-34-F2.png in Resources */,
 				4C87DF32192030BC008F59F0 /* 55-B09-38-F9.png in Resources */,
@@ -20379,6 +20401,7 @@
 				4C87E1B7192030BC008F59F0 /* C193-1D-29-S.png in Resources */,
 				4CEEAA64191FCEB700C54B67 /* C83-2Da-34-F2-4.png in Resources */,
 				4C87D989192030BC008F59F0 /* 40-B10-37-F2.png in Resources */,
+				7B61245C1AF656C6000F980C /* email.png in Resources */,
 				4C87DF36192030BC008F59F0 /* 55-B09-39-F1.png in Resources */,
 				4C87DAB7192030BC008F59F0 /* 40-H03-00-23.png in Resources */,
 				4C87E074192030BC008F59F0 /* 55-H04-38-00-F2.png in Resources */,
@@ -20935,7 +20958,6 @@
 				4C87E24F192030BC008F59F0 /* C193-4D-39-F.png in Resources */,
 				4CEEA9F5191FCEB700C54B67 /* C83-2D-37-F2-2.png in Resources */,
 				4CEEA924191FCEB600C54B67 /* C83-1Da-33-4.png in Resources */,
-				7B5589B61AA7FEC7007FA8D7 /* summary_email.png in Resources */,
 				4C87DCED192030BC008F59F0 /* 40-K12-33-F1.png in Resources */,
 				4CEEAC79191FCEB900C54B67 /* C83-LDD-34-F-1.png in Resources */,
 				4C87DC26192030BC008F59F0 /* 40-H06-35-00-F5.png in Resources */,
@@ -21067,6 +21089,7 @@
 				4CB79328192C6BA700325AD9 /* J83-2Da-30-F-3a.png in Resources */,
 				4CEEA910191FCEB600C54B67 /* C83-1Da-30-T-4a.png in Resources */,
 				4C87D92C192030BC008F59F0 /* 40-B09-38-F1.png in Resources */,
+				7B61245A1AF656C6000F980C /* summary_email.png in Resources */,
 				4CB79386192C6BA700325AD9 /* J83-LDDa-32-F-3a.png in Resources */,
 				4C87E04E192030BC008F59F0 /* 55-H04-32-00-T.png in Resources */,
 				4CEEA8E6191FCEB600C54B67 /* C83-1D-37-F-2.png in Resources */,
@@ -21607,6 +21630,7 @@
 				4CEEAA7F191FCEB700C54B67 /* C83-2Da-37-F1-3a.png in Resources */,
 				4C87DA0E192030BC008F59F0 /* 40-B11-37-S.png in Resources */,
 				4CEEAC36191FCEB900C54B67 /* C83-LDD-30-F3-1.png in Resources */,
+				7B61245E1AF656C6000F980C /* show_price.png in Resources */,
 				4C87DDBA192030BC008F59F0 /* 55-B06-32-F1.png in Resources */,
 				4CEEA8C6191FCEB600C54B67 /* C83-1D-32-T-2.png in Resources */,
 				4CEEA922191FCEB600C54B67 /* C83-1Da-32-T-4a.png in Resources */,
@@ -22055,6 +22079,7 @@
 				4CEEAC0B191FCEB900C54B67 /* C83-3La-41-3a.png in Resources */,
 				4CEEAB91191FCEB800C54B67 /* C83-3La-29-T-3a.png in Resources */,
 				4CEEAA44191FCEB700C54B67 /* C83-2Da-31-F1-4.png in Resources */,
+				7BD8C2101AF66A0D00398D80 /* logo joli.png in Resources */,
 				4CEEAA2C191FCEB700C54B67 /* C83-2Da-29-4.png in Resources */,
 				4CEEA942191FCEB600C54B67 /* C83-1Da-36-F-4.png in Resources */,
 				4C87DDF9192030BC008F59F0 /* 55-B07-29-S.png in Resources */,
@@ -22094,6 +22119,7 @@
 				4C87E1A0192030BC008F59F0 /* 55-K12-39-F1.png in Resources */,
 				4CB7933B192C6BA700325AD9 /* J83-3L-30-F-1.png in Resources */,
 				4CEEA9BC191FCEB700C54B67 /* C83-2D-34-2.png in Resources */,
+				7BD8C20F1AF665C300398D80 /* IWPasswordView.xib in Resources */,
 				4C87E21E192030BC008F59F0 /* C193-3D-40-F1.png in Resources */,
 				4C87DC67192030BC008F59F0 /* 40-H07-29-Sombra.png in Resources */,
 				4CEEAB84191FCEB800C54B67 /* C83-3L-41-T-1.png in Resources */,
@@ -22131,7 +22157,6 @@
 				4C87E073192030BC008F59F0 /* 55-H04-38-00-F1.png in Resources */,
 				4C87DDBB192030BC008F59F0 /* 55-B06-32-F2.png in Resources */,
 				4C87E127192030BC008F59F0 /* 55-K11-30-S.png in Resources */,
-				7B5589B41AA7FEC7007FA8D7 /* summary_print.png in Resources */,
 				4CEEAD6F191FCEBA00C54B67 /* C83-LDDa-39-F3-3a.png in Resources */,
 				4C87DA1D192030BC008F59F0 /* 40-B11-39-F1.png in Resources */,
 				4C87DD14192030BC008F59F0 /* 40-K13-29-S.png in Resources */,
@@ -22270,6 +22295,7 @@
 				4C87D8B2192030BC008F59F0 /* 40-B08-34-F4.png in Resources */,
 				4C87DEBD192030BC008F59F0 /* 55-B09-29-F1.png in Resources */,
 				4C87DC9F192030BC008F59F0 /* 40-H07-35-00-F.png in Resources */,
+				7B6124591AF656C6000F980C /* summary_print.png in Resources */,
 				4C87E187192030BC008F59F0 /* 55-K12-35-F4.png in Resources */,
 				4CEEAC96191FCEB900C54B67 /* C83-LDD-35-F3-2.png in Resources */,
 				4C87DEEA192030BC008F59F0 /* 55-B09-32-F9.png in Resources */,
@@ -22306,6 +22332,7 @@
 				4CEEAD6A191FCEBA00C54B67 /* C83-LDDa-39-F-4.png in Resources */,
 				4C87DCDD192030BC008F59F0 /* 40-K12-30-F.png in Resources */,
 				4CEEAA58191FCEB700C54B67 /* C83-2Da-33-F1-4.png in Resources */,
+				7B61245B1AF656C6000F980C /* summary_save.png in Resources */,
 				4CEEAA7C191FCEB700C54B67 /* C83-2Da-37-4.png in Resources */,
 				4CEEAD60191FCEBA00C54B67 /* C83-LDDa-37-F1-4.png in Resources */,
 				4C87DB93192030BC008F59F0 /* 40-H05-32-00-F.png in Resources */,
@@ -22452,6 +22479,7 @@
 				4C87E202192030BC008F59F0 /* C193-3D-31-F3.png in Resources */,
 				4CEEAC5B191FCEB900C54B67 /* C83-LDD-32-F2-3.png in Resources */,
 				4C87DF91192030BC008F59F0 /* 55-H02-29-00-T.png in Resources */,
+				7B6124571AF656C6000F980C /* arrow.png in Resources */,
 				4C87E1A3192030BC008F59F0 /* 55-K12-39-F4.png in Resources */,
 				4CEEA907191FCEB600C54B67 /* C83-1Da-29-T-4a.png in Resources */,
 				4C87E0B2192030BC008F59F0 /* 55-H05-34-00-F.png in Resources */,
@@ -22974,19 +23002,23 @@
 				7B38D9361AAF0AF6006345EE /* IWBaseViewController.m in Sources */,
 				4C87E39C1921B19F008F59F0 /* IWColorSelectorView.m in Sources */,
 				4C87E38D192095C8008F59F0 /* IWMultipleSelectorViewController.m in Sources */,
+				7BD8C20D1AF6646700398D80 /* IWPriceManager.m in Sources */,
 				7B5589AA1AA7F5F4007FA8D7 /* IWSummaryViewController.m in Sources */,
 				4CEEADA1191FD4A900C54B67 /* IWColor.m in Sources */,
 				7B5589BC1AA80641007FA8D7 /* IWSummaryPriceView.m in Sources */,
 				4CA58D6A192DADC5003A68C7 /* IWLegsColorSelectorViewController.m in Sources */,
 				4CEEADAB191FD55100C54B67 /* IWDrawerCabinet.m in Sources */,
 				4CEEADA0191FD48C00C54B67 /* IWCabinet.m in Sources */,
+				7BD8C20E1AF6657C00398D80 /* IWPasswordView.m in Sources */,
 				4CEEAD95191FD0AF00C54B67 /* IWCatalogViewController.m in Sources */,
 				4CEEA3C0191FCB0600C54B67 /* IWModelViewController.m in Sources */,
 				4CEEADAC191FD57200C54B67 /* IWDrawer.m in Sources */,
 				4C98710E192C837E00D8850E /* IWMyQLPreviewControllerViewController.m in Sources */,
 				4C87E3A11921C44F008F59F0 /* IWColorsPanelView.m in Sources */,
+				7B6124521AF65054000F980C /* IWCabinetSummaryView.m in Sources */,
 				4CEEADBA191FDFC300C54B67 /* IWModelSelectorViewController.m in Sources */,
 				4C08445A192EE3D3003E493F /* IWStrokeLabel.m in Sources */,
+				7B61244D1AF64E28000F980C /* IWCabinetSummaryViewController.m in Sources */,
 				4CEEADBF191FE07E00C54B67 /* IWPickerViewController.m in Sources */,
 				4CEEADB5191FD5FD00C54B67 /* IWTriangle.m in Sources */,
 				4CEEADAE191FD59B00C54B67 /* IWModel.m in Sources */,
@@ -23133,6 +23165,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FOTO DISSENY J E SL (8QGLPF4ZXJ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Catalog/Catalog-Prefix.pch";
 				INFOPLIST_FILE = "Catalog/Catalog-Info.plist";
@@ -23222,6 +23255,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = catalogcabinets;
 				PROVISIONING_PROFILE = "3a107755-e0ea-4e48-bc45-2bf6378c2456";
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

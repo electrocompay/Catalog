@@ -18,6 +18,9 @@
 #import "IWMultipleSelectorJ193ViewController.h"
 #import "IWLegsColorSelectorViewController.h"
 #import "NSArray+color.h"
+#import "IWPriceManager.h"
+#import "IWCabinetSummaryViewController.h"
+#import "IWUtils.h"
 
 @interface IWModelViewController ()
 
@@ -46,6 +49,16 @@
     NSInteger _updating;
     UIButton * button;
     UIButton * button2;
+
+
+    /* Price controls */
+    
+    IBOutlet UIButton *priceButton;
+    IBOutlet IWPasswordView *passwordDialog;
+    IBOutlet UILabel *priceView;
+    IBOutlet UIButton *showSummaryButton;
+
+
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -82,6 +95,11 @@
     [menu setDelegate:self];
     [homeMenu setDelegate:self];
     [tabController setTabWidth:135];
+
+    [passwordDialog setDelegate:self];
+    [showSummaryButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
+    showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
+    [self updateDetails];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -338,6 +356,7 @@
     }
     [self endUpdate];
     [self drawAll];
+    [self updateDetails];
 }
 
 -(void)beginUpdate
@@ -353,6 +372,7 @@
 -(void)didSelectColor:(IWMultipleSelectorViewController *)selectorViewController andColor:(IWColor *)color andIndex:(NSInteger)index
 {
     [self drawAll];
+    [self updateDetails];
 }
 
 #pragma mark Menu Actions
@@ -361,6 +381,7 @@
 {
     [drawer setFrontView:!drawer.frontView];
     [self drawAll];
+    [self updateDetails];
 }
 
 
@@ -413,6 +434,7 @@
     menu.hidden = YES;
     button.hidden = YES;
     button2.hidden = YES;
+    [passwordDialog setHidden:YES];
 }
 
 -(void)menuView:(IWMenuView *)menuView didClick:(NSInteger)optionIndex
@@ -578,6 +600,54 @@
     [pic presentAnimated:YES completionHandler:completionHandler];
 }
 
+#pragma marks Prices
 
+-(IBAction)priceMenu_Clicked:(id)sender{
+        [passwordDialog showLeftTriangle];
+        if (passwordDialog.hidden) {
+            [self createFackeButton];
+            [passwordDialog setHidden:NO];
+            [passwordDialog.superview bringSubviewToFront:passwordDialog];
+        } else if (![passwordDialog isLeftVisible]){
+            [passwordDialog setHidden:YES];
+        }
+}
+
+
+#pragma marks extended features
+
+-(void)updateDetails
+{
+    [self updatePrices];
+}
+
+-(void)passwordView:(IWPasswordView *)passwordView authenticateResult:(BOOL)authenticateResult
+{
+    if (authenticateResult) {
+        [self updatePrices];
+    }
+}
+
+-(void)updatePrices
+{
+    IWPriceManager *pricesManager = [IWPriceManager getInstance];
+    if (pricesManager.authenticated) {
+        double price = [pricesManager getCabinetPrice:cabinet];
+        [priceView setText:[NSString stringWithFormat:@"%.2f", price]];
+        [priceView setHidden:NO];
+        [priceButton setUserInteractionEnabled:NO];
+    } else {
+        [priceView setHidden:YES];
+        [priceButton setUserInteractionEnabled:YES];
+    }
+    showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
+}
+
+-(IBAction)viewSummaryClick:(id)sender
+{
+    IWCabinetSummaryViewController *summaryViewController = [[IWCabinetSummaryViewController alloc] initWithNibName:@"IWSummaryViewController" bundle:Nil];
+    [self presentViewController:summaryViewController animated:YES completion:Nil];
+    [summaryViewController showSummaryForCabinet:cabinet];
+}
 
 @end

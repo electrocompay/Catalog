@@ -521,14 +521,6 @@
 
 -(void)updateDetails
 {
-//    if (table.size && table.size.description)
-//    {
-//        NSArray *sizesArray = [table.size.name componentsSeparatedByString:@"X"];
-//
-//        NSString *length = sizesArray[0];
-//        NSString *width = sizesArray[1];
-//
-//    }
     [tableNameView setText:table.model.name];
     [tableDimensionsView setText:table.size.name];
     [chairNameView setText:chair.model.name];

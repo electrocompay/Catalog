@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "IWTable.h"
 #import "IWChair.h"
+#import "IWCabinet.h"
 
 @interface IWPriceManager : NSObject
 
@@ -17,6 +18,7 @@
 -(BOOL)authenticate:(NSString*)authenticationCode;
 -(double)getTablePrice:(IWTable*)table;
 -(double)getChairPrice:(IWChair*)chair;
+-(double)getCabinetPrice:(IWCabinet*)cabinet;
 
 +(IWPriceManager*)getInstance;
 

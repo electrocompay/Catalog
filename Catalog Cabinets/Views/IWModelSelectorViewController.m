@@ -10,6 +10,9 @@
 #import "IWPickerViewController.h"
 #import "IWColors.h"
 
+const int OFFSET_CUBE_83 = 40;
+const int OC = OFFSET_CUBE_83;
+
 @interface IWModelSelectorViewController ()
 
 @end
@@ -51,6 +54,7 @@
 
 -(void)pickerViewController:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
 {
+    IWColor* prevModel = _cabinet.model;
     _cabinet.model = (IWModel*) pickerModel.selection;
     if (_cabinet.useDoors) {
         [self processSelectionDoors:pickerViewController didSelectRow:color];
@@ -63,8 +67,15 @@
         picker3.frame = CGRectMake(430, 0, picker3.bounds.size.width, picker3.bounds.size.height);
         [picker2 setHidden:NO];
     }
+
     if (_delegate) {
         [_delegate didSelect:self andColor:color];
+    }
+    if ([_cabinet.model.code isEqualToString:@"C83"]) {
+        if (![prevModel.code isEqualToString:@"C83"])
+            [self movePickersRight];
+    } else if ([prevModel.code isEqualToString:@"C83"]) {
+        [self movePickersLeft];
     }
 }
 
@@ -242,6 +253,23 @@
     [picker4 setHidden:NO];
     [picker5 setHidden:NO];
 }
+
+-(void)movePickersRight
+{
+    picker5.frame = CGRectMake(picker5.frame.origin.x + OC, picker5.frame.origin.y, picker5.frame.size.width - OC, picker5.frame.size.height);
+    picker4.frame = CGRectMake(picker4.frame.origin.x + OC * 2, picker4.frame.origin.y, picker4.frame.size.width - OC, picker4.frame.size.height);
+    picker3.frame = CGRectMake(picker3.frame.origin.x + OC * 3, picker3.frame.origin.y, picker3.frame.size.width - OC, picker3.frame.size.height);
+    picker2.frame = CGRectMake(picker2.frame.origin.x + OC * 4, picker2.frame.origin.y, picker2.frame.size.width - OC, picker2.frame.size.height);
+}
+
+-(void)movePickersLeft
+{
+    picker2.frame = CGRectMake(picker2.frame.origin.x - OC * 4, picker2.frame.origin.y, picker2.frame.size.width + OC, picker2.frame.size.height);
+    picker3.frame = CGRectMake(picker3.frame.origin.x - OC * 2, picker3.frame.origin.y, picker3.frame.size.width + OC, picker3.frame.size.height);
+    picker4.frame = CGRectMake(picker4.frame.origin.x - OC * 2, picker4.frame.origin.y, picker4.frame.size.width + OC, picker4.frame.size.height);
+    picker5.frame = CGRectMake(picker5.frame.origin.x - OC, picker5.frame.origin.y, picker5.frame.size.width + OC, picker5.frame.size.height);
+}
+
 
 -(void)setModeCube
 {

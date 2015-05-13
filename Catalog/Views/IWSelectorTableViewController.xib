@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSelectorTableViewController">
@@ -23,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="why-Ry-w2f">
-                    <rect key="frame" x="30" y="29" width="575" height="150"/>
+                    <rect key="frame" x="42" y="29" width="563" height="150"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coose table model" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXx-fW-MhE">
                             <rect key="frame" x="20" y="9" width="293" height="21"/>
@@ -32,7 +31,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDW-Vh-lFZ">
-                            <rect key="frame" x="20" y="38" width="555" height="102"/>
+                            <rect key="frame" x="20" y="38" width="543" height="102"/>
                         </scrollView>
                     </subviews>
                     <color key="backgroundColor" white="0.85999999999999999" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,10 +44,10 @@
                     <rect key="frame" x="617" y="103" width="12" height="19"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="NEO-si-LnM">
-                    <rect key="frame" x="9" y="103" width="12" height="19"/>
+                    <rect key="frame" x="17" y="103" width="12" height="19"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Om-7N6">
-                    <rect key="frame" x="28" y="29" width="2" height="150"/>
+                    <rect key="frame" x="42" y="29" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GUs-NM-CVo">
@@ -59,7 +58,7 @@
                     <rect key="frame" x="646" y="30" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coose table type" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bI-Ap-r5c">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose table type" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bI-Ap-r5c">
                     <rect key="frame" x="670" y="30" width="105" height="37"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -90,7 +89,7 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cofee table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMk-RV-B96">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coffee table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMk-RV-B96">
                     <rect key="frame" x="703" y="135" width="88" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -111,7 +110,7 @@
                     </connections>
                 </button>
                 <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ht1-Rr-TAb" customClass="IWSimplePickerViewController">
-                    <rect key="frame" x="836" y="78" width="170" height="100"/>
+                    <rect key="frame" x="836" y="78" width="165" height="100"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
