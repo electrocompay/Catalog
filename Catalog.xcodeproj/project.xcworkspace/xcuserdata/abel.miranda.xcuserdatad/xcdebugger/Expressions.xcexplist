@@ -6,18 +6,10 @@
          contextName = "-[IWPriceManager getTablePrice:]:IWPriceManager.m">
       </ContextState>
       <ContextState
-         contextName = "-[IWModelSelectorViewController movePickersRight]:IWModelSelectorViewController.m">
+         contextName = "-[IWModelViewController didSelectColor:andColor:]:IWModelViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "picker5.frame">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "main:main.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[selectorChairColorView.filteredItems objectAtIndex:0]">
+               value = "[selectorChairColorView.items objectAtIndex:0]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -33,10 +25,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[IWModelViewController didSelectColor:andColor:]:IWModelViewController.m">
+         contextName = "-[IWModelSelectorViewController movePickersRight]:IWModelSelectorViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "[selectorChairColorView.items objectAtIndex:0]">
+               value = "picker5.frame">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

@@ -49,8 +49,15 @@
     NSInteger prevSelection = self.selectedIndex;
     [super setSelection:index];
     if (prevSelection != index){
-        btDinningTable.enabled = [[self getSelectedModel] sizes] != Nil;
-        btCofeeTable.enabled = [[self getSelectedModel] smallSizes] != Nil;
+        btDinningTable.enabled = [self getSelectedModel].sizes.count > 0;
+        btCofeeTable.enabled = [self getSelectedModel].smallSizes.count > 0;
+        if (!btDinningTable.enabled) {
+            btDinningTable.selected = NO;
+            btCofeeTable.selected = YES;
+        } else {
+            btDinningTable.selected = YES;
+            btCofeeTable.selected = NO;
+        }
         [self loadSizes];
     }
 }

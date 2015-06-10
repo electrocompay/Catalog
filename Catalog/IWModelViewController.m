@@ -337,14 +337,18 @@
 -(void)drawAll
 {
     [drawer clear];
-
-    [drawerChair drawForniture:chair];
+    
+    if (!table.model.isWithoutChairs) {
+        [drawerChair drawForniture:chair];
+    }
     [drawer drawForniture:table];
     [thumbDrawerChair setFrontView:!drawer.frontView];
     [thumbDrawer setFrontView:!drawer.frontView];
 
     [thumbDrawer clear];
-    [thumbDrawerChair drawForniture:chair];
+    if (!table.model.isWithoutChairs) {
+        [thumbDrawerChair drawForniture:chair];
+    }
     [thumbDrawer drawForniture:table];
     [selectorView setImage:[self captureViewFrom:thumbView]];
 }
@@ -528,7 +532,9 @@
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
 //    CGRect f = CGRectMake(0, 0, tableTopSize.frame.size.width, image.size.height *( tableTopSize.superview.frame.size.width / image.size.width));
 //    [tableTopSize setFrame:f];
-    heightConstraint.constant = image.size.height *(tableTopSize.superview.frame.size.width / image.size.width);
+    if (image) {
+        heightConstraint.constant = image.size.height *(tableTopSize.superview.frame.size.width / image.size.width);
+    }
     [tableTopSize setImage: image];
     [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];

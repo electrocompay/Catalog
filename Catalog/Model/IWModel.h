@@ -15,10 +15,12 @@
 @property (nonatomic, strong) NSArray* sizes;
 @property (nonatomic, strong) NSArray* smallSizes;
 @property (nonatomic, strong) NSString* priceFormat;
+@property (nonatomic) BOOL isWithoutChairs;
 
 +(IWModel*) modelWithName:(NSString*) name andCode:(NSString*) code andFile:(NSString*) file andColors:(NSString*) colors andLegColors:(NSString*) legColors;
 -(IWModel*) withSizes:(NSString*)sizes;
 -(IWModel*) withSmallSizes:(NSString*)sizes;
 -(IWModel*) withPriceFormat:(NSString*)priceFormat;
+-(IWModel*) withoutChairs:(BOOL)withoutChairs;
 
 @end

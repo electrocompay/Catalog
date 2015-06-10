@@ -24,11 +24,11 @@
     NSString *filename = [table.model.file stringByReplacingOccurrencesOfString:@".jpg" withString:replaceString];
     [self addLayer:filename];
     NSString *tableCode = [table.model.code stringByAppendingString:replaceString];
-    filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:table.color.code];
-    filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
-    [self addLayer:filename];
     filename = [tableCode stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
     filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
+    [self addLayer:filename];
+    filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:table.color.code];
+    filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
     [self addLayer:filename];
 }
 

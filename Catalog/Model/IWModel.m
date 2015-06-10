@@ -58,4 +58,10 @@
     return self;
 }
 
+-(IWModel *)withoutChairs:(BOOL)withoutChairs
+{
+    _isWithoutChairs = withoutChairs;
+    return self;
+}
+
 @end
