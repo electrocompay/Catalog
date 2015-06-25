@@ -54,6 +54,7 @@
 
 @property (nonatomic, readonly) NSMutableArray *reuseQueue;
 @property (nonatomic, weak) id<BrowserTabViewDelegate> delegate;
+@property (nonatomic) NSInteger tabDisabled;
 
 - (id)initWithTabTitles:(NSArray *)titles andDelegate:(id)adelegate;
 - (void)addTabWithTitle:(NSString *)title;

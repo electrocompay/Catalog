@@ -253,6 +253,7 @@
     if (selectorViewController == selectorTableModelView)
     {
         [table setModel:(IWModel*) color];
+        [table setCoffee:NO];
     } else if (selectorViewController == selectorTableColorView)
     {
         [table setColor:color];
@@ -338,7 +339,7 @@
 {
     [drawer clear];
     
-    if (!table.model.isWithoutChairs) {
+    if (!table.coffee) {
         [drawerChair drawForniture:chair];
     }
     [drawer drawForniture:table];
@@ -346,7 +347,7 @@
     [thumbDrawer setFrontView:!drawer.frontView];
 
     [thumbDrawer clear];
-    if (!table.model.isWithoutChairs) {
+    if (!table.coffee) {
         [thumbDrawerChair drawForniture:chair];
     }
     [thumbDrawer drawForniture:table];
@@ -520,7 +521,11 @@
 -(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectCofee:(BOOL)cofeeSelected
 {
     table.coffee = cofeeSelected;
+    
+    tabController.tabDisabled = table.coffee ? 3 : -1;
+
     [self updateDetails];
+    [self drawAll];
 }
 
 -(void)updateDetails

@@ -64,6 +64,8 @@ static NSString *kReuseIdentifier = @"UserIndentifier";
 {
     if ([super init]) {
 
+        _tabDisabled = -1;
+
         _tabWidth = kDefaultTabWidth;
 
         self.frame = kDefaultFrame;
@@ -99,6 +101,7 @@ static NSString *kReuseIdentifier = @"UserIndentifier";
             [self setSelectedTabIndex:0 animated:NO];
         }
         
+        
     }
     return self;
 }
@@ -119,6 +122,10 @@ static NSString *kReuseIdentifier = @"UserIndentifier";
 
 - (void)setSelectedTabIndex:(NSInteger)aSelectedTabIndex animated:(BOOL)animation
 {
+    if (_tabDisabled > -1 && aSelectedTabIndex >= _tabDisabled) {
+        return;
+    }
+    
     BOOL selectNewPage= aSelectedTabIndex != _selectedTabIndex;
     
     _selectedTabIndex = aSelectedTabIndex;

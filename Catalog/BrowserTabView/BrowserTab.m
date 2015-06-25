@@ -159,6 +159,9 @@
 #pragma mark - TouchEvent
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    if (_delegate.tabDisabled > -1 && self.index >= _delegate.tabDisabled) {
+        return;
+    }
     previousSelected =  _selected;
     [self setSelected:YES];
     [self.delegate setSelectedTabIndex:self.index animated:NO];

@@ -5499,6 +5499,8 @@
 		7B5589C01AA81AA0007FA8D7 /* IWTableSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589BE1AA81AA0007FA8D7 /* IWTableSummaryView.m */; };
 		7B5589C11AA81AA0007FA8D7 /* IWTableSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5589BF1AA81AA0007FA8D7 /* IWTableSummaryView.xib */; };
 		7B5589C41AA81C93007FA8D7 /* IWTableSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589C31AA81C93007FA8D7 /* IWTableSummaryViewController.m */; };
+		7B5F7E471B37A1CE00653EBC /* Chateau cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F7E451B37A1CD00653EBC /* Chateau cafe-29-22-A.png */; };
+		7B5F7E481B37A1CE00653EBC /* Chateau cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F7E461B37A1CE00653EBC /* Chateau cafe-29-22-B.png */; };
 		7B61244D1AF64E28000F980C /* IWCabinetSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B61244C1AF64E28000F980C /* IWCabinetSummaryViewController.m */; };
 		7B6124511AF65054000F980C /* IWCabinetSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B61244E1AF65054000F980C /* IWCabinetSummaryView.xib */; };
 		7B6124521AF65054000F980C /* IWCabinetSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B61244F1AF65054000F980C /* IWCabinetSummaryView.m */; };
@@ -6667,8 +6669,8 @@
 		7B67EFB71B037A6700EB79AE /* Tripod raco-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD31B037A1A00EB79AE /* Tripod raco-00-27-B.png */; };
 		7B67EFB81B037A6700EB79AE /* Tripod raco-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD41B037A1A00EB79AE /* Tripod raco-29-00-A.png */; };
 		7B67EFB91B037A6700EB79AE /* Tripod raco-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD51B037A1A00EB79AE /* Tripod raco-29-00-B.png */; };
-		7B67EFBA1B037A6700EB79AE /* Tripod raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-AB.png */; };
-		7B67EFBB1B037A6700EB79AE /* Tripod raco-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-BB.png */; };
+		7B67EFBA1B037A6700EB79AE /* Tripod raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-A.png */; };
+		7B67EFBB1B037A6700EB79AE /* Tripod raco-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-B.png */; };
 		7B67EFBC1B037A6700EB79AE /* Tripod raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD81B037A1B00EB79AE /* Tripod raco-30-00-A.png */; };
 		7B67EFBD1B037A6700EB79AE /* Tripod raco-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECD91B037A1B00EB79AE /* Tripod raco-30-00-B.png */; };
 		7B67EFBE1B037A6700EB79AE /* Tripod raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECDA1B037A1B00EB79AE /* Tripod raco-31-00-A.png */; };
@@ -6696,7 +6698,7 @@
 		7B67EFD41B037A6700EB79AE /* Facet raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF01B037A1D00EB79AE /* Facet raco-30-00-A.png */; };
 		7B67EFD51B037A6700EB79AE /* Facet raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF11B037A1D00EB79AE /* Facet raco-31-00-A.png */; };
 		7B67EFD61B037A6700EB79AE /* Facet raco-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF21B037A1D00EB79AE /* Facet raco-29-00-A.png */; };
-		7B67EFD71B037A6700EB79AE /* Facet raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-AB.png */; };
+		7B67EFD71B037A6700EB79AE /* Facet raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-A.png */; };
 		7B67EFD81B037A6700EB79AE /* Chateau raco-00-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF41B037A1D00EB79AE /* Chateau raco-00-22-A.png */; };
 		7B67EFD91B037A6700EB79AE /* Chateau raco-00-23-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF51B037A1D00EB79AE /* Chateau raco-00-23-A.png */; };
 		7B67EFDA1B037A6700EB79AE /* Chateau raco-00-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF61B037A1E00EB79AE /* Chateau raco-00-24-A.png */; };
@@ -6704,7 +6706,7 @@
 		7B67EFDC1B037A6700EB79AE /* Chateau raco-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF81B037A1E00EB79AE /* Chateau raco-00-26-A.png */; };
 		7B67EFDD1B037A6700EB79AE /* Chateau raco-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECF91B037A1E00EB79AE /* Chateau raco-00-26-B.png */; };
 		7B67EFDE1B037A6700EB79AE /* Chateau raco-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFA1B037A1E00EB79AE /* Chateau raco-29-00-A.png */; };
-		7B67EFDF1B037A6700EB79AE /* Chateau raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-AB.png */; };
+		7B67EFDF1B037A6700EB79AE /* Chateau raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-A.png */; };
 		7B67EFE01B037A6700EB79AE /* Chateau raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFC1B037A1E00EB79AE /* Chateau raco-30-00-A.png */; };
 		7B67EFE11B037A6700EB79AE /* Chateau raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFD1B037A1E00EB79AE /* Chateau raco-31-00-A.png */; };
 		7B67EFE21B037A6700EB79AE /* Chateau raco-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ECFE1B037A1E00EB79AE /* Chateau raco-32-00-A.png */; };
@@ -6726,8 +6728,8 @@
 		7B67EFF21B037A6700EB79AE /* Propeller raco-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED0E1B037A2000EB79AE /* Propeller raco-00-27-B.png */; };
 		7B67EFF31B037A6700EB79AE /* Propeller raco-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED0F1B037A2000EB79AE /* Propeller raco-29-00-A.png */; };
 		7B67EFF41B037A6700EB79AE /* Propeller raco-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED101B037A2000EB79AE /* Propeller raco-29-00-B.png */; };
-		7B67EFF51B037A6700EB79AE /* Propeller raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED111B037A2000EB79AE /* Propeller raco-29-22-AB.png */; };
-		7B67EFF61B037A6700EB79AE /* Propeller raco-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED121B037A2000EB79AE /* Propeller raco-29-22-BB.png */; };
+		7B67EFF51B037A6700EB79AE /* Propeller raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED111B037A2000EB79AE /* Propeller raco-29-22-A.png */; };
+		7B67EFF61B037A6700EB79AE /* Propeller raco-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED121B037A2000EB79AE /* Propeller raco-29-22-B.png */; };
 		7B67EFF71B037A6700EB79AE /* Propeller raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED131B037A2100EB79AE /* Propeller raco-30-00-A.png */; };
 		7B67EFF81B037A6700EB79AE /* Propeller raco-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED141B037A2100EB79AE /* Propeller raco-30-00-B.png */; };
 		7B67EFF91B037A6700EB79AE /* Propeller raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED151B037A2100EB79AE /* Propeller raco-31-00-A.png */; };
@@ -6758,7 +6760,7 @@
 		7B67F0121B037A6700EB79AE /* Chateau raco-35-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED2E1B037A2400EB79AE /* Chateau raco-35-00-A.png */; };
 		7B67F0131B037A6700EB79AE /* Largo raco-41-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED2F1B037A2400EB79AE /* Largo raco-41-00-B.png */; };
 		7B67F0141B037A6700EB79AE /* Largo raco-70-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED301B037A2400EB79AE /* Largo raco-70-00-B.png */; };
-		7B67F0151B037A6700EB79AE /* Wings raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED311B037A2400EB79AE /* Wings raco-29-22-AB.png */; };
+		7B67F0151B037A6700EB79AE /* Wings raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED311B037A2400EB79AE /* Wings raco-29-22-A.png */; };
 		7B67F0161B037A6700EB79AE /* Wings raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED321B037A2400EB79AE /* Wings raco-30-00-A.png */; };
 		7B67F0171B037A6700EB79AE /* Wings raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED331B037A2400EB79AE /* Wings raco-31-00-A.png */; };
 		7B67F0181B037A6700EB79AE /* Wings raco-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED341B037A2400EB79AE /* Wings raco-32-00-A.png */; };
@@ -6769,7 +6771,7 @@
 		7B67F01D1B037A6700EB79AE /* Largo raco-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED391B037A2500EB79AE /* Largo raco-31-00-B.png */; };
 		7B67F01E1B037A6700EB79AE /* Largo raco-32-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3A1B037A2500EB79AE /* Largo raco-32-00-B.png */; };
 		7B67F01F1B037A6700EB79AE /* Largo raco-33-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3B1B037A2500EB79AE /* Largo raco-33-00-B.png */; };
-		7B67F0201B037A6700EB79AE /* Largo raco-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-BB.png */; };
+		7B67F0201B037A6700EB79AE /* Largo raco-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-B.png */; };
 		7B67F0211B037A6700EB79AE /* Largo raco-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3D1B037A2500EB79AE /* Largo raco-30-00-B.png */; };
 		7B67F0221B037A6700EB79AE /* Largo raco-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3E1B037A2600EB79AE /* Largo raco-00-27-B.png */; };
 		7B67F0231B037A6700EB79AE /* Largo raco-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED3F1B037A2600EB79AE /* Largo raco-29-00-B.png */; };
@@ -6788,7 +6790,7 @@
 		7B67F0301B037A6700EB79AE /* Largo raco-34-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED4C1B037A2700EB79AE /* Largo raco-34-00-A.png */; };
 		7B67F0311B037A6700EB79AE /* Largo raco-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED4D1B037A2700EB79AE /* Largo raco-30-00-A.png */; };
 		7B67F0321B037A6700EB79AE /* Largo raco-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED4E1B037A2700EB79AE /* Largo raco-31-00-A.png */; };
-		7B67F0331B037A6700EB79AE /* Largo raco-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-AB.png */; };
+		7B67F0331B037A6700EB79AE /* Largo raco-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-A.png */; };
 		7B67F0341B037A6700EB79AE /* Largo raco-00-27-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED501B037A2800EB79AE /* Largo raco-00-27-A.png */; };
 		7B67F0351B037A6700EB79AE /* Largo raco-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED511B037A2800EB79AE /* Largo raco-29-00-A.png */; };
 		7B67F0361B037A6700EB79AE /* Largo raco-00-25-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED521B037A2800EB79AE /* Largo raco-00-25-A.png */; };
@@ -6805,7 +6807,7 @@
 		7B67F0411B037A6700EB79AE /* Wings raco-35-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED5D1B037A2900EB79AE /* Wings raco-35-00-B.png */; };
 		7B67F0421B037A6700EB79AE /* Wings raco-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED5E1B037A2A00EB79AE /* Wings raco-31-00-B.png */; };
 		7B67F0431B037A6700EB79AE /* Wings raco-32-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED5F1B037A2A00EB79AE /* Wings raco-32-00-B.png */; };
-		7B67F0441B037A6700EB79AE /* Wings raco-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED601B037A2A00EB79AE /* Wings raco-29-22-BB.png */; };
+		7B67F0441B037A6700EB79AE /* Wings raco-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED601B037A2A00EB79AE /* Wings raco-29-22-B.png */; };
 		7B67F0451B037A6700EB79AE /* Wings raco-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED611B037A2A00EB79AE /* Wings raco-30-00-B.png */; };
 		7B67F0461B037A6700EB79AE /* Wings raco-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED621B037A2A00EB79AE /* Wings raco-00-26-B.png */; };
 		7B67F0471B037A6700EB79AE /* Wings raco-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED631B037A2A00EB79AE /* Wings raco-29-00-B.png */; };
@@ -6857,7 +6859,7 @@
 		7B67F0751B037A6700EB79AE /* Chateau consola-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED911B037A2F00EB79AE /* Chateau consola-31-00-B.png */; };
 		7B67F0761B037A6700EB79AE /* Chateau consola-32-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED921B037A3000EB79AE /* Chateau consola-32-00-B.png */; };
 		7B67F0771B037A6700EB79AE /* Chateau consola-33-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED931B037A3000EB79AE /* Chateau consola-33-00-B.png */; };
-		7B67F0781B037A6700EB79AE /* Chateau consola-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED941B037A3000EB79AE /* Chateau consola-29-22-BB.png */; };
+		7B67F0781B037A6700EB79AE /* Chateau consola-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED941B037A3000EB79AE /* Chateau consola-29-22-B.png */; };
 		7B67F0791B037A6700EB79AE /* Chateau consola-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED951B037A3000EB79AE /* Chateau consola-30-00-B.png */; };
 		7B67F07A1B037A6700EB79AE /* Chateau consola-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED961B037A3000EB79AE /* Chateau consola-00-27-B.png */; };
 		7B67F07B1B037A6700EB79AE /* Chateau consola-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67ED971B037A3000EB79AE /* Chateau consola-29-00-B.png */; };
@@ -6875,7 +6877,7 @@
 		7B67F0871B037A6700EB79AE /* Chateau consola-34-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA31B037A3200EB79AE /* Chateau consola-34-00-A.png */; };
 		7B67F0881B037A6700EB79AE /* Chateau consola-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA41B037A3200EB79AE /* Chateau consola-31-00-A.png */; };
 		7B67F0891B037A6700EB79AE /* Chateau consola-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA51B037A3200EB79AE /* Chateau consola-32-00-A.png */; };
-		7B67F08A1B037A6700EB79AE /* Chateau consola-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-AB.png */; };
+		7B67F08A1B037A6700EB79AE /* Chateau consola-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-A.png */; };
 		7B67F08B1B037A6700EB79AE /* Chateau consola-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA71B037A3200EB79AE /* Chateau consola-30-00-A.png */; };
 		7B67F08C1B037A6700EB79AE /* Chateau consola-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA81B037A3200EB79AE /* Chateau consola-29-00-A.png */; };
 		7B67F08D1B037A6700EB79AE /* Chateau consola-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDA91B037A3300EB79AE /* Chateau consola-00-26-A.png */; };
@@ -6895,7 +6897,7 @@
 		7B67F09B1B037A6700EB79AE /* Propeller consola-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDB71B037A3400EB79AE /* Propeller consola-30-00-B.png */; };
 		7B67F09C1B037A6700EB79AE /* Propeller consola-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDB81B037A3400EB79AE /* Propeller consola-31-00-B.png */; };
 		7B67F09D1B037A6700EB79AE /* Propeller consola-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDB91B037A3400EB79AE /* Propeller consola-29-00-B.png */; };
-		7B67F09E1B037A6700EB79AE /* Propeller consola-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-BB.png */; };
+		7B67F09E1B037A6700EB79AE /* Propeller consola-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-B.png */; };
 		7B67F09F1B037A6700EB79AE /* Propeller consola-00-25-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDBB1B037A3400EB79AE /* Propeller consola-00-25-B.png */; };
 		7B67F0A01B037A6700EB79AE /* Propeller consola-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDBC1B037A3400EB79AE /* Propeller consola-00-26-B.png */; };
 		7B67F0A11B037A6700EB79AE /* Largo consola-00-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDBD1B037A3400EB79AE /* Largo consola-00-22-A.png */; };
@@ -6912,7 +6914,7 @@
 		7B67F0AC1B037A6700EB79AE /* Largo consola-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDC81B037A3600EB79AE /* Largo consola-00-27-B.png */; };
 		7B67F0AD1B037A6700EB79AE /* Largo consola-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDC91B037A3600EB79AE /* Largo consola-29-00-A.png */; };
 		7B67F0AE1B037A6700EB79AE /* Largo consola-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCA1B037A3600EB79AE /* Largo consola-29-00-B.png */; };
-		7B67F0AF1B037A6700EB79AE /* Largo consola-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-BB.png */; };
+		7B67F0AF1B037A6700EB79AE /* Largo consola-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-B.png */; };
 		7B67F0B01B037A6700EB79AE /* Largo consola-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCC1B037A3600EB79AE /* Largo consola-30-00-A.png */; };
 		7B67F0B11B037A6700EB79AE /* Largo consola-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCD1B037A3600EB79AE /* Largo consola-30-00-B.png */; };
 		7B67F0B21B037A6700EB79AE /* Largo consola-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDCE1B037A3600EB79AE /* Largo consola-31-00-A.png */; };
@@ -6938,7 +6940,7 @@
 		7B67F0C61B037A6700EB79AE /* Propeller consola-00-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE21B037A3800EB79AE /* Propeller consola-00-24-A.png */; };
 		7B67F0C71B037A6700EB79AE /* Propeller consola-00-25-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE31B037A3900EB79AE /* Propeller consola-00-25-A.png */; };
 		7B67F0C81B037A6700EB79AE /* Propeller consola-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE41B037A3900EB79AE /* Propeller consola-00-26-A.png */; };
-		7B67F0C91B037A6700EB79AE /* Propeller consola-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-AB.png */; };
+		7B67F0C91B037A6700EB79AE /* Propeller consola-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-A.png */; };
 		7B67F0CA1B037A6700EB79AE /* Propeller consola-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE61B037A3900EB79AE /* Propeller consola-30-00-A.png */; };
 		7B67F0CB1B037A6700EB79AE /* Propeller consola-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE71B037A3900EB79AE /* Propeller consola-31-00-A.png */; };
 		7B67F0CC1B037A6700EB79AE /* Propeller consola-00-23-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDE81B037A3900EB79AE /* Propeller consola-00-23-B.png */; };
@@ -6952,7 +6954,7 @@
 		7B67F0D41B037A6700EB79AE /* Propeller consola-35-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF01B037A3A00EB79AE /* Propeller consola-35-00-A.png */; };
 		7B67F0D51B037A6700EB79AE /* Propeller consola-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF11B037A3A00EB79AE /* Propeller consola-32-00-A.png */; };
 		7B67F0D61B037A6700EB79AE /* Propeller consola-33-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF21B037A3A00EB79AE /* Propeller consola-33-00-A.png */; };
-		7B67F0D71B037A6700EB79AE /* Largo consola-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-AB.png */; };
+		7B67F0D71B037A6700EB79AE /* Largo consola-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-A.png */; };
 		7B67F0D81B037A6700EB79AE /* Propeller consola-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF41B037A3B00EB79AE /* Propeller consola-29-00-A.png */; };
 		7B67F0D91B037A6700EB79AE /* Wings consola-00-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF51B037A3B00EB79AE /* Wings consola-00-22-A.png */; };
 		7B67F0DA1B037A6700EB79AE /* Wings consola-00-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EDF61B037A3B00EB79AE /* Wings consola-00-22-B.png */; };
@@ -6968,8 +6970,8 @@
 		7B67F0E41B037A6700EB79AE /* Wings consola-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE001B037A3C00EB79AE /* Wings consola-00-27-B.png */; };
 		7B67F0E51B037A6700EB79AE /* Wings consola-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE011B037A3C00EB79AE /* Wings consola-29-00-A.png */; };
 		7B67F0E61B037A6700EB79AE /* Wings consola-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE021B037A3C00EB79AE /* Wings consola-29-00-B.png */; };
-		7B67F0E71B037A6700EB79AE /* Wings consola-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE031B037A3C00EB79AE /* Wings consola-29-22-AB.png */; };
-		7B67F0E81B037A6700EB79AE /* Wings consola-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE041B037A3C00EB79AE /* Wings consola-29-22-BB.png */; };
+		7B67F0E71B037A6700EB79AE /* Wings consola-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE031B037A3C00EB79AE /* Wings consola-29-22-A.png */; };
+		7B67F0E81B037A6700EB79AE /* Wings consola-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE041B037A3C00EB79AE /* Wings consola-29-22-B.png */; };
 		7B67F0E91B037A6700EB79AE /* Wings consola-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE051B037A3C00EB79AE /* Wings consola-30-00-A.png */; };
 		7B67F0EA1B037A6700EB79AE /* Wings consola-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE061B037A3D00EB79AE /* Wings consola-30-00-B.png */; };
 		7B67F0EB1B037A6700EB79AE /* Wings consola-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE071B037A3D00EB79AE /* Wings consola-31-00-A.png */; };
@@ -7006,7 +7008,7 @@
 		7B67F10A1B037A6700EB79AE /* Chrominox XL-00-26-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE261B037A4000EB79AE /* Chrominox XL-00-26-B-00.png */; };
 		7B67F10B1B037A6700EB79AE /* Chrominox XL-00-27-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE271B037A4000EB79AE /* Chrominox XL-00-27-B-00.png */; };
 		7B67F10C1B037A6700EB79AE /* Chrominox XL-29-00-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE281B037A4100EB79AE /* Chrominox XL-29-00-B-00.png */; };
-		7B67F10D1B037A6700EB79AE /* Chrominox XL-29-22-BB-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-BB-29.png */; };
+		7B67F10D1B037A6700EB79AE /* Chrominox XL-29-22-B-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-B-29.png */; };
 		7B67F10E1B037A6700EB79AE /* Chrominox XL-30-00-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE2A1B037A4100EB79AE /* Chrominox XL-30-00-B-00.png */; };
 		7B67F10F1B037A6700EB79AE /* Chrominox XL-31-00-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE2B1B037A4100EB79AE /* Chrominox XL-31-00-B-00.png */; };
 		7B67F1101B037A6700EB79AE /* Chrominox XL-32-00-B-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE2C1B037A4100EB79AE /* Chrominox XL-32-00-B-00.png */; };
@@ -7027,7 +7029,7 @@
 		7B67F11F1B037A6700EB79AE /* Chrominox XL-00-25-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3B1B037A4300EB79AE /* Chrominox XL-00-25-A-00.png */; };
 		7B67F1201B037A6700EB79AE /* Chrominox XL-00-26-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3C1B037A4300EB79AE /* Chrominox XL-00-26-A-00.png */; };
 		7B67F1211B037A6700EB79AE /* Chrominox XL-29-00-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3D1B037A4300EB79AE /* Chrominox XL-29-00-A-00.png */; };
-		7B67F1221B037A6700EB79AE /* Chrominox XL-29-22-AB-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-AB-29.png */; };
+		7B67F1221B037A6700EB79AE /* Chrominox XL-29-22-A-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-A-29.png */; };
 		7B67F1231B037A6700EB79AE /* Chrominox XL-30-00-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE3F1B037A4300EB79AE /* Chrominox XL-30-00-A-00.png */; };
 		7B67F1241B037A6700EB79AE /* Chrominox XL-37-00-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE401B037A4300EB79AE /* Chrominox XL-37-00-A-00.png */; };
 		7B67F1251B037A6700EB79AE /* Chrominox XL-70-00-A-00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE411B037A4300EB79AE /* Chrominox XL-70-00-A-00.png */; };
@@ -7058,7 +7060,7 @@
 		7B67F13E1B037A6700EB79AE /* Largo cafe-33-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5A1B037A4600EB79AE /* Largo cafe-33-00-B.png */; };
 		7B67F13F1B037A6700EB79AE /* Largo cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5B1B037A4600EB79AE /* Largo cafe-30-00-B.png */; };
 		7B67F1401B037A6700EB79AE /* Largo cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5C1B037A4600EB79AE /* Largo cafe-31-00-B.png */; };
-		7B67F1411B037A6700EB79AE /* Largo cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-BB.png */; };
+		7B67F1411B037A6700EB79AE /* Largo cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-B.png */; };
 		7B67F1421B037A6700EB79AE /* Largo cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5E1B037A4600EB79AE /* Largo cafe-29-00-B.png */; };
 		7B67F1431B037A6700EB79AE /* Largo cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE5F1B037A4600EB79AE /* Largo cafe-00-26-B.png */; };
 		7B67F1441B037A6700EB79AE /* Largo cafe-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE601B037A4600EB79AE /* Largo cafe-00-27-B.png */; };
@@ -7076,7 +7078,7 @@
 		7B67F1501B037A6700EB79AE /* Largo cafe-33-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE6C1B037A4700EB79AE /* Largo cafe-33-00-A.png */; };
 		7B67F1511B037A6700EB79AE /* Largo cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE6D1B037A4800EB79AE /* Largo cafe-30-00-A.png */; };
 		7B67F1521B037A6700EB79AE /* Largo cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE6E1B037A4800EB79AE /* Largo cafe-31-00-A.png */; };
-		7B67F1531B037A6700EB79AE /* Largo cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-AB.png */; };
+		7B67F1531B037A6700EB79AE /* Largo cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-A.png */; };
 		7B67F1541B037A6700EB79AE /* Largo cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE701B037A4800EB79AE /* Largo cafe-29-00-A.png */; };
 		7B67F1551B037A6700EB79AE /* Largo cafe-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE711B037A4800EB79AE /* Largo cafe-00-26-A.png */; };
 		7B67F1561B037A6700EB79AE /* Largo cafe-00-27-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE721B037A4800EB79AE /* Largo cafe-00-27-A.png */; };
@@ -7095,7 +7097,7 @@
 		7B67F1631B037A6700EB79AE /* Facet cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE7F1B037A4A00EB79AE /* Facet cafe-30-00-B.png */; };
 		7B67F1641B037A6700EB79AE /* Facet cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE801B037A4A00EB79AE /* Facet cafe-31-00-B.png */; };
 		7B67F1651B037A6700EB79AE /* Facet cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE811B037A4A00EB79AE /* Facet cafe-29-00-B.png */; };
-		7B67F1661B037A6700EB79AE /* Facet cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-BB.png */; };
+		7B67F1661B037A6700EB79AE /* Facet cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-B.png */; };
 		7B67F1671B037A6700EB79AE /* Facet cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE831B037A4A00EB79AE /* Facet cafe-00-26-B.png */; };
 		7B67F1681B037A6700EB79AE /* Facet cafe-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE841B037A4A00EB79AE /* Facet cafe-00-27-B.png */; };
 		7B67F1691B037A6700EB79AE /* Facet cafe-00-25-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE851B037A4B00EB79AE /* Facet cafe-00-25-B.png */; };
@@ -7111,7 +7113,7 @@
 		7B67F1731B037A6700EB79AE /* Facet cafe-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE8F1B037A4C00EB79AE /* Facet cafe-32-00-A.png */; };
 		7B67F1741B037A6700EB79AE /* Facet cafe-33-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE901B037A4C00EB79AE /* Facet cafe-33-00-A.png */; };
 		7B67F1751B037A6700EB79AE /* Facet cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE911B037A4C00EB79AE /* Facet cafe-31-00-A.png */; };
-		7B67F1761B037A6700EB79AE /* Facet cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-AB.png */; };
+		7B67F1761B037A6700EB79AE /* Facet cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-A.png */; };
 		7B67F1771B037A6700EB79AE /* Facet cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE931B037A4C00EB79AE /* Facet cafe-30-00-A.png */; };
 		7B67F1781B037A6700EB79AE /* Facet cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE941B037A4D00EB79AE /* Facet cafe-29-00-A.png */; };
 		7B67F1791B037A6700EB79AE /* Facet cafe-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EE951B037A4D00EB79AE /* Facet cafe-00-26-A.png */; };
@@ -7131,7 +7133,7 @@
 		7B67F1871B037A6700EB79AE /* Elyps cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA31B037A4E00EB79AE /* Elyps cafe-30-00-B.png */; };
 		7B67F1881B037A6700EB79AE /* Elyps cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA41B037A4E00EB79AE /* Elyps cafe-31-00-B.png */; };
 		7B67F1891B037A6700EB79AE /* Elyps cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA51B037A4E00EB79AE /* Elyps cafe-29-00-B.png */; };
-		7B67F18A1B037A6700EB79AE /* Elyps cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-BB.png */; };
+		7B67F18A1B037A6700EB79AE /* Elyps cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-B.png */; };
 		7B67F18B1B037A6700EB79AE /* Elyps cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA71B037A4E00EB79AE /* Elyps cafe-00-26-B.png */; };
 		7B67F18C1B037A6700EB79AE /* Elyps cafe-00-27-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA81B037A4F00EB79AE /* Elyps cafe-00-27-B.png */; };
 		7B67F18D1B037A6700EB79AE /* Elyps cafe-00-25-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEA91B037A4F00EB79AE /* Elyps cafe-00-25-B.png */; };
@@ -7147,7 +7149,7 @@
 		7B67F1971B037A6700EB79AE /* Elyps cafe-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB31B037A5000EB79AE /* Elyps cafe-32-00-A.png */; };
 		7B67F1981B037A6700EB79AE /* Elyps cafe-33-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB41B037A5000EB79AE /* Elyps cafe-33-00-A.png */; };
 		7B67F1991B037A6700EB79AE /* Elyps cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB51B037A5000EB79AE /* Elyps cafe-31-00-A.png */; };
-		7B67F19A1B037A6700EB79AE /* Elyps cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-AB.png */; };
+		7B67F19A1B037A6700EB79AE /* Elyps cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-A.png */; };
 		7B67F19B1B037A6700EB79AE /* Elyps cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB71B037A5000EB79AE /* Elyps cafe-30-00-A.png */; };
 		7B67F19C1B037A6700EB79AE /* Elyps cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB81B037A5000EB79AE /* Elyps cafe-29-00-A.png */; };
 		7B67F19D1B037A6700EB79AE /* Elyps cafe-00-25-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EEB91B037A5000EB79AE /* Elyps cafe-00-25-A.png */; };
@@ -7245,7 +7247,6 @@
 		7B67F1F91B037A6700EB79AE /* Chateau cafe-32-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF151B037A5B00EB79AE /* Chateau cafe-32-00-B.png */; };
 		7B67F1FA1B037A6700EB79AE /* Chateau cafe-33-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF161B037A5B00EB79AE /* Chateau cafe-33-00-B.png */; };
 		7B67F1FB1B037A6700EB79AE /* Chateau cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF171B037A5B00EB79AE /* Chateau cafe-31-00-B.png */; };
-		7B67F1FC1B037A6700EB79AE /* Chateau cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF181B037A5B00EB79AE /* Chateau cafe-29-22-BB.png */; };
 		7B67F1FD1B037A6700EB79AE /* Chateau cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF191B037A5B00EB79AE /* Chateau cafe-30-00-B.png */; };
 		7B67F1FE1B037A6700EB79AE /* Chateau cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF1A1B037A5B00EB79AE /* Chateau cafe-29-00-B.png */; };
 		7B67F1FF1B037A6700EB79AE /* Chateau cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF1B1B037A5B00EB79AE /* Chateau cafe-00-26-B.png */; };
@@ -7263,7 +7264,6 @@
 		7B67F20B1B037A6700EB79AE /* Chateau cafe-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF271B037A5D00EB79AE /* Chateau cafe-32-00-A.png */; };
 		7B67F20C1B037A6700EB79AE /* Chateau cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF281B037A5D00EB79AE /* Chateau cafe-31-00-A.png */; };
 		7B67F20D1B037A6700EB79AE /* Chateau cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF291B037A5D00EB79AE /* Chateau cafe-30-00-A.png */; };
-		7B67F20E1B037A6700EB79AE /* Chateau cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF2A1B037A5D00EB79AE /* Chateau cafe-29-22-AB.png */; };
 		7B67F20F1B037A6700EB79AE /* Chateau cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF2B1B037A5D00EB79AE /* Chateau cafe-29-00-A.png */; };
 		7B67F2101B037A6700EB79AE /* Chateau cafe-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF2C1B037A5D00EB79AE /* Chateau cafe-00-26-A.png */; };
 		7B67F2111B037A6700EB79AE /* Chateau cafe-00-25-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF2D1B037A5D00EB79AE /* Chateau cafe-00-25-A.png */; };
@@ -7280,7 +7280,7 @@
 		7B67F21C1B037A6700EB79AE /* Propeller cafe-34-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF381B037A5E00EB79AE /* Propeller cafe-34-00-B.png */; };
 		7B67F21D1B037A6700EB79AE /* Propeller cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF391B037A5F00EB79AE /* Propeller cafe-30-00-B.png */; };
 		7B67F21E1B037A6700EB79AE /* Propeller cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3A1B037A5F00EB79AE /* Propeller cafe-31-00-B.png */; };
-		7B67F21F1B037A6700EB79AE /* Propeller cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-BB.png */; };
+		7B67F21F1B037A6700EB79AE /* Propeller cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-B.png */; };
 		7B67F2201B037A6700EB79AE /* Propeller cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3C1B037A5F00EB79AE /* Propeller cafe-00-26-B.png */; };
 		7B67F2211B037A6700EB79AE /* Propeller cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3D1B037A5F00EB79AE /* Propeller cafe-29-00-B.png */; };
 		7B67F2221B037A6700EB79AE /* Propeller cafe-00-25-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF3E1B037A5F00EB79AE /* Propeller cafe-00-25-B.png */; };
@@ -7297,7 +7297,7 @@
 		7B67F22D1B037A6700EB79AE /* Propeller cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF491B037A6000EB79AE /* Propeller cafe-31-00-A.png */; };
 		7B67F22E1B037A6700EB79AE /* Propeller cafe-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4A1B037A6000EB79AE /* Propeller cafe-32-00-A.png */; };
 		7B67F22F1B037A6700EB79AE /* Propeller cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4B1B037A6000EB79AE /* Propeller cafe-30-00-A.png */; };
-		7B67F2301B037A6700EB79AE /* Propeller cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-AB.png */; };
+		7B67F2301B037A6700EB79AE /* Propeller cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-A.png */; };
 		7B67F2311B037A6700EB79AE /* Propeller cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4D1B037A6100EB79AE /* Propeller cafe-29-00-A.png */; };
 		7B67F2321B037A6700EB79AE /* Propeller cafe-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4E1B037A6100EB79AE /* Propeller cafe-00-26-A.png */; };
 		7B67F2331B037A6700EB79AE /* Propeller cafe-00-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF4F1B037A6100EB79AE /* Propeller cafe-00-24-A.png */; };
@@ -7314,7 +7314,7 @@
 		7B67F23E1B037A6700EB79AE /* Wings cafe-33-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5A1B037A6200EB79AE /* Wings cafe-33-00-B.png */; };
 		7B67F23F1B037A6700EB79AE /* Wings cafe-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5B1B037A6200EB79AE /* Wings cafe-30-00-B.png */; };
 		7B67F2401B037A6700EB79AE /* Wings cafe-31-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5C1B037A6200EB79AE /* Wings cafe-31-00-B.png */; };
-		7B67F2411B037A6700EB79AE /* Wings cafe-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-BB.png */; };
+		7B67F2411B037A6700EB79AE /* Wings cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-B.png */; };
 		7B67F2421B037A6700EB79AE /* Wings cafe-00-26-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5E1B037A6300EB79AE /* Wings cafe-00-26-B.png */; };
 		7B67F2431B037A6700EB79AE /* Wings cafe-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF5F1B037A6300EB79AE /* Wings cafe-29-00-B.png */; };
 		7B67F2441B037A6700EB79AE /* Wings cafe-00-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF601B037A6300EB79AE /* Wings cafe-00-24-B.png */; };
@@ -7330,7 +7330,7 @@
 		7B67F24E1B037A6700EB79AE /* Wings cafe-33-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6A1B037A6400EB79AE /* Wings cafe-33-00-A.png */; };
 		7B67F24F1B037A6700EB79AE /* Wings cafe-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6B1B037A6400EB79AE /* Wings cafe-31-00-A.png */; };
 		7B67F2501B037A6700EB79AE /* Wings cafe-32-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6C1B037A6400EB79AE /* Wings cafe-32-00-A.png */; };
-		7B67F2511B037A6700EB79AE /* Wings cafe-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-AB.png */; };
+		7B67F2511B037A6700EB79AE /* Wings cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-A.png */; };
 		7B67F2521B037A6700EB79AE /* Wings cafe-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6E1B037A6400EB79AE /* Wings cafe-30-00-A.png */; };
 		7B67F2531B037A6700EB79AE /* Wings cafe-29-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF6F1B037A6400EB79AE /* Wings cafe-29-00-A.png */; };
 		7B67F2541B037A6700EB79AE /* Wings cafe-00-26-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67EF701B037A6400EB79AE /* Wings cafe-00-26-A.png */; };
@@ -7573,6 +7573,10 @@
 		7BD8C20E1AF6657C00398D80 /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
 		7BD8C20F1AF665C300398D80 /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
 		7BD8C2101AF66A0D00398D80 /* logo joli.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC1D1A6D1F20009F27AA /* logo joli.png */; };
+		7BE431A31B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE4319F1B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png */; };
+		7BE431A41B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE431A01B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png */; };
+		7BE431A51B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE431A11B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png */; };
+		7BE431A61B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE431A21B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png */; };
 		7BE90A1C1A7675B90008711F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1A1A7675B90008711F /* email.png */; };
 		7BE90A1D1A7675B90008711F /* cofee_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE90A1B1A7675B90008711F /* cofee_pic.png */; };
 		7BEBDC061A69F12A009F27AA /* IWSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBDC051A69F12A009F27AA /* IWSelectorTableViewController.m */; };
@@ -13007,6 +13011,8 @@
 		7B5589BF1AA81AA0007FA8D7 /* IWTableSummaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWTableSummaryView.xib; sourceTree = "<group>"; };
 		7B5589C21AA81C93007FA8D7 /* IWTableSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTableSummaryViewController.h; sourceTree = "<group>"; };
 		7B5589C31AA81C93007FA8D7 /* IWTableSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTableSummaryViewController.m; sourceTree = "<group>"; };
+		7B5F7E451B37A1CD00653EBC /* Chateau cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-22-A.png"; sourceTree = "<group>"; };
+		7B5F7E461B37A1CE00653EBC /* Chateau cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B61244B1AF64E28000F980C /* IWCabinetSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWCabinetSummaryViewController.h; sourceTree = "<group>"; };
 		7B61244C1AF64E28000F980C /* IWCabinetSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWCabinetSummaryViewController.m; sourceTree = "<group>"; };
 		7B61244E1AF65054000F980C /* IWCabinetSummaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IWCabinetSummaryView.xib; sourceTree = "<group>"; };
@@ -14169,8 +14175,8 @@
 		7B67ECD31B037A1A00EB79AE /* Tripod raco-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-00-27-B.png"; sourceTree = "<group>"; };
 		7B67ECD41B037A1A00EB79AE /* Tripod raco-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-00-A.png"; sourceTree = "<group>"; };
 		7B67ECD51B037A1A00EB79AE /* Tripod raco-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-00-B.png"; sourceTree = "<group>"; };
-		7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-22-AB.png"; sourceTree = "<group>"; };
-		7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-22-A.png"; sourceTree = "<group>"; };
+		7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-29-22-B.png"; sourceTree = "<group>"; };
 		7B67ECD81B037A1B00EB79AE /* Tripod raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ECD91B037A1B00EB79AE /* Tripod raco-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-30-00-B.png"; sourceTree = "<group>"; };
 		7B67ECDA1B037A1B00EB79AE /* Tripod raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tripod raco-31-00-A.png"; sourceTree = "<group>"; };
@@ -14198,7 +14204,7 @@
 		7B67ECF01B037A1D00EB79AE /* Facet raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ECF11B037A1D00EB79AE /* Facet raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet raco-31-00-A.png"; sourceTree = "<group>"; };
 		7B67ECF21B037A1D00EB79AE /* Facet raco-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet raco-29-00-A.png"; sourceTree = "<group>"; };
-		7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet raco-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet raco-29-22-A.png"; sourceTree = "<group>"; };
 		7B67ECF41B037A1D00EB79AE /* Chateau raco-00-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-00-22-A.png"; sourceTree = "<group>"; };
 		7B67ECF51B037A1D00EB79AE /* Chateau raco-00-23-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-00-23-A.png"; sourceTree = "<group>"; };
 		7B67ECF61B037A1E00EB79AE /* Chateau raco-00-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-00-24-A.png"; sourceTree = "<group>"; };
@@ -14206,7 +14212,7 @@
 		7B67ECF81B037A1E00EB79AE /* Chateau raco-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-00-26-A.png"; sourceTree = "<group>"; };
 		7B67ECF91B037A1E00EB79AE /* Chateau raco-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-00-26-B.png"; sourceTree = "<group>"; };
 		7B67ECFA1B037A1E00EB79AE /* Chateau raco-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-29-00-A.png"; sourceTree = "<group>"; };
-		7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-29-22-A.png"; sourceTree = "<group>"; };
 		7B67ECFC1B037A1E00EB79AE /* Chateau raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ECFD1B037A1E00EB79AE /* Chateau raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-31-00-A.png"; sourceTree = "<group>"; };
 		7B67ECFE1B037A1E00EB79AE /* Chateau raco-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-32-00-A.png"; sourceTree = "<group>"; };
@@ -14228,8 +14234,8 @@
 		7B67ED0E1B037A2000EB79AE /* Propeller raco-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-00-27-B.png"; sourceTree = "<group>"; };
 		7B67ED0F1B037A2000EB79AE /* Propeller raco-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-00-A.png"; sourceTree = "<group>"; };
 		7B67ED101B037A2000EB79AE /* Propeller raco-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-00-B.png"; sourceTree = "<group>"; };
-		7B67ED111B037A2000EB79AE /* Propeller raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-22-AB.png"; sourceTree = "<group>"; };
-		7B67ED121B037A2000EB79AE /* Propeller raco-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67ED111B037A2000EB79AE /* Propeller raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-22-A.png"; sourceTree = "<group>"; };
+		7B67ED121B037A2000EB79AE /* Propeller raco-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-29-22-B.png"; sourceTree = "<group>"; };
 		7B67ED131B037A2100EB79AE /* Propeller raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ED141B037A2100EB79AE /* Propeller raco-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-30-00-B.png"; sourceTree = "<group>"; };
 		7B67ED151B037A2100EB79AE /* Propeller raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller raco-31-00-A.png"; sourceTree = "<group>"; };
@@ -14260,7 +14266,7 @@
 		7B67ED2E1B037A2400EB79AE /* Chateau raco-35-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau raco-35-00-A.png"; sourceTree = "<group>"; };
 		7B67ED2F1B037A2400EB79AE /* Largo raco-41-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-41-00-B.png"; sourceTree = "<group>"; };
 		7B67ED301B037A2400EB79AE /* Largo raco-70-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-70-00-B.png"; sourceTree = "<group>"; };
-		7B67ED311B037A2400EB79AE /* Wings raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67ED311B037A2400EB79AE /* Wings raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-29-22-A.png"; sourceTree = "<group>"; };
 		7B67ED321B037A2400EB79AE /* Wings raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ED331B037A2400EB79AE /* Wings raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-31-00-A.png"; sourceTree = "<group>"; };
 		7B67ED341B037A2400EB79AE /* Wings raco-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-32-00-A.png"; sourceTree = "<group>"; };
@@ -14271,7 +14277,7 @@
 		7B67ED391B037A2500EB79AE /* Largo raco-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-31-00-B.png"; sourceTree = "<group>"; };
 		7B67ED3A1B037A2500EB79AE /* Largo raco-32-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-32-00-B.png"; sourceTree = "<group>"; };
 		7B67ED3B1B037A2500EB79AE /* Largo raco-33-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-33-00-B.png"; sourceTree = "<group>"; };
-		7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-22-B.png"; sourceTree = "<group>"; };
 		7B67ED3D1B037A2500EB79AE /* Largo raco-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-30-00-B.png"; sourceTree = "<group>"; };
 		7B67ED3E1B037A2600EB79AE /* Largo raco-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-00-27-B.png"; sourceTree = "<group>"; };
 		7B67ED3F1B037A2600EB79AE /* Largo raco-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-00-B.png"; sourceTree = "<group>"; };
@@ -14290,7 +14296,7 @@
 		7B67ED4C1B037A2700EB79AE /* Largo raco-34-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-34-00-A.png"; sourceTree = "<group>"; };
 		7B67ED4D1B037A2700EB79AE /* Largo raco-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-30-00-A.png"; sourceTree = "<group>"; };
 		7B67ED4E1B037A2700EB79AE /* Largo raco-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-31-00-A.png"; sourceTree = "<group>"; };
-		7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-22-A.png"; sourceTree = "<group>"; };
 		7B67ED501B037A2800EB79AE /* Largo raco-00-27-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-00-27-A.png"; sourceTree = "<group>"; };
 		7B67ED511B037A2800EB79AE /* Largo raco-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-29-00-A.png"; sourceTree = "<group>"; };
 		7B67ED521B037A2800EB79AE /* Largo raco-00-25-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo raco-00-25-A.png"; sourceTree = "<group>"; };
@@ -14307,7 +14313,7 @@
 		7B67ED5D1B037A2900EB79AE /* Wings raco-35-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-35-00-B.png"; sourceTree = "<group>"; };
 		7B67ED5E1B037A2A00EB79AE /* Wings raco-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-31-00-B.png"; sourceTree = "<group>"; };
 		7B67ED5F1B037A2A00EB79AE /* Wings raco-32-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-32-00-B.png"; sourceTree = "<group>"; };
-		7B67ED601B037A2A00EB79AE /* Wings raco-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67ED601B037A2A00EB79AE /* Wings raco-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-29-22-B.png"; sourceTree = "<group>"; };
 		7B67ED611B037A2A00EB79AE /* Wings raco-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-30-00-B.png"; sourceTree = "<group>"; };
 		7B67ED621B037A2A00EB79AE /* Wings raco-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-00-26-B.png"; sourceTree = "<group>"; };
 		7B67ED631B037A2A00EB79AE /* Wings raco-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings raco-29-00-B.png"; sourceTree = "<group>"; };
@@ -14359,7 +14365,7 @@
 		7B67ED911B037A2F00EB79AE /* Chateau consola-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-31-00-B.png"; sourceTree = "<group>"; };
 		7B67ED921B037A3000EB79AE /* Chateau consola-32-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-32-00-B.png"; sourceTree = "<group>"; };
 		7B67ED931B037A3000EB79AE /* Chateau consola-33-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-33-00-B.png"; sourceTree = "<group>"; };
-		7B67ED941B037A3000EB79AE /* Chateau consola-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67ED941B037A3000EB79AE /* Chateau consola-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-22-B.png"; sourceTree = "<group>"; };
 		7B67ED951B037A3000EB79AE /* Chateau consola-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-30-00-B.png"; sourceTree = "<group>"; };
 		7B67ED961B037A3000EB79AE /* Chateau consola-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-00-27-B.png"; sourceTree = "<group>"; };
 		7B67ED971B037A3000EB79AE /* Chateau consola-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-00-B.png"; sourceTree = "<group>"; };
@@ -14377,7 +14383,7 @@
 		7B67EDA31B037A3200EB79AE /* Chateau consola-34-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-34-00-A.png"; sourceTree = "<group>"; };
 		7B67EDA41B037A3200EB79AE /* Chateau consola-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-31-00-A.png"; sourceTree = "<group>"; };
 		7B67EDA51B037A3200EB79AE /* Chateau consola-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-32-00-A.png"; sourceTree = "<group>"; };
-		7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EDA71B037A3200EB79AE /* Chateau consola-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EDA81B037A3200EB79AE /* Chateau consola-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EDA91B037A3300EB79AE /* Chateau consola-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau consola-00-26-A.png"; sourceTree = "<group>"; };
@@ -14397,7 +14403,7 @@
 		7B67EDB71B037A3400EB79AE /* Propeller consola-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EDB81B037A3400EB79AE /* Propeller consola-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-31-00-B.png"; sourceTree = "<group>"; };
 		7B67EDB91B037A3400EB79AE /* Propeller consola-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-00-B.png"; sourceTree = "<group>"; };
-		7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EDBB1B037A3400EB79AE /* Propeller consola-00-25-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-25-B.png"; sourceTree = "<group>"; };
 		7B67EDBC1B037A3400EB79AE /* Propeller consola-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EDBD1B037A3400EB79AE /* Largo consola-00-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-00-22-A.png"; sourceTree = "<group>"; };
@@ -14414,7 +14420,7 @@
 		7B67EDC81B037A3600EB79AE /* Largo consola-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-00-27-B.png"; sourceTree = "<group>"; };
 		7B67EDC91B037A3600EB79AE /* Largo consola-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EDCA1B037A3600EB79AE /* Largo consola-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-00-B.png"; sourceTree = "<group>"; };
-		7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EDCC1B037A3600EB79AE /* Largo consola-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EDCD1B037A3600EB79AE /* Largo consola-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EDCE1B037A3600EB79AE /* Largo consola-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-31-00-A.png"; sourceTree = "<group>"; };
@@ -14440,7 +14446,7 @@
 		7B67EDE21B037A3800EB79AE /* Propeller consola-00-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-24-A.png"; sourceTree = "<group>"; };
 		7B67EDE31B037A3900EB79AE /* Propeller consola-00-25-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-25-A.png"; sourceTree = "<group>"; };
 		7B67EDE41B037A3900EB79AE /* Propeller consola-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-26-A.png"; sourceTree = "<group>"; };
-		7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EDE61B037A3900EB79AE /* Propeller consola-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EDE71B037A3900EB79AE /* Propeller consola-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-31-00-A.png"; sourceTree = "<group>"; };
 		7B67EDE81B037A3900EB79AE /* Propeller consola-00-23-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-00-23-B.png"; sourceTree = "<group>"; };
@@ -14454,7 +14460,7 @@
 		7B67EDF01B037A3A00EB79AE /* Propeller consola-35-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-35-00-A.png"; sourceTree = "<group>"; };
 		7B67EDF11B037A3A00EB79AE /* Propeller consola-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-32-00-A.png"; sourceTree = "<group>"; };
 		7B67EDF21B037A3A00EB79AE /* Propeller consola-33-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-33-00-A.png"; sourceTree = "<group>"; };
-		7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo consola-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EDF41B037A3B00EB79AE /* Propeller consola-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller consola-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EDF51B037A3B00EB79AE /* Wings consola-00-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-00-22-A.png"; sourceTree = "<group>"; };
 		7B67EDF61B037A3B00EB79AE /* Wings consola-00-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-00-22-B.png"; sourceTree = "<group>"; };
@@ -14470,8 +14476,8 @@
 		7B67EE001B037A3C00EB79AE /* Wings consola-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-00-27-B.png"; sourceTree = "<group>"; };
 		7B67EE011B037A3C00EB79AE /* Wings consola-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EE021B037A3C00EB79AE /* Wings consola-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-00-B.png"; sourceTree = "<group>"; };
-		7B67EE031B037A3C00EB79AE /* Wings consola-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-22-AB.png"; sourceTree = "<group>"; };
-		7B67EE041B037A3C00EB79AE /* Wings consola-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EE031B037A3C00EB79AE /* Wings consola-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-22-A.png"; sourceTree = "<group>"; };
+		7B67EE041B037A3C00EB79AE /* Wings consola-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EE051B037A3C00EB79AE /* Wings consola-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EE061B037A3D00EB79AE /* Wings consola-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EE071B037A3D00EB79AE /* Wings consola-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings consola-31-00-A.png"; sourceTree = "<group>"; };
@@ -14508,7 +14514,7 @@
 		7B67EE261B037A4000EB79AE /* Chrominox XL-00-26-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-26-B-00.png"; sourceTree = "<group>"; };
 		7B67EE271B037A4000EB79AE /* Chrominox XL-00-27-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-27-B-00.png"; sourceTree = "<group>"; };
 		7B67EE281B037A4100EB79AE /* Chrominox XL-29-00-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-00-B-00.png"; sourceTree = "<group>"; };
-		7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-BB-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-22-BB-29.png"; sourceTree = "<group>"; };
+		7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-B-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-22-B-29.png"; sourceTree = "<group>"; };
 		7B67EE2A1B037A4100EB79AE /* Chrominox XL-30-00-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-30-00-B-00.png"; sourceTree = "<group>"; };
 		7B67EE2B1B037A4100EB79AE /* Chrominox XL-31-00-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-31-00-B-00.png"; sourceTree = "<group>"; };
 		7B67EE2C1B037A4100EB79AE /* Chrominox XL-32-00-B-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-32-00-B-00.png"; sourceTree = "<group>"; };
@@ -14529,7 +14535,7 @@
 		7B67EE3B1B037A4300EB79AE /* Chrominox XL-00-25-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-25-A-00.png"; sourceTree = "<group>"; };
 		7B67EE3C1B037A4300EB79AE /* Chrominox XL-00-26-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-26-A-00.png"; sourceTree = "<group>"; };
 		7B67EE3D1B037A4300EB79AE /* Chrominox XL-29-00-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-00-A-00.png"; sourceTree = "<group>"; };
-		7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-AB-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-22-AB-29.png"; sourceTree = "<group>"; };
+		7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-A-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-29-22-A-29.png"; sourceTree = "<group>"; };
 		7B67EE3F1B037A4300EB79AE /* Chrominox XL-30-00-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-30-00-A-00.png"; sourceTree = "<group>"; };
 		7B67EE401B037A4300EB79AE /* Chrominox XL-37-00-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-37-00-A-00.png"; sourceTree = "<group>"; };
 		7B67EE411B037A4300EB79AE /* Chrominox XL-70-00-A-00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-70-00-A-00.png"; sourceTree = "<group>"; };
@@ -14560,7 +14566,7 @@
 		7B67EE5A1B037A4600EB79AE /* Largo cafe-33-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-33-00-B.png"; sourceTree = "<group>"; };
 		7B67EE5B1B037A4600EB79AE /* Largo cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EE5C1B037A4600EB79AE /* Largo cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-31-00-B.png"; sourceTree = "<group>"; };
-		7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EE5E1B037A4600EB79AE /* Largo cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-00-B.png"; sourceTree = "<group>"; };
 		7B67EE5F1B037A4600EB79AE /* Largo cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EE601B037A4600EB79AE /* Largo cafe-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-00-27-B.png"; sourceTree = "<group>"; };
@@ -14578,7 +14584,7 @@
 		7B67EE6C1B037A4700EB79AE /* Largo cafe-33-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-33-00-A.png"; sourceTree = "<group>"; };
 		7B67EE6D1B037A4800EB79AE /* Largo cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EE6E1B037A4800EB79AE /* Largo cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-31-00-A.png"; sourceTree = "<group>"; };
-		7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EE701B037A4800EB79AE /* Largo cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EE711B037A4800EB79AE /* Largo cafe-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-00-26-A.png"; sourceTree = "<group>"; };
 		7B67EE721B037A4800EB79AE /* Largo cafe-00-27-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo cafe-00-27-A.png"; sourceTree = "<group>"; };
@@ -14597,7 +14603,7 @@
 		7B67EE7F1B037A4A00EB79AE /* Facet cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EE801B037A4A00EB79AE /* Facet cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-31-00-B.png"; sourceTree = "<group>"; };
 		7B67EE811B037A4A00EB79AE /* Facet cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-00-B.png"; sourceTree = "<group>"; };
-		7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EE831B037A4A00EB79AE /* Facet cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EE841B037A4A00EB79AE /* Facet cafe-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-00-27-B.png"; sourceTree = "<group>"; };
 		7B67EE851B037A4B00EB79AE /* Facet cafe-00-25-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-00-25-B.png"; sourceTree = "<group>"; };
@@ -14613,7 +14619,7 @@
 		7B67EE8F1B037A4C00EB79AE /* Facet cafe-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-32-00-A.png"; sourceTree = "<group>"; };
 		7B67EE901B037A4C00EB79AE /* Facet cafe-33-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-33-00-A.png"; sourceTree = "<group>"; };
 		7B67EE911B037A4C00EB79AE /* Facet cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-31-00-A.png"; sourceTree = "<group>"; };
-		7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EE931B037A4C00EB79AE /* Facet cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EE941B037A4D00EB79AE /* Facet cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EE951B037A4D00EB79AE /* Facet cafe-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facet cafe-00-26-A.png"; sourceTree = "<group>"; };
@@ -14633,7 +14639,7 @@
 		7B67EEA31B037A4E00EB79AE /* Elyps cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EEA41B037A4E00EB79AE /* Elyps cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-31-00-B.png"; sourceTree = "<group>"; };
 		7B67EEA51B037A4E00EB79AE /* Elyps cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-00-B.png"; sourceTree = "<group>"; };
-		7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EEA71B037A4E00EB79AE /* Elyps cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EEA81B037A4F00EB79AE /* Elyps cafe-00-27-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-00-27-B.png"; sourceTree = "<group>"; };
 		7B67EEA91B037A4F00EB79AE /* Elyps cafe-00-25-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-00-25-B.png"; sourceTree = "<group>"; };
@@ -14649,7 +14655,7 @@
 		7B67EEB31B037A5000EB79AE /* Elyps cafe-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-32-00-A.png"; sourceTree = "<group>"; };
 		7B67EEB41B037A5000EB79AE /* Elyps cafe-33-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-33-00-A.png"; sourceTree = "<group>"; };
 		7B67EEB51B037A5000EB79AE /* Elyps cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-31-00-A.png"; sourceTree = "<group>"; };
-		7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EEB71B037A5000EB79AE /* Elyps cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EEB81B037A5000EB79AE /* Elyps cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EEB91B037A5000EB79AE /* Elyps cafe-00-25-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elyps cafe-00-25-A.png"; sourceTree = "<group>"; };
@@ -14747,7 +14753,6 @@
 		7B67EF151B037A5B00EB79AE /* Chateau cafe-32-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-32-00-B.png"; sourceTree = "<group>"; };
 		7B67EF161B037A5B00EB79AE /* Chateau cafe-33-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-33-00-B.png"; sourceTree = "<group>"; };
 		7B67EF171B037A5B00EB79AE /* Chateau cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-31-00-B.png"; sourceTree = "<group>"; };
-		7B67EF181B037A5B00EB79AE /* Chateau cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-22-BB.png"; sourceTree = "<group>"; };
 		7B67EF191B037A5B00EB79AE /* Chateau cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EF1A1B037A5B00EB79AE /* Chateau cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-00-B.png"; sourceTree = "<group>"; };
 		7B67EF1B1B037A5B00EB79AE /* Chateau cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-00-26-B.png"; sourceTree = "<group>"; };
@@ -14765,7 +14770,6 @@
 		7B67EF271B037A5D00EB79AE /* Chateau cafe-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-32-00-A.png"; sourceTree = "<group>"; };
 		7B67EF281B037A5D00EB79AE /* Chateau cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-31-00-A.png"; sourceTree = "<group>"; };
 		7B67EF291B037A5D00EB79AE /* Chateau cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-30-00-A.png"; sourceTree = "<group>"; };
-		7B67EF2A1B037A5D00EB79AE /* Chateau cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-22-AB.png"; sourceTree = "<group>"; };
 		7B67EF2B1B037A5D00EB79AE /* Chateau cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EF2C1B037A5D00EB79AE /* Chateau cafe-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-00-26-A.png"; sourceTree = "<group>"; };
 		7B67EF2D1B037A5D00EB79AE /* Chateau cafe-00-25-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chateau cafe-00-25-A.png"; sourceTree = "<group>"; };
@@ -14782,7 +14786,7 @@
 		7B67EF381B037A5E00EB79AE /* Propeller cafe-34-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-34-00-B.png"; sourceTree = "<group>"; };
 		7B67EF391B037A5F00EB79AE /* Propeller cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EF3A1B037A5F00EB79AE /* Propeller cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-31-00-B.png"; sourceTree = "<group>"; };
-		7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EF3C1B037A5F00EB79AE /* Propeller cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EF3D1B037A5F00EB79AE /* Propeller cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-00-B.png"; sourceTree = "<group>"; };
 		7B67EF3E1B037A5F00EB79AE /* Propeller cafe-00-25-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-00-25-B.png"; sourceTree = "<group>"; };
@@ -14799,7 +14803,7 @@
 		7B67EF491B037A6000EB79AE /* Propeller cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-31-00-A.png"; sourceTree = "<group>"; };
 		7B67EF4A1B037A6000EB79AE /* Propeller cafe-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-32-00-A.png"; sourceTree = "<group>"; };
 		7B67EF4B1B037A6000EB79AE /* Propeller cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-30-00-A.png"; sourceTree = "<group>"; };
-		7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EF4D1B037A6100EB79AE /* Propeller cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EF4E1B037A6100EB79AE /* Propeller cafe-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-00-26-A.png"; sourceTree = "<group>"; };
 		7B67EF4F1B037A6100EB79AE /* Propeller cafe-00-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller cafe-00-24-A.png"; sourceTree = "<group>"; };
@@ -14816,7 +14820,7 @@
 		7B67EF5A1B037A6200EB79AE /* Wings cafe-33-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-33-00-B.png"; sourceTree = "<group>"; };
 		7B67EF5B1B037A6200EB79AE /* Wings cafe-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-30-00-B.png"; sourceTree = "<group>"; };
 		7B67EF5C1B037A6200EB79AE /* Wings cafe-31-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-31-00-B.png"; sourceTree = "<group>"; };
-		7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-22-BB.png"; sourceTree = "<group>"; };
+		7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-22-B.png"; sourceTree = "<group>"; };
 		7B67EF5E1B037A6300EB79AE /* Wings cafe-00-26-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-00-26-B.png"; sourceTree = "<group>"; };
 		7B67EF5F1B037A6300EB79AE /* Wings cafe-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-00-B.png"; sourceTree = "<group>"; };
 		7B67EF601B037A6300EB79AE /* Wings cafe-00-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-00-24-B.png"; sourceTree = "<group>"; };
@@ -14832,7 +14836,7 @@
 		7B67EF6A1B037A6400EB79AE /* Wings cafe-33-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-33-00-A.png"; sourceTree = "<group>"; };
 		7B67EF6B1B037A6400EB79AE /* Wings cafe-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-31-00-A.png"; sourceTree = "<group>"; };
 		7B67EF6C1B037A6400EB79AE /* Wings cafe-32-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-32-00-A.png"; sourceTree = "<group>"; };
-		7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-22-AB.png"; sourceTree = "<group>"; };
+		7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-22-A.png"; sourceTree = "<group>"; };
 		7B67EF6E1B037A6400EB79AE /* Wings cafe-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-30-00-A.png"; sourceTree = "<group>"; };
 		7B67EF6F1B037A6400EB79AE /* Wings cafe-29-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-29-00-A.png"; sourceTree = "<group>"; };
 		7B67EF701B037A6400EB79AE /* Wings cafe-00-26-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings cafe-00-26-A.png"; sourceTree = "<group>"; };
@@ -15072,6 +15076,10 @@
 		7B883B331ADC376E003415E3 /* wings-55x55x55 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-55x55x55 p.png"; sourceTree = "<group>"; };
 		7B883B361ADC376E003415E3 /* wings xl-160-260x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-160-260x100x75 a.png"; sourceTree = "<group>"; };
 		7B883B371ADC376E003415E3 /* wings xl-160-260x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-160-260x100x75 p.png"; sourceTree = "<group>"; };
+		7BE4319F1B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-100x100x38 a.png"; sourceTree = "<group>"; };
+		7BE431A01B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-100x100x38 p.png"; sourceTree = "<group>"; };
+		7BE431A11B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-130x70x38 a.png"; sourceTree = "<group>"; };
+		7BE431A21B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-130x70x38 p.png"; sourceTree = "<group>"; };
 		7BE90A1A1A7675B90008711F /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		7BE90A1B1A7675B90008711F /* cofee_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cofee_pic.png; sourceTree = "<group>"; };
 		7BEBDC041A69F12A009F27AA /* IWSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWSelectorTableViewController.h; path = Views/IWSelectorTableViewController.h; sourceTree = "<group>"; };
@@ -18109,6 +18117,8 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				7B5F7E451B37A1CD00653EBC /* Chateau cafe-29-22-A.png */,
+				7B5F7E461B37A1CE00653EBC /* Chateau cafe-29-22-B.png */,
 				7B0E7E5C1B27C86D000742C5 /* Picasso-P-50-50-B.png */,
 				7B0E7E5D1B27C86D000742C5 /* Picasso-P-50-50-A.png */,
 				7B0E7E5E1B27C86D000742C5 /* Picasso-P-49-49-B.png */,
@@ -18222,8 +18232,8 @@
 				7B67ECD31B037A1A00EB79AE /* Tripod raco-00-27-B.png */,
 				7B67ECD41B037A1A00EB79AE /* Tripod raco-29-00-A.png */,
 				7B67ECD51B037A1A00EB79AE /* Tripod raco-29-00-B.png */,
-				7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-AB.png */,
-				7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-BB.png */,
+				7B67ECD61B037A1B00EB79AE /* Tripod raco-29-22-A.png */,
+				7B67ECD71B037A1B00EB79AE /* Tripod raco-29-22-B.png */,
 				7B67ECD81B037A1B00EB79AE /* Tripod raco-30-00-A.png */,
 				7B67ECD91B037A1B00EB79AE /* Tripod raco-30-00-B.png */,
 				7B67ECDA1B037A1B00EB79AE /* Tripod raco-31-00-A.png */,
@@ -18251,7 +18261,7 @@
 				7B67ECF01B037A1D00EB79AE /* Facet raco-30-00-A.png */,
 				7B67ECF11B037A1D00EB79AE /* Facet raco-31-00-A.png */,
 				7B67ECF21B037A1D00EB79AE /* Facet raco-29-00-A.png */,
-				7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-AB.png */,
+				7B67ECF31B037A1D00EB79AE /* Facet raco-29-22-A.png */,
 				7B67ECF41B037A1D00EB79AE /* Chateau raco-00-22-A.png */,
 				7B67ECF51B037A1D00EB79AE /* Chateau raco-00-23-A.png */,
 				7B67ECF61B037A1E00EB79AE /* Chateau raco-00-24-A.png */,
@@ -18259,7 +18269,7 @@
 				7B67ECF81B037A1E00EB79AE /* Chateau raco-00-26-A.png */,
 				7B67ECF91B037A1E00EB79AE /* Chateau raco-00-26-B.png */,
 				7B67ECFA1B037A1E00EB79AE /* Chateau raco-29-00-A.png */,
-				7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-AB.png */,
+				7B67ECFB1B037A1E00EB79AE /* Chateau raco-29-22-A.png */,
 				7B67ECFC1B037A1E00EB79AE /* Chateau raco-30-00-A.png */,
 				7B67ECFD1B037A1E00EB79AE /* Chateau raco-31-00-A.png */,
 				7B67ECFE1B037A1E00EB79AE /* Chateau raco-32-00-A.png */,
@@ -18281,8 +18291,8 @@
 				7B67ED0E1B037A2000EB79AE /* Propeller raco-00-27-B.png */,
 				7B67ED0F1B037A2000EB79AE /* Propeller raco-29-00-A.png */,
 				7B67ED101B037A2000EB79AE /* Propeller raco-29-00-B.png */,
-				7B67ED111B037A2000EB79AE /* Propeller raco-29-22-AB.png */,
-				7B67ED121B037A2000EB79AE /* Propeller raco-29-22-BB.png */,
+				7B67ED111B037A2000EB79AE /* Propeller raco-29-22-A.png */,
+				7B67ED121B037A2000EB79AE /* Propeller raco-29-22-B.png */,
 				7B67ED131B037A2100EB79AE /* Propeller raco-30-00-A.png */,
 				7B67ED141B037A2100EB79AE /* Propeller raco-30-00-B.png */,
 				7B67ED151B037A2100EB79AE /* Propeller raco-31-00-A.png */,
@@ -18313,7 +18323,7 @@
 				7B67ED2E1B037A2400EB79AE /* Chateau raco-35-00-A.png */,
 				7B67ED2F1B037A2400EB79AE /* Largo raco-41-00-B.png */,
 				7B67ED301B037A2400EB79AE /* Largo raco-70-00-B.png */,
-				7B67ED311B037A2400EB79AE /* Wings raco-29-22-AB.png */,
+				7B67ED311B037A2400EB79AE /* Wings raco-29-22-A.png */,
 				7B67ED321B037A2400EB79AE /* Wings raco-30-00-A.png */,
 				7B67ED331B037A2400EB79AE /* Wings raco-31-00-A.png */,
 				7B67ED341B037A2400EB79AE /* Wings raco-32-00-A.png */,
@@ -18324,7 +18334,7 @@
 				7B67ED391B037A2500EB79AE /* Largo raco-31-00-B.png */,
 				7B67ED3A1B037A2500EB79AE /* Largo raco-32-00-B.png */,
 				7B67ED3B1B037A2500EB79AE /* Largo raco-33-00-B.png */,
-				7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-BB.png */,
+				7B67ED3C1B037A2500EB79AE /* Largo raco-29-22-B.png */,
 				7B67ED3D1B037A2500EB79AE /* Largo raco-30-00-B.png */,
 				7B67ED3E1B037A2600EB79AE /* Largo raco-00-27-B.png */,
 				7B67ED3F1B037A2600EB79AE /* Largo raco-29-00-B.png */,
@@ -18343,7 +18353,7 @@
 				7B67ED4C1B037A2700EB79AE /* Largo raco-34-00-A.png */,
 				7B67ED4D1B037A2700EB79AE /* Largo raco-30-00-A.png */,
 				7B67ED4E1B037A2700EB79AE /* Largo raco-31-00-A.png */,
-				7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-AB.png */,
+				7B67ED4F1B037A2700EB79AE /* Largo raco-29-22-A.png */,
 				7B67ED501B037A2800EB79AE /* Largo raco-00-27-A.png */,
 				7B67ED511B037A2800EB79AE /* Largo raco-29-00-A.png */,
 				7B67ED521B037A2800EB79AE /* Largo raco-00-25-A.png */,
@@ -18360,7 +18370,7 @@
 				7B67ED5D1B037A2900EB79AE /* Wings raco-35-00-B.png */,
 				7B67ED5E1B037A2A00EB79AE /* Wings raco-31-00-B.png */,
 				7B67ED5F1B037A2A00EB79AE /* Wings raco-32-00-B.png */,
-				7B67ED601B037A2A00EB79AE /* Wings raco-29-22-BB.png */,
+				7B67ED601B037A2A00EB79AE /* Wings raco-29-22-B.png */,
 				7B67ED611B037A2A00EB79AE /* Wings raco-30-00-B.png */,
 				7B67ED621B037A2A00EB79AE /* Wings raco-00-26-B.png */,
 				7B67ED631B037A2A00EB79AE /* Wings raco-29-00-B.png */,
@@ -18412,7 +18422,7 @@
 				7B67ED911B037A2F00EB79AE /* Chateau consola-31-00-B.png */,
 				7B67ED921B037A3000EB79AE /* Chateau consola-32-00-B.png */,
 				7B67ED931B037A3000EB79AE /* Chateau consola-33-00-B.png */,
-				7B67ED941B037A3000EB79AE /* Chateau consola-29-22-BB.png */,
+				7B67ED941B037A3000EB79AE /* Chateau consola-29-22-B.png */,
 				7B67ED951B037A3000EB79AE /* Chateau consola-30-00-B.png */,
 				7B67ED961B037A3000EB79AE /* Chateau consola-00-27-B.png */,
 				7B67ED971B037A3000EB79AE /* Chateau consola-29-00-B.png */,
@@ -18430,7 +18440,7 @@
 				7B67EDA31B037A3200EB79AE /* Chateau consola-34-00-A.png */,
 				7B67EDA41B037A3200EB79AE /* Chateau consola-31-00-A.png */,
 				7B67EDA51B037A3200EB79AE /* Chateau consola-32-00-A.png */,
-				7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-AB.png */,
+				7B67EDA61B037A3200EB79AE /* Chateau consola-29-22-A.png */,
 				7B67EDA71B037A3200EB79AE /* Chateau consola-30-00-A.png */,
 				7B67EDA81B037A3200EB79AE /* Chateau consola-29-00-A.png */,
 				7B67EDA91B037A3300EB79AE /* Chateau consola-00-26-A.png */,
@@ -18450,7 +18460,7 @@
 				7B67EDB71B037A3400EB79AE /* Propeller consola-30-00-B.png */,
 				7B67EDB81B037A3400EB79AE /* Propeller consola-31-00-B.png */,
 				7B67EDB91B037A3400EB79AE /* Propeller consola-29-00-B.png */,
-				7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-BB.png */,
+				7B67EDBA1B037A3400EB79AE /* Propeller consola-29-22-B.png */,
 				7B67EDBB1B037A3400EB79AE /* Propeller consola-00-25-B.png */,
 				7B67EDBC1B037A3400EB79AE /* Propeller consola-00-26-B.png */,
 				7B67EDBD1B037A3400EB79AE /* Largo consola-00-22-A.png */,
@@ -18467,7 +18477,7 @@
 				7B67EDC81B037A3600EB79AE /* Largo consola-00-27-B.png */,
 				7B67EDC91B037A3600EB79AE /* Largo consola-29-00-A.png */,
 				7B67EDCA1B037A3600EB79AE /* Largo consola-29-00-B.png */,
-				7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-BB.png */,
+				7B67EDCB1B037A3600EB79AE /* Largo consola-29-22-B.png */,
 				7B67EDCC1B037A3600EB79AE /* Largo consola-30-00-A.png */,
 				7B67EDCD1B037A3600EB79AE /* Largo consola-30-00-B.png */,
 				7B67EDCE1B037A3600EB79AE /* Largo consola-31-00-A.png */,
@@ -18493,7 +18503,7 @@
 				7B67EDE21B037A3800EB79AE /* Propeller consola-00-24-A.png */,
 				7B67EDE31B037A3900EB79AE /* Propeller consola-00-25-A.png */,
 				7B67EDE41B037A3900EB79AE /* Propeller consola-00-26-A.png */,
-				7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-AB.png */,
+				7B67EDE51B037A3900EB79AE /* Propeller consola-29-22-A.png */,
 				7B67EDE61B037A3900EB79AE /* Propeller consola-30-00-A.png */,
 				7B67EDE71B037A3900EB79AE /* Propeller consola-31-00-A.png */,
 				7B67EDE81B037A3900EB79AE /* Propeller consola-00-23-B.png */,
@@ -18507,7 +18517,7 @@
 				7B67EDF01B037A3A00EB79AE /* Propeller consola-35-00-A.png */,
 				7B67EDF11B037A3A00EB79AE /* Propeller consola-32-00-A.png */,
 				7B67EDF21B037A3A00EB79AE /* Propeller consola-33-00-A.png */,
-				7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-AB.png */,
+				7B67EDF31B037A3A00EB79AE /* Largo consola-29-22-A.png */,
 				7B67EDF41B037A3B00EB79AE /* Propeller consola-29-00-A.png */,
 				7B67EDF51B037A3B00EB79AE /* Wings consola-00-22-A.png */,
 				7B67EDF61B037A3B00EB79AE /* Wings consola-00-22-B.png */,
@@ -18523,8 +18533,8 @@
 				7B67EE001B037A3C00EB79AE /* Wings consola-00-27-B.png */,
 				7B67EE011B037A3C00EB79AE /* Wings consola-29-00-A.png */,
 				7B67EE021B037A3C00EB79AE /* Wings consola-29-00-B.png */,
-				7B67EE031B037A3C00EB79AE /* Wings consola-29-22-AB.png */,
-				7B67EE041B037A3C00EB79AE /* Wings consola-29-22-BB.png */,
+				7B67EE031B037A3C00EB79AE /* Wings consola-29-22-A.png */,
+				7B67EE041B037A3C00EB79AE /* Wings consola-29-22-B.png */,
 				7B67EE051B037A3C00EB79AE /* Wings consola-30-00-A.png */,
 				7B67EE061B037A3D00EB79AE /* Wings consola-30-00-B.png */,
 				7B67EE071B037A3D00EB79AE /* Wings consola-31-00-A.png */,
@@ -18561,7 +18571,7 @@
 				7B67EE261B037A4000EB79AE /* Chrominox XL-00-26-B-00.png */,
 				7B67EE271B037A4000EB79AE /* Chrominox XL-00-27-B-00.png */,
 				7B67EE281B037A4100EB79AE /* Chrominox XL-29-00-B-00.png */,
-				7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-BB-29.png */,
+				7B67EE291B037A4100EB79AE /* Chrominox XL-29-22-B-29.png */,
 				7B67EE2A1B037A4100EB79AE /* Chrominox XL-30-00-B-00.png */,
 				7B67EE2B1B037A4100EB79AE /* Chrominox XL-31-00-B-00.png */,
 				7B67EE2C1B037A4100EB79AE /* Chrominox XL-32-00-B-00.png */,
@@ -18582,7 +18592,7 @@
 				7B67EE3B1B037A4300EB79AE /* Chrominox XL-00-25-A-00.png */,
 				7B67EE3C1B037A4300EB79AE /* Chrominox XL-00-26-A-00.png */,
 				7B67EE3D1B037A4300EB79AE /* Chrominox XL-29-00-A-00.png */,
-				7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-AB-29.png */,
+				7B67EE3E1B037A4300EB79AE /* Chrominox XL-29-22-A-29.png */,
 				7B67EE3F1B037A4300EB79AE /* Chrominox XL-30-00-A-00.png */,
 				7B67EE401B037A4300EB79AE /* Chrominox XL-37-00-A-00.png */,
 				7B67EE411B037A4300EB79AE /* Chrominox XL-70-00-A-00.png */,
@@ -18613,7 +18623,7 @@
 				7B67EE5A1B037A4600EB79AE /* Largo cafe-33-00-B.png */,
 				7B67EE5B1B037A4600EB79AE /* Largo cafe-30-00-B.png */,
 				7B67EE5C1B037A4600EB79AE /* Largo cafe-31-00-B.png */,
-				7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-BB.png */,
+				7B67EE5D1B037A4600EB79AE /* Largo cafe-29-22-B.png */,
 				7B67EE5E1B037A4600EB79AE /* Largo cafe-29-00-B.png */,
 				7B67EE5F1B037A4600EB79AE /* Largo cafe-00-26-B.png */,
 				7B67EE601B037A4600EB79AE /* Largo cafe-00-27-B.png */,
@@ -18631,7 +18641,7 @@
 				7B67EE6C1B037A4700EB79AE /* Largo cafe-33-00-A.png */,
 				7B67EE6D1B037A4800EB79AE /* Largo cafe-30-00-A.png */,
 				7B67EE6E1B037A4800EB79AE /* Largo cafe-31-00-A.png */,
-				7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-AB.png */,
+				7B67EE6F1B037A4800EB79AE /* Largo cafe-29-22-A.png */,
 				7B67EE701B037A4800EB79AE /* Largo cafe-29-00-A.png */,
 				7B67EE711B037A4800EB79AE /* Largo cafe-00-26-A.png */,
 				7B67EE721B037A4800EB79AE /* Largo cafe-00-27-A.png */,
@@ -18650,7 +18660,7 @@
 				7B67EE7F1B037A4A00EB79AE /* Facet cafe-30-00-B.png */,
 				7B67EE801B037A4A00EB79AE /* Facet cafe-31-00-B.png */,
 				7B67EE811B037A4A00EB79AE /* Facet cafe-29-00-B.png */,
-				7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-BB.png */,
+				7B67EE821B037A4A00EB79AE /* Facet cafe-29-22-B.png */,
 				7B67EE831B037A4A00EB79AE /* Facet cafe-00-26-B.png */,
 				7B67EE841B037A4A00EB79AE /* Facet cafe-00-27-B.png */,
 				7B67EE851B037A4B00EB79AE /* Facet cafe-00-25-B.png */,
@@ -18666,7 +18676,7 @@
 				7B67EE8F1B037A4C00EB79AE /* Facet cafe-32-00-A.png */,
 				7B67EE901B037A4C00EB79AE /* Facet cafe-33-00-A.png */,
 				7B67EE911B037A4C00EB79AE /* Facet cafe-31-00-A.png */,
-				7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-AB.png */,
+				7B67EE921B037A4C00EB79AE /* Facet cafe-29-22-A.png */,
 				7B67EE931B037A4C00EB79AE /* Facet cafe-30-00-A.png */,
 				7B67EE941B037A4D00EB79AE /* Facet cafe-29-00-A.png */,
 				7B67EE951B037A4D00EB79AE /* Facet cafe-00-26-A.png */,
@@ -18686,7 +18696,7 @@
 				7B67EEA31B037A4E00EB79AE /* Elyps cafe-30-00-B.png */,
 				7B67EEA41B037A4E00EB79AE /* Elyps cafe-31-00-B.png */,
 				7B67EEA51B037A4E00EB79AE /* Elyps cafe-29-00-B.png */,
-				7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-BB.png */,
+				7B67EEA61B037A4E00EB79AE /* Elyps cafe-29-22-B.png */,
 				7B67EEA71B037A4E00EB79AE /* Elyps cafe-00-26-B.png */,
 				7B67EEA81B037A4F00EB79AE /* Elyps cafe-00-27-B.png */,
 				7B67EEA91B037A4F00EB79AE /* Elyps cafe-00-25-B.png */,
@@ -18702,7 +18712,7 @@
 				7B67EEB31B037A5000EB79AE /* Elyps cafe-32-00-A.png */,
 				7B67EEB41B037A5000EB79AE /* Elyps cafe-33-00-A.png */,
 				7B67EEB51B037A5000EB79AE /* Elyps cafe-31-00-A.png */,
-				7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-AB.png */,
+				7B67EEB61B037A5000EB79AE /* Elyps cafe-29-22-A.png */,
 				7B67EEB71B037A5000EB79AE /* Elyps cafe-30-00-A.png */,
 				7B67EEB81B037A5000EB79AE /* Elyps cafe-29-00-A.png */,
 				7B67EEB91B037A5000EB79AE /* Elyps cafe-00-25-A.png */,
@@ -18800,7 +18810,6 @@
 				7B67EF151B037A5B00EB79AE /* Chateau cafe-32-00-B.png */,
 				7B67EF161B037A5B00EB79AE /* Chateau cafe-33-00-B.png */,
 				7B67EF171B037A5B00EB79AE /* Chateau cafe-31-00-B.png */,
-				7B67EF181B037A5B00EB79AE /* Chateau cafe-29-22-BB.png */,
 				7B67EF191B037A5B00EB79AE /* Chateau cafe-30-00-B.png */,
 				7B67EF1A1B037A5B00EB79AE /* Chateau cafe-29-00-B.png */,
 				7B67EF1B1B037A5B00EB79AE /* Chateau cafe-00-26-B.png */,
@@ -18818,7 +18827,6 @@
 				7B67EF271B037A5D00EB79AE /* Chateau cafe-32-00-A.png */,
 				7B67EF281B037A5D00EB79AE /* Chateau cafe-31-00-A.png */,
 				7B67EF291B037A5D00EB79AE /* Chateau cafe-30-00-A.png */,
-				7B67EF2A1B037A5D00EB79AE /* Chateau cafe-29-22-AB.png */,
 				7B67EF2B1B037A5D00EB79AE /* Chateau cafe-29-00-A.png */,
 				7B67EF2C1B037A5D00EB79AE /* Chateau cafe-00-26-A.png */,
 				7B67EF2D1B037A5D00EB79AE /* Chateau cafe-00-25-A.png */,
@@ -18835,7 +18843,7 @@
 				7B67EF381B037A5E00EB79AE /* Propeller cafe-34-00-B.png */,
 				7B67EF391B037A5F00EB79AE /* Propeller cafe-30-00-B.png */,
 				7B67EF3A1B037A5F00EB79AE /* Propeller cafe-31-00-B.png */,
-				7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-BB.png */,
+				7B67EF3B1B037A5F00EB79AE /* Propeller cafe-29-22-B.png */,
 				7B67EF3C1B037A5F00EB79AE /* Propeller cafe-00-26-B.png */,
 				7B67EF3D1B037A5F00EB79AE /* Propeller cafe-29-00-B.png */,
 				7B67EF3E1B037A5F00EB79AE /* Propeller cafe-00-25-B.png */,
@@ -18852,7 +18860,7 @@
 				7B67EF491B037A6000EB79AE /* Propeller cafe-31-00-A.png */,
 				7B67EF4A1B037A6000EB79AE /* Propeller cafe-32-00-A.png */,
 				7B67EF4B1B037A6000EB79AE /* Propeller cafe-30-00-A.png */,
-				7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-AB.png */,
+				7B67EF4C1B037A6100EB79AE /* Propeller cafe-29-22-A.png */,
 				7B67EF4D1B037A6100EB79AE /* Propeller cafe-29-00-A.png */,
 				7B67EF4E1B037A6100EB79AE /* Propeller cafe-00-26-A.png */,
 				7B67EF4F1B037A6100EB79AE /* Propeller cafe-00-24-A.png */,
@@ -18869,7 +18877,7 @@
 				7B67EF5A1B037A6200EB79AE /* Wings cafe-33-00-B.png */,
 				7B67EF5B1B037A6200EB79AE /* Wings cafe-30-00-B.png */,
 				7B67EF5C1B037A6200EB79AE /* Wings cafe-31-00-B.png */,
-				7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-BB.png */,
+				7B67EF5D1B037A6200EB79AE /* Wings cafe-29-22-B.png */,
 				7B67EF5E1B037A6300EB79AE /* Wings cafe-00-26-B.png */,
 				7B67EF5F1B037A6300EB79AE /* Wings cafe-29-00-B.png */,
 				7B67EF601B037A6300EB79AE /* Wings cafe-00-24-B.png */,
@@ -18885,7 +18893,7 @@
 				7B67EF6A1B037A6400EB79AE /* Wings cafe-33-00-A.png */,
 				7B67EF6B1B037A6400EB79AE /* Wings cafe-31-00-A.png */,
 				7B67EF6C1B037A6400EB79AE /* Wings cafe-32-00-A.png */,
-				7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-AB.png */,
+				7B67EF6D1B037A6400EB79AE /* Wings cafe-29-22-A.png */,
 				7B67EF6E1B037A6400EB79AE /* Wings cafe-30-00-A.png */,
 				7B67EF6F1B037A6400EB79AE /* Wings cafe-29-00-A.png */,
 				7B67EF701B037A6400EB79AE /* Wings cafe-00-26-A.png */,
@@ -22735,6 +22743,7 @@
 		7B883A471ADC376D003415E3 /* Esquemes de taules */ = {
 			isa = PBXGroup;
 			children = (
+				7BE4319E1B2856ED00AD3953 /* chrominox cafe png */,
 				7B0E7EBD1B27EA1D000742C5 /* chateau cafe png */,
 				7B883A481ADC376D003415E3 /* chateau png */,
 				7B883A681ADC376D003415E3 /* chrominox png */,
@@ -23065,6 +23074,17 @@
 			path = "wings xl png";
 			sourceTree = "<group>";
 		};
+		7BE4319E1B2856ED00AD3953 /* chrominox cafe png */ = {
+			isa = PBXGroup;
+			children = (
+				7BE4319F1B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png */,
+				7BE431A01B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png */,
+				7BE431A11B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png */,
+				7BE431A21B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png */,
+			);
+			path = "chrominox cafe png";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -23392,14 +23412,14 @@
 				7B67E8FF1B02E6DA00EB79AE /* Angelina Bar-A-08-28-A.png in Resources */,
 				7B67F0171B037A6700EB79AE /* Wings raco-31-00-A.png in Resources */,
 				7B67F2481B037A6700EB79AE /* Wings cafe-41-00-A.png in Resources */,
-				7B67F1761B037A6700EB79AE /* Facet cafe-29-22-AB.png in Resources */,
+				7B67F1761B037A6700EB79AE /* Facet cafe-29-22-A.png in Resources */,
 				7B67EA741B02E6DA00EB79AE /* Renoir Bar-AW-14-28-B.png in Resources */,
 				4C63BACE19872A7D00833622 /* Largo-XL-36-00-B.png in Resources */,
 				4C63BA9119872A7D00833622 /* Monet-AW-15-27-A.png in Resources */,
 				7B67E88B1B02E6DA00EB79AE /* Margueritte-S-S-11-00-A.png in Resources */,
 				7B67E7C01B02E6DA00EB79AE /* Gaugin-A-47-30-B.png in Resources */,
 				4C63BA7319872A7D00833622 /* Monet-S-08-27-A.png in Resources */,
-				7B67F10D1B037A6700EB79AE /* Chrominox XL-29-22-BB-29.png in Resources */,
+				7B67F10D1B037A6700EB79AE /* Chrominox XL-29-22-B-29.png in Resources */,
 				7B67EC411B02FA9C00EB79AE /* Monet-A-49-27-B.png in Resources */,
 				7B67F10E1B037A6700EB79AE /* Chrominox XL-30-00-B-00.png in Resources */,
 				4C63BB1419872A7D00833622 /* Largo-U-12-00-A.png in Resources */,
@@ -23800,7 +23820,7 @@
 				7B67E98D1B02E6DA00EB79AE /* Monet-B-09-28-A.png in Resources */,
 				4C63BA9A19872A7D00833622 /* Monet-S-01-27-B.png in Resources */,
 				4C63B91619872A7C00833622 /* Wings-00-25-A.png in Resources */,
-				7B67F0D71B037A6700EB79AE /* Largo consola-29-22-AB.png in Resources */,
+				7B67F0D71B037A6700EB79AE /* Largo consola-29-22-A.png in Resources */,
 				7B67F1C21B037A6700EB79AE /* Easy-4 cafe-00-25-A.png in Resources */,
 				4C63BA3E19872A7D00833622 /* Monet-S-13-27-A.png in Resources */,
 				7B67F2371B037A6700EB79AE /* Wings cafe-41-00-B.png in Resources */,
@@ -23808,7 +23828,7 @@
 				7B67F01F1B037A6700EB79AE /* Largo raco-33-00-B.png in Resources */,
 				7B883B501ADC376E003415E3 /* chateau-250x128x75 p.png in Resources */,
 				4C1F9218192F172B00AAB2E1 /* Igrey 617.jpg in Resources */,
-				7B67EFF51B037A6700EB79AE /* Propeller raco-29-22-AB.png in Resources */,
+				7B67EFF51B037A6700EB79AE /* Propeller raco-29-22-A.png in Resources */,
 				7B67E9631B02E6DA00EB79AE /* Monet-W-17-28-A.png in Resources */,
 				4C63BBA219872A7E00833622 /* Elyps-00-23-B.png in Resources */,
 				7B67E7F81B02E6DA00EB79AE /* Angelina Bar-W-45-28-B.png in Resources */,
@@ -23831,6 +23851,7 @@
 				7B67EAF91B02E6DA00EB79AE /* Angelina-B-07-28-A.png in Resources */,
 				7B67E8811B02E6DA00EB79AE /* Margueritte-S-S-08-00-B.png in Resources */,
 				7B67EC5B1B02FA9C00EB79AE /* Largo-U-45-00-A.png in Resources */,
+				7BE431A31B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png in Resources */,
 				7B67E8AD1B02E6DA00EB79AE /* Margueritte-S-25-25-A.png in Resources */,
 				4C63B98519872A7C00833622 /* Renoir-W-16-27-B.png in Resources */,
 				4C63B8D619872A7C00833622 /* Luna-29-00-B.png in Resources */,
@@ -23897,7 +23918,7 @@
 				4C63BAB519872A7D00833622 /* Monet-A-09-27-A.png in Resources */,
 				7B67F16A1B037A6700EB79AE /* Facet cafe-00-23-B.png in Resources */,
 				7B67EC171B02FA9C00EB79AE /* Monet-W-46-27-B.png in Resources */,
-				7B67F21F1B037A6700EB79AE /* Propeller cafe-29-22-BB.png in Resources */,
+				7B67F21F1B037A6700EB79AE /* Propeller cafe-29-22-B.png in Resources */,
 				7B67EFA31B037A6700EB79AE /* Chateau raco-37-00-B.png in Resources */,
 				4C63BAE019872A7D00833622 /* Luna-00-27-B.png in Resources */,
 				4C63BBD319872A7E00833622 /* Chateau-29-22-A.png in Resources */,
@@ -23923,7 +23944,7 @@
 				7B67F0531B037A6700EB79AE /* Wings raco-00-26-A.png in Resources */,
 				4C63BB1519872A7D00833622 /* Largo-U-12-00-B.png in Resources */,
 				7B67EC0A1B02FA9C00EB79AE /* Renoir-A-45-27-A.png in Resources */,
-				7B67F09E1B037A6700EB79AE /* Propeller consola-29-22-BB.png in Resources */,
+				7B67F09E1B037A6700EB79AE /* Propeller consola-29-22-B.png in Resources */,
 				7B883BA11ADC376E003415E3 /* largo-130x70x29 a.png in Resources */,
 				7B67E7781B02E6DA00EB79AE /* Angelina Bar-W-49-28-B.png in Resources */,
 				4C63BB6F19872A7D00833622 /* Facet-00-27-A.png in Resources */,
@@ -23931,6 +23952,7 @@
 				4C63BB4619872A7D00833622 /* Extens-00-23-B.png in Resources */,
 				7B883BC81ADC376E003415E3 /* largo wood-55x55x55 a.png in Resources */,
 				4C63BC9E19872A7F00833622 /* Angelina-A-06-27-B.png in Resources */,
+				7BE431A41B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png in Resources */,
 				7B67EBDA1B02FA9C00EB79AE /* Renoir-W-45-27-B.png in Resources */,
 				4C63B9C819872A7C00833622 /* Renoir-A-16-27-A.png in Resources */,
 				7B67E8D41B02E6DA00EB79AE /* Picasso-P-00-00-A-13.png in Resources */,
@@ -23941,10 +23963,11 @@
 				4C513F48193D6480006A3750 /* 40n.png in Resources */,
 				7B67EA4D1B02E6DA00EB79AE /* Gaugin-S-15-30-B.png in Resources */,
 				7B67E84A1B02E6DA00EB79AE /* Margueritte-S-S-43-00-B.png in Resources */,
-				7B67F0C91B037A6700EB79AE /* Propeller consola-29-22-AB.png in Resources */,
+				7B67F0C91B037A6700EB79AE /* Propeller consola-29-22-A.png in Resources */,
 				7B67E7841B02E6DA00EB79AE /* Gaugin-S-49-30-B.png in Resources */,
 				7B67EA7E1B02E6DA00EB79AE /* Renoir Bar-AW-04-28-B.png in Resources */,
 				7B67EC131B02FA9C00EB79AE /* Monet-W-48-27-B.png in Resources */,
+				7B5F7E481B37A1CE00653EBC /* Chateau cafe-29-22-B.png in Resources */,
 				7B67E9271B02E6DA00EB79AE /* Monet-BH-12-28-B.png in Resources */,
 				7B67E9AC1B02E6DA00EB79AE /* Angelina-AW-14-28-A.png in Resources */,
 				4C63B9BC19872A7C00833622 /* Renoir-A-10-27-A.png in Resources */,
@@ -24480,7 +24503,7 @@
 				7B67E9611B02E6DA00EB79AE /* Monet-W-18-28-A.png in Resources */,
 				4C63BBCE19872A7E00833622 /* Ensor-S-14-27-B.png in Resources */,
 				7B67F2181B037A6700EB79AE /* Propeller cafe-35-00-B.png in Resources */,
-				7B67F1531B037A6700EB79AE /* Largo cafe-29-22-AB.png in Resources */,
+				7B67F1531B037A6700EB79AE /* Largo cafe-29-22-A.png in Resources */,
 				4C63BC2E19872A7E00833622 /* Angelina-W-03-27-A.png in Resources */,
 				4C63BC5D19872A7E00833622 /* Angelina-AW-09-27-B.png in Resources */,
 				4C63B8EC19872A7C00833622 /* Facet-41-00-B.png in Resources */,
@@ -24498,7 +24521,7 @@
 				7B0E7EA71B27C870000742C5 /* Picasso-P-05-05-A.png in Resources */,
 				7B67E95C1B02E6DA00EB79AE /* Monet-W-04-28-B.png in Resources */,
 				4C63B9B319872A7C00833622 /* Renoir-S-04-27-A.png in Resources */,
-				7B67F1221B037A6700EB79AE /* Chrominox XL-29-22-AB-29.png in Resources */,
+				7B67F1221B037A6700EB79AE /* Chrominox XL-29-22-A-29.png in Resources */,
 				4CD5DA9D1918773E004C80D1 /* Monet-A-01-27.jpg in Resources */,
 				7B0E7E901B27C870000742C5 /* Picasso-P-45-45-B.png in Resources */,
 				7B67E9451B02E6DA00EB79AE /* Monet-BH-09-28-A.png in Resources */,
@@ -24619,7 +24642,7 @@
 				7B67EC2D1B02FA9C00EB79AE /* Monet-S-43-27-B.png in Resources */,
 				4C63B9DE19872A7C00833622 /* Renoir-AW-09-27-A.png in Resources */,
 				7B67E80B1B02E6DA00EB79AE /* Monet low-ML-45-28-A.png in Resources */,
-				7B67F0E71B037A6700EB79AE /* Wings consola-29-22-AB.png in Resources */,
+				7B67F0E71B037A6700EB79AE /* Wings consola-29-22-A.png in Resources */,
 				4C63BA2B19872A7D00833622 /* Rafael-A-00-23-B.png in Resources */,
 				4C63BBE219872A7E00833622 /* Chateau-36-00-B.png in Resources */,
 				7B67E86F1B02E6DA00EB79AE /* Margueritte-A-S-01-00-B.png in Resources */,
@@ -24660,7 +24683,7 @@
 				4C63BB3919872A7D00833622 /* Largo-XL-32-00-B.png in Resources */,
 				7B67F0221B037A6700EB79AE /* Largo raco-00-27-B.png in Resources */,
 				4C63BB5319872A7D00833622 /* Extens-29-22-B.png in Resources */,
-				7B67F0E81B037A6700EB79AE /* Wings consola-29-22-BB.png in Resources */,
+				7B67F0E81B037A6700EB79AE /* Wings consola-29-22-B.png in Resources */,
 				7B67E8941B02E6DA00EB79AE /* Margueritte-S-S-05-00-A.png in Resources */,
 				7B883B9F1ADC376E003415E3 /* largo-130x35x75 a.png in Resources */,
 				7B67EFF91B037A6700EB79AE /* Propeller raco-31-00-A.png in Resources */,
@@ -24707,9 +24730,10 @@
 				4C63BB3E19872A7D00833622 /* Ensor-S-16-27-B.png in Resources */,
 				7B67E9DA1B02E6DA00EB79AE /* Gaugin-AW-06-30-A.png in Resources */,
 				7B67E7CE1B02E6DA00EB79AE /* Monet-B-47-28-B.png in Resources */,
-				7B67F18A1B037A6700EB79AE /* Elyps cafe-29-22-BB.png in Resources */,
+				7B67F18A1B037A6700EB79AE /* Elyps cafe-29-22-B.png in Resources */,
 				7B67F0161B037A6700EB79AE /* Wings raco-30-00-A.png in Resources */,
 				7B67F0C81B037A6700EB79AE /* Propeller consola-00-26-A.png in Resources */,
+				7B5F7E471B37A1CE00653EBC /* Chateau cafe-29-22-A.png in Resources */,
 				7B67EC5F1B02FA9C00EB79AE /* Largo-U-43-00-B.png in Resources */,
 				7B67EA5E1B02E6DA00EB79AE /* Gaugin-S-16-30-A.png in Resources */,
 				7B67EAC01B02E6DA00EB79AE /* Monet low-ML-09-28-B.png in Resources */,
@@ -24742,7 +24766,7 @@
 				4C63BBF719872A7E00833622 /* Chrominox-36-27-A.png in Resources */,
 				4CD5AFFF19172A1C004C80D1 /* menu_home.png in Resources */,
 				7B67EF8F1B037A6700EB79AE /* Facet raco-41-00-B.png in Resources */,
-				7B67F2411B037A6700EB79AE /* Wings cafe-29-22-BB.png in Resources */,
+				7B67F2411B037A6700EB79AE /* Wings cafe-29-22-B.png in Resources */,
 				7B67EF951B037A6700EB79AE /* Facet raco-35-00-B.png in Resources */,
 				7B67F09D1B037A6700EB79AE /* Propeller consola-29-00-B.png in Resources */,
 				7B67EAC81B02E6DA00EB79AE /* Monet low-ML-02-28-B.png in Resources */,
@@ -24758,7 +24782,7 @@
 				7B67F0C21B037A6700EB79AE /* Largo consola-70-00-A.png in Resources */,
 				4C63B95119872A7C00833622 /* Van Gogh-S-01-28-B.png in Resources */,
 				4C1F91D2192F172B00AAB2E1 /* Antracite 605@2x.jpg in Resources */,
-				7B67F1661B037A6700EB79AE /* Facet cafe-29-22-BB.png in Resources */,
+				7B67F1661B037A6700EB79AE /* Facet cafe-29-22-B.png in Resources */,
 				7B883C0A1ADC376E003415E3 /* wings-180x90x75 a.png in Resources */,
 				4CEE0F5E18A9CFD200298C60 /* tab_normal@2x.png in Resources */,
 				7B67EAA81B02E6DA00EB79AE /* Renoir Bar-B-13-28-A.png in Resources */,
@@ -24781,7 +24805,7 @@
 				7B67EA1D1B02E6DA00EB79AE /* Angelina Bar-W-09-28-A.png in Resources */,
 				4C63B91919872A7C00833622 /* Wings-00-26-B.png in Resources */,
 				7B67F1561B037A6700EB79AE /* Largo cafe-00-27-A.png in Resources */,
-				7B67EFDF1B037A6700EB79AE /* Chateau raco-29-22-AB.png in Resources */,
+				7B67EFDF1B037A6700EB79AE /* Chateau raco-29-22-A.png in Resources */,
 				7B67E9AF1B02E6DA00EB79AE /* Angelina-AW-11-28-A.png in Resources */,
 				4C63B94119872A7C00833622 /* Van Gogh-A-06-28-B.png in Resources */,
 				7B67F0A21B037A6700EB79AE /* Largo consola-00-22-B.png in Resources */,
@@ -24857,7 +24881,6 @@
 				4C63BC1019872A7E00833622 /* Chateau-00-25-A.png in Resources */,
 				7B67EA571B02E6DA00EB79AE /* Gaugin-S-07-30-B.png in Resources */,
 				4C63BBCF19872A7E00833622 /* Ensor-S-15-27-A.png in Resources */,
-				7B67F1FC1B037A6700EB79AE /* Chateau cafe-29-22-BB.png in Resources */,
 				4C63BBBB19872A7E00833622 /* Elyps-36-00-A.png in Resources */,
 				4C63BAC719872A7D00833622 /* Monet-A-18-27-A.png in Resources */,
 				4C63BBA919872A7E00833622 /* Elyps-00-27-A.png in Resources */,
@@ -24968,7 +24991,7 @@
 				4C63B90A19872A7C00833622 /* Rafael-A-18-00-B.png in Resources */,
 				7B67F0041B037A6700EB79AE /* Propeller raco-36-00-B.png in Resources */,
 				4C63BC8F19872A7F00833622 /* Angelina-S-16-27-B.png in Resources */,
-				7B67F19A1B037A6700EB79AE /* Elyps cafe-29-22-AB.png in Resources */,
+				7B67F19A1B037A6700EB79AE /* Elyps cafe-29-22-A.png in Resources */,
 				4C63BB8219872A7E00833622 /* Largo-00-22-B.png in Resources */,
 				7B67EFE11B037A6700EB79AE /* Chateau raco-31-00-A.png in Resources */,
 				7B67F0661B037A6700EB79AE /* Chrominox consola-41-27-A.png in Resources */,
@@ -25005,7 +25028,7 @@
 				4C63BC6519872A7E00833622 /* Angelina-AW-13-27-B.png in Resources */,
 				4C63BCB819872A7F00833622 /* Angelina-AW-01-27-B.png in Resources */,
 				7B67F1981B037A6700EB79AE /* Elyps cafe-33-00-A.png in Resources */,
-				7B67EFF61B037A6700EB79AE /* Propeller raco-29-22-BB.png in Resources */,
+				7B67EFF61B037A6700EB79AE /* Propeller raco-29-22-B.png in Resources */,
 				7B67E8911B02E6DA00EB79AE /* Margueritte-S-S-09-00-A.png in Resources */,
 				7B67E7D21B02E6DA00EB79AE /* Monet-W-47-28-B.png in Resources */,
 				7B0E7E891B27C870000742C5 /* Picasso-P-49-49-A.png in Resources */,
@@ -25124,7 +25147,7 @@
 				4C63BB1219872A7D00833622 /* Largo-U-11-00-A.png in Resources */,
 				7B67F1BB1B037A6700EB79AE /* Easy-4 cafe-32-00-A.png in Resources */,
 				7B67EFC21B037A6700EB79AE /* Tripod raco-33-00-A.png in Resources */,
-				7B67EFBA1B037A6700EB79AE /* Tripod raco-29-22-AB.png in Resources */,
+				7B67EFBA1B037A6700EB79AE /* Tripod raco-29-22-A.png in Resources */,
 				7B67F2231B037A6700EB79AE /* Propeller cafe-00-24-B.png in Resources */,
 				7B67E93C1B02E6DA00EB79AE /* Monet-BH-01-28-B.png in Resources */,
 				7BEBDC1E1A6D1F20009F27AA /* logo joli.png in Resources */,
@@ -25169,6 +25192,7 @@
 				4C63BB8B19872A7E00833622 /* Largo-00-28-A.png in Resources */,
 				7B883B9E1ADC376E003415E3 /* largo-130x130x75 p.png in Resources */,
 				4C63B99919872A7C00833622 /* Renoir-S-17-27-A.png in Resources */,
+				7BE431A51B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png in Resources */,
 				4C63B98E19872A7C00833622 /* Renoir-S-11-27-B.png in Resources */,
 				7B67EAD21B02E6DA00EB79AE /* Monet low-ML-07-28-A.png in Resources */,
 				4C63BCA519872A7F00833622 /* Angelina-A-10-27-A.png in Resources */,
@@ -25176,7 +25200,6 @@
 				4C63B8ED19872A7C00833622 /* Largo-35-00-A.png in Resources */,
 				7B67E94C1B02E6DA00EB79AE /* Monet-BH-04-28-A.png in Resources */,
 				7B67E7F91B02E6DA00EB79AE /* Angelina low-AL-45-28-A.png in Resources */,
-				7B67F20E1B037A6700EB79AE /* Chateau cafe-29-22-AB.png in Resources */,
 				7B67F1D01B037A6700EB79AE /* Cube cafe-31-B.png in Resources */,
 				4C63B93619872A7C00833622 /* Van Gogh-A-01-28-A.png in Resources */,
 				4C63BA2719872A7D00833622 /* Propeller-41-00-B.png in Resources */,
@@ -25293,7 +25316,7 @@
 				7B67EA8A1B02E6DA00EB79AE /* Renoir Bar-AW-11-28-A.png in Resources */,
 				7B67F04F1B037A6700EB79AE /* Wings raco-37-00-A.png in Resources */,
 				7B67E7A91B02E6DA00EB79AE /* Margueritte-S-S-48-00-A.png in Resources */,
-				7B67EFBB1B037A6700EB79AE /* Tripod raco-29-22-BB.png in Resources */,
+				7B67EFBB1B037A6700EB79AE /* Tripod raco-29-22-B.png in Resources */,
 				7B67E8681B02E6DA00EB79AE /* Margueritte-A-S-09-00-B.png in Resources */,
 				7B67EBD81B02FA9C00EB79AE /* Renoir-W-46-27-B.png in Resources */,
 				4CD5DA991918773E004C80D1 /* Angelina-W-01-27.jpg in Resources */,
@@ -25399,7 +25422,7 @@
 				4C63BC9B19872A7F00833622 /* Angelina-A-05-27-A.png in Resources */,
 				4C63BB5519872A7D00833622 /* Extens-30-00-A.png in Resources */,
 				4C63BCB119872A7F00833622 /* Angelina-A-16-27-A.png in Resources */,
-				7B67F1411B037A6700EB79AE /* Largo cafe-29-22-BB.png in Resources */,
+				7B67F1411B037A6700EB79AE /* Largo cafe-29-22-B.png in Resources */,
 				7B67E7E61B02E6DA00EB79AE /* Gaugin-SW-46-30-B.png in Resources */,
 				7B67E9761B02E6DA00EB79AE /* Monet-B-14-28-B.png in Resources */,
 				4C63BC7A19872A7E00833622 /* Angelina-S-06-27-A.png in Resources */,
@@ -25562,7 +25585,7 @@
 				7B1C497E1B1EA4980017EEFA /* Margueritte-S-22-22.jpg in Resources */,
 				7B67EA9C1B02E6DA00EB79AE /* Renoir Bar-B-10-28-B.png in Resources */,
 				7B0E7E911B27C870000742C5 /* Picasso-P-45-45-A.png in Resources */,
-				7B67F0201B037A6700EB79AE /* Largo raco-29-22-BB.png in Resources */,
+				7B67F0201B037A6700EB79AE /* Largo raco-29-22-B.png in Resources */,
 				4CD5DAA61918773E004C80D1 /* Renoir-AW-01-27.jpg in Resources */,
 				7B67F06E1B037A6700EB79AE /* Chateau consola-70-00-B.png in Resources */,
 				4C63B9EE19872A7C00833622 /* Renoir-A-04-27-B.png in Resources */,
@@ -25625,7 +25648,7 @@
 				7B67F15B1B037A6700EB79AE /* Facet cafe-70-00-B.png in Resources */,
 				4C1F91FE192F172B00AAB2E1 /* Choco 57.jpg in Resources */,
 				7B0E7E861B27C870000742C5 /* Picasso-P-50-50-B.png in Resources */,
-				7B67F0331B037A6700EB79AE /* Largo raco-29-22-AB.png in Resources */,
+				7B67F0331B037A6700EB79AE /* Largo raco-29-22-A.png in Resources */,
 				4C63BBFD19872A7E00833622 /* Bluco-32-00-B.png in Resources */,
 				7B67E8931B02E6DA00EB79AE /* Margueritte-S-S-04-00-A.png in Resources */,
 				7B67F0BE1B037A6700EB79AE /* Largo consola-37-00-A.png in Resources */,
@@ -25701,7 +25724,7 @@
 				7B67EAEB1B02E6DA00EB79AE /* Angelina-B-02-28-B.png in Resources */,
 				7B67E7B81B02E6DA00EB79AE /* Angelina Bar-W-47-28-B.png in Resources */,
 				7B67E8711B02E6DA00EB79AE /* Margueritte-A-S-10-00-A.png in Resources */,
-				7B67EFD71B037A6700EB79AE /* Facet raco-29-22-AB.png in Resources */,
+				7B67EFD71B037A6700EB79AE /* Facet raco-29-22-A.png in Resources */,
 				7B67EA481B02E6DA00EB79AE /* Gaugin-SW-04-30-A.png in Resources */,
 				4C63BC9719872A7F00833622 /* Angelina-A-03-27-A.png in Resources */,
 				4C63BBFB19872A7E00833622 /* Bluco-31-00-B.png in Resources */,
@@ -25719,6 +25742,7 @@
 				7B67F06D1B037A6700EB79AE /* Chrominox consola-31-27-A.png in Resources */,
 				4C63B9C019872A7C00833622 /* Renoir-A-12-27-A.png in Resources */,
 				7B67E8351B02E6DA00EB79AE /* Angelina Bar-A-43-28-A.png in Resources */,
+				7BE431A61B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png in Resources */,
 				7B67EF9D1B037A6700EB79AE /* Chateau raco-31-00-B.png in Resources */,
 				7B883BEB1ADC376E003415E3 /* propeller-220x128x75 p.png in Resources */,
 				4C63BC8319872A7F00833622 /* Angelina-S-10-27-B.png in Resources */,
@@ -25750,7 +25774,7 @@
 				7B883B581ADC376E003415E3 /* chrominox-100x100x29 a.png in Resources */,
 				7B67E8C11B02E6DA00EB79AE /* Picasso-P-00-00-B-06.png in Resources */,
 				7B67E9081B02E6DA00EB79AE /* Angelina low-AL-12-28-B.png in Resources */,
-				7B67F2301B037A6700EB79AE /* Propeller cafe-29-22-AB.png in Resources */,
+				7B67F2301B037A6700EB79AE /* Propeller cafe-29-22-A.png in Resources */,
 				4C63BA1D19872A7D00833622 /* Propeller-33-00-B.png in Resources */,
 				7B67EACB1B02E6DA00EB79AE /* Monet low-ML-15-28-A.png in Resources */,
 				4C63BB6A19872A7D00833622 /* Facet-00-24-B.png in Resources */,
@@ -25777,7 +25801,7 @@
 				4C1F9254192F172B00AAB2E1 /* Ultra white.jpg in Resources */,
 				7B5589B11AA7FEC7007FA8D7 /* summary_close.png in Resources */,
 				7B67F14D1B037A6700EB79AE /* Largo cafe-34-00-A.png in Resources */,
-				7B67F0441B037A6700EB79AE /* Wings raco-29-22-BB.png in Resources */,
+				7B67F0441B037A6700EB79AE /* Wings raco-29-22-B.png in Resources */,
 				7B67F0321B037A6700EB79AE /* Largo raco-31-00-A.png in Resources */,
 				7B67EC961B02FA9C00EB79AE /* Angelina-A-46-27-B.png in Resources */,
 				7B67EC5C1B02FA9C00EB79AE /* Largo-U-45-00-B.png in Resources */,
@@ -25843,7 +25867,7 @@
 				7B67E8E11B02E6DA00EB79AE /* Picasso-P-00-00-A-01.png in Resources */,
 				7B67F10A1B037A6700EB79AE /* Chrominox XL-00-26-B-00.png in Resources */,
 				7B67E75B1B02E6DA00EB79AE /* Angelina-AW-50-28-A.png in Resources */,
-				7B67F0AF1B037A6700EB79AE /* Largo consola-29-22-BB.png in Resources */,
+				7B67F0AF1B037A6700EB79AE /* Largo consola-29-22-B.png in Resources */,
 				7B67F1B41B037A6700EB79AE /* Easy-4 cafe-00-22-B.png in Resources */,
 				7B67F0761B037A6700EB79AE /* Chateau consola-32-00-B.png in Resources */,
 				7B67EC491B02FA9C00EB79AE /* Monet-A-45-27-B.png in Resources */,
@@ -25921,7 +25945,7 @@
 				7B67F1361B037A6700EB79AE /* Largo wood cafe-00-28-A.png in Resources */,
 				7B67F1991B037A6700EB79AE /* Elyps cafe-31-00-A.png in Resources */,
 				4C63BCA619872A7F00833622 /* Angelina-A-10-27-B.png in Resources */,
-				7B67F08A1B037A6700EB79AE /* Chateau consola-29-22-AB.png in Resources */,
+				7B67F08A1B037A6700EB79AE /* Chateau consola-29-22-A.png in Resources */,
 				7B67EA2D1B02E6DA00EB79AE /* Gaugin-SW-13-30-B.png in Resources */,
 				7B67E7851B02E6DA00EB79AE /* Gaugin-SW-49-30-A.png in Resources */,
 				4C63B9AF19872A7C00833622 /* Renoir-S-02-27-A.png in Resources */,
@@ -26376,7 +26400,7 @@
 				4C63BC6219872A7E00833622 /* Angelina-AW-12-27-A.png in Resources */,
 				4C63B9E419872A7C00833622 /* Rafael-S-15-28-B.png in Resources */,
 				4C63B98619872A7C00833622 /* Renoir-S-07-27-B.png in Resources */,
-				7B67F0151B037A6700EB79AE /* Wings raco-29-22-AB.png in Resources */,
+				7B67F0151B037A6700EB79AE /* Wings raco-29-22-A.png in Resources */,
 				7B67E7DA1B02E6DA00EB79AE /* Angelina low-AL-46-28-B.png in Resources */,
 				7B67EBEF1B02FA9C00EB79AE /* Renoir-AW-50-27-B.png in Resources */,
 				7B67E9AD1B02E6DA00EB79AE /* Angelina-AW-15-28-A.png in Resources */,
@@ -26423,7 +26447,7 @@
 				4C63B93819872A7C00833622 /* Van Gogh-A-02-28-A.png in Resources */,
 				7B67F0A71B037A6700EB79AE /* Largo consola-00-25-A.png in Resources */,
 				4C63B9E819872A7C00833622 /* Renoir-A-01-27-B.png in Resources */,
-				7B67F0781B037A6700EB79AE /* Chateau consola-29-22-BB.png in Resources */,
+				7B67F0781B037A6700EB79AE /* Chateau consola-29-22-B.png in Resources */,
 				4C1F9240192F172B00AAB2E1 /* Smoke Oak.jpg in Resources */,
 				7B67EF901B037A6700EB79AE /* Facet raco-70-00-B.png in Resources */,
 				7B67E8121B02E6DA00EB79AE /* Monet-W-45-28-B.png in Resources */,
@@ -26451,7 +26475,7 @@
 				7B883B441ADC376E003415E3 /* chateau-200x100x75 p.png in Resources */,
 				7B67EC041B02FA9C00EB79AE /* Renoir-A-48-27-A.png in Resources */,
 				7B883BC21ADC376E003415E3 /* largo wood-200x100x75 a.png in Resources */,
-				7B67F2511B037A6700EB79AE /* Wings cafe-29-22-AB.png in Resources */,
+				7B67F2511B037A6700EB79AE /* Wings cafe-29-22-A.png in Resources */,
 				7B883BE31ADC376E003415E3 /* propeller-200x100x75 p.png in Resources */,
 				4C63BA2019872A7D00833622 /* Propeller-36-00-A.png in Resources */,
 				7B67EA401B02E6DA00EB79AE /* Gaugin-SW-12-30-A.png in Resources */,

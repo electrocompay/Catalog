@@ -64,4 +64,10 @@
     return self;
 }
 
+-(IWModel *)withBucketMask:(NSString*)bucketMask
+{
+    _bucketMask = bucketMask;
+    return self;
+}
+
 @end
