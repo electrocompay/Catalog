@@ -15,7 +15,7 @@
 
 @implementation IWPasswordView{
     
-    IBOutlet UITextField *textView;
+    IBOutlet UITextField *passTextView;
     IBOutlet UIButton *buttonValidate;
     IBOutlet UIButton *buttonRequest;
     IBOutlet UIView *leftTriangle;
@@ -47,11 +47,11 @@
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWPasswordView" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
-    [textView.layer setCornerRadius:16.0f];
+    [passTextView.layer setCornerRadius:16.0f];
     [buttonRequest.layer setCornerRadius:16.0f];
     [buttonValidate.layer setCornerRadius:16.0f];
-    [textView setText:@""];
-    [textView becomeFirstResponder];
+    [passTextView setText:@""];
+//    [passTextView becomeFirstResponder];
 }
 
 -(void)showLeftTriangle{
@@ -71,7 +71,7 @@
 -(IBAction)authenticateClick:(id)sender
 {
     
-    if ([[IWPriceManager getInstance] authenticate:[textView text]]) {
+    if ([[IWPriceManager getInstance] authenticate:[passTextView text]]) {
         if (_delegate) {
             [_delegate passwordView:self authenticateResult:YES];
             [self setHidden:YES];
@@ -82,7 +82,7 @@
 
 -(void)setHidden:(BOOL)hidden
 {
-    [textView endEditing:YES];
+    [passTextView endEditing:YES];
     [super setHidden:hidden];
 }
 

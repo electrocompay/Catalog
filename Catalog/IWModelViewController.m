@@ -112,6 +112,7 @@
     [homeMenu setDelegate:self];
     
     [passwordDialog setDelegate:self];
+
     [showSummaryButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
     showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
 }

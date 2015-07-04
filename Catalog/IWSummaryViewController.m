@@ -35,6 +35,11 @@
 }
 */
 
+-(IBAction)homeClick:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:Nil];
+}
+
 -(IBAction)closeClick:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:Nil];

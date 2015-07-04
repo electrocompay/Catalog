@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSummaryViewController">
@@ -15,9 +15,6 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo joli.png" translatesAutoresizingMaskIntoConstraints="NO" id="7oP-WY-DYn">
-                    <rect key="frame" x="20" y="32" width="155" height="75"/>
-                </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFK-QW-XhL">
                     <rect key="frame" x="20" y="115" width="981" height="35"/>
                     <subviews>
@@ -31,8 +28,8 @@
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFE-Il-g6g">
-                    <rect key="frame" x="927" y="40" width="60" height="60"/>
-                    <state key="normal" title="Button" image="summary_close.png">
+                    <rect key="frame" x="945" y="40" width="60" height="60"/>
+                    <state key="normal" title="Button" image="menu_home.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -70,6 +67,15 @@
                     <rect key="frame" x="0.0" y="150" width="1024" height="618"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCB-VQ-Kpg">
+                    <rect key="frame" x="13" y="4" width="69" height="77"/>
+                    <state key="normal" image="logo joli.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="homeClick:" destination="-1" eventType="touchUpInside" id="RMQ-h4-sh0"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -79,8 +85,8 @@
         </view>
     </objects>
     <resources>
-        <image name="logo joli.png" width="181" height="91"/>
-        <image name="summary_close.png" width="211" height="211"/>
+        <image name="logo joli.png" width="179" height="207"/>
+        <image name="menu_home.png" width="70" height="71"/>
         <image name="summary_email.png" width="211" height="211"/>
         <image name="summary_print.png" width="211" height="211"/>
         <image name="summary_save.png" width="211" height="211"/>
