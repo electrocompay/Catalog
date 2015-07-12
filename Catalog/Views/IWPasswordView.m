@@ -70,7 +70,6 @@
 
 -(IBAction)authenticateClick:(id)sender
 {
-    
     if ([[IWPriceManager getInstance] authenticate:[passTextView text]]) {
         if (_delegate) {
             [_delegate passwordView:self authenticateResult:YES];

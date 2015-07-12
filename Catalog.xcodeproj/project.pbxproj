@@ -20,11 +20,11 @@
 		4C1F90A7192EF06A00AAB2E1 /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F90A4192EF06900AAB2E1 /* cat1.png */; };
 		4C1F90A8192EF06A00AAB2E1 /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F90A4192EF06900AAB2E1 /* cat1.png */; };
 		4C1F91C4192F172B00AAB2E1 /* 0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9168192F172A00AAB2E1 /* 0001.jpg */; };
-		4C1F91C6192F172B00AAB2E1 /* Antraciet 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9169192F172A00AAB2E1 /* Antraciet 25.jpg */; };
-		4C1F91C8192F172B00AAB2E1 /* Antraciet 25@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916A192F172A00AAB2E1 /* Antraciet 25@2x.jpg */; };
-		4C1F91CA192F172B00AAB2E1 /* Antraciet 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916B192F172A00AAB2E1 /* Antraciet 26.jpg */; };
+		4C1F91C6192F172B00AAB2E1 /* Antracite 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9169192F172A00AAB2E1 /* Antracite 25.jpg */; };
+		4C1F91C8192F172B00AAB2E1 /* Antracite 25@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916A192F172A00AAB2E1 /* Antracite 25@2x.jpg */; };
+		4C1F91CA192F172B00AAB2E1 /* Antracite 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916B192F172A00AAB2E1 /* Antracite 26.jpg */; };
 		4C1F91CC192F172B00AAB2E1 /* Antraciet 605.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916C192F172A00AAB2E1 /* Antraciet 605.jpg */; };
-		4C1F91CE192F172B00AAB2E1 /* Antraciet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916D192F172A00AAB2E1 /* Antraciet.jpg */; };
+		4C1F91CE192F172B00AAB2E1 /* Antracite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916D192F172A00AAB2E1 /* Antracite.jpg */; };
 		4C1F91D0192F172B00AAB2E1 /* Antracite 605.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916E192F172A00AAB2E1 /* Antracite 605.jpg */; };
 		4C1F91D2192F172B00AAB2E1 /* Antracite 605@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916F192F172A00AAB2E1 /* Antracite 605@2x.jpg */; };
 		4C1F91D4192F172B00AAB2E1 /* Aubergine 77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9170192F172A00AAB2E1 /* Aubergine 77.jpg */; };
@@ -1167,11 +1167,11 @@
 		4C6E90A8193763E3003EA44C /* No Stripe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */; };
 		4C6E90A9193763E3003EA44C /* No Stripe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */; };
 		4C6E90AA193763E3003EA44C /* 0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9168192F172A00AAB2E1 /* 0001.jpg */; };
-		4C6E90AB193763E3003EA44C /* Antraciet 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9169192F172A00AAB2E1 /* Antraciet 25.jpg */; };
-		4C6E90AC193763E3003EA44C /* Antraciet 25@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916A192F172A00AAB2E1 /* Antraciet 25@2x.jpg */; };
-		4C6E90AD193763E3003EA44C /* Antraciet 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916B192F172A00AAB2E1 /* Antraciet 26.jpg */; };
+		4C6E90AB193763E3003EA44C /* Antracite 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9169192F172A00AAB2E1 /* Antracite 25.jpg */; };
+		4C6E90AC193763E3003EA44C /* Antracite 25@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916A192F172A00AAB2E1 /* Antracite 25@2x.jpg */; };
+		4C6E90AD193763E3003EA44C /* Antracite 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916B192F172A00AAB2E1 /* Antracite 26.jpg */; };
 		4C6E90AE193763E3003EA44C /* Antraciet 605.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916C192F172A00AAB2E1 /* Antraciet 605.jpg */; };
-		4C6E90AF193763E3003EA44C /* Antraciet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916D192F172A00AAB2E1 /* Antraciet.jpg */; };
+		4C6E90AF193763E3003EA44C /* Antracite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916D192F172A00AAB2E1 /* Antracite.jpg */; };
 		4C6E90B0193763E3003EA44C /* Antracite 605.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916E192F172A00AAB2E1 /* Antracite 605.jpg */; };
 		4C6E90B1193763E3003EA44C /* Antracite 605@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F916F192F172A00AAB2E1 /* Antracite 605@2x.jpg */; };
 		4C6E90B2193763E3003EA44C /* Aubergine 77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F9170192F172A00AAB2E1 /* Aubergine 77.jpg */; };
@@ -7591,6 +7591,8 @@
 		7BEBDC1B1A6D1B00009F27AA /* table_mesurements.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC171A6D1B00009F27AA /* table_mesurements.png */; };
 		7BEBDC1C1A6D1B00009F27AA /* dinning_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC181A6D1B00009F27AA /* dinning_pic.png */; };
 		7BEBDC1E1A6D1F20009F27AA /* logo joli.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBDC1D1A6D1F20009F27AA /* logo joli.png */; };
+		9E2C8F311B49F0430082128C /* belux_chair_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */; };
+		9E2C8F321B49F0430082128C /* belux_table_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F301B49F0420082128C /* belux_table_prices_2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -7623,11 +7625,11 @@
 		4C1F90A3192EF06900AAB2E1 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
 		4C1F90A4192EF06900AAB2E1 /* cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat1.png; sourceTree = "<group>"; };
 		4C1F9168192F172A00AAB2E1 /* 0001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0001.jpg; sourceTree = "<group>"; };
-		4C1F9169192F172A00AAB2E1 /* Antraciet 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antraciet 25.jpg"; sourceTree = "<group>"; };
-		4C1F916A192F172A00AAB2E1 /* Antraciet 25@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antraciet 25@2x.jpg"; sourceTree = "<group>"; };
-		4C1F916B192F172A00AAB2E1 /* Antraciet 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antraciet 26.jpg"; sourceTree = "<group>"; };
+		4C1F9169192F172A00AAB2E1 /* Antracite 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antracite 25.jpg"; sourceTree = "<group>"; };
+		4C1F916A192F172A00AAB2E1 /* Antracite 25@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antracite 25@2x.jpg"; sourceTree = "<group>"; };
+		4C1F916B192F172A00AAB2E1 /* Antracite 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antracite 26.jpg"; sourceTree = "<group>"; };
 		4C1F916C192F172A00AAB2E1 /* Antraciet 605.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antraciet 605.jpg"; sourceTree = "<group>"; };
-		4C1F916D192F172A00AAB2E1 /* Antraciet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Antraciet.jpg; sourceTree = "<group>"; };
+		4C1F916D192F172A00AAB2E1 /* Antracite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Antracite.jpg; sourceTree = "<group>"; };
 		4C1F916E192F172A00AAB2E1 /* Antracite 605.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antracite 605.jpg"; sourceTree = "<group>"; };
 		4C1F916F192F172A00AAB2E1 /* Antracite 605@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antracite 605@2x.jpg"; sourceTree = "<group>"; };
 		4C1F9170192F172A00AAB2E1 /* Aubergine 77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aubergine 77.jpg"; sourceTree = "<group>"; };
@@ -15093,6 +15095,8 @@
 		7BEBDC171A6D1B00009F27AA /* table_mesurements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_mesurements.png; sourceTree = "<group>"; };
 		7BEBDC181A6D1B00009F27AA /* dinning_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinning_pic.png; sourceTree = "<group>"; };
 		7BEBDC1D1A6D1F20009F27AA /* logo joli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo joli.png"; sourceTree = "<group>"; };
+		9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_chair_prices_2.json; path = Catalog/Resources/belux_chair_prices_2.json; sourceTree = SOURCE_ROOT; };
+		9E2C8F301B49F0420082128C /* belux_table_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_table_prices_2.json; path = Catalog/Resources/belux_table_prices_2.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15157,11 +15161,11 @@
 				4C1F92D8192F6C7400AAB2E1 /* No Stripe.jpg */,
 				4C1F92D9192F6C7400AAB2E1 /* No Stripe@2x.jpg */,
 				4C1F9168192F172A00AAB2E1 /* 0001.jpg */,
-				4C1F9169192F172A00AAB2E1 /* Antraciet 25.jpg */,
-				4C1F916A192F172A00AAB2E1 /* Antraciet 25@2x.jpg */,
-				4C1F916B192F172A00AAB2E1 /* Antraciet 26.jpg */,
+				4C1F9169192F172A00AAB2E1 /* Antracite 25.jpg */,
+				4C1F916A192F172A00AAB2E1 /* Antracite 25@2x.jpg */,
+				4C1F916B192F172A00AAB2E1 /* Antracite 26.jpg */,
 				4C1F916C192F172A00AAB2E1 /* Antraciet 605.jpg */,
-				4C1F916D192F172A00AAB2E1 /* Antraciet.jpg */,
+				4C1F916D192F172A00AAB2E1 /* Antracite.jpg */,
 				4C1F916E192F172A00AAB2E1 /* Antracite 605.jpg */,
 				4C1F916F192F172A00AAB2E1 /* Antracite 605@2x.jpg */,
 				4C1F9170192F172A00AAB2E1 /* Aubergine 77.jpg */,
@@ -21123,7 +21127,9 @@
 				7B5589AF1AA7FEC7007FA8D7 /* summary_email.png */,
 				7B5589B01AA7FEC7007FA8D7 /* summary_save.png */,
 				7B5589A41AA5BC1D007FA8D7 /* belux_chair_prices.json */,
+				9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */,
 				7B5589A21AA3F48E007FA8D7 /* belux_table_prices.json */,
+				9E2C8F301B49F0420082128C /* belux_table_prices_2.json */,
 				7BE90A1A1A7675B90008711F /* email.png */,
 				7BE90A1B1A7675B90008711F /* cofee_pic.png */,
 				7BEBDC1D1A6D1F20009F27AA /* logo joli.png */,
@@ -23869,13 +23875,14 @@
 				7B67F0A91B037A6700EB79AE /* Largo consola-00-26-A.png in Resources */,
 				4C63B9BA19872A7C00833622 /* Renoir-A-09-27-A.png in Resources */,
 				7B67EA8D1B02E6DA00EB79AE /* Renoir Bar-AW-05-28-A.png in Resources */,
+				9E2C8F321B49F0430082128C /* belux_table_prices_2.json in Resources */,
 				7B67E9E81B02E6DA00EB79AE /* Gaugin-A-10-30-B.png in Resources */,
 				7B67E7721B02E6DA00EB79AE /* Monet-W-50-28-B.png in Resources */,
 				7BEBDC0E1A6A0669009F27AA /* radio_selected.png in Resources */,
 				7B67EA911B02E6DA00EB79AE /* Renoir Bar-AW-04-28-A.png in Resources */,
 				7B67E98B1B02E6DA00EB79AE /* Monet-B-11-28-A.png in Resources */,
 				7B67E9991B02E6DA00EB79AE /* Angelina-AW-17-28-B.png in Resources */,
-				4C1F91CA192F172B00AAB2E1 /* Antraciet 26.jpg in Resources */,
+				4C1F91CA192F172B00AAB2E1 /* Antracite 26.jpg in Resources */,
 				7B67F11A1B037A6700EB79AE /* Chrominox XL-70-00-B-00.png in Resources */,
 				7B67E90B1B02E6DA00EB79AE /* Angelina low-AL-15-28-B.png in Resources */,
 				7B67EC091B02FA9C00EB79AE /* Renoir-A-45-27-B.png in Resources */,
@@ -23938,7 +23945,7 @@
 				7B67E9781B02E6DA00EB79AE /* Monet-B-13-28-B.png in Resources */,
 				7B67F04C1B037A6700EB79AE /* Wings raco-41-00-A.png in Resources */,
 				7B67EA191B02E6DA00EB79AE /* Angelina Bar-W-13-28-A.png in Resources */,
-				4C1F91C8192F172B00AAB2E1 /* Antraciet 25@2x.jpg in Resources */,
+				4C1F91C8192F172B00AAB2E1 /* Antracite 25@2x.jpg in Resources */,
 				4C63B9B919872A7C00833622 /* Renoir-S-07-27-A.png in Resources */,
 				4C63B9A419872A7C00833622 /* Renoir-AW-14-27-B.png in Resources */,
 				7B67F0531B037A6700EB79AE /* Wings raco-00-26-A.png in Resources */,
@@ -24048,7 +24055,7 @@
 				4C63BBCC19872A7E00833622 /* Ensor-A-18-27-B.png in Resources */,
 				7B67F1321B037A6700EB79AE /* Chrominox XL-00-00-A-37.png in Resources */,
 				7B67EA1E1B02E6DA00EB79AE /* Angelina Bar-W-10-28-A.png in Resources */,
-				4C1F91CE192F172B00AAB2E1 /* Antraciet.jpg in Resources */,
+				4C1F91CE192F172B00AAB2E1 /* Antracite.jpg in Resources */,
 				7B67EAE51B02E6DA00EB79AE /* Angelina-B-07-28-B.png in Resources */,
 				7B67EFD61B037A6700EB79AE /* Facet raco-29-00-A.png in Resources */,
 				7B67F2241B037A6700EB79AE /* Propeller cafe-00-23-B.png in Resources */,
@@ -25912,7 +25919,7 @@
 				4C63BA8F19872A7D00833622 /* Monet-AW-14-27-A.png in Resources */,
 				7B67E8FB1B02E6DA00EB79AE /* Angelina Bar-A-13-28-A.png in Resources */,
 				7B67E8E61B02E6DA00EB79AE /* Angelina Bar-A-16-28-B.png in Resources */,
-				4C1F91C6192F172B00AAB2E1 /* Antraciet 25.jpg in Resources */,
+				4C1F91C6192F172B00AAB2E1 /* Antracite 25.jpg in Resources */,
 				4C63BB8919872A7E00833622 /* Largo-00-26-A.png in Resources */,
 				7B67EA8B1B02E6DA00EB79AE /* Renoir Bar-AW-07-28-A.png in Resources */,
 				7B67F06F1B037A6700EB79AE /* Chrominox consola-29-27-A.png in Resources */,
@@ -25921,6 +25928,7 @@
 				7B0E7E501B27C829000742C5 /* Luna-33-22-A.png in Resources */,
 				7B883BC31ADC376E003415E3 /* largo wood-200x100x75 p.png in Resources */,
 				7B67EA801B02E6DA00EB79AE /* Renoir Bar-AW-02-28-B.png in Resources */,
+				9E2C8F311B49F0430082128C /* belux_chair_prices_2.json in Resources */,
 				7B67EA3E1B02E6DA00EB79AE /* Gaugin-SW-14-30-A.png in Resources */,
 				7B883C001ADC376E003415E3 /* wings-130x130x75 a.png in Resources */,
 				4C63B9BD19872A7C00833622 /* Renoir-A-10-27-B.png in Resources */,
@@ -27025,7 +27033,7 @@
 				4CEEA971191FCEB700C54B67 /* C83-2D-29-F1-1.png in Resources */,
 				4CEEAA95191FCEB700C54B67 /* C83-2Da-40-F2-3a.png in Resources */,
 				4C87D979192030BC008F59F0 /* 40-B10-35-F4.png in Resources */,
-				4C6E90AF193763E3003EA44C /* Antraciet.jpg in Resources */,
+				4C6E90AF193763E3003EA44C /* Antracite.jpg in Resources */,
 				4C87D9DB192030BC008F59F0 /* 40-B11-33-F7.png in Resources */,
 				4C87E051192030BC008F59F0 /* 55-H04-33-00-F2.png in Resources */,
 				4CEEAD0B191FCEBA00C54B67 /* C83-LDDa-30-F1-3a.png in Resources */,
@@ -27589,7 +27597,7 @@
 				4C6E90E3193763E3003EA44C /* Sahara.jpg in Resources */,
 				4C6E90CE193763E3003EA44C /* creu.gif in Resources */,
 				4C87DA19192030BC008F59F0 /* 40-B11-38-F9.png in Resources */,
-				4C6E90AB193763E3003EA44C /* Antraciet 25.jpg in Resources */,
+				4C6E90AB193763E3003EA44C /* Antracite 25.jpg in Resources */,
 				4CEEA9B1191FCEB700C54B67 /* C83-2D-33-F1-1.png in Resources */,
 				4C87E017192030BC008F59F0 /* 55-H03-37-00-F3.png in Resources */,
 				4C87DE01192030BC008F59F0 /* 55-B07-30-F5.png in Resources */,
@@ -27827,7 +27835,7 @@
 				4CEEACE3191FCEBA00C54B67 /* C83-LDD-40-F3-3.png in Resources */,
 				4CEEAC6D191FCEB900C54B67 /* C83-LDD-33-F2-2.png in Resources */,
 				4C87DEEF192030BC008F59F0 /* 55-B09-33-F2.png in Resources */,
-				4C6E90AD193763E3003EA44C /* Antraciet 26.jpg in Resources */,
+				4C6E90AD193763E3003EA44C /* Antracite 26.jpg in Resources */,
 				4CEEABB6191FCEB800C54B67 /* C83-3La-32-T-4.png in Resources */,
 				4CEEA9A7191FCEB700C54B67 /* C83-2D-32-S-1.png in Resources */,
 				4CEEAD36191FCEBA00C54B67 /* C83-LDDa-33-T-4.png in Resources */,
@@ -30560,7 +30568,7 @@
 				4CEEAB21191FCEB800C54B67 /* C83-3L-35-F3-1.png in Resources */,
 				4C87E231192030BC008F59F0 /* C193-4D-31-F.png in Resources */,
 				4CEEA8E1191FCEB600C54B67 /* C83-1D-36-T-1.png in Resources */,
-				4C6E90AC193763E3003EA44C /* Antraciet 25@2x.jpg in Resources */,
+				4C6E90AC193763E3003EA44C /* Antracite 25@2x.jpg in Resources */,
 				4CEEACE2191FCEBA00C54B67 /* C83-LDD-40-F3-2.png in Resources */,
 				4C87DD64192030BC008F59F0 /* 40-K14-31-F1.png in Resources */,
 				4C87DBA1192030BC008F59F0 /* 40-H05-33-00-F5.png in Resources */,

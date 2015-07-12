@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8D59018666B651A47C221B6355FB0FC298D34D8E</key>
-		<string>https://github.com/electrocompay/Catalog.git</string>
+		<string>https://github.com/electrocompay/Catalog</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Catalog.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/electrocompay/Catalog.git</string>
+	<string>https://github.com/electrocompay/Catalog</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

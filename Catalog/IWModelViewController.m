@@ -226,14 +226,13 @@
 
 -(void)BrowserTabView:(BrowserTabView *)browserTabView willRemoveTabAtIndex:(NSUInteger)index {
     NSLog(@"BrowserTabView WILL Remove Tab at index:  %d",(unsigned long) index);
-    
 }
 
 -(void)BrowserTabView:(BrowserTabView *)browserTabView didRemoveTabAtIndex:(NSUInteger)index{
     NSLog(@"BrowserTabView did Remove Tab at index:  %d",index);
 }
+
 -(void)BrowserTabView:(BrowserTabView *)browserTabView exchangeTabAtIndex:(NSUInteger)fromIndex withTabAtIndex:(NSUInteger)toIndex{
-    
     NSLog(@"BrowserTabView exchange Tab  at index:  %d with Tab at index :%d ",fromIndex,toIndex);
 }
 
