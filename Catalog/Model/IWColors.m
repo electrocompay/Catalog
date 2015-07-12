@@ -101,7 +101,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Xeramica"],
                         [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                        [[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                        //[[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Ice" andCode:@"43" andFile:@"Ice 43.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Greige" andCode:@"44" andFile:@"Greige 44.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"45" andFile:@"Taupe 45.jpg"] withCategory:@"Glass"],
@@ -472,7 +472,7 @@ NSArray* _cabinetDrawerColors;
                              
                              [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                              [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
-                             [[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
+                             //[[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
                              [[IWColor colorWithName:@"Grey" andCode:@"39" andFile:@"Grey 21.jpg"] withCategory:@"Glass"],
                              [[IWColor colorWithName:@"Brown" andCode:@"40" andFile:@"Brown.jpg"] withCategory:@"Glass"],
                              
