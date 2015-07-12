@@ -53,7 +53,6 @@
 {
     _items = items;
 
-    
     NSString* uniqueCategory = ((IWColor*) [_items objectAtIndex:0]).category;
     filteredList = [[NSMutableArray alloc] init];
     for (IWColor *color in _items) {
