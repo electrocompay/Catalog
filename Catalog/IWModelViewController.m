@@ -530,8 +530,17 @@
 
 -(void)updateDetails
 {
+    // Dynamically adapt font size
+    tableNameView.numberOfLines = 1;
+    tableNameView.adjustsFontSizeToFitWidth = YES;
+
     [tableNameView setText:table.model.name];
     [tableDimensionsView setText:table.size.name];
+    
+    // Dynamically adapt font size
+    chairNameView.numberOfLines = 1;
+    chairNameView.adjustsFontSizeToFitWidth = YES;
+
     [chairNameView setText:chair.model.name];
     NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];

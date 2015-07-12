@@ -83,6 +83,11 @@
     NSString* priorCategory = nil;
     for (IWColor *color in filteredList) {
             optionView = [[IWOptionView alloc] init];
+
+            // Dynamically adapt font size
+            optionView.label.numberOfLines = 1;
+            optionView.label.adjustsFontSizeToFitWidth = YES;
+
             [optionView.label setText:color.name];
             [scrollView1 addSubview:optionView];
             [subviews addObject:optionView];
@@ -132,6 +137,7 @@
     IWOptionView *optionView = (IWOptionView*) [subviews objectAtIndex:_selectedIndex];
     [subviews makeObjectsPerformSelector:@selector(clearSelection)];
     [optionView setSelected:YES];
+
     [selectedView.label setText:optionView.label.text];
     [selectedView setImage:optionView.image];
     if (_delegate) {
