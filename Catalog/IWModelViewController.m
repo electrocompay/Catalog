@@ -318,7 +318,7 @@
         [chair setLegsColor:color];
     }
     [self drawAll];
-    [self updateDetails];
+    [self updateDetails:YES];
 }
 
 -(NSArray*)colorsRemoveIndex:(NSArray*)colors index:(NSInteger)index
@@ -515,7 +515,7 @@
 - (void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectSize:(IWColor *)size
 {
     table.size = size;
-    [self updateDetails];
+    [self updateDetails:NO];
 }
 
 -(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectCofee:(BOOL)cofeeSelected
@@ -524,11 +524,11 @@
     
     tabController.tabDisabled = table.coffee ? 3 : -1;
 
-    [self updateDetails];
+    [self updateDetails:NO];
     [self drawAll];
 }
 
--(void)updateDetails
+-(void)updateDetails:(BOOL)initialization
 {
     // Dynamically adapt font size
     tableNameView.numberOfLines = 1;
@@ -551,7 +551,11 @@
     }
     [tableTopSize setImage: image];
     [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
-    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
+    
+    if(initialization == YES) {
+        [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
+    }
+    
     [self updatePrices];
 }
 
