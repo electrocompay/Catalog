@@ -15097,6 +15097,7 @@
 		7BEBDC1D1A6D1F20009F27AA /* logo joli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo joli.png"; sourceTree = "<group>"; };
 		9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_chair_prices_2.json; path = Catalog/Resources/belux_chair_prices_2.json; sourceTree = SOURCE_ROOT; };
 		9E2C8F301B49F0420082128C /* belux_table_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_table_prices_2.json; path = Catalog/Resources/belux_table_prices_2.json; sourceTree = SOURCE_ROOT; };
+		9E9FFEF81B559AFE00D2C253 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15329,6 +15330,7 @@
 		4C6DC30018A73E89005007A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E9FFEF81B559AFE00D2C253 /* Constants.h */,
 				5DEFCB7019AD803C00A994CD /* Splash_Tables_1536x2048.png */,
 				5DEFCB7119AD803C00A994CD /* Splash_Tables_768x1024.png */,
 				4C513F50193D6B81006A3750 /* 144n.png */,

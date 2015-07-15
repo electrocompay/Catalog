@@ -1,0 +1,22 @@
+//
+//  Constants.h
+//  Catalog
+//
+//  Created by Alejandro Molina Quiroga on 7/14/15.
+//  Copyright (c) 2015 Indian Webs. All rights reserved.
+//
+
+#ifndef Catalog_Constants_h
+#define Catalog_Constants_h
+
+
+typedef enum {
+    kFirstPriceList,
+    kSecondPriceList
+} priceListEnum;
+
+//static const int kAutoRefreshInterval = 40;
+static NSString *kList1Pass = @"qwerty";
+static NSString *kList2Pass = @"asdfgh";
+
+#endif

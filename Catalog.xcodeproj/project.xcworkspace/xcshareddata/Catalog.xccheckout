@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>ECE5B5CF-02D4-4850-B96A-881C0CC10375</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Catalog</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8D59018666B651A47C221B6355FB0FC298D34D8E</key>
 		<string>https://github.com/electrocompay/Catalog</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Catalog.xcodeproj</string>
+	<string>Catalog.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8D59018666B651A47C221B6355FB0FC298D34D8E</key>

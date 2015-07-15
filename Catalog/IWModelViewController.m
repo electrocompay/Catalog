@@ -507,6 +507,9 @@
             [passwordDialog setHidden:YES];
         }
     }
+    
+    // Enable keyboard
+    [passwordDialog.passTextView becomeFirstResponder];
 }
 
 

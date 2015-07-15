@@ -18,11 +18,11 @@
 
 @interface IWPasswordView : UIView
 
-
 -(void)showLeftTriangle;
 -(void)showRightTriangle;
 -(BOOL)isLeftVisible;
 
 @property (nonatomic, weak) id<IWPasswordViewDelegate> delegate;
+@property (nonatomic, strong) IBOutlet UITextField *passTextView;
 
 @end

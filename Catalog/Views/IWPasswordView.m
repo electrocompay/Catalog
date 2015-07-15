@@ -15,7 +15,6 @@
 
 @implementation IWPasswordView{
     
-    IBOutlet UITextField *passTextView;
     IBOutlet UIButton *buttonValidate;
     IBOutlet UIButton *buttonRequest;
     IBOutlet UIView *leftTriangle;
@@ -47,10 +46,10 @@
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWPasswordView" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
-    [passTextView.layer setCornerRadius:16.0f];
+    [self.passTextView.layer setCornerRadius:16.0f];
     [buttonRequest.layer setCornerRadius:16.0f];
     [buttonValidate.layer setCornerRadius:16.0f];
-    [passTextView setText:@""];
+    [self.passTextView setText:@""];
 //    [passTextView becomeFirstResponder];
 }
 
@@ -70,18 +69,29 @@
 
 -(IBAction)authenticateClick:(id)sender
 {
-    if ([[IWPriceManager getInstance] authenticate:[passTextView text]]) {
+    if ([[IWPriceManager getInstance] authenticate:[self.passTextView text]]) {
         if (_delegate) {
             [_delegate passwordView:self authenticateResult:YES];
             [self setHidden:YES];
         }
+    }
+    else {
+        // Invalid Password
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Invalid Password"
+                                                        message:@"The password entered is not valid. Please try again."
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil];
+        [alert show];
+        [self.passTextView setText:@""];
+        [self.passTextView becomeFirstResponder];
     }
 }
 
 
 -(void)setHidden:(BOOL)hidden
 {
-    [passTextView endEditing:YES];
+    [self.passTextView endEditing:YES];
     [super setHidden:hidden];
 }
 

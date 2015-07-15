@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Indian Webs. All rights reserved.
 //
 
+#import "Constants.h"
 #import "IWPriceManager.h"
 
 NSString *const AUTHENTICATED_FIELD = @"authenticated";
@@ -16,6 +17,8 @@ NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 IWPriceManager *pricemanager;
 NSDictionary *tablePriceList;
 NSDictionary *chairPriceList;
+
+priceListEnum priceList;
 
 @implementation IWPriceManager
 
@@ -93,19 +96,36 @@ NSDictionary *chairPriceList;
 
 -(BOOL)authenticate:(NSString *)authenticationCode
 {
-    if (YES) {
-        NSUserDefaults *userDefaults = [[NSUserDefaults alloc] init];
-        [userDefaults setValue:[NSNumber numberWithBool:YES] forKey:AUTHENTICATED_FIELD];
+    if ([authenticationCode isEqualToString:kList1Pass]) {
+        [self savePasswordValidation];
+        priceList = kFirstPriceList;
         return YES;
     }
+    else if ([authenticationCode isEqualToString:kList2Pass]) {
+        [self savePasswordValidation];
+        priceList = kSecondPriceList;
+        return YES;
+    }
+    
     return NO;
+}
+    
+-(void)savePasswordValidation {
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] init];
+    [userDefaults setValue:[NSNumber numberWithBool:YES] forKey:AUTHENTICATED_FIELD];
 }
 
 -(NSDictionary*)loadPriceList:(NSString*)name
 {
 
-    NSString *filename = [NSString stringWithFormat:@"%@_%@_%@", PRICE_LIST_PREFIX, name, @"prices"];
+    NSString *priceListString;
     
+    priceListString = @"prices";
+    if (priceList == kSecondPriceList) {
+        priceListString = @"prices_2";
+    }
+    
+    NSString *filename = [NSString stringWithFormat:@"%@_%@_%@", PRICE_LIST_PREFIX, name, priceListString];
     NSString *fullName =[[NSBundle mainBundle] pathForResource:filename ofType:@"json"];
 
     NSData *data = [NSData dataWithContentsOfFile:fullName];
