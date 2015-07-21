@@ -8,7 +8,11 @@
             <connections>
                 <outlet property="btCofeeTable" destination="m4e-uz-Jod" id="3Em-Uv-duk"/>
                 <outlet property="btDinningTable" destination="8jQ-W8-jzT" id="1g5-B7-QJG"/>
+                <outlet property="btWallTable" destination="Wgd-GO-oEz" id="kdJ-En-TG9"/>
                 <outlet property="headerLabel" destination="eXx-fW-MhE" id="Ujh-UP-PIj"/>
+                <outlet property="lbCofeeTable" destination="XMk-RV-B96" id="PBu-aY-n0a"/>
+                <outlet property="lbDinningTable" destination="ZTF-M3-2F6" id="He6-1H-tXh"/>
+                <outlet property="lbWallTable" destination="ynQ-dQ-7BU" id="cIg-gv-faU"/>
                 <outlet property="marker" destination="dCV-Uq-R9m" id="IPG-Mw-Z1s"/>
                 <outlet property="marker_back" destination="NEO-si-LnM" id="1CC-nb-5Qo"/>
                 <outlet property="pickerSize" destination="Ht1-Rr-TAb" id="FW9-J1-eZM"/>
@@ -71,7 +75,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4e-uz-Jod">
-                    <rect key="frame" x="670" y="133" width="25" height="25"/>
+                    <rect key="frame" x="670" y="150" width="25" height="25"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <state key="normal" backgroundImage="radio_unselected.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,19 +88,19 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinning table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTF-M3-2F6">
-                    <rect key="frame" x="701" y="84" width="95" height="21"/>
+                    <rect key="frame" x="705" y="82" width="95" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coffee table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMk-RV-B96">
-                    <rect key="frame" x="703" y="135" width="88" height="21"/>
+                    <rect key="frame" x="705" y="152" width="95" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jQ-W8-jzT">
-                    <rect key="frame" x="670" y="82" width="25" height="25"/>
+                    <rect key="frame" x="670" y="80" width="25" height="25"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <state key="normal" backgroundImage="radio_unselected.png">
                         <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -112,6 +116,25 @@
                 <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ht1-Rr-TAb" customClass="IWSimplePickerViewController">
                     <rect key="frame" x="836" y="78" width="165" height="100"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgd-GO-oEz">
+                    <rect key="frame" x="670" y="115" width="25" height="25"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="radio_unselected.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="radio_selected.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="changeTypeClicked:" destination="-1" eventType="touchUpInside" id="90k-Rc-Zzi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wall table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynQ-dQ-7BU">
+                    <rect key="frame" x="705" y="117" width="95" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>

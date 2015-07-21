@@ -16,7 +16,7 @@
     if (self = [super init]) {
         _color =  [[IWColors tableColors] colorByCode:@"29"];
         _legsColor = [[IWColors tableLegColors] colorByCode:@"27"];
-        _coffee = NO;
+        _tableType = kDinningTable;
     }
     
     return self;

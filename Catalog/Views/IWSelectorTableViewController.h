@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 #import "IWSelectorViewController.h"
 #import "IWSimplePickerViewController.h"
 
@@ -15,12 +16,13 @@
 @protocol IWSelectorTableViewControllerDelegate<NSObject>
 
 - (void) selectorTableViewController: (IWSelectorTableViewController*) selectorTableViewController didSelectSize:(IWColor*) size;
-- (void) selectorTableViewController: (IWSelectorTableViewController*) selectorTableViewController didSelectCofee:(BOOL) cofeeSelected;
+- (void) selectorTableViewController: (IWSelectorTableViewController*) selectorTableViewController didSelectOther:(tableTypeEnum) tableType;
 
 @end
 
 @interface IWSelectorTableViewController : IWSelectorViewController<IWSimplePickerViewControllerDelegate>
 
+@property (nonatomic, assign) tableTypeEnum tableType;
 @property (nonatomic, weak) id<IWSelectorTableViewControllerDelegate> tableDelegate;
 -(void)loadSizes;
 

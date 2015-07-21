@@ -253,7 +253,7 @@
     if (selectorViewController == selectorTableModelView)
     {
         [table setModel:(IWModel*) color];
-        [table setCoffee:NO];
+        [table setTableType:kDinningTable];
     } else if (selectorViewController == selectorTableColorView)
     {
         [table setColor:color];
@@ -318,7 +318,7 @@
         [chair setLegsColor:color];
     }
     [self drawAll];
-    [self updateDetails:YES];
+    [self updateDetailsWithInitOption:YES];
 }
 
 -(NSArray*)colorsRemoveIndex:(NSArray*)colors index:(NSInteger)index
@@ -339,7 +339,7 @@
 {
     [drawer clear];
     
-    if (!table.coffee) {
+    if (table.tableType == kDinningTable) {
         [drawerChair drawForniture:chair];
     }
     [drawer drawForniture:table];
@@ -347,7 +347,7 @@
     [thumbDrawer setFrontView:!drawer.frontView];
 
     [thumbDrawer clear];
-    if (!table.coffee) {
+    if (table.tableType == kDinningTable) {
         [thumbDrawerChair drawForniture:chair];
     }
     [thumbDrawer drawForniture:table];
@@ -518,20 +518,24 @@
 - (void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectSize:(IWColor *)size
 {
     table.size = size;
-    [self updateDetails:NO];
+    [self updateDetailsWithInitOption:NO];
 }
 
--(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectCofee:(BOOL)cofeeSelected
+-(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectOther:(tableTypeEnum)tableType
 {
-    table.coffee = cofeeSelected;
+    table.tableType = tableType;
     
-    tabController.tabDisabled = table.coffee ? 3 : -1;
+    // Disable Chair models and colors
+    tabController.tabDisabled = -1;
+    if ((tableType == kWallTable) || (tableType == kCoffeeTable)) {
+        tabController.tabDisabled = 3;
+    }
 
-    [self updateDetails:NO];
+    [self updateDetailsWithInitOption:NO];
     [self drawAll];
 }
 
--(void)updateDetails:(BOOL)initialization
+-(void)updateDetailsWithInitOption:(BOOL)initialization
 {
     // Dynamically adapt font size
     tableNameView.numberOfLines = 1;

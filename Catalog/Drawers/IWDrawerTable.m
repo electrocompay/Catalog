@@ -22,21 +22,21 @@
         replaceString = @"-A.png";
     }
     NSString *filename = [table.model.file stringByReplacingOccurrencesOfString:@".jpg" withString:replaceString];
-    if (table.coffee) {
+    if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
     [self addLayer:filename];
 
     NSString *tableCode = [table.model.code stringByAppendingString:replaceString];
     filename = [tableCode stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
-    if (table.coffee) {
+    if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
     filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
     [self addLayer:filename];
 
     filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:table.color.code];
-    if (table.coffee) {
+    if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
     filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];

@@ -6,9 +6,11 @@
 //  Copyright (c) 2014 Indian Webs. All rights reserved.
 //
 
+#import "Constants.h"
 #import "IWForniture.h"
 #import "IWColor.h"
 #import "IWModel.h"
+
 
 @interface IWTable : IWForniture
 
@@ -16,6 +18,6 @@
 @property (nonatomic, strong) IWColor* color;
 @property (nonatomic, strong) IWColor* legsColor;
 @property (nonatomic, strong) IWColor* size;
-@property (nonatomic) BOOL coffee;
+@property (nonatomic, assign) tableTypeEnum tableType;
 
 @end

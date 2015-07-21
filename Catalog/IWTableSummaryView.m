@@ -99,7 +99,17 @@
 -(void)updateAttributes
 {
     [_tableModel setText:_table.model.name];
-    _tableType.text = _table.coffee ? @"Coffee table" : @"Dinning table";
+    
+    if (_table.tableType == kDinningTable) {
+        _tableType.text = kDinningTableText;
+    }
+    else if (_table.tableType == kWallTable) {
+        _tableType.text = kWallTableText;
+    }
+    else if (_table.tableType == kCoffeeTable) {
+        _tableType.text = kCoffeeTableText;
+    }
+    
     [_tableSize setText:_table.size.name];
     [_tableColor setText:_table.color.name];
     [_tableLegsColor setText:_table.legsColor.name];
@@ -117,7 +127,6 @@
     [_chairTotalPrice setText:[NSString stringWithFormat:@"%.0f €", chairPrice]];
 
     [_grandTotalPrice setText:[NSString stringWithFormat:@"%.0f €", chairPrice + tablePrice]];
-
 }
 
 @end
