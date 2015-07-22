@@ -47,6 +47,7 @@
     IBOutlet UILabel*  _chairTotalQty;
     IBOutlet UIButton* _chairDecrementQty;
     IBOutlet UIButton* _chairIncrementQty;
+    IBOutlet UILabel*  _chairQtyMessage;
     
     IBOutlet UILabel* _chairTotalPrice;
     
@@ -78,7 +79,6 @@
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWTableSummaryView" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
-    _chairCounter = 1;
 }
 
 -(void)showSummaryForTable:(IWTable *)table andChair:(IWChair *)chair
@@ -90,30 +90,62 @@
     _chairUnitPrice = [[IWPriceManager getInstance] getChairPrice:_chair];
     
     IWDrawerTable* tableDrawer = [[IWDrawerTable alloc] init];
-    IWDrawerChair* chairDrawer = [[IWDrawerChair alloc] init];
 
     [tableDrawer setView:_topView];
     [tableDrawer setFrontView:NO];
-    [chairDrawer setView:_topView];
-    [chairDrawer setFrontView:NO];
     
     [tableDrawer drawForniture:_table];
-    [chairDrawer drawForniture:_chair];
     
     [tableDrawer setView:_frontView];
     [tableDrawer setFrontView:YES];
-    [chairDrawer setView:_frontView];
-    [chairDrawer setFrontView:YES];
     
     [tableDrawer drawForniture:_table];
-    [chairDrawer drawForniture:_chair];
     
+    [_chairQtyMessage setText:kChairsNotAvailableMessage];
+    [self enableIncDecButtons:NO];
+    
+    // Only Dinning Table goes with chairs
+    _chairCounter = 0;
+    if (_table.tableType == kDinningTable) {
+        _chairCounter = 1;
+        
+        IWDrawerChair* chairDrawer = [[IWDrawerChair alloc] init];
+        
+        [chairDrawer setView:_topView];
+        [chairDrawer setFrontView:NO];
+        
+        [chairDrawer drawForniture:_chair];
+        
+        [chairDrawer setView:_frontView];
+        [chairDrawer setFrontView:YES];
+        
+        [chairDrawer drawForniture:_chair];
+        
+        [self enableIncDecButtons:YES];
+        [_chairQtyMessage setText:kSelectChairsNumberMessage];
+    }
+
     // Initial Price values
     _tableSubTotalPrice = _tableUnitPrice;
-    _chairSubTotalPrice = _chairUnitPrice;
+    _chairSubTotalPrice = _chairUnitPrice*_chairCounter;
     _grandSubTotalPrice = _tableSubTotalPrice + _chairSubTotalPrice;
     
     [self updateAttributes];
+}
+
+-(void)enableIncDecButtons:(BOOL)enable {
+    if (enable == YES) {
+        _chairDecrementQty.enabled = YES;
+        _chairIncrementQty.enabled = YES;
+        _chairDecrementQty.alpha = 1;
+        _chairIncrementQty.alpha = 1;
+    }
+    else {
+        _chairDecrementQty.enabled = NO;
+        _chairIncrementQty.enabled = NO;
+        _chairDecrementQty.alpha = 0.4;
+        _chairIncrementQty.alpha = 0.4;
+    }
 }
 
 -(IBAction)decrementChairNumber:(id)sender {
@@ -170,7 +202,7 @@
     [_tablePrice setText:[NSString stringWithFormat:@"%.0f €", _tableUnitPrice]];
     [_tableTotalPrice setText:[NSString stringWithFormat:@"%.0f €", _tableSubTotalPrice]];
     
-    [_chairPrice setText:[NSString stringWithFormat:@"%.0f €", _chairUnitPrice]];
+    [_chairPrice setText:[NSString stringWithFormat:@"%.0f €", _chairSubTotalPrice]];
     [_chairTotalPrice setText:[NSString stringWithFormat:@"%.0f €", _chairSubTotalPrice]];
     
     [_grandTotalPrice setText:[NSString stringWithFormat:@"%.0f €", _grandSubTotalPrice]];

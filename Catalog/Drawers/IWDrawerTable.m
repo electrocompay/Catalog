@@ -25,6 +25,10 @@
     if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
+    else if (table.tableType == kWallTable) {
+        filename = [self addWallText:filename];
+    }
+    
     [self addLayer:filename];
 
     NSString *tableCode = [table.model.code stringByAppendingString:replaceString];
@@ -32,6 +36,10 @@
     if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
+    else if (table.tableType == kWallTable) {
+        filename = [self addWallText:filename];
+    }
+
     filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
     [self addLayer:filename];
 
@@ -39,6 +47,10 @@
     if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
     }
+    else if (table.tableType == kWallTable) {
+        filename = [self addWallText:filename];
+    }
+
     filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
     [self addLayer:filename];
 }
@@ -53,7 +65,18 @@
     }
     
     return convertedText;
+}
+
+-(NSString*)addWallText:(NSString*)text{
+    NSString *convertedText = text;
+    NSRange rOriginal = [convertedText rangeOfString: @"-"];
+    if (NSNotFound != rOriginal.location) {
+        convertedText = [convertedText
+                         stringByReplacingCharactersInRange: rOriginal
+                         withString:                         @" consola-"];
+    }
     
+    return convertedText;
 }
 
 @end

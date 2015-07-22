@@ -342,6 +342,7 @@
     if (table.tableType == kDinningTable) {
         [drawerChair drawForniture:chair];
     }
+    
     [drawer drawForniture:table];
     [thumbDrawerChair setFrontView:!drawer.frontView];
     [thumbDrawer setFrontView:!drawer.frontView];
@@ -527,7 +528,7 @@
     
     // Disable Chair models and colors
     tabController.tabDisabled = -1;
-    if ((tableType == kWallTable) || (tableType == kCoffeeTable)) {
+    if (tableType != kDinningTable) {
         tabController.tabDisabled = 3;
     }
 

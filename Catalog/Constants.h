@@ -29,4 +29,7 @@ static NSString *kDinningTableText = @"Dinning table";
 static NSString *kWallTableText = @"Wall table";
 static NSString *kCoffeeTableText = @"Coffee table";
 
+static NSString *kSelectChairsNumberMessage = @"Select chairs number";
+static NSString *kChairsNotAvailableMessage = @"Chairs not available for this table type";
+
 #endif

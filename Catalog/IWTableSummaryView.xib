@@ -12,6 +12,7 @@
                 <outlet property="_chairLegsColor" destination="SjO-Ja-uNO" id="xwH-Gt-iti"/>
                 <outlet property="_chairModel" destination="SkM-YH-yQl" id="j01-Uy-GIo"/>
                 <outlet property="_chairPrice" destination="sQm-LI-5YE" id="Rei-P6-wD7"/>
+                <outlet property="_chairQtyMessage" destination="aOq-VI-K29" id="Je3-Ss-MbS"/>
                 <outlet property="_chairTotalPrice" destination="XRH-OY-24t" id="wr1-sN-twt"/>
                 <outlet property="_chairTotalQty" destination="JPO-XH-5oR" id="qvf-QV-T3g"/>
                 <outlet property="_frontView" destination="DJG-n6-lIm" id="KZ5-1H-KNO"/>
@@ -278,7 +279,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select chairs number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOq-VI-K29">
-                    <rect key="frame" x="643" y="375" width="146" height="21"/>
+                    <rect key="frame" x="643" y="375" width="270" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
