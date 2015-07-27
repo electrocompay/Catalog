@@ -21,6 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Set Cabinets Title
+    [self setTitle:@"CABINETS CONFIGURATION RESUME"];
+    
     _cabinetSummaryView = [[IWCabinetSummaryView alloc] init];
     [viewContainer addSubview:_cabinetSummaryView];
     [self showSummary];

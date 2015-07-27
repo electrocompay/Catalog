@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSummaryViewController">
             <connections>
+                <outlet property="summaryTitle" destination="3pm-ga-5nE" id="hmt-yk-Ufk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewContainer" destination="6c4-tX-2Bk" id="T8C-XL-bIr"/>
             </connections>

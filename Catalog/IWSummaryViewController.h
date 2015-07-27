@@ -11,6 +11,7 @@
 
 @interface IWSummaryViewController : IWBaseViewController{
     
+    IBOutlet UILabel *summaryTitle;
     IBOutlet UIView *viewContainer;
     
 }

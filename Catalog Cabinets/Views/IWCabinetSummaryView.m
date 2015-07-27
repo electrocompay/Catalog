@@ -20,19 +20,102 @@
     
     IBOutlet UIView* _frontView;
     
-    IBOutlet UILabel* _tableModel;
-    IBOutlet UILabel* _tableType;
-    IBOutlet UILabel* _tableSize;
-    IBOutlet UILabel* _tableColor;
-    IBOutlet UILabel* _tableLegsColor;
-    IBOutlet UILabel* _tablePrice;
-    IBOutlet UILabel* _tableTotalPrice;
+    // Cabinet Model
+    IBOutlet UILabel* _cabinetModel;
 
-    IBOutlet UILabel* _chairModel;
-    IBOutlet UILabel* _chairColor;
-    IBOutlet UILabel* _chairLegsColor;
-    IBOutlet UILabel* _chairPrice;
-    IBOutlet UILabel* _chairTotalPrice;
+    // Modules titles
+    IBOutlet UILabel* _module1Title;
+    IBOutlet UILabel* _module2Title;
+    IBOutlet UILabel* _module3Title;
+    IBOutlet UILabel* _module4Title;
+
+    // Modules description
+    IBOutlet UILabel* _module1Desc;
+    IBOutlet UILabel* _module2Desc;
+    IBOutlet UILabel* _module3Desc;
+    IBOutlet UILabel* _module4Desc;
+    
+    // Modules Prices
+    IBOutlet UILabel* _module1Price;
+    IBOutlet UILabel* _module2Price;
+    IBOutlet UILabel* _module3Price;
+    IBOutlet UILabel* _module4Price;
+
+    // Top & Side
+    IBOutlet UILabel* _topLength;
+    IBOutlet UILabel* _topColor;
+    IBOutlet UILabel* _topColorPrice;
+    IBOutlet UILabel* _topColorExtraPrice;
+    
+    IBOutlet UILabel* _sideColor;
+    IBOutlet UILabel* _sideColorPrice;
+    IBOutlet UILabel* _sideColorExtraPrice;
+    
+    // Modules Confuguration
+
+    // Module 1
+    IBOutlet UILabel* _subModule_1_1_Desc;
+    IBOutlet UILabel* _subModule_1_1_Color;
+    IBOutlet UILabel* _subModule_1_1_Price;
+    IBOutlet UILabel* _subModule_1_1_ExtraPrice;
+
+    IBOutlet UILabel* _subModule_1_2_Desc;
+    IBOutlet UILabel* _subModule_1_2_Color;
+    IBOutlet UILabel* _subModule_1_2_Price;
+    IBOutlet UILabel* _subModule_1_2_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_1_3_Desc;
+    IBOutlet UILabel* _subModule_1_3_Color;
+    IBOutlet UILabel* _subModule_1_3_Price;
+    IBOutlet UILabel* _subModule_1_3_ExtraPrice;
+    
+    // Module 2
+    IBOutlet UILabel* _subModule_2_1_Desc;
+    IBOutlet UILabel* _subModule_2_1_Color;
+    IBOutlet UILabel* _subModule_2_1_Price;
+    IBOutlet UILabel* _subModule_2_1_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_2_2_Desc;
+    IBOutlet UILabel* _subModule_2_2_Color;
+    IBOutlet UILabel* _subModule_2_2_Price;
+    IBOutlet UILabel* _subModule_2_2_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_2_3_Desc;
+    IBOutlet UILabel* _subModule_2_3_Color;
+    IBOutlet UILabel* _subModule_2_3_Price;
+    IBOutlet UILabel* _subModule_2_3_ExtraPrice;
+
+    // Module 3
+    IBOutlet UILabel* _subModule_3_1_Desc;
+    IBOutlet UILabel* _subModule_3_1_Color;
+    IBOutlet UILabel* _subModule_3_1_Price;
+    IBOutlet UILabel* _subModule_3_1_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_3_2_Desc;
+    IBOutlet UILabel* _subModule_3_2_Color;
+    IBOutlet UILabel* _subModule_3_2_Price;
+    IBOutlet UILabel* _subModule_3_2_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_3_3_Desc;
+    IBOutlet UILabel* _subModule_3_3_Color;
+    IBOutlet UILabel* _subModule_3_3_Price;
+    IBOutlet UILabel* _subModule_3_3_ExtraPrice;
+    
+    //Module 4
+    IBOutlet UILabel* _subModule_4_1_Desc;
+    IBOutlet UILabel* _subModule_4_1_Color;
+    IBOutlet UILabel* _subModule_4_1_Price;
+    IBOutlet UILabel* _subModule_4_1_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_4_2_Desc;
+    IBOutlet UILabel* _subModule_4_2_Color;
+    IBOutlet UILabel* _subModule_4_2_Price;
+    IBOutlet UILabel* _subModule_4_2_ExtraPrice;
+    
+    IBOutlet UILabel* _subModule_4_3_Desc;
+    IBOutlet UILabel* _subModule_4_3_Color;
+    IBOutlet UILabel* _subModule_4_3_Price;
+    IBOutlet UILabel* _subModule_4_3_ExtraPrice;
     
     IBOutlet UILabel* _grandTotalPrice;
     
@@ -80,6 +163,20 @@
 
 -(void)updateAttributes
 {
+    
+    _cabinetModel.text = _cabinet.model.name;
+    
+    // Modules
+    [self showModulesDescriptionsAndPrices];
+    
+    // Top
+    _topLength.text = _cabinet.size.code;
+    _topColor.text = _cabinet.top.name;
+    
+    // Side
+    _sideColor.text = _cabinet.side.name;
+    
+    
 /*    [_tableModel setText:_table.model.name];
     _tableType.text = _table.coffee ? @"Coffee table" : @"Dinning table";
     [_tableSize setText:_table.size.name];
@@ -100,6 +197,54 @@
 
     [_grandTotalPrice setText:[NSString stringWithFormat:@"%.0f €", chairPrice + tablePrice]];
 */
+}
+
+-(void) showModulesDescriptionsAndPrices {
+    
+    // Module 1 (always present)
+    _module1Desc.text = _cabinet.size.name;
+    _module1Price.text = @"123";
+    
+    // Hide all modules and show only presents
+    _module2Title.hidden = YES;
+    _module2Desc.hidden = YES;
+    _module2Price.hidden = YES;
+    _module3Title.hidden = YES;
+    _module3Desc.hidden = YES;
+    _module3Price.hidden = YES;
+    _module4Title.hidden = YES;
+    _module4Desc.hidden = YES;
+    _module4Price.hidden = YES;
+    
+    // Module 2
+    if (_cabinet.module2 && ![_cabinet.module2.size.name  isEqual: @"---"]) {
+        _module2Title.hidden = NO;
+        _module2Desc.hidden = NO;
+        _module2Price.hidden = NO;
+
+        _module2Desc.text = _cabinet.module2.size.name;
+        _module2Price.text = @"100";
+    }
+
+    // Module 3
+    if (_cabinet.module3 && ![_cabinet.module3.size.name  isEqual: @"---"]) {
+        _module3Title.hidden = NO;
+        _module3Desc.hidden = NO;
+        _module3Price.hidden = NO;
+
+        _module3Desc.text = _cabinet.module3.size.name;
+        _module3Price.text = @"100";
+    }
+
+    // Module 4
+    if (_cabinet.module4 && ![_cabinet.module4.size.name  isEqual: @"---"]) {
+        _module4Title.hidden = NO;
+        _module4Desc.hidden = NO;
+        _module4Price.hidden = NO;
+
+        _module4Desc.text = _cabinet.module4.size.name;
+        _module4Price.text = @"100";
+    }
 }
 
 @end

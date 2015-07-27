@@ -60,11 +60,15 @@
     [[IWUtils getInstance] printView:self.view];
 }
 
-- (void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
+-(void)saveCompletion:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo: (void *) contextInfo
 {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Image Saved" message:@"Image saved successfully to Photo Album." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
 }
 
+-(void)setTitle:(NSString *)title
+{
+    [summaryTitle setText:title];
+}
 
 @end
