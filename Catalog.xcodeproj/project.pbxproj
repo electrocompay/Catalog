@@ -142,8 +142,6 @@
 		4C63B8D419872A7C00833622 /* Wings-35-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DA19872A6B00833622 /* Wings-35-00-B.png */; };
 		4C63B8D519872A7C00833622 /* Propeller-35-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DB19872A6B00833622 /* Propeller-35-00-B.png */; };
 		4C63B8D619872A7C00833622 /* Luna-29-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DC19872A6B00833622 /* Luna-29-00-B.png */; };
-		4C63B8D719872A7C00833622 /* Luna-29-22-AB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DD19872A6B00833622 /* Luna-29-22-AB.png */; };
-		4C63B8D819872A7C00833622 /* Luna-29-22-BB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DE19872A6B00833622 /* Luna-29-22-BB.png */; };
 		4C63B8D919872A7C00833622 /* Luna-30-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4DF19872A6B00833622 /* Luna-30-00-A.png */; };
 		4C63B8DA19872A7C00833622 /* Luna-30-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4E019872A6B00833622 /* Luna-30-00-B.png */; };
 		4C63B8DB19872A7C00833622 /* Luna-31-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C63B4E119872A6B00833622 /* Luna-31-00-A.png */; };
@@ -7748,8 +7746,6 @@
 		4C63B4DA19872A6B00833622 /* Wings-35-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings-35-00-B.png"; sourceTree = "<group>"; };
 		4C63B4DB19872A6B00833622 /* Propeller-35-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Propeller-35-00-B.png"; sourceTree = "<group>"; };
 		4C63B4DC19872A6B00833622 /* Luna-29-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-29-00-B.png"; sourceTree = "<group>"; };
-		4C63B4DD19872A6B00833622 /* Luna-29-22-AB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-29-22-AB.png"; sourceTree = "<group>"; };
-		4C63B4DE19872A6B00833622 /* Luna-29-22-BB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-29-22-BB.png"; sourceTree = "<group>"; };
 		4C63B4DF19872A6B00833622 /* Luna-30-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-30-00-A.png"; sourceTree = "<group>"; };
 		4C63B4E019872A6B00833622 /* Luna-30-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-30-00-B.png"; sourceTree = "<group>"; };
 		4C63B4E119872A6B00833622 /* Luna-31-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-31-00-A.png"; sourceTree = "<group>"; };
@@ -20037,8 +20033,6 @@
 				4C63B4DA19872A6B00833622 /* Wings-35-00-B.png */,
 				4C63B4DB19872A6B00833622 /* Propeller-35-00-B.png */,
 				4C63B4DC19872A6B00833622 /* Luna-29-00-B.png */,
-				4C63B4DD19872A6B00833622 /* Luna-29-22-AB.png */,
-				4C63B4DE19872A6B00833622 /* Luna-29-22-BB.png */,
 				4C63B4DF19872A6B00833622 /* Luna-30-00-A.png */,
 				4C63B4E019872A6B00833622 /* Luna-30-00-B.png */,
 				4C63B4E119872A6B00833622 /* Luna-31-00-A.png */,
@@ -24405,7 +24399,6 @@
 				7B67EA511B02E6DA00EB79AE /* Gaugin-S-12-30-B.png in Resources */,
 				7B67F03C1B037A6700EB79AE /* Wings raco-70-00-B.png in Resources */,
 				4CD5DA9E1918773E004C80D1 /* Monet-AW-01-27.jpg in Resources */,
-				4C63B8D819872A7C00833622 /* Luna-29-22-BB.png in Resources */,
 				7B67E7DC1B02E6DA00EB79AE /* Angelina-AW-46-28-B.png in Resources */,
 				7B67F1931B037A6700EB79AE /* Elyps cafe-41-00-A.png in Resources */,
 				7B67EA041B02E6DA00EB79AE /* Angelina Bar-W-17-28-B.png in Resources */,
@@ -24417,7 +24410,6 @@
 				4C63BB4119872A7D00833622 /* Ensor-S-18-27-A.png in Resources */,
 				7B883BC91ADC376E003415E3 /* largo wood-55x55x55 p.png in Resources */,
 				4C63BC1519872A7E00833622 /* Blucinox-38-27-A.png in Resources */,
-				4C63B8D719872A7C00833622 /* Luna-29-22-AB.png in Resources */,
 				7B67E8231B02E6DA00EB79AE /* Gaugin-S-44-30-A.png in Resources */,
 				7BE90A1C1A7675B90008711F /* email.png in Resources */,
 				7B883BEA1ADC376E003415E3 /* propeller-220x128x75 a.png in Resources */,
