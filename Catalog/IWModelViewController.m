@@ -526,12 +526,6 @@
 {
     table.tableType = tableType;
     
-    // Disable Chair models and colors
-    tabController.tabDisabled = -1;
-    if (tableType != kDinningTable) {
-        tabController.tabDisabled = 3;
-    }
-
     [self updateDetailsWithInitOption:NO];
     [self drawAll];
 }
@@ -548,6 +542,12 @@
     // Dynamically adapt font size
     chairNameView.numberOfLines = 1;
     chairNameView.adjustsFontSizeToFitWidth = YES;
+
+    // Disable Chair models and colors
+    tabController.tabDisabled = -1;
+    if (table.tableType != kDinningTable) {
+        tabController.tabDisabled = 3;
+    }
 
     [chairNameView setText:chair.model.name];
     NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
