@@ -25,6 +25,7 @@
 
 @end
 
+
 @implementation IWModelViewController{
     
     BrowserTabView *tabController;
@@ -46,7 +47,7 @@
     IWDrawerChair *thumbDrawerChair;
     UIButton * button;
     UIButton * button2;
-    
+
     /* Price controls */
     
     IBOutlet UIButton *tablePriceButton;
@@ -318,7 +319,7 @@
         [chair setLegsColor:color];
     }
     [self drawAll];
-    [self updateDetailsWithInitOption:YES];
+    [self updateDetails];
 }
 
 -(NSArray*)colorsRemoveIndex:(NSArray*)colors index:(NSInteger)index
@@ -519,18 +520,18 @@
 - (void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectSize:(IWColor *)size
 {
     table.size = size;
-    [self updateDetailsWithInitOption:NO];
+    [self updateDetails];
 }
 
 -(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectOther:(tableTypeEnum)tableType
 {
     table.tableType = tableType;
     
-    [self updateDetailsWithInitOption:NO];
+    [self updateDetails];
     [self drawAll];
 }
 
--(void)updateDetailsWithInitOption:(BOOL)initialization
+-(void)updateDetails
 {
     // Dynamically adapt font size
     tableNameView.numberOfLines = 1;
@@ -565,9 +566,25 @@
     [tableTopSize setImage: image];
     [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
     
-    if(initialization == YES) {
-        [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", table.size.name]];
+    IWColor* tableSize;
+    switch (table.tableType) {
+        case kDinningTable:
+            tableSize = [table.model.sizes objectAtIndex:0];
+            break;
+
+        case kWallTable:
+            tableSize = [table.model.wallSizes objectAtIndex:0];
+            break;
+
+        case kCoffeeTable:
+            tableSize = [table.model.smallSizes objectAtIndex:0];
+            break;
+            
+        default:
+            break;
     }
+    
+    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
     
     [self updatePrices];
 }
