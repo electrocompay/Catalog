@@ -22,8 +22,8 @@
     IBOutlet UILabel *propertyNameView;
     NSMutableArray* filteredList;
     NSMutableArray* subviews;
-    IBOutlet UIView *marker;
-    IBOutlet UIView *marker_back;
+    IBOutlet UIButton *marker;
+    IBOutlet UIButton *marker_back;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -168,7 +168,31 @@
 -(void)updateMarkers
 {
     marker_back.hidden = scrollView1.contentOffset.x == 0;
-    marker.hidden = scrollView1.contentOffset.x == scrollView1.contentSize.width - scrollView1.bounds.size.width;
+    marker.hidden = (scrollView1.contentOffset.x >= scrollView1.contentSize.width - scrollView1.bounds.size.width);
 }
+
+-(IBAction)scrollForward:(id)sender {
+    
+    int newXOffset = scrollView1.contentOffset.x + scrollView1.bounds.size.width;
+    
+    if ( (newXOffset + scrollView1.bounds.size.width) > scrollView1.contentSize.width) {
+        newXOffset = scrollView1.contentSize.width - scrollView1.bounds.size.width;
+        marker.hidden = YES;
+    }
+    
+    [scrollView1 setContentOffset:CGPointMake(newXOffset, scrollView1.contentOffset.y) animated:YES];
+}
+
+-(IBAction)scrollBackward:(id)sender {
+    int newXOffset = scrollView1.contentOffset.x - scrollView1.bounds.size.width;
+    
+    if ( (newXOffset - scrollView1.bounds.size.width) < 0) {
+        newXOffset = 0;
+        marker_back.hidden = YES;
+    }
+    
+    [scrollView1 setContentOffset:CGPointMake(newXOffset, scrollView1.contentOffset.y) animated:YES];
+}
+
 
 @end

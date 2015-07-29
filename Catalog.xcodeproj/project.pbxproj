@@ -7591,6 +7591,9 @@
 		9E2C8F321B49F0430082128C /* belux_table_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F301B49F0420082128C /* belux_table_prices_2.json */; };
 		9E9FFEFF1B67009700D2C253 /* wings-130x70x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FFEFD1B67009700D2C253 /* wings-130x70x38 a.png */; };
 		9E9FFF001B67009700D2C253 /* wings-130x70x38 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FFEFE1B67009700D2C253 /* wings-130x70x38 p.png */; };
+		9EB43A351B685C49004306C4 /* Tripod-29-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A341B685C49004306C4 /* Tripod-29-22.jpg */; };
+		9EB43A381B68C776004306C4 /* tab_grayout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A361B68C776004306C4 /* tab_grayout.png */; };
+		9EB43A391B68C776004306C4 /* tab_grayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A371B68C776004306C4 /* tab_grayout@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -15094,6 +15097,9 @@
 		9E9FFEF81B559AFE00D2C253 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		9E9FFEFD1B67009700D2C253 /* wings-130x70x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-130x70x38 a.png"; sourceTree = "<group>"; };
 		9E9FFEFE1B67009700D2C253 /* wings-130x70x38 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-130x70x38 p.png"; sourceTree = "<group>"; };
+		9EB43A341B685C49004306C4 /* Tripod-29-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tripod-29-22.jpg"; sourceTree = "<group>"; };
+		9EB43A361B68C776004306C4 /* tab_grayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_grayout.png; sourceTree = "<group>"; };
+		9EB43A371B68C776004306C4 /* tab_grayout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_grayout@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21095,6 +21101,7 @@
 		4CD5DA891918773E004C80D1 /* taules jpgs */ = {
 			isa = PBXGroup;
 			children = (
+				9EB43A341B685C49004306C4 /* Tripod-29-22.jpg */,
 				7B0E7EB81B27E7EB000742C5 /* Chateau cafe-29-22.jpg */,
 				7B0E7EB61B27CFD7000742C5 /* Chrominox cafe-29-27.jpg */,
 				4CD5DA8A1918773E004C80D1 /* Blucinox-29-27.jpg */,
@@ -21173,6 +21180,8 @@
 				4CEE0F5018A9CFD200298C60 /* tab_background@2x.png */,
 				4CEE0F5118A9CFD200298C60 /* tab_close.png */,
 				4CEE0F5218A9CFD200298C60 /* tab_close@2x.png */,
+				9EB43A361B68C776004306C4 /* tab_grayout.png */,
+				9EB43A371B68C776004306C4 /* tab_grayout@2x.png */,
 				4CEE0F5318A9CFD200298C60 /* tab_normal.png */,
 				4CEE0F5418A9CFD200298C60 /* tab_normal@2x.png */,
 				4CEE0F5518A9CFD200298C60 /* tab_selected.png */,
@@ -23582,6 +23591,7 @@
 				4C63B9AE19872A7C00833622 /* Renoir-S-01-27-B.png in Resources */,
 				7B67E9E31B02E6DA00EB79AE /* Gaugin-A-13-30-B.png in Resources */,
 				7B67EA281B02E6DA00EB79AE /* Gaugin-SW-18-30-B.png in Resources */,
+				9EB43A391B68C776004306C4 /* tab_grayout@2x.png in Resources */,
 				7B67E83E1B02E6DA00EB79AE /* Angelina-B-43-28-B.png in Resources */,
 				7B67E9731B02E6DA00EB79AE /* Monet-B-18-28-B.png in Resources */,
 				4C63BB1F19872A7D00833622 /* Largo-U-17-00-B.png in Resources */,
@@ -24241,6 +24251,7 @@
 				7B67EACD1B02E6DA00EB79AE /* Monet low-ML-12-28-A.png in Resources */,
 				7B67F0141B037A6700EB79AE /* Largo raco-70-00-B.png in Resources */,
 				7B67E9741B02E6DA00EB79AE /* Monet-B-16-28-B.png in Resources */,
+				9EB43A381B68C776004306C4 /* tab_grayout.png in Resources */,
 				7B67F14F1B037A6700EB79AE /* Largo cafe-32-00-A.png in Resources */,
 				4C63BB2919872A7D00833622 /* Largo-XL-00-25-B.png in Resources */,
 				7B67E84E1B02E6DA00EB79AE /* Monet-B-43-28-B.png in Resources */,
@@ -25432,6 +25443,7 @@
 				7B67F02E1B037A6700EB79AE /* Largo raco-32-00-A.png in Resources */,
 				4C63BB3119872A7D00833622 /* Largo-XL-29-22-AB.png in Resources */,
 				4C63BB1819872A7D00833622 /* Largo-U-14-00-A.png in Resources */,
+				9EB43A351B685C49004306C4 /* Tripod-29-22.jpg in Resources */,
 				7B67F00A1B037A6700EB79AE /* Propeller raco-70-00-B.png in Resources */,
 				4CD5DAAA1918773E004C80D1 /* Van Gogh-S-01-28.jpg in Resources */,
 				7B1C49801B1EA4980017EEFA /* Margueritte-A-22-22.jpg in Resources */,

@@ -180,6 +180,22 @@ static NSString *kReuseIdentifier = @"UserIndentifier";
     }
     
 }
+
+- (void)grayOutTabAtIndex:(NSInteger)tabIndex {
+
+    BrowserTab *tab = [_tabsArray objectAtIndex:tabIndex];
+
+    [tab grayOutTab];
+}
+
+- (void)unGrayOutAllTabs {
+    
+    for (int tabIndex = 0; tabIndex < _tabsArray.count; tabIndex++) {
+        [[_tabsArray objectAtIndex:tabIndex] unGrayOutTab];
+    }
+}
+
+
 // use tabs from the queue
 - (BrowserTab *)dequeueTabUsingReuseIdentifier:(NSString *)reuseIdentifier
 {

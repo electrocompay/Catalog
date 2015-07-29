@@ -39,8 +39,10 @@
 @property (nonatomic, strong) UIFont *titleFont;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, assign) BOOL selected;
+@property (nonatomic, assign) BOOL grayedOut;
 @property (nonatomic, strong) UIImage *tabSelectedImage;
 @property (nonatomic, strong) UIImage *tabNormalImage;
+@property (nonatomic, strong) UIImage *tabGrayOutImage;
 @property (nonatomic, strong) UIColor *normalTitleColor;
 @property (nonatomic, strong) UIColor *selectedTitleColor;
 @property (nonatomic, strong) UITextField *titleField;
@@ -54,5 +56,8 @@
 
 - (id)initWithReuseIdentifier:(NSString *)aReuseIdentifier andDelegate:(id)aDelegate;
 - (void)prepareForReuse;
+
+- (void)grayOutTab;
+- (void)unGrayOutTab;
 
 @end

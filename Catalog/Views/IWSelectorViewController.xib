@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSelectorViewController">
             <connections>
                 <outlet property="headerLabel" destination="eXx-fW-MhE" id="Ujh-UP-PIj"/>
-                <outlet property="marker" destination="dCV-Uq-R9m" id="IPG-Mw-Z1s"/>
-                <outlet property="marker_back" destination="NEO-si-LnM" id="1CC-nb-5Qo"/>
+                <outlet property="marker" destination="i6x-Ve-3Q7" id="IZb-AP-crQ"/>
+                <outlet property="marker_back" destination="mtE-gM-2S8" id="6bT-zN-snP"/>
                 <outlet property="propertyNameView" destination="iOV-un-it0" id="OkH-jb-krN"/>
                 <outlet property="scrollView1" destination="JDW-Vh-lFZ" id="AXk-eF-Pum"/>
                 <outlet property="selectedView" destination="3ah-9e-S4o" id="yUB-gB-ZLM"/>
@@ -52,12 +52,6 @@
                     <rect key="frame" x="997" y="30" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Uq-R9m">
-                    <rect key="frame" x="1002" y="104" width="12" height="19"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="NEO-si-LnM">
-                    <rect key="frame" x="198" y="104" width="12" height="19"/>
-                </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Om-7N6">
                     <rect key="frame" x="214" y="30" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -66,11 +60,30 @@
                     <rect key="frame" x="182" y="25" width="2" height="160"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtE-gM-2S8">
+                    <rect key="frame" x="182" y="59" width="34" height="121"/>
+                    <state key="normal" image="marker_back.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollBackward:" destination="-1" eventType="touchUpInside" id="znb-eE-fbB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6x-Ve-3Q7">
+                    <rect key="frame" x="997" y="59" width="27" height="121"/>
+                    <state key="normal" image="marker.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollForward:" destination="-1" eventType="touchUpInside" id="sVl-Fr-3uN"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="146" y="201"/>
         </view>
     </objects>
     <resources>

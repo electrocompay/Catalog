@@ -97,11 +97,14 @@
         } else {
             btDinningTable.selected = YES;
         }
+        
+        self.tableType =  [self getInitialTableType];
+        
         [self loadSizes];
     }
 }
 
--(void) clearOptions {
+-(void)clearOptions {
     
     btDinningTable.selected = NO;
     btWallTable.selected = NO;
@@ -162,5 +165,22 @@
 {
     return (IWModel*) self.selectedColor;
 }
+
+-(tableTypeEnum)getInitialTableType
+{
+    
+    if([self getSelectedModel].sizes.count > 0) {
+        return kDinningTable;
+    }
+    else if ([self getSelectedModel].wallSizes.count > 0) {
+        return kWallTable;
+    }
+    else if ([self getSelectedModel].smallSizes.count > 0) {
+        return kCoffeeTable;
+    }
+    
+    return kDinningTable;
+}
+
 
 @end

@@ -25,5 +25,6 @@
 @property (nonatomic, assign) tableTypeEnum tableType;
 @property (nonatomic, weak) id<IWSelectorTableViewControllerDelegate> tableDelegate;
 -(void)loadSizes;
+-(tableTypeEnum)getInitialTableType;
 
 @end

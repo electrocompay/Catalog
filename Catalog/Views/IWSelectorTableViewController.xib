@@ -13,8 +13,8 @@
                 <outlet property="lbCofeeTable" destination="XMk-RV-B96" id="PBu-aY-n0a"/>
                 <outlet property="lbDinningTable" destination="ZTF-M3-2F6" id="He6-1H-tXh"/>
                 <outlet property="lbWallTable" destination="ynQ-dQ-7BU" id="cIg-gv-faU"/>
-                <outlet property="marker" destination="dCV-Uq-R9m" id="IPG-Mw-Z1s"/>
-                <outlet property="marker_back" destination="NEO-si-LnM" id="1CC-nb-5Qo"/>
+                <outlet property="marker" destination="thu-2C-ZaC" id="hb5-5y-yE6"/>
+                <outlet property="marker_back" destination="USh-rU-XX3" id="Kx5-GA-ex1"/>
                 <outlet property="pickerSize" destination="Ht1-Rr-TAb" id="FW9-J1-eZM"/>
                 <outlet property="scrollView1" destination="JDW-Vh-lFZ" id="AXk-eF-Pum"/>
                 <outlet property="view" destination="2" id="3"/>
@@ -44,12 +44,6 @@
                     <rect key="frame" x="605" y="29" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Uq-R9m">
-                    <rect key="frame" x="617" y="103" width="12" height="19"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="NEO-si-LnM">
-                    <rect key="frame" x="17" y="103" width="12" height="19"/>
-                </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Om-7N6">
                     <rect key="frame" x="42" y="29" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -135,6 +129,24 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thu-2C-ZaC">
+                    <rect key="frame" x="600" y="55" width="48" height="125"/>
+                    <state key="normal" image="marker.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollForward:" destination="-1" eventType="touchUpInside" id="4QU-3q-5T5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USh-rU-XX3">
+                    <rect key="frame" x="8" y="55" width="36" height="125"/>
+                    <state key="normal" image="marker_back.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollBackward:" destination="-1" eventType="touchUpInside" id="qKh-F8-2L7"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>

@@ -253,7 +253,7 @@
     if (selectorViewController == selectorTableModelView)
     {
         [table setModel:(IWModel*) color];
-        [table setTableType:kDinningTable];
+        [table setTableType:[selectorTableModelView getInitialTableType]];
     } else if (selectorViewController == selectorTableColorView)
     {
         [table setColor:color];
@@ -545,8 +545,13 @@
 
     // Disable Chair models and colors
     tabController.tabDisabled = -1;
+    [tabController unGrayOutAllTabs];
     if (table.tableType != kDinningTable) {
         tabController.tabDisabled = 3;
+        
+        for (int tabIndex = 3; tabIndex < [tabController numberOfTabs]; tabIndex++) {
+            [tabController grayOutTabAtIndex:tabIndex];
+        }
     }
 
     [chairNameView setText:chair.model.name];

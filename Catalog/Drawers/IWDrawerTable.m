@@ -57,11 +57,18 @@
 
 -(NSString*)addCafeText:(NSString*)text{
     NSString *convertedText = text;
+    NSString *replacingString = @" cafe-";
+    
+    // Tripod is a coffee table called raco
+    if (NSNotFound != [text rangeOfString:@"Tripod"].location ) {
+        replacingString = @" raco-";
+    }
+    
     NSRange rOriginal = [convertedText rangeOfString: @"-"];
     if (NSNotFound != rOriginal.location) {
         convertedText = [convertedText
                     stringByReplacingCharactersInRange: rOriginal
-                    withString:                         @" cafe-"];
+                    withString:                         replacingString];
     }
     
     return convertedText;

@@ -60,6 +60,7 @@
         self.selectedTitleColor = [UIColor blackColor];
         self.tabSelectedImage = [[UIImage imageNamed:@"tab_selected"] stretchableImageWithLeftCapWidth:30 topCapHeight:0];
         self.tabNormalImage = [[UIImage imageNamed:@"tab_normal"] stretchableImageWithLeftCapWidth:30 topCapHeight:0] ;
+        self.tabGrayOutImage = [[UIImage imageNamed:@"tab_grayout"] stretchableImageWithLeftCapWidth:30 topCapHeight:0] ;
         
         self.titleFont = [UIFont systemFontOfSize:16];
         
@@ -124,11 +125,29 @@
         _imageView.image = self.tabSelectedImage;
         _closeButton.hidden = YES;
         
-    }else{
+    }else if(!_grayedOut) {
         self.titleField.textColor = _normalTitleColor;
         self.titleField.font = [UIFont systemFontOfSize:16];
         _imageView.image = self.tabNormalImage;
         _closeButton.hidden = YES;
+    }
+}
+
+- (void)grayOutTab
+{
+    self.grayedOut = YES;
+    self.titleField.alpha = 0.4;
+    _imageView.image = self.tabGrayOutImage;
+}
+
+- (void)unGrayOutTab
+{
+    self.grayedOut = NO;
+    self.titleField.alpha = 1.0;
+    
+    _imageView.image = self.tabNormalImage;
+    if (_selected) {
+        _imageView.image = self.tabSelectedImage;
     }
 }
 

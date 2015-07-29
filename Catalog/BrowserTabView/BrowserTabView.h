@@ -62,4 +62,7 @@
 - (void)removeTabAtIndex:(NSInteger)index animated:(BOOL)animated;
 - (void)setTabWidth:(CGFloat)tabWidth;
 
+- (void)unGrayOutAllTabs;
+- (void)grayOutTabAtIndex:(NSInteger)tabIndex;
+
 @end
