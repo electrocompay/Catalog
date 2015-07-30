@@ -89,21 +89,6 @@
     _tableUnitPrice = [[IWPriceManager getInstance] getTablePrice:_table];
     _chairUnitPrice = [[IWPriceManager getInstance] getChairPrice:_chair];
     
-    IWDrawerTable* tableDrawer = [[IWDrawerTable alloc] init];
-
-    [tableDrawer setView:_topView];
-    [tableDrawer setFrontView:NO];
-    
-    [tableDrawer drawForniture:_table];
-    
-    [tableDrawer setView:_frontView];
-    [tableDrawer setFrontView:YES];
-    
-    [tableDrawer drawForniture:_table];
-    
-    [_chairQtyMessage setText:kChairsNotAvailableMessage];
-    [self enableIncDecButtons:NO];
-    
     // Only Dinning Table goes with chairs
     _chairCounter = 0;
     if (_table.tableType == kDinningTable) {
@@ -120,10 +105,20 @@
         [chairDrawer setFrontView:YES];
         
         [chairDrawer drawForniture:_chair];
-        
-        [self enableIncDecButtons:YES];
-        [_chairQtyMessage setText:kSelectChairsNumberMessage];
     }
+
+    // Always draw table
+    IWDrawerTable* tableDrawer = [[IWDrawerTable alloc] init];
+    
+    [tableDrawer setView:_topView];
+    [tableDrawer setFrontView:NO];
+    
+    [tableDrawer drawForniture:_table];
+    
+    [tableDrawer setView:_frontView];
+    [tableDrawer setFrontView:YES];
+    
+    [tableDrawer drawForniture:_table];
 
     // Initial Price values
     _tableSubTotalPrice = _tableUnitPrice;
@@ -186,11 +181,34 @@
     [_tableColor setText:_table.color.name];
     [_tableLegsColor setText:_table.legsColor.name];
     
-    [_chairModel setText:_chair.model.name];
-    [_chairColor setText:_chair.color.name];
-    [_chairLegsColor setText:_chair.legsColor.name];
+    if (_table.tableType == kDinningTable) {
+        [self enableChairSummary];
+    }
+    else {
+        [self disableChairSummary];
+    }
     
     [self refreshChairCounterAndPrices];
+}
+
+-(void)disableChairSummary {
+    
+    _chairModel.text = @"";
+    _chairColor.text = @"";
+    _chairLegsColor.text = @"";
+    
+    [self enableIncDecButtons:NO];
+    [_chairQtyMessage setText:kChairsNotAvailableMessage];
+}
+
+-(void)enableChairSummary {
+
+    _chairModel.text = _chair.model.name;
+    _chairColor.text = _chair.color.name;
+    _chairLegsColor.text = _chair.legsColor.name;
+    
+    [self enableIncDecButtons:YES];
+    [_chairQtyMessage setText:kSelectChairsNumberMessage];
 }
 
 -(void)refreshChairCounterAndPrices {

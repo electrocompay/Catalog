@@ -184,7 +184,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
                         [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-22" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-CC" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-22" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-S-S" andCode:@"Margueritte-S-S-CC-22" andFile:@"Margueritte-S-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-A-S" andCode:@"Margueritte-A-S-CC-22" andFile:@"Margueritte-A-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
@@ -241,6 +241,11 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"White" andCode:@"19" andFile:@"White.jpg"] withCategory:@"Textylene"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"20" andFile:@"Taupe.jpg"] withCategory:@"Textylene"],
                         [[IWColor colorWithName:@"Grey" andCode:@"21" andFile:@"Grey 21.jpg"] withCategory:@"Textylene"],
+                        [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Chrome Inox" andCode:@"27" andFile:@"Chrome-inox.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"Legs lacquered"],
                         nil];
     }
     

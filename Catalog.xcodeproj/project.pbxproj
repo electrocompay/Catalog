@@ -5754,8 +5754,6 @@
 		7B67E8561B02E6DA00EB79AE /* Rafael Bar-B-00-23-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4AC1B02E6C600EB79AE /* Rafael Bar-B-00-23-B.png */; };
 		7B67E8571B02E6DA00EB79AE /* Rafael Bar-B-15-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4AD1B02E6C600EB79AE /* Rafael Bar-B-15-00-B.png */; };
 		7B67E8581B02E6DA00EB79AE /* Rafael Bar-B-15-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4AE1B02E6C600EB79AE /* Rafael Bar-B-15-00-A.png */; };
-		7B67E8591B02E6DA00EB79AE /* Margueritte-A-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4AF1B02E6C600EB79AE /* Margueritte-A-24-A.png */; };
-		7B67E85A1B02E6DA00EB79AE /* Margueritte-A-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4B01B02E6C600EB79AE /* Margueritte-A-24-B.png */; };
 		7B67E85B1B02E6DA00EB79AE /* Margueritte-S-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4B11B02E6C600EB79AE /* Margueritte-S-24-A.png */; };
 		7B67E85C1B02E6DA00EB79AE /* Margueritte-S-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4B21B02E6C600EB79AE /* Margueritte-S-24-B.png */; };
 		7B67E85D1B02E6DA00EB79AE /* Rafael Bar-B-14-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B67E4B31B02E6C600EB79AE /* Rafael Bar-B-14-22-B.png */; };
@@ -7596,6 +7594,8 @@
 		9EB43A3D1B690F2A004306C4 /* Easy-4-29-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A3C1B690F2A004306C4 /* Easy-4-29-22.jpg */; };
 		9EB43A401B69133B004306C4 /* Easy-4 cafe-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A3E1B69133A004306C4 /* Easy-4 cafe-29-22-A.png */; };
 		9EB43A411B69133B004306C4 /* Easy-4 cafe-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A3F1B69133B004306C4 /* Easy-4 cafe-29-22-B.png */; };
+		9EB43A441B6953C0004306C4 /* Margueritte-A-24-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A421B6953BF004306C4 /* Margueritte-A-24-24-A.png */; };
+		9EB43A451B6953C0004306C4 /* Margueritte-A-24-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A431B6953BF004306C4 /* Margueritte-A-24-24-B.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -13265,8 +13265,6 @@
 		7B67E4AC1B02E6C600EB79AE /* Rafael Bar-B-00-23-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Bar-B-00-23-B.png"; sourceTree = "<group>"; };
 		7B67E4AD1B02E6C600EB79AE /* Rafael Bar-B-15-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Bar-B-15-00-B.png"; sourceTree = "<group>"; };
 		7B67E4AE1B02E6C600EB79AE /* Rafael Bar-B-15-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Bar-B-15-00-A.png"; sourceTree = "<group>"; };
-		7B67E4AF1B02E6C600EB79AE /* Margueritte-A-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-A-24-A.png"; sourceTree = "<group>"; };
-		7B67E4B01B02E6C600EB79AE /* Margueritte-A-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-A-24-B.png"; sourceTree = "<group>"; };
 		7B67E4B11B02E6C600EB79AE /* Margueritte-S-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-S-24-A.png"; sourceTree = "<group>"; };
 		7B67E4B21B02E6C600EB79AE /* Margueritte-S-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-S-24-B.png"; sourceTree = "<group>"; };
 		7B67E4B31B02E6C600EB79AE /* Rafael Bar-B-14-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Bar-B-14-22-B.png"; sourceTree = "<group>"; };
@@ -15104,6 +15102,8 @@
 		9EB43A3C1B690F2A004306C4 /* Easy-4-29-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Easy-4-29-22.jpg"; sourceTree = "<group>"; };
 		9EB43A3E1B69133A004306C4 /* Easy-4 cafe-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy-4 cafe-29-22-A.png"; sourceTree = "<group>"; };
 		9EB43A3F1B69133B004306C4 /* Easy-4 cafe-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy-4 cafe-29-22-B.png"; sourceTree = "<group>"; };
+		9EB43A421B6953BF004306C4 /* Margueritte-A-24-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-A-24-24-A.png"; sourceTree = "<group>"; };
+		9EB43A431B6953BF004306C4 /* Margueritte-A-24-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-A-24-24-B.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -18129,6 +18129,8 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				9EB43A421B6953BF004306C4 /* Margueritte-A-24-24-A.png */,
+				9EB43A431B6953BF004306C4 /* Margueritte-A-24-24-B.png */,
 				9EB43A3E1B69133A004306C4 /* Easy-4 cafe-29-22-A.png */,
 				9EB43A3F1B69133B004306C4 /* Easy-4 cafe-29-22-B.png */,
 				7B5F7E451B37A1CD00653EBC /* Chateau cafe-29-22-A.png */,
@@ -19381,8 +19383,6 @@
 				7B67E4AC1B02E6C600EB79AE /* Rafael Bar-B-00-23-B.png */,
 				7B67E4AD1B02E6C600EB79AE /* Rafael Bar-B-15-00-B.png */,
 				7B67E4AE1B02E6C600EB79AE /* Rafael Bar-B-15-00-A.png */,
-				7B67E4AF1B02E6C600EB79AE /* Margueritte-A-24-A.png */,
-				7B67E4B01B02E6C600EB79AE /* Margueritte-A-24-B.png */,
 				7B67E4B11B02E6C600EB79AE /* Margueritte-S-24-A.png */,
 				7B67E4B21B02E6C600EB79AE /* Margueritte-S-24-B.png */,
 				7B67E4B31B02E6C600EB79AE /* Rafael Bar-B-14-22-B.png */,
@@ -23326,7 +23326,6 @@
 				4C63B90D19872A7C00833622 /* Van Gogh-S-12-28-B.png in Resources */,
 				4C1F9258192F172B00AAB2E1 /* Uni Grey.jpg in Resources */,
 				7B67E91A1B02E6DA00EB79AE /* Angelina low-AL-09-28-A.png in Resources */,
-				7B67E8591B02E6DA00EB79AE /* Margueritte-A-24-A.png in Resources */,
 				7B67F2221B037A6700EB79AE /* Propeller cafe-00-25-B.png in Resources */,
 				4CF1EC0A190F3EC600A39BFB /* menu_top.png in Resources */,
 				7B67EC4F1B02FA9C00EB79AE /* Largo-U-49-00-B.png in Resources */,
@@ -26118,7 +26117,6 @@
 				4C63BBEF19872A7E00833622 /* Chrominox-31-27-A.png in Resources */,
 				7B67F1461B037A6700EB79AE /* Largo cafe-00-24-B.png in Resources */,
 				7B67EC5E1B02FA9C00EB79AE /* Largo-U-43-00-A.png in Resources */,
-				7B67E85A1B02E6DA00EB79AE /* Margueritte-A-24-B.png in Resources */,
 				7B67EBD11B02FA9C00EB79AE /* Renoir-W-49-27-B.png in Resources */,
 				7B67E9E71B02E6DA00EB79AE /* Gaugin-A-09-30-B.png in Resources */,
 				7B67E77C1B02E6DA00EB79AE /* Angelina-AW-49-28-B.png in Resources */,
@@ -26184,6 +26182,7 @@
 				4C63B9C519872A7C00833622 /* Renoir-A-14-27-B.png in Resources */,
 				4C63B8E419872A7C00833622 /* Facet-35-00-B.png in Resources */,
 				7B67F24C1B037A6700EB79AE /* Wings cafe-34-00-A.png in Resources */,
+				9EB43A441B6953C0004306C4 /* Margueritte-A-24-24-A.png in Resources */,
 				4C63BC4F19872A7E00833622 /* Blucinox-29-27-AB.png in Resources */,
 				7B0E7EA51B27C870000742C5 /* Picasso-P-06-06-A.png in Resources */,
 				7B67F1B91B037A6700EB79AE /* Easy-4 cafe-34-00-A.png in Resources */,
@@ -26574,6 +26573,7 @@
 				7B67F1341B037A6700EB79AE /* Chrominox XL-00-27-A-00.png in Resources */,
 				7B67E8401B02E6DA00EB79AE /* Gaugin-A-43-30-B.png in Resources */,
 				4C63BB3C19872A7D00833622 /* Largo-XL-34-00-A.png in Resources */,
+				9EB43A451B6953C0004306C4 /* Margueritte-A-24-24-B.png in Resources */,
 				4C63BAC519872A7D00833622 /* Monet-A-17-27-A.png in Resources */,
 				7B883C061ADC376E003415E3 /* wings-140x90x75 a.png in Resources */,
 				7B883B411ADC376E003415E3 /* chateau-180x90x75 a.png in Resources */,
