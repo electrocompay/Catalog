@@ -24,6 +24,10 @@ const int OC = OFFSET_CUBE_83;
     IBOutlet IWPickerViewController *picker3;
     IBOutlet IWPickerViewController *picker4;
     IBOutlet IWPickerViewController *picker5;
+    
+    IBOutlet UIView *cube83View;
+    IBOutlet UIButton *btCosy83;
+    IBOutlet UIButton *btJoly83;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -44,6 +48,10 @@ const int OC = OFFSET_CUBE_83;
     [picker4 setDelegate:self];
     [picker5 setDelegate:self];
     [self pickerViewController:pickerModel didSelectRow:pickerModel.selection];
+    
+    cube83View.hidden = YES;
+    
+    [self initialPickersPositions];
 }
 
 - (void)didReceiveMemoryWarning
@@ -64,18 +72,21 @@ const int OC = OFFSET_CUBE_83;
     }
     
     if (![_cabinet.model.code isEqualToString:@"C193"]) {
-        picker3.frame = CGRectMake(430, 0, picker3.bounds.size.width, picker3.bounds.size.height);
+        picker3.frame = CGRectMake(picker3.frame.origin.x, 0, picker3.bounds.size.width, picker3.bounds.size.height);
         [picker2 setHidden:NO];
     }
 
     if (_delegate) {
         [_delegate didSelect:self andColor:color];
     }
+    
+    cube83View.hidden = YES;
     if ([_cabinet.model.code isEqualToString:@"C83"]) {
+        cube83View.hidden = NO;
         if (![prevModel.code isEqualToString:@"C83"])
             [self movePickersRight];
     } else if ([prevModel.code isEqualToString:@"C83"]) {
-        [self movePickersLeft];
+        [self initialPickersPositions];
     }
 }
 
@@ -211,10 +222,7 @@ const int OC = OFFSET_CUBE_83;
         _cabinet.module4.size = picker5.selection;
     }
     
-    [picker2 refresh];
-    [picker3 refresh];
-    [picker4 refresh];
-    [picker5 refresh];
+    //[self refreshPickers];
     
     [_delegate didSelect:self andColor:color];
 }
@@ -232,7 +240,6 @@ const int OC = OFFSET_CUBE_83;
     if (currentSelection > 1) {
         picker.selection = [array objectAtIndex:currentSelection--];
     }
-    
 }
 
 -(void)setModeCosYJoli83
@@ -254,6 +261,15 @@ const int OC = OFFSET_CUBE_83;
     [picker5 setHidden:NO];
 }
 
+-(void)initialPickersPositions
+{
+    pickerModel.frame = CGRectMake(14, 0, 170, 192);
+    picker2.frame = CGRectMake(230, 0, 170, 192);
+    picker3.frame = CGRectMake(430, 0, 170, 192);
+    picker4.frame = CGRectMake(630, 0, 170, 192);
+    picker5.frame = CGRectMake(830, 0, 170, 192);
+}
+
 -(void)movePickersRight
 {
     picker5.frame = CGRectMake(picker5.frame.origin.x + OC, picker5.frame.origin.y, picker5.frame.size.width - OC, picker5.frame.size.height);
@@ -262,14 +278,13 @@ const int OC = OFFSET_CUBE_83;
     picker2.frame = CGRectMake(picker2.frame.origin.x + OC * 4, picker2.frame.origin.y, picker2.frame.size.width - OC, picker2.frame.size.height);
 }
 
--(void)movePickersLeft
+-(void)refreshPickers
 {
-    picker2.frame = CGRectMake(picker2.frame.origin.x - OC * 4, picker2.frame.origin.y, picker2.frame.size.width + OC, picker2.frame.size.height);
-    picker3.frame = CGRectMake(picker3.frame.origin.x - OC * 2, picker3.frame.origin.y, picker3.frame.size.width + OC, picker3.frame.size.height);
-    picker4.frame = CGRectMake(picker4.frame.origin.x - OC * 2, picker4.frame.origin.y, picker4.frame.size.width + OC, picker4.frame.size.height);
-    picker5.frame = CGRectMake(picker5.frame.origin.x - OC, picker5.frame.origin.y, picker5.frame.size.width + OC, picker5.frame.size.height);
+    [picker2 refresh];
+    [picker3 refresh];
+    [picker4 refresh];
+    [picker5 refresh];
 }
-
 
 -(void)setModeCube
 {
@@ -277,7 +292,18 @@ const int OC = OFFSET_CUBE_83;
     [picker3 setTitle:@"Size"];
     [picker4 setHidden:YES];
     [picker5 setHidden:YES];
-    
 }
+
+- (IBAction)cube83CategorySelected:(UIButton *)sender {
+    if (sender == btCosy83) {
+        btCosy83.selected = YES;
+        btJoly83.selected = NO;
+    }
+    else if (sender == btJoly83) {
+        btJoly83.selected = YES;
+        btCosy83.selected = NO;
+    }
+}
+
 
 @end

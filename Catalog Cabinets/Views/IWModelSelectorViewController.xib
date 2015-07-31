@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -7,7 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWModelSelectorViewController">
             <connections>
-                <outlet property="picker2" destination="qZP-Lw-9pP" id="Ozc-o6-6R3"/>
+                <outlet property="btCosy83" destination="mKh-tf-Apb" id="UNA-1R-wFC"/>
+                <outlet property="btJoly83" destination="A0Y-aB-nKb" id="H6e-bo-WVY"/>
+                <outlet property="cube83View" destination="kQo-SV-iaB" id="Tpa-hB-ZBC"/>
+                <outlet property="picker2" destination="qZP-Lw-9pP" id="mYv-TW-nud"/>
                 <outlet property="picker3" destination="AgY-go-IJH" id="7bw-Sj-zaU"/>
                 <outlet property="picker4" destination="vAR-ga-EVx" id="fIN-pe-RaA"/>
                 <outlet property="picker5" destination="QIm-vl-B5t" id="la5-m4-j8T"/>
@@ -20,37 +23,100 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="192"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G2G-5P-Rw4" userLabel="PickerModel" customClass="IWPickerViewController">
+                <view contentMode="scaleToFill" id="G2G-5P-Rw4" userLabel="PickerModel" customClass="IWPickerViewController">
                     <rect key="frame" x="14" y="0.0" width="170" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZP-Lw-9pP" userLabel="PickerModel" customClass="IWPickerViewController">
+                <view contentMode="scaleToFill" id="qZP-Lw-9pP" userLabel="PickerModel" customClass="IWPickerViewController">
                     <rect key="frame" x="230" y="0.0" width="170" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgY-go-IJH" userLabel="PickerModel" customClass="IWPickerViewController">
+                <view contentMode="scaleToFill" id="AgY-go-IJH" userLabel="PickerModel" customClass="IWPickerViewController">
                     <rect key="frame" x="430" y="0.0" width="170" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAR-ga-EVx" userLabel="PickerModel" customClass="IWPickerViewController">
+                <view contentMode="scaleToFill" id="vAR-ga-EVx" userLabel="PickerModel" customClass="IWPickerViewController">
                     <rect key="frame" x="630" y="0.0" width="170" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIm-vl-B5t" userLabel="PickerModel" customClass="IWPickerViewController">
+                <view contentMode="scaleToFill" id="QIm-vl-B5t" userLabel="PickerModel" customClass="IWPickerViewController">
                     <rect key="frame" x="830" y="0.0" width="170" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DQA-9c-lN4">
+                <view contentMode="scaleToFill" id="DQA-9c-lN4">
                     <rect key="frame" x="203" y="0.0" width="2" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" fixedFrame="YES" image="degrade.png" translatesAutoresizingMaskIntoConstraints="NO" id="vb0-YB-Q62">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" image="degrade.png" id="vb0-YB-Q62">
                     <rect key="frame" x="205" y="0.0" width="10" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <view contentMode="scaleToFill" id="kQo-SV-iaB" userLabel="Cube 83 View">
+                    <rect key="frame" x="205" y="0.0" width="165" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="1111" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="mKh-tf-Apb">
+                            <rect key="frame" x="17" y="70" width="25" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="radio_unselected.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="radio_selected.png"/>
+                            <connections>
+                                <action selector="cube83CategorySelected:" destination="-1" eventType="touchUpInside" id="box-Wt-0UF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2222" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="A0Y-aB-nKb">
+                            <rect key="frame" x="17" y="122" width="25" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="radio_unselected.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="radio_selected.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cube83CategorySelected:" destination="-1" eventType="touchUpInside" id="TWC-td-Q3Y"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cabinet category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v3C-li-BLN">
+                            <rect key="frame" x="8" y="15" width="157" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joly 83" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YhE-en-2F7">
+                            <rect key="frame" x="56" y="124" width="71" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cosy 83" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h4t-9M-ff5">
+                            <rect key="frame" x="56" y="72" width="71" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="198" y="302"/>
         </view>
     </objects>
     <resources>
         <image name="degrade.png" width="21" height="9"/>
+        <image name="radio_selected.png" width="30" height="30"/>
+        <image name="radio_unselected.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
