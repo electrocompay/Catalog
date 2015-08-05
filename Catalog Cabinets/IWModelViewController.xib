@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWModelViewController">
             <connections>
+                <outlet property="cabinetModelLabel" destination="sWk-yR-ZwJ" id="kaX-Xg-UCx"/>
                 <outlet property="content" destination="tj6-zn-pBD" id="P0W-GE-boO"/>
                 <outlet property="homeMenu" destination="ise-Nf-8aS" id="vjh-Ic-RmO"/>
                 <outlet property="menu" destination="rk7-s3-R3i" id="27A-5j-i5q"/>
@@ -145,6 +146,12 @@
                             <rect key="frame" x="354" y="90" width="532" height="134"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cabinet Model" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWk-yR-ZwJ">
+                            <rect key="frame" x="264" y="19" width="155" height="51"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="q2i-mn-KIM" secondAttribute="trailing" constant="370" id="3A3-Lj-XET"/>

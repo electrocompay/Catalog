@@ -57,8 +57,7 @@
     IBOutlet IWPasswordView *passwordDialog;
     IBOutlet UILabel *priceView;
     IBOutlet UIButton *showSummaryButton;
-
-
+    IBOutlet UILabel *cabinetModelLabel;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -618,7 +617,28 @@
 
 -(void)updateDetails
 {
+    int modulesCount = [self countModules];
+    NSString *moduleWord = modulesCount == 1? @"Module" : @"Modules";
+    cabinetModelLabel.text = [NSString stringWithFormat:@"%@\n%d %@", cabinet.model.name, [self countModules], moduleWord];
+    
     [self updatePrices];
+}
+
+-(int)countModules
+{
+    int modulesCounter = 1;
+    
+    if (cabinet.module2.colors.count) {
+        modulesCounter++;
+        if (cabinet.module3.colors.count) {
+            modulesCounter++;
+            if (cabinet.module4.colors.count) {
+                modulesCounter++;
+            }
+        }
+    }
+
+    return modulesCounter;
 }
 
 -(void)passwordView:(IWPasswordView *)passwordView authenticateResult:(BOOL)authenticateResult
