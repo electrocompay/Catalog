@@ -90,7 +90,7 @@ NSArray* _cabinetDrawerColors;
 
                         
                         
-                        [[[[[IWModel modelWithName:@"Largo Wood" andCode:@"Largo-Wood-CC-LL" andFile:@"Largo-Wood-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"22,23,24,25,26,28"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,130 x 130 x 75,150 x 150 x 75,180 x 90 x 75,140 x 90 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 29,130 x 70 x 29,55 x 55 x 55"] withCategory:@"model"],
+                        [[[[[IWModel modelWithName:@"Largo Wood" andCode:@"Largo-Wood-CC-LL" andFile:@"Largo-Wood-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"28"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,130 x 130 x 75,150 x 150 x 75,180 x 90 x 75,140 x 90 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 29,130 x 70 x 29,55 x 55 x 55"] withCategory:@"model"],
                         
                         
                         

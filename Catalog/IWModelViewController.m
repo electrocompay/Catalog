@@ -58,7 +58,6 @@
     /* new*/
     
     __weak IBOutlet UILabel *cabinetModelLabel;
-    __weak IBOutlet UILabel *cabinetModelLabel;
     IBOutlet UILabel *tableNameView;
     IBOutlet UILabel *tableDimensionsView;
     IBOutlet UIButton *showPriceTableButton;

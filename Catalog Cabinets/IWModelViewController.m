@@ -619,7 +619,7 @@
 {
     int modulesCount = [self countModules];
     NSString *moduleWord = modulesCount == 1? @"Module" : @"Modules";
-    cabinetModelLabel.text = [NSString stringWithFormat:@"%@\n%d %@", cabinet.model.name, [self countModules], moduleWord];
+    cabinetModelLabel.text = [NSString stringWithFormat:@"Cabinet %@\n%d %@", cabinet.model.name, [self countModules], moduleWord];
     
     [self updatePrices];
 }
