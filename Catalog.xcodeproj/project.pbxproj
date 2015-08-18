@@ -7553,8 +7553,6 @@
 		7B883C151ADC376E003415E3 /* wings-300x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B311ADC376E003415E3 /* wings-300x100x75 p.png */; };
 		7B883C161ADC376E003415E3 /* wings-55x55x55 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B321ADC376E003415E3 /* wings-55x55x55 a.png */; };
 		7B883C171ADC376E003415E3 /* wings-55x55x55 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B331ADC376E003415E3 /* wings-55x55x55 p.png */; };
-		7B883C191ADC376E003415E3 /* wings xl-160-260x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B361ADC376E003415E3 /* wings xl-160-260x100x75 a.png */; };
-		7B883C1A1ADC376E003415E3 /* wings xl-160-260x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B371ADC376E003415E3 /* wings xl-160-260x100x75 p.png */; };
 		7BD8C20D1AF6646700398D80 /* IWPriceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5589A01A9F4D96007FA8D7 /* IWPriceManager.m */; };
 		7BD8C20E1AF6657C00398D80 /* IWPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72A8D11A74296800DE30BB /* IWPasswordView.m */; };
 		7BD8C20F1AF665C300398D80 /* IWPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B72A8D21A74296800DE30BB /* IWPasswordView.xib */; };
@@ -7599,6 +7597,11 @@
 		9EFD5F081B73A1710089B055 /* Largo-Wood raco-00-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F041B73A1710089B055 /* Largo-Wood raco-00-28-B.png */; };
 		9EFD5F0B1B73A41E0089B055 /* Largo-Wood-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F091B73A41D0089B055 /* Largo-Wood-29-22-A.png */; };
 		9EFD5F0C1B73A41E0089B055 /* Largo-Wood-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F0A1B73A41E0089B055 /* Largo-Wood-29-22-B.png */; };
+		9EFD5F0E1B7E7B630089B055 /* Wings-XL-29-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F0D1B7E7B630089B055 /* Wings-XL-29-22.jpg */; };
+		9EFD5F151B7E84400089B055 /* wings xl-260x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F131B7E84400089B055 /* wings xl-260x100x75 a.png */; };
+		9EFD5F161B7E84400089B055 /* wings xl-260x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F141B7E84400089B055 /* wings xl-260x100x75 p.png */; };
+		9EFD5F191B7E85BA0089B055 /* Wings-XL-29-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F171B7E85B90089B055 /* Wings-XL-29-22-A.png */; };
+		9EFD5F1A1B7E85BA0089B055 /* Wings-XL-29-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD5F181B7E85BA0089B055 /* Wings-XL-29-22-B.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -15068,8 +15071,6 @@
 		7B883B311ADC376E003415E3 /* wings-300x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-300x100x75 p.png"; sourceTree = "<group>"; };
 		7B883B321ADC376E003415E3 /* wings-55x55x55 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-55x55x55 a.png"; sourceTree = "<group>"; };
 		7B883B331ADC376E003415E3 /* wings-55x55x55 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-55x55x55 p.png"; sourceTree = "<group>"; };
-		7B883B361ADC376E003415E3 /* wings xl-160-260x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-160-260x100x75 a.png"; sourceTree = "<group>"; };
-		7B883B371ADC376E003415E3 /* wings xl-160-260x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-160-260x100x75 p.png"; sourceTree = "<group>"; };
 		7BE4319F1B2856ED00AD3953 /* chrominox cafe-100x100x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-100x100x38 a.png"; sourceTree = "<group>"; };
 		7BE431A01B2856ED00AD3953 /* chrominox cafe-100x100x38 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-100x100x38 p.png"; sourceTree = "<group>"; };
 		7BE431A11B2856ED00AD3953 /* chrominox cafe-130x70x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrominox cafe-130x70x38 a.png"; sourceTree = "<group>"; };
@@ -15110,6 +15111,11 @@
 		9EFD5F041B73A1710089B055 /* Largo-Wood raco-00-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-Wood raco-00-28-B.png"; sourceTree = "<group>"; };
 		9EFD5F091B73A41D0089B055 /* Largo-Wood-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-Wood-29-22-A.png"; sourceTree = "<group>"; };
 		9EFD5F0A1B73A41E0089B055 /* Largo-Wood-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Largo-Wood-29-22-B.png"; sourceTree = "<group>"; };
+		9EFD5F0D1B7E7B630089B055 /* Wings-XL-29-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wings-XL-29-22.jpg"; sourceTree = "<group>"; };
+		9EFD5F131B7E84400089B055 /* wings xl-260x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-260x100x75 a.png"; sourceTree = "<group>"; };
+		9EFD5F141B7E84400089B055 /* wings xl-260x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings xl-260x100x75 p.png"; sourceTree = "<group>"; };
+		9EFD5F171B7E85B90089B055 /* Wings-XL-29-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings-XL-29-22-A.png"; sourceTree = "<group>"; };
+		9EFD5F181B7E85BA0089B055 /* Wings-XL-29-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wings-XL-29-22-B.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -18419,6 +18425,8 @@
 				7B67ED721B037A2C00EB79AE /* Wings raco-00-22-A.png */,
 				7B67ED731B037A2C00EB79AE /* Wings raco-00-23-A.png */,
 				7B67ED741B037A2C00EB79AE /* Wings raco-00-24-A.png */,
+				9EFD5F171B7E85B90089B055 /* Wings-XL-29-22-A.png */,
+				9EFD5F181B7E85BA0089B055 /* Wings-XL-29-22-B.png */,
 				7B67ED751B037A2C00EB79AE /* Chrominox consola-70-27-B.png */,
 				7B67ED761B037A2C00EB79AE /* Chrominox consola-37-27-B.png */,
 				7B67ED771B037A2D00EB79AE /* Chrominox consola-41-27-B.png */,
@@ -21115,6 +21123,7 @@
 		4CD5DA891918773E004C80D1 /* taules jpgs */ = {
 			isa = PBXGroup;
 			children = (
+				9EFD5F0D1B7E7B630089B055 /* Wings-XL-29-22.jpg */,
 				9EB43A3C1B690F2A004306C4 /* Easy-4-29-22.jpg */,
 				9EB43A3A1B690918004306C4 /* Cube-29-22.jpg */,
 				9EB43A341B685C49004306C4 /* Tripod-29-22.jpg */,
@@ -23094,8 +23103,8 @@
 		7B883B351ADC376E003415E3 /* wings xl png */ = {
 			isa = PBXGroup;
 			children = (
-				7B883B361ADC376E003415E3 /* wings xl-160-260x100x75 a.png */,
-				7B883B371ADC376E003415E3 /* wings xl-160-260x100x75 p.png */,
+				9EFD5F131B7E84400089B055 /* wings xl-260x100x75 a.png */,
+				9EFD5F141B7E84400089B055 /* wings xl-260x100x75 p.png */,
 			);
 			path = "wings xl png";
 			sourceTree = "<group>";
@@ -23930,6 +23939,7 @@
 				4C63B8E219872A7C00833622 /* Luna-35-00-B.png in Resources */,
 				4C63BCB019872A7F00833622 /* Angelina-A-15-27-B.png in Resources */,
 				7B67F1B31B037A6700EB79AE /* Easy-4 cafe-00-24-B.png in Resources */,
+				9EFD5F191B7E85BA0089B055 /* Wings-XL-29-22-A.png in Resources */,
 				7B67EA5A1B02E6DA00EB79AE /* Gaugin-S-02-30-B.png in Resources */,
 				4C63B9FE19872A7C00833622 /* Moon-U-01-27-A.png in Resources */,
 				7B67F04A1B037A6700EB79AE /* Wings raco-00-22-B.png in Resources */,
@@ -24605,6 +24615,7 @@
 				7B67E7661B02E6DA00EB79AE /* Gaugin-SW-50-30-B.png in Resources */,
 				7B883C081ADC376E003415E3 /* wings-150x150x75 a.png in Resources */,
 				7B67F1021B037A6700EB79AE /* Chrominox XL-00-00-B-36.png in Resources */,
+				9EFD5F0E1B7E7B630089B055 /* Wings-XL-29-22.jpg in Resources */,
 				4C63BC9619872A7F00833622 /* Angelina-A-02-27-B.png in Resources */,
 				7B72A8D41A74296800DE30BB /* IWPasswordView.xib in Resources */,
 				7B67F2461B037A6700EB79AE /* Wings cafe-00-23-B.png in Resources */,
@@ -24983,6 +24994,7 @@
 				7B67F0631B037A6700EB79AE /* Chrominox consola-29-27-B.png in Resources */,
 				4CD5DAB51918773E004C80D1 /* Propeller-29-22.jpg in Resources */,
 				7B67EF8B1B037A6700EB79AE /* Facet raco-29-00-B.png in Resources */,
+				9EFD5F151B7E84400089B055 /* wings xl-260x100x75 a.png in Resources */,
 				7B67EAFA1B02E6DA00EB79AE /* Angelina-B-04-28-A.png in Resources */,
 				4C788F451922B47F00F14D8E /* JOLI-catalogus2014.pdf in Resources */,
 				4C63B9F119872A7C00833622 /* Renoir-A-06-27-A.png in Resources */,
@@ -25527,6 +25539,7 @@
 				7B67EAAA1B02E6DA00EB79AE /* Renoir Bar-B-15-28-A.png in Resources */,
 				9EFD5F0C1B73A41E0089B055 /* Largo-Wood-29-22-B.png in Resources */,
 				4C63BA5019872A7D00833622 /* Monet-W-04-27-A.png in Resources */,
+				9EFD5F161B7E84400089B055 /* wings xl-260x100x75 p.png in Resources */,
 				7B67EA0D1B02E6DA00EB79AE /* Angelina Bar-W-09-28-B.png in Resources */,
 				4C63B96619872A7C00833622 /* Van Gogh-S-12-28-A.png in Resources */,
 				7B67E80C1B02E6DA00EB79AE /* Monet low-ML-45-28-B.png in Resources */,
@@ -25632,7 +25645,6 @@
 				7B67EC291B02FA9C00EB79AE /* Monet-S-46-27-A.png in Resources */,
 				7B67E79F1B02E6DA00EB79AE /* Gaugin-A-48-30-A.png in Resources */,
 				7B67E7E01B02E6DA00EB79AE /* Gaugin-A-46-30-B.png in Resources */,
-				7B883C191ADC376E003415E3 /* wings xl-160-260x100x75 a.png in Resources */,
 				7B67F0941B037A6700EB79AE /* Propeller consola-37-00-B.png in Resources */,
 				7B67F2531B037A6700EB79AE /* Wings cafe-29-00-A.png in Resources */,
 				4C63BB1719872A7D00833622 /* Largo-U-13-00-B.png in Resources */,
@@ -25699,7 +25711,6 @@
 				7B67EC781B02FA9C00EB79AE /* Angelina-S-46-27-B.png in Resources */,
 				4C63BA6919872A7D00833622 /* Monet-S-03-27-A.png in Resources */,
 				4C63B8F419872A7C00833622 /* Elyps-35-00-B.png in Resources */,
-				7B883C1A1ADC376E003415E3 /* wings xl-160-260x100x75 p.png in Resources */,
 				4C63BAEA19872A7D00833622 /* Largo-37-00-A.png in Resources */,
 				7B67EBE91B02FA9C00EB79AE /* Renoir-S-45-27-A.png in Resources */,
 				4C63B99519872A7C00833622 /* Renoir-S-15-27-A.png in Resources */,
@@ -25824,6 +25835,7 @@
 				7B0E7E971B27C870000742C5 /* Picasso-P-13-13-A.png in Resources */,
 				4C63BC8619872A7F00833622 /* Angelina-S-12-27-A.png in Resources */,
 				7B883B391ADC376E003415E3 /* chateau-100x100x38 a.png in Resources */,
+				9EFD5F1A1B7E85BA0089B055 /* Wings-XL-29-22-B.png in Resources */,
 				7B67EFFF1B037A6700EB79AE /* Propeller raco-34-00-A.png in Resources */,
 				4C63B99119872A7C00833622 /* Renoir-S-13-27-A.png in Resources */,
 				7B67E8F41B02E6DA00EB79AE /* Angelina Bar-A-01-28-B.png in Resources */,
