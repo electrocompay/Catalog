@@ -112,8 +112,10 @@
     }
     
     if (_doAnimate) {
-        filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
-        UIView *trView = [self addLayer:filename];
+//        filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
+        filename = [NSString stringWithFormat:@"%@-%@-%ld", modelCode, modelMask, (long)position];
+        [self addLayer:filename];
+/*        UIView *trView = [self addLayer:filename];
         [UIView animateWithDuration:0.3 animations:^(void) {
             trView.alpha = 0.9;
             trView.alpha = 0;
@@ -122,7 +124,7 @@
                 trView.alpha = 0.9;
                 trView.alpha = 0;
             }];
-        }];
+        }];*/
     }
     
 }
