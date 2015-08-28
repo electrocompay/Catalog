@@ -16,14 +16,17 @@
 
 @implementation IWSelectorViewController
 {
-    IBOutlet UIScrollView* scrollView1;
-    IBOutlet IWOptionView* selectedView;
-    IBOutlet UILabel* headerLabel;
+    IBOutlet UIScrollView *scrollView1;
+    IBOutlet IWOptionView *selectedView;
+    IBOutlet UILabel *headerLabel;
     IBOutlet UILabel *propertyNameView;
-    NSMutableArray* filteredList;
-    NSMutableArray* subviews;
+    NSMutableArray *filteredList;
+    NSMutableArray *subviews;
     IBOutlet UIButton *marker;
     IBOutlet UIButton *marker_back;
+    
+    IBOutlet UIView *alternativeView;
+    IBOutlet UIScrollView *scrollView2;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -40,6 +43,10 @@
     [selectedView setSelected:YES];
     [propertyNameView setText:[NSString stringWithFormat:@"Active %@", _propertyName]];
     scrollView1.delegate = self;
+    scrollView2.delegate = self;
+    
+    alternativeView.hidden = YES;
+
     [self updateMarkers];
 }
 
@@ -68,6 +75,7 @@
 
 //    if (subviews) {
         [scrollView1.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        [scrollView2.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
   //  }
     subviews = [[NSMutableArray alloc] init];
     IWOptionView* optionView = [[IWOptionView alloc] init];
@@ -89,7 +97,13 @@
             optionView.label.adjustsFontSizeToFitWidth = YES;
 
             [optionView.label setText:color.name];
+
+        if (alternativeView.hidden == YES) {
             [scrollView1 addSubview:optionView];
+        }
+        else {
+            [scrollView2 addSubview:optionView];
+        }
             [subviews addObject:optionView];
             optionView.frame = CGRectMake((optionView.frame.size.width + 10 )* page , 0, pageSize.width - 20, pageSize.height);
             [optionView setTag:page];
@@ -102,7 +116,12 @@
             UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
             [newLabel setFont:headerLabel.font];
             [newLabel setText:color.category];
-            [scrollView1 addSubview:newLabel];
+            if (alternativeView.hidden == YES) {
+                [scrollView1 addSubview:newLabel];
+            }
+            else {
+                [scrollView2 addSubview:newLabel];
+            }
             priorCategory = color.category;
         }
     }
@@ -110,7 +129,12 @@
         optionView = [subviews objectAtIndex:0];
         [optionView setSelected:YES];
         [self setSelection:optionView.tag];
-        scrollView1.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
+        if (alternativeView.hidden == YES) {
+            scrollView1.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
+        }
+        else {
+            scrollView2.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
+        }
     }
     [self updateMarkers];
 }
