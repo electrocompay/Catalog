@@ -26,6 +26,17 @@
     return model;
 }
 
++(IWModel *)modelWithName:(NSString *)name andCode:(NSString *)code andFile:(NSString *)file andColors:(NSString *)colors andLegColors:(NSString *)legColors andOptionColors:(NSString *)optionColors
+{
+    IWModel* model = [IWModel modelWithName:name andCode:code andFile:file andColors:colors andLegColors:legColors];
+
+    if (optionColors) {
+        model.optionColors = [optionColors componentsSeparatedByString:@","];
+    }
+    
+    return model;
+}
+
 -(IWModel *)withSizes:(NSString *)sizes
 {
     NSArray* dataSizes = [sizes componentsSeparatedByString:@","];

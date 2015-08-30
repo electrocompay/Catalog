@@ -37,6 +37,11 @@
     filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
     [self addLayer:filename];
     
+    if ([chair.model.name isEqualToString:@"Picasso-P"]) {
+        replaceString = [NSString stringWithFormat:@"-%2@.png", chair.leatherLinerColor.code];
+        filename = [filename stringByReplacingOccurrencesOfString:@".png" withString:replaceString];
+        [self addLayer:filename];
+    }
 }
 
 @end

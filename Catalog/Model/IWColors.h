@@ -17,6 +17,7 @@
 +(NSArray*) chairModels;
 +(NSArray*) chairColors;
 +(NSArray*) chairLegColors;
++(NSArray *)leatherLinerColors;
 
 +(NSArray*) cabinetModels;
 +(NSArray*) cabinet40Types;

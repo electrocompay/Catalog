@@ -16,6 +16,7 @@
     if (self) {
         _color = [IWColor colorWithName:nil andCode:@"01" andFile:nil];
         _legsColor = [IWColor colorWithName:nil andCode:@"27" andFile:nil];
+        _leatherLinerColor = [IWColor colorWithName:nil andCode:@"01" andFile:nil];
     }
     return self;
 }

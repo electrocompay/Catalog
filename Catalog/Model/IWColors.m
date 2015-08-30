@@ -17,6 +17,7 @@ NSArray* _tableLegColors;
 NSArray* _chairModels;
 NSArray* _chairColors;
 NSArray* _chairLegColors;
+NSArray* _leatherLinerColors;
 
 NSArray* _cabinetModels;
 NSArray* _cabinet40Types;
@@ -175,7 +176,9 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Monet-BH" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        //[[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
+                        
 
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,18,42" andLegColors:@"27"] withCategory:@"model"],
@@ -248,6 +251,29 @@ NSArray* _cabinetDrawerColors;
     }
     
     return _chairLegColors;
+}
+
++(NSArray *)leatherLinerColors
+{
+    if (!_leatherLinerColors) {
+        _leatherLinerColors = [[NSArray alloc] initWithObjects:
+                        [[IWColor colorWithName:@"White 10" andCode:@"01" andFile:@"White 10.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Beige 110" andCode:@"02" andFile:@"Beige 110.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Lipstick 80" andCode:@"03" andFile:@"Lipstick 80.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Wine Red 18" andCode:@"04" andFile:@"Wine Red 18.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Mocca 29" andCode:@"05" andFile:@"Mocca 29.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Taupe 27" andCode:@"06" andFile:@"Taupe 27.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Nutella 58" andCode:@"07" andFile:@"Nutella.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Grey 21" andCode:@"08" andFile:@"Grey 21.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Antracite 25" andCode:@"09" andFile:@"Antracite 25.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Black 08" andCode:@"10" andFile:@"Black 08.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Leather color"],
+                        nil];
+    }
+    
+    return _leatherLinerColors;
 }
 
 +(NSArray *)cabinetModels
