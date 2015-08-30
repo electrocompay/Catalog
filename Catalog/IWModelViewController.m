@@ -306,6 +306,9 @@
                 selectorChairColorView.optionsItems = [IWColors leatherLinerColors];
                 selectorChairColorView.chairModelForAlternativeView = chair.model.name;
             }
+            else {
+                selectorChairColorView.previousChairModelForAlternativeView = nil;
+            }
         }
 
         if (selectorChairColorView) {
