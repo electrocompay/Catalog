@@ -304,6 +304,9 @@
     self.baseItems = items;
     self.previousChairModelForAlternativeView = self.chairModelForAlternativeView;
     
+    self.chairColorIndex = 0;
+    self.leatherColorIndex = 0;
+
     if ([self.chairModelForAlternativeView isEqualToString:@"Picasso-P"]) {
         option1Label.text = @"Coating";
         option2Label.text = @"Piping";

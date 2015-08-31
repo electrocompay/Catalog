@@ -302,8 +302,6 @@
         if (chair.model.name != nil) {
             if ([chair.model.name rangeOfString:@"Margueritte"].location != NSNotFound ||
                 [chair.model.name isEqualToString:@"Picasso-P"]) {
-                selectorChairColorView.chairColorIndex = 0;
-                selectorChairColorView.leatherColorIndex = 0;
                 selectorChairColorView.optionsItems = [IWColors leatherLinerColors];
                 selectorChairColorView.chairModelForAlternativeView = chair.model.name;
             }
