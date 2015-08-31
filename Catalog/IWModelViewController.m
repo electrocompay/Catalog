@@ -205,7 +205,7 @@
         } else {
             [tabContent bringSubviewToFront:selectorChairColorView.view];
         }
-        [selectorChairColorView setFilteredItems:chair.model.colors];
+        [selectorChairColorView resetViewAndSetFilteredItems:chair.model.colors];
     } else if (index == 5){
         if (!selectorChairLegsColorView) {
             selectorChairLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
@@ -300,9 +300,13 @@
         
         selectorChairColorView.chairModelForAlternativeView = nil;
         if (chair.model.name != nil) {
-            if ([chair.model.name rangeOfString:@"Margueritte"].location != NSNotFound ||
-                [chair.model.name isEqualToString:@"Picasso-P"]) {
-                selectorChairColorView.optionsItems = [IWColors leatherLinerColors];
+            if ([chair.model.name isEqualToString:@"Picasso-P"]) {
+                selectorChairColorView.optionsItems = chair.model.optionColors;
+                selectorChairColorView.chairModelForAlternativeView = chair.model.name;
+            }
+            else if ([chair.model.name isEqualToString:@"Margueritte-A-S"] ||
+                     [chair.model.name isEqualToString:@"Margueritte-S-S"]) {
+                selectorChairColorView.optionsItems = chair.model.colors;
                 selectorChairColorView.chairModelForAlternativeView = chair.model.name;
             }
             else {
@@ -316,14 +320,23 @@
         }
     } else if (selectorViewController == selectorChairColorView)
     {
-        if ([chair.model.name rangeOfString:@"Margueritte"].location != NSNotFound ||
-            [chair.model.name isEqualToString:@"Picasso-P"]) {
+        if ([chair.model.name isEqualToString:@"Picasso-P"]) {
+            
+                if (selectorChairColorView.isOptionSelected) {
+                    chair.leatherLinerColor = color;
+                }
+                else {
+                    [chair setColor:color];
+                }
+        }
+        else if (([chair.model.name isEqualToString:@"Margueritte-A-S"]  ||
+                  [chair.model.name isEqualToString:@"Margueritte-S-S"])) {
             
             if (selectorChairColorView.isOptionSelected) {
-                chair.leatherLinerColor = color;
+                [chair setColor:color];
             }
             else {
-                [chair setColor:color];
+                chair.legsColor = color;
             }
         }
         else {

@@ -37,5 +37,6 @@
 @property (nonatomic, strong) NSString* previousChairModelForAlternativeView;
 
 -(void)setSelection:(NSInteger)index;
+-(void)resetViewAndSetFilteredItems:(NSArray *)items;
 
 @end

@@ -218,6 +218,15 @@
     }
 }
 
+-(void)resetViewAndSetFilteredItems:(NSArray *)items
+{
+    // Reset view on tab change
+    option1Button.selected = YES;
+    self.isOptionSelected = option2Button.selected = NO;
+
+    [self setFilteredItems:items];
+}
+
 -(void)setFilteredItems:(NSArray *)filteredItems
 {
     if (_filteredItems != filteredItems) {
@@ -333,6 +342,7 @@
         option1Button.selected = YES;
         self.isOptionSelected = option2Button.selected = NO;
 
+        _filteredItems = nil;
         [self setItems:self.baseItems];
     }
     else if ([sender tag] == BUTTON_2_TAG) {
@@ -340,11 +350,9 @@
         option1Button.selected = NO;
         self.isOptionSelected = option2Button.selected = YES;
 
-        [self setItems:self.optionsItems];
+        [self setFilteredItems:self.optionsItems];
     }
 }
-
-
 
 
 @end
