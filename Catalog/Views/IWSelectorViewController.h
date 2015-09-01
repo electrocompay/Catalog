@@ -22,6 +22,8 @@
 @property (nonatomic, strong) NSArray* items;
 @property (nonatomic, strong) NSArray* filteredItems;
 @property (nonatomic, strong) IWColor* selectedColor;
+@property (nonatomic, strong) IWColor* selectedBaseColor;
+@property (nonatomic, strong) IWColor* selectedOptionColor;
 @property (readonly) NSInteger selectedIndex;
 @property (nonatomic, weak) id<IWSelectorViewControllerDelegate> delegate;
 @property (nonatomic, strong) NSString* propertyName;

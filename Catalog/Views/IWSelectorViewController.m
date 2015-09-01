@@ -191,14 +191,6 @@
 {
     _selectedIndex = index;
     
-    if (alternativeView.hidden == NO) {
-        if (self.isOptionSelected) {
-            self.leatherColorIndex = index;
-        }
-        else {
-            self.chairColorIndex = index;
-        }
-    }
     
     _selectedColor = [filteredList objectAtIndex:_selectedIndex];
     IWOptionView *optionView = (IWOptionView*) [subviews objectAtIndex:_selectedIndex];
@@ -212,6 +204,16 @@
     [selectedAltView setImage:optionView.image];
 
     
+    if (alternativeView.hidden == NO) {
+        if (self.isOptionSelected) {
+            self.leatherColorIndex = index;
+            self.selectedOptionColor = _selectedColor;
+        }
+        else {
+            self.chairColorIndex = index;
+            self.selectedBaseColor = _selectedColor;
+        }
+    }
     
     if (_delegate) {
         [_delegate didSelectColor:self andColor:_selectedColor];
@@ -310,7 +312,7 @@
 
 -(void)prepareAdditionalOptionsView:(NSArray *)items {
 
-    self.baseItems = items;
+    self.baseItems = _filteredItems;
     self.previousChairModelForAlternativeView = self.chairModelForAlternativeView;
     
     self.chairColorIndex = 0;
@@ -342,8 +344,7 @@
         option1Button.selected = YES;
         self.isOptionSelected = option2Button.selected = NO;
 
-        _filteredItems = nil;
-        [self setItems:self.baseItems];
+        [self setFilteredItems:self.baseItems];
     }
     else if ([sender tag] == BUTTON_2_TAG) {
 

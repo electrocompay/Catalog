@@ -300,13 +300,10 @@
         
         selectorChairColorView.chairModelForAlternativeView = nil;
         if (chair.model.name != nil) {
-            if ([chair.model.name isEqualToString:@"Picasso-P"]) {
+            if ([chair.model.name isEqualToString:@"Margueritte-A-S"] ||
+                [chair.model.name isEqualToString:@"Margueritte-S-S"] ||
+                [chair.model.name isEqualToString:@"Picasso-P"]) {
                 selectorChairColorView.optionsItems = chair.model.optionColors;
-                selectorChairColorView.chairModelForAlternativeView = chair.model.name;
-            }
-            else if ([chair.model.name isEqualToString:@"Margueritte-A-S"] ||
-                     [chair.model.name isEqualToString:@"Margueritte-S-S"]) {
-                selectorChairColorView.optionsItems = chair.model.colors;
                 selectorChairColorView.chairModelForAlternativeView = chair.model.name;
             }
             else {
@@ -333,10 +330,14 @@
                   [chair.model.name isEqualToString:@"Margueritte-S-S"])) {
             
             if (selectorChairColorView.isOptionSelected) {
-                [chair setColor:color];
+                if (selectorChairColorView.selectedOptionColor) {
+                    chair.leatherLinerColor = selectorChairColorView.selectedOptionColor;
+                }
             }
             else {
-                chair.legsColor = color;
+                if (selectorChairColorView.selectedBaseColor) {
+                    chair.color = selectorChairColorView.selectedBaseColor;
+                }
             }
         }
         else {
