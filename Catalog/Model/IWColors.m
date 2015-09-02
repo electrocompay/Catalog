@@ -143,13 +143,13 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_chairModels) {
         _chairModels = [[NSArray alloc] initWithObjects:
-                        [[IWModel modelWithName:@"Angelina-S" andCode:@"Angelina-S-CC-27" andFile:@"Angelina-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-A" andCode:@"Angelina-A-CC-27" andFile:@"Angelina-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-W" andCode:@"Angelina-W-CC-27" andFile:@"Angelina-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-B" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-S" andCode:@"Angelina-S-CC-27" andFile:@"Angelina-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-A" andCode:@"Angelina-A-CC-27" andFile:@"Angelina-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-W" andCode:@"Angelina-W-CC-27" andFile:@"Angelina-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-B" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-27" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"27"] withCategory:@"model"],
                         //[[IWModel modelWithName:@"Ensor-A" andCode:@"Ensor-A-CC-27" andFile:@"Ensor-A-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"27"] withCategory:@"model"],
 
@@ -245,6 +245,18 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_chairLegColors) {
         _chairLegColors = [[NSArray alloc] initWithObjects:
+/*                           [[IWColor colorWithName:@"White 10" andCode:@"01" andFile:@"White 10.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Beige 110" andCode:@"02" andFile:@"Beige 110.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Lipstick 80" andCode:@"03" andFile:@"Lipstick 80.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Wine Red 18" andCode:@"04" andFile:@"Wine Red 18.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Taupe 27" andCode:@"05" andFile:@"Taupe 27.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Nutella 58" andCode:@"06" andFile:@"Nutella.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Grey 21" andCode:@"08" andFile:@"Grey 21.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Antracite 25" andCode:@"09" andFile:@"Antracite 25.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Black 08" andCode:@"10" andFile:@"Black 08.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Leather color"],
+                           [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Leather color"],*/
                            [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
