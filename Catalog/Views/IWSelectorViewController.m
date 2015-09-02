@@ -59,7 +59,7 @@
     scrollView2.delegate = self;
     
     alternativeView.hidden = NO;
-
+    
     [self updateMarkers];
 }
 
@@ -116,8 +116,7 @@
             optionView = [[IWOptionView alloc] init];
 
             // Dynamically adapt font size
-            optionView.label.numberOfLines = 1;
-            optionView.label.adjustsFontSizeToFitWidth = YES;
+            [self setDinamicallyAdaptedTextForLabel:optionView.label];
 
             [optionView.label setText:color.name];
 
@@ -191,18 +190,18 @@
 {
     _selectedIndex = index;
     
-    
     _selectedColor = [filteredList objectAtIndex:_selectedIndex];
     IWOptionView *optionView = (IWOptionView*) [subviews objectAtIndex:_selectedIndex];
     [subviews makeObjectsPerformSelector:@selector(clearSelection)];
     [optionView setSelected:YES];
-
+    
+    [self setDinamicallyAdaptedTextForLabel:selectedView.label];
     [selectedView.label setText:optionView.label.text];
     [selectedView setImage:optionView.image];
 
+    [self setDinamicallyAdaptedTextForLabel:selectedAltView.label];
     [selectedAltView.label setText:optionView.label.text];
     [selectedAltView setImage:optionView.image];
-
     
     if (alternativeView.hidden == NO) {
         if (self.isOptionSelected) {
@@ -355,5 +354,10 @@
     }
 }
 
+-(void)setDinamicallyAdaptedTextForLabel:(UILabel *)label {
+    // Dynamically adapt font size
+    label.numberOfLines = 1;
+    label.adjustsFontSizeToFitWidth = YES;
+}
 
 @end
