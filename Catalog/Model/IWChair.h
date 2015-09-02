@@ -15,5 +15,6 @@
 @property (nonatomic, strong) IWModel* model;
 @property (nonatomic, strong) IWColor* color;
 @property (nonatomic, strong) IWColor* legsColor;
+@property (nonatomic, strong) IWColor* leatherLinerColor;
 
 @end

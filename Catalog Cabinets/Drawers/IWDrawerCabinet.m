@@ -113,6 +113,8 @@
     
     if (_doAnimate) {
         filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
+        NSString *filename2 = [NSString stringWithFormat:@"%@-%@-%ld", modelCode, modelMask, (long)position];
+        [self addLayer:filename2];
         UIView *trView = [self addLayer:filename];
         [UIView animateWithDuration:0.3 animations:^(void) {
             trView.alpha = 0.9;
@@ -124,7 +126,6 @@
             }];
         }];
     }
-    
 }
 
 -(void)drawForniture:(IWForniture *)forniture

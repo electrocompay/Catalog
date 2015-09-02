@@ -6,11 +6,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWSelectorViewController">
             <connections>
+                <outlet property="alternativeMarker" destination="PHt-pf-7zb" id="7wr-dY-iM2"/>
+                <outlet property="alternativeMarker_back" destination="nij-kQ-Ajk" id="0So-st-qnP"/>
+                <outlet property="alternativeView" destination="Dhb-yE-XQE" id="0eL-Oj-YWq"/>
                 <outlet property="headerLabel" destination="eXx-fW-MhE" id="Ujh-UP-PIj"/>
                 <outlet property="marker" destination="i6x-Ve-3Q7" id="IZb-AP-crQ"/>
                 <outlet property="marker_back" destination="mtE-gM-2S8" id="6bT-zN-snP"/>
+                <outlet property="option1Button" destination="A1g-nD-8yJ" id="sS9-xR-2S7"/>
+                <outlet property="option1Label" destination="Dct-E1-iWJ" id="V8H-fW-C7Z"/>
+                <outlet property="option2Button" destination="Qte-7b-781" id="Jeq-xL-nKD"/>
+                <outlet property="option2Label" destination="F9g-mj-525" id="c2h-QN-c6j"/>
                 <outlet property="propertyNameView" destination="iOV-un-it0" id="OkH-jb-krN"/>
                 <outlet property="scrollView1" destination="JDW-Vh-lFZ" id="AXk-eF-Pum"/>
+                <outlet property="scrollView2" destination="npe-9x-fVh" id="PmG-Pt-PfP"/>
+                <outlet property="selectedAltView" destination="Ydl-nO-qGF" id="sQZ-gc-f33"/>
+                <outlet property="selectedElementLabel" destination="Hxj-JY-KT0" id="fdQ-Xd-ZjN"/>
                 <outlet property="selectedView" destination="3ah-9e-S4o" id="yUB-gB-ZLM"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
@@ -78,6 +88,114 @@
                         <action selector="scrollForward:" destination="-1" eventType="touchUpInside" id="sVl-Fr-3uN"/>
                     </connections>
                 </button>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dhb-yE-XQE">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="192"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uxW-Mf-NLm">
+                            <rect key="frame" x="343" y="30" width="654" height="150"/>
+                            <subviews>
+                                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npe-9x-fVh">
+                                    <rect key="frame" x="7" y="38" width="639" height="102"/>
+                                </scrollView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.85999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ftL-Ty-cuV">
+                            <rect key="frame" x="997" y="30" width="2" height="150"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MWZ-Hd-1dw">
+                            <rect key="frame" x="340" y="30" width="2" height="150"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSG-kB-OgP">
+                            <rect key="frame" x="308" y="25" width="2" height="160"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nij-kQ-Ajk">
+                            <rect key="frame" x="308" y="54" width="34" height="121"/>
+                            <state key="normal" image="marker_back.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="alternativeScrollBackward:" destination="-1" eventType="touchUpInside" id="eYf-mn-d8l"/>
+                                <action selector="scrollBackward:" destination="-1" eventType="touchUpInside" id="i8G-aJ-sCO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHt-pf-7zb">
+                            <rect key="frame" x="997" y="54" width="27" height="121"/>
+                            <state key="normal" image="marker.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="alternativeScrollForward:" destination="-1" eventType="touchUpInside" id="LhG-7X-SSZ"/>
+                                <action selector="scrollForward:" destination="-1" eventType="touchUpInside" id="Y29-sZ-Id2"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-5y-njh">
+                            <rect key="frame" x="182" y="67" width="106" height="106"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ydl-nO-qGF" customClass="IWOptionView">
+                                    <rect key="frame" x="2" y="2" width="102" height="102"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Table model" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxj-JY-KT0">
+                            <rect key="frame" x="171" y="14" width="129" height="45"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ce6-Wk-4iL">
+                            <rect key="frame" x="161" y="25" width="2" height="160"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="2222" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qte-7b-781">
+                            <rect key="frame" x="16" y="137" width="25" height="25"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="radio_unselected.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="radio_selected.png"/>
+                            <connections>
+                                <action selector="changeOptionSelection:" destination="-1" eventType="touchUpInside" id="fSg-mr-deW"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chose chair  color option" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDW-ml-mh2">
+                            <rect key="frame" x="26" y="14" width="93" height="44"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Base" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dct-E1-iWJ">
+                            <rect key="frame" x="54" y="83" width="92" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bucket seat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9g-mj-525">
+                            <rect key="frame" x="54" y="139" width="92" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1111" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1g-nD-8yJ">
+                            <rect key="frame" x="16" y="81" width="25" height="25"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="radio_unselected.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="radio_selected.png"/>
+                            <connections>
+                                <action selector="changeOptionSelection:" destination="-1" eventType="touchUpInside" id="od2-bI-uYE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
@@ -89,6 +207,8 @@
     <resources>
         <image name="marker.png" width="12" height="19"/>
         <image name="marker_back.png" width="12" height="19"/>
+        <image name="radio_selected.png" width="30" height="30"/>
+        <image name="radio_unselected.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -205,7 +205,7 @@
         } else {
             [tabContent bringSubviewToFront:selectorChairColorView.view];
         }
-        [selectorChairColorView setFilteredItems:chair.model.colors];
+        [selectorChairColorView resetViewAndSetFilteredItems:chair.model.colors];
     } else if (index == 5){
         if (!selectorChairLegsColorView) {
             selectorChairLegsColorView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
@@ -223,6 +223,7 @@
     [selector setDelegate:self];
     [tabContent addSubview:selector.view];
     selector.view.frame = tabContent.bounds;
+    
     [selector setItems:colors];
 }
 
@@ -270,10 +271,12 @@
         if ([color.code rangeOfString:@"Van Gogh"].location != NSNotFound) {
             wood.file = @"Wood VG.jpg";
             wood.name = @"Black Wood";
+            
             [selectorChairLegsColorView setItems:legsColors];
         } else {
             wood.file = @"Wood.jpg";
             wood.name = @"Wood";
+            
             [selectorChairLegsColorView setItems:legsColors];
         }
         
@@ -294,13 +297,53 @@
         if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
             selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
         }
+        
+        selectorChairColorView.chairModelForAlternativeView = nil;
+        if (chair.model.name != nil) {
+            if ([chair.model.name isEqualToString:@"Margueritte-A-S"] ||
+                [chair.model.name isEqualToString:@"Margueritte-S-S"] ||
+                [chair.model.name isEqualToString:@"Picasso-P"]) {
+                selectorChairColorView.optionsItems = chair.model.optionColors;
+                selectorChairColorView.chairModelForAlternativeView = chair.model.name;
+            }
+            else {
+                selectorChairColorView.previousChairModelForAlternativeView = nil;
+            }
+        }
+
         if (selectorChairColorView) {
             [selectorChairColorView setFilteredItems:chair.model.colors];
             [self didSelectColor:selectorChairColorView andColor:selectorChairColorView.selectedColor];
         }
     } else if (selectorViewController == selectorChairColorView)
     {
-        [chair setColor:color];
+        if ([chair.model.name isEqualToString:@"Picasso-P"]) {
+            
+                if (selectorChairColorView.isOptionSelected) {
+                    chair.leatherLinerColor = color;
+                }
+                else {
+                    [chair setColor:color];
+                }
+        }
+        else if (([chair.model.name isEqualToString:@"Margueritte-A-S"]  ||
+                  [chair.model.name isEqualToString:@"Margueritte-S-S"])) {
+            
+            if (selectorChairColorView.isOptionSelected) {
+                if (selectorChairColorView.selectedOptionColor) {
+                    chair.leatherLinerColor = selectorChairColorView.selectedOptionColor;
+                }
+            }
+            else {
+                if (selectorChairColorView.selectedBaseColor) {
+                    chair.color = selectorChairColorView.selectedBaseColor;
+                }
+            }
+        }
+        else {
+            [chair setColor:color];
+        }
+        
         if ([chair.model.name isEqualToString:@"Rafael-A"]) {
             if ([color.code isEqualToString:@"14"]) {
                 chair.model.legColors = [@"22" componentsSeparatedByString:@","];
@@ -312,9 +355,9 @@
                 chair.model.legColors = [@"24" componentsSeparatedByString:@","];
             }
         }
+
         [selectorChairLegsColorView setFilteredItems:chair.model.legColors];
         [selectorChairLegsColorView setItems:[IWColors chairLegColors]];
-
     } else if (selectorViewController == selectorChairLegsColorView)
     {
         [chair setLegsColor:color];
@@ -477,9 +520,7 @@
 
 -(void)displayComposerSheet
 {
-    
     [[IWUtils getInstance] displayComposerSheet:content.superview viewC:self];
-    
 }
 
 -(void)print

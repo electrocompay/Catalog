@@ -17,6 +17,7 @@ NSArray* _tableLegColors;
 NSArray* _chairModels;
 NSArray* _chairColors;
 NSArray* _chairLegColors;
+NSArray* _leatherLinerColors;
 
 NSArray* _cabinetModels;
 NSArray* _cabinet40Types;
@@ -142,51 +143,54 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_chairModels) {
         _chairModels = [[NSArray alloc] initWithObjects:
-                        [[IWModel modelWithName:@"Angelina-S" andCode:@"Angelina-S-CC-27" andFile:@"Angelina-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-A" andCode:@"Angelina-A-CC-27" andFile:@"Angelina-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-W" andCode:@"Angelina-W-CC-27" andFile:@"Angelina-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-B" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-S" andCode:@"Angelina-S-CC-27" andFile:@"Angelina-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-A" andCode:@"Angelina-A-CC-27" andFile:@"Angelina-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-W" andCode:@"Angelina-W-CC-27" andFile:@"Angelina-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-B" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-27" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"27"] withCategory:@"model"],
                         //[[IWModel modelWithName:@"Ensor-A" andCode:@"Ensor-A-CC-27" andFile:@"Ensor-A-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"27"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-A" andCode:@"Gaugin-A-CC-30" andFile:@"Gaugin-A-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-AW" andCode:@"Gaugin-AW-CC-30" andFile:@"Gaugin-AW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-A" andCode:@"Gaugin-A-CC-30" andFile:@"Gaugin-A-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-AW" andCode:@"Gaugin-AW-CC-30" andFile:@"Gaugin-AW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
 
                         [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-22" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-CC" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-CC" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Margueritte-S-S" andCode:@"Margueritte-S-S-CC-22" andFile:@"Margueritte-S-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Margueritte-A-S" andCode:@"Margueritte-A-S-CC-22" andFile:@"Margueritte-A-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
+
+                        [[IWModel modelWithName:@"Margueritte-S-S" andCode:@"Margueritte-S-S-CC-LL" andFile:@"Margueritte-S-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Margueritte-A-S" andCode:@"Margueritte-A-S-CC-LL" andFile:@"Margueritte-A-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Moon-A" andCode:@"Moon-U-01-LL" andFile:@"Moon-U-01-22.jpg" andColors:@"01" andLegColors:@"22,27"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Monet-S" andCode:@"Monet-S-CC-27" andFile:@"Monet-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-A" andCode:@"Monet-A-CC-27" andFile:@"Monet-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet low-ML" andCode:@"Monet low-ML-CC-28" andFile:@"Monet low-ML-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-B" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-BH" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-S" andCode:@"Monet-S-CC-27" andFile:@"Monet-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-A" andCode:@"Monet-A-CC-27" andFile:@"Monet-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet low-ML" andCode:@"Monet low-ML-CC-28" andFile:@"Monet low-ML-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-B" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-BH" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        //[[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
+                        
 
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,18,42" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael Bar-B" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Renoir-W" andCode:@"Renoir-W-CC-27" andFile:@"Renoir-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Renoir-AW" andCode:@"Renoir-AW-CC-27" andFile:@"Renoir-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Renoir Bar-AW" andCode:@"Renoir Bar-AW-CC-28" andFile:@"Renoir Bar-AW-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Renoir Bar-B" andCode:@"Renoir Bar-B-CC-28" andFile:@"Renoir Bar-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir-W" andCode:@"Renoir-W-CC-27" andFile:@"Renoir-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir-AW" andCode:@"Renoir-AW-CC-27" andFile:@"Renoir-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir Bar-AW" andCode:@"Renoir Bar-AW-CC-28" andFile:@"Renoir Bar-AW-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Renoir Bar-B" andCode:@"Renoir Bar-B-CC-28" andFile:@"Renoir Bar-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:@"06,10" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:@"06,10" andLegColors:@"28"] withCategory:@"model"],
@@ -225,8 +229,12 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"Legs lacquered"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"Legs lacquered"],
                         [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"Legs lacquered"],
                         [[IWColor colorWithName:@"Chrome Inox" andCode:@"27" andFile:@"Chrome-inox.jpg"] withCategory:@"Legs lacquered"],
                         [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Red" andCode:@"74" andFile:@"Black 90.jpg"] withCategory:@"Legs lacquered"],
+                        [[IWColor colorWithName:@"Yellow" andCode:@"75" andFile:@"Black 90.jpg"] withCategory:@"Legs lacquered"],
                         nil];
     }
     
@@ -248,6 +256,29 @@ NSArray* _cabinetDrawerColors;
     }
     
     return _chairLegColors;
+}
+
++(NSArray *)leatherLinerColors
+{
+    if (!_leatherLinerColors) {
+        _leatherLinerColors = [[NSArray alloc] initWithObjects:
+                        [[IWColor colorWithName:@"White 10" andCode:@"01" andFile:@"White 10.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Beige 110" andCode:@"02" andFile:@"Beige 110.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Lipstick 80" andCode:@"03" andFile:@"Lipstick 80.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Wine Red 18" andCode:@"04" andFile:@"Wine Red 18.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Mocca 29" andCode:@"05" andFile:@"Mocca 29.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Taupe 27" andCode:@"06" andFile:@"Taupe 27.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Nutella 58" andCode:@"07" andFile:@"Nutella.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Grey 21" andCode:@"08" andFile:@"Grey 21.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Antracite 25" andCode:@"09" andFile:@"Antracite 25.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Black 08" andCode:@"10" andFile:@"Black 08.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Leather color"],
+                        nil];
+    }
+    
+    return _leatherLinerColors;
 }
 
 +(NSArray *)cabinetModels
