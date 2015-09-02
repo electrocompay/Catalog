@@ -157,8 +157,6 @@ priceListEnum priceList;
     
     if ([cabinet.model.code isEqual:@"40"]){
         modelName = @"Cube-40";
-    } else if ([cabinet.model.code isEqual:@"55"]){
-        modelName = @"Cube-55";
     }
     
     NSString* typeName;

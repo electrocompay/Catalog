@@ -13,8 +13,8 @@ NSString *const AUTHENTICATED_FIELD = @"authenticated";
 NSString *const PRICE_LIST_PREFIX = @"belux";
 NSString *const DEFAULT_TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
 NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
-NSString *const CABINET_PRICE_FORMAT = @"cabinet-%@-%@-%u doors-%@-Matilux-white";
-//NSString *const CABINET_PRICE_FORMAT = @"cabinet-Cube-40-wall cabinet-%d doors-80x40x40-Matilux-white";
+NSString *const CABINET_PRICE_FORMAT = @"cabinet-%@-%@-2 doors-%@-%@-%@";
+//NSString *const CABINET_PRICE_FORMAT = @"cabinet-Cube-40-wall cabinet-2 doors-80x40x40-Matilux-white";
 
 IWPriceManager *pricemanager;
 NSDictionary *tablePriceList;
@@ -157,18 +157,14 @@ priceListEnum priceList;
     
     if ([cabinet.model.code isEqual:@"40"]){
         modelName = @"Cube-40";
-    } else if ([cabinet.model.code isEqual:@"55"]){
-        modelName = @"Cube-55";
     }
     
     NSString* typeName;
     
     if ([cabinet.type.code isEqual:@"B"]){
-        typeName = @"bar cabinet";
-    } else if ([cabinet.type.code isEqual:@"H"]){
         typeName = @"wall cabinet";
-    } else if ([cabinet.type.code isEqual:@"K"]){
-        typeName = @"column cabinet";
+    } else if ([cabinet.type.code isEqual:@"H"]){
+        typeName = @"Cupboard cabinet";
     }
 
     NSString* sizeName;
@@ -180,7 +176,7 @@ priceListEnum priceList;
         
     }
  
-    NSString* priceKey = [[NSString stringWithFormat:priceFormat, modelName, typeName, cabinet.colors.count, sizeName] uppercaseString];
+    NSString* priceKey = [[NSString stringWithFormat:priceFormat, modelName, typeName, sizeName, cabinet.colors.count, cabinet.color.name, cabinet.legsColor.name] uppercaseString];
     
     
     if (priceKey) {

@@ -303,10 +303,10 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet40BSizes) {
         _cabinet40BSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"4 doors (80x80x27)" andCode:@"08" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (80x120x27)" andCode:@"09" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (120x80x27)" andCode:@"10" andFile:nil] ,
-                            [IWColor colorWithName:@"9 doors (120x120x27)" andCode:@"11" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (80x40x40)" andCode:@"08" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (120x40x40)" andCode:@"09" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (160x40x40)" andCode:@"10" andFile:nil] ,
+                            [IWColor colorWithName:@"9 doors (200x40x40)" andCode:@"11" andFile:nil] ,
                             nil];
     }
     
@@ -318,9 +318,9 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet40KSizes) {
         _cabinet40KSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (40x80x27)" andCode:@"12" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (40x120x27)" andCode:@"13" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (40x160x27)" andCode:@"14" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"12" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"13" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"14" andFile:nil] ,
                             nil];
     }
     
@@ -346,11 +346,11 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55HSizes) {
         _cabinet55HSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (110x55x40)" andCode:@"01" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (165x55x40)" andCode:@"02" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (220x55x40)" andCode:@"03" andFile:nil] ,
-                            [IWColor colorWithName:@"5 doors (275x55x40)" andCode:@"04" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (330x55x40)" andCode:@"05" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"01" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"02" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"03" andFile:nil] ,
+                            [IWColor colorWithName:@"5 doors (200x40x40)" andCode:@"04" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (240x40x40)" andCode:@"05" andFile:nil] ,
                             nil];
     }
     
@@ -362,10 +362,10 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55BSizes) {
         _cabinet55BSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"4 doors (110x110x27)" andCode:@"06" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (165x110x27)" andCode:@"07" andFile:nil] ,
-                            [IWColor colorWithName:@"6 doors (110x165x27)" andCode:@"08" andFile:nil] ,
-                            [IWColor colorWithName:@"9 doors (165x165x27)" andCode:@"09" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (80x40x40)" andCode:@"06" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (120x40x40)" andCode:@"07" andFile:nil] ,
+                            [IWColor colorWithName:@"6 doors (160x40x40)" andCode:@"08" andFile:nil] ,
+                            [IWColor colorWithName:@"9 doors (200x40x40)" andCode:@"09" andFile:nil] ,
                             nil];
     }
     
@@ -377,9 +377,9 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinet55KSizes) {
         _cabinet55KSizes = [[NSArray alloc] initWithObjects:
-                            [IWColor colorWithName:@"2 doors (55x110x27)" andCode:@"10" andFile:nil] ,
-                            [IWColor colorWithName:@"3 doors (55x165x27)" andCode:@"11" andFile:nil] ,
-                            [IWColor colorWithName:@"4 doors (55x220x27)" andCode:@"12" andFile:nil] ,
+                            [IWColor colorWithName:@"2 doors (80x40x40)" andCode:@"10" andFile:nil] ,
+                            [IWColor colorWithName:@"3 doors (120x40x40)" andCode:@"11" andFile:nil] ,
+                            [IWColor colorWithName:@"4 doors (160x40x40)" andCode:@"12" andFile:nil] ,
                             nil];
     }
     
