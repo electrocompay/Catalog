@@ -14,7 +14,7 @@ NSString *const PRICE_LIST_PREFIX = @"belux";
 NSString *const DEFAULT_TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
 NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 NSString *const CABINET_PRICE_FORMAT = @"cabinet-%@-%@-%u doors-%@-Matilux-white";
-NSString *const CABINET_PRICE_FORMAT_C193 = @"cabinet-Cube-193 Cosy-wood melamine-%@-Matilux-white-vitrine-%uB-%ux193x40-met verlichting";
+NSString *const CABINET_PRICE_FORMAT_C193 = @"cabinet-Cube-193 Cosy-wood melamine-%s-Matilux-white-vitrine-%dB-%dx193x40-met verlichting";
 //NSString *const CABINET_PRICE_FORMAT = @"cabinet-Cube-40-wall cabinet-%d doors-80x40x40-Matilux-white";
 
 IWPriceManager *pricemanager;
@@ -210,9 +210,8 @@ priceListEnum priceList;
 
 -(NSString*)priceKeyForCosy193:(IWCabinet*)cabinet
 {
-    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, cabinet.interiorColor.name, (int) cabinet.colors.count, (int)cabinet.colors.count*55] uppercaseString];
+    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, cabinet.interiorColor.name, cabinet.colors.count, cabinet.colors.count] uppercaseString];
     
-   
     return priceKey;
 }
 

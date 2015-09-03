@@ -5379,6 +5379,7 @@
 		5DEFCB7619AD809900A994CD /* Splash_Cabinets_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */; };
 		5DEFCB7719AD809900A994CD /* Splash_Cabinets_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */; };
 		6149D2241B901F2F00A457C4 /* belux_cabinet_prices.json in Resources */ = {isa = PBXBuildFile; fileRef = 6149D2231B901F2F00A457C4 /* belux_cabinet_prices.json */; };
+		619A55171B98EBB300D306F8 /* belux_cabinet_prices2.json in Resources */ = {isa = PBXBuildFile; fileRef = 619A55161B98EBB100D306F8 /* belux_cabinet_prices2.json */; };
 		7B0E7E371B27C604000742C5 /* Picasso-P-01-01-A-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B0E7E361B27C604000742C5 /* Picasso-P-01-01-A-02.jpg */; };
 		7B0E7E4A1B27C829000742C5 /* Luna-30-22-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0E7E381B27C828000742C5 /* Luna-30-22-A.png */; };
 		7B0E7E4B1B27C829000742C5 /* Luna-30-22-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0E7E391B27C828000742C5 /* Luna-30-22-B.png */; };
@@ -12921,6 +12922,7 @@
 		5DEFCB7419AD809900A994CD /* Splash_Cabinets_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_768x1024.png; sourceTree = "<group>"; };
 		5DEFCB7519AD809900A994CD /* Splash_Cabinets_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Cabinets_1536x2048.png; sourceTree = "<group>"; };
 		6149D2231B901F2F00A457C4 /* belux_cabinet_prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = belux_cabinet_prices.json; sourceTree = "<group>"; };
+		619A55161B98EBB100D306F8 /* belux_cabinet_prices2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = belux_cabinet_prices2.json; sourceTree = "<group>"; };
 		7B0E7E361B27C604000742C5 /* Picasso-P-01-01-A-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Picasso-P-01-01-A-02.jpg"; sourceTree = "<group>"; };
 		7B0E7E381B27C828000742C5 /* Luna-30-22-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-30-22-A.png"; sourceTree = "<group>"; };
 		7B0E7E391B27C828000742C5 /* Luna-30-22-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luna-30-22-B.png"; sourceTree = "<group>"; };
@@ -21403,6 +21405,7 @@
 		4CEEA3C1191FCEAD00C54B67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				619A55161B98EBB100D306F8 /* belux_cabinet_prices2.json */,
 				6149D2231B901F2F00A457C4 /* belux_cabinet_prices.json */,
 				4C8F0B7B196B7CE300B8A14E /* TR */,
 				4C9BCD05193C1F1500634BD0 /* degrade.png */,
@@ -29832,6 +29835,7 @@
 				4CB7930E192C6BA700325AD9 /* J83-2D-30-F-1.png in Resources */,
 				4C87DE3B192030BC008F59F0 /* 55-B07-37-F.png in Resources */,
 				4C87DAD5192030BC008F59F0 /* 40-H03-32-00-F1.png in Resources */,
+				619A55171B98EBB300D306F8 /* belux_cabinet_prices2.json in Resources */,
 				4CEEABFF191FCEB900C54B67 /* C83-3La-40-3a.png in Resources */,
 				4CB79355192C6BA700325AD9 /* J83-3La-30-F-3a.png in Resources */,
 				4CEEAC89191FCEB900C54B67 /* C83-LDD-35-1.png in Resources */,

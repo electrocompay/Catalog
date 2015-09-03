@@ -14,7 +14,7 @@ NSString *const PRICE_LIST_PREFIX = @"belux";
 NSString *const DEFAULT_TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
 NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 NSString *const CABINET_PRICE_FORMAT = @"cabinet-%@-%@-%u doors-%@-Matilux-white";
-NSString *const CABINET_PRICE_FORMAT_C193 = @"cabinet-Cube-193 Cosy-wood melamine-%@-Matilux-white-vitrine-%uB-%ux193x40-met verlichting";
+NSString *const CABINET_PRICE_FORMAT_C193 = @"cabinet-%@-%@-%u doors-%@-Matilux-white";
 //NSString *const CABINET_PRICE_FORMAT = @"cabinet-Cube-40-wall cabinet-%d doors-80x40x40-Matilux-white";
 
 IWPriceManager *pricemanager;
@@ -152,14 +152,37 @@ priceListEnum priceList;
         cabinetPriceList = [self loadPriceList:@"cabinet"];
     }
     
+    NSString* priceFormat = cabinet.model.priceFormat ? cabinet.model.priceFormat : CABINET_PRICE_FORMAT;
     
-    NSString* priceKey;
+    NSString* modelName;
     
-    if ([cabinet.model.code isEqualToString:@"C193"]) {
-        priceKey = [self priceKeyForCosy193:cabinet];
-    } else if ([cabinet.model.code isEqualToString:@"40"] || [cabinet.model.code isEqualToString:@"55"]) {
-        priceKey = [self priceKeyForCube:cabinet];
+    if ([cabinet.model.code isEqual:@"40"]){
+        modelName = @"Cube-40";
+    } else if ([cabinet.model.code isEqual:@"55"]){
+        modelName = @"Cube-55";
     }
+    
+    NSString* typeName;
+    
+    if ([cabinet.type.code isEqual:@"B"]){
+        typeName = @"bar cabinet";
+    } else if ([cabinet.type.code isEqual:@"H"]){
+        typeName = @"wall cabinet";
+    } else if ([cabinet.type.code isEqual:@"K"]){
+        typeName = @"column cabinet";
+    }
+
+    NSString* sizeName;
+    
+    sizeName = cabinet.size.name;
+    NSRange startRange = [sizeName rangeOfString:@"("];
+    if (startRange.location != NSNotFound) {
+        sizeName = [[sizeName substringFromIndex:startRange.location + 1] stringByReplacingOccurrencesOfString:@")" withString:@""];
+        
+    }
+ 
+    NSString* priceKey = [[NSString stringWithFormat:priceFormat, modelName, typeName, cabinet.colors.count, sizeName] uppercaseString];
+    
     
     if (priceKey) {
         NSDictionary *price = [cabinetPriceList objectForKey:priceKey];
@@ -172,48 +195,5 @@ priceListEnum priceList;
     return 0;
 }
 
--(NSString*)priceKeyForCube:(IWCabinet*)cabinet
-{
-    NSString* priceFormat = CABINET_PRICE_FORMAT;
-    
-    NSString* modelName;
-    
-    if ([cabinet.model.code isEqualToString:@"40"]){
-        modelName = @"Cube-40";
-    } else if ([cabinet.model.code isEqualToString:@"55"]){
-        modelName = @"Cube-55";
-    }
-    
-    NSString* typeName;
-    
-    if ([cabinet.type.code isEqualToString:@"B"]){
-        typeName = @"bar cabinet";
-    } else if ([cabinet.type.code isEqualToString:@"H"]){
-        typeName = @"wall cabinet";
-    } else if ([cabinet.type.code isEqualToString:@"K"]){
-        typeName = @"column cabinet";
-    }
-    
-    NSString* sizeName;
-    
-    sizeName = cabinet.size.name;
-    NSRange startRange = [sizeName rangeOfString:@"("];
-    if (startRange.location != NSNotFound) {
-        sizeName = [[sizeName substringFromIndex:startRange.location + 1] stringByReplacingOccurrencesOfString:@")" withString:@""];
-        
-    }
-    
-    NSString* priceKey = [[NSString stringWithFormat:priceFormat, modelName, typeName, cabinet.colors.count, sizeName] uppercaseString];
-    
-    return priceKey;
-}
-
--(NSString*)priceKeyForCosy193:(IWCabinet*)cabinet
-{
-    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, cabinet.interiorColor.name, (int) cabinet.colors.count, (int)cabinet.colors.count*55] uppercaseString];
-    
-   
-    return priceKey;
-}
 
 @end
