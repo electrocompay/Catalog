@@ -68,6 +68,10 @@
         replacingString = @"-4 cafe-";
         replacedString = @"-4-";
     }
+    else if (NSNotFound != [text rangeOfString:@"Largo-Wood"].location) {
+        replacingString = @"-Wood cafe-";
+        replacedString = @"-Wood-";
+    }
     
     NSRange rOriginal = [convertedText rangeOfString: replacedString];
     if (NSNotFound != rOriginal.location) {

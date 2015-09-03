@@ -7583,6 +7583,10 @@
 		9E598F9E1B98EECB00B0E6F8 /* largo wood-300x100x75 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598F9A1B98EECA00B0E6F8 /* largo wood-300x100x75 a.png */; };
 		9E598F9F1B98EECB00B0E6F8 /* largo wood-300x100x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598F9B1B98EECA00B0E6F8 /* largo wood-300x100x75 p.png */; };
 		9E598FA31B98F43000B0E6F8 /* largo wood-140x90x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598FA21B98F43000B0E6F8 /* largo wood-140x90x75 p.png */; };
+		9E598FB21B99007600B0E6F8 /* largo wood-100x100x29 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598FAE1B99007400B0E6F8 /* largo wood-100x100x29 a.png */; };
+		9E598FB31B99007600B0E6F8 /* largo wood-100x100x29 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598FAF1B99007500B0E6F8 /* largo wood-100x100x29 p.png */; };
+		9E598FB41B99007600B0E6F8 /* largo wood-130x70x29 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598FB01B99007500B0E6F8 /* largo wood-130x70x29 a.png */; };
+		9E598FB51B99007600B0E6F8 /* largo wood-130x70x29 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598FB11B99007500B0E6F8 /* largo wood-130x70x29 p.png */; };
 		9E9FFEFF1B67009700D2C253 /* wings-130x70x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FFEFD1B67009700D2C253 /* wings-130x70x38 a.png */; };
 		9E9FFF001B67009700D2C253 /* wings-130x70x38 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FFEFE1B67009700D2C253 /* wings-130x70x38 p.png */; };
 		9EB43A351B685C49004306C4 /* Tripod-29-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A341B685C49004306C4 /* Tripod-29-22.jpg */; };
@@ -15122,6 +15126,10 @@
 		9E598F9A1B98EECA00B0E6F8 /* largo wood-300x100x75 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "largo wood-300x100x75 a.png"; sourceTree = "<group>"; };
 		9E598F9B1B98EECA00B0E6F8 /* largo wood-300x100x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "largo wood-300x100x75 p.png"; sourceTree = "<group>"; };
 		9E598FA21B98F43000B0E6F8 /* largo wood-140x90x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "largo wood-140x90x75 p.png"; sourceTree = "<group>"; };
+		9E598FAE1B99007400B0E6F8 /* largo wood-100x100x29 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "largo wood-100x100x29 a.png"; path = "Catalog/Resources/Esquemes de taules/largo wood png/largo wood-100x100x29 a.png"; sourceTree = SOURCE_ROOT; };
+		9E598FAF1B99007500B0E6F8 /* largo wood-100x100x29 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "largo wood-100x100x29 p.png"; path = "Catalog/Resources/Esquemes de taules/largo wood png/largo wood-100x100x29 p.png"; sourceTree = SOURCE_ROOT; };
+		9E598FB01B99007500B0E6F8 /* largo wood-130x70x29 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "largo wood-130x70x29 a.png"; path = "Catalog/Resources/Esquemes de taules/largo wood png/largo wood-130x70x29 a.png"; sourceTree = SOURCE_ROOT; };
+		9E598FB11B99007500B0E6F8 /* largo wood-130x70x29 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "largo wood-130x70x29 p.png"; path = "Catalog/Resources/Esquemes de taules/largo wood png/largo wood-130x70x29 p.png"; sourceTree = SOURCE_ROOT; };
 		9E9FFEF81B559AFE00D2C253 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		9E9FFEFD1B67009700D2C253 /* wings-130x70x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-130x70x38 a.png"; sourceTree = "<group>"; };
 		9E9FFEFE1B67009700D2C253 /* wings-130x70x38 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-130x70x38 p.png"; sourceTree = "<group>"; };
@@ -18193,6 +18201,10 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				9E598FAE1B99007400B0E6F8 /* largo wood-100x100x29 a.png */,
+				9E598FAF1B99007500B0E6F8 /* largo wood-100x100x29 p.png */,
+				9E598FB01B99007500B0E6F8 /* largo wood-130x70x29 a.png */,
+				9E598FB11B99007500B0E6F8 /* largo wood-130x70x29 p.png */,
 				9E598F941B965F4900B0E6F8 /* Margueritte-S-24-24-A.png */,
 				9E598F951B965F4900B0E6F8 /* Margueritte-S-24-24-B.png */,
 				9EFD5F091B73A41D0089B055 /* Largo-Wood-29-22-A.png */,
@@ -23896,6 +23908,7 @@
 				4C63B92D19872A7C00833622 /* Wings-37-00-B.png in Resources */,
 				7B5589A51AA5BC1D007FA8D7 /* belux_chair_prices.json in Resources */,
 				7B67EFEB1B037A6700EB79AE /* Propeller raco-00-24-A.png in Resources */,
+				9E598FB21B99007600B0E6F8 /* largo wood-100x100x29 a.png in Resources */,
 				4C63B95619872A7C00833622 /* Van Gogh-S-04-28-A.png in Resources */,
 				7B883BDB1ADC376E003415E3 /* propeller-130x70x38 p.png in Resources */,
 				7B67EFE41B037A6700EB79AE /* Chateau raco-34-00-A.png in Resources */,
@@ -24286,6 +24299,7 @@
 				4C63BB2B19872A7D00833622 /* Largo-XL-00-26-B.png in Resources */,
 				7B67F09C1B037A6700EB79AE /* Propeller consola-31-00-B.png in Resources */,
 				7B883B5A1ADC376E003415E3 /* chrominox-100x100x38 a.png in Resources */,
+				9E598FB31B99007600B0E6F8 /* largo wood-100x100x29 p.png in Resources */,
 				7B883BD41ADC376E003415E3 /* luna-160x75 p.png in Resources */,
 				7B67EAE01B02E6DA00EB79AE /* Angelina-B-12-28-B.png in Resources */,
 				7B67E9F41B02E6DA00EB79AE /* Gaugin-A-14-30-A.png in Resources */,
@@ -24861,6 +24875,7 @@
 				7B5F7E471B37A1CE00653EBC /* Chateau cafe-29-22-A.png in Resources */,
 				7B67EC5F1B02FA9C00EB79AE /* Largo-U-43-00-B.png in Resources */,
 				7B67EA5E1B02E6DA00EB79AE /* Gaugin-S-16-30-A.png in Resources */,
+				9E598FB41B99007600B0E6F8 /* largo wood-130x70x29 a.png in Resources */,
 				7B67EAC01B02E6DA00EB79AE /* Monet low-ML-09-28-B.png in Resources */,
 				7B67F1861B037A6700EB79AE /* Elyps cafe-33-00-B.png in Resources */,
 				7B883BDD1ADC376E003415E3 /* propeller-150x100x38 p.png in Resources */,
@@ -26424,6 +26439,7 @@
 				7B67E7791B02E6DA00EB79AE /* Angelina low-AL-49-28-A.png in Resources */,
 				7B67EA381B02E6DA00EB79AE /* Gaugin-SW-02-30-B.png in Resources */,
 				7B67E8431B02E6DA00EB79AE /* Gaugin-S-43-30-A.png in Resources */,
+				9E598FB51B99007600B0E6F8 /* largo wood-130x70x29 p.png in Resources */,
 				7B67E91B1B02E6DA00EB79AE /* Angelina low-AL-10-28-A.png in Resources */,
 				7B67EC0D1B02FA9C00EB79AE /* Renoir-A-43-27-B.png in Resources */,
 				4C63BAA619872A7D00833622 /* Monet-A-01-27-B.png in Resources */,
