@@ -591,8 +591,13 @@
     [tabController unGrayOutAllTabs];
     if (table.tableType != kDinningTable) {
         tabController.tabDisabled = 3;
-        
-        for (int tabIndex = 3; tabIndex < [tabController numberOfTabs]; tabIndex++) {
+        int initialTabIndex = 3;
+        if ([table.model.name isEqualToString:@"Cube"]) {
+            initialTabIndex--;
+            tabController.tabDisabled = initialTabIndex;
+        }
+
+        for (int tabIndex = initialTabIndex; tabIndex < [tabController numberOfTabs]; tabIndex++) {
             [tabController grayOutTabAtIndex:tabIndex];
         }
     }
