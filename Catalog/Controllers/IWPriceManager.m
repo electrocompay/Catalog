@@ -44,9 +44,13 @@ priceListEnum priceList;
     }
     
     NSString* priceFormat = table.model.priceFormat ? table.model.priceFormat : DEFAULT_TABLE_PRICE_FORMAT;
-    ;
     NSString *priceKey;
+    
+    if ([[priceFormat componentsSeparatedByString:@"@"] count] == 5) {
+        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, table.legsColor.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+    } else {
         priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+    }
     
     if (priceKey) {
         NSDictionary *price = [tablePriceList objectForKey:priceKey];
