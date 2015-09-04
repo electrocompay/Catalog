@@ -28,7 +28,9 @@
     IBOutlet IWColorSelectorView *door7;
     IBOutlet IWColorSelectorView *door8;
     IBOutlet IWColorSelectorView *door9;
-    IBOutlet IWColorSelectorView *stripe;
+    
+    // Beware: I leave the code, not in xib
+//    IBOutlet IWColorSelectorView *stripe;
 }
 
 
@@ -52,7 +54,7 @@
         door7.delegate = self;
         door8.delegate = self;
         door9.delegate = self;
-        stripe.delegate = self;
+//        stripe.delegate = self;
     }
     return self;
 }
@@ -150,10 +152,10 @@
             [_cabinet.drawers replaceObjectAtIndex:2 withObject:color];
             picDrawer3.color = color;
         } } else {
-        if (stripe.selected) {
+/*        if (stripe.selected) {
             _cabinet.stripe = color;
             stripe.color = color;
-        }}
+        }*/}
     }
     
     if (_delegate) {
@@ -260,7 +262,7 @@
             door2.enabled = NO;
         }
         
-        stripe.enabled = _cabinet.useStripe;
+       // stripe.enabled = _cabinet.useStripe;
     }
 }
 
@@ -279,6 +281,7 @@
     }
 }
 
+/*
 -(void)setStripeText:(NSString *)stripeText
 {
     stripe.text = stripeText;
@@ -296,6 +299,6 @@
     door9.selected = NO;
     stripe.selected = NO;
     [stripe setColor:nil];
-}
+} */
 
 @end
