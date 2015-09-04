@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IWMultipleSelectorViewController">
@@ -10,8 +11,8 @@
                 <outlet property="labelAllColor1" destination="54a-9w-3qQ" id="Mua-mO-aax"/>
                 <outlet property="labelAllColors" destination="iOV-un-it0" id="dXd-Ya-O9o"/>
                 <outlet property="labelColorDoor" destination="gdi-2w-VWJ" id="Irf-EE-60T"/>
-                <outlet property="marker" destination="dCV-Uq-R9m" id="4BP-Ms-L7m"/>
-                <outlet property="marker_back" destination="wdb-oD-Qpz" id="YfO-Z6-wre"/>
+                <outlet property="marker" destination="T0H-7q-ybv" id="J3m-N0-RtF"/>
+                <outlet property="marker_back" destination="0Yf-4B-dMm" id="vh4-fI-XBV"/>
                 <outlet property="multipleContainer" destination="m6z-I2-yDA" id="8K1-WE-9Ty"/>
                 <outlet property="propertyNameView" destination="iOV-un-it0" id="OkH-jb-krN"/>
                 <outlet property="scrollView" destination="JDW-Vh-lFZ" id="uDC-uG-E1o"/>
@@ -54,12 +55,6 @@
                     <rect key="frame" x="564" y="30" width="2" height="150"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="dCV-Uq-R9m">
-                    <rect key="frame" x="1002" y="104" width="12" height="19"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="marker_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="wdb-oD-Qpz">
-                    <rect key="frame" x="543" y="104" width="12" height="19"/>
-                </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6z-I2-yDA">
                     <rect key="frame" x="146" y="20" width="384" height="182"/>
                 </view>
@@ -87,6 +82,24 @@
                     <rect key="frame" x="135" y="0.0" width="2" height="192"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0H-7q-ybv">
+                    <rect key="frame" x="997" y="53" width="27" height="121"/>
+                    <state key="normal" image="marker.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollForward:" destination="-1" eventType="touchUpInside" id="vLL-3F-tqo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yf-4B-dMm">
+                    <rect key="frame" x="532" y="53" width="34" height="121"/>
+                    <state key="normal" image="marker_back.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollBackward:" destination="-1" eventType="touchUpInside" id="jQy-LP-X95"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>

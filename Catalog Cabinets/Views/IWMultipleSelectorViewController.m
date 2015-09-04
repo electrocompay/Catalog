@@ -31,8 +31,8 @@
     IBOutlet UILabel *labelAllColors;
     IBOutlet UILabel *labelAllColor1;
     IBOutlet UILabel *labelColorDoor;
-    IBOutlet UIView *marker;
-    IBOutlet UIView *marker_back;
+    IBOutlet UIButton *marker;
+    IBOutlet UIButton *marker_back;
 }
 
 -(id)initWithMode:(IWMultipleSelectorMode)mode
@@ -246,6 +246,29 @@
     if (index < _items.count) {
         [self setSelection: index];
     }
+}
+
+-(IBAction)scrollForward:(id)sender {
+    
+    int newXOffset = scrollView.contentOffset.x + scrollView.bounds.size.width;
+    
+    if ( (newXOffset + scrollView.bounds.size.width) > scrollView.contentSize.width) {
+        newXOffset = scrollView.contentSize.width - scrollView.bounds.size.width;
+        marker.hidden = YES;
+    }
+    
+    [scrollView setContentOffset:CGPointMake(newXOffset, scrollView.contentOffset.y) animated:YES];
+}
+
+-(IBAction)scrollBackward:(id)sender {
+    int newXOffset = scrollView.contentOffset.x - scrollView.bounds.size.width;
+    
+    if ( (newXOffset - scrollView.bounds.size.width) < 0) {
+        newXOffset = 0;
+        marker_back.hidden = YES;
+    }
+    
+    [scrollView setContentOffset:CGPointMake(newXOffset, scrollView.contentOffset.y) animated:YES];
 }
 
 @end
