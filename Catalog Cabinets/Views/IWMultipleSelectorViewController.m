@@ -13,6 +13,7 @@
 #import "IWColors.h"
 #import "NSArray+color.h"
 
+
 @interface IWMultipleSelectorViewController ()
 
 @end
@@ -69,6 +70,7 @@
     [switch1 addTarget:self action:@selector(switchMode:) forControlEvents:UIControlEventValueChanged];
     [switch2 addTarget:self action:@selector(switchMode:) forControlEvents:UIControlEventValueChanged];
     scrollView.delegate = self;
+    
     [self updateMarkers];
 }
 
@@ -81,7 +83,6 @@
 -(void)setItems:(NSArray *)items
 {
     _items = items;
-    
     
     NSString* uniqueCategory = ((IWColor*) [_items objectAtIndex:0]).category;
     filteredList = [[NSMutableArray alloc] init];

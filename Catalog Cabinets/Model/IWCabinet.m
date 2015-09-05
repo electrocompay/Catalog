@@ -103,7 +103,7 @@
                 [_colors addObject: _color];
             }
             NSInteger ndrawers = [params[1] intValue];
-            IWColor* drawerColor = [_model.code isEqualToString:@"J83"] ? [[IWColors cabinetDrawerColors] colorByCode:@"29"] : [[IWColors cabinetDrawerColors] colorByCode:@"35"];
+            IWColor* drawerColor = [_model.code isEqualToString:@"J83"] ? [[IWColors cabinetDrawerColors] colorByCode:@"29"] : [[IWColors cabinetDrawerColors] colorByCode:@"29"];
             [_drawers removeAllObjects];
             for (int i = 0; i < ndrawers; i++) {
                 [_drawers addObject: drawerColor];
@@ -120,7 +120,7 @@
 
 -(IWColor*)getDefaultDrawerColor
 {
-    return [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Xeramica"];
+    return [[IWColor colorWithName:@"Ultra white" andCode:@"29" andFile:@"Ultra white.jpg"] withCategory:@"Xeramica"];
 }
 
 -(IWColor *)top{
