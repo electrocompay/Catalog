@@ -57,6 +57,7 @@
     if ((position == 4 && !sufix) || (position == 3 && [modelMask isEqualToString:@"1D"])) {
         modelMask = [modelMask stringByAppendingString:@"a"];
     }
+
     NSString* filename;
 
     filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, @"29", @"F", @"", position, strSufix];
@@ -105,15 +106,15 @@
         filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.stripe.code, @"F", @"", position, strSufix];
         filename = [filename stringByReplacingOccurrencesOfString:@"C83" withString:@"J83"];
         [self addLayer:filename];
-        filename = [NSString stringWithFormat:@"%@-%dD%@-%@-F-%d%@", cabinet.model.code, cabinet.colors.count, strSufix, cabinet.stripe.code, position, strSufix];
+        filename = [NSString stringWithFormat:@"%@-%ldD%@-%@-F-%ld%@", cabinet.model.code, (long)cabinet.colors.count, strSufix, cabinet.stripe.code, position, strSufix];
         [self addLayer:filename];
-        filename = [NSString stringWithFormat:@"%@-%dL%@-%@-F-%d%@", cabinet.model.code, cabinet.drawers.count, strSufix, cabinet.stripe.code, position, strSufix];
+        filename = [NSString stringWithFormat:@"%@-%ldL%@-%@-F-%ld%@", cabinet.model.code, (long)cabinet.drawers.count, strSufix, cabinet.stripe.code, position, strSufix];
         [self addLayer:filename];
     }
     
     if (_doAnimate) {
         filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
-        NSString *filename2 = [NSString stringWithFormat:@"%@-%@-%ld", modelCode, modelMask, (long)position];
+        NSString *filename2 = [NSString stringWithFormat:@"%@-%@-%ld%@", modelCode, modelMask, (long)position, strSufix];
         [self addLayer:filename2];
         UIView *trView = [self addLayer:filename];
         [UIView animateWithDuration:0.3 animations:^(void) {
