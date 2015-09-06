@@ -197,6 +197,10 @@
 
     [_grandTotalPrice setText:[NSString stringWithFormat:@"%.0f €", chairPrice + tablePrice]];
 */
+    
+    IWPriceManager *priceManager = [[IWPriceManager alloc] init];
+    
+    _grandTotalPrice.text = [NSString stringWithFormat:@"%.2f €",[priceManager getCabinetPrice:_cabinet]];
 }
 
 -(void) showModulesDescriptionsAndPrices {
