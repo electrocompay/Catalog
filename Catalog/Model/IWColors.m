@@ -146,11 +146,13 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Angelina-S" andCode:@"Angelina-S-CC-27" andFile:@"Angelina-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina-A" andCode:@"Angelina-A-CC-27" andFile:@"Angelina-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina-W" andCode:@"Angelina-W-CC-27" andFile:@"Angelina-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina-AW" andCode:@"Angelina-AW-CC-27" andFile:@"Angelina-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,56,57,58,59,60,61,62,63" andLegColors:@"28"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Angelina Bar-S" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina Bar-W" andCode:@"Angelina Bar-W-CC-28" andFile:@"Angelina Bar-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina Bar-AW" andCode:@"Angelina Bar-AW-CC-28" andFile:@"Angelina Bar-AW-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+
                         [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Da vinci" andCode:@"Da vinci-A-CC-LL" andFile:@"Da vinci-A-14-22.jpg" andColors:@"14,15,16,17,18,42" andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
