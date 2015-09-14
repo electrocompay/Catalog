@@ -53,6 +53,12 @@
 
     filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
     [self addLayer:filename];
+    
+    if (NSNotFound != [tableCode rangeOfString:@"Largo-Wood"].location) {
+        filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
+        filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
+        [self addLayer:filename];
+    }
 }
 
 -(NSString*)addCafeText:(NSString*)text{
