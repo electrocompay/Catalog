@@ -55,6 +55,10 @@
     [self addLayer:filename];
     
     if (NSNotFound != [tableCode rangeOfString:@"Largo-Wood"].location) {
+        filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:table.color.code];
+        filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
+        [self addLayer:filename];
+        
         filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
         filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
         [self addLayer:filename];
