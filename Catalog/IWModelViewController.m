@@ -590,18 +590,19 @@
     tabController.tabDisabled = -1;
     [tabController unGrayOutAllTabs];
     if (table.tableType != kDinningTable) {
-        tabController.tabDisabled = 3;
         int initialTabIndex = 3;
         if ([table.model.name isEqualToString:@"Cube"]) {
             initialTabIndex--;
-            tabController.tabDisabled = initialTabIndex;
         }
-
-        for (int tabIndex = initialTabIndex; tabIndex < [tabController numberOfTabs]; tabIndex++) {
-            [tabController grayOutTabAtIndex:tabIndex];
-        }
+        [self disableTabsFromIndex:initialTabIndex];
     }
 
+    if ([chair.model.name isEqualToString:@"Margueritte-S"] ||
+        [chair.model.name isEqualToString:@"Margueritte-A"] ||
+        [chair.model.name isEqualToString:@"Gaugin-S"]) {
+        [self disableTabsFromIndex:5];
+    }
+    
     [chairNameView setText:chair.model.name];
     NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
@@ -634,6 +635,15 @@
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
     
     [self updatePrices];
+}
+
+-(void)disableTabsFromIndex:(int)initialTabIndex
+{
+    tabController.tabDisabled = initialTabIndex;
+    
+    for (int tabIndex = initialTabIndex; tabIndex < [tabController numberOfTabs]; tabIndex++) {
+        [tabController grayOutTabAtIndex:tabIndex];
+    }
 }
 
 -(void)passwordView:(IWPasswordView *)passwordView authenticateResult:(BOOL)authenticateResult
