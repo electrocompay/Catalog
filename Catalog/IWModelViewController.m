@@ -597,8 +597,7 @@
         [self disableTabsFromIndex:initialTabIndex];
     }
 
-    if ([chair.model.name isEqualToString:@"Margueritte-S"] ||
-        [chair.model.name isEqualToString:@"Margueritte-A"] ||
+    if ((NSNotFound != [chair.model.name rangeOfString:@"Margueritte"].location) ||
         [chair.model.name isEqualToString:@"Gaugin-S"]) {
         [self disableTabsFromIndex:5];
     }
