@@ -74,6 +74,11 @@ NSArray* _cabinetDrawerColors;
 //                        [[IWModel modelWithName:@"Bluco" andCode:@"Bluco-CC-LL" andFile:@"Bluco-29-22.jpg" andColors:nil andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
                         [[[[[IWModel modelWithName:@"Chateau" andCode:@"Chateau-CC-LL" andFile:@"Chateau-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"22,23,24,25,26"] withSizes:@"300 x 128 x 75,300 x 100 x 75,250 x 128 x 75,250 x 100 x 75,220 x 128 x 75,220 x 100 x 75,200 x 128 x 75,200 x 100 x 75,180 x 128 x 75,180 x 90 x 75"] withWallSizes:@"200 x 40 x 75"] withSmallSizes:@"150 x 100 x 38,130 x 70 x 38,100 x 100 x 38,55 x 55 x 55"] withCategory:@"model"],
                         [[[[[IWModel modelWithName:@"Chrominox" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"27"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29"] withCategory:@"model"],
+
+                        
+                        [[[[[IWModel modelWithName:@"Chrominox XL" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"27"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29"] withCategory:@"model"],
+                        
+                        
                         [[[[IWModel modelWithName:@"Cube" andCode:@"Cube-CC" andFile:@"Cube-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,41,70" andLegColors:@"22"] withSmallSizes:@"100 x 100 x 39,85 x 85 x 39"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
                         [[[[IWModel modelWithName:@"Easy-4" andCode:@"Easy-4-CC-LL" andFile:@"Easy-4-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,41,70" andLegColors:@"22,23,24,25,26,27"] withSmallSizes:@"150 x 100 x 29,100 x 100 x 29,130 x 70 x 29"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
                         [[[[[IWModel modelWithName:@"Elyps" andCode:@"Elyps-CC-LL" andFile:@"Elyps-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"22,23,24,25,26,27"] withSizes:@"360 x 128 x 75,300 x 128 x 75,250 x 128 x 75,210 x 128 x 75"] withSmallSizes:@"160 x 70 x 29,120 x 60 x 29"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
@@ -175,10 +180,14 @@ NSArray* _cabinetDrawerColors;
 
                         [[IWModel modelWithName:@"Monet-S" andCode:@"Monet-S-CC-27" andFile:@"Monet-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet-A" andCode:@"Monet-A-CC-27" andFile:@"Monet-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+
                         [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet Bar-S" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet Bar-H" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+
+                        [[IWModel modelWithName:@"Monet Bar-W" andCode:@"Monet-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        
+                        
                         [[IWModel modelWithName:@"Monet low-ML" andCode:@"Monet low-ML-CC-28" andFile:@"Monet low-ML-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         
                         [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
