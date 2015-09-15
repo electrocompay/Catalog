@@ -76,7 +76,7 @@ NSArray* _cabinetDrawerColors;
                         [[[[[IWModel modelWithName:@"Chrominox" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"27"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29"] withCategory:@"model"],
 
                         
-                        [[[[[IWModel modelWithName:@"Chrominox XL" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"27"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Chrominox XL" andCode:@"Chrominox XL-CC-LL-D-EE" andFile:@"Chrominox-XL-29-27.jpg" andColors:@"29,30,31,32,33,36,37" andLegColors:@"22,23,24,25,26,27"] withSizes:@"160 x 100 x 75,220 x 100 x 75,260 x 100 x 75,300 x 100 x 75,320 x 100 x 75,400 x 100 x 75"] withCategory:@"model"],
                         
                         
                         [[[[IWModel modelWithName:@"Cube" andCode:@"Cube-CC" andFile:@"Cube-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,41,70" andLegColors:@"22"] withSmallSizes:@"100 x 100 x 39,85 x 85 x 39"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],

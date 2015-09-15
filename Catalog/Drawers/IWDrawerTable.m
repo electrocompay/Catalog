@@ -21,6 +21,7 @@
     } else {
         replaceString = @"-A.png";
     }
+    
     NSString *filename = [table.model.file stringByReplacingOccurrencesOfString:@".jpg" withString:replaceString];
     if (table.tableType == kCoffeeTable) {
         filename = [self addCafeText:filename];
@@ -61,6 +62,34 @@
         
         filename = [tableCode stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
         filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
+        [self addLayer:filename];
+    }
+
+    if (NSNotFound != [tableCode rangeOfString:@"Chrominox XL"].location) {
+        replaceString = @"";
+        if (self.frontView) {
+            replaceString = @"B";
+        } else {
+            replaceString = @"A";
+        }
+        
+        NSMutableString *codeCompleteName = [[table.model.code stringByReplacingOccurrencesOfString:@"D" withString:replaceString] mutableCopy];
+        
+        [codeCompleteName appendString:@".png"];
+        
+        filename = [codeCompleteName stringByReplacingOccurrencesOfString:@"CC" withString:table.color.code];
+        filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
+        filename = [filename stringByReplacingOccurrencesOfString:@"EE" withString:@"00"];
+        [self addLayer:filename];
+
+        filename = [codeCompleteName stringByReplacingOccurrencesOfString:@"EE" withString:table.color.code];
+        filename = [filename stringByReplacingOccurrencesOfString:@"LL" withString:@"00"];
+        filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
+        [self addLayer:filename];
+
+        filename = [codeCompleteName stringByReplacingOccurrencesOfString:@"LL" withString:table.legsColor.code];
+        filename = [filename stringByReplacingOccurrencesOfString:@"EE" withString:@"00"];
+        filename = [filename stringByReplacingOccurrencesOfString:@"CC" withString:@"00"];
         [self addLayer:filename];
     }
 }
