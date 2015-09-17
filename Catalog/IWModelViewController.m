@@ -598,7 +598,7 @@
     }
 
     if ((NSNotFound != [chair.model.name rangeOfString:@"Margueritte"].location) ||
-        [chair.model.name isEqualToString:@"Gaugin-S"]) {
+        (NSNotFound != [chair.model.name rangeOfString:@"Gaugin"].location)) {
         [self disableTabsFromIndex:5];
     }
     
