@@ -65,7 +65,8 @@
         [self addLayer:filename];
     }
 
-    if (NSNotFound != [tableCode rangeOfString:@"Chrominox XL"].location) {
+    if ((NSNotFound != [tableCode rangeOfString:@"Chrominox XL"].location) ||
+        (NSNotFound != [tableCode rangeOfString:@"Wings XL"].location)){
         replaceString = @"";
         if (self.frontView) {
             replaceString = @"B";

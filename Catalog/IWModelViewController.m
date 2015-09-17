@@ -603,7 +603,18 @@
     }
     
     [chairNameView setText:chair.model.name];
-    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
+    
+    NSString *tableModelName = table.model.name;
+    if ([tableModelName isEqualToString:@"Wings Outdoor"] ||
+        [tableModelName isEqualToString:@"Wings Indoor"]) {
+        tableModelName = @"Wings";
+    }
+
+    if ([tableModelName isEqualToString:@"Wings XL"]) {
+        tableModelName = @"Chrominox XL";
+    }
+
+    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", tableModelName, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
 //    CGRect f = CGRectMake(0, 0, tableTopSize.frame.size.width, image.size.height *( tableTopSize.superview.frame.size.width / image.size.width));
 //    [tableTopSize setFrame:f];
