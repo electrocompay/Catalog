@@ -18,6 +18,7 @@
 -(BOOL)authenticate:(NSString*)authenticationCode;
 -(double)getTablePrice:(IWTable*)table;
 -(double)getChairPrice:(IWChair*)chair;
+-(double)getCabinetPrice:(IWCabinet*)cabinet forModule:(NSInteger)module;
 -(double)getCabinetPrice:(IWCabinet*)cabinet;
 
 +(IWPriceManager*)getInstance;

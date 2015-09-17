@@ -15,6 +15,7 @@ NSString *const DEFAULT_TABLE_PRICE_FORMAT = @"%@-%@-%@-%@";
 NSString *const CHAIR_PRICE_FORMAT = @"%@-%@";
 NSString *const CABINET_PRICE_FORMAT = @"cabinet-%@-%@-%u doors-%@-Matilux-white";
 NSString *const CABINET_PRICE_FORMAT_C193 = @"cabinet-Cube-193 Cosy-wood melamine-%@-Matilux-white-vitrine-%uB-%ux193x40-met verlichting";
+NSString *const CABINET_PRICE_FORMAT_83 = @"cabinet-Cube-83-Matilux-white-dressoir-%uB-%ux83x50-%@";
 //NSString *const CABINET_PRICE_FORMAT = @"cabinet-Cube-40-wall cabinet-%d doors-80x40x40-Matilux-white";
 
 IWPriceManager *pricemanager;
@@ -150,7 +151,7 @@ priceListEnum priceList;
     return Nil;
 }
 
--(double)getCabinetPrice:(IWCabinet *)cabinet
+-(double)getCabinetPrice:(IWCabinet *)cabinet forModule:(NSInteger)module
 {
     if (!cabinetPriceList) {
         cabinetPriceList = [self loadPriceList:@"cabinet"];
@@ -163,6 +164,8 @@ priceListEnum priceList;
         priceKey = [self priceKeyForCosy193:cabinet];
     } else if ([cabinet.model.code isEqualToString:@"40"] || [cabinet.model.code isEqualToString:@"55"]) {
         priceKey = [self priceKeyForCube:cabinet];
+    } else if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"]){
+        priceKey = [self priceKeyFor83:cabinet forModule:module];
     }
     
     if (priceKey) {
@@ -175,6 +178,46 @@ priceListEnum priceList;
     
     return 0;
 }
+
+-(NSString*)priceKeyFor83:(IWCabinet*)cabinet forModule:(NSInteger)module
+{
+    IWCabinet* lcabinet = cabinet;
+    switch (module) {
+        case 1:
+            lcabinet = cabinet.module2;
+            break;
+        case 2:
+            lcabinet = cabinet.module3;
+            break;
+        case 3:
+            lcabinet = cabinet.module4;
+            break;
+            
+        default:
+            break;
+    }
+    
+    int doors = 2;
+    if ([lcabinet.size.code isEqualToString:@"1,0"]) {
+        doors = 1;
+    }
+    
+    NSString* param1;
+    if ([lcabinet.size.code isEqualToString:@"1,0"]) {
+        param1 = @"D";
+    } else if ([lcabinet.size.code isEqualToString:@"2,0"]) {
+        param1 = @"2D";
+    } else if ([lcabinet.size.code isEqualToString:@"2,1"]) {
+        param1 = @"LDD";
+    } else if ([lcabinet.size.code isEqualToString:@"0,3"]) {
+        param1 = @"3L";
+    }
+    
+    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_83, doors, doors * 55, param1] uppercaseString];
+    
+    return priceKey;
+}
+
 
 -(NSString*)priceKeyForCube:(IWCabinet*)cabinet
 {
@@ -218,6 +261,24 @@ priceListEnum priceList;
     
    
     return priceKey;
+}
+
+-(double)getCabinetPrice:(IWCabinet *)cabinet
+{
+    double totalPrice;
+    
+    if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"]) {
+        totalPrice = [self getCabinetPrice:cabinet forModule:0];
+        
+        totalPrice += cabinet.module2.size.code ? [self getCabinetPrice:cabinet forModule:1] : 0;
+        totalPrice += cabinet.module3.size.code ? [self getCabinetPrice:cabinet forModule:2] : 0;
+        totalPrice += cabinet.module4.size.code ? [self getCabinetPrice:cabinet forModule:3] : 0;
+        
+    } else {
+        totalPrice = [self getCabinetPrice:cabinet forModule:0];
+    }
+    
+    return totalPrice;
 }
 
 @end
