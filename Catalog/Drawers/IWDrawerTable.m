@@ -72,6 +72,11 @@
         } else {
             replaceString = @"A";
         }
+
+        // Base Table
+        filename = @"Chrominox XL-29-22-D-29.png";
+        filename = [filename stringByReplacingOccurrencesOfString:@"D" withString:replaceString];
+        [self addLayer:filename];
         
         NSMutableString *codeCompleteName = [[table.model.code stringByReplacingOccurrencesOfString:@"D" withString:replaceString] mutableCopy];
         
