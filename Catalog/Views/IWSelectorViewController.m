@@ -104,7 +104,7 @@
     IWOptionView* optionView = [[IWOptionView alloc] init];
     CGSize pageSize = optionView.bounds.size;
     NSInteger page = 0;
-    
+
     if (uniqueCategory) {
         [headerLabel setText:[NSString stringWithFormat:@"Choose %@", uniqueCategory]];
     } else {
@@ -112,6 +112,8 @@
     }
     
     NSString* priorCategory = nil;
+    BOOL didPrintFirstCategoryLabel = NO;
+    
     for (IWColor *color in filteredList) {
             optionView = [[IWOptionView alloc] init];
 
@@ -134,16 +136,13 @@
             [optionView setUserInteractionEnabled:YES];
             [optionView setGestureRecognizers:[NSArray arrayWithObject:recognizer]];
             [optionView setImage:color.file];
-        if (!uniqueCategory && priorCategory != color.category) {
-            UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
-            [newLabel setFont:headerLabel.font];
-            [newLabel setText:color.category];
-
-            [scrollView1 addSubview:newLabel];
-            if (alternativeView.hidden == NO) {
-                [scrollView2 addSubview:newLabel];
-            }
-
+        
+        if (uniqueCategory && (headerLabel.hidden == YES) &&  didPrintFirstCategoryLabel == NO) {
+            [self setCategoryLabel:optionView andText:color.category];
+            didPrintFirstCategoryLabel = YES;
+        }
+        else if (!uniqueCategory && priorCategory != color.category) {
+            [self setCategoryLabel:optionView andText:color.category];
             priorCategory = color.category;
         }
     }
@@ -168,6 +167,18 @@
     [self updateMarkers];
     if (alternativeView.hidden == NO) {
         [self updateAlternativeMarkers];
+    }
+}
+
+-(void)setCategoryLabel:(UIView*)optionView andText:(NSString*)text
+{
+    UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
+    [newLabel setFont:headerLabel.font];
+    [newLabel setText:text];
+    
+    [scrollView1 addSubview:newLabel];
+    if (alternativeView.hidden == NO) {
+        [scrollView2 addSubview:newLabel];
     }
 }
 
