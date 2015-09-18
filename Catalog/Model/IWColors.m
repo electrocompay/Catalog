@@ -170,7 +170,7 @@ NSArray* _cabinetDrawerColors;
 
                         [[IWModel modelWithName:@"Da vinci" andCode:@"Da vinci-A-CC-LL" andFile:@"Da vinci-A-14-22.jpg" andColors:@"14,15,16,17,18,42" andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
                         
-                        [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-LL" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"99,22,23,24,25,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-LL" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,15,16,17,18,42" andLegColors:@"99,22,23,24,25,26"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Gaugin-A" andCode:@"Gaugin-A-CC-30" andFile:@"Gaugin-A-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
@@ -200,7 +200,7 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Monet low-ML" andCode:@"Monet low-ML-CC-28" andFile:@"Monet low-ML-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
                         
-                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,18,42" andLegColors:@"27"] withCategory:@"model"],
