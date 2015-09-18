@@ -192,7 +192,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-27" andFile:@"Monet-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet Bar-S" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet Bar-S" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet Bar-H" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Monet Bar-W" andCode:@"Monet-Bar-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],

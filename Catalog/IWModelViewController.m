@@ -598,7 +598,8 @@
     }
 
     if ((NSNotFound != [chair.model.name rangeOfString:@"Margueritte"].location) ||
-        (NSNotFound != [chair.model.name rangeOfString:@"Gaugin"].location)) {
+        (NSNotFound != [chair.model.name rangeOfString:@"Gaugin"].location)      ||
+        (NSNotFound != [chair.model.name rangeOfString:@"Picasso"].location)) {
         [self disableTabsFromIndex:5];
     }
     
