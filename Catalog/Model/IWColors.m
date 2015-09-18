@@ -117,6 +117,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Old Oak" andCode:@"34" andFile:@"Old Oak.jpg"] withCategory:@"Xeramica"],
                         [[IWColor colorWithName:@"Smoke Oak" andCode:@"35" andFile:@"Smoke Oak.jpg"] withCategory:@"Xeramica"],
                         [[IWColor colorWithName:@"Calacatta" andCode:@"41" andFile:@"Caltatta.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Beton" andCode:@"70" andFile:@"Beton 70.jpg"] withCategory:@"Xeramica"],
                         [[IWColor colorWithName:@"White" andCode:@"36" andFile:@"White.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"37" andFile:@"Taupe.jpg"] withCategory:@"Glass"],
                         //[[IWColor colorWithName:@"Carrara" andCode:@"38" andFile:@"Matrilux Carara.jpg"] withCategory:@"Glass"],
