@@ -170,7 +170,7 @@ NSArray* _cabinetDrawerColors;
 
                         [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Da Vinci" andCode:@"Da vinci-A-CC-LL" andFile:@"Da vinci-A-14-22.jpg" andColors:@"14,15,16,17,18,42" andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Da Vinci" andCode:@"Da vinci-A-CC-LL" andFile:@"Da vinci-A-14-22.jpg" andColors:@"14,16,17,18,29,42" andLegColors:@"22,23,24,25,26"] withCategory:@"model"],
                         
                         [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-LL" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,16,17,18,42" andLegColors:@"99,22,23,24,25,26"] withCategory:@"model"],
 
@@ -179,7 +179,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Gaugin-AW" andCode:@"Gaugin-AW-CC-30" andFile:@"Gaugin-AW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
 
-                        [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26,27"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-CC" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-CC" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,25,26,74,75" andLegColors:@"22"] withCategory:@"model"],
@@ -194,7 +194,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Monet-W" andCode:@"Monet-W-CC-27" andFile:@"Monet-W-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Monet-AW" andCode:@"Monet-AW-CC-27" andFile:@"Monet-AW-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Monet Bar-S" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Monet Bar-S" andCode:@"Monet-B-CC-28" andFile:@"Monet-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Monet Bar-H" andCode:@"Monet-BH-CC-28" andFile:@"Monet-BH-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Monet Bar-W" andCode:@"Monet-Bar-W-CC-28" andFile:@"Monet-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
@@ -203,9 +203,9 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,,15,18,42" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,17,18,29,42" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,17,18,29,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,16,18,29" andLegColors:@"22,23,26"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
