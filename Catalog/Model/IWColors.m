@@ -201,8 +201,8 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,18,42" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,18,42" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,,15,18,42" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
@@ -244,8 +244,8 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Leather color"],
-                        [[IWColor colorWithName:@"Mocca 29" andCode:@"15" andFile:@"Mocca 29.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"White 01" andCode:@"14" andFile:@"White 01.jpg"] withCategory:@"Skai color"],
+                        [[IWColor colorWithName:@"Mocca 29" andCode:@"15" andFile:@"Mocca 29.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"L. grey 617" andCode:@"16" andFile:@"Light Grey 617.jpg"] withCategory:@"Skai color"],
                         [[IWColor colorWithName:@"Antracite 605" andCode:@"17" andFile:@"Antracite 605.jpg"] withCategory:@"Skai color"],
                         [[IWColor colorWithName:@"Black 901" andCode:@"18" andFile:@"Black 90.jpg"] withCategory:@"Skai color"],
