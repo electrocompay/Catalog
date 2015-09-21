@@ -146,7 +146,7 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Chrome" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"Stainless Steel" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"legs color"],
                            [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
                            nil];
     }
