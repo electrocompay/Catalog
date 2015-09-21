@@ -172,10 +172,10 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Ensor-S" andCode:@"Ensor-S-CC-LL" andFile:@"Ensor-S-14-27.jpg" andColors:@"14,15,16,17,18,42" andLegColors:@"99,22,23,24,25,26"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-A" andCode:@"Gaugin-A-CC-30" andFile:@"Gaugin-A-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Gaugin-AW" andCode:@"Gaugin-AW-CC-30" andFile:@"Gaugin-AW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-S" andCode:@"Gaugin-S-CC-30" andFile:@"Gaugin-S-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-A" andCode:@"Gaugin-A-CC-30" andFile:@"Gaugin-A-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-SW" andCode:@"Gaugin-SW-CC-30" andFile:@"Gaugin-SW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Gaugin-AW" andCode:@"Gaugin-AW-CC-30" andFile:@"Gaugin-AW-01-30.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"30"] withCategory:@"model"],
 
                         [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
 
