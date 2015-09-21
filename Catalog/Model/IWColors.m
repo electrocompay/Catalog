@@ -141,13 +141,13 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_tableLegColors) {
         _tableLegColors = [[NSArray alloc] initWithObjects:
-                           [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Stainless Steel" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"legs color"],
-                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"legs color"],
+                           [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Stainless Steel" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"frame color"],
+                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"frame color"],
                            nil];
     }
     
@@ -296,14 +296,14 @@ NSArray* _cabinetDrawerColors;
                            [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Legs Leather"],
                            [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Legs Leather"],
                            [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Legs Leather"],
-                           [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Stainless Steel" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Chrome" andCode:@"99" andFile:@"Chrome-Inox.jpg"] withCategory:@"Legs color"],
-                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"Legs color"],
+                           [[IWColor colorWithName:@"White" andCode:@"22" andFile:@"White.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Taupe" andCode:@"23" andFile:@"Taupe.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Brown" andCode:@"24" andFile:@"Brown.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Antracite" andCode:@"25" andFile:@"Antracite 25.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Black" andCode:@"26" andFile:@"Black 90.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Stainless Steel" andCode:@"27" andFile:@"Chrome-Inox.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Chrome" andCode:@"99" andFile:@"Chrome-Inox.jpg"] withCategory:@"Legs lacquered"],
+                           [[IWColor colorWithName:@"Wood" andCode:@"28" andFile:@"Wood.jpg"] withCategory:@"Legs lacquered"],
                            [[IWColor colorWithName:@"Ice 002" andCode:@"43" andFile:@"Ice 002.jpg"] withCategory:@"Legs torres"],
                            [[IWColor colorWithName:@"Greige 001" andCode:@"44" andFile:@"Greige 001.jpg"] withCategory:@"Legs torres"],
                            [[IWColor colorWithName:@"Taupe 004" andCode:@"45" andFile:@"Taupe 004.jpg"] withCategory:@"Legs torres"],
