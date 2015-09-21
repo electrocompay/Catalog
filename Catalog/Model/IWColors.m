@@ -75,7 +75,7 @@ NSArray* _cabinetDrawerColors;
                         [[[[[IWModel modelWithName:@"Chateau" andCode:@"Chateau-CC-LL" andFile:@"Chateau-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"22,23,24,25,26"] withSizes:@"300 x 128 x 75,300 x 100 x 75,250 x 128 x 75,250 x 100 x 75,220 x 128 x 75,220 x 100 x 75,200 x 128 x 75,200 x 100 x 75,180 x 128 x 75,180 x 90 x 75"] withWallSizes:@"200 x 40 x 75"] withSmallSizes:@"150 x 100 x 38,130 x 70 x 38,100 x 100 x 38,55 x 55 x 55"] withCategory:@"model"],
                         [[[[[IWModel modelWithName:@"Chrominox" andCode:@"Chrominox-CC-27" andFile:@"Chrominox-29-27.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"27"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29"] withCategory:@"model"],
                         
-                        [[[IWModel modelWithName:@"Chrominox XL" andCode:@"Chrominox XL-CC-LL-D-EE" andFile:@"Chrominox-XL-29-27.jpg" andColors:@"29,30,31,32,33,36,37" andLegColors:@"22,23,24,25,26,27"] withSizes:@"300/400 x 100 x 75,220/320 x 100 x 75,160/260 x 100 x 75"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Chrominox XL" andCode:@"Chrominox XL-CC-LL-D-EE" andFile:@"Chrominox-XL-29-27.jpg" andColors:@"29,30,31,32,33,36,37,71,72" andLegColors:@"22,23,24,25,26,27"] withSizes:@"300/400 x 100 x 75,220/320 x 100 x 75,160/260 x 100 x 75"] withCategory:@"model"],
                         
                         [[[[IWModel modelWithName:@"Cube" andCode:@"Cube-CC" andFile:@"Cube-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,41,70" andLegColors:@"22"] withSmallSizes:@"100 x 100 x 39,85 x 85 x 39"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
                         [[[[IWModel modelWithName:@"Easy-4" andCode:@"Easy-4-CC-LL" andFile:@"Easy-4-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,41,70" andLegColors:@"22,23,24,25,26,27"] withSmallSizes:@"150 x 100 x 29,100 x 100 x 29,130 x 70 x 29"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
@@ -97,7 +97,7 @@ NSArray* _cabinetDrawerColors;
                         
                         //[[[IWModel modelWithName:@"Wings XL" andCode:@"Wings-XL-CC-LL" andFile:@"Wings-XL-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"22,23,24,25,26"] withSizes:@"260 x 100 x 75"] withCategory:@"model"],
 
-                        [[[IWModel modelWithName:@"Wings XL" andCode:@"Chrominox XL-CC-LL-D-EE" andFile:@"Chrominox-XL-29-27.jpg" andColors:@"29,30,31,32,33,36,37" andLegColors:@"22,23,24,25,26,27"] withSizes:@"300/400 x 100 x 75,220/320 x 100 x 75,160/260 x 100 x 75"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Wings XL" andCode:@"Chrominox XL-CC-LL-D-EE" andFile:@"Chrominox-XL-29-27.jpg" andColors:@"29,30,31,32,33,36,37,71,72" andLegColors:@"22,23,24,25,26,27"] withSizes:@"300/400 x 100 x 75,220/320 x 100 x 75,160/260 x 100 x 75"] withCategory:@"model"],
                         
                         nil];
     }
@@ -129,6 +129,8 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Chocolate" andCode:@"48" andFile:@"Chocolate 48.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Tan" andCode:@"49" andFile:@"Tan 49.jpg"] withCategory:@"Glass"],
                         [[IWColor colorWithName:@"Mushroom" andCode:@"50" andFile:@"Mushroom 50.jpg"] withCategory:@"Glass"],
+                        [[IWColor colorWithName:@"Dark Brown" andCode:@"71" andFile:@"Dark brown 71.jpg"] withCategory:@"Xeramica"],
+                        [[IWColor colorWithName:@"Antracite" andCode:@"72" andFile:@"Antracite 25.jpg"] withCategory:@"Xeramica"],
                         nil];
     }
     
