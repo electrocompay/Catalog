@@ -179,8 +179,8 @@ NSArray* _cabinetDrawerColors;
 
                         [[[IWModel modelWithName:@"Largo-A" andCode:@"Largo-U-CC-LL" andFile:@"Largo-U-01-22.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,43,44,45,46,47,48,49,50" andLegColors:@"22,23,24,25,26"] withPriceFormat:@"%@-%@-%@"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-CC" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-CC" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Margueritte-S" andCode:@"Margueritte-S-CC-CC" andFile:@"Margueritte-S-22-22.jpg" andColors:@"22,23,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Margueritte-A" andCode:@"Margueritte-A-CC-CC" andFile:@"Margueritte-A-22-22.jpg" andColors:@"22,23,25,26,74,75" andLegColors:@"22"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-S-S" andCode:@"Margueritte-S-S-CC-LL" andFile:@"Margueritte-S-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Margueritte-A-S" andCode:@"Margueritte-A-S-CC-LL" andFile:@"Margueritte-A-S-22-22.jpg" andColors:@"22,23,24,25,26,74,75" andLegColors:@"22,23,24,25,26,74,75" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
 
