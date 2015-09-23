@@ -7756,6 +7756,22 @@
 		9EB43A451B6953C0004306C4 /* Margueritte-A-24-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB43A431B6953BF004306C4 /* Margueritte-A-24-24-B.png */; };
 		9EB7EDB21BB0602B00CE0D55 /* Chrominox XL-00-00-A-70.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB01BB0602B00CE0D55 /* Chrominox XL-00-00-A-70.png */; };
 		9EB7EDB31BB0602B00CE0D55 /* Chrominox XL-00-00-B-70.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB11BB0602B00CE0D55 /* Chrominox XL-00-00-B-70.png */; };
+		9EB7EDC41BB372FC00CE0D55 /* Angelina Bar-AW-43-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB41BB372FA00CE0D55 /* Angelina Bar-AW-43-28-A.png */; };
+		9EB7EDC51BB372FC00CE0D55 /* Angelina Bar-AW-43-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB51BB372FA00CE0D55 /* Angelina Bar-AW-43-28-B.png */; };
+		9EB7EDC61BB372FC00CE0D55 /* Angelina Bar-AW-44-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB61BB372FA00CE0D55 /* Angelina Bar-AW-44-28-A.png */; };
+		9EB7EDC71BB372FC00CE0D55 /* Angelina Bar-AW-44-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB71BB372FA00CE0D55 /* Angelina Bar-AW-44-28-B.png */; };
+		9EB7EDC81BB372FC00CE0D55 /* Angelina Bar-AW-45-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB81BB372FA00CE0D55 /* Angelina Bar-AW-45-28-A.png */; };
+		9EB7EDC91BB372FC00CE0D55 /* Angelina Bar-AW-45-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDB91BB372FA00CE0D55 /* Angelina Bar-AW-45-28-B.png */; };
+		9EB7EDCA1BB372FC00CE0D55 /* Angelina Bar-AW-46-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBA1BB372FA00CE0D55 /* Angelina Bar-AW-46-28-A.png */; };
+		9EB7EDCB1BB372FC00CE0D55 /* Angelina Bar-AW-46-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBB1BB372FB00CE0D55 /* Angelina Bar-AW-46-28-B.png */; };
+		9EB7EDCC1BB372FC00CE0D55 /* Angelina Bar-AW-47-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBC1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-A.png */; };
+		9EB7EDCD1BB372FC00CE0D55 /* Angelina Bar-AW-47-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBD1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-B.png */; };
+		9EB7EDCE1BB372FC00CE0D55 /* Angelina Bar-AW-48-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBE1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-A.png */; };
+		9EB7EDCF1BB372FC00CE0D55 /* Angelina Bar-AW-48-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDBF1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-B.png */; };
+		9EB7EDD01BB372FC00CE0D55 /* Angelina Bar-AW-49-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDC01BB372FB00CE0D55 /* Angelina Bar-AW-49-28-A.png */; };
+		9EB7EDD11BB372FC00CE0D55 /* Angelina Bar-AW-49-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDC11BB372FB00CE0D55 /* Angelina Bar-AW-49-28-B.png */; };
+		9EB7EDD21BB372FC00CE0D55 /* Angelina Bar-AW-50-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDC21BB372FB00CE0D55 /* Angelina Bar-AW-50-28-A.png */; };
+		9EB7EDD31BB372FC00CE0D55 /* Angelina Bar-AW-50-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDC31BB372FC00CE0D55 /* Angelina Bar-AW-50-28-B.png */; };
 		9EF52BFD1BA6604400451FAB /* Angelina Bar-AW-01-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF31BA6604200451FAB /* Angelina Bar-AW-01-28-A.png */; };
 		9EF52BFE1BA6604400451FAB /* Angelina Bar-AW-01-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF41BA6604200451FAB /* Angelina Bar-AW-01-28-B.png */; };
 		9EF52BFF1BA6604400451FAB /* Angelina Bar-AW-02-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF51BA6604300451FAB /* Angelina Bar-AW-02-28-A.png */; };
@@ -15573,6 +15589,22 @@
 		9EB43A431B6953BF004306C4 /* Margueritte-A-24-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-A-24-24-B.png"; sourceTree = "<group>"; };
 		9EB7EDB01BB0602B00CE0D55 /* Chrominox XL-00-00-A-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-00-A-70.png"; sourceTree = "<group>"; };
 		9EB7EDB11BB0602B00CE0D55 /* Chrominox XL-00-00-B-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-00-B-70.png"; sourceTree = "<group>"; };
+		9EB7EDB41BB372FA00CE0D55 /* Angelina Bar-AW-43-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-43-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDB51BB372FA00CE0D55 /* Angelina Bar-AW-43-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-43-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDB61BB372FA00CE0D55 /* Angelina Bar-AW-44-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-44-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDB71BB372FA00CE0D55 /* Angelina Bar-AW-44-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-44-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDB81BB372FA00CE0D55 /* Angelina Bar-AW-45-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-45-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDB91BB372FA00CE0D55 /* Angelina Bar-AW-45-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-45-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDBA1BB372FA00CE0D55 /* Angelina Bar-AW-46-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-46-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDBB1BB372FB00CE0D55 /* Angelina Bar-AW-46-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-46-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDBC1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-47-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDBD1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-47-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDBE1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-48-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDBF1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-48-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDC01BB372FB00CE0D55 /* Angelina Bar-AW-49-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-49-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDC11BB372FB00CE0D55 /* Angelina Bar-AW-49-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-49-28-B.png"; sourceTree = "<group>"; };
+		9EB7EDC21BB372FB00CE0D55 /* Angelina Bar-AW-50-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-50-28-A.png"; sourceTree = "<group>"; };
+		9EB7EDC31BB372FC00CE0D55 /* Angelina Bar-AW-50-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-50-28-B.png"; sourceTree = "<group>"; };
 		9EF52BF31BA6604200451FAB /* Angelina Bar-AW-01-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-01-28-A.png"; sourceTree = "<group>"; };
 		9EF52BF41BA6604200451FAB /* Angelina Bar-AW-01-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-01-28-B.png"; sourceTree = "<group>"; };
 		9EF52BF51BA6604300451FAB /* Angelina Bar-AW-02-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-02-28-A.png"; sourceTree = "<group>"; };
@@ -18761,6 +18793,22 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				9EB7EDB41BB372FA00CE0D55 /* Angelina Bar-AW-43-28-A.png */,
+				9EB7EDB51BB372FA00CE0D55 /* Angelina Bar-AW-43-28-B.png */,
+				9EB7EDB61BB372FA00CE0D55 /* Angelina Bar-AW-44-28-A.png */,
+				9EB7EDB71BB372FA00CE0D55 /* Angelina Bar-AW-44-28-B.png */,
+				9EB7EDB81BB372FA00CE0D55 /* Angelina Bar-AW-45-28-A.png */,
+				9EB7EDB91BB372FA00CE0D55 /* Angelina Bar-AW-45-28-B.png */,
+				9EB7EDBA1BB372FA00CE0D55 /* Angelina Bar-AW-46-28-A.png */,
+				9EB7EDBB1BB372FB00CE0D55 /* Angelina Bar-AW-46-28-B.png */,
+				9EB7EDBC1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-A.png */,
+				9EB7EDBD1BB372FB00CE0D55 /* Angelina Bar-AW-47-28-B.png */,
+				9EB7EDBE1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-A.png */,
+				9EB7EDBF1BB372FB00CE0D55 /* Angelina Bar-AW-48-28-B.png */,
+				9EB7EDC01BB372FB00CE0D55 /* Angelina Bar-AW-49-28-A.png */,
+				9EB7EDC11BB372FB00CE0D55 /* Angelina Bar-AW-49-28-B.png */,
+				9EB7EDC21BB372FB00CE0D55 /* Angelina Bar-AW-50-28-A.png */,
+				9EB7EDC31BB372FC00CE0D55 /* Angelina Bar-AW-50-28-B.png */,
 				9EB7EDB01BB0602B00CE0D55 /* Chrominox XL-00-00-A-70.png */,
 				9EB7EDB11BB0602B00CE0D55 /* Chrominox XL-00-00-B-70.png */,
 				9EF52D2E1BACAE7E00451FAB /* Ensor-S-14-00-A.png */,
@@ -24459,6 +24507,7 @@
 				7B67F0351B037A6700EB79AE /* Largo raco-29-00-A.png in Resources */,
 				7B67EA5C1B02E6DA00EB79AE /* Gaugin-S-01-30-B.png in Resources */,
 				7B67E7F11B02E6DA00EB79AE /* Monet-W-46-28-A.png in Resources */,
+				9EB7EDCA1BB372FC00CE0D55 /* Angelina Bar-AW-46-28-A.png in Resources */,
 				7B67E9C01B02E6DA00EB79AE /* Gaugin-AW-14-30-B.png in Resources */,
 				7B67F02D1B037A6700EB79AE /* Largo raco-36-00-A.png in Resources */,
 				7B67E7621B02E6DA00EB79AE /* Gaugin-AW-50-30-B.png in Resources */,
@@ -25116,6 +25165,7 @@
 				4C63B9E119872A7C00833622 /* Renoir-AW-10-27-B.png in Resources */,
 				4C63BC7619872A7E00833622 /* Angelina-S-04-27-A.png in Resources */,
 				7B67EC361B02FA9C00EB79AE /* Monet-AW-47-27-A.png in Resources */,
+				9EB7EDC91BB372FC00CE0D55 /* Angelina Bar-AW-45-28-B.png in Resources */,
 				7B67E97B1B02E6DA00EB79AE /* Monet-B-09-28-B.png in Resources */,
 				4C63BBB119872A7E00833622 /* Elyps-30-00-A.png in Resources */,
 				7B67EA851B02E6DA00EB79AE /* Renoir Bar-AW-16-28-A.png in Resources */,
@@ -25164,6 +25214,7 @@
 				4C63BA7819872A7D00833622 /* Monet-S-10-27-B.png in Resources */,
 				7B67E85D1B02E6DA00EB79AE /* Rafael Bar-B-14-22-B.png in Resources */,
 				7B67E8C81B02E6DA00EB79AE /* Picasso-P-00-00-B-02.png in Resources */,
+				9EB7EDD01BB372FC00CE0D55 /* Angelina Bar-AW-49-28-A.png in Resources */,
 				7B67F0461B037A6700EB79AE /* Wings raco-00-26-B.png in Resources */,
 				7B67F2081B037A6700EB79AE /* Chateau cafe-35-00-A.png in Resources */,
 				4C1F9276192F172B00AAB2E1 /* Wood-28.jpg in Resources */,
@@ -25226,6 +25277,7 @@
 				4C63BBE419872A7E00833622 /* Chateau-37-00-B.png in Resources */,
 				4C63B92B19872A7C00833622 /* Wings-36-00-B.png in Resources */,
 				4C63BAF519872A7D00833622 /* Largo-U-00-24-B.png in Resources */,
+				9EB7EDD31BB372FC00CE0D55 /* Angelina Bar-AW-50-28-B.png in Resources */,
 				4C63B9CD19872A7C00833622 /* Renoir-A-18-27-B.png in Resources */,
 				7B67EAB81B02E6DA00EB79AE /* Monet low-ML-15-28-B.png in Resources */,
 				4C63BAF419872A7D00833622 /* Largo-U-00-24-A.png in Resources */,
@@ -25349,6 +25401,7 @@
 				7B67F1DF1B037A6700EB79AE /* Chrominox cafe-41-27-B.png in Resources */,
 				7B67EBE71B02FA9C00EB79AE /* Renoir-S-46-27-B.png in Resources */,
 				4C63BC6719872A7E00833622 /* Angelina-AW-14-27-B.png in Resources */,
+				9EB7EDCE1BB372FC00CE0D55 /* Angelina Bar-AW-48-28-A.png in Resources */,
 				7B67E9B71B02E6DA00EB79AE /* Angelina-AW-05-28-A.png in Resources */,
 				7B67E7D01B02E6DA00EB79AE /* Monet-BH-47-28-B.png in Resources */,
 				4C1F9232192F172B00AAB2E1 /* Old Oak.jpg in Resources */,
@@ -25771,6 +25824,7 @@
 				7B883B781ADC376E003415E3 /* cube-85x85x39 p.png in Resources */,
 				7B883B5F1ADC376E003415E3 /* chrominox-130x130x75 p.png in Resources */,
 				4C1F9268192F172B00AAB2E1 /* Wine Red 18.jpg in Resources */,
+				9EB7EDC71BB372FC00CE0D55 /* Angelina Bar-AW-44-28-B.png in Resources */,
 				4C63B98119872A7C00833622 /* Renoir-W-14-27-B.png in Resources */,
 				4C63BA8B19872A7D00833622 /* Monet-AW-12-27-A.png in Resources */,
 				7B1C49811B1EA4980017EEFA /* Margueritte-A-S-22-22.jpg in Resources */,
@@ -26245,6 +26299,7 @@
 				4C63BA9619872A7D00833622 /* Monet-AW-17-27-B.png in Resources */,
 				4C63BAB319872A7D00833622 /* Monet-A-08-27-A.png in Resources */,
 				4C63BCBD19872A7F00833622 /* Angelina-AW-04-27-A.png in Resources */,
+				9EB7EDC81BB372FC00CE0D55 /* Angelina Bar-AW-45-28-A.png in Resources */,
 				9EF52C301BA6607500451FAB /* Angelina Bar-AW-13-28-B.png in Resources */,
 				7B67E9171B02E6DA00EB79AE /* Angelina low-AL-02-28-B.png in Resources */,
 				4C63B95919872A7C00833622 /* Van Gogh-S-05-28-B.png in Resources */,
@@ -26288,6 +26343,7 @@
 				7B883B711ADC376E003415E3 /* chrominox-250x100x75 p.png in Resources */,
 				7B67F0D91B037A6700EB79AE /* Wings consola-00-22-A.png in Resources */,
 				4C63B93219872A7C00833622 /* Renoir-W-17-27-A.png in Resources */,
+				9EB7EDCB1BB372FC00CE0D55 /* Angelina Bar-AW-46-28-B.png in Resources */,
 				7B4B141A1B0AE960000116F7 /* Black 46.jpg in Resources */,
 				7B67EC891B02FA9C00EB79AE /* Angelina-AW-45-27-A.png in Resources */,
 				7B67E9F81B02E6DA00EB79AE /* Gaugin-A-10-30-A.png in Resources */,
@@ -26369,6 +26425,7 @@
 				4C63BA1E19872A7D00833622 /* Propeller-34-00-A.png in Resources */,
 				4C63BAFA19872A7D00833622 /* Largo-U-01-00-A.png in Resources */,
 				7B67F0181B037A6700EB79AE /* Wings raco-32-00-A.png in Resources */,
+				9EB7EDC61BB372FC00CE0D55 /* Angelina Bar-AW-44-28-A.png in Resources */,
 				4C63BBFE19872A7E00833622 /* Bluco-33-00-A.png in Resources */,
 				7B883C0D1ADC376E003415E3 /* wings-200x100x75 p.png in Resources */,
 				7B67F17D1B037A6700EB79AE /* Facet cafe-00-23-A.png in Resources */,
@@ -26572,6 +26629,7 @@
 				7B67F1411B037A6700EB79AE /* Largo cafe-29-22-B.png in Resources */,
 				9E9EE1B51B9CE692006F87F9 /* Yellow 75.jpg in Resources */,
 				7B67E7E61B02E6DA00EB79AE /* Gaugin-SW-46-30-B.png in Resources */,
+				9EB7EDC51BB372FC00CE0D55 /* Angelina Bar-AW-43-28-B.png in Resources */,
 				7B67E9761B02E6DA00EB79AE /* Monet-B-14-28-B.png in Resources */,
 				4C63BC7A19872A7E00833622 /* Angelina-S-06-27-A.png in Resources */,
 				7B67F0B71B037A6700EB79AE /* Largo consola-33-00-B.png in Resources */,
@@ -26659,6 +26717,7 @@
 				4C63BA5019872A7D00833622 /* Monet-W-04-27-A.png in Resources */,
 				9EFD5F161B7E84400089B055 /* wings xl-260x100x75 p.png in Resources */,
 				7B67EA0D1B02E6DA00EB79AE /* Angelina Bar-W-09-28-B.png in Resources */,
+				9EB7EDCF1BB372FC00CE0D55 /* Angelina Bar-AW-48-28-B.png in Resources */,
 				4C63B96619872A7C00833622 /* Van Gogh-S-12-28-A.png in Resources */,
 				9E7429CC1BA64E6E00C4697D /* Largo-Wood-37-28-A.png in Resources */,
 				7B67E80C1B02E6DA00EB79AE /* Monet low-ML-45-28-B.png in Resources */,
@@ -26682,6 +26741,7 @@
 				9E7429C61BA64E6E00C4697D /* Largo-Wood-34-28-A.png in Resources */,
 				4C63BA6B19872A7D00833622 /* Monet-S-04-27-A.png in Resources */,
 				4CF8100A1923080A008D6D27 /* toggle_unselected.png in Resources */,
+				9EB7EDD21BB372FC00CE0D55 /* Angelina Bar-AW-50-28-A.png in Resources */,
 				7B67F21E1B037A6700EB79AE /* Propeller cafe-31-00-B.png in Resources */,
 				7B67F10C1B037A6700EB79AE /* Chrominox XL-29-00-B-00.png in Resources */,
 				4C63BB4219872A7D00833622 /* Ensor-S-18-00-B.png in Resources */,
@@ -27288,6 +27348,7 @@
 				7B67EC821B02FA9C00EB79AE /* Angelina-AW-49-27-B.png in Resources */,
 				7B67E9651B02E6DA00EB79AE /* Monet-W-15-28-A.png in Resources */,
 				4C63B97B19872A7C00833622 /* Renoir-W-11-27-B.png in Resources */,
+				9EB7EDC41BB372FC00CE0D55 /* Angelina Bar-AW-43-28-A.png in Resources */,
 				7B67E99B1B02E6DA00EB79AE /* Angelina-AW-15-28-B.png in Resources */,
 				7B67F1BA1B037A6700EB79AE /* Easy-4 cafe-35-00-A.png in Resources */,
 				7B67F1AC1B037A6700EB79AE /* Easy-4 cafe-30-00-B.png in Resources */,
@@ -27604,6 +27665,7 @@
 				7B67F1CE1B037A6700EB79AE /* Cube cafe-32-B.png in Resources */,
 				9E9EE17C1B991D7E006F87F9 /* Chocolate 010.jpg in Resources */,
 				4C63B8F519872A7C00833622 /* Facet-34-00-A.png in Resources */,
+				9EB7EDD11BB372FC00CE0D55 /* Angelina Bar-AW-49-28-B.png in Resources */,
 				7B883B9D1ADC376E003415E3 /* largo-130x130x75 a.png in Resources */,
 				4C09584E191B9A4200DD1542 /* catalog2.png in Resources */,
 				4C63BA1A19872A7D00833622 /* Propeller-32-00-A.png in Resources */,
@@ -27636,6 +27698,7 @@
 				4CD5DAB21918773E004C80D1 /* Largo-29-22.jpg in Resources */,
 				4C63BA8919872A7D00833622 /* Monet-AW-11-27-A.png in Resources */,
 				7B0E7E531B27C829000742C5 /* Luna-34-22-B.png in Resources */,
+				9EB7EDCC1BB372FC00CE0D55 /* Angelina Bar-AW-47-28-A.png in Resources */,
 				7B67EFD31B037A6700EB79AE /* Facet raco-33-00-A.png in Resources */,
 				7B0E7EB51B27CB85000742C5 /* Renoir Bar-AW-01-28.jpg in Resources */,
 				4C63BC6219872A7E00833622 /* Angelina-AW-12-27-A.png in Resources */,
@@ -27713,6 +27776,7 @@
 				7B67F1C01B037A6700EB79AE /* Easy-4 cafe-29-00-A.png in Resources */,
 				7B67F0EA1B037A6700EB79AE /* Wings consola-30-00-B.png in Resources */,
 				7B67EC401B02FA9C00EB79AE /* Monet-A-50-27-A.png in Resources */,
+				9EB7EDCD1BB372FC00CE0D55 /* Angelina Bar-AW-47-28-B.png in Resources */,
 				4C63BA6F19872A7D00833622 /* Monet-S-06-27-A.png in Resources */,
 				4C63BC1119872A7E00833622 /* Chateau-00-25-B.png in Resources */,
 				7B67EAEA1B02E6DA00EB79AE /* Angelina-B-04-28-B.png in Resources */,
