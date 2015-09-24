@@ -294,9 +294,9 @@
             }
         }
         
-        if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
-            selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
-        }
+        //if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
+        //    selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
+        //}
         
         selectorChairColorView.chairModelForAlternativeView = nil;
         if (chair.model.name != nil) {
