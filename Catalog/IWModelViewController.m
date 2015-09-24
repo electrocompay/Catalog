@@ -675,6 +675,17 @@
     [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
     
     [self updatePrices];
+    
+    // Hide and disable Show Summary for chair if not a Dinning Table
+    chairPriceView.hidden = NO;
+    chairPriceButton.alpha = 1.0;
+    chairPriceButton.enabled = true;
+    if (table.tableType != kDinningTable) {
+        chairNameView.text = @"";
+        chairPriceView.hidden = YES;
+        chairPriceButton.alpha = 0.9;
+        chairPriceButton.enabled = false;
+    }
 }
 
 -(void)disableTabsFromIndex:(int)initialTabIndex
