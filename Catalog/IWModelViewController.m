@@ -117,6 +117,7 @@
 
     [showSummaryButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
     showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -190,6 +191,23 @@
         } else {
             [tabContent bringSubviewToFront:selectorTableLegsColorView.view];
         }
+
+        // This should be very improved...
+        NSArray *tableLegColors = [IWColors tableLegColors];
+        if ([table.model.name isEqualToString:@"Wings Outdoor"]) {
+            for (int colorIndex = 0; colorIndex < tableLegColors.count; colorIndex++) {
+                IWColor* legColor = tableLegColors[colorIndex];
+                NSString* newColorName = [NSString stringWithFormat:@"Alu. %@", legColor.name];
+                legColor.name = newColorName;
+            }
+        }
+        else {
+            for (int colorIndex = 0; colorIndex < tableLegColors.count; colorIndex++) {
+                IWColor* legColor = tableLegColors[colorIndex];
+                legColor.name = [legColor.name stringByReplacingOccurrencesOfString:@"Alu. " withString:@""];
+            }
+        }
+
         [selectorTableLegsColorView setFilteredItems:table.model.legColors];
     } else if (index == 3){
         if (!selectorChairModelView) {
