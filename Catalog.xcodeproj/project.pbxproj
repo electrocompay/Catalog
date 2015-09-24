@@ -7776,6 +7776,22 @@
 		9EB7EDD91BB3864C00CE0D55 /* Chrominox XL-00-00-A-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDD51BB3864B00CE0D55 /* Chrominox XL-00-00-A-35.png */; };
 		9EB7EDDA1BB3864C00CE0D55 /* Chrominox XL-00-00-B-34.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDD61BB3864C00CE0D55 /* Chrominox XL-00-00-B-34.png */; };
 		9EB7EDDB1BB3864C00CE0D55 /* Chrominox XL-00-00-B-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDD71BB3864C00CE0D55 /* Chrominox XL-00-00-B-35.png */; };
+		9EB7EDEC1BB49BA600CE0D55 /* Picasso-P-00-00-A-43.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDDC1BB49BA200CE0D55 /* Picasso-P-00-00-A-43.png */; };
+		9EB7EDED1BB49BA600CE0D55 /* Picasso-P-00-00-A-44.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDDD1BB49BA300CE0D55 /* Picasso-P-00-00-A-44.png */; };
+		9EB7EDEE1BB49BA600CE0D55 /* Picasso-P-00-00-A-45.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDDE1BB49BA300CE0D55 /* Picasso-P-00-00-A-45.png */; };
+		9EB7EDEF1BB49BA600CE0D55 /* Picasso-P-00-00-A-46.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDDF1BB49BA300CE0D55 /* Picasso-P-00-00-A-46.png */; };
+		9EB7EDF01BB49BA600CE0D55 /* Picasso-P-00-00-A-47.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE01BB49BA300CE0D55 /* Picasso-P-00-00-A-47.png */; };
+		9EB7EDF11BB49BA600CE0D55 /* Picasso-P-00-00-A-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE11BB49BA400CE0D55 /* Picasso-P-00-00-A-48.png */; };
+		9EB7EDF21BB49BA600CE0D55 /* Picasso-P-00-00-A-49.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE21BB49BA400CE0D55 /* Picasso-P-00-00-A-49.png */; };
+		9EB7EDF31BB49BA600CE0D55 /* Picasso-P-00-00-A-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE31BB49BA400CE0D55 /* Picasso-P-00-00-A-50.png */; };
+		9EB7EDF41BB49BA600CE0D55 /* Picasso-P-00-00-B-43.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE41BB49BA400CE0D55 /* Picasso-P-00-00-B-43.png */; };
+		9EB7EDF51BB49BA600CE0D55 /* Picasso-P-00-00-B-44.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE51BB49BA400CE0D55 /* Picasso-P-00-00-B-44.png */; };
+		9EB7EDF61BB49BA600CE0D55 /* Picasso-P-00-00-B-45.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE61BB49BA500CE0D55 /* Picasso-P-00-00-B-45.png */; };
+		9EB7EDF71BB49BA600CE0D55 /* Picasso-P-00-00-B-46.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE71BB49BA500CE0D55 /* Picasso-P-00-00-B-46.png */; };
+		9EB7EDF81BB49BA600CE0D55 /* Picasso-P-00-00-B-47.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE81BB49BA500CE0D55 /* Picasso-P-00-00-B-47.png */; };
+		9EB7EDF91BB49BA600CE0D55 /* Picasso-P-00-00-B-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDE91BB49BA500CE0D55 /* Picasso-P-00-00-B-48.png */; };
+		9EB7EDFA1BB49BA600CE0D55 /* Picasso-P-00-00-B-49.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDEA1BB49BA500CE0D55 /* Picasso-P-00-00-B-49.png */; };
+		9EB7EDFB1BB49BA600CE0D55 /* Picasso-P-00-00-B-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7EDEB1BB49BA600CE0D55 /* Picasso-P-00-00-B-50.png */; };
 		9EF52BFD1BA6604400451FAB /* Angelina Bar-AW-01-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF31BA6604200451FAB /* Angelina Bar-AW-01-28-A.png */; };
 		9EF52BFE1BA6604400451FAB /* Angelina Bar-AW-01-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF41BA6604200451FAB /* Angelina Bar-AW-01-28-B.png */; };
 		9EF52BFF1BA6604400451FAB /* Angelina Bar-AW-02-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF52BF51BA6604300451FAB /* Angelina Bar-AW-02-28-A.png */; };
@@ -15613,6 +15629,22 @@
 		9EB7EDD51BB3864B00CE0D55 /* Chrominox XL-00-00-A-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-00-A-35.png"; sourceTree = "<group>"; };
 		9EB7EDD61BB3864C00CE0D55 /* Chrominox XL-00-00-B-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-00-B-34.png"; sourceTree = "<group>"; };
 		9EB7EDD71BB3864C00CE0D55 /* Chrominox XL-00-00-B-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrominox XL-00-00-B-35.png"; sourceTree = "<group>"; };
+		9EB7EDDC1BB49BA200CE0D55 /* Picasso-P-00-00-A-43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-43.png"; sourceTree = "<group>"; };
+		9EB7EDDD1BB49BA300CE0D55 /* Picasso-P-00-00-A-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-44.png"; sourceTree = "<group>"; };
+		9EB7EDDE1BB49BA300CE0D55 /* Picasso-P-00-00-A-45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-45.png"; sourceTree = "<group>"; };
+		9EB7EDDF1BB49BA300CE0D55 /* Picasso-P-00-00-A-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-46.png"; sourceTree = "<group>"; };
+		9EB7EDE01BB49BA300CE0D55 /* Picasso-P-00-00-A-47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-47.png"; sourceTree = "<group>"; };
+		9EB7EDE11BB49BA400CE0D55 /* Picasso-P-00-00-A-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-48.png"; sourceTree = "<group>"; };
+		9EB7EDE21BB49BA400CE0D55 /* Picasso-P-00-00-A-49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-49.png"; sourceTree = "<group>"; };
+		9EB7EDE31BB49BA400CE0D55 /* Picasso-P-00-00-A-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-A-50.png"; sourceTree = "<group>"; };
+		9EB7EDE41BB49BA400CE0D55 /* Picasso-P-00-00-B-43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-43.png"; sourceTree = "<group>"; };
+		9EB7EDE51BB49BA400CE0D55 /* Picasso-P-00-00-B-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-44.png"; sourceTree = "<group>"; };
+		9EB7EDE61BB49BA500CE0D55 /* Picasso-P-00-00-B-45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-45.png"; sourceTree = "<group>"; };
+		9EB7EDE71BB49BA500CE0D55 /* Picasso-P-00-00-B-46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-46.png"; sourceTree = "<group>"; };
+		9EB7EDE81BB49BA500CE0D55 /* Picasso-P-00-00-B-47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-47.png"; sourceTree = "<group>"; };
+		9EB7EDE91BB49BA500CE0D55 /* Picasso-P-00-00-B-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-48.png"; sourceTree = "<group>"; };
+		9EB7EDEA1BB49BA500CE0D55 /* Picasso-P-00-00-B-49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-49.png"; sourceTree = "<group>"; };
+		9EB7EDEB1BB49BA600CE0D55 /* Picasso-P-00-00-B-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picasso-P-00-00-B-50.png"; sourceTree = "<group>"; };
 		9EF52BF31BA6604200451FAB /* Angelina Bar-AW-01-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-01-28-A.png"; sourceTree = "<group>"; };
 		9EF52BF41BA6604200451FAB /* Angelina Bar-AW-01-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-01-28-B.png"; sourceTree = "<group>"; };
 		9EF52BF51BA6604300451FAB /* Angelina Bar-AW-02-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angelina Bar-AW-02-28-A.png"; sourceTree = "<group>"; };
@@ -18801,6 +18833,22 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				9EB7EDDC1BB49BA200CE0D55 /* Picasso-P-00-00-A-43.png */,
+				9EB7EDDD1BB49BA300CE0D55 /* Picasso-P-00-00-A-44.png */,
+				9EB7EDDE1BB49BA300CE0D55 /* Picasso-P-00-00-A-45.png */,
+				9EB7EDDF1BB49BA300CE0D55 /* Picasso-P-00-00-A-46.png */,
+				9EB7EDE01BB49BA300CE0D55 /* Picasso-P-00-00-A-47.png */,
+				9EB7EDE11BB49BA400CE0D55 /* Picasso-P-00-00-A-48.png */,
+				9EB7EDE21BB49BA400CE0D55 /* Picasso-P-00-00-A-49.png */,
+				9EB7EDE31BB49BA400CE0D55 /* Picasso-P-00-00-A-50.png */,
+				9EB7EDE41BB49BA400CE0D55 /* Picasso-P-00-00-B-43.png */,
+				9EB7EDE51BB49BA400CE0D55 /* Picasso-P-00-00-B-44.png */,
+				9EB7EDE61BB49BA500CE0D55 /* Picasso-P-00-00-B-45.png */,
+				9EB7EDE71BB49BA500CE0D55 /* Picasso-P-00-00-B-46.png */,
+				9EB7EDE81BB49BA500CE0D55 /* Picasso-P-00-00-B-47.png */,
+				9EB7EDE91BB49BA500CE0D55 /* Picasso-P-00-00-B-48.png */,
+				9EB7EDEA1BB49BA500CE0D55 /* Picasso-P-00-00-B-49.png */,
+				9EB7EDEB1BB49BA600CE0D55 /* Picasso-P-00-00-B-50.png */,
 				9EB7EDD41BB3864B00CE0D55 /* Chrominox XL-00-00-A-34.png */,
 				9EB7EDD51BB3864B00CE0D55 /* Chrominox XL-00-00-A-35.png */,
 				9EB7EDD61BB3864C00CE0D55 /* Chrominox XL-00-00-B-34.png */,
@@ -24511,6 +24559,7 @@
 				7B67E8881B02E6DA00EB79AE /* Margueritte-S-S-01-00-B.png in Resources */,
 				7B0E7E8E1B27C870000742C5 /* Picasso-P-46-46-B.png in Resources */,
 				4C63BAC919872A7D00833622 /* Monet-AW-01-27-A.png in Resources */,
+				9EB7EDF61BB49BA600CE0D55 /* Picasso-P-00-00-B-45.png in Resources */,
 				7B67F24B1B037A6700EB79AE /* Wings cafe-36-00-A.png in Resources */,
 				9EAD918B1BA64F98000A1724 /* Largo-Wood cafe-33-28-A.png in Resources */,
 				7B67F15D1B037A6700EB79AE /* Facet cafe-37-00-B.png in Resources */,
@@ -24662,6 +24711,7 @@
 				4C63BBDD19872A7E00833622 /* Chateau-33-00-A.png in Resources */,
 				7B67EC7F1B02FA9C00EB79AE /* Angelina-AW-50-27-A.png in Resources */,
 				7B67E8F81B02E6DA00EB79AE /* Angelina Bar-A-14-28-A.png in Resources */,
+				9EB7EDEC1BB49BA600CE0D55 /* Picasso-P-00-00-A-43.png in Resources */,
 				4C63B8D919872A7C00833622 /* Luna-30-00-A.png in Resources */,
 				7B67F1721B037A6700EB79AE /* Facet cafe-34-00-A.png in Resources */,
 				9EF52D161BACABD400451FAB /* Ensor-A-00-25-A.png in Resources */,
@@ -25021,6 +25071,7 @@
 				7B67EC0A1B02FA9C00EB79AE /* Renoir-A-45-27-A.png in Resources */,
 				7B67F09E1B037A6700EB79AE /* Propeller consola-29-22-B.png in Resources */,
 				7B883BA11ADC376E003415E3 /* largo-130x70x29 a.png in Resources */,
+				9EB7EDF81BB49BA600CE0D55 /* Picasso-P-00-00-B-47.png in Resources */,
 				7B67E7781B02E6DA00EB79AE /* Angelina Bar-W-49-28-B.png in Resources */,
 				4C63BB6F19872A7D00833622 /* Facet-00-27-A.png in Resources */,
 				9EF52C551BA6609300451FAB /* Angelina Bar-AW-61-28-A.png in Resources */,
@@ -25095,6 +25146,7 @@
 				7B5589AB1AA7F5F4007FA8D7 /* IWSummaryViewController.xib in Resources */,
 				4C63BBB019872A7E00833622 /* Elyps-29-22-BB.png in Resources */,
 				4C63BAF019872A7D00833622 /* Largo-U-00-22-A.png in Resources */,
+				9EB7EDF91BB49BA600CE0D55 /* Picasso-P-00-00-B-48.png in Resources */,
 				7B67EFED1B037A6700EB79AE /* Propeller raco-00-25-A.png in Resources */,
 				4C63BA4D19872A7D00833622 /* Monet-W-02-27-B.png in Resources */,
 				7B883BB01ADC376E003415E3 /* largo-55x55x55 a.png in Resources */,
@@ -25111,6 +25163,7 @@
 				7B67EFC11B037A6700EB79AE /* Tripod raco-32-00-B.png in Resources */,
 				7B67EC881B02FA9C00EB79AE /* Angelina-AW-46-27-B.png in Resources */,
 				4C63BA1519872A7C00833622 /* Propeller-29-22-BB.png in Resources */,
+				9EB7EDF21BB49BA600CE0D55 /* Picasso-P-00-00-A-49.png in Resources */,
 				4C63BA5619872A7D00833622 /* Monet-W-07-27-A.png in Resources */,
 				7B67E7DF1B02E6DA00EB79AE /* Gaugin-A-46-30-A.png in Resources */,
 				7B883BDE1ADC376E003415E3 /* propeller-180x128x75 a.png in Resources */,
@@ -25144,6 +25197,7 @@
 				7B67EC431B02FA9C00EB79AE /* Monet-A-48-27-A.png in Resources */,
 				7B67E7611B02E6DA00EB79AE /* Gaugin-AW-50-30-A.png in Resources */,
 				4CF1EC1219108F2700A39BFB /* IWMenuView.xib in Resources */,
+				9EB7EDF51BB49BA600CE0D55 /* Picasso-P-00-00-B-44.png in Resources */,
 				7B67E9911B02E6DA00EB79AE /* Monet-B-05-28-A.png in Resources */,
 				7B67E78A1B02E6DA00EB79AE /* Margueritte-S-S-49-00-B.png in Resources */,
 				4C63BA6019872A7D00833622 /* Monet-W-12-27-A.png in Resources */,
@@ -25599,6 +25653,7 @@
 				7B67EBFB1B02FA9C00EB79AE /* Renoir-AW-44-27-B.png in Resources */,
 				4C63BBC319872A7E00833622 /* Ensor-A-14-27-A.png in Resources */,
 				7B67E8DE1B02E6DA00EB79AE /* Picasso-P-00-00-A-03.png in Resources */,
+				9EB7EDFB1BB49BA600CE0D55 /* Picasso-P-00-00-B-50.png in Resources */,
 				4C1F922C192F172B00AAB2E1 /* Nutella 58.jpg in Resources */,
 				4C63BBA119872A7E00833622 /* Elyps-00-23-A.png in Resources */,
 				4C63BC0C19872A7E00833622 /* Chateau-00-23-A.png in Resources */,
@@ -25876,8 +25931,10 @@
 				7B5F7E471B37A1CE00653EBC /* Chateau cafe-29-22-A.png in Resources */,
 				7B67EC5F1B02FA9C00EB79AE /* Largo-U-43-00-B.png in Resources */,
 				9EF52CA01BAA733F00451FAB /* Monet-Bar-W-07-28-B.png in Resources */,
+				9EB7EDED1BB49BA600CE0D55 /* Picasso-P-00-00-A-44.png in Resources */,
 				7B67EA5E1B02E6DA00EB79AE /* Gaugin-S-16-30-A.png in Resources */,
 				9E598FB41B99007600B0E6F8 /* largo wood-130x70x29 a.png in Resources */,
+				9EB7EDFA1BB49BA600CE0D55 /* Picasso-P-00-00-B-49.png in Resources */,
 				7B67EAC01B02E6DA00EB79AE /* Monet low-ML-09-28-B.png in Resources */,
 				7B67F1861B037A6700EB79AE /* Elyps cafe-33-00-B.png in Resources */,
 				7B883BDD1ADC376E003415E3 /* propeller-150x100x38 p.png in Resources */,
@@ -26088,6 +26145,7 @@
 				4C63B97419872A7C00833622 /* Renoir-W-08-27-A.png in Resources */,
 				7B67E7571B02E6DA00EB79AE /* Angelina Bar-W-50-28-A.png in Resources */,
 				4C63BABE19872A7D00833622 /* Monet-A-13-27-B.png in Resources */,
+				9EB7EDEF1BB49BA600CE0D55 /* Picasso-P-00-00-A-46.png in Resources */,
 				7B67F2001B037A6700EB79AE /* Chateau cafe-00-24-B.png in Resources */,
 				7B67E7BB1B02E6DA00EB79AE /* Angelina-AW-47-28-A.png in Resources */,
 				7B67E76E1B02E6DA00EB79AE /* Monet-B-50-28-B.png in Resources */,
@@ -26167,6 +26225,7 @@
 				7B67F2651B037A6700EB79AE /* Propeller-70-00-A.png in Resources */,
 				4C63B90A19872A7C00833622 /* Rafael-A-18-00-B.png in Resources */,
 				7B67F0041B037A6700EB79AE /* Propeller raco-36-00-B.png in Resources */,
+				9EB7EDF31BB49BA600CE0D55 /* Picasso-P-00-00-A-50.png in Resources */,
 				4C63BC8F19872A7F00833622 /* Angelina-S-16-27-B.png in Resources */,
 				7B67F19A1B037A6700EB79AE /* Elyps cafe-29-22-A.png in Resources */,
 				4C63BB8219872A7E00833622 /* Largo-00-22-B.png in Resources */,
@@ -26939,6 +26998,7 @@
 				4C63B9E919872A7C00833622 /* Renoir-A-02-27-A.png in Resources */,
 				7B67E90D1B02E6DA00EB79AE /* Angelina low-AL-10-28-B.png in Resources */,
 				7B5589C11AA81AA0007FA8D7 /* IWTableSummaryView.xib in Resources */,
+				9EB7EDF01BB49BA600CE0D55 /* Picasso-P-00-00-A-47.png in Resources */,
 				7B67EA971B02E6DA00EB79AE /* Renoir Bar-B-15-28-B.png in Resources */,
 				4C63BC9D19872A7F00833622 /* Angelina-A-06-27-A.png in Resources */,
 				4CD5DAB01918773E004C80D1 /* Extens-29-22.jpg in Resources */,
@@ -27336,12 +27396,14 @@
 				7B67EBE11B02FA9C00EB79AE /* Renoir-S-50-27-A.png in Resources */,
 				7B67E8781B02E6DA00EB79AE /* Margueritte-A-S-05-00-A.png in Resources */,
 				4C63BBFF19872A7E00833622 /* Bluco-33-00-B.png in Resources */,
+				9EB7EDF71BB49BA600CE0D55 /* Picasso-P-00-00-B-46.png in Resources */,
 				9E9EE17E1B991D7E006F87F9 /* Ice 002.jpg in Resources */,
 				7B67EAC21B02E6DA00EB79AE /* Monet low-ML-06-28-B.png in Resources */,
 				9EF52CBF1BAA733F00451FAB /* Monet-Bar-W-47-28-A.png in Resources */,
 				4C63B96919872A7C00833622 /* Renoir-W-02-27-B.png in Resources */,
 				7B67E99C1B02E6DA00EB79AE /* Angelina-AW-13-28-B.png in Resources */,
 				7B67F15C1B037A6700EB79AE /* Facet cafe-36-00-B.png in Resources */,
+				9EB7EDF11BB49BA600CE0D55 /* Picasso-P-00-00-A-48.png in Resources */,
 				4C63B8E719872A7C00833622 /* Facet-37-00-A.png in Resources */,
 				7B67EA551B02E6DA00EB79AE /* Gaugin-S-09-30-B.png in Resources */,
 				4C63BA3619872A7D00833622 /* Rafael-A-42-00-A.png in Resources */,
@@ -27534,6 +27596,7 @@
 				9EF52CB01BAA733F00451FAB /* Monet-Bar-W-15-28-B.png in Resources */,
 				4C63BAF319872A7D00833622 /* Largo-U-00-23-B.png in Resources */,
 				4C63B90E19872A7C00833622 /* Van Gogh-S-13-28-A.png in Resources */,
+				9EB7EDEE1BB49BA600CE0D55 /* Picasso-P-00-00-A-45.png in Resources */,
 				4C63BB2319872A7D00833622 /* Largo-XL-00-22-B.png in Resources */,
 				7B67E9BF1B02E6DA00EB79AE /* Gaugin-AW-13-30-B.png in Resources */,
 				7B67E8A31B02E6DA00EB79AE /* Margueritte-S-26-26-B.png in Resources */,
@@ -27711,6 +27774,7 @@
 				7B67E9B81B02E6DA00EB79AE /* Angelina-AW-03-28-A.png in Resources */,
 				4CD5DAB21918773E004C80D1 /* Largo-29-22.jpg in Resources */,
 				4C63BA8919872A7D00833622 /* Monet-AW-11-27-A.png in Resources */,
+				9EB7EDF41BB49BA600CE0D55 /* Picasso-P-00-00-B-43.png in Resources */,
 				7B0E7E531B27C829000742C5 /* Luna-34-22-B.png in Resources */,
 				9EB7EDCC1BB372FC00CE0D55 /* Angelina Bar-AW-47-28-A.png in Resources */,
 				7B67EFD31B037A6700EB79AE /* Facet raco-33-00-A.png in Resources */,

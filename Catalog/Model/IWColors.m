@@ -166,7 +166,7 @@ NSArray* _cabinetDrawerColors;
                         [[IWModel modelWithName:@"Angelina Bar-S" andCode:@"Angelina-B-CC-28" andFile:@"Angelina-B-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina Bar-A" andCode:@"Angelina Bar-A-CC-28" andFile:@"Angelina Bar-A-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Angelina Bar-W" andCode:@"Angelina Bar-W-CC-28" andFile:@"Angelina Bar-W-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Angelina Bar-AW" andCode:@"Angelina Bar-AW-CC-28" andFile:@"Angelina Bar-AW-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,18,43,44,45,46,47,48,49,50,56,57,58,59,60,61,62.63" andLegColors:@"27"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Angelina Bar-AW" andCode:@"Angelina Bar-AW-CC-28" andFile:@"Angelina Bar-AW-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50,56,57,58,59,60,61,62.63" andLegColors:@"27"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Angelina low-AL" andCode:@"Angelina low-AL-CC-28" andFile:@"Angelina low-AL-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
 
@@ -201,11 +201,11 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Monet low-ML" andCode:@"Monet low-ML-CC-28" andFile:@"Monet low-ML-01-28.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         
-                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,17,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,17,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16,18" andLegColors:@"22,23,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Renoir-A" andCode:@"Renoir-A-CC-27" andFile:@"Renoir-A-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],
@@ -249,9 +249,9 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"White 01" andCode:@"14" andFile:@"White 01.jpg"] withCategory:@"Skai color"],
                         //[[IWColor colorWithName:@"Mocca 29" andCode:@"15" andFile:@"Mocca 29.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Taupe 062" andCode:@"15" andFile:@"Taupe 062.jpg"] withCategory:@"Skai color"],
-                        [[IWColor colorWithName:@"L. grey 617" andCode:@"16" andFile:@"Light Grey 617.jpg"] withCategory:@"Skai color"],
-                        [[IWColor colorWithName:@"Antracite 605" andCode:@"17" andFile:@"Antracite 605.jpg"] withCategory:@"Skai color"],
-                        [[IWColor colorWithName:@"Black 901" andCode:@"18" andFile:@"Black 90.jpg"] withCategory:@"Skai color"],
+                        [[IWColor colorWithName:@"Black 901" andCode:@"16" andFile:@"Black 90.jpg"] withCategory:@"Skai color"],
+                        [[IWColor colorWithName:@"L. grey 617" andCode:@"17" andFile:@"Light Grey 617.jpg"] withCategory:@"Skai color"],
+                        [[IWColor colorWithName:@"Antracite 605" andCode:@"18" andFile:@"Antracite 605.jpg"] withCategory:@"Skai color"],
                         [[IWColor colorWithName:@"White" andCode:@"19" andFile:@"White.jpg"] withCategory:@"Textylene"],
                         [[IWColor colorWithName:@"Taupe" andCode:@"20" andFile:@"Taupe.jpg"] withCategory:@"Textylene"],
                         [[IWColor colorWithName:@"Grey" andCode:@"21" andFile:@"Grey 21.jpg"] withCategory:@"Textylene"],
@@ -335,6 +335,14 @@ NSArray* _cabinetDrawerColors;
                         [[IWColor colorWithName:@"Aubergine 77" andCode:@"11" andFile:@"Aubergine 77.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Choco 57" andCode:@"12" andFile:@"Choco 57.jpg"] withCategory:@"Leather color"],
                         [[IWColor colorWithName:@"Smoke 17" andCode:@"13" andFile:@"Smoke 17.jpg"] withCategory:@"Leather color"],
+                        [[IWColor colorWithName:@"Ice 002" andCode:@"43" andFile:@"Ice 002.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Greige 001" andCode:@"44" andFile:@"Greige 001.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Taupe 004" andCode:@"45" andFile:@"Taupe 004.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Black 006" andCode:@"46" andFile:@"Black 006.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Wallnut 011" andCode:@"47" andFile:@"Wallnut 011.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Chocolate 010" andCode:@"48" andFile:@"Chocolate 010.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Tan 001" andCode:@"49" andFile:@"Tan 001.jpg"] withCategory:@"Torres color"],
+                        [[IWColor colorWithName:@"Mushroom 003" andCode:@"50" andFile:@"Mushroom 003.jpg"] withCategory:@"Torres color"],
                         nil];
     }
     
