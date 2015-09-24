@@ -615,7 +615,7 @@
         tableModelName = @"Chrominox XL";
     }
 
-    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", tableModelName, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
+    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", tableModelName, [[table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""] stringByReplacingOccurrencesOfString:@"Ø" withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
 //    CGRect f = CGRectMake(0, 0, tableTopSize.frame.size.width, image.size.height *( tableTopSize.superview.frame.size.width / image.size.width));
 //    [tableTopSize setFrame:f];
