@@ -207,8 +207,19 @@
                 legColor.name = [legColor.name stringByReplacingOccurrencesOfString:@"Alu. " withString:@""];
             }
         }
+        
+        // This should be very improved...
+        NSMutableArray *newLegColorsArray = [NSMutableArray arrayWithArray:table.model.legColors];
+        if ([table.model.name isEqualToString:@"Facet"] ||
+            [table.model.name isEqualToString:@"Largo"]) {
+            if (table.tableType != kCoffeeTable) {
+                if ([newLegColorsArray containsObject:@"27"]) {
+                    [newLegColorsArray removeObject:@"27"];
+                }
+            }
+        }
 
-        [selectorTableLegsColorView setFilteredItems:table.model.legColors];
+        [selectorTableLegsColorView setFilteredItems:newLegColorsArray];
     } else if (index == 3){
         if (!selectorChairModelView) {
             selectorChairModelView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
@@ -586,7 +597,7 @@
 -(void)selectorTableViewController:(IWSelectorTableViewController *)selectorTableViewController didSelectOther:(tableTypeEnum)tableType
 {
     table.tableType = tableType;
-    
+
     [self updateDetails];
     [self drawAll];
 }
