@@ -609,7 +609,7 @@
     tableNameView.adjustsFontSizeToFitWidth = YES;
 
     [tableNameView setText:table.model.name];
-    [tableDimensionsView setText:table.size.name];
+    [tableDimensionsView setText:[NSString stringWithFormat:@"%@ cm", table.size.name]];
     
     // Dynamically adapt font size
     chairNameView.numberOfLines = 1;
@@ -672,7 +672,7 @@
             break;
     }
     
-    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
+    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@ cm", tableSize.name]];
     
     [self updatePrices];
     
