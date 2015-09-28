@@ -606,9 +606,11 @@
 {
     // Dynamically adapt font size
     tableNameView.numberOfLines = 1;
+    tableDimensionsView.numberOfLines = 1;
     tableNameView.adjustsFontSizeToFitWidth = YES;
+    tableDimensionsView.adjustsFontSizeToFitWidth = YES;
 
-    [tableNameView setText:table.model.name];
+    [tableNameView setText:[NSString stringWithFormat:@"Table: %@", table.model.name]];
     [tableDimensionsView setText:[NSString stringWithFormat:@"%@ cm", table.size.name]];
     
     // Dynamically adapt font size
