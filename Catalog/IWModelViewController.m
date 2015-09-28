@@ -194,17 +194,15 @@
 
         // This should be very improved...
         NSArray *tableLegColors = [IWColors tableLegColors];
+        for (int colorIndex = 0; colorIndex < tableLegColors.count; colorIndex++) {
+            IWColor* legColor = tableLegColors[colorIndex];
+            legColor.name = [legColor.name stringByReplacingOccurrencesOfString:@"Alu. " withString:@""];
+        }
         if ([table.model.name isEqualToString:@"Wings Outdoor"]) {
             for (int colorIndex = 0; colorIndex < tableLegColors.count; colorIndex++) {
                 IWColor* legColor = tableLegColors[colorIndex];
                 NSString* newColorName = [NSString stringWithFormat:@"Alu. %@", legColor.name];
                 legColor.name = newColorName;
-            }
-        }
-        else {
-            for (int colorIndex = 0; colorIndex < tableLegColors.count; colorIndex++) {
-                IWColor* legColor = tableLegColors[colorIndex];
-                legColor.name = [legColor.name stringByReplacingOccurrencesOfString:@"Alu. " withString:@""];
             }
         }
         
@@ -609,8 +607,14 @@
     tableDimensionsView.numberOfLines = 1;
     tableNameView.adjustsFontSizeToFitWidth = YES;
     tableDimensionsView.adjustsFontSizeToFitWidth = YES;
+    
+    NSMutableAttributedString *tableText = [[NSMutableAttributedString alloc] initWithString:@"Table: "];
+    NSMutableAttributedString *modelText = [[NSMutableAttributedString alloc] initWithString:table.model.name];
+    [modelText addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"HelveticaNeue-Bold" size:14.0] range:NSMakeRange(0, modelText.length)];
+    
+    [tableText appendAttributedString:modelText];
+    tableNameView.attributedText = tableText;
 
-    [tableNameView setText:[NSString stringWithFormat:@"Table: %@", table.model.name]];
     [tableDimensionsView setText:[NSString stringWithFormat:@"%@ cm", table.size.name]];
     
     // Dynamically adapt font size
