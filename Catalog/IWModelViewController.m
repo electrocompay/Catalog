@@ -709,9 +709,9 @@
     IWPriceManager *pricesManager = [IWPriceManager getInstance];
     if (pricesManager.authenticated) {
         double tablePrice = [pricesManager getTablePrice:table];
-        [tablePriceView setText:[NSString stringWithFormat:@"%.2f", tablePrice]];
+        [tablePriceView setText:[NSString stringWithFormat:@"%.2f €", tablePrice]];
         double chairPrice = [pricesManager getChairPrice:chair];
-        [chairPriceView setText:[NSString stringWithFormat:@"%.2f", chairPrice]];
+        [chairPriceView setText:[NSString stringWithFormat:@"%.2f €", chairPrice]];
         [tablePriceView setHidden:NO];
         [chairPriceView setHidden:NO];
         [tablePriceButton setUserInteractionEnabled:NO];

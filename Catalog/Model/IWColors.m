@@ -87,7 +87,7 @@ NSArray* _cabinetDrawerColors;
                         [[[IWModel modelWithName:@"Largo XL" andCode:@"Largo-XL-CC-LL" andFile:@"Largo-XL-29-22.jpg" andColors:@"29,30,31,32,33,36,37,41" andLegColors:@"22,23,24,25,26"] withSizes:@"200/300 x 100 x 75"] withCategory:@"model"],
                         [[[IWModel modelWithName:@"Luna" andCode:@"Luna-CC-LL" andFile:@"Luna-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"22,23,24,25,26,27"] withSizes:@"Ø 180 x 75,Ø 160 x 75,Ø 140 x 75,Ø 120 x 75"] withCategory:@"model"],
                         [[[[[IWModel modelWithName:@"Propeller" andCode:@"Propeller-CC-LL" andFile:@"Propeller-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"22,23,24,25,26"] withSizes:@"300 x 128 x 75,300 x 100 x 75,250 x 128 x 75,250 x 100 x 75,220 x 128 x 75,220 x 100 x 75,200 x 128 x 75,200 x 100 x 75,180 x 128 x 75,180 x 90 x 75"] withWallSizes:@"200 x 40 x 75"] withSmallSizes:@"150 x 100 x 38,130 x 70 x 38,100 x 100 x 38,55 x 55 x 55"] withCategory:@"model"],
-                        [[[IWModel modelWithName:@"Tripod" andCode:@"Tripod-CC-LL" andFile:@"Tripod-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"22,23,24,25,26,27"] withSmallSizes:@"Ø 45 x 45 x 40"] withCategory:@"model"],
+                        [[[IWModel modelWithName:@"Tripod" andCode:@"Tripod-CC-LL" andFile:@"Tripod-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38,41,70" andLegColors:@"22,23,24,25,26,27"] withSmallSizes:@"Ø 45 x 40"] withCategory:@"model"],
 
                         //[[[[[IWModel modelWithName:@"Wings" andCode:@"Wings-CC-LL" andFile:@"Wings-29-22.jpg" andColors:@"29,30,31,32,33,34,35,36,37,38" andLegColors:@"22,23,24,25,26"] withSizes:@"300 x 100 x 75,250 x 100 x 75,220 x 100 x 75,200 x 100 x 75,180 x 90 x 75,150 x 150 x 75,140 x 90 x 75,130 x 130 x 75,100 x 100 x 75"] withWallSizes:@"130 x 35 x 75"] withSmallSizes:@"100 x 100 x 38,100 x 100 x 29,130 x 70 x 38,130 x 70 x 29,55 x 55 x 55"] withCategory:@"model"],
 
@@ -203,8 +203,8 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,17,18,42" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,17,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,16,18,42" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,16,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
 
                         [[IWModel modelWithName:@"Renoir-S" andCode:@"Renoir-S-CC-27" andFile:@"Renoir-S-01-27.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27"] withCategory:@"model"],

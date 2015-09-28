@@ -7521,8 +7521,8 @@
 		7B883BF31ADC376E003415E3 /* propeller-300x128x75 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B0D1ADC376D003415E3 /* propeller-300x128x75 p.png */; };
 		7B883BF41ADC376E003415E3 /* propeller-55x55x55 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B0E1ADC376D003415E3 /* propeller-55x55x55 a.png */; };
 		7B883BF51ADC376E003415E3 /* propeller-55x55x55 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B0F1ADC376D003415E3 /* propeller-55x55x55 p.png */; };
-		7B883BF71ADC376E003415E3 /* tripod-45x45x40 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B121ADC376D003415E3 /* tripod-45x45x40 a.png */; };
-		7B883BF81ADC376E003415E3 /* tripod-45x45x40 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B131ADC376D003415E3 /* tripod-45x45x40 p.png */; };
+		7B883BF71ADC376E003415E3 /* tripod-45x40 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B121ADC376D003415E3 /* tripod-45x40 a.png */; };
+		7B883BF81ADC376E003415E3 /* tripod-45x40 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B131ADC376D003415E3 /* tripod-45x40 p.png */; };
 		7B883BFA1ADC376E003415E3 /* wings-100x100x29 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B161ADC376D003415E3 /* wings-100x100x29 a.png */; };
 		7B883BFB1ADC376E003415E3 /* wings-100x100x29 p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B171ADC376D003415E3 /* wings-100x100x29 p.png */; };
 		7B883BFC1ADC376E003415E3 /* wings-100x100x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B883B181ADC376D003415E3 /* wings-100x100x38 a.png */; };
@@ -15630,8 +15630,8 @@
 		7B883B0D1ADC376D003415E3 /* propeller-300x128x75 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "propeller-300x128x75 p.png"; sourceTree = "<group>"; };
 		7B883B0E1ADC376D003415E3 /* propeller-55x55x55 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "propeller-55x55x55 a.png"; sourceTree = "<group>"; };
 		7B883B0F1ADC376D003415E3 /* propeller-55x55x55 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "propeller-55x55x55 p.png"; sourceTree = "<group>"; };
-		7B883B121ADC376D003415E3 /* tripod-45x45x40 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tripod-45x45x40 a.png"; sourceTree = "<group>"; };
-		7B883B131ADC376D003415E3 /* tripod-45x45x40 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tripod-45x45x40 p.png"; sourceTree = "<group>"; };
+		7B883B121ADC376D003415E3 /* tripod-45x40 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tripod-45x40 a.png"; sourceTree = "<group>"; };
+		7B883B131ADC376D003415E3 /* tripod-45x40 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tripod-45x40 p.png"; sourceTree = "<group>"; };
 		7B883B161ADC376D003415E3 /* wings-100x100x29 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-100x100x29 a.png"; sourceTree = "<group>"; };
 		7B883B171ADC376D003415E3 /* wings-100x100x29 p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-100x100x29 p.png"; sourceTree = "<group>"; };
 		7B883B181ADC376D003415E3 /* wings-100x100x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wings-100x100x38 a.png"; sourceTree = "<group>"; };
@@ -24804,8 +24804,8 @@
 		7B883B111ADC376D003415E3 /* tripod png */ = {
 			isa = PBXGroup;
 			children = (
-				7B883B121ADC376D003415E3 /* tripod-45x45x40 a.png */,
-				7B883B131ADC376D003415E3 /* tripod-45x45x40 p.png */,
+				7B883B121ADC376D003415E3 /* tripod-45x40 a.png */,
+				7B883B131ADC376D003415E3 /* tripod-45x40 p.png */,
 			);
 			path = "tripod png";
 			sourceTree = "<group>";
@@ -27170,7 +27170,7 @@
 				7B67EC551B02FA9C00EB79AE /* Largo-U-49-00-A.png in Resources */,
 				4C63BB9D19872A7E00833622 /* Chrominox-41-27-A.png in Resources */,
 				7B67EFAF1B037A6700EB79AE /* Tripod raco-00-23-B.png in Resources */,
-				7B883BF81ADC376E003415E3 /* tripod-45x45x40 p.png in Resources */,
+				7B883BF81ADC376E003415E3 /* tripod-45x40 p.png in Resources */,
 				7B883B711ADC376E003415E3 /* chrominox-250x100x75 p.png in Resources */,
 				7B67F0D91B037A6700EB79AE /* Wings consola-00-22-A.png in Resources */,
 				4C63B93219872A7C00833622 /* Renoir-W-17-27-A.png in Resources */,
@@ -28146,7 +28146,7 @@
 				7B67E7FE1B02E6DA00EB79AE /* Angelina-B-45-28-B.png in Resources */,
 				7B67EBEC1B02FA9C00EB79AE /* Renoir-S-43-27-B.png in Resources */,
 				7B67E8EC1B02E6DA00EB79AE /* Angelina Bar-A-09-28-B.png in Resources */,
-				7B883BF71ADC376E003415E3 /* tripod-45x45x40 a.png in Resources */,
+				7B883BF71ADC376E003415E3 /* tripod-45x40 a.png in Resources */,
 				9E030A051B9CEC3600CDB7CC /* Rolbloc Low-00-27-B.png in Resources */,
 				7B883B871ADC376E003415E3 /* elyps-250x128x75 a.png in Resources */,
 				7B67E8321B02E6DA00EB79AE /* Monet-W-44-28-B.png in Resources */,
