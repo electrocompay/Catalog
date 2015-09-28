@@ -218,8 +218,8 @@ NSArray* _cabinetDrawerColors;
 
                         [[IWModel modelWithName:@"RollBloc Low" andCode:@"Rolbloc Low-CC-LL" andFile:@"Rolbloc Low-19-22.jpg" andColors:@"19,20,21" andLegColors:@"22,23,25,26,27"] withCategory:@"model"],
                         
-                        [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:@"06,10" andLegColors:@"28"] withCategory:@"model"],
-                        [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:@"06,10" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Van Gogh-S" andCode:@"Van Gogh-S-CC-28" andFile:@"Van Gogh-S-01-28.jpg" andColors:@"07,10" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Van Gogh-A" andCode:@"Van Gogh-A-CC-28" andFile:@"Van Gogh-A-01-28.jpg" andColors:@"07,10" andLegColors:@"28"] withCategory:@"model"],
                         
                         [[IWModel modelWithName:@"Zchair" andCode:@"Zchair-CC-27" andFile:@"Zchair-19-27.jpg" andColors:@"19,20,21" andLegColors:@"27"] withCategory:@"model"],
                         
