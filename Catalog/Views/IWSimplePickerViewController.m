@@ -106,7 +106,6 @@
 {
     _items = items;
     [self reloadAllComponents];
-     
 }
 
 -(void)reloadAllComponents{

@@ -615,7 +615,7 @@
     [tableText appendAttributedString:modelText];
     tableNameView.attributedText = tableText;
 
-    [tableDimensionsView setText:[NSString stringWithFormat:@"%@ cm", table.size.name]];
+    [tableDimensionsView setText:table.size.name];
     
     // Dynamically adapt font size
     chairNameView.numberOfLines = 1;
@@ -650,7 +650,7 @@
         tableModelName = @"Chrominox XL";
     }
 
-    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", tableModelName, [[table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""] stringByReplacingOccurrencesOfString:@"Ø" withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
+    NSString *imageName = [[[NSString stringWithFormat:@"%@-%@ ", tableModelName, [[[table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""] stringByReplacingOccurrencesOfString:@"Ø" withString:@""] stringByReplacingOccurrencesOfString:@"cm" withString:@""]] stringByReplacingOccurrencesOfString:@"/" withString:@" "] lowercaseString];
     UIImage *image = [UIImage imageNamed:[imageName stringByAppendingString:@"p"]];
 //    CGRect f = CGRectMake(0, 0, tableTopSize.frame.size.width, image.size.height *( tableTopSize.superview.frame.size.width / image.size.width));
 //    [tableTopSize setFrame:f];
@@ -678,7 +678,7 @@
             break;
     }
     
-    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@ cm", tableSize.name]];
+    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
     
     [self updatePrices];
     

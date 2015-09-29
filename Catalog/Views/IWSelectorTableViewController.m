@@ -148,11 +148,25 @@
         sizes = model.smallSizes;
     }
 
+    // Be carefull, everything will be in cms
+    [self addLengthUnit:sizes];
+    
     [pickerSize setItems:sizes];
     if (sizes.count > 0) {
         [self simplePickerViewController:pickerSize didSelectRow:[sizes objectAtIndex:0]];
     }
 }
+
+-(void)addLengthUnit:(NSArray*)sizes
+{
+    NSMutableArray* sizesWithLenght = [[NSMutableArray alloc] init];
+    for (int sizeIndex = 0; sizeIndex < sizes.count; sizeIndex++) {
+        IWColor* mySizeColor = sizes[sizeIndex];
+        mySizeColor.name = [mySizeColor.name stringByReplacingOccurrencesOfString:@" cm" withString:@""];
+        mySizeColor.name = [NSString stringWithFormat:@"%@ cm", mySizeColor.name];
+    }
+}
+
 
 -(void)simplePickerViewController:(IWSimplePickerViewController *)simplePickerViewController didSelectRow:(IWColor *)color
 {
