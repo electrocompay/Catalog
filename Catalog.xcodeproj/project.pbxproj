@@ -7647,6 +7647,10 @@
 		9E2C8F311B49F0430082128C /* belux_chair_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */; };
 		9E2C8F321B49F0430082128C /* belux_table_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F301B49F0420082128C /* belux_table_prices_2.json */; };
 		9E4B36F91BB933C9006B0F8A /* Beton 70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EE1AC1B9CE692006F87F9 /* Beton 70.jpg */; };
+		9E4B36FE1BBB2B7A006B0F8A /* Rafael-A-16-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FA1BBB2B79006B0F8A /* Rafael-A-16-00-A.png */; };
+		9E4B36FF1BBB2B7A006B0F8A /* Rafael-A-16-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FB1BBB2B79006B0F8A /* Rafael-A-16-00-B.png */; };
+		9E4B37001BBB2B7A006B0F8A /* Rafael-S-16-28-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FC1BBB2B7A006B0F8A /* Rafael-S-16-28-A.png */; };
+		9E4B37011BBB2B7A006B0F8A /* Rafael-S-16-28-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FD1BBB2B7A006B0F8A /* Rafael-S-16-28-B.png */; };
 		9E598F961B965F4900B0E6F8 /* Margueritte-S-24-24-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598F941B965F4900B0E6F8 /* Margueritte-S-24-24-A.png */; };
 		9E598F971B965F4900B0E6F8 /* Margueritte-S-24-24-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598F951B965F4900B0E6F8 /* Margueritte-S-24-24-B.png */; };
 		9E598F9C1B98EECB00B0E6F8 /* largo wood-100x100x38 a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E598F981B98EECA00B0E6F8 /* largo wood-100x100x38 a.png */; };
@@ -15750,6 +15754,10 @@
 		9E030A301B9CED8000CDB7CC /* Zchair-19-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zchair-19-27.jpg"; sourceTree = "<group>"; };
 		9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_chair_prices_2.json; path = Catalog/Resources/belux_chair_prices_2.json; sourceTree = SOURCE_ROOT; };
 		9E2C8F301B49F0420082128C /* belux_table_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_table_prices_2.json; path = Catalog/Resources/belux_table_prices_2.json; sourceTree = SOURCE_ROOT; };
+		9E4B36FA1BBB2B79006B0F8A /* Rafael-A-16-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-16-00-A.png"; sourceTree = "<group>"; };
+		9E4B36FB1BBB2B79006B0F8A /* Rafael-A-16-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-16-00-B.png"; sourceTree = "<group>"; };
+		9E4B36FC1BBB2B7A006B0F8A /* Rafael-S-16-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-S-16-28-A.png"; sourceTree = "<group>"; };
+		9E4B36FD1BBB2B7A006B0F8A /* Rafael-S-16-28-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-S-16-28-B.png"; sourceTree = "<group>"; };
 		9E598F941B965F4900B0E6F8 /* Margueritte-S-24-24-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-S-24-24-A.png"; sourceTree = "<group>"; };
 		9E598F951B965F4900B0E6F8 /* Margueritte-S-24-24-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Margueritte-S-24-24-B.png"; sourceTree = "<group>"; };
 		9E598F981B98EECA00B0E6F8 /* largo wood-100x100x38 a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "largo wood-100x100x38 a.png"; sourceTree = "<group>"; };
@@ -19573,6 +19581,10 @@
 		4CD5D2CA191874D3004C80D1 /* TablesChairs */ = {
 			isa = PBXGroup;
 			children = (
+				9E4B36FA1BBB2B79006B0F8A /* Rafael-A-16-00-A.png */,
+				9E4B36FB1BBB2B79006B0F8A /* Rafael-A-16-00-B.png */,
+				9E4B36FC1BBB2B7A006B0F8A /* Rafael-S-16-28-A.png */,
+				9E4B36FD1BBB2B7A006B0F8A /* Rafael-S-16-28-B.png */,
 				9EB7EE381BB58E2600CE0D55 /* Chrominox-00-22-A.png */,
 				9EB7EE391BB58E2600CE0D55 /* Chrominox-00-22-B.png */,
 				9EB7EE3A1BB58E2700CE0D55 /* Chrominox-00-23-A.png */,
@@ -26159,6 +26171,7 @@
 				9EF52CB71BAA733F00451FAB /* Monet-Bar-W-43-28-A.png in Resources */,
 				4C63BB6319872A7D00833622 /* Extens-41-00-A.png in Resources */,
 				4C63BA1919872A7D00833622 /* Propeller-31-00-B.png in Resources */,
+				9E4B36FE1BBB2B7A006B0F8A /* Rafael-A-16-00-A.png in Resources */,
 				4C63BC1A19872A7E00833622 /* Bluco-00-22-B.png in Resources */,
 				7B67E9181B02E6DA00EB79AE /* Angelina low-AL-07-28-A.png in Resources */,
 				9E598F9C1B98EECB00B0E6F8 /* largo wood-100x100x38 a.png in Resources */,
@@ -26172,6 +26185,7 @@
 				7B67EA261B02E6DA00EB79AE /* Angelina Bar-W-02-28-A.png in Resources */,
 				5DEFCB7319AD803C00A994CD /* Splash_Tables_768x1024.png in Resources */,
 				7B67F25C1B037A6700EB79AE /* Luna-70-00-B.png in Resources */,
+				9E4B36FF1BBB2B7A006B0F8A /* Rafael-A-16-00-B.png in Resources */,
 				7B67EAF11B02E6DA00EB79AE /* Angelina-B-13-28-A.png in Resources */,
 				7B67EFF41B037A6700EB79AE /* Propeller raco-29-00-B.png in Resources */,
 				7B67EBEB1B02FA9C00EB79AE /* Renoir-S-44-27-B.png in Resources */,
@@ -27561,6 +27575,7 @@
 				4C63B91F19872A7C00833622 /* Wings-29-22-BB.png in Resources */,
 				7B67F1591B037A6700EB79AE /* Largo cafe-00-22-A.png in Resources */,
 				7B67E9B41B02E6DA00EB79AE /* Angelina-AW-06-28-A.png in Resources */,
+				9E4B37011BBB2B7A006B0F8A /* Rafael-S-16-28-B.png in Resources */,
 				4C63BBAB19872A7E00833622 /* Elyps-29-00-A.png in Resources */,
 				7B67E95A1B02E6DA00EB79AE /* Monet-W-08-28-B.png in Resources */,
 				4C63BB7A19872A7D00833622 /* Facet-30-00-B.png in Resources */,
@@ -28207,6 +28222,7 @@
 				7B67E77C1B02E6DA00EB79AE /* Angelina-AW-49-28-B.png in Resources */,
 				4C63B94619872A7C00833622 /* Van Gogh-A-09-28-A.png in Resources */,
 				4C63BB7919872A7D00833622 /* Facet-30-00-A.png in Resources */,
+				9E4B37001BBB2B7A006B0F8A /* Rafael-S-16-28-A.png in Resources */,
 				4C63B90819872A7C00833622 /* Rafael-S-18-28-A.png in Resources */,
 				7B67E88D1B02E6DA00EB79AE /* Margueritte-S-S-13-00-A.png in Resources */,
 				7B67EFD81B037A6700EB79AE /* Chateau raco-00-22-A.png in Resources */,

@@ -660,25 +660,25 @@
     [tableTopSize setImage: image];
     [tableFrontSize setImage:[UIImage imageNamed:[imageName stringByAppendingString:@"a"]]];
     
-    IWColor* tableSize;
+    NSString* tableSizeToShow;
     switch (table.tableType) {
         case kDinningTable:
-            tableSize = [table.model.sizes objectAtIndex:0];
+            tableSizeToShow = table.model.sizeToShow;
             break;
 
         case kWallTable:
-            tableSize = [table.model.wallSizes objectAtIndex:0];
+            tableSizeToShow = table.model.wallSizeToShow;
             break;
 
         case kCoffeeTable:
-            tableSize = [table.model.smallSizes objectAtIndex:0];
+            tableSizeToShow = table.model.smallSizeToShow;
             break;
             
         default:
             break;
     }
     
-    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@", tableSize.name]];
+    [bottonDescriptionView setText:[NSString stringWithFormat:@"(*) Photo table sizes: %@ cm", tableSizeToShow]];
     
     [self updatePrices];
     

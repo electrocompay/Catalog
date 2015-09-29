@@ -20,11 +20,22 @@
 @property (nonatomic) BOOL isWithoutChairs;
 @property (nonatomic, strong) NSString* bucketMask;
 
+@property (nonatomic, strong) NSString* sizeToShow;
+@property (nonatomic, strong) NSString* wallSizeToShow;
+@property (nonatomic, strong) NSString* smallSizeToShow;
+
 +(IWModel*) modelWithName:(NSString*) name andCode:(NSString*) code andFile:(NSString*) file andColors:(NSString*) colors andLegColors:(NSString*) legColors;
 +(IWModel *)modelWithName:(NSString *)name andCode:(NSString *)code andFile:(NSString *)file andColors:(NSString *)colors andLegColors:(NSString *)legColors andOptionColors:(NSString *)optionColors;
+
 -(IWModel*) withSizes:(NSString*)sizes;
+-(IWModel *)withSizes:(NSString *)sizes andSizeToShow:(NSString *)sizeToShow;
+
 -(IWModel *)withWallSizes:(NSString *)sizes;
+-(IWModel *)withWallSizes:(NSString *)sizes andWallSizeToShow:(NSString *)wallSizeToShow;
+
 -(IWModel*) withSmallSizes:(NSString*)sizes;
+-(IWModel *)withSmallSizes:(NSString *)sizes andSmallSizeToShow:(NSString *)smallSizeToShow;
+
 -(IWModel*) withPriceFormat:(NSString*)priceFormat;
 -(IWModel*) withoutChairs:(BOOL)withoutChairs;
 -(IWModel*) withBucketMask:(NSString*)bucketMask;

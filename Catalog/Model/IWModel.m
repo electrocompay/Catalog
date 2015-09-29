@@ -50,6 +50,12 @@
     return self;
 }
 
+-(IWModel *)withSizes:(NSString *)sizes andSizeToShow:(NSString *)sizeToShow
+{
+    _sizeToShow = sizeToShow;
+    return [self withSizes:sizes];
+}
+
 -(IWModel *)withWallSizes:(NSString *)sizes
 {
     NSArray* dataSizes = [sizes componentsSeparatedByString:@","];
@@ -63,6 +69,12 @@
     return self;
 }
 
+-(IWModel *)withWallSizes:(NSString *)sizes andWallSizeToShow:(NSString *)wallSizeToShow
+{
+    _wallSizeToShow = wallSizeToShow;
+    return [self withWallSizes:sizes];
+}
+
 -(IWModel *)withSmallSizes:(NSString *)sizes
 {
     NSArray* dataSizes = [sizes componentsSeparatedByString:@","];
@@ -74,6 +86,12 @@
     }
     _smallSizes = mutableArray;
     return self;
+}
+
+-(IWModel *)withSmallSizes:(NSString *)sizes andSmallSizeToShow:(NSString *)smallSizeToShow
+{
+    _smallSizeToShow = smallSizeToShow;
+    return [self withSmallSizes:sizes];
 }
 
 -(IWModel *)withPriceFormat:(NSString *)priceFormat
