@@ -159,7 +159,6 @@
 
 -(void)addLengthUnit:(NSArray*)sizes
 {
-    NSMutableArray* sizesWithLenght = [[NSMutableArray alloc] init];
     for (int sizeIndex = 0; sizeIndex < sizes.count; sizeIndex++) {
         IWColor* mySizeColor = sizes[sizeIndex];
         mySizeColor.name = [mySizeColor.name stringByReplacingOccurrencesOfString:@" cm" withString:@""];

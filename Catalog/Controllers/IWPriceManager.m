@@ -47,10 +47,12 @@ priceListEnum priceList;
     NSString* priceFormat = table.model.priceFormat ? table.model.priceFormat : DEFAULT_TABLE_PRICE_FORMAT;
     NSString *priceKey;
     
+    NSString *cleanSizeName = [self getCleanSizeName:table.size.name];
+    
     if ([[priceFormat componentsSeparatedByString:@"@"] count] == 5) {
-        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, table.legsColor.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, table.legsColor.name, cleanSizeName, table.color.name] uppercaseString];
     } else {
-        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, [table.size.name stringByReplacingOccurrencesOfString:@" " withString:@""], table.color.name] uppercaseString];
+        priceKey = [[NSString stringWithFormat:priceFormat, table.model.name, cleanSizeName, table.color.name] uppercaseString];
     }
     
     if (priceKey) {
@@ -62,6 +64,11 @@ priceListEnum priceList;
     }
 
     return 0;
+}
+
+-(NSString *)getCleanSizeName:(NSString*)sizeName
+{
+    return [[[[sizeName stringByReplacingOccurrencesOfString:@" " withString:@""] stringByReplacingOccurrencesOfString:@"Ø" withString:@""] stringByReplacingOccurrencesOfString:@"cm" withString:@""] stringByReplacingOccurrencesOfString:@"/" withString:@" "];
 }
 
 -(double)getChairPrice:(IWChair *)chair
