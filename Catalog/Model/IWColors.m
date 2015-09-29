@@ -203,7 +203,7 @@ NSArray* _cabinetDrawerColors;
                         
                         [[IWModel modelWithName:@"Picasso-P" andCode:@"Picasso-P-CC-CC" andFile:@"Picasso-P-01-01-A-02.jpg" andColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50" andLegColors:@"27" andOptionColors:@"01,02,03,04,05,06,07,08,09,10,11,12,13,43,44,45,46,47,48,49,50"] withCategory:@"model"],
 
-                        [[IWModel modelWithName:@"Rafael-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,16,18,42" andLegColors:@"28"] withCategory:@"model"],
+                        [[IWModel modelWithName:@"Rafael Wood-S" andCode:@"Rafael-S-CC-28" andFile:@"Rafael-S-14-28.jpg" andColors:@"14,15,16,18,42" andLegColors:@"28"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael-A" andCode:@"Rafael-A-CC-LL" andFile:@"Rafael-A-14-22.jpg" andColors:@"14,15,16,18,42" andLegColors:@"22,23,24,26"] withCategory:@"model"],
                         [[IWModel modelWithName:@"Rafael Bar-S" andCode:@"Rafael Bar-B-CC-LL" andFile:@"Rafael Bar-B-14-22.jpg" andColors:@"14,15,16" andLegColors:@"22,23,26"] withCategory:@"model"],
 
