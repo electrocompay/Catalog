@@ -76,7 +76,12 @@ const int OC = OFFSET_CUBE_83;
     }
 
     [self initialPickersPositions];
-    if (![_cabinet.model.code isEqualToString:@"C193"]) {
+    if ([_cabinet.model.code isEqualToString:@"C193"])
+    {
+        [self setC193SizePickerLeftPosition];
+    }
+    else
+    {
         [picker1 setHidden:NO];
     }
     
@@ -275,6 +280,11 @@ const int OC = OFFSET_CUBE_83;
     picker3.frame = CGRectMake(picker3.frame.origin.x + OC * 2, picker3.frame.origin.y, picker3.frame.size.width - OC, picker3.frame.size.height);
     picker2.frame = CGRectMake(picker2.frame.origin.x + OC * 3, picker2.frame.origin.y, picker2.frame.size.width - OC, picker2.frame.size.height);
     picker1.frame = CGRectMake(picker1.frame.origin.x + OC * 4, picker1.frame.origin.y, picker1.frame.size.width - OC, picker1.frame.size.height);
+}
+
+-(void)setC193SizePickerLeftPosition
+{
+    picker2.frame = CGRectMake(picker1.frame.origin.x, picker1.frame.origin.y, 170, 192);
 }
 
 -(void)refreshPickers
