@@ -146,7 +146,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3350" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLp-lo-yCX">
-                            <rect key="frame" x="434" y="25" width="92" height="57"/>
+                            <rect key="frame" x="434" y="25" width="92" height="46"/>
                             <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -184,7 +184,7 @@
                         <constraint firstItem="q2i-mn-KIM" firstAttribute="top" secondItem="gAX-bs-D8y" secondAttribute="top" id="TmN-8g-YLf"/>
                         <constraint firstItem="q2i-mn-KIM" firstAttribute="bottom" secondItem="ENW-84-VEn" secondAttribute="bottom" id="Uec-ke-fak"/>
                         <constraint firstAttribute="trailing" secondItem="2lg-EA-Tt3" secondAttribute="trailing" constant="-215" id="XMg-r4-nfN"/>
-                        <constraint firstItem="q2i-mn-KIM" firstAttribute="centerY" secondItem="XLp-lo-yCX" secondAttribute="centerY" constant="-8.5" id="Y0w-Rw-nHy"/>
+                        <constraint firstItem="q2i-mn-KIM" firstAttribute="centerY" secondItem="XLp-lo-yCX" secondAttribute="centerY" constant="-3" id="Y0w-Rw-nHy"/>
                         <constraint firstItem="q2i-mn-KIM" firstAttribute="leading" secondItem="XLp-lo-yCX" secondAttribute="trailing" constant="22" id="aCc-JG-o5r"/>
                         <constraint firstAttribute="trailing" secondItem="rk7-s3-R3i" secondAttribute="trailing" constant="-224" id="aXC-Zg-cSB"/>
                         <constraint firstAttribute="trailing" secondItem="ise-Nf-8aS" secondAttribute="trailing" constant="-159" id="e0a-X3-5hi"/>
@@ -195,7 +195,7 @@
                         <constraint firstItem="2lg-EA-Tt3" firstAttribute="top" secondItem="gAX-bs-D8y" secondAttribute="top" constant="55" id="hYf-0c-UfK"/>
                         <constraint firstAttribute="trailing" secondItem="2lg-EA-Tt3" secondAttribute="trailing" constant="-215" id="jRp-ar-jbh"/>
                         <constraint firstItem="q2i-mn-KIM" firstAttribute="leading" secondItem="gAX-bs-D8y" secondAttribute="leading" constant="548" id="mqD-Oa-9k5"/>
-                        <constraint firstItem="pXX-aY-jB7" firstAttribute="top" secondItem="XLp-lo-yCX" secondAttribute="bottom" constant="8" id="pic-p6-1Ch"/>
+                        <constraint firstItem="pXX-aY-jB7" firstAttribute="top" secondItem="XLp-lo-yCX" secondAttribute="bottom" constant="19" id="pic-p6-1Ch"/>
                         <constraint firstItem="l1c-cr-BOG" firstAttribute="centerY" secondItem="I3x-ae-8iK" secondAttribute="centerY" id="rdW-pb-Y9x"/>
                         <constraint firstItem="2lg-EA-Tt3" firstAttribute="centerY" secondItem="GTC-AQ-XOZ" secondAttribute="centerY" id="s7O-Om-hv5"/>
                         <constraint firstItem="ENW-84-VEn" firstAttribute="top" secondItem="gAX-bs-D8y" secondAttribute="top" id="uIM-X2-q3e"/>
@@ -239,7 +239,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="541" y="206.5"/>
+            <point key="canvasLocation" x="540" y="211.5"/>
         </view>
         <tapGestureRecognizer id="P68-hF-EYb">
             <connections>
