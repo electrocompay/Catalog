@@ -62,7 +62,6 @@ const int OC = OFFSET_CUBE_83;
 
 -(void)pickerViewController:(IWPickerViewController *)pickerViewController didSelectRow:(IWColor*)color
 {
-    IWColor* prevModel = _cabinet.model;
     _cabinet.model = (IWModel*) pickerModel.selection;
     if (_cabinet.useDoors) {
         [self processSelectionDoors:pickerViewController didSelectRow:color];
@@ -88,9 +87,7 @@ const int OC = OFFSET_CUBE_83;
     cube83View.hidden = YES;
     if ([_cabinet.model.code isEqualToString:@"C83"]) {
         cube83View.hidden = NO;
-        [self initialPickersPositions];
-        if (![prevModel.code isEqualToString:@"C83"])
-            [self movePickersRight];
+        [self movePickersRight];
     }
 }
 
