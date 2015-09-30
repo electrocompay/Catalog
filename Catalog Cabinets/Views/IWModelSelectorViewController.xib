@@ -10,10 +10,10 @@
                 <outlet property="btCosy83" destination="mKh-tf-Apb" id="UNA-1R-wFC"/>
                 <outlet property="btJoly83" destination="A0Y-aB-nKb" id="H6e-bo-WVY"/>
                 <outlet property="cube83View" destination="kQo-SV-iaB" id="Tpa-hB-ZBC"/>
-                <outlet property="picker2" destination="qZP-Lw-9pP" id="mYv-TW-nud"/>
-                <outlet property="picker3" destination="AgY-go-IJH" id="7bw-Sj-zaU"/>
-                <outlet property="picker4" destination="vAR-ga-EVx" id="fIN-pe-RaA"/>
-                <outlet property="picker5" destination="QIm-vl-B5t" id="la5-m4-j8T"/>
+                <outlet property="picker1" destination="qZP-Lw-9pP" id="nAj-pb-AE2"/>
+                <outlet property="picker2" destination="AgY-go-IJH" id="qbg-8w-YwF"/>
+                <outlet property="picker3" destination="vAR-ga-EVx" id="1i4-gY-b2C"/>
+                <outlet property="picker4" destination="QIm-vl-B5t" id="Ddc-mU-LCI"/>
                 <outlet property="pickerModel" destination="G2G-5P-Rw4" id="wa4-5M-yR6"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>

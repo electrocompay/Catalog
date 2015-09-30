@@ -20,10 +20,10 @@ const int OC = OFFSET_CUBE_83;
 @implementation IWModelSelectorViewController
 {
     IBOutlet IWPickerViewController *pickerModel;
+    IBOutlet IWPickerViewController *picker1;
     IBOutlet IWPickerViewController *picker2;
     IBOutlet IWPickerViewController *picker3;
     IBOutlet IWPickerViewController *picker4;
-    IBOutlet IWPickerViewController *picker5;
     
     IBOutlet UIView *cube83View;
     IBOutlet UIButton *btCosy83;
@@ -43,10 +43,10 @@ const int OC = OFFSET_CUBE_83;
     [super viewDidLoad];
     [pickerModel setItems:[IWColors cabinetModels]];
     [pickerModel setDelegate:self];
+    [picker1 setDelegate:self];
     [picker2 setDelegate:self];
     [picker3 setDelegate:self];
     [picker4 setDelegate:self];
-    [picker5 setDelegate:self];
     [self pickerViewController:pickerModel didSelectRow:pickerModel.selection];
     
     cube83View.hidden = YES;
@@ -71,22 +71,21 @@ const int OC = OFFSET_CUBE_83;
         [self processSelectionModules:pickerViewController didSelectRow:color];
     }
     
-    if (![_cabinet.model.code isEqualToString:@"C193"]) {
-        picker3.frame = CGRectMake(picker3.frame.origin.x, 0, picker3.bounds.size.width, picker3.bounds.size.height);
-        [picker2 setHidden:NO];
-    }
-
     if (_delegate) {
         [_delegate didSelect:self andColor:color];
+    }
+
+    [self initialPickersPositions];
+    if (![_cabinet.model.code isEqualToString:@"C193"]) {
+        [picker1 setHidden:NO];
     }
     
     cube83View.hidden = YES;
     if ([_cabinet.model.code isEqualToString:@"C83"]) {
         cube83View.hidden = NO;
+        [self initialPickersPositions];
         if (![prevModel.code isEqualToString:@"C83"])
             [self movePickersRight];
-    } else if ([prevModel.code isEqualToString:@"C83"]) {
-        [self initialPickersPositions];
     }
 }
 
@@ -96,51 +95,51 @@ const int OC = OFFSET_CUBE_83;
     if (pickerViewController == pickerModel) {
         _cabinet.model = (IWModel*) pickerModel.selection;
         if ([color.code isEqualToString:@"40"]) {
-            [picker2 setItems:[IWColors cabinet40Types]];
+            [picker1 setItems:[IWColors cabinet40Types]];
             [self setModeCube];
         } else if ([color.code isEqualToString:@"55"]){
             [self setModeCube];
-            [picker2 setItems:[IWColors cabinet55Types]];
+            [picker1 setItems:[IWColors cabinet55Types]];
         } else if ([color.code isEqualToString:@"C193"]){
             [self setModeCube];
-            picker3.frame = picker2.frame;
-            [picker2 setHidden:YES];
-            [picker3 setItems:[IWColors cabinetC193Sizes]];
+            picker2.frame = picker1.frame;
+            [picker1 setHidden:YES];
+            [picker2 setItems:[IWColors cabinetC193Sizes]];
         }
         
-        [picker2 reloadAllComponents];
-        _cabinet.type = picker2.selection;
+        [picker1 reloadAllComponents];
+        _cabinet.type = picker1.selection;
         cascadeChange = YES;
         
     }
     
-    if (pickerViewController == picker2 || cascadeChange){
-        _cabinet.type = picker2.selection;
+    if (pickerViewController == picker1 || cascadeChange){
+        _cabinet.type = picker1.selection;
         if ([_cabinet.model.code isEqualToString:@"40"]) {
             if ([_cabinet.type.code isEqualToString:@"H"]) {
-                [picker3 setItems:[IWColors cabinet40HSizes]];
+                [picker2 setItems:[IWColors cabinet40HSizes]];
             } else if ([_cabinet.type.code isEqualToString:@"B"]){
-                [picker3 setItems:[IWColors cabinet40BSizes]];
+                [picker2 setItems:[IWColors cabinet40BSizes]];
             } else if ([_cabinet.type.code isEqualToString:@"K"]){
-                [picker3 setItems:[IWColors cabinet40KSizes]];
+                [picker2 setItems:[IWColors cabinet40KSizes]];
             }
         } else if ([_cabinet.model.code isEqualToString:@"55"]){
             if ([_cabinet.type.code isEqualToString:@"H"]) {
-                [picker3 setItems:[IWColors cabinet55HSizes]];
+                [picker2 setItems:[IWColors cabinet55HSizes]];
             } else if ([_cabinet.type.code isEqualToString:@"B"]){
-                [picker3 setItems:[IWColors cabinet55BSizes]];
+                [picker2 setItems:[IWColors cabinet55BSizes]];
             } else if ([_cabinet.type.code isEqualToString:@"K"]){
-                [picker3 setItems:[IWColors cabinet55KSizes]];
+                [picker2 setItems:[IWColors cabinet55KSizes]];
             }
             cascadeChange = YES;
         }
-        [picker3 reloadAllComponents];
-        _cabinet.size = picker3.selection;
+        [picker2 reloadAllComponents];
+        _cabinet.size = picker2.selection;
     }
     
-    if (pickerViewController == picker3 || cascadeChange)
+    if (pickerViewController == picker2 || cascadeChange)
     {
-        _cabinet.size = picker3.selection;
+        _cabinet.size = picker2.selection;
     }
     
 }
@@ -152,43 +151,43 @@ const int OC = OFFSET_CUBE_83;
         [self setModeCosYJoli83];
     }
     
-    if (pickerViewController == picker2) {
-        _cabinet.size = picker2.selection;
+    if (pickerViewController == picker1) {
+        _cabinet.size = picker1.selection;
         _cabinet.stripe = nil;
-        picker3.enabled = YES;
+        picker2.enabled = YES;
     }
     
-    if (pickerViewController == picker3) {
-        _cabinet.module2.size = picker3.selection;
+    if (pickerViewController == picker2) {
+        _cabinet.module2.size = picker2.selection;
         _cabinet.module2.stripe = nil;
-        picker4.enabled = YES;
-        if (picker3.selectedIndex == 0) {
-            [picker4 reset];
-            [picker5 resetAndDisable];
-            _cabinet.module4.size = picker5.selection;
+        picker3.enabled = YES;
+        if (picker2.selectedIndex == 0) {
+            [picker3 reset];
+            [picker4 resetAndDisable];
+            _cabinet.module4.size = picker4.selection;
         }
         
     }
     
-    if (pickerViewController == picker4) {
-        _cabinet.module3.size = picker4.selection;
+    if (pickerViewController == picker3) {
+        _cabinet.module3.size = picker3.selection;
         _cabinet.module3.stripe = nil;
-        picker5.enabled = YES;
-        if (picker4.selectedIndex == 0) {
-            [picker5 reset];
-            _cabinet.module4.size = picker5.selection;
+        picker4.enabled = YES;
+        if (picker3.selectedIndex == 0) {
+            [picker4 reset];
+            _cabinet.module4.size = picker4.selection;
         }
     }
     
-    if (pickerViewController == picker5) {
-        _cabinet.module4.size = picker5.selection;
+    if (pickerViewController == picker4) {
+        _cabinet.module4.size = picker4.selection;
         _cabinet.module4.stripe = nil;
     }
     
-    _cabinet.module2.size = picker3.selection;
-    _cabinet.module3.size = picker4.selection;
-    _cabinet.module4.size = picker5.selection;
-    picker2.left = 0;
+    _cabinet.module2.size = picker2.selection;
+    _cabinet.module3.size = picker3.selection;
+    _cabinet.module4.size = picker4.selection;
+    picker1.left = 0;
     
     
     NSInteger weight1 =  _cabinet.drawers.count > 0 ? 2 : _cabinet.colors.count;
@@ -196,30 +195,30 @@ const int OC = OFFSET_CUBE_83;
     NSInteger weight3 =  _cabinet.module3.drawers.count > 0 ? 2 : _cabinet.module3.colors.count;
     NSInteger weight4 =  _cabinet.module4.drawers.count > 0 ? 2 : _cabinet.module4.colors.count;
     
-    picker2.right = weight2;
-    picker3.left = weight1;
-    picker3.right = weight3;
-    picker4.left = weight2;
-    picker4.right = weight4;
-    picker5.left = weight3;
-    picker5.right = 0;
+    picker1.right = weight2;
+    picker2.left = weight1;
+    picker2.right = weight3;
+    picker3.left = weight2;
+    picker3.right = weight4;
+    picker4.left = weight3;
+    picker4.right = 0;
     if (weight1 + weight2 + weight3 == 5) {
-        picker5.dissableMoreThan1 = YES;
-        if (picker5.left == 1) {
-            [picker5 resetAndDisable];
-            _cabinet.module4.size = picker5.selection;
+        picker4.dissableMoreThan1 = YES;
+        if (picker4.left == 1) {
+            [picker4 resetAndDisable];
+            _cabinet.module4.size = picker4.selection;
         }
     } else {
-        picker5.dissableMoreThan1 = NO;
+        picker4.dissableMoreThan1 = NO;
     }
     
-    picker4.enabled = picker3.selectedIndex > 0;
-    picker5.enabled = picker4.selectedIndex > 0 && !(picker5.dissableMoreThan1 && picker5.left == 1);
+    picker3.enabled = picker2.selectedIndex > 0;
+    picker4.enabled = picker3.selectedIndex > 0 && !(picker4.dissableMoreThan1 && picker4.left == 1);
     if (weight1 + weight2 + weight3 == 6) {
-       // [picker5 resetAndDisable];
-        picker5.dissableMoreThan1 = YES;
-        picker5.left = 1;
-        _cabinet.module4.size = picker5.selection;
+       // [picker4 resetAndDisable];
+        picker4.dissableMoreThan1 = YES;
+        picker4.left = 1;
+        _cabinet.module4.size = picker4.selection;
     }
     
     //[self refreshPickers];
@@ -244,54 +243,54 @@ const int OC = OFFSET_CUBE_83;
 
 -(void)setModeCosYJoli83
 {
-    [picker2 setTitle:@"M1 - Module 1"];
+    [picker1 setTitle:@"M1 - Module 1"];
     NSMutableArray *array = [NSMutableArray arrayWithArray:[IWColors cabinet83Modules]];
     [array removeObjectAtIndex:0];
-    [picker2 setItems:array];
+    [picker1 setItems:array];
+    [picker2 setItems:[IWColors cabinet83Modules]];
     [picker3 setItems:[IWColors cabinet83Modules]];
     [picker4 setItems:[IWColors cabinet83Modules]];
-    [picker5 setItems:[IWColors cabinet83Modules]];
 
-    [picker2 setSelection:[array objectAtIndex:0]];
-    [self processSelectionModules:picker2 didSelectRow:picker2.selection];
-    [picker3 setTitle:@"M2 - Module 2"];
-    [picker4 setTitle:@"M3 - Module 3"];
-    [picker5 setTitle:@"M4 - Module 4"];
+    [picker1 setSelection:[array objectAtIndex:0]];
+    [self processSelectionModules:picker1 didSelectRow:picker1.selection];
+    [picker2 setTitle:@"M2 - Module 2"];
+    [picker3 setTitle:@"M3 - Module 3"];
+    [picker4 setTitle:@"M4 - Module 4"];
+    [picker3 setHidden:NO];
     [picker4 setHidden:NO];
-    [picker5 setHidden:NO];
 }
 
 -(void)initialPickersPositions
 {
     pickerModel.frame = CGRectMake(14, 0, 170, 192);
-    picker2.frame = CGRectMake(230, 0, 170, 192);
-    picker3.frame = CGRectMake(430, 0, 170, 192);
-    picker4.frame = CGRectMake(630, 0, 170, 192);
-    picker5.frame = CGRectMake(830, 0, 170, 192);
+    picker1.frame = CGRectMake(230, 0, 170, 192);
+    picker2.frame = CGRectMake(430, 0, 170, 192);
+    picker3.frame = CGRectMake(630, 0, 170, 192);
+    picker4.frame = CGRectMake(830, 0, 170, 192);
 }
 
 -(void)movePickersRight
 {
-    picker5.frame = CGRectMake(picker5.frame.origin.x + OC, picker5.frame.origin.y, picker5.frame.size.width - OC, picker5.frame.size.height);
-    picker4.frame = CGRectMake(picker4.frame.origin.x + OC * 2, picker4.frame.origin.y, picker4.frame.size.width - OC, picker4.frame.size.height);
-    picker3.frame = CGRectMake(picker3.frame.origin.x + OC * 3, picker3.frame.origin.y, picker3.frame.size.width - OC, picker3.frame.size.height);
-    picker2.frame = CGRectMake(picker2.frame.origin.x + OC * 4, picker2.frame.origin.y, picker2.frame.size.width - OC, picker2.frame.size.height);
+    picker4.frame = CGRectMake(picker4.frame.origin.x + OC, picker4.frame.origin.y, picker4.frame.size.width - OC, picker4.frame.size.height);
+    picker3.frame = CGRectMake(picker3.frame.origin.x + OC * 2, picker3.frame.origin.y, picker3.frame.size.width - OC, picker3.frame.size.height);
+    picker2.frame = CGRectMake(picker2.frame.origin.x + OC * 3, picker2.frame.origin.y, picker2.frame.size.width - OC, picker2.frame.size.height);
+    picker1.frame = CGRectMake(picker1.frame.origin.x + OC * 4, picker1.frame.origin.y, picker1.frame.size.width - OC, picker1.frame.size.height);
 }
 
 -(void)refreshPickers
 {
+    [picker1 refresh];
     [picker2 refresh];
     [picker3 refresh];
     [picker4 refresh];
-    [picker5 refresh];
 }
 
 -(void)setModeCube
 {
-    [picker2 setTitle:@"Type"];
-    [picker3 setTitle:@"Size"];
+    [picker1 setTitle:@"Type"];
+    [picker2 setTitle:@"Size"];
+    [picker3 setHidden:YES];
     [picker4 setHidden:YES];
-    [picker5 setHidden:YES];
 }
 
 - (IBAction)cube83CategorySelected:(UIButton *)sender {

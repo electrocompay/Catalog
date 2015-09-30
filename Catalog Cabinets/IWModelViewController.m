@@ -653,7 +653,7 @@
     IWPriceManager *pricesManager = [IWPriceManager getInstance];
     if (pricesManager.authenticated) {
         double price = [pricesManager getCabinetPrice:cabinet];
-        [priceView setText:[NSString stringWithFormat:@"%.2f", price]];
+        [priceView setText:[NSString stringWithFormat:@"%.2f €", price]];
         [priceView setHidden:NO];
         [priceButton setUserInteractionEnabled:NO];
     } else {
