@@ -9,9 +9,7 @@
 #import "IWModelSelectorViewController.h"
 #import "IWPickerViewController.h"
 #import "IWColors.h"
-
-const int OFFSET_CUBE_83 = 40;
-const int OC = OFFSET_CUBE_83;
+#import "Constants.h"
 
 @interface IWModelSelectorViewController ()
 

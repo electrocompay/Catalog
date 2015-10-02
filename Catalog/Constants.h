@@ -32,4 +32,7 @@ static NSString *kCoffeeTableText = @"Coffee table";
 static NSString *kSelectChairsNumberMessage = @"Select chairs number";
 static NSString *kChairsNotAvailableMessage = @"Chairs not available for this table type";
 
+static const int OFFSET_CUBE_83 = 40;
+static const int OC = OFFSET_CUBE_83;
+
 #endif

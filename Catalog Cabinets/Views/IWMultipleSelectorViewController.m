@@ -12,6 +12,7 @@
 #import "IWColorsPanelView.h"
 #import "IWColors.h"
 #import "NSArray+color.h"
+#import "Constants.h"
 
 
 @interface IWMultipleSelectorViewController ()
@@ -32,6 +33,10 @@
     IBOutlet UILabel *labelAllColors;
     IBOutlet UILabel *labelAllColor1;
     IBOutlet UILabel *labelColorDoor;
+
+    IBOutlet UIView *startSeparator;
+    IBOutlet UIView *scrollViewContainer;
+    
     IBOutlet UIButton *marker;
     IBOutlet UIButton *marker_back;
 }
@@ -58,6 +63,7 @@
             break;
         case MultipleSelectorModeModuleColors:
             panelColors = [IWColorsPanelView colorsPanelModuleDoors];
+            [self setPanelColorsForCosyJoli];
             break;
             
         default:
@@ -72,6 +78,35 @@
     scrollView.delegate = self;
     
     [self updateMarkers];
+}
+
+-(void)setPanelColorsForCosyJoli
+{
+    CGRect elementFrame, elementBounds;
+    
+    elementFrame = multipleContainer.frame;
+    multipleContainer.frame = CGRectMake(elementFrame.origin.x, elementFrame.origin.y, panelColors.frame.size.width, elementFrame.size.height);
+    
+    elementFrame = headerLabel.frame;
+    headerLabel.frame = CGRectMake(elementFrame.origin.x - 3*OC, elementFrame.origin.y, elementFrame.size.width, elementFrame.size.height);
+    
+    elementFrame = startSeparator.frame;
+    startSeparator.frame = CGRectMake(elementFrame.origin.x - 3*OC, elementFrame.origin.y, elementFrame.size.width, elementFrame.size.height);
+    
+    elementFrame = marker_back.frame;
+    elementBounds = marker_back.bounds;
+    marker_back.frame = CGRectMake(elementFrame.origin.x - 3*OC, elementFrame.origin.y, elementFrame.size.width, elementFrame.size.height);
+    marker_back.bounds = CGRectMake(elementBounds.origin.x - 3*OC, elementBounds.origin.y, elementBounds.size.width, elementBounds.size.height);
+
+    elementFrame = scrollViewContainer.frame;
+    elementBounds = scrollViewContainer.bounds;
+    scrollViewContainer.frame = CGRectMake(elementFrame.origin.x - 3*OC, elementFrame.origin.y, elementFrame.size.width + 3*OC, elementFrame.size.height);
+    scrollViewContainer.bounds = CGRectMake(elementBounds.origin.x - 3*OC, elementBounds.origin.y, elementBounds.size.width + 3*OC, elementBounds.size.height);
+
+    elementFrame = scrollView.frame;
+    elementBounds = scrollView.bounds;
+    scrollView.frame = CGRectMake(elementFrame.origin.x - 3*OC, elementFrame.origin.y, elementFrame.size.width + 3*OC, elementFrame.size.height);
+    scrollView.bounds = CGRectMake(elementBounds.origin.x - 3*OC, elementBounds.origin.y, elementBounds.size.width + 3*OC, elementBounds.size.height);
 }
 
 - (void)didReceiveMemoryWarning
@@ -136,6 +171,7 @@
  //       [self setSelection:optionView.tag];
         scrollView.contentSize = CGSizeMake((pageSize.width + 10) * page, pageSize.height);
     }
+
     [self updateMarkers];
 }
 
