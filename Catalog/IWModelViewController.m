@@ -320,11 +320,7 @@
                 [selectorChairColorView setItems:[IWColors chairColors]];
             }
         }
-        
-        //if ([chair.model.name isEqualToString:@"Rafael-A"] || [chair.model.name isEqualToString:@"Rafael-S"]) {
-        //    selectorChairColorView.items = [[IWColors chairColors] withoutColor:@"15"];
-        //}
-        
+                
         selectorChairColorView.chairModelForAlternativeView = nil;
         if (chair.model.name != nil) {
             if ([chair.model.name isEqualToString:@"Margueritte-A-S"] ||
@@ -369,18 +365,6 @@
         }
         else {
             [chair setColor:color];
-        }
-        
-        if ([chair.model.name isEqualToString:@"Rafael-A"]) {
-            if ([color.code isEqualToString:@"14"]) {
-                chair.model.legColors = [@"22" componentsSeparatedByString:@","];
-            } else if ([color.code isEqualToString:@"15"]) {
-                chair.model.legColors =  [@"23" componentsSeparatedByString:@","];
-            } else if ([color.code isEqualToString:@"18"]) {
-                chair.model.legColors = [@"26" componentsSeparatedByString:@","];
-            } else if ([color.code isEqualToString:@"42"]) {
-                chair.model.legColors = [@"24" componentsSeparatedByString:@","];
-            }
         }
 
         [selectorChairLegsColorView setFilteredItems:chair.model.legColors];
