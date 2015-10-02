@@ -628,11 +628,11 @@
 {
     int modulesCounter = 1;
     
-    if (cabinet.module2.colors.count) {
+    if (cabinet.module2.size.code) {
         modulesCounter++;
-        if (cabinet.module3.colors.count) {
+        if (cabinet.module3.size.code) {
             modulesCounter++;
-            if (cabinet.module4.colors.count) {
+            if (cabinet.module4.size.code) {
                 modulesCounter++;
             }
         }
