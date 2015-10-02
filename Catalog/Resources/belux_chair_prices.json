@@ -26,37 +26,37 @@
   {
     "ID":"40971",
     "Item":"PRD-034896",
-    "ItemName":"Angelina-antracite 25-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-S-antracite 25",
     "UnitPrice":"557"
   },
   {
     "ID":"40973",
     "Item":"PRD-034897",
-    "ItemName":"Angelina-antracite 25-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-antracite 25",
     "UnitPrice":"619"
   },
   {
     "ID":"40975",
     "Item":"PRD-034898",
-    "ItemName":"Angelina-antracite 25-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-antracite 25",
     "UnitPrice":"660"
   },
   {
     "ID":"40977",
     "Item":"PRD-034899",
-    "ItemName":"Angelina-antracite 25-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-antracite 25",
     "UnitPrice":"721"
   },
   {
     "ID":"40981",
     "Item":"PRD-034901",
-    "ItemName":"Angelina-antracite 25-low 54x72x72",
+    "ItemName":"Angelina low-AL-antracite 25",
     "UnitPrice":"824"
   },
   {
     "ID":"40979",
     "Item":"PRD-034900",
-    "ItemName":"Angelina-antracite 25-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-antracite 25",
     "UnitPrice":"309"
   },
   {
@@ -86,37 +86,37 @@
   {
     "ID":"40995",
     "Item":"PRD-034908",
-    "ItemName":"Angelina-Aubergine 77-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Aubergine 77",
     "UnitPrice":"557"
   },
   {
     "ID":"40997",
     "Item":"PRD-034909",
-    "ItemName":"Angelina-Aubergine 77-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Aubergine 77",
     "UnitPrice":"619"
   },
   {
     "ID":"40999",
     "Item":"PRD-034910",
-    "ItemName":"Angelina-Aubergine 77-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Aubergine 77",
     "UnitPrice":"660"
   },
   {
     "ID":"41001",
     "Item":"PRD-034911",
-    "ItemName":"Angelina-Aubergine 77-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Aubergine 77",
     "UnitPrice":"721"
   },
   {
     "ID":"41005",
     "Item":"PRD-034913",
-    "ItemName":"Angelina-Aubergine 77-low 54x72x72",
+    "ItemName":"Angelina low-AL-Aubergine 77",
     "UnitPrice":"824"
   },
   {
     "ID":"41003",
     "Item":"PRD-034912",
-    "ItemName":"Angelina-Aubergine 77-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Aubergine 77",
     "UnitPrice":"309"
   },
   {
@@ -146,37 +146,37 @@
   {
     "ID":"41079",
     "Item":"PRD-034950",
-    "ItemName":"Angelina-Beige 110-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Beige 110",
     "UnitPrice":"557"
   },
   {
     "ID":"41081",
     "Item":"PRD-034951",
-    "ItemName":"Angelina-Beige 110-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Beige 110",
     "UnitPrice":"619"
   },
   {
     "ID":"41083",
     "Item":"PRD-034952",
-    "ItemName":"Angelina-Beige 110-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Beige 110",
     "UnitPrice":"660"
   },
   {
     "ID":"41085",
     "Item":"PRD-034953",
-    "ItemName":"Angelina-Beige 110-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Beige 110",
     "UnitPrice":"721"
   },
   {
     "ID":"41089",
     "Item":"PRD-034955",
-    "ItemName":"Angelina-Beige 110-low 54x72x72",
+    "ItemName":"Angelina low-AL-Beige 110",
     "UnitPrice":"824"
   },
   {
     "ID":"41087",
     "Item":"PRD-034954",
-    "ItemName":"Angelina-Beige 110-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Beige 110",
     "UnitPrice":"309"
   },
   {
@@ -206,37 +206,37 @@
   {
     "ID":"40959",
     "Item":"PRD-034890",
-    "ItemName":"Angelina-black 08-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-S-black 08",
     "UnitPrice":"557"
   },
   {
     "ID":"40961",
     "Item":"PRD-034891",
-    "ItemName":"Angelina-black 08-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-black 08",
     "UnitPrice":"619"
   },
   {
     "ID":"40963",
     "Item":"PRD-034892",
-    "ItemName":"Angelina-black 08-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-black 08",
     "UnitPrice":"660"
   },
   {
     "ID":"40965",
     "Item":"PRD-034893",
-    "ItemName":"Angelina-black 08-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-black 08",
     "UnitPrice":"721"
   },
   {
     "ID":"40969",
     "Item":"PRD-034895",
-    "ItemName":"Angelina-black 08-low 54x72x72",
+    "ItemName":"Angelina low-AL-black 08",
     "UnitPrice":"824"
   },
   {
     "ID":"40967",
     "Item":"PRD-034894",
-    "ItemName":"Angelina-black 08-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-black 08",
     "UnitPrice":"309"
   },
   {
@@ -266,43 +266,43 @@
   {
     "ID":"41043",
     "Item":"PRD-034932",
-    "ItemName":"Angelina-Choco 57-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Choco 57",
     "UnitPrice":"557"
   },
   {
     "ID":"41045",
     "Item":"PRD-034933",
-    "ItemName":"Angelina-Choco 57-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Choco 57",
     "UnitPrice":"619"
   },
   {
     "ID":"41047",
     "Item":"PRD-034934",
-    "ItemName":"Angelina-Choco 57-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Choco 57",
     "UnitPrice":"660"
   },
   {
     "ID":"41049",
     "Item":"PRD-034935",
-    "ItemName":"Angelina-Choco 57-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Choco 57",
     "UnitPrice":"721"
   },
   {
     "ID":"41053",
     "Item":"PRD-034937",
-    "ItemName":"Angelina-Choco 57-low 54x72x72",
+    "ItemName":"Angelina low-AL-Choco 57",
     "UnitPrice":"824"
   },
   {
     "ID":"41051",
     "Item":"PRD-034936",
-    "ItemName":"Angelina-Choco 57-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Choco 57",
     "UnitPrice":"309"
   },
   {
     "ID":"40885",
     "Item":"PRD-034853",
-    "ItemName":"Angelina-S-grey 21",
+    "ItemName":"Angelina-grey 21",
     "UnitPrice":"478"
   },
   {
@@ -326,43 +326,43 @@
   {
     "ID":"40983",
     "Item":"PRD-034902",
-    "ItemName":"Angelina-grey 21-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-grey 21",
     "UnitPrice":"557"
   },
   {
     "ID":"40985",
     "Item":"PRD-034903",
-    "ItemName":"Angelina-grey 21-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-grey 21",
     "UnitPrice":"619"
   },
   {
     "ID":"40987",
     "Item":"PRD-034904",
-    "ItemName":"Angelina-grey 21-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-grey 21",
     "UnitPrice":"660"
   },
   {
     "ID":"40989",
     "Item":"PRD-034905",
-    "ItemName":"Angelina-grey 21-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-grey 21",
     "UnitPrice":"721"
   },
   {
     "ID":"40993",
     "Item":"PRD-034907",
-    "ItemName":"Angelina-grey 21-low 54x72x72",
+    "ItemName":"Angelina low-AL-grey 21",
     "UnitPrice":"824"
   },
   {
     "ID":"40991",
     "Item":"PRD-034906",
-    "ItemName":"Angelina-grey 21-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-grey 21",
     "UnitPrice":"309"
   },
   {
     "ID":"40909",
     "Item":"PRD-034865",
-    "ItemName":"Angelina-S-Lipstick 80",
+    "ItemName":"Angelina-Lipstick 80",
     "UnitPrice":"478"
   },
   {
@@ -386,37 +386,37 @@
   {
     "ID":"41019",
     "Item":"PRD-034920",
-    "ItemName":"Angelina-Lipstick 80-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Lipstick 80",
     "UnitPrice":"557"
   },
   {
     "ID":"41021",
     "Item":"PRD-034921",
-    "ItemName":"Angelina-Lipstick 80-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Lipstick 80",
     "UnitPrice":"619"
   },
   {
     "ID":"41023",
     "Item":"PRD-034922",
-    "ItemName":"Angelina-Lipstick 80-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Lipstick 80",
     "UnitPrice":"660"
   },
   {
     "ID":"41025",
     "Item":"PRD-034923",
-    "ItemName":"Angelina-Lipstick 80-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Lipstick 80",
     "UnitPrice":"721"
   },
   {
     "ID":"41029",
     "Item":"PRD-034925",
-    "ItemName":"Angelina-Lipstick 80-low 54x72x72",
+    "ItemName":"Angelina low-AL-Lipstick 80",
     "UnitPrice":"824"
   },
   {
     "ID":"41027",
     "Item":"PRD-034924",
-    "ItemName":"Angelina-Lipstick 80-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Lipstick 80",
     "UnitPrice":"309"
   },
   {
@@ -446,43 +446,43 @@
   {
     "ID":"41067",
     "Item":"PRD-034944",
-    "ItemName":"Angelina-Mocca 29-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Mocca 29",
     "UnitPrice":"557"
   },
   {
     "ID":"41069",
     "Item":"PRD-034945",
-    "ItemName":"Angelina-Mocca 29-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Mocca 29",
     "UnitPrice":"619"
   },
   {
     "ID":"41071",
     "Item":"PRD-034946",
-    "ItemName":"Angelina-Mocca 29-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Mocca 29",
     "UnitPrice":"660"
   },
   {
     "ID":"41073",
     "Item":"PRD-034947",
-    "ItemName":"Angelina-Mocca 29-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Mocca 29",
     "UnitPrice":"721"
   },
   {
     "ID":"41077",
     "Item":"PRD-034949",
-    "ItemName":"Angelina-Mocca 29-low 54x72x72",
+    "ItemName":"Angelina low-AL-Mocca 29",
     "UnitPrice":"824"
   },
   {
     "ID":"41075",
     "Item":"PRD-034948",
-    "ItemName":"Angelina-Mocca 29-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Mocca 29",
     "UnitPrice":"309"
   },
   {
     "ID":"40917",
     "Item":"PRD-034869",
-    "ItemName":"Angelina-S-Nutella 58",
+    "ItemName":"Angelina-Nutella 58",
     "UnitPrice":"478"
   },
   {
@@ -506,43 +506,43 @@
   {
     "ID":"41031",
     "Item":"PRD-034926",
-    "ItemName":"Angelina-Nutella 58-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Nutella 58",
     "UnitPrice":"557"
   },
   {
     "ID":"41033",
     "Item":"PRD-034927",
-    "ItemName":"Angelina-Nutella 58-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Nutella 58",
     "UnitPrice":"619"
   },
   {
     "ID":"41035",
     "Item":"PRD-034928",
-    "ItemName":"Angelina-Nutella 58-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Nutella 58",
     "UnitPrice":"660"
   },
   {
     "ID":"41037",
     "Item":"PRD-034929",
-    "ItemName":"Angelina-Nutella 58-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Nutella 58",
     "UnitPrice":"721"
   },
   {
     "ID":"41041",
     "Item":"PRD-034931",
-    "ItemName":"Angelina-Nutella 58-low 54x72x72",
+    "ItemName":"Angelina low-AL-Nutella 58",
     "UnitPrice":"824"
   },
   {
     "ID":"41039",
     "Item":"PRD-034930",
-    "ItemName":"Angelina-Nutella 58-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Nutella 58",
     "UnitPrice":"309"
   },
   {
     "ID":"41423",
     "Item":"PRD-038952",
-    "ItemName":"Angelina-S-Smoke 17",
+    "ItemName":"Angelina-Smoke 17",
     "UnitPrice":"478"
   },
   {
@@ -566,43 +566,43 @@
   {
     "ID":"41425",
     "Item":"PRD-038953",
-    "ItemName":"Angelina-Smoke 17-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Smoke 17",
     "UnitPrice":"557"
   },
   {
     "ID":"41427",
     "Item":"PRD-038954",
-    "ItemName":"Angelina-Smoke 17-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Smoke 17",
     "UnitPrice":"619"
   },
   {
     "ID":"41429",
     "Item":"PRD-038955",
-    "ItemName":"Angelina-Smoke 17-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Smoke 17",
     "UnitPrice":"660"
   },
   {
     "ID":"41431",
     "Item":"PRD-038956",
-    "ItemName":"Angelina-Smoke 17-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Smoke 17",
     "UnitPrice":"721"
   },
   {
     "ID":"41435",
     "Item":"PRD-038958",
-    "ItemName":"Angelina-Smoke 17-low 54x72x72",
+    "ItemName":"Angelina low-AL-Smoke 17",
     "UnitPrice":"824"
   },
   {
     "ID":"41433",
     "Item":"PRD-038957",
-    "ItemName":"Angelina-Smoke 17-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Smoke 17",
     "UnitPrice":"309"
   },
   {
     "ID":"41501",
     "Item":"PRD-040405",
-    "ItemName":"Angelina-S-Stone 120",
+    "ItemName":"Angelina-Stone 120",
     "UnitPrice":"478"
   },
   {
@@ -626,43 +626,43 @@
   {
     "ID":"41503",
     "Item":"PRD-040406",
-    "ItemName":"Angelina-Stone 120-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Stone 120",
     "UnitPrice":"557"
   },
   {
     "ID":"41505",
     "Item":"PRD-040407",
-    "ItemName":"Angelina-Stone 120-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Stone 120",
     "UnitPrice":"619"
   },
   {
     "ID":"41507",
     "Item":"PRD-040408",
-    "ItemName":"Angelina-Stone 120-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Stone 120",
     "UnitPrice":"660"
   },
   {
     "ID":"41509",
     "Item":"PRD-040409",
-    "ItemName":"Angelina-Stone 120-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Stone 120",
     "UnitPrice":"721"
   },
   {
     "ID":"41513",
     "Item":"PRD-040411",
-    "ItemName":"Angelina-Stone 120-low 54x72x72",
+    "ItemName":"Angelina low-AL-Stone 120",
     "UnitPrice":"824"
   },
   {
     "ID":"41511",
     "Item":"PRD-040410",
-    "ItemName":"Angelina-Stone 120-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Stone 120",
     "UnitPrice":"309"
   },
   {
     "ID":"40933",
     "Item":"PRD-034877",
-    "ItemName":"Angelina-S-Taupe 27",
+    "ItemName":"Angelina-Taupe 27",
     "UnitPrice":"478"
   },
   {
@@ -686,37 +686,37 @@
   {
     "ID":"41055",
     "Item":"PRD-034938",
-    "ItemName":"Angelina-Taupe 27-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Taupe 27",
     "UnitPrice":"557"
   },
   {
     "ID":"41057",
     "Item":"PRD-034939",
-    "ItemName":"Angelina-Taupe 27-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Taupe 27",
     "UnitPrice":"619"
   },
   {
     "ID":"41059",
     "Item":"PRD-034940",
-    "ItemName":"Angelina-Taupe 27-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Taupe 27",
     "UnitPrice":"660"
   },
   {
     "ID":"41061",
     "Item":"PRD-034941",
-    "ItemName":"Angelina-Taupe 27-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Taupe 27",
     "UnitPrice":"721"
   },
   {
     "ID":"41065",
     "Item":"PRD-034943",
-    "ItemName":"Angelina-Taupe 27-low 54x72x72",
+    "ItemName":"Angelina low-AL-Taupe 27",
     "UnitPrice":"824"
   },
   {
     "ID":"41063",
     "Item":"PRD-034942",
-    "ItemName":"Angelina-Taupe 27-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Taupe 27",
     "UnitPrice":"309"
   },
   {
@@ -746,43 +746,43 @@
   {
     "ID":"41091",
     "Item":"PRD-034956",
-    "ItemName":"Angelina-white 10-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-S-white 10",
     "UnitPrice":"557"
   },
   {
     "ID":"41093",
     "Item":"PRD-034957",
-    "ItemName":"Angelina-white 10-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-white 10",
     "UnitPrice":"619"
   },
   {
     "ID":"41095",
     "Item":"PRD-034958",
-    "ItemName":"Angelina-white 10-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-white 10",
     "UnitPrice":"660"
   },
   {
     "ID":"41097",
     "Item":"PRD-034959",
-    "ItemName":"Angelina-white 10-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-white 10",
     "UnitPrice":"721"
   },
   {
     "ID":"41101",
     "Item":"PRD-034961",
-    "ItemName":"Angelina-white 10-low 54x72x72",
+    "ItemName":"Angelina low-AL-white 10",
     "UnitPrice":"824"
   },
   {
     "ID":"41099",
     "Item":"PRD-034960",
-    "ItemName":"Angelina-white 10-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-white 10",
     "UnitPrice":"309"
   },
   {
     "ID":"40901",
     "Item":"PRD-034861",
-    "ItemName":"Angelina-S-wine red 18",
+    "ItemName":"Angelina-wine red 18",
     "UnitPrice":"478"
   },
   {
@@ -806,1153 +806,1153 @@
   {
     "ID":"41007",
     "Item":"PRD-034914",
-    "ItemName":"Angelina-wine red 18-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-wine red 18",
     "UnitPrice":"557"
   },
   {
     "ID":"41009",
     "Item":"PRD-034915",
-    "ItemName":"Angelina-wine red 18-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-wine red 18",
     "UnitPrice":"619"
   },
   {
     "ID":"41011",
     "Item":"PRD-034916",
-    "ItemName":"Angelina-wine red 18-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-wine red 18",
     "UnitPrice":"660"
   },
   {
     "ID":"41013",
     "Item":"PRD-034917",
-    "ItemName":"Angelina-wine red 18-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-wine red 18",
     "UnitPrice":"721"
   },
   {
     "ID":"41017",
     "Item":"PRD-034919",
-    "ItemName":"Angelina-wine red 18-low 54x72x72",
+    "ItemName":"Angelina low-AL-wine red 18",
     "UnitPrice":"824"
   },
   {
     "ID":"41015",
     "Item":"PRD-034918",
-    "ItemName":"Angelina-wine red 18-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-wine red 18",
     "UnitPrice":"309"
   },
   {
     "ID":"87937",
     "Item":"PRD-054538",
-    "ItemName":"Angelina-Torres-Black 006-45x55x86",
+    "ItemName":"Angelina-Black 006",
     "UnitPrice":"410"
   },
   {
     "ID":"87935",
     "Item":"PRD-054537",
-    "ItemName":"Angelina-Torres-Black 006-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Black 006",
     "UnitPrice":"470"
   },
   {
     "ID":"87933",
     "Item":"PRD-054536",
-    "ItemName":"Angelina-Torres-Black 006-arm51x55x86",
+    "ItemName":"Angelina-A-Black 006",
     "UnitPrice":"505"
   },
   {
     "ID":"87931",
     "Item":"PRD-054535",
-    "ItemName":"Angelina-Torres-Black 006-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Black 006",
     "UnitPrice":"570"
   },
   {
     "ID":"87939",
     "Item":"PRD-054539",
-    "ItemName":"Angelina-Torres-Black 006-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Black 006",
     "UnitPrice":"430"
   },
   {
     "ID":"87941",
     "Item":"PRD-054540",
-    "ItemName":"Angelina-Torres-Black 006-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Black 006",
     "UnitPrice":"490"
   },
   {
     "ID":"87943",
     "Item":"PRD-054541",
-    "ItemName":"Angelina-Torres-Black 006-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Black 006",
     "UnitPrice":"515"
   },
   {
     "ID":"87945",
     "Item":"PRD-054542",
-    "ItemName":"Angelina-Torres-Black 006-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Black 006",
     "UnitPrice":"575"
   },
   {
     "ID":"87949",
     "Item":"PRD-054544",
-    "ItemName":"Angelina-Torres-Black 006-low 54x72x72",
+    "ItemName":"Angelina low-AL-Black 006",
     "UnitPrice":"555"
   },
   {
     "ID":"87947",
     "Item":"PRD-054543",
-    "ItemName":"Angelina-Torres-Black 006-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Black 006",
     "UnitPrice":"230"
   },
   {
     "ID":"87897",
     "Item":"PRD-054518",
-    "ItemName":"Angelina-Torres-Chocolate 010-45x55x86",
+    "ItemName":"Angelina-Chocolate 010",
     "UnitPrice":"410"
   },
   {
     "ID":"87895",
     "Item":"PRD-054517",
-    "ItemName":"Angelina-Torres-Chocolate 010-45x55x86-with wheels",
+    "ItemName":"Angelina W-Chocolate 010",
     "UnitPrice":"470"
   },
   {
     "ID":"87893",
     "Item":"PRD-054516",
-    "ItemName":"Angelina-Torres-Chocolate 010-arm51x55x86",
+    "ItemName":"Angelina A-Chocolate 010",
     "UnitPrice":"505"
   },
   {
     "ID":"87891",
     "Item":"PRD-054515",
-    "ItemName":"Angelina-Torres-Chocolate 010-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Chocolate 010",
     "UnitPrice":"570"
   },
   {
     "ID":"87899",
     "Item":"PRD-054519",
-    "ItemName":"Angelina-Torres-Chocolate 010-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Chocolate 010",
     "UnitPrice":"430"
   },
   {
     "ID":"87901",
     "Item":"PRD-054520",
-    "ItemName":"Angelina-Torres-Chocolate 010-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Chocolate 010",
     "UnitPrice":"490"
   },
   {
     "ID":"87903",
     "Item":"PRD-054521",
-    "ItemName":"Angelina-Torres-Chocolate 010-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Chocolate 010",
     "UnitPrice":"515"
   },
   {
     "ID":"87905",
     "Item":"PRD-054522",
-    "ItemName":"Angelina-Torres-Chocolate 010-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Chocolate 010",
     "UnitPrice":"575"
   },
   {
     "ID":"87909",
     "Item":"PRD-054524",
-    "ItemName":"Angelina-Torres-Chocolate 010-low 54x72x72",
+    "ItemName":"Angelina low-AL-Chocolate 010",
     "UnitPrice":"555"
   },
   {
     "ID":"87907",
     "Item":"PRD-054523",
-    "ItemName":"Angelina-Torres-Chocolate 010-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Chocolate 010",
     "UnitPrice":"230"
   },
   {
     "ID":"87817",
     "Item":"PRD-054478",
-    "ItemName":"Angelina-Torres-Greige 001-45x55x86",
+    "ItemName":"Angelina-Greige 001",
     "UnitPrice":"410"
   },
   {
     "ID":"87815",
     "Item":"PRD-054477",
-    "ItemName":"Angelina-Torres-Greige 001-45x55x86-with wheels",
+    "ItemName":"Angelina W-Greige 001",
     "UnitPrice":"470"
   },
   {
     "ID":"87813",
     "Item":"PRD-054476",
-    "ItemName":"Angelina-Torres-Greige 001-arm51x55x86",
+    "ItemName":"Angelina A-Greige 001",
     "UnitPrice":"505"
   },
   {
     "ID":"87811",
     "Item":"PRD-054475",
-    "ItemName":"Angelina-Torres-Greige 001-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Greige 001",
     "UnitPrice":"570"
   },
   {
     "ID":"87819",
     "Item":"PRD-054479",
-    "ItemName":"Angelina-Torres-Greige 001-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Greige 001",
     "UnitPrice":"430"
   },
   {
     "ID":"87821",
     "Item":"PRD-054480",
-    "ItemName":"Angelina-Torres-Greige 001-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Greige 001",
     "UnitPrice":"490"
   },
   {
     "ID":"87823",
     "Item":"PRD-054481",
-    "ItemName":"Angelina-Torres-Greige 001-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Greige 001",
     "UnitPrice":"515"
   },
   {
     "ID":"87825",
     "Item":"PRD-054482",
-    "ItemName":"Angelina-Torres-Greige 001-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Greige 001",
     "UnitPrice":"575"
   },
   {
     "ID":"87829",
     "Item":"PRD-054484",
-    "ItemName":"Angelina-Torres-Greige 001-low 54x72x72",
+    "ItemName":"Angelina low-AL-Greige 001",
     "UnitPrice":"555"
   },
   {
     "ID":"87827",
     "Item":"PRD-054483",
-    "ItemName":"Angelina-Torres-Greige 001-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Greige 001",
     "UnitPrice":"230"
   },
   {
     "ID":"87877",
     "Item":"PRD-054508",
-    "ItemName":"Angelina-Torres-Ice 002-45x55x86",
+    "ItemName":"Angelina-Ice 002",
     "UnitPrice":"410"
   },
   {
     "ID":"87875",
     "Item":"PRD-054507",
-    "ItemName":"Angelina-Torres-Ice 002-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Ice 002",
     "UnitPrice":"470"
   },
   {
     "ID":"87873",
     "Item":"PRD-054506",
-    "ItemName":"Angelina-Torres-Ice 002-arm51x55x86",
+    "ItemName":"Angelina-A-Ice 002",
     "UnitPrice":"505"
   },
   {
     "ID":"87871",
     "Item":"PRD-054505",
-    "ItemName":"Angelina-Torres-Ice 002-arm51x55x86-with wheels",
+    "ItemName":"Angelina-AW-Ice 002",
     "UnitPrice":"570"
   },
   {
     "ID":"87879",
     "Item":"PRD-054509",
-    "ItemName":"Angelina-Torres-Ice 002-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Ice 002",
     "UnitPrice":"430"
   },
   {
     "ID":"87881",
     "Item":"PRD-054510",
-    "ItemName":"Angelina-Torres-Ice 002-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Ice 002",
     "UnitPrice":"490"
   },
   {
     "ID":"87883",
     "Item":"PRD-054511",
-    "ItemName":"Angelina-Torres-Ice 002-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Ice 002",
     "UnitPrice":"515"
   },
   {
     "ID":"87885",
     "Item":"PRD-054512",
-    "ItemName":"Angelina-Torres-Ice 002-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Ice 002",
     "UnitPrice":"575"
   },
   {
     "ID":"87889",
     "Item":"PRD-054514",
-    "ItemName":"Angelina-Torres-Ice 002-low 54x72x72",
+    "ItemName":"Angelina low-AL-Ice 002",
     "UnitPrice":"555"
   },
   {
     "ID":"87887",
     "Item":"PRD-054513",
-    "ItemName":"Angelina-Torres-Ice 002-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Ice 002",
     "UnitPrice":"230"
   },
   {
     "ID":"87797",
     "Item":"PRD-054468",
-    "ItemName":"Angelina-Torres-Mushroom 003-45x55x86",
+    "ItemName":"Angelina-Mushroom 003",
     "UnitPrice":"410"
   },
   {
     "ID":"87795",
     "Item":"PRD-054467",
-    "ItemName":"Angelina-Torres-Mushroom 003-45x55x86-with wheels",
+    "ItemName":"Angelina-W-Mushroom 003",
     "UnitPrice":"470"
   },
   {
     "ID":"87793",
     "Item":"PRD-054466",
-    "ItemName":"Angelina-Torres-Mushroom 003-arm51x55x86",
+    "ItemName":"Angelina A-Mushroom 003",
     "UnitPrice":"505"
   },
   {
     "ID":"87791",
     "Item":"PRD-054465",
-    "ItemName":"Angelina-Torres-Mushroom 003-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Mushroom 003",
     "UnitPrice":"570"
   },
   {
     "ID":"87799",
     "Item":"PRD-054469",
-    "ItemName":"Angelina-Torres-Mushroom 003-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Mushroom 003",
     "UnitPrice":"430"
   },
   {
     "ID":"87801",
     "Item":"PRD-054470",
-    "ItemName":"Angelina-Torres-Mushroom 003-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Mushroom 003",
     "UnitPrice":"490"
   },
   {
     "ID":"87803",
     "Item":"PRD-054471",
-    "ItemName":"Angelina-Torres-Mushroom 003-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Mushroom 003",
     "UnitPrice":"515"
   },
   {
     "ID":"87805",
     "Item":"PRD-054472",
-    "ItemName":"Angelina-Torres-Mushroom 003-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Mushroom 003",
     "UnitPrice":"575"
   },
   {
     "ID":"87809",
     "Item":"PRD-054474",
-    "ItemName":"Angelina-Torres-Mushroom 003-low 54x72x72",
+    "ItemName":"Angelina low-AL-Mushroom 003",
     "UnitPrice":"555"
   },
   {
     "ID":"87807",
     "Item":"PRD-054473",
-    "ItemName":"Angelina-Torres-Mushroom 003-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Mushroom 003",
     "UnitPrice":"230"
   },
   {
     "ID":"87857",
     "Item":"PRD-054498",
-    "ItemName":"Angelina-Torres-Tan 009-45x55x86",
+    "ItemName":"Angelina-Tan 009",
     "UnitPrice":"410"
   },
   {
     "ID":"87855",
     "Item":"PRD-054497",
-    "ItemName":"Angelina-Torres-Tan 009-45x55x86-with wheels",
+    "ItemName":"Angelina W-Tan 009",
     "UnitPrice":"470"
   },
   {
     "ID":"87853",
     "Item":"PRD-054496",
-    "ItemName":"Angelina-Torres-Tan 009-arm51x55x86",
+    "ItemName":"Angelina A-Tan 009",
     "UnitPrice":"505"
   },
   {
     "ID":"87851",
     "Item":"PRD-054495",
-    "ItemName":"Angelina-Torres-Tan 009-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Tan 009",
     "UnitPrice":"570"
   },
   {
     "ID":"87859",
     "Item":"PRD-054499",
-    "ItemName":"Angelina-Torres-Tan 009-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Tan 009",
     "UnitPrice":"430"
   },
   {
     "ID":"87861",
     "Item":"PRD-054500",
-    "ItemName":"Angelina-Torres-Tan 009-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Tan 009",
     "UnitPrice":"490"
   },
   {
     "ID":"87863",
     "Item":"PRD-054501",
-    "ItemName":"Angelina-Torres-Tan 009-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Tan 009",
     "UnitPrice":"515"
   },
   {
     "ID":"87865",
     "Item":"PRD-054502",
-    "ItemName":"Angelina-Torres-Tan 009-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Tan 009",
     "UnitPrice":"575"
   },
   {
     "ID":"87869",
     "Item":"PRD-054504",
-    "ItemName":"Angelina-Torres-Tan 009-low 54x72x72",
+    "ItemName":"Angelina low-AL-Tan 009",
     "UnitPrice":"555"
   },
   {
     "ID":"87867",
     "Item":"PRD-054503",
-    "ItemName":"Angelina-Torres-Tan 009-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Tan 009",
     "UnitPrice":"230"
   },
   {
     "ID":"87837",
     "Item":"PRD-054488",
-    "ItemName":"Angelina-Torres-Taupe 004-45x55x86",
+    "ItemName":"Angelina-Taupe 004",
     "UnitPrice":"410"
   },
   {
     "ID":"87835",
     "Item":"PRD-054487",
-    "ItemName":"Angelina-Torres-Taupe 004-45x55x86-with wheels",
+    "ItemName":"Angelina W-Taupe 004",
     "UnitPrice":"470"
   },
   {
     "ID":"87833",
     "Item":"PRD-054486",
-    "ItemName":"Angelina-Torres-Taupe 004-arm51x55x86",
+    "ItemName":"Angelina A-Taupe 004",
     "UnitPrice":"505"
   },
   {
     "ID":"87831",
     "Item":"PRD-054485",
-    "ItemName":"Angelina-Torres-Taupe 004-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Taupe 004",
     "UnitPrice":"570"
   },
   {
     "ID":"87839",
     "Item":"PRD-054489",
-    "ItemName":"Angelina-Torres-Taupe 004-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Taupe 004",
     "UnitPrice":"430"
   },
   {
     "ID":"87841",
     "Item":"PRD-054490",
-    "ItemName":"Angelina-Torres-Taupe 004-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Taupe 004",
     "UnitPrice":"490"
   },
   {
     "ID":"87843",
     "Item":"PRD-054491",
-    "ItemName":"Angelina-Torres-Taupe 004-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Taupe 004",
     "UnitPrice":"515"
   },
   {
     "ID":"87845",
     "Item":"PRD-054492",
-    "ItemName":"Angelina-Torres-Taupe 004-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Taupe 004",
     "UnitPrice":"575"
   },
   {
     "ID":"87849",
     "Item":"PRD-054494",
-    "ItemName":"Angelina-Torres-Taupe 004-low 54x72x72",
+    "ItemName":"Angelina low-AL-Taupe 004",
     "UnitPrice":"555"
   },
   {
     "ID":"87847",
     "Item":"PRD-054493",
-    "ItemName":"Angelina-Torres-Taupe 004-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Taupe 004",
     "UnitPrice":"230"
   },
   {
     "ID":"87917",
     "Item":"PRD-054528",
-    "ItemName":"Angelina-Torres-Walnut 011-45x55x86",
+    "ItemName":"Angelina-Walnut 011",
     "UnitPrice":"410"
   },
   {
     "ID":"87915",
     "Item":"PRD-054527",
-    "ItemName":"Angelina-Torres-Walnut 011-45x55x86-with wheels",
+    "ItemName":"Angelina W-Walnut 011",
     "UnitPrice":"470"
   },
   {
     "ID":"87913",
     "Item":"PRD-054526",
-    "ItemName":"Angelina-Torres-Walnut 011-arm51x55x86",
+    "ItemName":"Angelina A-Walnut 011",
     "UnitPrice":"505"
   },
   {
     "ID":"87911",
     "Item":"PRD-054525",
-    "ItemName":"Angelina-Torres-Walnut 011-arm51x55x86-with wheels",
+    "ItemName":"Angelina AW-Walnut 011",
     "UnitPrice":"570"
   },
   {
     "ID":"87919",
     "Item":"PRD-054529",
-    "ItemName":"Angelina-Torres-Walnut 011-barstool-45x54x62/92-Laag",
+    "ItemName":"Angelina Bar-Walnut 011",
     "UnitPrice":"430"
   },
   {
     "ID":"87921",
     "Item":"PRD-054530",
-    "ItemName":"Angelina-Torres-Walnut 011-barstool-45x54x62/92-Laag + wielen",
+    "ItemName":"Angelina Bar-W-Walnut 011",
     "UnitPrice":"490"
   },
   {
     "ID":"87923",
     "Item":"PRD-054531",
-    "ItemName":"Angelina-Torres-Walnut 011-barstool-50x54x62/92-Laag + arm",
+    "ItemName":"Angelina Bar-A-Walnut 011",
     "UnitPrice":"515"
   },
   {
     "ID":"87925",
     "Item":"PRD-054532",
-    "ItemName":"Angelina-Torres-Walnut 011-barstool-50x54x62/92-Laag + arm + wielen",
+    "ItemName":"Angelina Bar-AW-Walnut 011",
     "UnitPrice":"575"
   },
   {
     "ID":"87929",
     "Item":"PRD-054534",
-    "ItemName":"Angelina-Torres-Walnut 011-low 54x72x72",
+    "ItemName":"Angelina low-AL-Walnut 011",
     "UnitPrice":"555"
   },
   {
     "ID":"87927",
     "Item":"PRD-054533",
-    "ItemName":"Angelina-Torres-Walnut 011-Pouf-50x47x40",
+    "ItemName":"Angelina Pouf-Walnut 011",
     "UnitPrice":"230"
   },
   {
     "ID":"91054",
     "Item":"PRD-057059",
-    "ItemName":"Ensor-metal-antracite-skai-51X55X87-antracite",
+    "ItemName":"Ensor-S-metal-antracite-skai-antracite",
     "UnitPrice":"340"
   },
   {
     "ID":"91060",
     "Item":"PRD-057053",
-    "ItemName":"Ensor-metal-black-skai-51X55X87-black",
+    "ItemName":"Ensor-S-metal-black-skai-black",
     "UnitPrice":"340"
   },
   {
     "ID":"91057",
     "Item":"PRD-057062",
-    "ItemName":"Ensor-metal-d.brown-skai-51X55X87-dark brown",
+    "ItemName":"Ensor-S-metal-d.brown-skai-dark brown",
     "UnitPrice":"340"
   },
   {
     "ID":"91061",
     "Item":"PRD-057047",
-    "ItemName":"Ensor-metal-grey-skai-51X55X87-light grey",
+    "ItemName":"Ensor-S-metal-grey-skai-light grey",
     "UnitPrice":"340"
   },
   {
     "ID":"91058",
     "Item":"PRD-057056",
-    "ItemName":"Ensor-metal-Taupe-skai-51X55X87-Taupe",
+    "ItemName":"Ensor-S-metal-Taupe-skai-Taupe",
     "UnitPrice":"340"
   },
   {
     "ID":"91056",
     "Item":"PRD-057050",
-    "ItemName":"Ensor-metal-white-skai-51X55X87-White",
+    "ItemName":"Ensor-S-metal-white-skai-White",
     "UnitPrice":"340"
   },
   {
     "ID":"40509",
     "Item":"PRD-026073",
-    "ItemName":"ensor-s-antracite",
+    "ItemName":"Ensor-S-antracite",
     "UnitPrice":"340"
   },
   {
     "ID":"40503",
     "Item":"PRD-026070",
-    "ItemName":"ensor-s-black",
+    "ItemName":"Ensor-S-black",
     "UnitPrice":"340"
   },
   {
     "ID":"81079",
     "Item":"PRD-050683",
-    "ItemName":"ensor-s-dark brown",
+    "ItemName":"Ensor-S-dark brown",
     "UnitPrice":"340"
   },
   {
     "ID":"40507",
     "Item":"PRD-026072",
-    "ItemName":"ensor-s-light grey",
+    "ItemName":"Ensor-S-light grey",
     "UnitPrice":"340"
   },
   {
     "ID":"40511",
     "Item":"PRD-026074",
-    "ItemName":"ensor-s-other color",
+    "ItemName":"Ensor-S-other color",
     "UnitPrice":"340"
   },
   {
     "ID":"40511",
     "Item":"PRD-026074",
-    "ItemName":"ensor-s-white 01",
+    "ItemName":"Ensor-S-white 01",
     "UnitPrice":"340"
   },
  {
  "ID":"40511",
  "Item":"PRD-026074",
- "ItemName":"ensor-s-L. grey 617",
+ "ItemName":"Ensor-S-L. grey 617",
  "UnitPrice":"340"
  },
  {
  "ID":"40511",
  "Item":"PRD-026074",
- "ItemName":"ensor-s-Antracite 605",
+ "ItemName":"Ensor-S-Antracite 605",
  "UnitPrice":"340"
  },
  {
  "ID":"40511",
  "Item":"PRD-026074",
- "ItemName":"ensor-s-black 901",
+ "ItemName":"Ensor-S-black 901",
  "UnitPrice":"340"
  },
  {
  "ID":"40511",
  "Item":"PRD-026074",
- "ItemName":"ensor-s-brown",
+ "ItemName":"Ensor-S-brown",
  "UnitPrice":"340"
  },
   {
     "ID":"40505",
     "Item":"PRD-026071",
-    "ItemName":"ensor-s-Taupe",
+    "ItemName":"Ensor-S-Taupe",
     "UnitPrice":"340"
   },
   {
     "ID":"40501",
     "Item":"PRD-026069",
-    "ItemName":"ensor-s-White",
+    "ItemName":"Ensor-S-White",
     "UnitPrice":"340"
   },
   {
     "ID":"83035",
     "Item":"PRD-051886",
-    "ItemName":"Gaugin-antracite 25-armwith wheels",
+    "ItemName":"Gaugin-AW-antracite 25",
     "UnitPrice":"670"
   },
   {
     "ID":"83030",
     "Item":"PRD-051887",
-    "ItemName":"Gaugin-antracite 25-armZonder wielen",
+    "ItemName":"Gaugin-A-antracite 25",
     "UnitPrice":"605"
   },
   {
     "ID":"83034",
     "Item":"PRD-051888",
-    "ItemName":"Gaugin-antracite 25-with wheels",
+    "ItemName":"Gaugin-W-antracite 25",
     "UnitPrice":"544"
   },
   {
     "ID":"83094",
     "Item":"PRD-051889",
-    "ItemName":"Gaugin-antracite 25-Zonder wielen",
+    "ItemName":"Gaugin-S-antracite 25",
     "UnitPrice":"484"
   },
   {
     "ID":"83025",
     "Item":"PRD-051894",
-    "ItemName":"Gaugin-Aubergine 77-armwith wheels",
+    "ItemName":"Gaugin-AW-Aubergine 77",
     "UnitPrice":"670"
   },
   {
     "ID":"83036",
     "Item":"PRD-051895",
-    "ItemName":"Gaugin-Aubergine 77-armZonder wielen",
+    "ItemName":"Gaugin-A-Aubergine 77",
     "UnitPrice":"605"
   },
   {
     "ID":"83096",
     "Item":"PRD-051896",
-    "ItemName":"Gaugin-Aubergine 77-with wheels",
+    "ItemName":"Gaugin-W-Aubergine 77",
     "UnitPrice":"544"
   },
   {
     "ID":"83081",
     "Item":"PRD-051897",
-    "ItemName":"Gaugin-Aubergine 77-Zonder wielen",
+    "ItemName":"Gaugin-S-Aubergine 77",
     "UnitPrice":"484"
   },
   {
     "ID":"83053",
     "Item":"PRD-051922",
-    "ItemName":"Gaugin-Beige 110-armwith wheels",
+    "ItemName":"Gaugin-AW-Beige 110",
     "UnitPrice":"670"
   },
   {
     "ID":"83074",
     "Item":"PRD-051923",
-    "ItemName":"Gaugin-Beige 110-armZonder wielen",
+    "ItemName":"Gaugin-A-Beige 110",
     "UnitPrice":"605"
   },
   {
     "ID":"83083",
     "Item":"PRD-051924",
-    "ItemName":"Gaugin-Beige 110-with wheels",
+    "ItemName":"Gaugin-W-Beige 110",
     "UnitPrice":"544"
   },
   {
     "ID":"83068",
     "Item":"PRD-051925",
-    "ItemName":"Gaugin-Beige 110-Zonder wielen",
+    "ItemName":"Gaugin-S-Beige 110",
     "UnitPrice":"484"
   },
   {
     "ID":"83108",
     "Item":"PRD-051882",
-    "ItemName":"Gaugin-black 08-armwith wheels",
+    "ItemName":"Gaugin-AW-black 08",
     "UnitPrice":"670"
   },
   {
     "ID":"83060",
     "Item":"PRD-051883",
-    "ItemName":"Gaugin-black 08-armZonder wielen",
+    "ItemName":"Gaugin-A-black 08",
     "UnitPrice":"605"
   },
   {
     "ID":"83011",
     "Item":"PRD-051884",
-    "ItemName":"Gaugin-black 08-with wheels",
+    "ItemName":"Gaugin-W-black 08",
     "UnitPrice":"544"
   },
   {
     "ID":"83014",
     "Item":"PRD-051885",
-    "ItemName":"Gaugin-black 08-Zonder wielen",
+    "ItemName":"Gaugin-S-black 08",
     "UnitPrice":"484"
   },
   {
     "ID":"83092",
     "Item":"PRD-051910",
-    "ItemName":"Gaugin-Choco 57-armwith wheels",
+    "ItemName":"Gaugin-AW-Choco 57",
     "UnitPrice":"670"
   },
   {
     "ID":"83104",
     "Item":"PRD-051911",
-    "ItemName":"Gaugin-Choco 57-armZonder wielen",
+    "ItemName":"Gaugin-A-Choco 57",
     "UnitPrice":"605"
   },
   {
     "ID":"83114",
     "Item":"PRD-051912",
-    "ItemName":"Gaugin-Choco 57-with wheels",
+    "ItemName":"Gaugin-W-Choco 57",
     "UnitPrice":"544"
   },
   {
     "ID":"83055",
     "Item":"PRD-051913",
-    "ItemName":"Gaugin-Choco 57-Zonder wielen",
+    "ItemName":"Gaugin-S-Choco 57",
     "UnitPrice":"484"
   },
   {
     "ID":"83064",
     "Item":"PRD-051890",
-    "ItemName":"Gaugin-grey 21-armwith wheels",
+    "ItemName":"Gaugin-AW-grey 21",
     "UnitPrice":"670"
   },
   {
     "ID":"83051",
     "Item":"PRD-051891",
-    "ItemName":"Gaugin-grey 21-armZonder wielen",
+    "ItemName":"Gaugin-A-grey 21",
     "UnitPrice":"605"
   },
   {
     "ID":"83072",
     "Item":"PRD-051892",
-    "ItemName":"Gaugin-grey 21-with wheels",
+    "ItemName":"Gaugin-W-grey 21",
     "UnitPrice":"544"
   },
   {
     "ID":"83107",
     "Item":"PRD-051893",
-    "ItemName":"Gaugin-grey 21-Zonder wielen",
+    "ItemName":"Gaugin-S-grey 21",
     "UnitPrice":"484"
   },
   {
     "ID":"83113",
     "Item":"PRD-051902",
-    "ItemName":"Gaugin-Lipstick 80-armwith wheels",
+    "ItemName":"Gaugin-AW-Lipstick 80",
     "UnitPrice":"670"
   },
   {
     "ID":"83058",
     "Item":"PRD-051903",
-    "ItemName":"Gaugin-Lipstick 80-armZonder wielen",
+    "ItemName":"Gaugin-A-Lipstick 80",
     "UnitPrice":"605"
   },
   {
     "ID":"83032",
     "Item":"PRD-051904",
-    "ItemName":"Gaugin-Lipstick 80-with wheels",
+    "ItemName":"Gaugin-W-Lipstick 80",
     "UnitPrice":"544"
   },
   {
     "ID":"83048",
     "Item":"PRD-051905",
-    "ItemName":"Gaugin-Lipstick 80-Zonder wielen",
+    "ItemName":"Gaugin-S-Lipstick 80",
     "UnitPrice":"484"
   },
   {
     "ID":"83065",
     "Item":"PRD-051918",
-    "ItemName":"Gaugin-Mocca 29-armwith wheels",
+    "ItemName":"Gaugin-AW-Mocca 29",
     "UnitPrice":"670"
   },
   {
     "ID":"83119",
     "Item":"PRD-051919",
-    "ItemName":"Gaugin-Mocca 29-armZonder wielen",
+    "ItemName":"Gaugin-A-Mocca 29",
     "UnitPrice":"605"
   },
   {
     "ID":"83116",
     "Item":"PRD-051920",
-    "ItemName":"Gaugin-Mocca 29-with wheels",
+    "ItemName":"Gaugin-W-Mocca 29",
     "UnitPrice":"544"
   },
   {
     "ID":"83109",
     "Item":"PRD-051921",
-    "ItemName":"Gaugin-Mocca 29-Zonder wielen",
+    "ItemName":"Gaugin-S-Mocca 29",
     "UnitPrice":"484"
   },
   {
     "ID":"83022",
     "Item":"PRD-051906",
-    "ItemName":"Gaugin-Nutella 58-armwith wheels",
+    "ItemName":"Gaugin-AW-Nutella 58",
     "UnitPrice":"670"
   },
   {
     "ID":"83086",
     "Item":"PRD-051907",
-    "ItemName":"Gaugin-Nutella 58-armZonder wielen",
+    "ItemName":"Gaugin-A-Nutella 58",
     "UnitPrice":"605"
   },
   {
     "ID":"83091",
     "Item":"PRD-051908",
-    "ItemName":"Gaugin-Nutella 58-with wheels",
+    "ItemName":"Gaugin-W-Nutella 58",
     "UnitPrice":"544"
   },
   {
     "ID":"83075",
     "Item":"PRD-051909",
-    "ItemName":"Gaugin-Nutella 58-Zonder wielen",
+    "ItemName":"Gaugin-S-Nutella 58",
     "UnitPrice":"484"
   },
   {
     "ID":"83110",
     "Item":"PRD-051930",
-    "ItemName":"Gaugin-Smoke 17-armwith wheels",
+    "ItemName":"Gaugin-AW-Smoke 17",
     "UnitPrice":"670"
   },
   {
     "ID":"83112",
     "Item":"PRD-051931",
-    "ItemName":"Gaugin-Smoke 17-armZonder wielen",
+    "ItemName":"Gaugin-A-Smoke 17",
     "UnitPrice":"605"
   },
   {
     "ID":"83106",
     "Item":"PRD-051932",
-    "ItemName":"Gaugin-Smoke 17-with wheels",
+    "ItemName":"Gaugin-W-Smoke 17",
     "UnitPrice":"544"
   },
   {
     "ID":"83061",
     "Item":"PRD-051933",
-    "ItemName":"Gaugin-Smoke 17-Zonder wielen",
+    "ItemName":"Gaugin-S-Smoke 17",
     "UnitPrice":"484"
   },
   {
     "ID":"83080",
     "Item":"PRD-051934",
-    "ItemName":"Gaugin-Stone 120-armwith wheels",
+    "ItemName":"Gaugin-AW-Stone 120",
     "UnitPrice":"670"
   },
   {
     "ID":"83087",
     "Item":"PRD-051935",
-    "ItemName":"Gaugin-Stone 120-armZonder wielen",
+    "ItemName":"Gaugin-A-Stone 120",
     "UnitPrice":"605"
   },
   {
     "ID":"83033",
     "Item":"PRD-051936",
-    "ItemName":"Gaugin-Stone 120-with wheels",
+    "ItemName":"Gaugin-W-Stone 120",
     "UnitPrice":"544"
   },
   {
     "ID":"83078",
     "Item":"PRD-051937",
-    "ItemName":"Gaugin-Stone 120-Zonder wielen",
+    "ItemName":"Gaugin-S-Stone 120",
     "UnitPrice":"484"
   },
   {
     "ID":"83031",
     "Item":"PRD-051914",
-    "ItemName":"Gaugin-Taupe 27-armwith wheels",
+    "ItemName":"Gaugin-AW-Taupe 27",
     "UnitPrice":"670"
   },
   {
     "ID":"83023",
     "Item":"PRD-051915",
-    "ItemName":"Gaugin-Taupe 27-armZonder wielen",
+    "ItemName":"Gaugin-A-Taupe 27",
     "UnitPrice":"605"
   },
   {
     "ID":"83084",
     "Item":"PRD-051916",
-    "ItemName":"Gaugin-Taupe 27-with wheels",
+    "ItemName":"Gaugin-W-Taupe 27",
     "UnitPrice":"544"
   },
   {
     "ID":"83029",
     "Item":"PRD-051917",
-    "ItemName":"Gaugin-Taupe 27-Zonder wielen",
+    "ItemName":"Gaugin-S-Taupe 27",
     "UnitPrice":"484"
   },
   {
     "ID":"83088",
     "Item":"PRD-051926",
-    "ItemName":"Gaugin-white 10-armwith wheels",
+    "ItemName":"Gaugin-AW-white 10",
     "UnitPrice":"670"
   },
   {
     "ID":"83093",
     "Item":"PRD-051927",
-    "ItemName":"Gaugin-white 10-armZonder wielen",
+    "ItemName":"Gaugin-A-white 10",
     "UnitPrice":"605"
   },
   {
     "ID":"83026",
     "Item":"PRD-051928",
-    "ItemName":"Gaugin-white 10-with wheels",
+    "ItemName":"Gaugin-W-white 10",
     "UnitPrice":"544"
   },
   {
     "ID":"83097",
     "Item":"PRD-051929",
-    "ItemName":"Gaugin-white 10-Zonder wielen",
+    "ItemName":"Gaugin-S-white 10",
     "UnitPrice":"484"
   },
   {
     "ID":"83015",
     "Item":"PRD-051898",
-    "ItemName":"Gaugin-wine red 18-armwith wheels",
+    "ItemName":"Gaugin-AW-wine red 18",
     "UnitPrice":"670"
   },
   {
     "ID":"83105",
     "Item":"PRD-051899",
-    "ItemName":"Gaugin-wine red 18-armZonder wielen",
+    "ItemName":"Gaugin-A-wine red 18",
     "UnitPrice":"605"
   },
   {
     "ID":"83054",
     "Item":"PRD-051900",
-    "ItemName":"Gaugin-wine red 18-with wheels",
+    "ItemName":"Gaugin-W-wine red 18",
     "UnitPrice":"544"
   },
   {
     "ID":"83063",
     "Item":"PRD-051901",
-    "ItemName":"Gaugin-wine red 18-Zonder wielen",
+    "ItemName":"Gaugin-S-wine red 18",
     "UnitPrice":"484"
   },
   {
     "ID":"87591",
     "Item":"PRD-054421",
-    "ItemName":"Gaugin-Torres-Black 006-armwith wheels",
+    "ItemName":"Gaugin-AW-Black 006",
     "UnitPrice":"555"
   },
   {
     "ID":"87593",
     "Item":"PRD-054422",
-    "ItemName":"Gaugin-Torres-Black 006-armZonder wielen",
+    "ItemName":"Gaugin-A-Black 006",
     "UnitPrice":"500"
   },
   {
     "ID":"87595",
     "Item":"PRD-054423",
-    "ItemName":"Gaugin-Torres-Black 006-with wheels",
+    "ItemName":"Gaugin-W-Black 006",
     "UnitPrice":"455"
   },
   {
     "ID":"87597",
     "Item":"PRD-054424",
-    "ItemName":"Gaugin-Torres-Black 006-Zonder wielen",
+    "ItemName":"Gaugin-S-Black 006",
     "UnitPrice":"400"
   },
   {
     "ID":"87575",
     "Item":"PRD-054413",
-    "ItemName":"Gaugin-Torres-Chocolate 010-armwith wheels",
+    "ItemName":"Gaugin-AW-Chocolate 010",
     "UnitPrice":"555"
   },
   {
     "ID":"87577",
     "Item":"PRD-054414",
-    "ItemName":"Gaugin-Torres-Chocolate 010-armZonder wielen",
+    "ItemName":"Gaugin-A-Chocolate 010",
     "UnitPrice":"500"
   },
   {
     "ID":"87579",
     "Item":"PRD-054415",
-    "ItemName":"Gaugin-Torres-Chocolate 010-with wheels",
+    "ItemName":"Gaugin-W-Chocolate 010",
     "UnitPrice":"455"
   },
   {
     "ID":"87581",
     "Item":"PRD-054416",
-    "ItemName":"Gaugin-Torres-Chocolate 010-Zonder wielen",
+    "ItemName":"Gaugin-S-Chocolate 010",
     "UnitPrice":"400"
   },
   {
     "ID":"87543",
     "Item":"PRD-054397",
-    "ItemName":"Gaugin-Torres-Greige 001-armwith wheels",
+    "ItemName":"Gaugin-AW-Greige 001",
     "UnitPrice":"555"
   },
   {
     "ID":"87545",
     "Item":"PRD-054398",
-    "ItemName":"Gaugin-Torres-Greige 001-armZonder wielen",
+    "ItemName":"Gaugin-A-Greige 001",
     "UnitPrice":"500"
   },
   {
     "ID":"87547",
     "Item":"PRD-054399",
-    "ItemName":"Gaugin-Torres-Greige 001-with wheels",
+    "ItemName":"Gaugin-W-Greige 001",
     "UnitPrice":"455"
   },
   {
     "ID":"87549",
     "Item":"PRD-054400",
-    "ItemName":"Gaugin-Torres-Greige 001-Zonder wielen",
+    "ItemName":"Gaugin-S-Greige 001",
     "UnitPrice":"400"
   },
   {
     "ID":"87567",
     "Item":"PRD-054409",
-    "ItemName":"Gaugin-Torres-Ice 002-armwith wheels",
+    "ItemName":"Gaugin-AW-Ice 002",
     "UnitPrice":"555"
   },
   {
     "ID":"87569",
     "Item":"PRD-054410",
-    "ItemName":"Gaugin-Torres-Ice 002-armZonder wielen",
+    "ItemName":"Gaugin-A-Ice 002",
     "UnitPrice":"500"
   },
   {
     "ID":"87571",
     "Item":"PRD-054411",
-    "ItemName":"Gaugin-Torres-Ice 002-with wheels",
+    "ItemName":"Gaugin-W-Ice 002",
     "UnitPrice":"455"
   },
   {
     "ID":"87573",
     "Item":"PRD-054412",
-    "ItemName":"Gaugin-Torres-Ice 002-Zonder wielen",
+    "ItemName":"Gaugin-S-Ice 002",
     "UnitPrice":"400"
   },
   {
     "ID":"87535",
     "Item":"PRD-054393",
-    "ItemName":"Gaugin-Torres-Mushroom 003-armwith wheels",
+    "ItemName":"Gaugin-AW-Mushroom 003",
     "UnitPrice":"555"
   },
   {
     "ID":"87537",
     "Item":"PRD-054394",
-    "ItemName":"Gaugin-Torres-Mushroom 003-armZonder wielen",
+    "ItemName":"Gaugin-A-Mushroom 003",
     "UnitPrice":"500"
   },
   {
     "ID":"87539",
     "Item":"PRD-054395",
-    "ItemName":"Gaugin-Torres-Mushroom 003-with wheels",
+    "ItemName":"Gaugin-W-Mushroom 003",
     "UnitPrice":"455"
   },
   {
     "ID":"87541",
     "Item":"PRD-054396",
-    "ItemName":"Gaugin-Torres-Mushroom 003-Zonder wielen",
+    "ItemName":"Gaugin-S-Mushroom 003",
     "UnitPrice":"400"
   },
   {
     "ID":"87559",
     "Item":"PRD-054405",
-    "ItemName":"Gaugin-Torres-Tan 009-armwith wheels",
+    "ItemName":"Gaugin-AW-Tan 009",
     "UnitPrice":"555"
   },
   {
     "ID":"87561",
     "Item":"PRD-054406",
-    "ItemName":"Gaugin-Torres-Tan 009-armZonder wielen",
+    "ItemName":"Gaugin-A-Tan 009",
     "UnitPrice":"500"
   },
   {
     "ID":"87563",
     "Item":"PRD-054407",
-    "ItemName":"Gaugin-Torres-Tan 009-with wheels",
+    "ItemName":"Gaugin-W-Tan 009",
     "UnitPrice":"455"
   },
   {
     "ID":"87565",
     "Item":"PRD-054408",
-    "ItemName":"Gaugin-Torres-Tan 009-Zonder wielen",
+    "ItemName":"Gaugin-S-Tan 009",
     "UnitPrice":"400"
   },
   {
     "ID":"87551",
     "Item":"PRD-054401",
-    "ItemName":"Gaugin-Torres-Taupe 004-armwith wheels",
+    "ItemName":"Gaugin-AW-Taupe 004",
     "UnitPrice":"555"
   },
   {
     "ID":"87553",
     "Item":"PRD-054402",
-    "ItemName":"Gaugin-Torres-Taupe 004-armZonder wielen",
+    "ItemName":"Gaugin-A-Taupe 004",
     "UnitPrice":"500"
   },
   {
     "ID":"87555",
     "Item":"PRD-054403",
-    "ItemName":"Gaugin-Torres-Taupe 004-with wheels",
+    "ItemName":"Gaugin-W-Taupe 004",
     "UnitPrice":"455"
   },
   {
     "ID":"87557",
     "Item":"PRD-054404",
-    "ItemName":"Gaugin-Torres-Taupe 004-Zonder wielen",
+    "ItemName":"Gaugin-S-Taupe 004",
     "UnitPrice":"400"
   },
   {
     "ID":"87583",
     "Item":"PRD-054417",
-    "ItemName":"Gaugin-Torres-Walnut 011-armwith wheels",
+    "ItemName":"Gaugin-AW-Walnut 011",
     "UnitPrice":"555"
   },
   {
     "ID":"87585",
     "Item":"PRD-054418",
-    "ItemName":"Gaugin-Torres-Walnut 011-armZonder wielen",
+    "ItemName":"Gaugin-A-Walnut 011",
     "UnitPrice":"500"
   },
   {
     "ID":"87587",
     "Item":"PRD-054419",
-    "ItemName":"Gaugin-Torres-Walnut 011-with wheels",
+    "ItemName":"Gaugin-W-Walnut 011",
     "UnitPrice":"455"
   },
   {
     "ID":"87589",
     "Item":"PRD-054420",
-    "ItemName":"Gaugin-Torres-Walnut 011-Zonder wielen",
+    "ItemName":"Gaugin-S-Walnut 011",
     "UnitPrice":"400"
   },
   {
@@ -2114,49 +2114,49 @@
   {
     "ID":"87773",
     "Item":"PRD-054456",
-    "ItemName":"Largo-U-antracite-Torres-Black 006",
+    "ItemName":"Largo-U-antracite-Black 006",
     "UnitPrice":"590"
   },
   {
     "ID":"87769",
     "Item":"PRD-054454",
-    "ItemName":"Largo-U-antracite-Torres-Chocolate 010",
+    "ItemName":"Largo-U-antracite-Chocolate 010",
     "UnitPrice":"590"
   },
   {
     "ID":"87761",
     "Item":"PRD-054450",
-    "ItemName":"Largo-U-antracite-Torres-Greige 001",
+    "ItemName":"Largo-U-antracite-Greige 001",
     "UnitPrice":"590"
   },
   {
     "ID":"87767",
     "Item":"PRD-054453",
-    "ItemName":"Largo-U-antracite-Torres-Ice 002",
+    "ItemName":"Largo-U-antracite-Ice 002",
     "UnitPrice":"590"
   },
   {
     "ID":"87759",
     "Item":"PRD-054449",
-    "ItemName":"Largo-U-antracite-Torres-Mushroom 003",
+    "ItemName":"Largo-U-antracite-Mushroom 003",
     "UnitPrice":"590"
   },
   {
     "ID":"87765",
     "Item":"PRD-054452",
-    "ItemName":"Largo-U-antracite-Torres-Tan 009",
+    "ItemName":"Largo-U-antracite-Tan 009",
     "UnitPrice":"590"
   },
   {
     "ID":"87763",
     "Item":"PRD-054451",
-    "ItemName":"Largo-U-antracite-Torres-Taupe 004",
+    "ItemName":"Largo-U-antracite-Taupe 004",
     "UnitPrice":"590"
   },
   {
     "ID":"87771",
     "Item":"PRD-054455",
-    "ItemName":"Largo-U-antracite-Torres-Walnut 011",
+    "ItemName":"Largo-U-antracite-Walnut 011",
     "UnitPrice":"590"
   },
   {
@@ -2318,49 +2318,49 @@
   {
     "ID":"87789",
     "Item":"PRD-054464",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Black 006",
+    "ItemName":"Largo-U-SPEC.COL.-Black 006",
     "UnitPrice":"590"
   },
   {
     "ID":"87785",
     "Item":"PRD-054462",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Chocolate 010",
+    "ItemName":"Largo-U-SPEC.COL.-Chocolate 010",
     "UnitPrice":"590"
   },
   {
     "ID":"87777",
     "Item":"PRD-054458",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Greige 001",
+    "ItemName":"Largo-U-SPEC.COL.-Greige 001",
     "UnitPrice":"590"
   },
   {
     "ID":"87783",
     "Item":"PRD-054461",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Ice 002",
+    "ItemName":"Largo-U-SPEC.COL.-Ice 002",
     "UnitPrice":"590"
   },
   {
     "ID":"87775",
     "Item":"PRD-054457",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Mushroom 003",
+    "ItemName":"Largo-U-SPEC.COL.-Mushroom 003",
     "UnitPrice":"590"
   },
   {
     "ID":"87781",
     "Item":"PRD-054460",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Tan 009",
+    "ItemName":"Largo-U-SPEC.COL.-Tan 009",
     "UnitPrice":"590"
   },
   {
     "ID":"87779",
     "Item":"PRD-054459",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Taupe 004",
+    "ItemName":"Largo-U-SPEC.COL.-Taupe 004",
     "UnitPrice":"590"
   },
   {
     "ID":"87787",
     "Item":"PRD-054463",
-    "ItemName":"Largo-U-SPEC.COL.-Torres-Walnut 011",
+    "ItemName":"Largo-U-SPEC.COL.-Walnut 011",
     "UnitPrice":"590"
   },
   {
@@ -2522,49 +2522,49 @@
   {
     "ID":"87757",
     "Item":"PRD-054448",
-    "ItemName":"Largo-U-Taupe-Torres-Black 006",
+    "ItemName":"Largo-U-Taupe-Black 006",
     "UnitPrice":"590"
   },
   {
     "ID":"87753",
     "Item":"PRD-054446",
-    "ItemName":"Largo-U-Taupe-Torres-Chocolate 010",
+    "ItemName":"Largo-U-Taupe-Chocolate 010",
     "UnitPrice":"590"
   },
   {
     "ID":"87745",
     "Item":"PRD-054442",
-    "ItemName":"Largo-U-Taupe-Torres-Greige 001",
+    "ItemName":"Largo-U-Taupe-Greige 001",
     "UnitPrice":"590"
   },
   {
     "ID":"87751",
     "Item":"PRD-054445",
-    "ItemName":"Largo-U-Taupe-Torres-Ice 002",
+    "ItemName":"Largo-U-Taupe-Ice 002",
     "UnitPrice":"590"
   },
   {
     "ID":"87743",
     "Item":"PRD-054441",
-    "ItemName":"Largo-U-Taupe-Torres-Mushroom 003",
+    "ItemName":"Largo-U-Taupe-Mushroom 003",
     "UnitPrice":"590"
   },
   {
     "ID":"87749",
     "Item":"PRD-054444",
-    "ItemName":"Largo-U-Taupe-Torres-Tan 009",
+    "ItemName":"Largo-U-Taupe-Tan 009",
     "UnitPrice":"590"
   },
   {
     "ID":"87747",
     "Item":"PRD-054443",
-    "ItemName":"Largo-U-Taupe-Torres-Taupe 004",
+    "ItemName":"Largo-U-Taupe-Taupe 004",
     "UnitPrice":"590"
   },
   {
     "ID":"87755",
     "Item":"PRD-054447",
-    "ItemName":"Largo-U-Taupe-Torres-Walnut 011",
+    "ItemName":"Largo-U-Taupe-Walnut 011",
     "UnitPrice":"590"
   },
   {
@@ -2726,265 +2726,265 @@
   {
     "ID":"87741",
     "Item":"PRD-054440",
-    "ItemName":"Largo-U-white-Torres-Black 006",
+    "ItemName":"Largo-U-white-Black 006",
     "UnitPrice":"590"
   },
   {
     "ID":"87737",
     "Item":"PRD-054438",
-    "ItemName":"Largo-U-white-Torres-Chocolate 010",
+    "ItemName":"Largo-U-white-Chocolate 010",
     "UnitPrice":"590"
   },
   {
     "ID":"87729",
     "Item":"PRD-054434",
-    "ItemName":"Largo-U-white-Torres-Greige 001",
+    "ItemName":"Largo-U-white-Greige 001",
     "UnitPrice":"590"
   },
   {
     "ID":"87735",
     "Item":"PRD-054437",
-    "ItemName":"Largo-U-white-Torres-Ice 002",
+    "ItemName":"Largo-U-white-Ice 002",
     "UnitPrice":"590"
   },
   {
     "ID":"87727",
     "Item":"PRD-054433",
-    "ItemName":"Largo-U-white-Torres-Mushroom 003",
+    "ItemName":"Largo-U-white-Mushroom 003",
     "UnitPrice":"590"
   },
   {
     "ID":"87733",
     "Item":"PRD-054436",
-    "ItemName":"Largo-U-white-Torres-Tan 009",
+    "ItemName":"Largo-U-white-Tan 009",
     "UnitPrice":"590"
   },
   {
     "ID":"87731",
     "Item":"PRD-054435",
-    "ItemName":"Largo-U-white-Torres-Taupe 004",
+    "ItemName":"Largo-U-white-Taupe 004",
     "UnitPrice":"590"
   },
   {
     "ID":"87739",
     "Item":"PRD-054439",
-    "ItemName":"Largo-U-white-Torres-Walnut 011",
+    "ItemName":"Largo-U-white-Walnut 011",
     "UnitPrice":"590"
   },
   {
     "ID":"87009",
     "Item":"PRD-054197",
-    "ItemName":"Magritte-Aluminium-antracite",
+    "ItemName":"Margueritte-S-antracite",
     "UnitPrice":"330"
   },
   {
     "ID":"87007",
     "Item":"PRD-054196",
-    "ItemName":"Magritte-Aluminium-antracite-armchair",
+    "ItemName":"Margueritte-A-antracite",
     "UnitPrice":"430"
   },
   {
     "ID":"87001",
     "Item":"PRD-054193",
-    "ItemName":"Magritte-Aluminium-black",
+    "ItemName":"Margueritte-S-black",
     "UnitPrice":"330"
   },
   {
     "ID":"86999",
     "Item":"PRD-054192",
-    "ItemName":"Magritte-Aluminium-black-armchair",
+    "ItemName":"Margueritte-A-black",
     "UnitPrice":"430"
   },
   {
     "ID":"87013",
     "Item":"PRD-054199",
-    "ItemName":"Magritte-Aluminium-d.brown",
+    "ItemName":"Margueritte-S-d.brown",
     "UnitPrice":"330"
   },
   {
     "ID":"87011",
     "Item":"PRD-054198",
-    "ItemName":"Magritte-Aluminium-d.brown-armchair",
+    "ItemName":"Margueritte-A-d.brown",
     "UnitPrice":"430"
   },
   {
     "ID":"91047",
     "Item":"PRD-056967",
-    "ItemName":"Magritte-Aluminium-red",
+    "ItemName":"Margueritte-S-red",
     "UnitPrice":"330"
   },
   {
     "ID":"91049",
     "Item":"PRD-056966",
-    "ItemName":"Magritte-Aluminium-red-armchair",
+    "ItemName":"Margueritte-A-red",
     "UnitPrice":"430"
   },
   {
     "ID":"88177",
     "Item":"PRD-054666",
-    "ItemName":"Magritte-Aluminium-SPEC.COL.",
+    "ItemName":"Margueritte-S-SPEC.COL.",
     "UnitPrice":"330"
   },
   {
     "ID":"88175",
     "Item":"PRD-054665",
-    "ItemName":"Magritte-Aluminium-SPEC.COL.-armchair",
+    "ItemName":"Margueritte-A-SPEC.COL.",
     "UnitPrice":"430"
   },
   {
     "ID":"87005",
     "Item":"PRD-054195",
-    "ItemName":"Magritte-Aluminium-Taupe",
+    "ItemName":"Margueritte-S-Taupe",
     "UnitPrice":"330"
   },
   {
     "ID":"87003",
     "Item":"PRD-054194",
-    "ItemName":"Magritte-Aluminium-Taupe-armchair",
+    "ItemName":"Margueritte-A-Taupe",
     "UnitPrice":"430"
   },
   {
     "ID":"86997",
     "Item":"PRD-054191",
-    "ItemName":"Magritte-Aluminium-white",
+    "ItemName":"Margueritte-S-white",
     "UnitPrice":"330"
   },
   {
     "ID":"86995",
     "Item":"PRD-054190",
-    "ItemName":"Magritte-Aluminium-white-armchair",
+    "ItemName":"Margueritte-A-white",
     "UnitPrice":"430"
   },
   {
     "ID":"11645",
     "Item":"PRD-026085",
-    "ItemName":"Michelangelo-skai-antracite-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-antracite",
     "UnitPrice":"361"
   },
   {
     "ID":"11671",
     "Item":"PRD-026086",
-    "ItemName":"Michelangelo-skai-antracite-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-antracite-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"11631",
     "Item":"PRD-026079",
-    "ItemName":"Michelangelo-skai-black-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-black",
     "UnitPrice":"361"
   },
   {
     "ID":"11663",
     "Item":"PRD-026080",
-    "ItemName":"Michelangelo-skai-black-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-black-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"11628",
     "Item":"PRD-026083",
-    "ItemName":"Michelangelo-skai-light grey-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-light grey",
     "UnitPrice":"361"
   },
   {
     "ID":"11665",
     "Item":"PRD-026084",
-    "ItemName":"Michelangelo-skai-light grey-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-light grey-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"11656",
     "Item":"PRD-026087",
-    "ItemName":"Michelangelo-skai-other color-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-other color",
     "UnitPrice":"361"
   },
   {
     "ID":"11642",
     "Item":"PRD-026088",
-    "ItemName":"Michelangelo-skai-other color-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-other color-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"11669",
     "Item":"PRD-026081",
-    "ItemName":"Michelangelo-skai-Taupe-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-Taupe",
     "UnitPrice":"361"
   },
   {
     "ID":"11629",
     "Item":"PRD-026082",
-    "ItemName":"Michelangelo-skai-Taupe-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-Taupe-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"11648",
     "Item":"PRD-026077",
-    "ItemName":"Michelangelo-skai-White-barstool-44X50X75/106",
+    "ItemName":"Michelangelo Bar-skai-White",
     "UnitPrice":"361"
   },
   {
     "ID":"11639",
     "Item":"PRD-026078",
-    "ItemName":"Michelangelo-skai-White-Kitchen-44X55X62/93",
+    "ItemName":"Michelangelo-skai-White-Kitchen",
     "UnitPrice":"351"
   },
   {
     "ID":"40761",
     "Item":"PRD-025920",
-    "ItemName":"Monet-imi. leather-antracite-arm53X52X87",
+    "ItemName":"Monet A-imi. leather-antracite",
     "UnitPrice":"603"
   },
   {
     "ID":"41303",
     "Item":"PRD-035062",
-    "ItemName":"Monet-imi. leather-antracite-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-imi. leather-antracite",
     "UnitPrice":"529"
   },
   {
     "ID":"40737",
     "Item":"PRD-025912",
-    "ItemName":"Monet-imi. leather-black-arm53X52X87",
+    "ItemName":"Monet A-imi. leather-black",
     "UnitPrice":"603"
   },
   {
     "ID":"41295",
     "Item":"PRD-035058",
-    "ItemName":"Monet-imi. leather-black-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-imi. leather-black",
     "UnitPrice":"529"
   },
   {
     "ID":"40755",
     "Item":"PRD-025918",
-    "ItemName":"Monet-imi. leather-light grey-arm53X52X87",
+    "ItemName":"Monet A-imi. leather-light grey",
     "UnitPrice":"603"
   },
   {
     "ID":"41301",
     "Item":"PRD-035061",
-    "ItemName":"Monet-imi. leather-light grey-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-imi. leather-light grey",
     "UnitPrice":"529"
   },
   {
     "ID":"40749",
     "Item":"PRD-025916",
-    "ItemName":"Monet-imi. leather-Taupe-arm53X52X87",
+    "ItemName":"Monet A-imi. leather-Taupe",
     "UnitPrice":"603"
   },
   {
     "ID":"41299",
     "Item":"PRD-035060",
-    "ItemName":"Monet-imi. leather-Taupe-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-imi. leather-Taupe",
     "UnitPrice":"529"
   },
   {
     "ID":"40743",
     "Item":"PRD-025914",
-    "ItemName":"Monet-imi. leather-White-arm53X52X87",
+    "ItemName":"Monet A-imi. leather-White",
     "UnitPrice":"603"
   },
   {
     "ID":"41297",
     "Item":"PRD-035059",
-    "ItemName":"Monet-imi. leather-White-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-imi. leather-White",
     "UnitPrice":"529"
   },
   {
@@ -3014,31 +3014,31 @@
   {
     "ID":"41127",
     "Item":"PRD-034974",
-    "ItemName":"Monet-antracite 25-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-antracite 25",
     "UnitPrice":"547"
   },
   {
     "ID":"41129",
     "Item":"PRD-034975",
-    "ItemName":"Monet-antracite 25-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-antracite 25",
     "UnitPrice":"606"
   },
   {
     "ID":"41131",
     "Item":"PRD-034976",
-    "ItemName":"Monet-antracite 25-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-antracite 25",
     "UnitPrice":"558"
   },
   {
     "ID":"41133",
     "Item":"PRD-034977",
-    "ItemName":"Monet-antracite 25-low 60x72x71",
+    "ItemName":"Monet low-ML-antracite 25",
     "UnitPrice":"824"
   },
   {
     "ID":"41447",
     "Item":"PRD-039224",
-    "ItemName":"Monet-antracite 25-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-antracite 25",
     "UnitPrice":"309"
   },
   {
@@ -3068,31 +3068,31 @@
   {
     "ID":"41159",
     "Item":"PRD-034990",
-    "ItemName":"Monet-Aubergine 77-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Aubergine 77",
     "UnitPrice":"547"
   },
   {
     "ID":"41161",
     "Item":"PRD-034991",
-    "ItemName":"Monet-Aubergine 77-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Aubergine 77",
     "UnitPrice":"606"
   },
   {
     "ID":"41163",
     "Item":"PRD-034992",
-    "ItemName":"Monet-Aubergine 77-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Aubergine 77",
     "UnitPrice":"558"
   },
   {
     "ID":"41165",
     "Item":"PRD-034993",
-    "ItemName":"Monet-Aubergine 77-low 60x72x71",
+    "ItemName":"Monet low-ML-Aubergine 77",
     "UnitPrice":"824"
   },
   {
     "ID":"41451",
     "Item":"PRD-039226",
-    "ItemName":"Monet-Aubergine 77-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Aubergine 77",
     "UnitPrice":"309"
   },
   {
@@ -3122,31 +3122,31 @@
   {
     "ID":"41271",
     "Item":"PRD-035046",
-    "ItemName":"Monet-Beige 110-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Beige 110",
     "UnitPrice":"547"
   },
   {
     "ID":"41273",
     "Item":"PRD-035047",
-    "ItemName":"Monet-Beige 110-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Beige 110",
     "UnitPrice":"606"
   },
   {
     "ID":"41275",
     "Item":"PRD-035048",
-    "ItemName":"Monet-Beige 110-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Beige 110",
     "UnitPrice":"558"
   },
   {
     "ID":"41277",
     "Item":"PRD-035049",
-    "ItemName":"Monet-Beige 110-low 60x72x71",
+    "ItemName":"Monet low-ML-Beige 110",
     "UnitPrice":"824"
   },
   {
     "ID":"41465",
     "Item":"PRD-039233",
-    "ItemName":"Monet-Beige 110-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Beige 110",
     "UnitPrice":"309"
   },
   {
@@ -3176,31 +3176,31 @@
   {
     "ID":"41111",
     "Item":"PRD-034966",
-    "ItemName":"Monet-black 08-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-black 08",
     "UnitPrice":"547"
   },
   {
     "ID":"41113",
     "Item":"PRD-034967",
-    "ItemName":"Monet-black 08-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-black 08",
     "UnitPrice":"606"
   },
   {
     "ID":"41115",
     "Item":"PRD-034968",
-    "ItemName":"Monet-black 08-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-black 08",
     "UnitPrice":"558"
   },
   {
     "ID":"41117",
     "Item":"PRD-034969",
-    "ItemName":"Monet-black 08-low 60x72x71",
+    "ItemName":"Monet low-ML-black 08",
     "UnitPrice":"824"
   },
   {
     "ID":"41445",
     "Item":"PRD-039223",
-    "ItemName":"Monet-black 08-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-black 08",
     "UnitPrice":"309"
   },
   {
@@ -3230,31 +3230,31 @@
   {
     "ID":"41223",
     "Item":"PRD-035022",
-    "ItemName":"Monet-Choco 57-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Choco 57",
     "UnitPrice":"547"
   },
   {
     "ID":"41225",
     "Item":"PRD-035023",
-    "ItemName":"Monet-Choco 57-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Choco 57",
     "UnitPrice":"606"
   },
   {
     "ID":"41227",
     "Item":"PRD-035024",
-    "ItemName":"Monet-Choco 57-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Choco 57",
     "UnitPrice":"558"
   },
   {
     "ID":"41229",
     "Item":"PRD-035025",
-    "ItemName":"Monet-Choco 57-low 60x72x71",
+    "ItemName":"Monet low-ML-Choco 57",
     "UnitPrice":"824"
   },
   {
     "ID":"41459",
     "Item":"PRD-039230",
-    "ItemName":"Monet-Choco 57-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Choco 57",
     "UnitPrice":"309"
   },
   {
@@ -3284,31 +3284,31 @@
   {
     "ID":"41143",
     "Item":"PRD-034982",
-    "ItemName":"Monet-grey 21-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-grey 21",
     "UnitPrice":"547"
   },
   {
     "ID":"41145",
     "Item":"PRD-034983",
-    "ItemName":"Monet-grey 21-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-grey 21",
     "UnitPrice":"606"
   },
   {
     "ID":"41147",
     "Item":"PRD-034984",
-    "ItemName":"Monet-grey 21-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-grey 21",
     "UnitPrice":"558"
   },
   {
     "ID":"41149",
     "Item":"PRD-034985",
-    "ItemName":"Monet-grey 21-low 60x72x71",
+    "ItemName":"Monet low-ML-grey 21",
     "UnitPrice":"824"
   },
   {
     "ID":"41449",
     "Item":"PRD-039225",
-    "ItemName":"Monet-grey 21-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-grey 21",
     "UnitPrice":"309"
   },
   {
@@ -3338,85 +3338,85 @@
   {
     "ID":"41191",
     "Item":"PRD-035006",
-    "ItemName":"Monet-Lipstick 80-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Lipstick 80",
     "UnitPrice":"547"
   },
   {
     "ID":"41193",
     "Item":"PRD-035007",
-    "ItemName":"Monet-Lipstick 80-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Lipstick 80",
     "UnitPrice":"606"
   },
   {
     "ID":"41195",
     "Item":"PRD-035008",
-    "ItemName":"Monet-Lipstick 80-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Lipstick 80",
     "UnitPrice":"558"
   },
   {
     "ID":"41197",
     "Item":"PRD-035009",
-    "ItemName":"Monet-Lipstick 80-low 60x72x71",
+    "ItemName":"Monet low-ML-Lipstick 80",
     "UnitPrice":"824"
   },
   {
     "ID":"41455",
     "Item":"PRD-039228",
-    "ItemName":"Monet-Lipstick 80-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Lipstick 80",
     "UnitPrice":"309"
   },
   {
     "ID":"41253",
     "Item":"PRD-035037",
-    "ItemName":"Monet-Mocca 29-49X52X87",
+    "ItemName":"Monet-S-Mocca 29",
     "UnitPrice":"452"
   },
   {
     "ID":"41251",
     "Item":"PRD-035036",
-    "ItemName":"Monet-Mocca 29-49X52X87-with wheels",
+    "ItemName":"Monet W-Mocca 29",
     "UnitPrice":"516"
   },
   {
     "ID":"41249",
     "Item":"PRD-035035",
-    "ItemName":"Monet-Mocca 29-arm53X52X87",
+    "ItemName":"Monet A-Mocca 29",
     "UnitPrice":"622"
   },
   {
     "ID":"41247",
     "Item":"PRD-035034",
-    "ItemName":"Monet-Mocca 29-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Mocca 29",
     "UnitPrice":"670"
   },
   {
     "ID":"41255",
     "Item":"PRD-035038",
-    "ItemName":"Monet-Mocca 29-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Mocca 29",
     "UnitPrice":"547"
   },
   {
     "ID":"41257",
     "Item":"PRD-035039",
-    "ItemName":"Monet-Mocca 29-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Mocca 29",
     "UnitPrice":"606"
   },
   {
     "ID":"41259",
     "Item":"PRD-035040",
-    "ItemName":"Monet-Mocca 29-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Mocca 29",
     "UnitPrice":"558"
   },
   {
     "ID":"41261",
     "Item":"PRD-035041",
-    "ItemName":"Monet-Mocca 29-low 60x72x71",
+    "ItemName":"Monet low-ML-Mocca 29",
     "UnitPrice":"824"
   },
   {
     "ID":"41463",
     "Item":"PRD-039232",
-    "ItemName":"Monet-Mocca 29-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Mocca 29",
     "UnitPrice":"309"
   },
   {
@@ -3446,31 +3446,31 @@
   {
     "ID":"41207",
     "Item":"PRD-035014",
-    "ItemName":"Monet-Nutella 58-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Nutella 58",
     "UnitPrice":"547"
   },
   {
     "ID":"41209",
     "Item":"PRD-035015",
-    "ItemName":"Monet-Nutella 58-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Nutella 58",
     "UnitPrice":"606"
   },
   {
     "ID":"41211",
     "Item":"PRD-035016",
-    "ItemName":"Monet-Nutella 58-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Nutella 58",
     "UnitPrice":"558"
   },
   {
     "ID":"41213",
     "Item":"PRD-035017",
-    "ItemName":"Monet-Nutella 58-low 60x72x71",
+    "ItemName":"Monet low-ML-Nutella 58",
     "UnitPrice":"824"
   },
   {
     "ID":"41457",
     "Item":"PRD-039229",
-    "ItemName":"Monet-Nutella 58-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Nutella 58",
     "UnitPrice":"309"
   },
   {
@@ -3500,85 +3500,85 @@
   {
     "ID":"41409",
     "Item":"PRD-038945",
-    "ItemName":"Monet-Smoke 17-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Smoke 17",
     "UnitPrice":"547"
   },
   {
     "ID":"41411",
     "Item":"PRD-038946",
-    "ItemName":"Monet-Smoke 17-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Smoke 17",
     "UnitPrice":"606"
   },
   {
     "ID":"41413",
     "Item":"PRD-038947",
-    "ItemName":"Monet-Smoke 17-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Smoke 17",
     "UnitPrice":"558"
   },
   {
     "ID":"41415",
     "Item":"PRD-038948",
-    "ItemName":"Monet-Smoke 17-low 60x72x71",
+    "ItemName":"Monet low-ML-Smoke 17",
     "UnitPrice":"824"
   },
   {
     "ID":"41469",
     "Item":"PRD-039235",
-    "ItemName":"Monet-Smoke 17-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Smoke 17",
     "UnitPrice":"309"
   },
   {
     "ID":"41483",
     "Item":"PRD-040396",
-    "ItemName":"Monet-Stone 120-49X52X87",
+    "ItemName":"Monettone 120",
     "UnitPrice":"452"
   },
   {
     "ID":"41481",
     "Item":"PRD-040395",
-    "ItemName":"Monet-Stone 120-49X52X87-with wheels",
+    "ItemName":"Monet W-Stone 120",
     "UnitPrice":"516"
   },
   {
     "ID":"41479",
     "Item":"PRD-040394",
-    "ItemName":"Monet-Stone 120-arm53X52X87",
+    "ItemName":"Monet A-Stone 120",
     "UnitPrice":"622"
   },
   {
     "ID":"41477",
     "Item":"PRD-040393",
-    "ItemName":"Monet-Stone 120-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Stone 120",
     "UnitPrice":"670"
   },
   {
     "ID":"41485",
     "Item":"PRD-040397",
-    "ItemName":"Monet-Stone 120-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Stone 120",
     "UnitPrice":"547"
   },
   {
     "ID":"41487",
     "Item":"PRD-040398",
-    "ItemName":"Monet-Stone 120-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Stone 120",
     "UnitPrice":"606"
   },
   {
     "ID":"41489",
     "Item":"PRD-040399",
-    "ItemName":"Monet-Stone 120-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Stone 120",
     "UnitPrice":"558"
   },
   {
     "ID":"41491",
     "Item":"PRD-040400",
-    "ItemName":"Monet-Stone 120-low 60x72x71",
+    "ItemName":"Monet low-ML-Stone 120",
     "UnitPrice":"824"
   },
   {
     "ID":"41493",
     "Item":"PRD-040401",
-    "ItemName":"Monet-Stone 120-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Stone 120",
     "UnitPrice":"309"
   },
   {
@@ -3608,31 +3608,31 @@
   {
     "ID":"41239",
     "Item":"PRD-035030",
-    "ItemName":"Monet-Taupe 27-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Taupe 27",
     "UnitPrice":"547"
   },
   {
     "ID":"41241",
     "Item":"PRD-035031",
-    "ItemName":"Monet-Taupe 27-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Taupe 27",
     "UnitPrice":"606"
   },
   {
     "ID":"41243",
     "Item":"PRD-035032",
-    "ItemName":"Monet-Taupe 27-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Taupe 27",
     "UnitPrice":"558"
   },
   {
     "ID":"41245",
     "Item":"PRD-035033",
-    "ItemName":"Monet-Taupe 27-low 60x72x71",
+    "ItemName":"Monet low-ML-Taupe 27",
     "UnitPrice":"824"
   },
   {
     "ID":"41461",
     "Item":"PRD-039231",
-    "ItemName":"Monet-Taupe 27-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-Taupe 27",
     "UnitPrice":"309"
   },
   {
@@ -3662,31 +3662,31 @@
   {
     "ID":"41287",
     "Item":"PRD-035054",
-    "ItemName":"Monet-white 10-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-white 10",
     "UnitPrice":"547"
   },
   {
     "ID":"41289",
     "Item":"PRD-035055",
-    "ItemName":"Monet-white 10-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-white 10",
     "UnitPrice":"606"
   },
   {
     "ID":"41291",
     "Item":"PRD-035056",
-    "ItemName":"Monet-white 10-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-white 10",
     "UnitPrice":"558"
   },
   {
     "ID":"41293",
     "Item":"PRD-035057",
-    "ItemName":"Monet-white 10-low 60x72x71",
+    "ItemName":"Monet low-ML-white 10",
     "UnitPrice":"824"
   },
   {
     "ID":"41467",
     "Item":"PRD-039234",
-    "ItemName":"Monet-white 10-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-white 10",
     "UnitPrice":"309"
   },
   {
@@ -3716,2065 +3716,2065 @@
   {
     "ID":"41175",
     "Item":"PRD-034998",
-    "ItemName":"Monet-wine red 18-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-wine red 18",
     "UnitPrice":"547"
   },
   {
     "ID":"41177",
     "Item":"PRD-034999",
-    "ItemName":"Monet-wine red 18-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-wine red 18",
     "UnitPrice":"606"
   },
   {
     "ID":"41179",
     "Item":"PRD-035000",
-    "ItemName":"Monet-wine red 18-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-wine red 18",
     "UnitPrice":"558"
   },
   {
     "ID":"41181",
     "Item":"PRD-035001",
-    "ItemName":"Monet-wine red 18-low 60x72x71",
+    "ItemName":"Monet low-ML-wine red 18",
     "UnitPrice":"824"
   },
   {
     "ID":"41453",
     "Item":"PRD-039227",
-    "ItemName":"Monet-wine red 18-Pouf-50x47x40",
+    "ItemName":"Monet Pouf-wine red 18",
     "UnitPrice":"309"
   },
   {
     "ID":"40729",
     "Item":"PRD-025910",
-    "ItemName":"Monet-sunbrella fabric-3729 taupe-arm53X52X87",
+    "ItemName":"Monet A-sunbrella fabric-3729 taupe",
     "UnitPrice":"603"
   },
   {
     "ID":"40733",
     "Item":"PRD-025911",
-    "ItemName":"Monet-sunbrella fabric-3758 sooty-arm53X52X87",
+    "ItemName":"Monet A-sunbrella fabric-3758 sooty",
     "UnitPrice":"603"
   },
   {
     "ID":"88069",
     "Item":"PRD-054611",
-    "ItemName":"Monet-Torres-Black 006-49X52X87",
+    "ItemName":"Monet-S-Black 006",
     "UnitPrice":"375"
   },
   {
     "ID":"88067",
     "Item":"PRD-054610",
-    "ItemName":"Monet-Torres-Black 006-49X52X87-with wheels",
+    "ItemName":"Monet W-Black 006",
     "UnitPrice":"435"
   },
   {
     "ID":"88065",
     "Item":"PRD-054609",
-    "ItemName":"Monet-Torres-Black 006-arm53X52X87",
+    "ItemName":"Monet A-Black 006",
     "UnitPrice":"510"
   },
   {
     "ID":"88063",
     "Item":"PRD-054608",
-    "ItemName":"Monet-Torres-Black 006-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Black 006",
     "UnitPrice":"555"
   },
   {
     "ID":"88071",
     "Item":"PRD-054612",
-    "ItemName":"Monet-Torres-Black 006-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Black 006",
     "UnitPrice":"430"
   },
   {
     "ID":"88073",
     "Item":"PRD-054613",
-    "ItemName":"Monet-Torres-Black 006-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Black 006",
     "UnitPrice":"490"
   },
   {
     "ID":"88075",
     "Item":"PRD-054614",
-    "ItemName":"Monet-Torres-Black 006-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Black 006",
     "UnitPrice":"475"
   },
   {
     "ID":"88077",
     "Item":"PRD-054615",
-    "ItemName":"Monet-Torres-Black 006-low 60x72x71",
+    "ItemName":"Monet low-ML-Black 006",
     "UnitPrice":"580"
   },
   {
     "ID":"88037",
     "Item":"PRD-054593",
-    "ItemName":"Monet-Torres-Chocolate 010-49X52X87",
+    "ItemName":"Monet-S-Chocolate 010",
     "UnitPrice":"375"
   },
   {
     "ID":"88035",
     "Item":"PRD-054592",
-    "ItemName":"Monet-Torres-Chocolate 010-49X52X87-with wheels",
+    "ItemName":"Monet W-Chocolate 010",
     "UnitPrice":"435"
   },
   {
     "ID":"88033",
     "Item":"PRD-054591",
-    "ItemName":"Monet-Torres-Chocolate 010-arm53X52X87",
+    "ItemName":"Monet A-Chocolate 010",
     "UnitPrice":"510"
   },
   {
     "ID":"88031",
     "Item":"PRD-054590",
-    "ItemName":"Monet-Torres-Chocolate 010-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Chocolate 010",
     "UnitPrice":"555"
   },
   {
     "ID":"88039",
     "Item":"PRD-054594",
-    "ItemName":"Monet-Torres-Chocolate 010-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Chocolate 010",
     "UnitPrice":"430"
   },
   {
     "ID":"88041",
     "Item":"PRD-054595",
-    "ItemName":"Monet-Torres-Chocolate 010-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Chocolate 010",
     "UnitPrice":"490"
   },
   {
     "ID":"88043",
     "Item":"PRD-054596",
-    "ItemName":"Monet-Torres-Chocolate 010-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Chocolate 010",
     "UnitPrice":"475"
   },
   {
     "ID":"88045",
     "Item":"PRD-054597",
-    "ItemName":"Monet-Torres-Chocolate 010-low 60x72x71",
+    "ItemName":"Monet low-ML-Chocolate 010",
     "UnitPrice":"580"
   },
   {
     "ID":"87973",
     "Item":"PRD-054557",
-    "ItemName":"Monet-Torres-Greige 001-49X52X87",
+    "ItemName":"Monet-S-Greige 001",
     "UnitPrice":"375"
   },
   {
     "ID":"87971",
     "Item":"PRD-054556",
-    "ItemName":"Monet-Torres-Greige 001-49X52X87-with wheels",
+    "ItemName":"Monet W-Greige 001",
     "UnitPrice":"435"
   },
   {
     "ID":"87969",
     "Item":"PRD-054555",
-    "ItemName":"Monet-Torres-Greige 001-arm53X52X87",
+    "ItemName":"Monet A-Greige 001",
     "UnitPrice":"510"
   },
   {
     "ID":"87967",
     "Item":"PRD-054554",
-    "ItemName":"Monet-Torres-Greige 001-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Greige 001",
     "UnitPrice":"555"
   },
   {
     "ID":"87975",
     "Item":"PRD-054558",
-    "ItemName":"Monet-Torres-Greige 001-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Greige 001",
     "UnitPrice":"430"
   },
   {
     "ID":"87977",
     "Item":"PRD-054559",
-    "ItemName":"Monet-Torres-Greige 001-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Greige 001",
     "UnitPrice":"490"
   },
   {
     "ID":"87979",
     "Item":"PRD-054560",
-    "ItemName":"Monet-Torres-Greige 001-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Greige 001",
     "UnitPrice":"475"
   },
   {
     "ID":"87981",
     "Item":"PRD-054561",
-    "ItemName":"Monet-Torres-Greige 001-low 60x72x71",
+    "ItemName":"Monet low-ML-Greige 001",
     "UnitPrice":"580"
   },
   {
     "ID":"88021",
     "Item":"PRD-054584",
-    "ItemName":"Monet-Torres-Ice 002-49X52X87",
+    "ItemName":"Monet-S-Ice 002",
     "UnitPrice":"375"
   },
   {
     "ID":"88019",
     "Item":"PRD-054583",
-    "ItemName":"Monet-Torres-Ice 002-49X52X87-with wheels",
+    "ItemName":"Monet W-Ice 002",
     "UnitPrice":"435"
   },
   {
     "ID":"88017",
     "Item":"PRD-054582",
-    "ItemName":"Monet-Torres-Ice 002-arm53X52X87",
+    "ItemName":"Monet A-Ice 002",
     "UnitPrice":"510"
   },
   {
     "ID":"88015",
     "Item":"PRD-054581",
-    "ItemName":"Monet-Torres-Ice 002-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Ice 002",
     "UnitPrice":"555"
   },
   {
     "ID":"88023",
     "Item":"PRD-054585",
-    "ItemName":"Monet-Torres-Ice 002-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Ice 002",
     "UnitPrice":"430"
   },
   {
     "ID":"88025",
     "Item":"PRD-054586",
-    "ItemName":"Monet-Torres-Ice 002-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Ice 002",
     "UnitPrice":"490"
   },
   {
     "ID":"88027",
     "Item":"PRD-054587",
-    "ItemName":"Monet-Torres-Ice 002-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Ice 002",
     "UnitPrice":"475"
   },
   {
     "ID":"88029",
     "Item":"PRD-054588",
-    "ItemName":"Monet-Torres-Ice 002-low 60x72x71",
+    "ItemName":"Monet low-ML-Ice 002",
     "UnitPrice":"580"
   },
   {
     "ID":"87957",
     "Item":"PRD-054548",
-    "ItemName":"Monet-Torres-Mushroom 003-49X52X87",
+    "ItemName":"Monet-S-Mushroom 003",
     "UnitPrice":"375"
   },
   {
     "ID":"87955",
     "Item":"PRD-054547",
-    "ItemName":"Monet-Torres-Mushroom 003-49X52X87-with wheels",
+    "ItemName":"Monet W-Mushroom 003",
     "UnitPrice":"435"
   },
   {
     "ID":"87953",
     "Item":"PRD-054546",
-    "ItemName":"Monet-Torres-Mushroom 003-arm53X52X87",
+    "ItemName":"Monet A-Mushroom 003",
     "UnitPrice":"510"
   },
   {
     "ID":"87951",
     "Item":"PRD-054545",
-    "ItemName":"Monet-Torres-Mushroom 003-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Mushroom 003",
     "UnitPrice":"555"
   },
   {
     "ID":"87959",
     "Item":"PRD-054549",
-    "ItemName":"Monet-Torres-Mushroom 003-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Mushroom 003",
     "UnitPrice":"430"
   },
   {
     "ID":"87961",
     "Item":"PRD-054550",
-    "ItemName":"Monet-Torres-Mushroom 003-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Mushroom 003",
     "UnitPrice":"490"
   },
   {
     "ID":"87963",
     "Item":"PRD-054551",
-    "ItemName":"Monet-Torres-Mushroom 003-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Mushroom 003",
     "UnitPrice":"475"
   },
   {
     "ID":"87965",
     "Item":"PRD-054552",
-    "ItemName":"Monet-Torres-Mushroom 003-low 60x72x71",
+    "ItemName":"Monet low-ML-Mushroom 003",
     "UnitPrice":"580"
   },
   {
     "ID":"88005",
     "Item":"PRD-054575",
-    "ItemName":"Monet-Torres-Tan 009-49X52X87",
+    "ItemName":"Monet-S-Tan 009",
     "UnitPrice":"375"
   },
   {
     "ID":"88003",
     "Item":"PRD-054574",
-    "ItemName":"Monet-Torres-Tan 009-49X52X87-with wheels",
+    "ItemName":"Monet W-Tan 009",
     "UnitPrice":"435"
   },
   {
     "ID":"88001",
     "Item":"PRD-054573",
-    "ItemName":"Monet-Torres-Tan 009-arm53X52X87",
+    "ItemName":"Monet A-Tan 009",
     "UnitPrice":"510"
   },
   {
     "ID":"87999",
     "Item":"PRD-054572",
-    "ItemName":"Monet-Torres-Tan 009-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Tan 009",
     "UnitPrice":"555"
   },
   {
     "ID":"88007",
     "Item":"PRD-054576",
-    "ItemName":"Monet-Torres-Tan 009-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Tan 009",
     "UnitPrice":"430"
   },
   {
     "ID":"88009",
     "Item":"PRD-054577",
-    "ItemName":"Monet-Torres-Tan 009-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Tan 009",
     "UnitPrice":"490"
   },
   {
     "ID":"88011",
     "Item":"PRD-054578",
-    "ItemName":"Monet-Torres-Tan 009-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Tan 009",
     "UnitPrice":"475"
   },
   {
     "ID":"88013",
     "Item":"PRD-054579",
-    "ItemName":"Monet-Torres-Tan 009-low 60x72x71",
+    "ItemName":"Monet low-ML-Tan 009",
     "UnitPrice":"580"
   },
   {
     "ID":"87989",
     "Item":"PRD-054566",
-    "ItemName":"Monet-Torres-Taupe 004-49X52X87",
+    "ItemName":"Monet-S-Taupe 004",
     "UnitPrice":"375"
   },
   {
     "ID":"87987",
     "Item":"PRD-054565",
-    "ItemName":"Monet-Torres-Taupe 004-49X52X87-with wheels",
+    "ItemName":"Monet W-Taupe 004",
     "UnitPrice":"435"
   },
   {
     "ID":"87985",
     "Item":"PRD-054564",
-    "ItemName":"Monet-Torres-Taupe 004-arm53X52X87",
+    "ItemName":"Monet A-Taupe 004",
     "UnitPrice":"510"
   },
   {
     "ID":"87983",
     "Item":"PRD-054563",
-    "ItemName":"Monet-Torres-Taupe 004-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Taupe 004",
     "UnitPrice":"555"
   },
   {
     "ID":"87991",
     "Item":"PRD-054567",
-    "ItemName":"Monet-Torres-Taupe 004-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Taupe 004",
     "UnitPrice":"430"
   },
   {
     "ID":"87993",
     "Item":"PRD-054568",
-    "ItemName":"Monet-Torres-Taupe 004-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Taupe 004",
     "UnitPrice":"490"
   },
   {
     "ID":"87995",
     "Item":"PRD-054569",
-    "ItemName":"Monet-Torres-Taupe 004-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Taupe 004",
     "UnitPrice":"475"
   },
   {
     "ID":"87997",
     "Item":"PRD-054570",
-    "ItemName":"Monet-Torres-Taupe 004-low 60x72x71",
+    "ItemName":"Monet low-ML-Taupe 004",
     "UnitPrice":"580"
   },
   {
     "ID":"88053",
     "Item":"PRD-054602",
-    "ItemName":"Monet-Torres-Walnut 011-49X52X87",
+    "ItemName":"Monet-S-Walnut 011",
     "UnitPrice":"375"
   },
   {
     "ID":"88051",
     "Item":"PRD-054601",
-    "ItemName":"Monet-Torres-Walnut 011-49X52X87-with wheels",
+    "ItemName":"Monet W-Walnut 011",
     "UnitPrice":"435"
   },
   {
     "ID":"88049",
     "Item":"PRD-054600",
-    "ItemName":"Monet-Torres-Walnut 011-arm53X52X87",
+    "ItemName":"Monet A-Walnut 011",
     "UnitPrice":"510"
   },
   {
     "ID":"88047",
     "Item":"PRD-054599",
-    "ItemName":"Monet-Torres-Walnut 011-arm53X52X87-with wheels",
+    "ItemName":"Monet AW-Walnut 011",
     "UnitPrice":"555"
   },
   {
     "ID":"88055",
     "Item":"PRD-054603",
-    "ItemName":"Monet-Torres-Walnut 011-barstool-46X48X63/94-Laag",
+    "ItemName":"Monet Bar-S-Walnut 011",
     "UnitPrice":"430"
   },
   {
     "ID":"88057",
     "Item":"PRD-054604",
-    "ItemName":"Monet-Torres-Walnut 011-barstool-46X48X63/94-Laag + wielen",
+    "ItemName":"Monet Bar-W-Walnut 011",
     "UnitPrice":"490"
   },
   {
     "ID":"88059",
     "Item":"PRD-054605",
-    "ItemName":"Monet-Torres-Walnut 011-barstool-46X48X81/111-Hoog",
+    "ItemName":"Monet Bar-H-Walnut 011",
     "UnitPrice":"475"
   },
   {
     "ID":"88061",
     "Item":"PRD-054606",
-    "ItemName":"Monet-Torres-Walnut 011-low 60x72x71",
+    "ItemName":"Monet low-ML-Walnut 011",
     "UnitPrice":"580"
   },
   {
     "ID":"41737",
     "Item":"PRD-029013",
-    "ItemName":"Moon-Aluminium-black-polycarbonate-black",
+    "ItemName":"Moon-A-black-polycarbonate-black",
     "UnitPrice":"351"
   },
   {
     "ID":"41736",
     "Item":"PRD-029012",
-    "ItemName":"Moon-Aluminium-white-polycarbonate-white",
+    "ItemName":"Moon-A-white-polycarbonate-white",
     "UnitPrice":"351"
   },
   {
     "ID":"41739",
     "Item":"PRD-039241",
-    "ItemName":"Moon-custom",
+    "ItemName":"Moon-A-custom",
     "UnitPrice":"351"
   },
   {
     "ID":"41731",
     "Item":"PRD-029015",
-    "ItemName":"Moon-Inox-polycarbonate-black",
+    "ItemName":"Moon-A-Inox-polycarbonate-black",
     "UnitPrice":"351"
   },
   {
     "ID":"41734",
     "Item":"PRD-029014",
-    "ItemName":"Moon-Inox-polycarbonate-white",
+    "ItemName":"Moon-A-Inox-polycarbonate-white",
     "UnitPrice":"351"
   },
   {
     "ID":"87045",
     "Item":"PRD-051953",
-    "ItemName":"Picasso-antracite 25-passepoile-antracite 25",
+    "ItemName":"Picasso-P-antracite 25-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87049",
     "Item":"PRD-051955",
-    "ItemName":"Picasso-antracite 25-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87063",
     "Item":"PRD-051962",
-    "ItemName":"Picasso-antracite 25-passepoile-Beige 110",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87043",
     "Item":"PRD-051952",
-    "ItemName":"Picasso-antracite 25-passepoile-black 08",
+    "ItemName":"Picasso-P-antracite 25-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87057",
     "Item":"PRD-051959",
-    "ItemName":"Picasso-antracite 25-passepoile-Choco 57",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87047",
     "Item":"PRD-051954",
-    "ItemName":"Picasso-antracite 25-passepoile-grey 21",
+    "ItemName":"Picasso-P-antracite 25-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87053",
     "Item":"PRD-051957",
-    "ItemName":"Picasso-antracite 25-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87061",
     "Item":"PRD-051961",
-    "ItemName":"Picasso-antracite 25-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87055",
     "Item":"PRD-051958",
-    "ItemName":"Picasso-antracite 25-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87067",
     "Item":"PRD-051964",
-    "ItemName":"Picasso-antracite 25-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87069",
     "Item":"PRD-051965",
-    "ItemName":"Picasso-antracite 25-passepoile-Stone 120",
+    "ItemName":"Picasso-P-P-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87059",
     "Item":"PRD-051960",
-    "ItemName":"Picasso-antracite 25-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-antracite 25-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87065",
     "Item":"PRD-051963",
-    "ItemName":"Picasso-antracite 25-passepoile-white 10",
+    "ItemName":"Picasso-P-P-antracite 25-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87051",
     "Item":"PRD-051956",
-    "ItemName":"Picasso-antracite 25-passepoile-wine red 18",
+    "ItemName":"Picasso-P-antracite 25-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87101",
     "Item":"PRD-051981",
-    "ItemName":"Picasso-Aubergine 77-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87105",
     "Item":"PRD-051983",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87119",
     "Item":"PRD-051990",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87099",
     "Item":"PRD-051980",
-    "ItemName":"Picasso-Aubergine 77-passepoile-black 08",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87113",
     "Item":"PRD-051987",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87103",
     "Item":"PRD-051982",
-    "ItemName":"Picasso-Aubergine 77-passepoile-grey 21",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87109",
     "Item":"PRD-051985",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87117",
     "Item":"PRD-051989",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87111",
     "Item":"PRD-051986",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87123",
     "Item":"PRD-051992",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87125",
     "Item":"PRD-051993",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87115",
     "Item":"PRD-051988",
-    "ItemName":"Picasso-Aubergine 77-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87121",
     "Item":"PRD-051991",
-    "ItemName":"Picasso-Aubergine 77-passepoile-white 10",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87107",
     "Item":"PRD-051984",
-    "ItemName":"Picasso-Aubergine 77-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Aubergine 77-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87297",
     "Item":"PRD-052079",
-    "ItemName":"Picasso-Beige 110-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Beige 110-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87301",
     "Item":"PRD-052081",
-    "ItemName":"Picasso-Beige 110-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87315",
     "Item":"PRD-052088",
-    "ItemName":"Picasso-Beige 110-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87295",
     "Item":"PRD-052078",
-    "ItemName":"Picasso-Beige 110-passepoile-black 08",
+    "ItemName":"Picasso-P-Beige 110-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87309",
     "Item":"PRD-052085",
-    "ItemName":"Picasso-Beige 110-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87299",
     "Item":"PRD-052080",
-    "ItemName":"Picasso-Beige 110-passepoile-grey 21",
+    "ItemName":"Picasso-P-Beige 110-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87305",
     "Item":"PRD-052083",
-    "ItemName":"Picasso-Beige 110-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87313",
     "Item":"PRD-052087",
-    "ItemName":"Picasso-Beige 110-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87307",
     "Item":"PRD-052084",
-    "ItemName":"Picasso-Beige 110-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87319",
     "Item":"PRD-052090",
-    "ItemName":"Picasso-Beige 110-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87321",
     "Item":"PRD-052091",
-    "ItemName":"Picasso-Beige 110-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87311",
     "Item":"PRD-052086",
-    "ItemName":"Picasso-Beige 110-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Beige 110-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87317",
     "Item":"PRD-052089",
-    "ItemName":"Picasso-Beige 110-passepoile-white 10",
+    "ItemName":"Picasso-P-Beige 110-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87303",
     "Item":"PRD-052082",
-    "ItemName":"Picasso-Beige 110-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Beige 110-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87017",
     "Item":"PRD-051939",
-    "ItemName":"Picasso-black 08-passepoile-antracite 25",
+    "ItemName":"Picasso-P-black 08-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87021",
     "Item":"PRD-051941",
-    "ItemName":"Picasso-black 08-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-black 08-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87035",
     "Item":"PRD-051948",
-    "ItemName":"Picasso-black 08-passepoile-Beige 110",
+    "ItemName":"Picasso-P-black 08-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87015",
     "Item":"PRD-051938",
-    "ItemName":"Picasso-black 08-passepoile-black 08",
+    "ItemName":"Picasso-P-black 08-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87029",
     "Item":"PRD-051945",
-    "ItemName":"Picasso-black 08-passepoile-Choco 57",
+    "ItemName":"Picasso-P-black 08-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87019",
     "Item":"PRD-051940",
-    "ItemName":"Picasso-black 08-passepoile-grey 21",
+    "ItemName":"Picasso-P-black 08-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87025",
     "Item":"PRD-051943",
-    "ItemName":"Picasso-black 08-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-black 08-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87033",
     "Item":"PRD-051947",
-    "ItemName":"Picasso-black 08-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-black 08-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87027",
     "Item":"PRD-051944",
-    "ItemName":"Picasso-black 08-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-black 08-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87039",
     "Item":"PRD-051950",
-    "ItemName":"Picasso-black 08-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-black 08-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87041",
     "Item":"PRD-051951",
-    "ItemName":"Picasso-black 08-passepoile-Stone 120",
+    "ItemName":"Picasso-P-black 08-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87031",
     "Item":"PRD-051946",
-    "ItemName":"Picasso-black 08-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-black 08-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87037",
     "Item":"PRD-051949",
-    "ItemName":"Picasso-black 08-passepoile-white 10",
+    "ItemName":"Picasso-P-black 08-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87023",
     "Item":"PRD-051942",
-    "ItemName":"Picasso-black 08-passepoile-wine red 18",
+    "ItemName":"Picasso-P-black 08-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87213",
     "Item":"PRD-052037",
-    "ItemName":"Picasso-Choco 57-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Choco 57-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87217",
     "Item":"PRD-052039",
-    "ItemName":"Picasso-Choco 57-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87231",
     "Item":"PRD-052046",
-    "ItemName":"Picasso-Choco 57-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87211",
     "Item":"PRD-052036",
-    "ItemName":"Picasso-Choco 57-passepoile-black 08",
+    "ItemName":"Picasso-P-Choco 57-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87225",
     "Item":"PRD-052043",
-    "ItemName":"Picasso-Choco 57-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87215",
     "Item":"PRD-052038",
-    "ItemName":"Picasso-Choco 57-passepoile-grey 21",
+    "ItemName":"Picasso-P-Choco 57-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87221",
     "Item":"PRD-052041",
-    "ItemName":"Picasso-Choco 57-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87229",
     "Item":"PRD-052045",
-    "ItemName":"Picasso-Choco 57-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87223",
     "Item":"PRD-052042",
-    "ItemName":"Picasso-Choco 57-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87235",
     "Item":"PRD-052048",
-    "ItemName":"Picasso-Choco 57-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87237",
     "Item":"PRD-052049",
-    "ItemName":"Picasso-Choco 57-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87227",
     "Item":"PRD-052044",
-    "ItemName":"Picasso-Choco 57-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Choco 57-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87233",
     "Item":"PRD-052047",
-    "ItemName":"Picasso-Choco 57-passepoile-white 10",
+    "ItemName":"Picasso-P-Choco 57-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87219",
     "Item":"PRD-052040",
-    "ItemName":"Picasso-Choco 57-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Choco 57-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87073",
     "Item":"PRD-051967",
-    "ItemName":"Picasso-grey 21-passepoile-antracite 25",
+    "ItemName":"Picasso-P-grey 21-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87077",
     "Item":"PRD-051969",
-    "ItemName":"Picasso-grey 21-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-grey 21-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87091",
     "Item":"PRD-051976",
-    "ItemName":"Picasso-grey 21-passepoile-Beige 110",
+    "ItemName":"Picasso-P-grey 21-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87071",
     "Item":"PRD-051966",
-    "ItemName":"Picasso-grey 21-passepoile-black 08",
+    "ItemName":"Picasso-P-grey 21-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87085",
     "Item":"PRD-051973",
-    "ItemName":"Picasso-grey 21-passepoile-Choco 57",
+    "ItemName":"Picasso-P-grey 21-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87075",
     "Item":"PRD-051968",
-    "ItemName":"Picasso-grey 21-passepoile-grey 21",
+    "ItemName":"Picasso-P-grey 21-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87081",
     "Item":"PRD-051971",
-    "ItemName":"Picasso-grey 21-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-grey 21-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87089",
     "Item":"PRD-051975",
-    "ItemName":"Picasso-grey 21-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-grey 21-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87083",
     "Item":"PRD-051972",
-    "ItemName":"Picasso-grey 21-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-grey 21-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87095",
     "Item":"PRD-051978",
-    "ItemName":"Picasso-grey 21-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-grey 21-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87097",
     "Item":"PRD-051979",
-    "ItemName":"Picasso-grey 21-passepoile-Stone 120",
+    "ItemName":"Picasso-P-grey 21-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87087",
     "Item":"PRD-051974",
-    "ItemName":"Picasso-grey 21-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-grey 21-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87093",
     "Item":"PRD-051977",
-    "ItemName":"Picasso-grey 21-passepoile-white 10",
+    "ItemName":"Picasso-P-grey 21-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87079",
     "Item":"PRD-051970",
-    "ItemName":"Picasso-grey 21-passepoile-wine red 18",
+    "ItemName":"Picasso-P-grey 21-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87157",
     "Item":"PRD-052009",
-    "ItemName":"Picasso-Lipstick 80-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87161",
     "Item":"PRD-052011",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87175",
     "Item":"PRD-052018",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87155",
     "Item":"PRD-052008",
-    "ItemName":"Picasso-Lipstick 80-passepoile-black 08",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87169",
     "Item":"PRD-052015",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87159",
     "Item":"PRD-052010",
-    "ItemName":"Picasso-Lipstick 80-passepoile-grey 21",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87165",
     "Item":"PRD-052013",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87173",
     "Item":"PRD-052017",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87167",
     "Item":"PRD-052014",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87179",
     "Item":"PRD-052020",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87181",
     "Item":"PRD-052021",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87171",
     "Item":"PRD-052016",
-    "ItemName":"Picasso-Lipstick 80-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87177",
     "Item":"PRD-052019",
-    "ItemName":"Picasso-Lipstick 80-passepoile-white 10",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87163",
     "Item":"PRD-052012",
-    "ItemName":"Picasso-Lipstick 80-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Lipstick 80-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87269",
     "Item":"PRD-052065",
-    "ItemName":"Picasso-Mocca 29-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87273",
     "Item":"PRD-052067",
-    "ItemName":"Picasso-Mocca 29-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87287",
     "Item":"PRD-052074",
-    "ItemName":"Picasso-Mocca 29-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87267",
     "Item":"PRD-052064",
-    "ItemName":"Picasso-Mocca 29-passepoile-black 08",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87281",
     "Item":"PRD-052071",
-    "ItemName":"Picasso-Mocca 29-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87271",
     "Item":"PRD-052066",
-    "ItemName":"Picasso-Mocca 29-passepoile-grey 21",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87277",
     "Item":"PRD-052069",
-    "ItemName":"Picasso-Mocca 29-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87285",
     "Item":"PRD-052073",
-    "ItemName":"Picasso-Mocca 29-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87279",
     "Item":"PRD-052070",
-    "ItemName":"Picasso-Mocca 29-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87291",
     "Item":"PRD-052076",
-    "ItemName":"Picasso-Mocca 29-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87293",
     "Item":"PRD-052077",
-    "ItemName":"Picasso-Mocca 29-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87283",
     "Item":"PRD-052072",
-    "ItemName":"Picasso-Mocca 29-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87289",
     "Item":"PRD-052075",
-    "ItemName":"Picasso-Mocca 29-passepoile-white 10",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87275",
     "Item":"PRD-052068",
-    "ItemName":"Picasso-Mocca 29-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Mocca 29-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87185",
     "Item":"PRD-052023",
-    "ItemName":"Picasso-Nutella 58-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87189",
     "Item":"PRD-052025",
-    "ItemName":"Picasso-Nutella 58-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87203",
     "Item":"PRD-052032",
-    "ItemName":"Picasso-Nutella 58-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87183",
     "Item":"PRD-052022",
-    "ItemName":"Picasso-Nutella 58-passepoile-black 08",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87197",
     "Item":"PRD-052029",
-    "ItemName":"Picasso-Nutella 58-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87187",
     "Item":"PRD-052024",
-    "ItemName":"Picasso-Nutella 58-passepoile-grey 21",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87193",
     "Item":"PRD-052027",
-    "ItemName":"Picasso-Nutella 58-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87201",
     "Item":"PRD-052031",
-    "ItemName":"Picasso-Nutella 58-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87195",
     "Item":"PRD-052028",
-    "ItemName":"Picasso-Nutella 58-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87207",
     "Item":"PRD-052034",
-    "ItemName":"Picasso-Nutella 58-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87209",
     "Item":"PRD-052035",
-    "ItemName":"Picasso-Nutella 58-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87199",
     "Item":"PRD-052030",
-    "ItemName":"Picasso-Nutella 58-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87205",
     "Item":"PRD-052033",
-    "ItemName":"Picasso-Nutella 58-passepoile-white 10",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87191",
     "Item":"PRD-052026",
-    "ItemName":"Picasso-Nutella 58-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Nutella 58-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87353",
     "Item":"PRD-052107",
-    "ItemName":"Picasso-Smoke 17-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87357",
     "Item":"PRD-052109",
-    "ItemName":"Picasso-Smoke 17-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87371",
     "Item":"PRD-052116",
-    "ItemName":"Picasso-Smoke 17-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87351",
     "Item":"PRD-052106",
-    "ItemName":"Picasso-Smoke 17-passepoile-black 08",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87365",
     "Item":"PRD-052113",
-    "ItemName":"Picasso-Smoke 17-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87355",
     "Item":"PRD-052108",
-    "ItemName":"Picasso-Smoke 17-passepoile-grey 21",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87361",
     "Item":"PRD-052111",
-    "ItemName":"Picasso-Smoke 17-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87369",
     "Item":"PRD-052115",
-    "ItemName":"Picasso-Smoke 17-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87363",
     "Item":"PRD-052112",
-    "ItemName":"Picasso-Smoke 17-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87375",
     "Item":"PRD-052118",
-    "ItemName":"Picasso-Smoke 17-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87377",
     "Item":"PRD-052119",
-    "ItemName":"Picasso-Smoke 17-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87367",
     "Item":"PRD-052114",
-    "ItemName":"Picasso-Smoke 17-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87373",
     "Item":"PRD-052117",
-    "ItemName":"Picasso-Smoke 17-passepoile-white 10",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87359",
     "Item":"PRD-052110",
-    "ItemName":"Picasso-Smoke 17-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Smoke 17-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87381",
     "Item":"PRD-052121",
-    "ItemName":"Picasso-Stone 120-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Stone 120-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87385",
     "Item":"PRD-052123",
-    "ItemName":"Picasso-Stone 120-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87399",
     "Item":"PRD-052130",
-    "ItemName":"Picasso-Stone 120-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87379",
     "Item":"PRD-052120",
-    "ItemName":"Picasso-Stone 120-passepoile-black 08",
+    "ItemName":"Picasso-P-Stone 120-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87393",
     "Item":"PRD-052127",
-    "ItemName":"Picasso-Stone 120-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87383",
     "Item":"PRD-052122",
-    "ItemName":"Picasso-Stone 120-passepoile-grey 21",
+    "ItemName":"Picasso-P-Stone 120-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87389",
     "Item":"PRD-052125",
-    "ItemName":"Picasso-Stone 120-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87397",
     "Item":"PRD-052129",
-    "ItemName":"Picasso-Stone 120-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87391",
     "Item":"PRD-052126",
-    "ItemName":"Picasso-Stone 120-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87403",
     "Item":"PRD-052132",
-    "ItemName":"Picasso-Stone 120-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87405",
     "Item":"PRD-052133",
-    "ItemName":"Picasso-Stone 120-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87395",
     "Item":"PRD-052128",
-    "ItemName":"Picasso-Stone 120-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Stone 120-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87401",
     "Item":"PRD-052131",
-    "ItemName":"Picasso-Stone 120-passepoile-white 10",
+    "ItemName":"Picasso-P-Stone 120-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87387",
     "Item":"PRD-052124",
-    "ItemName":"Picasso-Stone 120-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Stone 120-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87241",
     "Item":"PRD-052051",
-    "ItemName":"Picasso-Taupe 27-passepoile-antracite 25",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87245",
     "Item":"PRD-052053",
-    "ItemName":"Picasso-Taupe 27-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87259",
     "Item":"PRD-052060",
-    "ItemName":"Picasso-Taupe 27-passepoile-Beige 110",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87239",
     "Item":"PRD-052050",
-    "ItemName":"Picasso-Taupe 27-passepoile-black 08",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87253",
     "Item":"PRD-052057",
-    "ItemName":"Picasso-Taupe 27-passepoile-Choco 57",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87243",
     "Item":"PRD-052052",
-    "ItemName":"Picasso-Taupe 27-passepoile-grey 21",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87249",
     "Item":"PRD-052055",
-    "ItemName":"Picasso-Taupe 27-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87257",
     "Item":"PRD-052059",
-    "ItemName":"Picasso-Taupe 27-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87251",
     "Item":"PRD-052056",
-    "ItemName":"Picasso-Taupe 27-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87263",
     "Item":"PRD-052062",
-    "ItemName":"Picasso-Taupe 27-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87265",
     "Item":"PRD-052063",
-    "ItemName":"Picasso-Taupe 27-passepoile-Stone 120",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87255",
     "Item":"PRD-052058",
-    "ItemName":"Picasso-Taupe 27-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87261",
     "Item":"PRD-052061",
-    "ItemName":"Picasso-Taupe 27-passepoile-white 10",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87247",
     "Item":"PRD-052054",
-    "ItemName":"Picasso-Taupe 27-passepoile-wine red 18",
+    "ItemName":"Picasso-P-Taupe 27-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87325",
     "Item":"PRD-052093",
-    "ItemName":"Picasso-white 10-passepoile-antracite 25",
+    "ItemName":"Picasso-P-P-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87329",
     "Item":"PRD-052095",
-    "ItemName":"Picasso-white 10-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87343",
     "Item":"PRD-052102",
-    "ItemName":"Picasso-white 10-passepoile-Beige 110",
+    "ItemName":"Picasso-P-white 10-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87323",
     "Item":"PRD-052092",
-    "ItemName":"Picasso-white 10-passepoile-black 08",
+    "ItemName":"Picasso-P-white 10-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87337",
     "Item":"PRD-052099",
-    "ItemName":"Picasso-white 10-passepoile-Choco 57",
+    "ItemName":"Picasso-P-white 10-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87327",
     "Item":"PRD-052094",
-    "ItemName":"Picasso-white 10-passepoile-grey 21",
+    "ItemName":"Picasso-P-white 10-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87333",
     "Item":"PRD-052097",
-    "ItemName":"Picasso-white 10-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-white 10-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87341",
     "Item":"PRD-052101",
-    "ItemName":"Picasso-white 10-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-white 10-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87335",
     "Item":"PRD-052098",
-    "ItemName":"Picasso-white 10-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-white 10-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87347",
     "Item":"PRD-052104",
-    "ItemName":"Picasso-white 10-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-white 10-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87349",
     "Item":"PRD-052105",
-    "ItemName":"Picasso-white 10-passepoile-Stone 120",
+    "ItemName":"Picasso-P-white 10-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87339",
     "Item":"PRD-052100",
-    "ItemName":"Picasso-white 10-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-white 10-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87345",
     "Item":"PRD-052103",
-    "ItemName":"Picasso-white 10-passepoile-white 10",
+    "ItemName":"Picasso-P-white 10-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87331",
     "Item":"PRD-052096",
-    "ItemName":"Picasso-white 10-passepoile-wine red 18",
+    "ItemName":"Picasso-P-white 10-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87129",
     "Item":"PRD-051995",
-    "ItemName":"Picasso-wine red 18-passepoile-antracite 25",
+    "ItemName":"Picasso-P-wine red 18-passepoile-antracite 25",
     "UnitPrice":"540"
   },
   {
     "ID":"87133",
     "Item":"PRD-051997",
-    "ItemName":"Picasso-wine red 18-passepoile-Aubergine 77",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Aubergine 77",
     "UnitPrice":"540"
   },
   {
     "ID":"87147",
     "Item":"PRD-052004",
-    "ItemName":"Picasso-wine red 18-passepoile-Beige 110",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Beige 110",
     "UnitPrice":"540"
   },
   {
     "ID":"87127",
     "Item":"PRD-051994",
-    "ItemName":"Picasso-wine red 18-passepoile-black 08",
+    "ItemName":"Picasso-P-wine red 18-passepoile-black 08",
     "UnitPrice":"540"
   },
   {
     "ID":"87141",
     "Item":"PRD-052001",
-    "ItemName":"Picasso-wine red 18-passepoile-Choco 57",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Choco 57",
     "UnitPrice":"540"
   },
   {
     "ID":"87131",
     "Item":"PRD-051996",
-    "ItemName":"Picasso-wine red 18-passepoile-grey 21",
+    "ItemName":"Picasso-P-wine red 18-passepoile-grey 21",
     "UnitPrice":"540"
   },
   {
     "ID":"87137",
     "Item":"PRD-051999",
-    "ItemName":"Picasso-wine red 18-passepoile-Lipstick 80",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Lipstick 80",
     "UnitPrice":"540"
   },
   {
     "ID":"87145",
     "Item":"PRD-052003",
-    "ItemName":"Picasso-wine red 18-passepoile-Mocca 29",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Mocca 29",
     "UnitPrice":"540"
   },
   {
     "ID":"87139",
     "Item":"PRD-052000",
-    "ItemName":"Picasso-wine red 18-passepoile-Nutella 58",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Nutella 58",
     "UnitPrice":"540"
   },
   {
     "ID":"87151",
     "Item":"PRD-052006",
-    "ItemName":"Picasso-wine red 18-passepoile-Smoke 17",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Smoke 17",
     "UnitPrice":"540"
   },
   {
     "ID":"87153",
     "Item":"PRD-052007",
-    "ItemName":"Picasso-wine red 18-passepoile-Stone 120",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Stone 120",
     "UnitPrice":"540"
   },
   {
     "ID":"87143",
     "Item":"PRD-052002",
-    "ItemName":"Picasso-wine red 18-passepoile-Taupe 27",
+    "ItemName":"Picasso-P-wine red 18-passepoile-Taupe 27",
     "UnitPrice":"540"
   },
   {
     "ID":"87149",
     "Item":"PRD-052005",
-    "ItemName":"Picasso-wine red 18-passepoile-white 10",
+    "ItemName":"Picasso-P-wine red 18-passepoile-white 10",
     "UnitPrice":"540"
   },
   {
     "ID":"87135",
     "Item":"PRD-051998",
-    "ItemName":"Picasso-wine red 18-passepoile-wine red 18",
+    "ItemName":"Picasso-P-wine red 18-passepoile-wine red 18",
     "UnitPrice":"540"
   },
   {
     "ID":"87533",
     "Item":"PRD-054392",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Black 006",
+    "ItemName":"Picasso-P-Black 006-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87529",
     "Item":"PRD-054390",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Black 006-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87521",
     "Item":"PRD-054386",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Black 006-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87527",
     "Item":"PRD-054389",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Black 006-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87519",
     "Item":"PRD-054385",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Black 006-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87525",
     "Item":"PRD-054388",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Black 006-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87523",
     "Item":"PRD-054387",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Black 006-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87531",
     "Item":"PRD-054391",
-    "ItemName":"Picasso-Torres-Black 006-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Black 006-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87501",
     "Item":"PRD-054376",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Black 006",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87497",
     "Item":"PRD-054374",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87489",
     "Item":"PRD-054370",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87495",
     "Item":"PRD-054373",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87487",
     "Item":"PRD-054369",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87493",
     "Item":"PRD-054372",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87491",
     "Item":"PRD-054371",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87499",
     "Item":"PRD-054375",
-    "ItemName":"Picasso-Torres-Chocolate 010-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Chocolate 010-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87437",
     "Item":"PRD-054344",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Black 006",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87433",
     "Item":"PRD-054342",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87425",
     "Item":"PRD-054338",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87431",
     "Item":"PRD-054341",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87423",
     "Item":"PRD-054337",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87429",
     "Item":"PRD-054340",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87427",
     "Item":"PRD-054339",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87435",
     "Item":"PRD-054343",
-    "ItemName":"Picasso-Torres-Greige 001-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Greige 001-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87485",
     "Item":"PRD-054368",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Black 006",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87481",
     "Item":"PRD-054366",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87473",
     "Item":"PRD-054362",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87479",
     "Item":"PRD-054365",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87471",
     "Item":"PRD-054361",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87477",
     "Item":"PRD-054364",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87475",
     "Item":"PRD-054363",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87483",
     "Item":"PRD-054367",
-    "ItemName":"Picasso-Torres-Ice 002-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Ice 002-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87421",
     "Item":"PRD-054336",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Black 006",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87417",
     "Item":"PRD-054334",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87409",
     "Item":"PRD-054330",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87415",
     "Item":"PRD-054333",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87407",
     "Item":"PRD-054329",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87413",
     "Item":"PRD-054332",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87411",
     "Item":"PRD-054331",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87419",
     "Item":"PRD-054335",
-    "ItemName":"Picasso-Torres-Mushroom 003-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Mushroom 003-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87469",
     "Item":"PRD-054360",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Black 006",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87465",
     "Item":"PRD-054358",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87457",
     "Item":"PRD-054354",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87463",
     "Item":"PRD-054357",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87455",
     "Item":"PRD-054353",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87461",
     "Item":"PRD-054356",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87459",
     "Item":"PRD-054355",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87467",
     "Item":"PRD-054359",
-    "ItemName":"Picasso-Torres-Tan 009-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Tan 009-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87453",
     "Item":"PRD-054352",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Black 006",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87449",
     "Item":"PRD-054350",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87441",
     "Item":"PRD-054346",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87447",
     "Item":"PRD-054349",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87439",
     "Item":"PRD-054345",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87445",
     "Item":"PRD-054348",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87443",
     "Item":"PRD-054347",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87451",
     "Item":"PRD-054351",
-    "ItemName":"Picasso-Torres-Taupe 004-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Taupe 004-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"87517",
     "Item":"PRD-054384",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Black 006",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"87513",
     "Item":"PRD-054382",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Chocolate 010",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"87505",
     "Item":"PRD-054378",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Greige 001",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"87511",
     "Item":"PRD-054381",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Ice 002",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"87503",
     "Item":"PRD-054377",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Mushroom 003",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"87509",
     "Item":"PRD-054380",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Tan 009",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"87507",
     "Item":"PRD-054379",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Taupe 004",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"87515",
     "Item":"PRD-054383",
-    "ItemName":"Picasso-Torres-Walnut 011-passepoile-Walnut 011",
+    "ItemName":"Picasso-P-Walnut 011-passepoile-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"32089",
     "Item":"PRD-040103",
-    "ItemName":"Rafael-metal-black-armskai-black",
+    "ItemName":"Rafael-black-armskai-black",
     "UnitPrice":"390"
   },
   {
     "ID":"83003",
     "Item":"PRD-051879",
-    "ItemName":"Rafael-metal-black-barstool-skai-black",
+    "ItemName":"Rafael-black-Bar skai-black",
     "UnitPrice":"348"
   },
   {
     "ID":"40025",
     "Item":"PRD-045748",
-    "ItemName":"Rafael-metal-d.brown-armskai-dark brown",
+    "ItemName":"Rafael-d.brown-armskai-dark brown",
     "UnitPrice":"390"
   },
   {
     "ID":"83007",
     "Item":"PRD-051881",
-    "ItemName":"Rafael-metal-d.brown-barstool-skai-dark brown",
+    "ItemName":"Rafael-d.brown-Bar skai-dark brown",
     "UnitPrice":"348"
   },
   {
     "ID":"32090",
     "Item":"PRD-040104",
-    "ItemName":"Rafael-metal-Taupe-armskai-Taupe",
+    "ItemName":"Rafael-Taupe-armskai-Taupe",
     "UnitPrice":"390"
   },
   {
     "ID":"83005",
     "Item":"PRD-051880",
-    "ItemName":"Rafael-metal-Taupe-barstool-skai-Taupe",
+    "ItemName":"Rafael-Taupe-Bar skai-Taupe",
     "UnitPrice":"348"
   },
   {
     "ID":"32079",
     "Item":"PRD-040102",
-    "ItemName":"Rafael-metal-white-armskai-White",
+    "ItemName":"Rafael-white-armskai-White",
     "UnitPrice":"390"
   },
   {
     "ID":"83001",
     "Item":"PRD-051878",
-    "ItemName":"Rafael-metal-white-barstool-skai-White",
+    "ItemName":"Rafael Bar-S-white 01",
     "UnitPrice":"348"
   },
   {
@@ -5852,13 +5852,13 @@
   {
     "ID":"34067",
     "Item":"PRD-040149",
-    "ItemName":"Renoir-antracite 25-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-antracite 25",
     "UnitPrice":"600"
   },
   {
     "ID":"34069",
     "Item":"PRD-040150",
-    "ItemName":"Renoir-antracite 25-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-antracite 25",
     "UnitPrice":"680"
   },
   {
@@ -5888,13 +5888,13 @@
   {
     "ID":"34075",
     "Item":"PRD-040153",
-    "ItemName":"Renoir-Aubergine 77-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Aubergine 77",
     "UnitPrice":"600"
   },
   {
     "ID":"34077",
     "Item":"PRD-040154",
-    "ItemName":"Renoir-Aubergine 77-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Aubergine 77",
     "UnitPrice":"680"
   },
   {
@@ -5924,13 +5924,13 @@
   {
     "ID":"34103",
     "Item":"PRD-040167",
-    "ItemName":"Renoir-Beige 110-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Beige 110",
     "UnitPrice":"600"
   },
   {
     "ID":"34105",
     "Item":"PRD-040168",
-    "ItemName":"Renoir-Beige 110-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Beige 110",
     "UnitPrice":"680"
   },
   {
@@ -5960,13 +5960,13 @@
   {
     "ID":"34063",
     "Item":"PRD-040147",
-    "ItemName":"Renoir-black 08-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-black 08",
     "UnitPrice":"600"
   },
   {
     "ID":"34065",
     "Item":"PRD-040148",
-    "ItemName":"Renoir-black 08-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-black 08",
     "UnitPrice":"680"
   },
   {
@@ -5996,13 +5996,13 @@
   {
     "ID":"34091",
     "Item":"PRD-040161",
-    "ItemName":"Renoir-Choco 57-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Choco 57",
     "UnitPrice":"600"
   },
   {
     "ID":"34093",
     "Item":"PRD-040162",
-    "ItemName":"Renoir-Choco 57-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Choco 57",
     "UnitPrice":"680"
   },
   {
@@ -6032,13 +6032,13 @@
   {
     "ID":"34071",
     "Item":"PRD-040151",
-    "ItemName":"Renoir-grey 21-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-grey 21",
     "UnitPrice":"600"
   },
   {
     "ID":"34073",
     "Item":"PRD-040152",
-    "ItemName":"Renoir-grey 21-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-grey 21",
     "UnitPrice":"680"
   },
   {
@@ -6068,49 +6068,49 @@
   {
     "ID":"34083",
     "Item":"PRD-040157",
-    "ItemName":"Renoir-Lipstick 80-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Lipstick 80",
     "UnitPrice":"600"
   },
   {
     "ID":"34085",
     "Item":"PRD-040158",
-    "ItemName":"Renoir-Lipstick 80-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Lipstick 80",
     "UnitPrice":"680"
   },
   {
     "ID":"41383",
     "Item":"PRD-035102",
-    "ItemName":"Renoir-Mocca 29-48x68x94",
+    "ItemName":"Renoir-Mocca 29",
     "UnitPrice":"443"
   },
   {
     "ID":"41381",
     "Item":"PRD-035101",
-    "ItemName":"Renoir-Mocca 29-48x68x94-with wheels",
+    "ItemName":"Renoir W-Mocca 29",
     "UnitPrice":"510"
   },
   {
     "ID":"41379",
     "Item":"PRD-035100",
-    "ItemName":"Renoir-Mocca 29-arm58x68x94",
+    "ItemName":"Renoir A-Mocca 29",
     "UnitPrice":"593"
   },
   {
     "ID":"41377",
     "Item":"PRD-035099",
-    "ItemName":"Renoir-Mocca 29-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Mocca 29",
     "UnitPrice":"670"
   },
   {
     "ID":"34099",
     "Item":"PRD-040165",
-    "ItemName":"Renoir-Mocca 29-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Mocca 29",
     "UnitPrice":"600"
   },
   {
     "ID":"34101",
     "Item":"PRD-040166",
-    "ItemName":"Renoir-Mocca 29-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Mocca 29",
     "UnitPrice":"680"
   },
   {
@@ -6140,13 +6140,13 @@
   {
     "ID":"34087",
     "Item":"PRD-040159",
-    "ItemName":"Renoir-Nutella 58-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Nutella 58",
     "UnitPrice":"600"
   },
   {
     "ID":"34089",
     "Item":"PRD-040160",
-    "ItemName":"Renoir-Nutella 58-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-A-Nutella 58",
     "UnitPrice":"680"
   },
   {
@@ -6176,49 +6176,49 @@
   {
     "ID":"34111",
     "Item":"PRD-040171",
-    "ItemName":"Renoir-Smoke 17-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Smoke 17",
     "UnitPrice":"600"
   },
   {
     "ID":"34113",
     "Item":"PRD-040172",
-    "ItemName":"Renoir-Smoke 17-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Smoke 17",
     "UnitPrice":"680"
   },
   {
     "ID":"41521",
     "Item":"PRD-040415",
-    "ItemName":"Renoir-Stone 120-48x68x94",
+    "ItemName":"Renoir-Stone 120",
     "UnitPrice":"443"
   },
   {
     "ID":"41519",
     "Item":"PRD-040414",
-    "ItemName":"Renoir-Stone 120-48x68x94-with wheels",
+    "ItemName":"Renoir W-Stone 120",
     "UnitPrice":"510"
   },
   {
     "ID":"41517",
     "Item":"PRD-040413",
-    "ItemName":"Renoir-Stone 120-arm58x68x94",
+    "ItemName":"Renoir A-Stone 120",
     "UnitPrice":"593"
   },
   {
     "ID":"41515",
     "Item":"PRD-040412",
-    "ItemName":"Renoir-Stone 120-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Stone 120",
     "UnitPrice":"670"
   },
   {
     "ID":"34115",
     "Item":"PRD-040416",
-    "ItemName":"Renoir-Stone 120-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Stone 120",
     "UnitPrice":"600"
   },
   {
     "ID":"34117",
     "Item":"PRD-040417",
-    "ItemName":"Renoir-Stone 120-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Stone 120",
     "UnitPrice":"680"
   },
   {
@@ -6248,13 +6248,13 @@
   {
     "ID":"34095",
     "Item":"PRD-040163",
-    "ItemName":"Renoir-Taupe 27-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Taupe 27",
     "UnitPrice":"600"
   },
   {
     "ID":"34097",
     "Item":"PRD-040164",
-    "ItemName":"Renoir-Taupe 27-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Taupe 27",
     "UnitPrice":"680"
   },
   {
@@ -6284,13 +6284,13 @@
   {
     "ID":"34107",
     "Item":"PRD-040169",
-    "ItemName":"Renoir-white 10-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-white 10",
     "UnitPrice":"600"
   },
   {
     "ID":"34109",
     "Item":"PRD-040170",
-    "ItemName":"Renoir-white 10-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-white 10",
     "UnitPrice":"680"
   },
   {
@@ -6320,631 +6320,631 @@
   {
     "ID":"34079",
     "Item":"PRD-040155",
-    "ItemName":"Renoir-wine red 18-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-wine red 18",
     "UnitPrice":"600"
   },
   {
     "ID":"34081",
     "Item":"PRD-040156",
-    "ItemName":"Renoir-wine red 18-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-wine red 18",
     "UnitPrice":"680"
   },
   {
     "ID":"88169",
     "Item":"PRD-054662",
-    "ItemName":"Renoir-Torres-Black 006-48x68x94",
+    "ItemName":"Renoir-Black 006",
     "UnitPrice":"380"
   },
   {
     "ID":"88167",
     "Item":"PRD-054661",
-    "ItemName":"Renoir-Torres-Black 006-48x68x94-with wheels",
+    "ItemName":"Renoir W-Black 006",
     "UnitPrice":"440"
   },
   {
     "ID":"88165",
     "Item":"PRD-054660",
-    "ItemName":"Renoir-Torres-Black 006-arm58x68x94",
+    "ItemName":"Renoir A-Black 006",
     "UnitPrice":"485"
   },
   {
     "ID":"88163",
     "Item":"PRD-054659",
-    "ItemName":"Renoir-Torres-Black 006-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Black 006",
     "UnitPrice":"555"
   },
   {
     "ID":"88171",
     "Item":"PRD-054663",
-    "ItemName":"Renoir-Torres-Black 006-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Black 006",
     "UnitPrice":"460"
   },
   {
     "ID":"88173",
     "Item":"PRD-054664",
-    "ItemName":"Renoir-Torres-Black 006-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Black 006",
     "UnitPrice":"520"
   },
   {
     "ID":"88145",
     "Item":"PRD-054650",
-    "ItemName":"Renoir-Torres-Chocolate 010-48x68x94",
+    "ItemName":"Renoir-Chocolate 010",
     "UnitPrice":"380"
   },
   {
     "ID":"88143",
     "Item":"PRD-054649",
-    "ItemName":"Renoir-Torres-Chocolate 010-48x68x94-with wheels",
+    "ItemName":"Renoir W-Chocolate 010",
     "UnitPrice":"440"
   },
   {
     "ID":"88141",
     "Item":"PRD-054648",
-    "ItemName":"Renoir-Torres-Chocolate 010-arm58x68x94",
+    "ItemName":"Renoir A-Chocolate 010",
     "UnitPrice":"485"
   },
   {
     "ID":"88139",
     "Item":"PRD-054647",
-    "ItemName":"Renoir-Torres-Chocolate 010-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Chocolate 010",
     "UnitPrice":"555"
   },
   {
     "ID":"88147",
     "Item":"PRD-054651",
-    "ItemName":"Renoir-Torres-Chocolate 010-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Chocolate 010",
     "UnitPrice":"460"
   },
   {
     "ID":"88149",
     "Item":"PRD-054652",
-    "ItemName":"Renoir-Torres-Chocolate 010-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Chocolate 010",
     "UnitPrice":"520"
   },
   {
     "ID":"88097",
     "Item":"PRD-054626",
-    "ItemName":"Renoir-Torres-Greige 001-48x68x94",
+    "ItemName":"Renoir-Greige 001",
     "UnitPrice":"380"
   },
   {
     "ID":"88095",
     "Item":"PRD-054625",
-    "ItemName":"Renoir-Torres-Greige 001-48x68x94-with wheels",
+    "ItemName":"Renoir W-Greige 001",
     "UnitPrice":"440"
   },
   {
     "ID":"88093",
     "Item":"PRD-054624",
-    "ItemName":"Renoir-Torres-Greige 001-arm58x68x94",
+    "ItemName":"Renoir A-Greige 001",
     "UnitPrice":"485"
   },
   {
     "ID":"88091",
     "Item":"PRD-054623",
-    "ItemName":"Renoir-Torres-Greige 001-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Greige 001",
     "UnitPrice":"555"
   },
   {
     "ID":"88099",
     "Item":"PRD-054627",
-    "ItemName":"Renoir-Torres-Greige 001-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Greige 001",
     "UnitPrice":"460"
   },
   {
     "ID":"88101",
     "Item":"PRD-054628",
-    "ItemName":"Renoir-Torres-Greige 001-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Greige 001",
     "UnitPrice":"520"
   },
   {
     "ID":"88133",
     "Item":"PRD-054644",
-    "ItemName":"Renoir-Torres-Ice 002-48x68x94",
+    "ItemName":"Renoir-Ice 002",
     "UnitPrice":"380"
   },
   {
     "ID":"88131",
     "Item":"PRD-054643",
-    "ItemName":"Renoir-Torres-Ice 002-48x68x94-with wheels",
+    "ItemName":"Renoir W-Ice 002",
     "UnitPrice":"440"
   },
   {
     "ID":"88129",
     "Item":"PRD-054642",
-    "ItemName":"Renoir-Torres-Ice 002-arm58x68x94",
+    "ItemName":"Renoir A-Ice 002",
     "UnitPrice":"485"
   },
   {
     "ID":"88127",
     "Item":"PRD-054641",
-    "ItemName":"Renoir-Torres-Ice 002-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Ice 002",
     "UnitPrice":"555"
   },
   {
     "ID":"88135",
     "Item":"PRD-054645",
-    "ItemName":"Renoir-Torres-Ice 002-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Ice 002",
     "UnitPrice":"460"
   },
   {
     "ID":"88137",
     "Item":"PRD-054646",
-    "ItemName":"Renoir-Torres-Ice 002-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Ice 002",
     "UnitPrice":"520"
   },
   {
     "ID":"88085",
     "Item":"PRD-054620",
-    "ItemName":"Renoir-Torres-Mushroom 003-48x68x94",
+    "ItemName":"Renoir-Mushroom 003",
     "UnitPrice":"380"
   },
   {
     "ID":"88083",
     "Item":"PRD-054619",
-    "ItemName":"Renoir-Torres-Mushroom 003-48x68x94-with wheels",
+    "ItemName":"Renoir W-Mushroom 003",
     "UnitPrice":"440"
   },
   {
     "ID":"88081",
     "Item":"PRD-054618",
-    "ItemName":"Renoir-Torres-Mushroom 003-arm58x68x94",
+    "ItemName":"Renoir A-Mushroom 003",
     "UnitPrice":"485"
   },
   {
     "ID":"88079",
     "Item":"PRD-054617",
-    "ItemName":"Renoir-Torres-Mushroom 003-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Mushroom 003",
     "UnitPrice":"555"
   },
   {
     "ID":"88087",
     "Item":"PRD-054621",
-    "ItemName":"Renoir-Torres-Mushroom 003-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Mushroom 003",
     "UnitPrice":"460"
   },
   {
     "ID":"88089",
     "Item":"PRD-054622",
-    "ItemName":"Renoir-Torres-Mushroom 003-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Mushroom 003",
     "UnitPrice":"520"
   },
   {
     "ID":"88121",
     "Item":"PRD-054638",
-    "ItemName":"Renoir-Torres-Tan 009-48x68x94",
+    "ItemName":"Renoir-Tan 009",
     "UnitPrice":"380"
   },
   {
     "ID":"88119",
     "Item":"PRD-054637",
-    "ItemName":"Renoir-Torres-Tan 009-48x68x94-with wheels",
+    "ItemName":"Renoir W-Tan 009",
     "UnitPrice":"440"
   },
   {
     "ID":"88117",
     "Item":"PRD-054636",
-    "ItemName":"Renoir-Torres-Tan 009-arm58x68x94",
+    "ItemName":"Renoir A-Tan 009",
     "UnitPrice":"485"
   },
   {
     "ID":"88115",
     "Item":"PRD-054635",
-    "ItemName":"Renoir-Torres-Tan 009-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Tan 009",
     "UnitPrice":"555"
   },
   {
     "ID":"88123",
     "Item":"PRD-054639",
-    "ItemName":"Renoir-Torres-Tan 009-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Tan 009",
     "UnitPrice":"460"
   },
   {
     "ID":"88125",
     "Item":"PRD-054640",
-    "ItemName":"Renoir-Torres-Tan 009-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Tan 009",
     "UnitPrice":"520"
   },
   {
     "ID":"88109",
     "Item":"PRD-054632",
-    "ItemName":"Renoir-Torres-Taupe 004-48x68x94",
+    "ItemName":"Renoir-Taupe 004",
     "UnitPrice":"380"
   },
   {
     "ID":"88107",
     "Item":"PRD-054631",
-    "ItemName":"Renoir-Torres-Taupe 004-48x68x94-with wheels",
+    "ItemName":"Renoir W-Taupe 004",
     "UnitPrice":"440"
   },
   {
     "ID":"88105",
     "Item":"PRD-054630",
-    "ItemName":"Renoir-Torres-Taupe 004-arm58x68x94",
+    "ItemName":"Renoir A-Taupe 004",
     "UnitPrice":"485"
   },
   {
     "ID":"88103",
     "Item":"PRD-054629",
-    "ItemName":"Renoir-Torres-Taupe 004-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Taupe 004",
     "UnitPrice":"555"
   },
   {
     "ID":"88111",
     "Item":"PRD-054633",
-    "ItemName":"Renoir-Torres-Taupe 004-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Taupe 004",
     "UnitPrice":"460"
   },
   {
     "ID":"88113",
     "Item":"PRD-054634",
-    "ItemName":"Renoir-Torres-Taupe 004-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Taupe 004",
     "UnitPrice":"520"
   },
   {
     "ID":"88157",
     "Item":"PRD-054656",
-    "ItemName":"Renoir-Torres-Walnut 011-48x68x94",
+    "ItemName":"Renoir-Walnut 011",
     "UnitPrice":"380"
   },
   {
     "ID":"88155",
     "Item":"PRD-054655",
-    "ItemName":"Renoir-Torres-Walnut 011-48x68x94-with wheels",
+    "ItemName":"Renoir W-Walnut 011",
     "UnitPrice":"440"
   },
   {
     "ID":"88153",
     "Item":"PRD-054654",
-    "ItemName":"Renoir-Torres-Walnut 011-arm58x68x94",
+    "ItemName":"Renoir A-Walnut 011",
     "UnitPrice":"485"
   },
   {
     "ID":"88151",
     "Item":"PRD-054653",
-    "ItemName":"Renoir-Torres-Walnut 011-arm58x68x94-with wheels",
+    "ItemName":"Renoir AW-Walnut 011",
     "UnitPrice":"555"
   },
   {
     "ID":"88159",
     "Item":"PRD-054657",
-    "ItemName":"Renoir-Torres-Walnut 011-barstool-54x55x97-Laag + arm",
+    "ItemName":"Renoir Bar-A-Walnut 011",
     "UnitPrice":"460"
   },
   {
     "ID":"88161",
     "Item":"PRD-054658",
-    "ItemName":"Renoir-Torres-Walnut 011-barstool-54x55x97-Laag + arm + wielen",
+    "ItemName":"Renoir Bar-AW-Walnut 011",
     "UnitPrice":"520"
   },
   {
     "ID":"41821",
     "Item":"PRD-039237",
-    "ItemName":"Rolbloc-Aluminium-antracite-52x59x85-Textyleen-grey",
+    "ItemName":"Rolbloc-antracite-Textyleen-grey",
     "UnitPrice":"564"
   },
   {
     "ID":"41828",
     "Item":"PRD-029207",
-    "ItemName":"Rolbloc-Aluminium-Taupe-52x59x85-Textyleen-Taupe",
+    "ItemName":"Rolbloc-Taupe-Textyleen-Taupe",
     "UnitPrice":"564"
   },
   {
     "ID":"41824",
     "Item":"PRD-029206",
-    "ItemName":"Rolbloc-Aluminium-white-52x59x85-Textyleen-white",
+    "ItemName":"Rolbloc-white-Textyleen-white",
     "UnitPrice":"564"
   },
   {
     "ID":"11713",
     "Item":"PRD-029210",
-    "ItemName":"Rolbloc-Inox-barstool-40x40x78,5-hpl-antracite",
+    "ItemName":"Rolbloc-Inox-Bar-hpl-antracite",
     "UnitPrice":"513"
   },
   {
     "ID":"11711",
     "Item":"PRD-029209",
-    "ItemName":"Rolbloc-Inox-barstool-40x40x78,5-hpl-Taupe",
+    "ItemName":"Rolbloc-Inox-Bar-hpl-Taupe",
     "UnitPrice":"513"
   },
   {
     "ID":"11709",
     "Item":"PRD-029208",
-    "ItemName":"Rolbloc-Inox-barstool-40x40x78,5-hpl-white",
+    "ItemName":"Rolbloc-Inox-Bar-hpl-white",
     "UnitPrice":"513"
   },
   {
     "ID":"11727",
     "Item":"PRD-029217",
-    "ItemName":"Rolbloc-Inox-52x59x85-skai-antracite",
+    "ItemName":"Rolbloc-Inox-skai-antracite",
     "UnitPrice":"613"
   },
   {
     "ID":"11721",
     "Item":"PRD-029214",
-    "ItemName":"Rolbloc-Inox-52x59x85-skai-black",
+    "ItemName":"Rolbloc-Inox-skai-black",
     "UnitPrice":"613"
   },
   {
     "ID":"11725",
     "Item":"PRD-029216",
-    "ItemName":"Rolbloc-Inox-52x59x85-skai-light grey",
+    "ItemName":"Rolbloc-Inox-skai-light grey",
     "UnitPrice":"613"
   },
   {
     "ID":"11723",
     "Item":"PRD-029215",
-    "ItemName":"Rolbloc-Inox-52x59x85-skai-Taupe",
+    "ItemName":"Rolbloc-Inox-skai-Taupe",
     "UnitPrice":"613"
   },
   {
     "ID":"11729",
     "Item":"PRD-029218",
-    "ItemName":"Rolbloc-Inox-52x59x85-skai-White",
+    "ItemName":"Rolbloc-Inox-skai-White",
     "UnitPrice":"613"
   },
   {
     "ID":"41832",
     "Item":"PRD-029213",
-    "ItemName":"Rolbloc-Inox-52x59x85-Textyleen-grey",
+    "ItemName":"Rolbloc-Inox-Textyleen-grey",
     "UnitPrice":"665"
   },
   {
     "ID":"41818",
     "Item":"PRD-029212",
-    "ItemName":"Rolbloc-Inox-52x59x85-Textyleen-Taupe",
+    "ItemName":"Rolbloc-Inox-Textyleen-Taupe",
     "UnitPrice":"665"
   },
   {
     "ID":"41825",
     "Item":"PRD-029211",
-    "ItemName":"Rolbloc-Inox-52x59x85-Textyleen-white",
+    "ItemName":"Rolbloc-white",
     "UnitPrice":"665"
   },
   {
     "ID":"41839",
     "Item":"PRD-029230",
-    "ItemName":"Rolbloc-Inox-low 57,5x76x77-Textyleen-grey",
+    "ItemName":"Rolbloc-Inox-low-Textyleen-grey",
     "UnitPrice":"826"
   },
   {
     "ID":"41827",
     "Item":"PRD-029229",
-    "ItemName":"Rolbloc-Inox-low 57,5x76x77-Textyleen-Taupe",
+    "ItemName":"Rolbloc-Inox-low-Textyleen-Taupe",
     "UnitPrice":"826"
   },
   {
     "ID":"41837",
     "Item":"PRD-029228",
-    "ItemName":"Rolbloc-Inox-low 57,5x76x77-Textyleen-white",
+    "ItemName":"Rolbloc-Inox-low-Textyleen-white",
     "UnitPrice":"826"
   },
   {
     "ID":"11735",
     "Item":"PRD-029221",
-    "ItemName":"Rolbloc-Inox-Pouf-40x40x38-Textyleen-grey",
+    "ItemName":"Rolbloc-Inox-Pouf-Textyleen-grey",
     "UnitPrice":"548"
   },
   {
     "ID":"11733",
     "Item":"PRD-029220",
-    "ItemName":"Rolbloc-Inox-Pouf-40x40x38-Textyleen-Taupe",
+    "ItemName":"Rolbloc-Inox-Pouf-Textyleen-Taupe",
     "UnitPrice":"548"
   },
   {
     "ID":"11731",
     "Item":"PRD-029219",
-    "ItemName":"Rolbloc-Inox-Pouf-40x40x38-Textyleen-white",
+    "ItemName":"Rolbloc-Inox-Pouf-Textyleen-white",
     "UnitPrice":"548"
   },
   {
     "ID":"41843",
     "Item":"PRD-029227",
-    "ItemName":"Rolbloc-Inox-sun lounger-210x69x30-Textyleen-grey",
+    "ItemName":"Rolbloc-Inox-sun lounger-Textyleen-grey",
     "UnitPrice":"1954"
   },
   {
     "ID":"41842",
     "Item":"PRD-029226",
-    "ItemName":"Rolbloc-Inox-sun lounger-210x69x30-Textyleen-Taupe",
+    "ItemName":"Rolbloc-Inox-sun lounger-Textyleen-Taupe",
     "UnitPrice":"1954"
   },
   {
     "ID":"41833",
     "Item":"PRD-029225",
-    "ItemName":"Rolbloc-Inox-sun lounger-210x69x30-Textyleen-white",
+    "ItemName":"Rolbloc-Inox-sun lounger-Textyleen-white",
     "UnitPrice":"1954"
   },
   {
     "ID":"41830",
     "Item":"PRD-029224",
-    "ItemName":"Rolbloc-Inox-Tabouret-40x40x45-hpl-antracite",
+    "ItemName":"Rolbloc-Inox-Tabouret-hpl-antracite",
     "UnitPrice":"488"
   },
   {
     "ID":"41844",
     "Item":"PRD-029223",
-    "ItemName":"Rolbloc-Inox-Tabouret-40x40x45-hpl-Taupe",
+    "ItemName":"Rolbloc-Inox-Tabouret-hpl-Taupe",
     "UnitPrice":"488"
   },
   {
     "ID":"41836",
     "Item":"PRD-029222",
-    "ItemName":"Rolbloc-Inox-Tabouret-40x40x45-hpl-white",
+    "ItemName":"Rolbloc-Inox-Tabouret-hpl-white",
     "UnitPrice":"488"
   },
   {
     "ID":"41806",
     "Item":"PRD-035145",
-    "ItemName":"Van Gogh-black-antracite 25",
+    "ItemName":"Van Gogh-A-black-antracite 25",
     "UnitPrice":"618"
   },
   {
     "ID":"41813",
     "Item":"PRD-035144",
-    "ItemName":"Van Gogh-black-antracite 25-armchair",
+    "ItemName":"Van Gogh-A-black-antracite 25-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41792",
     "Item":"PRD-035149",
-    "ItemName":"Van Gogh-black-Aubergine 77",
+    "ItemName":"Van Gogh-A-black-Aubergine 77",
     "UnitPrice":"618"
   },
   {
     "ID":"41786",
     "Item":"PRD-035148",
-    "ItemName":"Van Gogh-black-Aubergine 77-armchair",
+    "ItemName":"Van Gogh-A-black-Aubergine 77-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41774",
     "Item":"PRD-035163",
-    "ItemName":"Van Gogh-black-Beige 110",
+    "ItemName":"Van Gogh-A-black-Beige 110",
     "UnitPrice":"618"
   },
   {
     "ID":"41799",
     "Item":"PRD-035162",
-    "ItemName":"Van Gogh-black-Beige 110-armchair",
+    "ItemName":"Van Gogh-A-black-Beige 110-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41782",
     "Item":"PRD-035143",
-    "ItemName":"Van Gogh-S-black 08",
+    "ItemName":"Van Gogh-A-S-black 08",
     "UnitPrice":"618"
   },
   {
     "ID":"41816",
     "Item":"PRD-035142",
-    "ItemName":"Van Gogh-A-black 08",
+    "ItemName":"Van Gogh-A-A-black 08",
     "UnitPrice":"721"
   },
   {
     "ID":"41777",
     "Item":"PRD-035157",
-    "ItemName":"Van Gogh-black-Choco 57",
+    "ItemName":"Van Gogh-A-black-Choco 57",
     "UnitPrice":"618"
   },
   {
     "ID":"41810",
     "Item":"PRD-035156",
-    "ItemName":"Van Gogh-black-Choco 57-armchair",
+    "ItemName":"Van Gogh-A-black-Choco 57-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41775",
     "Item":"PRD-035147",
-    "ItemName":"Van Gogh-black-grey 21",
+    "ItemName":"Van Gogh-A-black-grey 21",
     "UnitPrice":"618"
   },
   {
     "ID":"41793",
     "Item":"PRD-035146",
-    "ItemName":"Van Gogh-black-grey 21-armchair",
+    "ItemName":"Van Gogh-A-black-grey 21-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41798",
     "Item":"PRD-035153",
-    "ItemName":"Van Gogh-black-Lipstick 80",
+    "ItemName":"Van Gogh-A-black-Lipstick 80",
     "UnitPrice":"618"
   },
   {
     "ID":"41766",
     "Item":"PRD-035152",
-    "ItemName":"Van Gogh-black-Lipstick 80-armchair",
+    "ItemName":"Van Gogh-A-black-Lipstick 80-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41809",
     "Item":"PRD-035161",
-    "ItemName":"Van Gogh-black-Mocca 29",
+    "ItemName":"Van Gogh-A-black-Mocca 29",
     "UnitPrice":"618"
   },
   {
     "ID":"41805",
     "Item":"PRD-035160",
-    "ItemName":"Van Gogh-black-Mocca 29-armchair",
+    "ItemName":"Van Gogh-A-black-Mocca 29-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41767",
     "Item":"PRD-035155",
-    "ItemName":"Van Gogh-S-Nutella 58",
+    "ItemName":"Van Gogh-A-S-Nutella 58",
     "UnitPrice":"618"
   },
   {
     "ID":"41772",
     "Item":"PRD-035154",
-    "ItemName":"Van Gogh-A-Nutella 58",
+    "ItemName":"Van Gogh-A-A-Nutella 58",
     "UnitPrice":"721"
   },
   {
     "ID":"41795",
     "Item":"PRD-038940",
-    "ItemName":"Van Gogh-black-Smoke 17",
+    "ItemName":"Van Gogh-A-black-Smoke 17",
     "UnitPrice":"618"
   },
   {
     "ID":"41783",
     "Item":"PRD-038939",
-    "ItemName":"Van Gogh-black-Smoke 17-armchair",
+    "ItemName":"Van Gogh-A-black-Smoke 17-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41811",
     "Item":"PRD-035159",
-    "ItemName":"Van Gogh-black-Taupe 27",
+    "ItemName":"Van Gogh-A-black-Taupe 27",
     "UnitPrice":"618"
   },
   {
     "ID":"41790",
     "Item":"PRD-035158",
-    "ItemName":"Van Gogh-black-Taupe 27-armchair",
+    "ItemName":"Van Gogh-A-black-Taupe 27-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41802",
     "Item":"PRD-035165",
-    "ItemName":"Van Gogh-black-white 10",
+    "ItemName":"Van Gogh-A-black-white 10",
     "UnitPrice":"618"
   },
   {
     "ID":"41800",
     "Item":"PRD-035164",
-    "ItemName":"Van Gogh-black-white 10-armchair",
+    "ItemName":"Van Gogh-A-black-white 10-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41814",
     "Item":"PRD-035151",
-    "ItemName":"Van Gogh-black-wine red 18",
+    "ItemName":"Van Gogh-A-black-wine red 18",
     "UnitPrice":"618"
   },
   {
     "ID":"41804",
     "Item":"PRD-035150",
-    "ItemName":"Van Gogh-black-wine red 18-armchair",
+    "ItemName":"Van Gogh-A-black-wine red 18-armchair",
     "UnitPrice":"721"
   },
   {
     "ID":"41850",
     "Item":"PRD-029243",
-    "ItemName":"Z-Inox-Textyleen-grey",
+    "ItemName":"Zchair-Textyleen-grey",
     "UnitPrice":"564"
   },
   {
     "ID":"41849",
     "Item":"PRD-029242",
-    "ItemName":"Z-Inox-Textyleen-Taupe",
+    "ItemName":"Zchair-Textyleen-Taupe",
     "UnitPrice":"564"
   },
   {
     "ID":"41847",
     "Item":"PRD-029241",
-    "ItemName":"Z-Inox-Textyleen-white",
+    "ItemName":"Zchair-Textyleen-white",
     "UnitPrice":"564"
   },
   {
