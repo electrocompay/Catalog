@@ -16,7 +16,6 @@
 {
     IBOutlet UIButton *button;
     IBOutlet UIImageView *imageView;
-    
 }
 
 -(id)init
@@ -44,6 +43,10 @@
     [self addSubview:view];
     self.frame = view.frame;
     self.enabled = YES;
+    
+    // Dynamically adapt font size
+    button.titleLabel.numberOfLines = 1;
+    button.titleLabel.adjustsFontSizeToFitWidth = YES;
 }
 
 -(void)setColor:(IWColor *)color

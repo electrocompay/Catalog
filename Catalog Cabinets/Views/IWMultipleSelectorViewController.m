@@ -143,25 +143,36 @@
     } else {
         [headerLabel setHidden:YES];
     }
-    
+
     NSString* priorCategory = nil;
+    BOOL didPrintFirstCategoryLabel = NO;
+
     for (IWColor *color in filteredList) {
         optionView = [[IWOptionView alloc] init];
+
+        // Dynamically adapt font size
+        [self setDinamicallyAdaptedTextForLabel:optionView.label];
+
         [optionView.label setText:color.name];
+ 
         [scrollView addSubview:optionView];
         [subviews addObject:optionView];
         optionView.frame = CGRectMake((optionView.frame.size.width + 10 )* page , 0, pageSize.width - 20, pageSize.height);
         [optionView setTag:page];
         page++;
+
         UITapGestureRecognizer* recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(optionSelected:)];
         [optionView setUserInteractionEnabled:YES];
         [optionView setGestureRecognizers:[NSArray arrayWithObject:recognizer]];
         [optionView setImage:color.file];
-        if (!uniqueCategory && priorCategory != color.category) {
-            UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
-            [newLabel setFont:headerLabel.font];
-            [newLabel setText:color.category];
-            [scrollView addSubview:newLabel];
+        
+        
+        if (uniqueCategory && (headerLabel.hidden == YES) &&  didPrintFirstCategoryLabel == NO) {
+            [self setCategoryLabel:optionView andText:color.category];
+            didPrintFirstCategoryLabel = YES;
+        }
+        else if (!uniqueCategory && priorCategory != color.category) {
+            [self setCategoryLabel:optionView andText:color.category];
             priorCategory = color.category;
         }
     }
@@ -173,6 +184,15 @@
     }
 
     [self updateMarkers];
+}
+
+-(void)setCategoryLabel:(UIView*)optionView andText:(NSString*)text
+{
+    UILabel *newLabel = [[UILabel alloc] initWithFrame:CGRectMake(optionView.frame.origin.x, -29, headerLabel.frame.size.width, headerLabel.frame.size.height)];
+    [newLabel setFont:headerLabel.font];
+    [newLabel setText:text];
+    
+    [scrollView addSubview:newLabel];
 }
 
 -(BOOL)colorFiltered:(NSString*)code
@@ -276,8 +296,24 @@
                 [self setItems:[IWColors cabinetStripeColors]];
             }
         }
-        
     }
+    
+    if (_mode == MultipleSelectorModeFourColors) {
+        if (tag < 4) {
+            // Door Colors
+            NSArray *items = [IWColors cabinetColors];
+            if (items != _items) {
+                [self setItems:[IWColors cabinetColors]];
+            }
+        } else {
+            // Interior Colors
+            NSArray *items = [IWColors cabinetInteriorColors];
+            if (items != _items) {
+                [self setItems:[IWColors cabinetInteriorColors]];
+            }
+        }
+    }
+    
     IWColor * color = [_items colorByCode:colorsPanelView.selectedView.color.code];
     NSInteger index = [_items indexOfObject:color];
     if (index < _items.count) {
@@ -306,6 +342,12 @@
     }
     
     [scrollView setContentOffset:CGPointMake(newXOffset, scrollView.contentOffset.y) animated:YES];
+}
+
+-(void)setDinamicallyAdaptedTextForLabel:(UILabel *)label {
+    // Dynamically adapt font size
+    label.numberOfLines = 1;
+    label.adjustsFontSizeToFitWidth = YES;
 }
 
 @end

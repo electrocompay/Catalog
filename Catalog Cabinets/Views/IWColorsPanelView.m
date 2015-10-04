@@ -29,8 +29,10 @@
     IBOutlet IWColorSelectorView *door8;
     IBOutlet IWColorSelectorView *door9;
     
-    // Beware: I leave the code, not in xib
-//    IBOutlet IWColorSelectorView *stripe;
+    IBOutlet IWColorSelectorView *interior1;
+    IBOutlet IWColorSelectorView *interior2;
+    IBOutlet IWColorSelectorView *interior3;
+    IBOutlet IWColorSelectorView *interior4;
 }
 
 
@@ -54,7 +56,11 @@
         door7.delegate = self;
         door8.delegate = self;
         door9.delegate = self;
-//        stripe.delegate = self;
+
+        interior1.delegate = self;
+        interior2.delegate = self;
+        interior3.delegate = self;
+        interior4.delegate = self;
     }
     return self;
 }
@@ -79,18 +85,21 @@
 
 -(void)setColorToSelection:(IWColor*)color
 {
-    
     if (!_cabinet.useModules) {
         
         if (_cabinet.colors.count > 0 && (door1.selected || _cabinet.oneColorMode)) {
             [_cabinet.colors replaceObjectAtIndex:0 withObject:color];
             door1.color = color;
+            
+            if ([_cabinet.model.code isEqualToString:@"C193"]) {
+                [_cabinet.interiorColors replaceObjectAtIndex:0 withObject:color];
+                interior1.color = color;
+            }
         }
         if (_cabinet.colors.count > 1 && (door2.selected || _cabinet.oneColorMode)) {
             [_cabinet.colors replaceObjectAtIndex:1 withObject:color];
             door2.color = color;
         }
-        
         if (_cabinet.colors.count > 2 && (door3.selected || _cabinet.oneColorMode)) {
             [_cabinet.colors replaceObjectAtIndex:2 withObject:color];
             door3.color = color;
@@ -151,11 +160,7 @@
         if (_cabinet.drawers.count > 2 && (picDrawer3.selected || _cabinet.oneColorMode)) {
             [_cabinet.drawers replaceObjectAtIndex:2 withObject:color];
             picDrawer3.color = color;
-        } } else {
-/*        if (stripe.selected) {
-            _cabinet.stripe = color;
-            stripe.color = color;
-        }*/}
+        } }
     }
     
     if (_delegate) {
@@ -169,6 +174,7 @@
     if (_cabinet.stripe == nil) {
         self.stripeText = @"Optional";
     }
+    
     [self updateLayout];
 }
 
@@ -177,27 +183,47 @@
     if (_cabinet.colors.count > 0) {
         door1.enabled = YES;
         door1.color = [_cabinet.colors objectAtIndex:0];
+        if ([_cabinet.model.code isEqualToString:@"C193"]) {
+            interior1.enabled = YES;
+            interior1.color = [_cabinet.interiorColors objectAtIndex:0];
+        }
     } else {
         door1.enabled = NO;
+        interior1.enabled = NO;
     }
     
     if (_cabinet.colors.count > 1 && ![_cabinet oneColorMode]) {
         door2.enabled = YES;
         door2.color = [_cabinet.colors objectAtIndex:1];
+        if ([_cabinet.model.code isEqualToString:@"C193"]) {
+            interior2.enabled = YES;
+            interior2.color = [_cabinet.interiorColors objectAtIndex:1];
+        }
     } else {
         door2.enabled = NO;
+        interior2.enabled = NO;
     }
     if (_cabinet.colors.count > 2 && ![_cabinet oneColorMode]) {
         door3.enabled = YES;
         door3.color = [_cabinet.colors objectAtIndex:2];
+        if ([_cabinet.model.code isEqualToString:@"C193"]) {
+            interior3.enabled = YES;
+            interior3.color = [_cabinet.interiorColors objectAtIndex:2];
+        }
     } else {
         door3.enabled = NO;
+        interior3.enabled = NO;
     }
     if (_cabinet.colors.count > 3 && ![_cabinet oneColorMode]) {
         door4.enabled = YES;
         door4.color = [_cabinet.colors objectAtIndex:3];
+        if ([_cabinet.model.code isEqualToString:@"C193"]) {
+            interior4.enabled = YES;
+            interior4.color = [_cabinet.interiorColors objectAtIndex:3];
+        }
     } else {
         door4.enabled = NO;
+        interior4.enabled = NO;
     }
     if (_cabinet.colors.count > 4 && ![_cabinet oneColorMode]) {
         door5.enabled = YES;
@@ -261,8 +287,6 @@
         } else {
             door2.enabled = NO;
         }
-        
-       // stripe.enabled = _cabinet.useStripe;
     }
 }
 
@@ -281,24 +305,5 @@
     }
 }
 
-/*
--(void)setStripeText:(NSString *)stripeText
-{
-    stripe.text = stripeText;
-    picDrawer1.selected = NO;
-    picDrawer2.selected = NO;
-    picDrawer3.selected = NO;
-    door1.selected = NO;
-    door2.selected = NO;
-    door3.selected = NO;
-    door4.selected = NO;
-    door5.selected = NO;
-    door6.selected = NO;
-    door7.selected = NO;
-    door8.selected = NO;
-    door9.selected = NO;
-    stripe.selected = NO;
-    [stripe setColor:nil];
-} */
 
 @end

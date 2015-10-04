@@ -15,6 +15,7 @@
 @property (nonatomic, strong) IWModel* model;
 @property (nonatomic, strong) IWColor* color;
 @property (nonatomic, strong) NSMutableArray* colors;
+@property (nonatomic, strong) NSMutableArray* interiorColors;
 @property (nonatomic, strong) IWColor* legsColor;
 @property (nonatomic, strong) IWColor* type;
 @property (nonatomic, strong) IWColor* size;

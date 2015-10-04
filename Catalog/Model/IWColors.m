@@ -32,6 +32,7 @@ NSArray* _cabinet55BSizes;
 NSArray* _cabinet55KSizes;
 
 NSArray* _cabinetsColors;
+NSArray* _cabinetsInteriorColors;
 NSArray* _cabinets83Modules;
 NSArray* _cabinetC193Sizes;
 NSArray* _cabinetStripeColors;
@@ -512,7 +513,22 @@ NSArray* _cabinetDrawerColors;
     }
     
     return _cabinetsColors;
+}
+
++(NSArray *)cabinetInteriorColors
+{
+    if (!_cabinetsInteriorColors) {
+        _cabinetsInteriorColors = [[NSArray alloc] initWithObjects:
+                           [[IWColor colorWithName:@"Transp. / Old oak" andCode:@"80" andFile:@"Transp + Old Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Transp. / Smoke oak" andCode:@"81" andFile:@"Transp + Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Transp. / Light grey" andCode:@"82" andFile:@"Transp + Light grey.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Old oak" andCode:@"83" andFile:@"Black + Old Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Smoke oak" andCode:@"84" andFile:@"Black + Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Light grey" andCode:@"85" andFile:@"Black + Light grey.jpg"] withCategory:@"Xeramica"],
+                           nil];
+    }
     
+    return _cabinetsInteriorColors;
 }
 
 +(NSArray *)cabinet83Modules

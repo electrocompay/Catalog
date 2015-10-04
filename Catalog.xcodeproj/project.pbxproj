@@ -7646,6 +7646,12 @@
 		9E030A351B9CED8000CDB7CC /* Zchair-19-27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E030A301B9CED8000CDB7CC /* Zchair-19-27.jpg */; };
 		9E2C8F311B49F0430082128C /* belux_chair_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */; };
 		9E2C8F321B49F0430082128C /* belux_table_prices_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C8F301B49F0420082128C /* belux_table_prices_2.json */; };
+		9E3E69051BC0F348000BCDFF /* Black + Light grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E68FF1BC0F348000BCDFF /* Black + Light grey.jpg */; };
+		9E3E69061BC0F349000BCDFF /* Black + Old Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E69001BC0F348000BCDFF /* Black + Old Oak.jpg */; };
+		9E3E69071BC0F349000BCDFF /* Black + Smoke Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E69011BC0F348000BCDFF /* Black + Smoke Oak.jpg */; };
+		9E3E69081BC0F349000BCDFF /* Transp + Light grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E69021BC0F348000BCDFF /* Transp + Light grey.jpg */; };
+		9E3E69091BC0F349000BCDFF /* Transp + Smoke Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E69031BC0F348000BCDFF /* Transp + Smoke Oak.jpg */; };
+		9E3E690A1BC0F349000BCDFF /* Transp + Old Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E69041BC0F348000BCDFF /* Transp + Old Oak.jpg */; };
 		9E4B36F91BB933C9006B0F8A /* Beton 70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EE1AC1B9CE692006F87F9 /* Beton 70.jpg */; };
 		9E4B36FE1BBB2B7A006B0F8A /* Rafael-A-16-00-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FA1BBB2B79006B0F8A /* Rafael-A-16-00-A.png */; };
 		9E4B36FF1BBB2B7A006B0F8A /* Rafael-A-16-00-B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B36FB1BBB2B79006B0F8A /* Rafael-A-16-00-B.png */; };
@@ -15756,6 +15762,12 @@
 		9E030A301B9CED8000CDB7CC /* Zchair-19-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zchair-19-27.jpg"; sourceTree = "<group>"; };
 		9E2C8F2F1B49F0420082128C /* belux_chair_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_chair_prices_2.json; path = Catalog/Resources/belux_chair_prices_2.json; sourceTree = SOURCE_ROOT; };
 		9E2C8F301B49F0420082128C /* belux_table_prices_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = belux_table_prices_2.json; path = Catalog/Resources/belux_table_prices_2.json; sourceTree = SOURCE_ROOT; };
+		9E3E68FF1BC0F348000BCDFF /* Black + Light grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Black + Light grey.jpg"; path = "Interiors/Black + Light grey.jpg"; sourceTree = "<group>"; };
+		9E3E69001BC0F348000BCDFF /* Black + Old Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Black + Old Oak.jpg"; path = "Interiors/Black + Old Oak.jpg"; sourceTree = "<group>"; };
+		9E3E69011BC0F348000BCDFF /* Black + Smoke Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Black + Smoke Oak.jpg"; path = "Interiors/Black + Smoke Oak.jpg"; sourceTree = "<group>"; };
+		9E3E69021BC0F348000BCDFF /* Transp + Light grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Transp + Light grey.jpg"; path = "Interiors/Transp + Light grey.jpg"; sourceTree = "<group>"; };
+		9E3E69031BC0F348000BCDFF /* Transp + Smoke Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Transp + Smoke Oak.jpg"; path = "Interiors/Transp + Smoke Oak.jpg"; sourceTree = "<group>"; };
+		9E3E69041BC0F348000BCDFF /* Transp + Old Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Transp + Old Oak.jpg"; path = "Interiors/Transp + Old Oak.jpg"; sourceTree = "<group>"; };
 		9E4B36FA1BBB2B79006B0F8A /* Rafael-A-16-00-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-16-00-A.png"; sourceTree = "<group>"; };
 		9E4B36FB1BBB2B79006B0F8A /* Rafael-A-16-00-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-A-16-00-B.png"; sourceTree = "<group>"; };
 		9E4B36FC1BBB2B7A006B0F8A /* Rafael-S-16-28-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael-S-16-28-A.png"; sourceTree = "<group>"; };
@@ -23109,6 +23121,7 @@
 		4CEEA3C1191FCEAD00C54B67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9E3E68FE1BC0F329000BCDFF /* Interiors */,
 				619A55161B98EBB100D306F8 /* belux_cabinet_prices2.json */,
 				6149D2231B901F2F00A457C4 /* belux_cabinet_prices.json */,
 				4C8F0B7B196B7CE300B8A14E /* TR */,
@@ -24883,6 +24896,19 @@
 				7BE431A21B2856ED00AD3953 /* chrominox cafe-130x70x38 p.png */,
 			);
 			path = "chrominox cafe png";
+			sourceTree = "<group>";
+		};
+		9E3E68FE1BC0F329000BCDFF /* Interiors */ = {
+			isa = PBXGroup;
+			children = (
+				9E3E68FF1BC0F348000BCDFF /* Black + Light grey.jpg */,
+				9E3E69001BC0F348000BCDFF /* Black + Old Oak.jpg */,
+				9E3E69011BC0F348000BCDFF /* Black + Smoke Oak.jpg */,
+				9E3E69021BC0F348000BCDFF /* Transp + Light grey.jpg */,
+				9E3E69031BC0F348000BCDFF /* Transp + Smoke Oak.jpg */,
+				9E3E69041BC0F348000BCDFF /* Transp + Old Oak.jpg */,
+			);
+			name = Interiors;
 			sourceTree = "<group>";
 		};
 		9EF52CC91BAA767300451FAB /* chrominox XL png */ = {
@@ -28859,6 +28885,7 @@
 				4C87DBFA192030BC008F59F0 /* 40-H06-31-00-F1.png in Resources */,
 				4C87D8EB192030BC008F59F0 /* 40-B09-30-T.png in Resources */,
 				4C87E165192030BC008F59F0 /* 55-K12-30-S.png in Resources */,
+				9E3E69071BC0F349000BCDFF /* Black + Smoke Oak.jpg in Resources */,
 				4CEEAA6D191FCEB700C54B67 /* C83-2Da-35-F2-3a.png in Resources */,
 				4C87DF06192030BC008F59F0 /* 55-B09-35-F1.png in Resources */,
 				4C87DC14192030BC008F59F0 /* 40-H06-33-00-F7.png in Resources */,
@@ -29585,6 +29612,7 @@
 				4CEEAA87191FCEB700C54B67 /* C83-2Da-39-F-3a.png in Resources */,
 				4C87DB3A192030BC008F59F0 /* 40-H04-33-00-F4.png in Resources */,
 				4C87D906192030BC008F59F0 /* 40-B09-33-T.png in Resources */,
+				9E3E690A1BC0F349000BCDFF /* Transp + Old Oak.jpg in Resources */,
 				4CB792E6192C6BA700325AD9 /* J83-1D-33-F-1.png in Resources */,
 				4C87DCB1192030BC008F59F0 /* 40-H07-36-00-F7.png in Resources */,
 				9EB7EEE51BB929EB00CE0D55 /* 40-H04-40-00-F5.png in Resources */,
@@ -30162,6 +30190,7 @@
 				4C87DA5E192030BC008F59F0 /* 40-H01-37-00-T.png in Resources */,
 				4C87DB11192030BC008F59F0 /* 40-H04-00-26.png in Resources */,
 				4CB79342192C6BA700325AD9 /* J83-3L-32-F-2.png in Resources */,
+				9E3E69061BC0F349000BCDFF /* Black + Old Oak.jpg in Resources */,
 				4C6E90BC193763E3003EA44C /* Black 90@2x.jpg in Resources */,
 				4C87DED9192030BC008F59F0 /* 55-B09-31-F4.png in Resources */,
 				4C87D8D1192030BC008F59F0 /* 40-B08-39-F.png in Resources */,
@@ -30369,6 +30398,7 @@
 				4C87DB7D192030BC008F59F0 /* 40-H05-29-00-S.png in Resources */,
 				4CEEAB6E191FCEB800C54B67 /* C83-3L-40-F3-2.png in Resources */,
 				4CEEAD5B191FCEBA00C54B67 /* C83-LDDa-37-3a.png in Resources */,
+				9E3E69091BC0F349000BCDFF /* Transp + Smoke Oak.jpg in Resources */,
 				4CEEAC3F191FCEB900C54B67 /* C83-LDD-31-3.png in Resources */,
 				4C87E027192030BC008F59F0 /* 55-H03-39-00-S.png in Resources */,
 				4CEEABAD191FCEB800C54B67 /* C83-3La-32-F-3a.png in Resources */,
@@ -32264,6 +32294,7 @@
 				4CEEAA61191FCEB700C54B67 /* C83-2Da-34-F1-3a.png in Resources */,
 				4CB792FC192C6BA700325AD9 /* J83-1Da-33-F-3.png in Resources */,
 				4C8F0BC4196B856500B8A14E /* C83-LDD-29-TR-1.png in Resources */,
+				9E3E69051BC0F348000BCDFF /* Black + Light grey.jpg in Resources */,
 				4C87DC00192030BC008F59F0 /* 40-H06-31-00-F7.png in Resources */,
 				4CEEA943191FCEB600C54B67 /* C83-1Da-36-F-4a.png in Resources */,
 				4CEEA8CB191FCEB600C54B67 /* C83-1D-33-S-1.png in Resources */,
@@ -32390,6 +32421,7 @@
 				4CEEACB2191FCEB900C54B67 /* C83-LDD-37-F-1.png in Resources */,
 				4C87DBAB192030BC008F59F0 /* 40-H05-34-00-F6.png in Resources */,
 				4C87E023192030BC008F59F0 /* 55-H03-39-00-F1.png in Resources */,
+				9E3E69081BC0F349000BCDFF /* Transp + Light grey.jpg in Resources */,
 				4C87DE94192030BC008F59F0 /* 55-B08-35-F6.png in Resources */,
 				4CEEA940191FCEB600C54B67 /* C83-1Da-36-4a.png in Resources */,
 				4C87DC76192030BC008F59F0 /* 40-H07-31-00-F3.png in Resources */,

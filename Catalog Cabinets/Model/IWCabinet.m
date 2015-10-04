@@ -27,11 +27,13 @@
 {
     _model = [[IWColors cabinetModels] objectAtIndex:0];
     _color = [[IWColors cabinetColors] objectAtIndex:0];
+    _interiorColor = [[IWColors cabinetInteriorColors] objectAtIndex:0];
     _legsColor = [IWColor colorWithName:nil andCode:@"27" andFile:nil];
     _top = [[IWColors cabinetColors] objectAtIndex:0];
     _side = [[IWColors cabinetColors] objectAtIndex:0];
     _legsColor = [IWColor colorWithName:nil andCode:@"22" andFile:nil];
     _colors = [[NSMutableArray alloc] init];
+    _interiorColors = [[NSMutableArray alloc] init];
     _drawers = [[NSMutableArray alloc] init];
     _subModule = NO;
     _oneColorMode = YES;
@@ -102,6 +104,7 @@
             for (int i = 0; i < ndoors; i++) {
                 [_colors addObject: _color];
             }
+            
             NSInteger ndrawers = [params[1] intValue];
             IWColor* drawerColor = [_model.code isEqualToString:@"J83"] ? [[IWColors cabinetDrawerColors] colorByCode:@"29"] : [[IWColors cabinetDrawerColors] colorByCode:@"29"];
             [_drawers removeAllObjects];
@@ -114,6 +117,11 @@
                  for (int i = 0; i < size; i++) {
                      [_colors addObject: _color];
                  }
+            
+            [_interiorColors removeAllObjects];
+                for (int i = 0; i < size; i++) {
+                    [_interiorColors addObject: _interiorColor];
+                }
         }
     }
 }
