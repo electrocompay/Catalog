@@ -170,34 +170,41 @@
         [self addLayer:filename];
 
         if ([cabinet.model.code isEqualToString:@"C193"]) {
-            filename = [NSString stringWithFormat:@"%@-%dD-29-T%@", cabinet.model.code, cabinet.colors.count, @"34"];
+            filename = [NSString stringWithFormat:@"%@-%luD-29-T%@", cabinet.model.code, (unsigned long)cabinet.colors.count, @"34"];
             [self addLayer:filename];
         }
         
         for (int i = 0; i<cabinet.colors.count; i++) {
             IWColor *color = [cabinet.colors objectAtIndex:i];
-            /*if (i == 0) {
-                filename = [NSString stringWithFormat:@"%@-%@%@-%@-F", cabinet.model.code, cabinet.type.code, cabinet.size.code, color.code];
-            } else {*/
                 filename = [NSString stringWithFormat:@"%@-%@%@-%@-F%d", cabinet.model.code, cabinet.type.code, cabinet.size.code, color.code, i +1];
-           // }
             
             if ([cabinet.model.code isEqualToString:@"C193"]) {
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-T", cabinet.model.code, cabinet.colors.count, cabinet.top.code];
+                filename = [NSString stringWithFormat:@"%@-%luD-%@-T", cabinet.model.code, (unsigned long)cabinet.colors.count, cabinet.top.code];
                 [self addLayer:filename];
                 if (cabinet.colors.count == 1) {
-                    filename = [NSString stringWithFormat:@"%@-%dD-%@-F", cabinet.model.code, cabinet.colors.count, color.code];
+                    filename = [NSString stringWithFormat:@"%@-%luD-%@-F", cabinet.model.code, cabinet.colors.count, color.code];
                 } else {
-                    filename = [NSString stringWithFormat:@"%@-%dD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
+                    filename = [NSString stringWithFormat:@"%@-%luD-%@-F%d", cabinet.model.code, cabinet.colors.count, color.code, i + 1];
                 }
                 [self addLayer:filename];
-                filename = [NSString stringWithFormat:@"%@-%dD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
+                filename = [NSString stringWithFormat:@"%@-%luD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
-                filename = [NSString stringWithFormat:@"%@-%dD-29-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
+               // filename = [NSString stringWithFormat:@"%@-%luD-29-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
                 [self addLayer:filename];
             }
             [self addLayer:filename];
-            
+        }
+
+        if ([cabinet.model.code isEqualToString:@"C193"]) {
+            for (int i = 0; i<cabinet.interiorColors.count; i++) {
+                IWColor *color = [cabinet.interiorColors objectAtIndex:i];
+                if (cabinet.interiorColors.count == 1) {
+                    filename = [NSString stringWithFormat:@"%@-%luD-29-%@-V", cabinet.model.code, cabinet.interiorColors.count, color.code];
+                } else {
+                    filename = [NSString stringWithFormat:@"%@-%luD-29-%@-V%d", cabinet.model.code, cabinet.interiorColors.count, color.code, i + 1];
+                }
+                [self addLayer:filename];
+            }
         }
         
         filename = [NSString stringWithFormat:@"%@-%@%@-%@-T", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.top.code];
@@ -206,7 +213,6 @@
         filename = [NSString stringWithFormat:@"%@-%@%@-%@-S", cabinet.model.code, cabinet.type.code, cabinet.size.code, cabinet.side.code];
         [self addLayer:filename];
     }
-    
 }
 
 -(void)activateModule:(NSInteger)module

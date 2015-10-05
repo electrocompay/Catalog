@@ -9,6 +9,8 @@
 #import "IWColorsPanelView.h"
 #import "IWColorSelectorView.h"
 
+#import "IWColors.h"
+
 @interface IWColorsPanelView ()
 
 @end
@@ -87,46 +89,60 @@
 {
     if (!_cabinet.useModules) {
         
-        if (_cabinet.colors.count > 0 && (door1.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:0 withObject:color];
-            door1.color = color;
-            
-            if ([_cabinet.model.code isEqualToString:@"C193"]) {
+        if ([self colorBelongsToInterior:color.code]) {
+            if (_cabinet.interiorColors.count > 0 && (interior1.selected || _cabinet.oneColorMode)) {
                 [_cabinet.interiorColors replaceObjectAtIndex:0 withObject:color];
                 interior1.color = color;
             }
-        }
-        if (_cabinet.colors.count > 1 && (door2.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:1 withObject:color];
-            door2.color = color;
-        }
-        if (_cabinet.colors.count > 2 && (door3.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:2 withObject:color];
-            door3.color = color;
-        }
-        if (_cabinet.colors.count > 3 && (door4.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:3 withObject:color];
-            door4.color = color;
-        }
-        if (_cabinet.colors.count > 4 && (door5.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:4 withObject:color];
-            door5.color = color;
-        }
-        if (_cabinet.colors.count > 5 && (door6.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:5 withObject:color];
-            door6.color = color;
-        }
-        if (_cabinet.colors.count > 6 && (door7.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:6 withObject:color];
-            door7.color = color;
-        }
-        if (_cabinet.colors.count > 7 && (door8.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:7 withObject:color];
-            door8.color = color;
-        }
-        if (_cabinet.colors.count > 8 && (door9.selected || _cabinet.oneColorMode)) {
-            [_cabinet.colors replaceObjectAtIndex:8 withObject:color];
-            door9.color = color;
+            if (_cabinet.interiorColors.count > 1 && (interior2.selected || _cabinet.oneColorMode)) {
+                [_cabinet.interiorColors replaceObjectAtIndex:1 withObject:color];
+                interior2.color = color;
+            }
+            if (_cabinet.interiorColors.count > 2 && (interior3.selected || _cabinet.oneColorMode)) {
+                [_cabinet.interiorColors replaceObjectAtIndex:2 withObject:color];
+                interior3.color = color;
+            }
+            if (_cabinet.interiorColors.count > 3 && (interior4.selected || _cabinet.oneColorMode)) {
+                [_cabinet.interiorColors replaceObjectAtIndex:3 withObject:color];
+                interior4.color = color;
+            }
+        } else {
+            if (_cabinet.colors.count > 0 && (door1.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:0 withObject:color];
+                door1.color = color;
+            }
+            if (_cabinet.colors.count > 1 && (door2.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:1 withObject:color];
+                door2.color = color;
+            }
+            if (_cabinet.colors.count > 2 && (door3.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:2 withObject:color];
+                door3.color = color;
+            }
+            if (_cabinet.colors.count > 3 && (door4.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:3 withObject:color];
+                door4.color = color;
+            }
+            if (_cabinet.colors.count > 4 && (door5.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:4 withObject:color];
+                door5.color = color;
+            }
+            if (_cabinet.colors.count > 5 && (door6.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:5 withObject:color];
+                door6.color = color;
+            }
+            if (_cabinet.colors.count > 6 && (door7.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:6 withObject:color];
+                door7.color = color;
+            }
+            if (_cabinet.colors.count > 7 && (door8.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:7 withObject:color];
+                door8.color = color;
+            }
+            if (_cabinet.colors.count > 8 && (door9.selected || _cabinet.oneColorMode)) {
+                [_cabinet.colors replaceObjectAtIndex:8 withObject:color];
+                door9.color = color;
+            }
         }
     } else {
         NSInteger selectedTag = 0;
@@ -168,6 +184,19 @@
     }
 }
 
+-(BOOL)colorBelongsToInterior:(NSString*)colorCode
+{
+    NSArray *interiorColors = [IWColors cabinetInteriorColors];
+    for (int colorIndex = 0; colorIndex < interiorColors.count; colorIndex++) {
+        IWColor *interiorColor = interiorColors[colorIndex];
+        if ([colorCode isEqualToString:interiorColor.code]) {
+            return YES;
+        }
+    }
+    
+    return NO;
+}
+
 -(void)setCabinet:(IWCabinet *)cabinet
 {
     _cabinet = cabinet;
@@ -183,48 +212,59 @@
     if (_cabinet.colors.count > 0) {
         door1.enabled = YES;
         door1.color = [_cabinet.colors objectAtIndex:0];
-        if ([_cabinet.model.code isEqualToString:@"C193"]) {
-            interior1.enabled = YES;
-            interior1.color = [_cabinet.interiorColors objectAtIndex:0];
-        }
     } else {
         door1.enabled = NO;
+    }
+
+    if (_cabinet.interiorColors.count > 0) {
+        interior1.enabled = YES;
+        interior1.color = [_cabinet.interiorColors objectAtIndex:0];
+    } else {
         interior1.enabled = NO;
     }
-    
+
     if (_cabinet.colors.count > 1 && ![_cabinet oneColorMode]) {
         door2.enabled = YES;
         door2.color = [_cabinet.colors objectAtIndex:1];
-        if ([_cabinet.model.code isEqualToString:@"C193"]) {
-            interior2.enabled = YES;
-            interior2.color = [_cabinet.interiorColors objectAtIndex:1];
-        }
     } else {
         door2.enabled = NO;
+    }
+
+    if (_cabinet.interiorColors.count > 1 && ![_cabinet oneColorMode]) {
+        interior2.enabled = YES;
+        interior2.color = [_cabinet.interiorColors objectAtIndex:1];
+    } else {
         interior2.enabled = NO;
     }
+    
     if (_cabinet.colors.count > 2 && ![_cabinet oneColorMode]) {
         door3.enabled = YES;
         door3.color = [_cabinet.colors objectAtIndex:2];
-        if ([_cabinet.model.code isEqualToString:@"C193"]) {
-            interior3.enabled = YES;
-            interior3.color = [_cabinet.interiorColors objectAtIndex:2];
-        }
     } else {
         door3.enabled = NO;
+    }
+
+    if (_cabinet.interiorColors.count > 2 && ![_cabinet oneColorMode]) {
+        interior3.enabled = YES;
+        interior3.color = [_cabinet.interiorColors objectAtIndex:2];
+    } else {
         interior3.enabled = NO;
     }
+
     if (_cabinet.colors.count > 3 && ![_cabinet oneColorMode]) {
         door4.enabled = YES;
         door4.color = [_cabinet.colors objectAtIndex:3];
-        if ([_cabinet.model.code isEqualToString:@"C193"]) {
-            interior4.enabled = YES;
-            interior4.color = [_cabinet.interiorColors objectAtIndex:3];
-        }
     } else {
         door4.enabled = NO;
+    }
+    
+    if (_cabinet.interiorColors.count > 3 && ![_cabinet oneColorMode]) {
+        interior4.enabled = YES;
+        interior4.color = [_cabinet.interiorColors objectAtIndex:3];
+    } else {
         interior4.enabled = NO;
     }
+    
     if (_cabinet.colors.count > 4 && ![_cabinet oneColorMode]) {
         door5.enabled = YES;
         door5.color = [_cabinet.colors objectAtIndex:4];
