@@ -60,6 +60,8 @@ priceListEnum priceList;
         NSNumber *value = [price objectForKey:@"UnitPrice"];
         if (value) {
             return [value doubleValue];
+        } else {
+            [self alertPriceNotFound:priceKey];
         }
     }
 
@@ -91,6 +93,8 @@ priceListEnum priceList;
         NSNumber *value = [price objectForKey:@"UnitPrice"];
         if (value) {
             return [value doubleValue];
+        } else {
+            [self alertPriceNotFound:priceKey];
         }
     }
 
@@ -180,6 +184,8 @@ priceListEnum priceList;
         NSNumber *value = [price objectForKey:@"UnitPrice"];
         if (value) {
             return [value doubleValue];
+        } else {
+            [self alertPriceNotFound:priceKey];
         }
     }
     
@@ -286,6 +292,15 @@ priceListEnum priceList;
     }
     
     return totalPrice;
+}
+
+-(void)alertPriceNotFound:(NSString*)priceKey{
+    
+    if (!priceKey) return;
+    if ([priceKey containsString:@"NULL"]) return;
+    
+    [[[UIAlertView alloc] initWithTitle:@"Prices" message:[NSString stringWithFormat:@"No prices found with id %@", priceKey] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+    
 }
 
 @end
