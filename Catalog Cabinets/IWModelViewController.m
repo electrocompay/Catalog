@@ -159,13 +159,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(NSArray*)colorsWithoutBrown
-{
-    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetColors]];
-    [array removeObjectAtIndex:array.count - 1];
-    return array;
-}
-
 
 #pragma mark -
 #pragma mark BrowserTabViewDelegate
@@ -327,17 +320,11 @@
     [tabController setTabWidth:135];
     [tabController setSelectedTabIndex:0 animated:NO];
     
+    [selectorDoorsView setItems:[IWColors cabinetColors]];
+    [selectorSideView setItems:[IWColors cabinetSideColors]];
     if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"] || [cabinet.model.code isEqualToString:@"C193"] ) {
-        [selectorDoorsView setItems:[IWColors cabinetColors]];
-        [selectorSideView setItems:[IWColors cabinetSideColors]];
         selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41"] : [IWColors cabinetTopColors];
     } else {
-        [selectorDoorsView setItems:[self colorsWithoutBrown]];
-        [selectorSideView setItems:[IWColors cabinetSideColors]];
-        if ([cabinet.model.code isEqualToString:@"55"])
-            selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40"];
-         else
-            selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40,41"];
         [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
     }
     [self endUpdate];
