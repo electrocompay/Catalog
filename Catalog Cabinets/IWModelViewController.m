@@ -113,13 +113,13 @@
         
         selectorTopView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorTopView setPropertyName:@"top color"];
-        [self prepareSelector:selectorTopView withColors:[self topColorsWithoutBrown]];
+        [self prepareSelector:selectorTopView withColors:[IWColors cabinetTopColors]];
         [selectorTopView setFilteredItems:cabinet.model.colors];
         
         selectorSideView = [[IWSelectorViewController alloc] initWithNibName:@"IWSelectorViewController" bundle:nil];
         [selectorSideView setPropertyName:@"side color"];
        
-        [self prepareSelector:selectorSideView withColors:[self sideColorsWithoutBrown]];
+        [self prepareSelector:selectorSideView withColors:[IWColors cabinetSideColors]];
         [selectorSideView setFilteredItems:cabinet.model.legColors];
         
         selectorDoorsView = [[IWMultipleSelectorViewController alloc] initWithMode:MultipleSelectorModeNineColors];
@@ -166,19 +166,6 @@
     return array;
 }
 
--(NSArray*)sideColorsWithoutBrown
-{
-    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetSideColors]];
-    [array removeObjectAtIndex:array.count - 1];
-    return array;
-}
-
--(NSArray*)topColorsWithoutBrown
-{
-    NSMutableArray* array = [NSMutableArray arrayWithArray:[IWColors cabinetTopColors]];
-    [array removeObjectAtIndex:array.count - 1];
-    return array;
-}
 
 #pragma mark -
 #pragma mark BrowserTabViewDelegate
@@ -346,7 +333,7 @@
         selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41"] : [IWColors cabinetTopColors];
     } else {
         [selectorDoorsView setItems:[self colorsWithoutBrown]];
-        [selectorSideView setItems:[self sideColorsWithoutBrown]];
+        [selectorSideView setItems:[IWColors cabinetSideColors]];
         if ([cabinet.model.code isEqualToString:@"55"])
             selectorTopView.items = [[IWColors cabinetTopColors] withoutColor:@"40"];
          else

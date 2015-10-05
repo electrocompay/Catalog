@@ -166,7 +166,6 @@
         [optionView setGestureRecognizers:[NSArray arrayWithObject:recognizer]];
         [optionView setImage:color.file];
         
-        
         if (uniqueCategory && (headerLabel.hidden == YES) &&  didPrintFirstCategoryLabel == NO) {
             [self setCategoryLabel:optionView andText:color.category];
             didPrintFirstCategoryLabel = YES;
