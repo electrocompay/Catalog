@@ -321,11 +321,13 @@
     [tabController setSelectedTabIndex:0 animated:NO];
     
     [selectorDoorsView setItems:[IWColors cabinetColors]];
-    [selectorSideView setItems:[IWColors cabinetSideColors]];
     if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"] || [cabinet.model.code isEqualToString:@"C193"] ) {
-        selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41"] : [IWColors cabinetTopColors];
+        selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41,70"] : [IWColors cabinetTopColors];
+        
+        selectorSideView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetSideColors] withoutColor:@"34,35,70"] : [IWColors cabinetSideColors];
     } else {
         [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
+        [selectorSideView setItems:[IWColors cabinetSideColors]];
     }
     [self endUpdate];
     [self drawAll];
