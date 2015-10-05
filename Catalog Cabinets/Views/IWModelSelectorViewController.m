@@ -166,7 +166,6 @@
             [picker4 resetAndDisable];
             _cabinet.module4.size = picker4.selection;
         }
-        
     }
     
     if (pickerViewController == picker3) {
@@ -221,7 +220,7 @@
         _cabinet.module4.size = picker4.selection;
     }
     
-    //[self refreshPickers];
+    [self refreshPickers];
     
     [_delegate didSelect:self andColor:color];
 }

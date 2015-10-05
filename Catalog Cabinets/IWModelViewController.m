@@ -578,7 +578,7 @@
 #pragma marks Prices
 
 -(IBAction)priceMenu_Clicked:(id)sender{
-        [passwordDialog showLeftTriangle];
+        [passwordDialog showRightTriangle];
         if (passwordDialog.hidden) {
             [self createFackeButton];
             [passwordDialog setHidden:NO];
