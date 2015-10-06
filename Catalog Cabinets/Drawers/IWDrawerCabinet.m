@@ -114,7 +114,7 @@
     
     if (_doAnimate) {
         filename = [NSString stringWithFormat:mask, modelCode, modelMask, strSufix, cabinet.top.code, @"TR", @"", position, strSufix];
-        NSString *filename2 = [NSString stringWithFormat:@"%@-%@-%ld%@", modelCode, modelMask, (long)position, strSufix];
+        NSString *filename2 = [NSString stringWithFormat:@"%@-%@%@-%ld%@", modelCode, modelMask, strSufix, (long)position, strSufix];
         [self addLayer:filename2];
         UIView *trView = [self addLayer:filename];
         [UIView animateWithDuration:0.3 animations:^(void) {
@@ -189,7 +189,6 @@
                 [self addLayer:filename];
                 filename = [NSString stringWithFormat:@"%@-%luD-%@-S", cabinet.model.code, cabinet.colors.count, cabinet.side.code];
                 [self addLayer:filename];
-               // filename = [NSString stringWithFormat:@"%@-%luD-29-T%@-V", cabinet.model.code, cabinet.colors.count, cabinet.interiorColor.code];
                 [self addLayer:filename];
             }
             [self addLayer:filename];
