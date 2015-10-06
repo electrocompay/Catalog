@@ -10,6 +10,8 @@
 #import "IWDrawerCabinet.h"
 #import "IWPriceManager.h"
 
+NSString* defaultModuleDescriptionText = @"Not available";
+
 @interface IWCabinetSummaryView ()
 
 @end
@@ -118,7 +120,6 @@
     IBOutlet UILabel* _subModule_4_3_ExtraPrice;
     
     IBOutlet UILabel* _grandTotalPrice;
-    
 }
 
 -(id)init
@@ -151,12 +152,12 @@
 -(void)showSummaryForCabinet:(IWCabinet *)cabinet
 {
     _cabinet = cabinet;
-    
     IWDrawerCabinet* cabinetDrawer = [[IWDrawerCabinet alloc] init];
 
     [cabinetDrawer setView:_frontView];
-    
     [cabinetDrawer drawForniture:_cabinet];
+    
+    [self setInitialLayout];
     
     [self updateAttributes];
 }
@@ -166,6 +167,10 @@
     
     _cabinetModel.text = _cabinet.model.name;
     
+    IWPriceManager *priceManager = [[IWPriceManager alloc] init];
+    
+    _grandTotalPrice.text = [NSString stringWithFormat:@"%.2f €",[priceManager getCabinetPrice:_cabinet]];
+
     // Modules
     [self showModulesDescriptionsAndPrices];
     
@@ -197,28 +202,31 @@
 
     [_grandTotalPrice setText:[NSString stringWithFormat:@"%.0f €", chairPrice + tablePrice]];
 */
-    
-    IWPriceManager *priceManager = [[IWPriceManager alloc] init];
-    
-    _grandTotalPrice.text = [NSString stringWithFormat:@"%.2f €",[priceManager getCabinetPrice:_cabinet]];
 }
 
 -(void) showModulesDescriptionsAndPrices {
     
     // Module 1 (always present)
     _module1Desc.text = _cabinet.size.name;
-    _module1Price.text = @"123";
     
-    // Hide all modules and show only presents
-    _module2Title.hidden = YES;
-    _module2Desc.hidden = YES;
-    _module2Price.hidden = YES;
-    _module3Title.hidden = YES;
-    _module3Desc.hidden = YES;
-    _module3Price.hidden = YES;
-    _module4Title.hidden = YES;
-    _module4Desc.hidden = YES;
-    _module4Price.hidden = YES;
+    if([_cabinet.model.code isEqualToString:@""])
+    {
+        _module1Price.text = @"100 €";
+       /* _subModule_1_1_Desc.text = defaultModuleDescriptionText;
+        _subModule_1_1_Color.hidden = YES;
+        _subModule_1_1_Price.hidden = YES;
+        
+        _subModule_1_2_Desc.text = @"";
+        _subModule_1_2_Color.hidden = YES;
+        _subModule_1_2_Price.hidden = YES;
+        
+        _subModule_1_3_Desc.text = @"";
+        _subModule_1_3_Color.hidden = YES;
+        _subModule_1_3_Price.hidden = YES;*/
+
+    } else {
+        _module1Price.text = _grandTotalPrice.text;
+    }
     
     // Module 2
     if (_cabinet.module2 && ![_cabinet.module2.size.name  isEqual: @"---"]) {
@@ -227,7 +235,19 @@
         _module2Price.hidden = NO;
 
         _module2Desc.text = _cabinet.module2.size.name;
-        _module2Price.text = @"100";
+        _module2Price.text = @"100 €";
+        
+       /* _subModule_2_1_Desc.text = defaultModuleDescriptionText;
+        _subModule_2_1_Color.hidden = YES;
+        _subModule_2_1_Price.hidden = YES;
+        
+        _subModule_2_2_Desc.text = @"";
+        _subModule_2_2_Color.hidden = YES;
+        _subModule_2_2_Price.hidden = YES;
+        
+        _subModule_2_3_Desc.text = @"";
+        _subModule_2_3_Color.hidden = YES;
+        _subModule_2_3_Price.hidden = YES;*/
     }
 
     // Module 3
@@ -237,7 +257,19 @@
         _module3Price.hidden = NO;
 
         _module3Desc.text = _cabinet.module3.size.name;
-        _module3Price.text = @"100";
+        _module3Price.text = @"100 €";
+        
+        /*_subModule_3_1_Desc.text = defaultModuleDescriptionText;
+        _subModule_3_1_Color.hidden = YES;
+        _subModule_3_1_Price.hidden = YES;
+        
+        _subModule_3_2_Desc.text = @"";
+        _subModule_3_2_Color.hidden = YES;
+        _subModule_3_2_Price.hidden = YES;
+        
+        _subModule_3_3_Desc.text = @"";
+        _subModule_3_3_Color.hidden = YES;
+        _subModule_3_3_Price.hidden = YES;*/
     }
 
     // Module 4
@@ -247,8 +279,110 @@
         _module4Price.hidden = NO;
 
         _module4Desc.text = _cabinet.module4.size.name;
-        _module4Price.text = @"100";
+        _module4Price.text = @"100 €";
+        
+        /*_subModule_4_1_Desc.text = defaultModuleDescriptionText;
+        _subModule_4_1_Color.hidden = YES;
+        _subModule_4_1_Price.hidden = YES;
+        
+        _subModule_4_2_Desc.text = @"";
+        _subModule_4_2_Color.hidden = YES;
+        _subModule_4_2_Price.hidden = YES;
+        
+        _subModule_4_3_Desc.text = @"";
+        _subModule_4_3_Color.hidden = YES;
+        _subModule_4_3_Price.hidden = YES;*/
     }
+}
+
+-(void)setInitialLayout
+{
+    // Modules titles
+    _module2Title.hidden = YES;
+    _module3Title.hidden = YES;
+    _module4Title.hidden = YES;
+    
+    // Modules description
+    _module2Desc.hidden = YES;
+    _module3Desc.hidden = YES;
+    _module4Desc.hidden = YES;
+    
+    // Modules Prices
+    _module2Price.hidden = YES;
+    _module3Price.hidden = YES;
+    _module4Price.hidden = YES;
+
+    // Hide Extra Prices
+    _topColorExtraPrice.hidden = YES;
+    _sideColorExtraPrice.hidden = YES;
+    
+    // Module 1
+    _subModule_1_1_Desc.text = defaultModuleDescriptionText;
+    _subModule_1_1_Color.hidden = YES;
+    _subModule_1_1_Price.hidden = YES;
+    
+    _subModule_1_2_Desc.text = @"";
+    _subModule_1_2_Color.hidden = YES;
+    _subModule_1_2_Price.hidden = YES;
+
+    _subModule_1_3_Desc.text = @"";
+    _subModule_1_3_Color.hidden = YES;
+    _subModule_1_3_Price.hidden = YES;
+
+    _subModule_1_1_ExtraPrice.hidden = YES;
+    _subModule_1_2_ExtraPrice.hidden = YES;
+    _subModule_1_3_ExtraPrice.hidden = YES;
+    
+    // Module 2
+    _subModule_2_1_Desc.text = defaultModuleDescriptionText;
+    _subModule_2_1_Color.hidden = YES;
+    _subModule_2_1_Price.hidden = YES;
+    
+    _subModule_2_2_Desc.text = @"";
+    _subModule_2_2_Color.hidden = YES;
+    _subModule_2_2_Price.hidden = YES;
+    
+    _subModule_2_3_Desc.text = @"";
+    _subModule_2_3_Color.hidden = YES;
+    _subModule_2_3_Price.hidden = YES;
+
+    _subModule_2_1_ExtraPrice.hidden = YES;
+    _subModule_2_2_ExtraPrice.hidden = YES;
+    _subModule_2_3_ExtraPrice.hidden = YES;
+    
+    // Module 3
+    _subModule_3_1_Desc.text = defaultModuleDescriptionText;
+    _subModule_3_1_Color.hidden = YES;
+    _subModule_3_1_Price.hidden = YES;
+    
+    _subModule_3_2_Desc.text = @"";
+    _subModule_3_2_Color.hidden = YES;
+    _subModule_3_2_Price.hidden = YES;
+    
+    _subModule_3_3_Desc.text = @"";
+    _subModule_3_3_Color.hidden = YES;
+    _subModule_3_3_Price.hidden = YES;
+    
+    _subModule_3_1_ExtraPrice.hidden = YES;
+    _subModule_3_2_ExtraPrice.hidden = YES;
+    _subModule_3_3_ExtraPrice.hidden = YES;
+
+    // Module 4
+    _subModule_4_1_Desc.text = defaultModuleDescriptionText;
+    _subModule_4_1_Color.hidden = YES;
+    _subModule_4_1_Price.hidden = YES;
+    
+    _subModule_4_2_Desc.text = @"";
+    _subModule_4_2_Color.hidden = YES;
+    _subModule_4_2_Price.hidden = YES;
+    
+    _subModule_4_3_Desc.text = @"";
+    _subModule_4_3_Color.hidden = YES;
+    _subModule_4_3_Price.hidden = YES;
+    
+    _subModule_4_1_ExtraPrice.hidden = YES;
+    _subModule_4_2_ExtraPrice.hidden = YES;
+    _subModule_4_3_ExtraPrice.hidden = YES;
 }
 
 @end
