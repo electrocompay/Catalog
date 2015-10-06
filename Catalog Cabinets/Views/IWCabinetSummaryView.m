@@ -19,6 +19,12 @@ NSString* defaultModuleDescriptionText = @"Not available";
 @implementation IWCabinetSummaryView{
     
     IWCabinet* _cabinet;
+    IWPriceManager* _priceManager;
+    
+    NSArray* _module1Submodules;
+    NSArray* _module2Submodules;
+    NSArray* _module3Submodules;
+    NSArray* _module4Submodules;
     
     IBOutlet UIView* _frontView;
     
@@ -147,6 +153,8 @@ NSString* defaultModuleDescriptionText = @"Not available";
     UIView* view = [[[NSBundle mainBundle] loadNibNamed:@"IWCabinetSummaryView" owner:self options:nil] objectAtIndex:0];
     [self addSubview:view];
     self.frame = view.frame;
+
+    _priceManager = [[IWPriceManager alloc] init];
 }
 
 -(void)showSummaryForCabinet:(IWCabinet *)cabinet
@@ -157,8 +165,9 @@ NSString* defaultModuleDescriptionText = @"Not available";
     [cabinetDrawer setView:_frontView];
     [cabinetDrawer drawForniture:_cabinet];
     
-    [self setInitialLayout];
+    [self initializeSubmodulesArrays];
     
+    [self setInitialLayout];
     [self updateAttributes];
 }
 
@@ -167,9 +176,7 @@ NSString* defaultModuleDescriptionText = @"Not available";
     
     _cabinetModel.text = _cabinet.model.name;
     
-    IWPriceManager *priceManager = [[IWPriceManager alloc] init];
-    
-    _grandTotalPrice.text = [NSString stringWithFormat:@"%.2f €",[priceManager getCabinetPrice:_cabinet]];
+    _grandTotalPrice.text = [NSString stringWithFormat:@"%.2f €",[_priceManager getCabinetPrice:_cabinet]];
 
     // Modules
     [self showModulesDescriptionsAndPrices];
@@ -209,89 +216,48 @@ NSString* defaultModuleDescriptionText = @"Not available";
     // Module 1 (always present)
     _module1Desc.text = _cabinet.size.name;
     
-    if([_cabinet.model.code isEqualToString:@""])
+    if([_cabinet.model.code isEqualToString:@"C83"])
     {
-        _module1Price.text = @"100 €";
-       /* _subModule_1_1_Desc.text = defaultModuleDescriptionText;
-        _subModule_1_1_Color.hidden = YES;
-        _subModule_1_1_Price.hidden = YES;
-        
-        _subModule_1_2_Desc.text = @"";
-        _subModule_1_2_Color.hidden = YES;
-        _subModule_1_2_Price.hidden = YES;
-        
-        _subModule_1_3_Desc.text = @"";
-        _subModule_1_3_Color.hidden = YES;
-        _subModule_1_3_Price.hidden = YES;*/
-
+        [self printModuleInfo:_cabinet andSubmodules:_module1Submodules];
+        _module1Price.text = [NSString stringWithFormat:@"%.2f €",[_priceManager getCabinetPrice:_cabinet forModule:0]];
     } else {
         _module1Price.text = _grandTotalPrice.text;
     }
     
     // Module 2
     if (_cabinet.module2 && ![_cabinet.module2.size.name  isEqual: @"---"]) {
+
         _module2Title.hidden = NO;
         _module2Desc.hidden = NO;
         _module2Price.hidden = NO;
 
         _module2Desc.text = _cabinet.module2.size.name;
-        _module2Price.text = @"100 €";
-        
-       /* _subModule_2_1_Desc.text = defaultModuleDescriptionText;
-        _subModule_2_1_Color.hidden = YES;
-        _subModule_2_1_Price.hidden = YES;
-        
-        _subModule_2_2_Desc.text = @"";
-        _subModule_2_2_Color.hidden = YES;
-        _subModule_2_2_Price.hidden = YES;
-        
-        _subModule_2_3_Desc.text = @"";
-        _subModule_2_3_Color.hidden = YES;
-        _subModule_2_3_Price.hidden = YES;*/
+        [self printModuleInfo:_cabinet.module2 andSubmodules:_module2Submodules];
+        _module2Price.text = [NSString stringWithFormat:@"%.2f €",[_priceManager getCabinetPrice:_cabinet forModule:1]];
     }
 
     // Module 3
     if (_cabinet.module3 && ![_cabinet.module3.size.name  isEqual: @"---"]) {
+
         _module3Title.hidden = NO;
         _module3Desc.hidden = NO;
         _module3Price.hidden = NO;
 
         _module3Desc.text = _cabinet.module3.size.name;
-        _module3Price.text = @"100 €";
-        
-        /*_subModule_3_1_Desc.text = defaultModuleDescriptionText;
-        _subModule_3_1_Color.hidden = YES;
-        _subModule_3_1_Price.hidden = YES;
-        
-        _subModule_3_2_Desc.text = @"";
-        _subModule_3_2_Color.hidden = YES;
-        _subModule_3_2_Price.hidden = YES;
-        
-        _subModule_3_3_Desc.text = @"";
-        _subModule_3_3_Color.hidden = YES;
-        _subModule_3_3_Price.hidden = YES;*/
+        [self printModuleInfo:_cabinet.module3 andSubmodules:_module3Submodules];
+        _module3Price.text = [NSString stringWithFormat:@"%.2f €",[_priceManager getCabinetPrice:_cabinet forModule:2]];
     }
 
     // Module 4
     if (_cabinet.module4 && ![_cabinet.module4.size.name  isEqual: @"---"]) {
+
         _module4Title.hidden = NO;
         _module4Desc.hidden = NO;
         _module4Price.hidden = NO;
 
         _module4Desc.text = _cabinet.module4.size.name;
-        _module4Price.text = @"100 €";
-        
-        /*_subModule_4_1_Desc.text = defaultModuleDescriptionText;
-        _subModule_4_1_Color.hidden = YES;
-        _subModule_4_1_Price.hidden = YES;
-        
-        _subModule_4_2_Desc.text = @"";
-        _subModule_4_2_Color.hidden = YES;
-        _subModule_4_2_Price.hidden = YES;
-        
-        _subModule_4_3_Desc.text = @"";
-        _subModule_4_3_Color.hidden = YES;
-        _subModule_4_3_Price.hidden = YES;*/
+        [self printModuleInfo:_cabinet.module4 andSubmodules:_module4Submodules];
+        _module4Price.text = [NSString stringWithFormat:@"%.2f €",[_priceManager getCabinetPrice:_cabinet forModule:3]];
     }
 }
 
@@ -383,6 +349,117 @@ NSString* defaultModuleDescriptionText = @"Not available";
     _subModule_4_1_ExtraPrice.hidden = YES;
     _subModule_4_2_ExtraPrice.hidden = YES;
     _subModule_4_3_ExtraPrice.hidden = YES;
+}
+
+-(int)getNumberOfDoors:(NSString *)sizeCode
+{
+    NSArray *sizeComponents = [sizeCode componentsSeparatedByString:@","];
+    return [sizeComponents[0] intValue];
+}
+
+-(int)getNumberOfDrawers:(NSString *)sizeCode
+{
+    NSArray *sizeComponents = [sizeCode componentsSeparatedByString:@","];
+    return [sizeComponents[1] intValue];
+}
+
+-(void)initializeSubmodulesArrays
+{
+    _module1Submodules = [[NSArray alloc] init];
+    _module2Submodules = [[NSArray alloc] init];
+    _module3Submodules = [[NSArray alloc] init];
+    _module4Submodules = [[NSArray alloc] init];
+    
+    NSArray *subSubmodule1;
+    NSArray *subSubmodule2;
+    NSArray *subSubmodule3;
+    
+    
+    // Module 1
+    subSubmodule1 = @[_subModule_1_1_Desc, _subModule_1_1_Color, _subModule_1_1_Price, _subModule_1_1_ExtraPrice];
+    subSubmodule2 = @[_subModule_1_2_Desc, _subModule_1_2_Color, _subModule_1_2_Price, _subModule_1_2_ExtraPrice];
+    subSubmodule3 = @[_subModule_1_3_Desc, _subModule_1_3_Color, _subModule_1_3_Price, _subModule_1_3_ExtraPrice];
+    
+    _module1Submodules = @[subSubmodule1, subSubmodule2, subSubmodule3];
+    
+    // Module 2
+    subSubmodule1 = @[_subModule_2_1_Desc, _subModule_2_1_Color, _subModule_2_1_Price, _subModule_2_1_ExtraPrice];
+    subSubmodule2 = @[_subModule_2_2_Desc, _subModule_2_2_Color, _subModule_2_2_Price, _subModule_2_2_ExtraPrice];
+    subSubmodule3 = @[_subModule_2_3_Desc, _subModule_2_3_Color, _subModule_2_3_Price, _subModule_2_3_ExtraPrice];
+    
+    _module2Submodules = @[subSubmodule1, subSubmodule2, subSubmodule3];
+
+    // Module 3
+    subSubmodule1 = @[_subModule_3_1_Desc, _subModule_3_1_Color, _subModule_3_1_Price, _subModule_3_1_ExtraPrice];
+    subSubmodule2 = @[_subModule_3_2_Desc, _subModule_3_2_Color, _subModule_3_2_Price, _subModule_3_2_ExtraPrice];
+    subSubmodule3 = @[_subModule_3_3_Desc, _subModule_3_3_Color, _subModule_3_3_Price, _subModule_3_3_ExtraPrice];
+    
+    _module3Submodules = @[subSubmodule1, subSubmodule2, subSubmodule3];
+    
+    //Module 4
+    subSubmodule1 = @[_subModule_4_1_Desc, _subModule_4_1_Color, _subModule_4_1_Price, _subModule_4_1_ExtraPrice];
+    subSubmodule2 = @[_subModule_4_2_Desc, _subModule_4_2_Color, _subModule_4_2_Price, _subModule_4_2_ExtraPrice];
+    subSubmodule3 = @[_subModule_4_3_Desc, _subModule_4_3_Color, _subModule_4_3_Price, _subModule_4_3_ExtraPrice];
+    
+    _module4Submodules = @[subSubmodule1, subSubmodule2, subSubmodule3];
+}
+
+-(void)printModuleInfo:(IWCabinet *)cabinetModule andSubmodules:(NSArray *)moduleSubmodules
+{
+    int doorsCounter;
+    int drawersCounter;
+    
+    doorsCounter = [self getNumberOfDoors:cabinetModule.size.code];
+    drawersCounter = [self getNumberOfDrawers:cabinetModule.size.code];
+    
+    int submoduleIndex = 0;
+    for (int drawerIndex = 0; drawerIndex < drawersCounter; drawerIndex++) {
+        UILabel* mylabel;
+        NSArray* mySubmodules = moduleSubmodules[submoduleIndex];
+        
+        // Desc
+        mylabel = mySubmodules[0];
+        mylabel.hidden = NO;
+        mylabel.text = @"Drawer";
+        
+        // Color
+        mylabel = mySubmodules[1];
+        mylabel.hidden = NO;
+        
+        IWColor* myColor = cabinetModule.drawers[drawerIndex];
+        mylabel.text = myColor.name;
+        
+        // Price
+        mylabel = mySubmodules[2];
+        mylabel.hidden = NO;
+        mylabel.text = @"0";
+        
+        submoduleIndex++;
+    }
+    
+    for (int doorIndex = 0; doorIndex < doorsCounter; doorIndex++) {
+        UILabel* mylabel;
+        NSArray* mySubmodules = moduleSubmodules[submoduleIndex];
+        
+        // Desc
+        mylabel = mySubmodules[0];
+        mylabel.hidden = NO;
+        mylabel.text = @"Door";
+        
+        // Color
+        mylabel = mySubmodules[1];
+        mylabel.hidden = NO;
+        
+        IWColor* myColor = cabinetModule.colors[doorIndex];
+        mylabel.text = myColor.name;
+        
+        // Price
+        mylabel = mySubmodules[2];
+        mylabel.hidden = NO;
+        mylabel.text = @"0";
+        
+        submoduleIndex++;
+    }
 }
 
 @end

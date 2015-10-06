@@ -271,7 +271,6 @@ priceListEnum priceList;
 -(NSString*)priceKeyForCosy193:(IWCabinet*)cabinet
 {
     NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, cabinet.interiorColor.name, (int) cabinet.colors.count, (int)cabinet.colors.count*55] uppercaseString];
-    
    
     return priceKey;
 }
