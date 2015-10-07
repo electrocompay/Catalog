@@ -270,9 +270,31 @@ priceListEnum priceList;
 
 -(NSString*)priceKeyForCosy193:(IWCabinet*)cabinet
 {
-    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, cabinet.interiorColor.name, (int) cabinet.colors.count, (int)cabinet.colors.count*55] uppercaseString];
+    NSString* interiorColorName;
+    if ([self atLeastOneBlackModule:cabinet]) {
+        interiorColorName = @"Black / Old oak";
+    }
+    else {
+        interiorColorName = @"Transp. / Old oak";
+    }
+    
+    NSString* priceKey = [[NSString stringWithFormat:CABINET_PRICE_FORMAT_C193, interiorColorName, (int) cabinet.colors.count, (int)cabinet.colors.count*55] uppercaseString];
    
     return priceKey;
+}
+
+-(BOOL)atLeastOneBlackModule:(IWCabinet *)cabinet
+{
+    for (int interiorColorIndex = 0; interiorColorIndex < cabinet.interiorColors.count; interiorColorIndex++) {
+        IWColor *interiorColor = cabinet.interiorColors[interiorColorIndex];
+        if ([interiorColor.code isEqualToString:@"B34"] ||
+            [interiorColor.code isEqualToString:@"B35"] ||
+            [interiorColor.code isEqualToString:@"B39"]) {
+            return YES;
+        }
+    }
+    
+    return NO;
 }
 
 -(double)getCabinetPrice:(IWCabinet *)cabinet

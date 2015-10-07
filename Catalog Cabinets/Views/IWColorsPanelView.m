@@ -106,6 +106,9 @@
                 [_cabinet.interiorColors replaceObjectAtIndex:3 withObject:color];
                 interior4.color = color;
             }
+
+            // Refresh current value
+            _cabinet.interiorColor = color;
         } else {
             if (_cabinet.colors.count > 0 && (door1.selected || _cabinet.oneColorMode)) {
                 [_cabinet.colors replaceObjectAtIndex:0 withObject:color];

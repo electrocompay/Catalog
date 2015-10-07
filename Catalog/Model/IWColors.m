@@ -519,12 +519,12 @@ NSArray* _cabinetDrawerColors;
 {
     if (!_cabinetsInteriorColors) {
         _cabinetsInteriorColors = [[NSArray alloc] initWithObjects:
-                           [[IWColor colorWithName:@"Transp. / Old oak" andCode:@"B34" andFile:@"Transp + Old Oak.jpg"] withCategory:@"Xeramica"],
-                           [[IWColor colorWithName:@"Transp. / Smoke oak" andCode:@"B35" andFile:@"Transp + Smoke Oak.jpg"] withCategory:@"Xeramica"],
-                           [[IWColor colorWithName:@"Transp. / Light grey" andCode:@"B39" andFile:@"Transp + Light grey.jpg"] withCategory:@"Xeramica"],
-                           [[IWColor colorWithName:@"Black / Old oak" andCode:@"T34" andFile:@"Black + Old Oak.jpg"] withCategory:@"Xeramica"],
-                           [[IWColor colorWithName:@"Black / Smoke oak" andCode:@"T35" andFile:@"Black + Smoke Oak.jpg"] withCategory:@"Xeramica"],
-                           [[IWColor colorWithName:@"Black / Light grey" andCode:@"T39" andFile:@"Black + Light grey.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Transp. / Old oak" andCode:@"T34" andFile:@"Transp + Old Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Transp. / Smoke oak" andCode:@"T35" andFile:@"Transp + Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Transp. / Light grey" andCode:@"T39" andFile:@"Transp + Light grey.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Old oak" andCode:@"B34" andFile:@"Black + Old Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Smoke oak" andCode:@"B35" andFile:@"Black + Smoke Oak.jpg"] withCategory:@"Xeramica"],
+                           [[IWColor colorWithName:@"Black / Light grey" andCode:@"B39" andFile:@"Black + Light grey.jpg"] withCategory:@"Xeramica"],
                            nil];
     }
     

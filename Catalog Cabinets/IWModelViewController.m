@@ -613,7 +613,7 @@
             }
         }
     }
-
+    
     return modulesCounter;
 }
 
