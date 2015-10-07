@@ -294,7 +294,7 @@ priceListEnum priceList;
 }
 
 -(void)alertPriceNotFound:(NSString*)priceKey{
-    return;  //Comentar esta linea para debug
+//    return;  //Comentar esta linea para debug
     if (!priceKey) return;
     if ([priceKey containsString:@"NULL"]) return;
     
