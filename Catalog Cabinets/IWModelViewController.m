@@ -260,7 +260,6 @@
 
 -(void)didSelectColor:(IWSelectorViewController *)selectorViewController andColor:(IWColor *)color
 {
-    
     if (selectorViewController == selectorTopView)
     {
         [cabinet setTop:color];
@@ -326,8 +325,9 @@
         
         selectorSideView.items = ([cabinet.model.code isEqualToString:@"C193"] || [cabinet.model.code isEqualToString:@"C83"])? [[IWColors cabinetSideColors] withoutColor:@"34,35,70"] : [IWColors cabinetSideColors];
     } else {
-        [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
+        [selectorTopView setItems:[IWColors cabinetTopColors]];
         [selectorSideView setItems:[IWColors cabinetSideColors]];
+        [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
     }
     [self endUpdate];
     [self drawAll];
