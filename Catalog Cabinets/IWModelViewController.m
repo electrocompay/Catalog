@@ -324,7 +324,7 @@
     if ([cabinet.model.code isEqualToString:@"C83"] || [cabinet.model.code isEqualToString:@"J83"] || [cabinet.model.code isEqualToString:@"C193"] ) {
         selectorTopView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetTopColors] withoutColor:@"34,35,41,70"] : [IWColors cabinetTopColors];
         
-        selectorSideView.items = [cabinet.model.code isEqualToString:@"C193"] ? [[IWColors cabinetSideColors] withoutColor:@"34,35,70"] : [IWColors cabinetSideColors];
+        selectorSideView.items = ([cabinet.model.code isEqualToString:@"C193"] || [cabinet.model.code isEqualToString:@"C83"])? [[IWColors cabinetSideColors] withoutColor:@"34,35,70"] : [IWColors cabinetSideColors];
     } else {
         [selectorLegsColorView setItems:[IWColors cabinetLegColors]];
         [selectorSideView setItems:[IWColors cabinetSideColors]];
