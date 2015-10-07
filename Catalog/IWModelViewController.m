@@ -117,7 +117,6 @@
 
     [showSummaryButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
     showSummaryButton.enabled = [[IWPriceManager getInstance] authenticated];
-    
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -666,15 +665,18 @@
     
     [self updatePrices];
     
-    // Hide and disable Show Summary for chair if not a Dinning Table
-    chairPriceView.hidden = NO;
-    chairPriceButton.alpha = 1.0;
-    chairPriceButton.enabled = true;
-    if (table.tableType != kDinningTable) {
-        chairNameView.text = @"";
-        chairPriceView.hidden = YES;
-        chairPriceButton.alpha = 0.9;
-        chairPriceButton.enabled = false;
+    IWPriceManager *pricesManager = [IWPriceManager getInstance];
+    if (pricesManager.authenticated) {
+        // Hide and disable Show Summary for chair if not a Dinning Table
+        chairPriceView.hidden = NO;
+        chairPriceButton.alpha = 1.0;
+        chairPriceButton.enabled = true;
+        if (table.tableType != kDinningTable) {
+            chairNameView.text = @"";
+            chairPriceView.hidden = YES;
+            chairPriceButton.alpha = 0.9;
+            chairPriceButton.enabled = false;
+        }
     }
 }
 
